@@ -4,22 +4,8 @@
       "name": "Join YoSinTV Telegram Channel",
       "link": "https://t.me/yosintvlive"
     },
-{
-  "name": "Chelsea vs Leeds United",
-  "links": [
-    "https://yosintv2.github.io/ads/foot.html?url=https://hlsplayers.pages.dev/player3?url=https://lchd-314.zenostreams-cdn-001.com/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJmYS1jdXAiLCJleHAiOjE3NzcyMjE2MDF9.ZH6cEs0S9kewWcjZhAJSQb4it3vIiu9ZqoI_Hh8RcVs/fa-cup.m3u8",
-    "https://yosintv-api.pages.dev/api/ads",
-    "https://yosintv2.github.io/ads/foot.html?url=https://hlsplayers.pages.dev/player3?url=https://lchd-314.zenostreams-cdn-001.com/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJ0bnQtc3BvcnRzLTEiLCJleHAiOjE3NzcyMjE5MDR9.zM6_D8TvOIwryrzn7x2Rws8N4rafbpbB3hMDCQjjpr8/tnt-sports-1.m3u8",
-    "https://yosintv-api.pages.dev/api/ads",
-    "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/dsz?m=4527722",
-    "https://yosintv2.github.io/ads/foot.html?url=https://ytvlive.pages.dev/ak?m=434982",
-    "https://yosintv2.github.io/ads/foot.html?url=https://ytvlive.pages.dev/ak?m=327159",
-    "https://yosintv2.github.io/ads/foot.html?url=https://ytvlive.pages.dev/ak?m=118206",
-    "https://yosintv2.github.io/ads/foot.html?url=https://ytvlive.pages.dev/ak?m=344370",
-    "https://yosintv2.github.io/ads/foot.html?url=https://ytvlive.pages.dev/ak?m=147801",
-    "https://yosintv2.github.io/ads/foot.html?url=https://ytvlive.pages.dev/ak?m=291277"
-  ]
-}  ],
+    "______________________________"
+  ],
   "styles": {
     "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
     "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
