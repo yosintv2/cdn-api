@@ -1,4 +1,4 @@
-x{
+{
   "events": [
     {
       "name": "Join YoSinTV Telegram Channel",
@@ -9,32 +9,20 @@ x{
       "link": "https://yosintv2.github.io/ads/cric.html?url=https://ytvlive.pages.dev/manual?id=yonotv2026"
     },
     {
-      "name": "All - CSK vs LSG  (Hindi)",
+      "name": "All - CSK vs LSG (Hindi)",
       "link": "https://yosintv-api.pages.dev/api/ads"
     },
     {
-      "name": "Mob Only - CSK vs LSG  (Hindi)",
+      "name": "Mob Only - CSK vs LSG (Hindi)",
       "link": "https://yosintv2.github.io/ads/cric.html?url=https://streamfree.app/embed/cricket/willow"
     },
     {
-      "name": "All - CSK vs LSG  (Hindi)",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "All - CSK vs LSG  (English)",
+      "name": "All - CSK vs LSG (English)",
       "link": "https://yosintv2.github.io/ads/cric.html?url=https://streamfree.app/embed/cricket/cricketsky"
     },
     {
-      "name": "All- CSK vs LSG  (English)",
+      "name": "All- CSK vs LSG (English)",
       "link": "https://yosintv2.github.io/ads/cric.html?url=https://embedsports.top/embed/admin/admin-willow-cricket/1"
-    },
-    {
-      "name": "PC - CSK vs LSG ",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "PC - CSK vs LSG ",
-      "link": "https://yosintv2.github.io/ads/cric.html?url=https://pooembed.eu/embed/ipl/2026-05-10/csk-lsg"
     },
     {
       "name": "PC - CSK vs LSG ",
