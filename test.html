@@ -1,0 +1,737 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YoSinTV - Live Cricket &amp; Football | Match Schedule | Playing XI</title>
+  <meta name="description" content="Watch live cricket and football matches, check upcoming fixtures, team lineups, match previews &amp; playing XI. Real-time updates for all major leagues."/>
+  <meta name="keywords" content="live cricket, live football, match schedule, playing XI, match preview, T20 World Cup 2026"/>
+  <meta name="author" content="YoSinTV"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="theme-color" content="#0b1226"/>
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="YoSinTV - Live Cricket &amp; Football | Match Schedule | Playing XI"/>
+  <meta property="og:description" content="Watch live cricket and football matches with real-time updates."/>
+  <meta property="og:image" content="https://web.cricfoot.net/favico.png"/>
+  <meta property="og:site_name" content="YoSinTV"/>
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="YoSinTV - Live Cricket &amp; Football"/>
+  <meta name="twitter:image" content="https://web.cricfoot.net/favico.png"/>
+  <meta name="twitter:site" content="@YoSinTV"/>
+
+  <link rel="icon" href="https://web.cricfoot.net/favico.png" type="image/png"/>
+  <link rel="apple-touch-icon" href="https://web.cricfoot.net/favico.png"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root {
+      --bg: #eff4ff;
+      --bg-2: #e7eefc;
+      --surface: #ffffff;
+      --surface-soft: #f8fbff;
+      --ink: #101935;
+      --muted: #526080;
+      --line: #d6e1f5;
+      --brand: #165dff;
+      --brand-2: #0a3fc7;
+      --accent: #00b894;
+      --warn: #ff6b35;
+      --rad: 18px;
+      --rad-sm: 12px;
+      --shadow-sm: 0 8px 24px rgba(11, 29, 84, 0.08);
+      --shadow-lg: 0 18px 40px rgba(9, 25, 66, 0.16);
+      --fh: 'Barlow Condensed', sans-serif;
+      --fb: 'Manrope', sans-serif;
+    }
+
+    body.dk {
+      --bg: #0b1226;
+      --bg-2: #111b34;
+      --surface: #14203f;
+      --surface-soft: #192749;
+      --ink: #eaf0ff;
+      --muted: #9fb0d3;
+      --line: #27375f;
+      --brand: #4f86ff;
+      --brand-2: #80a7ff;
+      --accent: #2bd6b3;
+      --warn: #ff8d5f;
+      --shadow-sm: 0 10px 24px rgba(2, 8, 25, 0.45);
+      --shadow-lg: 0 20px 48px rgba(1, 6, 20, 0.6);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--fb);
+      color: var(--ink);
+      background:
+        radial-gradient(1100px 480px at 80% -20%, rgba(22, 93, 255, 0.22), transparent 70%),
+        radial-gradient(900px 400px at -10% 10%, rgba(0, 184, 148, 0.14), transparent 62%),
+        linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 35%, var(--bg) 100%);
+      line-height: 1.55;
+      padding-top: 76px;
+    }
+    img { max-width: 100%; height: auto; }
+
+    #yst-hdr {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+      background: color-mix(in srgb, var(--surface) 86%, transparent);
+      border-bottom: 1px solid color-mix(in srgb, var(--line) 80%, transparent);
+    }
+    .hdr-in {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.8rem;
+    }
+    .logo img { height: 62px; display: block; }
+    .hdr-r { display: flex; align-items: center; gap: 0.7rem; }
+    .si {
+      border: 1px solid var(--line);
+      background: var(--surface-soft);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 13px;
+      width: 176px;
+      outline: none;
+      transition: width .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .si:focus {
+      width: 230px;
+      border-color: var(--brand);
+      box-shadow: 0 0 0 4px color-mix(in srgb, var(--brand) 22%, transparent);
+    }
+    .tgl { position: relative; display: inline-block; width: 52px; height: 28px; cursor: pointer; }
+    .tgl input { display: none; }
+    .sldr {
+      position: absolute;
+      inset: 0;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--muted) 32%, #fff);
+      transition: .3s;
+    }
+    .sldr::before {
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 3px;
+      bottom: 3px;
+      border-radius: 50%;
+      background: #fff;
+      transition: .3s;
+      box-shadow: 0 3px 8px rgba(0,0,0,.22);
+    }
+    .tgl input:checked + .sldr {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+    }
+    .tgl input:checked + .sldr::before { transform: translateX(24px); }
+
+    .yst-nav {
+      position: sticky;
+      top: 76px;
+      z-index: 999;
+      border-bottom: 1px solid var(--line);
+      background: color-mix(in srgb, var(--surface) 90%, transparent);
+      backdrop-filter: blur(8px);
+    }
+    .nav-in {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      gap: 0.2rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .nav-in::-webkit-scrollbar { display: none; }
+    .nl {
+      text-decoration: none;
+      color: var(--muted);
+      font-family: var(--fh);
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      font-size: .82rem;
+      padding: 12px 12px;
+      border-bottom: 2px solid transparent;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      white-space: nowrap;
+    }
+    .nl:hover, .nl.active {
+      color: var(--ink);
+      border-bottom-color: var(--brand);
+    }
+
+    .hero {
+      max-width: 1140px;
+      margin: 16px auto 14px;
+      padding: 0 1rem;
+    }
+    .hero-box {
+      position: relative;
+      overflow: hidden;
+      border-radius: calc(var(--rad) + 2px);
+      background: linear-gradient(125deg, #0f3cb9 0%, #165dff 45%, #0f8f83 100%);
+      color: #fff;
+      padding: 20px 18px;
+      box-shadow: var(--shadow-lg);
+      isolation: isolate;
+    }
+    .hero-box::before {
+      content: '';
+      position: absolute;
+      width: 380px;
+      height: 380px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,.22) 0%, rgba(255,255,255,0) 70%);
+      top: -220px;
+      right: -120px;
+      z-index: -1;
+    }
+    .hero h1 {
+      font-family: var(--fh);
+      font-size: 1.72rem;
+      letter-spacing: .03em;
+      text-transform: uppercase;
+      line-height: 1.05;
+    }
+    .hero p {
+      margin-top: 8px;
+      max-width: 760px;
+      font-size: 0.95rem;
+      opacity: .96;
+    }
+    .hero-badges {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .hb {
+      font-size: 12px;
+      font-weight: 800;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.25);
+    }
+
+    .ad-wrap {
+      max-width: 1140px;
+      margin: 0 auto 14px;
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    .yst-wrap {
+      max-width: 1140px;
+      margin: 0 auto 56px;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 22px;
+      align-items: start;
+    }
+    @media (max-width: 980px) {
+      .yst-wrap { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: color-mix(in srgb, var(--surface) 92%, transparent);
+      border: 1px solid var(--line);
+      border-radius: var(--rad);
+      box-shadow: var(--shadow-sm);
+      padding: 16px;
+    }
+
+    .sh {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .sh-t {
+      font-family: var(--fh);
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .sh-l {
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(90deg, var(--brand) 0%, transparent 100%);
+    }
+    .sh-b {
+      background: color-mix(in srgb, var(--accent) 82%, #fff);
+      color: #fff;
+      font-family: var(--fh);
+      font-size: .7rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      padding: 3px 10px;
+    }
+
+    .evg {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .ev {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--ink);
+      border-radius: var(--rad-sm);
+      border: 1px solid var(--line);
+      padding: 10px;
+      background: linear-gradient(160deg, var(--surface) 0%, var(--surface-soft) 100%);
+      transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+    }
+    .ev:hover {
+      transform: translateY(-2px);
+      border-color: color-mix(in srgb, var(--brand) 58%, var(--line));
+      box-shadow: var(--shadow-sm);
+    }
+    .ev img {
+      width: 44px;
+      height: 44px;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      flex-shrink: 0;
+    }
+    .ev-t {
+      font-size: .9rem;
+      font-weight: 800;
+      line-height: 1.25;
+      letter-spacing: .01em;
+    }
+    .ev-loading {
+      color: var(--muted);
+      font-size: .88rem;
+      padding: 6px 2px;
+      grid-column: 1 / -1;
+      text-align: center;
+    }
+
+    .wgt {
+      background: color-mix(in srgb, var(--surface) 92%, transparent);
+      border: 1px solid var(--line);
+      border-radius: var(--rad);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      margin-bottom: 14px;
+    }
+    .wgt-h {
+      font-family: var(--fh);
+      font-size: .96rem;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 12px 14px;
+      background: linear-gradient(140deg, var(--brand-2), var(--brand));
+    }
+    .wgt-b { padding: 12px 14px; }
+
+    .ft-ul { list-style: none; }
+    .ft-ul li + li { margin-top: 8px; }
+    .ft-ul a {
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 700;
+      font-size: .88rem;
+      opacity: .9;
+      transition: color .2s ease, transform .2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .ft-ul a:hover {
+      color: var(--brand);
+      transform: translateX(2px);
+    }
+
+    .dmca {
+      margin-top: 8px;
+      padding: 18px;
+      border-radius: var(--rad);
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--surface) 95%, transparent);
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+    }
+    .dmca-h {
+      font-family: var(--fh);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .dmca p {
+      color: var(--muted);
+      font-size: .86rem;
+      line-height: 1.7;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .yst-ft {
+      margin-top: 30px;
+      padding: 36px 1rem 18px;
+      background: linear-gradient(180deg, #0a1226 0%, #0a1020 100%);
+      color: rgba(255,255,255,.78);
+    }
+    .ft-in { max-width: 1140px; margin: 0 auto; }
+    .ft-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+    .ft-ht {
+      font-family: var(--fh);
+      font-size: .9rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .yst-ft .ft-ul a { color: rgba(255,255,255,.72); font-weight: 600; }
+    .yst-ft .ft-ul a:hover { color: #9fd1ff; }
+    .socrow { display: flex; gap: 9px; margin-top: 12px; }
+    .socbtn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background: rgba(255,255,255,.14);
+      transition: transform .2s ease, background .2s ease;
+    }
+    .socbtn:hover { transform: translateY(-2px); background: rgba(124, 173, 255, 0.5); }
+    .ft-bot {
+      border-top: 1px solid rgba(255,255,255,.12);
+      padding-top: 16px;
+      text-align: center;
+      font-size: .8rem;
+      color: rgba(255,255,255,.5);
+    }
+    .ft-bot a { color: rgba(255,255,255,.72); text-decoration: none; }
+    .ft-bot a:hover { color: #b6d6ff; }
+
+    #btt {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border: none;
+      border-radius: 50%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      cursor: pointer;
+      box-shadow: var(--shadow-lg);
+      background: linear-gradient(140deg, var(--brand), var(--brand-2));
+      z-index: 500;
+      font-size: 1rem;
+    }
+    #btt.on { display: inline-flex; }
+
+    @media (max-width: 760px) {
+      body { padding-top: 72px; }
+      .hdr-in { height: 72px; }
+      .logo img { height: 56px; }
+      .si { width: 136px; padding: 9px 12px; }
+      .si:focus { width: 170px; }
+      .yst-nav { top: 72px; }
+      .hero h1 { font-size: 1.42rem; }
+      .hero p { font-size: .9rem; }
+      .panel { padding: 12px; }
+      .evg { grid-template-columns: 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+<header id="yst-hdr">
+  <div class="hdr-in">
+    <a class="logo" href="/"><img alt="YoSinTV" src="https://web.cricfoot.net/logo.png"></a>
+    <div class="hdr-r">
+      <input class="si" id="yst-s" placeholder="Quick search in recent posts" type="text"/>
+      <label class="tgl" title="Dark Mode"><input id="yst-dm" type="checkbox"/><span class="sldr"></span></label>
+    </div>
+  </div>
+</header>
+
+<nav class="yst-nav">
+  <div class="nav-in">
+    <a class="nl active" href="#" data-filter="all">Home</a>
+    <a class="nl" href="#" data-filter="Cricket">Cricket</a>
+    <a class="nl" href="#" data-filter="Football">Football</a>
+    <a class="nl" href="#" data-filter="Playing XI">Playing XI</a>
+    <a class="nl" href="#" data-filter="Match Preview">Preview</a>
+    <a class="nl" href="#" data-filter="T20 World Cup">T20 WC 2026</a>
+    <a class="nl" href="https://www.cricfoot.net/?ads=yosintv.net" rel="noopener" target="_blank">Highlights</a>
+    <a class="nl" href="https://t.me/yosintvlive" rel="noopener" target="_blank">Telegram</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-box">
+    <h1>Live Cricket and Football in One Place</h1>
+    <p>Follow ongoing and upcoming matches with quick access to streams, previews, and team updates. Fast, clear, and mobile friendly.</p>
+    <div class="hero-badges">
+      <span class="hb">Real-Time Updates</span>
+      <span class="hb">Playing XI Insights</span>
+      <span class="hb">Major Leagues Coverage</span>
+    </div>
+  </div>
+</section>
+
+<div class="ad-wrap">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-5525538810839147"
+       data-ad-slot="4345862479"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<div class="yst-wrap">
+  <main>
+    <section class="panel">
+      <div class="sh">
+        <h2 class="sh-t">All Cricket Events</h2>
+        <div class="sh-l"></div>
+        <span class="sh-b">Live</span>
+      </div>
+      <div class="evg" id="yst-cr-ev"><p class="ev-loading">Loading cricket events...</p></div>
+    </section>
+
+    <div class="ad-wrap" style="padding: 0; margin: 12px 0 14px;">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-5525538810839147"
+           data-ad-slot="4345862479"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <section class="panel">
+      <div class="sh">
+        <h2 class="sh-t">All Football Events</h2>
+        <div class="sh-l"></div>
+        <span class="sh-b">Live</span>
+      </div>
+      <div class="evg" id="yst-ft-ev"><p class="ev-loading">Loading football events...</p></div>
+    </section>
+
+    <div class="dmca">
+      <div class="dmca-h">YoSinTV - DMCA Notice</div>
+      <p>YoSinTV does not host media content on its own servers. Any linked streams or media are hosted externally by third-party providers.</p>
+    </div>
+  </main>
+
+  <aside>
+    <div class="wgt">
+      <div class="wgt-h">Cricket</div>
+      <div class="wgt-b">
+        <ul class="ft-ul">
+          <li><a href="#">All Cricket</a></li>
+          <li><a href="#">T20 World Cup 2026</a></li>
+          <li><a href="#">IPL</a></li>
+          <li><a href="#">Playing XI</a></li>
+          <li><a href="https://yosintv.getemoji.online/cricket.html" rel="noopener" target="_blank">Live Cricket</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wgt">
+      <div class="wgt-h">Football</div>
+      <div class="wgt-b">
+        <ul class="ft-ul">
+          <li><a href="#">All Football</a></li>
+          <li><a href="#">Match Previews</a></li>
+          <li><a href="#">Premier League</a></li>
+          <li><a href="#">Champions League</a></li>
+          <li><a href="#">La Liga</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wgt" style="margin-bottom:0;">
+      <div class="wgt-h">Pages</div>
+      <div class="wgt-b">
+        <ul class="ft-ul">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">DMCA</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<div class="ad-wrap" style="margin-bottom: 18px;">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-5525538810839147"
+       data-ad-slot="4345862479"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<footer class="yst-ft">
+  <div class="ft-in">
+    <div class="ft-grid">
+      <div>
+        <img alt="YoSinTV" src="https://web.cricfoot.net/logo.png" style="height:42px;margin-bottom:11px;filter:brightness(0) invert(1);" onerror="this.style.display='none'"/>
+        <p style="font-size:.84rem;line-height:1.65;max-width:240px;">Your source for live cricket and football schedules, playing XI, previews, and fast updates.</p>
+        <div class="socrow">
+          <a class="socbtn" href="https://t.me/yosintvlive" rel="noopener" target="_blank" title="Telegram">T</a>
+          <a class="socbtn" href="https://www.cricfoot.net/?ads=yosintv.net" rel="noopener" target="_blank" title="Highlights">H</a>
+        </div>
+      </div>
+      <div>
+        <div class="ft-ht">Cricket</div>
+        <ul class="ft-ul">
+          <li><a href="#">All Cricket</a></li>
+          <li><a href="#">T20 World Cup 2026</a></li>
+          <li><a href="#">IPL</a></li>
+          <li><a href="#">Playing XI</a></li>
+          <li><a href="https://yosintv.getemoji.online/cricket.html" rel="noopener" target="_blank">Live Cricket</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="ft-ht">Football</div>
+        <ul class="ft-ul">
+          <li><a href="#">All Football</a></li>
+          <li><a href="#">Match Previews</a></li>
+          <li><a href="#">Premier League</a></li>
+          <li><a href="#">Champions League</a></li>
+          <li><a href="#">La Liga</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="ft-ht">Pages</div>
+        <ul class="ft-ul">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">DMCA</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <p>&copy; <span id="yr">2025</span> <a href="/">YoSinTV</a>. All rights reserved. &nbsp;&middot;&nbsp;
+        <a href="#">Privacy</a> &nbsp;&middot;&nbsp;
+        <a href="#">Disclaimer</a> &nbsp;&middot;&nbsp;
+        <a href="#">DMCA</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">▲</button>
+
+<script>
+'use strict';
+var DATA_JSON_URL = 'data.json';
+
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+var dm = document.getElementById('yst-dm');
+function applyDk(on) { document.body.classList.toggle('dk', on); }
+var sdm = localStorage.getItem('ystDm');
+if (sdm === 'true') { applyDk(true); dm.checked = true; }
+dm.addEventListener('change', function () { applyDk(this.checked); localStorage.setItem('ystDm', this.checked); });
+
+var btt = document.getElementById('btt');
+window.addEventListener('scroll', function () { btt.classList.toggle('on', window.scrollY > 300); });
+
+function fetchJSON(url, cb, errCb) {
+  var proxies = [url, 'https://corsproxy.io/?' + encodeURIComponent(url), 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url)];
+  var i = 0;
+  function next() {
+    if (i >= proxies.length) { if (errCb) errCb(); return; }
+    fetch(proxies[i++], { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(cb)
+      .catch(next);
+  }
+  next();
+}
+
+function loadEv(url, cid) {
+  var cont = document.getElementById(cid);
+  if (!cont) return;
+  fetchJSON(url, function (data) {
+    cont.innerHTML = '';
+    var items = data.matches || [];
+    if (!items.length) {
+      cont.innerHTML = '<p class="ev-loading">No events found.</p>';
+      return;
+    }
+    items.forEach(function (ev) {
+      var a = document.createElement('a');
+      a.href = ev.link || '#';
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.className = 'ev';
+      a.innerHTML = '<img src="' + (ev.image || '').trim() + '" alt="' + (ev.name || '') + '" loading="lazy"/><span class="ev-t">' + (ev.name || '') + '</span>';
+      cont.appendChild(a);
+    });
+  }, function () {
+    cont.innerHTML = '<p class="ev-loading">Could not load events.</p>';
+  });
+}
+
+loadEv('https://yosintv2.github.io/yosintv.link/events-cricket.js', 'yst-cr-ev');
+loadEv('https://yosintv2.github.io/yosintv.link/events-football.js', 'yst-ft-ev');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5525538810839147" crossorigin="anonymous"></script>
+</body>
+</html>
