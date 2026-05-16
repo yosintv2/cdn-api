@@ -78,6 +78,27 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
+        .neo-wrap { background: linear-gradient(145deg,#f8fbff,#eef5ff); border:1px solid #dbeafe; border-radius:16px; padding:16px; }
+        .neo-title { font-weight: 900; font-size: 1.2rem; color:#0f172a; letter-spacing:-0.02em; }
+        .kv-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:10px; }
+        .kv { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:10px; }
+        .kv b { display:block; font-size:11px; color:#475569; text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px; }
+        .kv span { font-size:14px; color:#0f172a; font-weight:700; }
+        .pill-row { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+        .pill { padding:6px 10px; border-radius:999px; font-size:12px; font-weight:700; border:1px solid #dbeafe; background:#f8fbff; color:#1e3a8a; }
+        .team-col { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
+        .team-col h5 { font-weight:800; color:#111827; margin-bottom:8px; }
+        .mini-list { font-size:13px; color:#334155; line-height:1.55; }
+        .mini-list li { margin-bottom:3px; }
+        .form-chip { display:inline-flex; align-items:center; justify-content:center; width:24px; height:24px; border-radius:999px; font-size:12px; font-weight:800; color:#fff; }
+        .form-W { background:#10b981; }
+        .form-L { background:#ef4444; }
+        .form-D { background:#6b7280; }
+        .faq-card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
+        .faq-card h4 { font-weight:800; color:#111827; margin-bottom:6px; }
+        @media (max-width: 768px) {
+            .kv-grid { grid-template-columns:1fr; }
+        }
     </style>
 </head>
 
@@ -243,7 +264,7 @@
 
                     const mainApis = [
                         'https://yosintv-api.pages.dev/api/cricket.json',
-                        'https://yosintv-api.pages.dev/api/football.json'
+                        'https://yosintv-api.pages.dev/api/footballl.json'
                     ];
 
                     const urlParams = new URLSearchParams(window.location.search);
@@ -283,7 +304,7 @@
                         return;
                     }
 
-                    const { team1, team2, start, duration, details_url, lineup_image_url } = match;
+                    const { team1, team2, start, duration, details_url, lineup_image_url, league } = match;
                     const matchName = `${team1.trim()} vs ${team2.trim()}`;
                     const startTimeFull = formatTime(start, 'full');
 
@@ -501,32 +522,63 @@
                     const awayForm = (pre?.awayTeam?.form || []).join(' ') || 'N/A';
                     const totalH2H = (duel.homeWins || 0) + (duel.draws || 0) + (duel.awayWins || 0);
 
+                    const formatForm = (arr) => (arr || []).map(r => `<span class="form-chip form-${r}">${r}</span>`).join(' ');
+                    const homePlayers = (lu.home_players || []).slice(0, 20);
+                    const awayPlayers = (lu.away_players || []).slice(0, 20);
+                    const homeMiss = (lu.home_missing_players || []);
+                    const awayMiss = (lu.away_missing_players || []);
                     const detailsHTML = `
-          <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
-            <h4 class="text-lg font-bold text-blue-900 mb-2">Football Match Data (SofaScore)</h4>
-            <p><b>League:</b> ${evInfo.league || league || 'N/A'}</p>
-            <p><b>Round:</b> ${evInfo.round || 'N/A'}</p>
-            <p><b>Kick-off:</b> ${evInfo.kick_off_time_utc || startTimeFull}</p>
-            <p><b>Venue:</b> ${evInfo.venue || 'N/A'}</p>
-            <p><b>Stadium Capacity:</b> ${evInfo.stadium_capacity || 'N/A'}</p>
-            <p><b>Referee:</b> ${evInfo.referee || 'N/A'}</p>
+          <div class="neo-wrap">
+            <div class="neo-title">Match Intelligence Panel</div>
+            <div class="kv-grid">
+              <div class="kv"><b>League</b><span>${evInfo.league || league || 'N/A'}</span></div>
+              <div class="kv"><b>Round</b><span>${evInfo.round || 'N/A'}</span></div>
+              <div class="kv"><b>Kick-off (UTC)</b><span>${evInfo.kick_off_time_utc || startTimeFull}</span></div>
+              <div class="kv"><b>Venue</b><span>${evInfo.venue || 'N/A'}</span></div>
+              <div class="kv"><b>Capacity</b><span>${evInfo.stadium_capacity || 'N/A'}</span></div>
+              <div class="kv"><b>Referee</b><span>${evInfo.referee || 'N/A'}</span></div>
+              <div class="kv"><b>Home Manager</b><span>${evInfo.home_manager || 'N/A'}</span></div>
+              <div class="kv"><b>Away Manager</b><span>${evInfo.away_manager || 'N/A'}</span></div>
+            </div>
           </div>
-          <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
-            <h4 class="text-lg font-bold text-gray-900 mb-2">H2H Record</h4>
-            <p><b>Total:</b> ${totalH2H}</p>
-            <p><b>${team1} Wins:</b> ${duel.homeWins ?? 'N/A'} | <b>Draws:</b> ${duel.draws ?? 'N/A'} | <b>${team2} Wins:</b> ${duel.awayWins ?? 'N/A'}</p>
+          <div class="neo-wrap">
+            <div class="neo-title">Head-to-Head Snapshot</div>
+            <div class="pill-row">
+              <span class="pill">${team1} Wins: ${duel.homeWins ?? 'N/A'}</span>
+              <span class="pill">Draws: ${duel.draws ?? 'N/A'}</span>
+              <span class="pill">${team2} Wins: ${duel.awayWins ?? 'N/A'}</span>
+              <span class="pill">Total Meetings: ${totalH2H}</span>
+            </div>
           </div>
-          <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
-            <h4 class="text-lg font-bold text-gray-900 mb-2">Lineups</h4>
-            <p><b>${team1} Formation:</b> ${lu.home_formation || 'N/A'}</p>
-            <p><b>${team2} Formation:</b> ${lu.away_formation || 'N/A'}</p>
-            <p><b>${team1} Players:</b> ${(lu.home_players || []).slice(0, 11).join(', ') || 'N/A'}</p>
-            <p><b>${team2} Players:</b> ${(lu.away_players || []).slice(0, 11).join(', ') || 'N/A'}</p>
+          <div class="neo-wrap">
+            <div class="neo-title">Lineups & Formations</div>
+            <div class="kv-grid">
+              <div class="team-col">
+                <h5>${team1} (${lu.home_formation || 'N/A'})</h5>
+                <ul class="mini-list">${homePlayers.length ? homePlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
+                <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${homeMiss.length ? homeMiss.join(', ') : 'None reported'}</p>
+              </div>
+              <div class="team-col">
+                <h5>${team2} (${lu.away_formation || 'N/A'})</h5>
+                <ul class="mini-list">${awayPlayers.length ? awayPlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
+                <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${awayMiss.length ? awayMiss.join(', ') : 'None reported'}</p>
+              </div>
+            </div>
           </div>
-          <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
-            <h4 class="text-lg font-bold text-gray-900 mb-2">Pregame Form</h4>
-            <p><b>${team1} (Last 5):</b> ${homeForm}</p>
-            <p><b>${team2} (Last 5):</b> ${awayForm}</p>
+          <div class="neo-wrap">
+            <div class="neo-title">Pregame Form</div>
+            <div class="kv-grid">
+              <div class="kv">
+                <b>${team1}</b>
+                <span>Rating ${pre?.homeTeam?.avgRating || 'N/A'} | Pos #${pre?.homeTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.homeTeam?.value || 'N/A'}</span>
+                <div class="pill-row">${formatForm(pre?.homeTeam?.form)}</div>
+              </div>
+              <div class="kv">
+                <b>${team2}</b>
+                <span>Rating ${pre?.awayTeam?.avgRating || 'N/A'} | Pos #${pre?.awayTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.awayTeam?.value || 'N/A'}</span>
+                <div class="pill-row">${formatForm(pre?.awayTeam?.form)}</div>
+              </div>
+            </div>
           </div>
         `;
 
@@ -535,35 +587,56 @@
             <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">${matchName} - Match Details</h3>
             ${detailsHTML}
             <h3 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 text-gray-900">Frequently Asked Questions</h3>
-            <div class="space-y-4">
-              <div class="bg-gray-50 p-4 rounded-lg">
+            <div class="space-y-3">
+              <div class="faq-card">
                 <h4 class="text-lg font-semibold text-gray-900 break-words">1. Which teams are playing this match?</h4>
                 <p class="text-gray-600 break-words">${team1.trim()} will face off against ${team2.trim()} in this exciting match.</p>
               </div>
-              <div class="bg-gray-50 p-4 rounded-lg">
+              <div class="faq-card">
                 <h4 class="text-lg font-semibold text-gray-900 break-words">2. When does the match start?</h4>
                 <p class="text-gray-600 break-words">Kick-off is ${evInfo.kick_off_time_utc || startTimeFull}.</p>
               </div>
-              <div class="bg-gray-50 p-4 rounded-lg">
+              <div class="faq-card">
                 <h4 class="text-lg font-semibold text-gray-900 break-words">3. How long will the match run?</h4>
                 <p class="text-gray-600 break-words">The match is expected to last about ${duration} hours, including stoppage time.</p>
               </div>
-              <div class="bg-gray-50 p-4 rounded-lg">
+              <div class="faq-card">
                 <h4 class="text-lg font-semibold text-gray-900 break-words">4. Where can I watch this match live?</h4>
                 <p class="text-gray-600 break-words">Stream the live match of ${matchName} via <a href="https://www.yosin-tv.net/" target="_blank" class="text-blue-600 hover:underline">YoSinTV Free Live Stream</a>.</p>
               </div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">5. What league is this fixture in?</h4><p class="text-gray-600 break-words">${evInfo.league || league || 'N/A'}.</p></div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">6. Which round is this match?</h4><p class="text-gray-600 break-words">Round ${evInfo.round || 'N/A'}.</p></div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">7. Where is this match being played?</h4><p class="text-gray-600 break-words">${evInfo.venue || 'Venue not announced yet'}.</p></div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">8. Who is the referee?</h4><p class="text-gray-600 break-words">${evInfo.referee || 'Referee details not available yet'}.</p></div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">9. What is the head-to-head record?</h4><p class="text-gray-600 break-words">${team1} wins: ${duel.homeWins ?? 'N/A'}, draws: ${duel.draws ?? 'N/A'}, ${team2} wins: ${duel.awayWins ?? 'N/A'}.</p></div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">10. What are the expected formations?</h4><p class="text-gray-600 break-words">${team1}: ${lu.home_formation || 'N/A'} | ${team2}: ${lu.away_formation || 'N/A'}.</p></div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">11. What are the latest pregame form trends?</h4><p class="text-gray-600 break-words">${team1}: ${homeForm} | ${team2}: ${awayForm}.</p></div>
-              <div class="bg-gray-50 p-4 rounded-lg"><h4 class="text-lg font-semibold text-gray-900 break-words">12. Are lineups confirmed?</h4><p class="text-gray-600 break-words">Predicted lineups are available early, and confirmed lineups usually appear closer to kick-off.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">5. What league is this fixture in?</h4><p class="text-gray-600 break-words">${evInfo.league || league || 'N/A'}.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">6. Which round is this match?</h4><p class="text-gray-600 break-words">Round ${evInfo.round || 'N/A'}.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">7. Where is this match being played?</h4><p class="text-gray-600 break-words">${evInfo.venue || 'Venue not announced yet'}.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">8. Who is the referee?</h4><p class="text-gray-600 break-words">${evInfo.referee || 'Referee details not available yet'}.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">9. What is the head-to-head record?</h4><p class="text-gray-600 break-words">${team1} wins: ${duel.homeWins ?? 'N/A'}, draws: ${duel.draws ?? 'N/A'}, ${team2} wins: ${duel.awayWins ?? 'N/A'}.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">10. What are the expected formations?</h4><p class="text-gray-600 break-words">${team1}: ${lu.home_formation || 'N/A'} | ${team2}: ${lu.away_formation || 'N/A'}.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">11. What are the latest pregame form trends?</h4><p class="text-gray-600 break-words">${team1}: ${homeForm} | ${team2}: ${awayForm}.</p></div>
+              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">12. Are lineups confirmed?</h4><p class="text-gray-600 break-words">Predicted lineups are available early, and confirmed lineups usually appear closer to kick-off.</p></div>
             </div>
           </div>
         `;
                     document.getElementById('match-info').innerHTML = faqHTML;
+
+                    // Optional "More Matches" support (if section exists in this template)
+                    const more = document.getElementById('more-matches');
+                    if (more) {
+                        more.innerHTML = '';
+                        for (const api of mainApis) {
+                            try {
+                                const r = await fetch(api);
+                                if (!r.ok) continue;
+                                const j = await r.json();
+                                (j.matches || []).slice(0, 5).forEach(m => {
+                                    if (normalize(m.team1) === normalize(team1)) return;
+                                    const card = document.createElement('a');
+                                    card.href = m.details_url || `?yosintv=${normalize(m.team1 + m.team2)}`;
+                                    card.className = 'bg-gray-50 p-4 rounded-lg flex justify-between items-center hover:bg-gray-100 block';
+                                    card.innerHTML = `<span>${m.team1} vs ${m.team2}</span><span class="text-sm text-gray-500">${new Date(m.start).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>`;
+                                    more.appendChild(card);
+                                });
+                            } catch (e) {}
+                        }
+                    }
                 });
             }, 0);
         });
@@ -571,4 +644,3 @@
 </body>
 
 </html>
- 
