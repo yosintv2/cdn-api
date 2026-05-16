@@ -96,6 +96,14 @@
         .form-D { background:#6b7280; }
         .faq-card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
         .faq-card h4 { font-weight:800; color:#111827; margin-bottom:6px; }
+        .hero-board { background: radial-gradient(circle at top right,#dbeafe 0,#eff6ff 35%,#ffffff 100%); border:1px solid #dbeafe; border-radius:18px; padding:16px; }
+        .vs-grid { display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:10px; }
+        .team-side { display:flex; flex-direction:column; align-items:center; text-align:center; }
+        .team-logo { width:64px; height:64px; object-fit:contain; border-radius:14px; background:#fff; border:1px solid #e2e8f0; padding:8px; box-shadow:0 6px 18px rgba(15,23,42,.08); }
+        .team-name { margin-top:8px; font-weight:800; color:#0f172a; font-size:14px; line-height:1.2; }
+        .vs-badge { font-weight:900; color:#dc2626; font-size:30px; letter-spacing:-0.02em; }
+        .hero-meta { margin-top:12px; display:flex; flex-wrap:wrap; justify-content:center; gap:8px; }
+        .hero-chip { border:1px solid #bfdbfe; background:#f8fbff; color:#1e3a8a; border-radius:999px; padding:6px 10px; font-size:12px; font-weight:700; }
         .progress-shell { background:#e2e8f0; border-radius:999px; height:26px; overflow:hidden; position:relative; }
         .progress-fill { height:100%; width:0%; border-radius:999px; background:linear-gradient(90deg,#ef4444,#f97316,#ef4444); background-size:200% 100%; animation:flow 2s linear infinite; transition:width .8s ease; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:12px; }
         .timer-text { font-weight:800; color:#334155; text-align:center; margin-bottom:8px; animation:pulseTxt 1.6s ease-in-out infinite; }
@@ -108,6 +116,8 @@
         @media (max-width: 768px) {
             .kv-grid { grid-template-columns:1fr; }
             .mobile-switch { display:flex; }
+            .team-logo { width:52px; height:52px; }
+            .vs-badge { font-size:24px; }
         }
     </style>
 </head>
@@ -137,6 +147,23 @@
     <main class="container mx-auto max-w-4xl px-4 py-8">
         <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
             <div class="space-y-4" id="cricket-matches">
+                <div class="hero-board">
+                    <div class="vs-grid">
+                        <div class="team-side">
+                            <img id="hero-team1-logo" class="team-logo" alt="Team 1">
+                            <div id="hero-team1-name" class="team-name"></div>
+                        </div>
+                        <div class="vs-badge">VS</div>
+                        <div class="team-side">
+                            <img id="hero-team2-logo" class="team-logo" alt="Team 2">
+                            <div id="hero-team2-name" class="team-name"></div>
+                        </div>
+                    </div>
+                    <div class="hero-meta">
+                        <span id="hero-league" class="hero-chip">League</span>
+                        <span id="hero-time" class="hero-chip">Kick-off</span>
+                    </div>
+                </div>
                 <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900" id="match-name"></h3>
 
                 <!-- Stadium & Referee (Populated Dynamically) -->
@@ -318,6 +345,12 @@
                     document.getElementById('match-name').textContent = `${matchName}`;
                     document.getElementById('home-team-name').textContent = team1;
                     document.getElementById('away-team-name').textContent = team2;
+                    document.getElementById('hero-team1-name').textContent = team1;
+                    document.getElementById('hero-team2-name').textContent = team2;
+                    document.getElementById('hero-team1-logo').src = match.team1_logo || `https://placehold.co/120x120/3b82f6/ffffff?text=${team1.trim().substring(0,3).toUpperCase()}`;
+                    document.getElementById('hero-team2-logo').src = match.team2_logo || `https://placehold.co/120x120/dc2626/ffffff?text=${team2.trim().substring(0,3).toUpperCase()}`;
+                    document.getElementById('hero-league').textContent = league || 'Football';
+                    document.getElementById('hero-time').textContent = `Kick-off: ${startTimeFull}`;
 
                     // Lineup Image
                     const lineupImageContainer = document.getElementById('lineup-image-container');
