@@ -96,8 +96,18 @@
         .form-D { background:#6b7280; }
         .faq-card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
         .faq-card h4 { font-weight:800; color:#111827; margin-bottom:6px; }
+        .progress-shell { background:#e2e8f0; border-radius:999px; height:26px; overflow:hidden; position:relative; }
+        .progress-fill { height:100%; width:0%; border-radius:999px; background:linear-gradient(90deg,#ef4444,#f97316,#ef4444); background-size:200% 100%; animation:flow 2s linear infinite; transition:width .8s ease; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:12px; }
+        .timer-text { font-weight:800; color:#334155; text-align:center; margin-bottom:8px; animation:pulseTxt 1.6s ease-in-out infinite; }
+        .mobile-switch { display:none; gap:8px; margin:10px 0; }
+        .switch-btn { border:1px solid #cbd5e1; background:#fff; padding:7px 10px; border-radius:10px; font-size:12px; font-weight:700; color:#0f172a; }
+        .switch-btn.active { background:#0f172a; color:#fff; border-color:#0f172a; }
+        .switch-panel.hidden { display:none; }
+        @keyframes flow { from { background-position:0% 0; } to { background-position:200% 0; } }
+        @keyframes pulseTxt { 0%,100% { opacity:1; } 50% { opacity:.65; } }
         @media (max-width: 768px) {
             .kv-grid { grid-template-columns:1fr; }
+            .mobile-switch { display:flex; }
         }
     </style>
 </head>
@@ -127,22 +137,13 @@
     <main class="container mx-auto max-w-4xl px-4 py-8">
         <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
             <div class="space-y-4" id="cricket-matches">
-                <!-- Match Name -->
                 <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900" id="match-name"></h3>
-
-                <!-- Match Date/Time -->
-                <p class="text-sm sm:text-base font-semibold text-blue-600 mb-2" id="match-date-time"></p>
 
                 <!-- Stadium & Referee (Populated Dynamically) -->
                 <div id="info-bar" class="flex flex-wrap gap-4 text-sm text-gray-600 hidden mb-4">
                     <div id="stadium-info" class="hidden">🏟️ <span id="stadium-val"></span></div>
                     <div id="referee-info" class="hidden">👮‍♂️ <span id="referee-val"></span></div>
                 </div>
-
-                <p>● Watch the live of this match in HD Quality, Scroll down to check out every link for Smooth Live
-                    Stream of this match.</p>
-                <p>● Predicted lineups are available for the match a few days in advance while the actual lineup will be
-                    available about an hour ahead of the match.</p>
 
                 <!-- Lineup Image Placeholder -->
                 <div id="lineup-image-container" class="my-4"></div>
@@ -185,8 +186,6 @@
                 </div>
 
                 <div id="live-tracker"></div>
-                <p>● If the first link stops working, freezes, or won’t open, try the second or third link to keep
-                    watching without trouble.</p>
                 <div id="live-container"></div>
             </div>
         </section>
@@ -316,8 +315,7 @@
                     document.getElementById('canonical-url').href = location.href;
 
                     // Display Info
-                    document.getElementById('match-name').textContent = `${matchName} - Live Details`;
-                    document.getElementById('match-date-time').textContent = `Match Time: ${startTimeFull}`;
+                    document.getElementById('match-name').textContent = `${matchName}`;
                     document.getElementById('home-team-name').textContent = team1;
                     document.getElementById('away-team-name').textContent = team2;
 
@@ -333,13 +331,26 @@
                         lineupImageContainer.innerHTML = '';
                     }
 
-                    // 2. Fetch Extra Details from blog.cricfoot.net
-                    const extraDetailsUrl = `https://blog.cricfoot.net/${slug}.json`;
+                    // 2. Fetch stream links with multi-source fallback
                     let extraData = {};
+                    const streamSources = [
+                        `https://www.yosintv.net/${slug}.json`,
+                        `https://blog.cricfoot.net/${slug}.json`
+                    ];
+                    const liveContainer = document.getElementById('live-container');
 
                     try {
-                        const r = await fetch(extraDetailsUrl);
-                        if (r.ok) extraData = await r.json();
+                        for (const src of streamSources) {
+                            try {
+                                const r = await fetch(src);
+                                if (!r.ok) continue;
+                                const j = await r.json();
+                                if (j && j.events && Array.isArray(j.events) && j.events.length > 0) {
+                                    extraData = j;
+                                    break;
+                                }
+                            } catch (e) {}
+                        }
 
                         // Helper to get data from either source (Priority: extraData -> match)
                         const getVal = (k) => (extraData && extraData[k]) || (match && match[k]);
@@ -398,8 +409,6 @@
                             dynamicDiv.classList.remove('hidden');
                         }
 
-                        // --- Render Stream Links from 'events' ---
-                        const liveContainer = document.getElementById('live-container');
                         if (extraData.events) {
                             const baseStyle = extraData.styles?.livee || "display:flex;justify-content:center;align-items:center;margin:12px 0;padding:15px;border-radius:8px;background:#d00;color:#fff;font-weight:bold;font-size:18px;cursor:pointer;text-decoration:none;";
                             const hoverStyle = extraData.styles?.liveeHover || "box-shadow:0 6px 15px rgba(0,0,0,0.4);";
@@ -424,17 +433,17 @@
                         }
 
                     } catch (e) {
-                        console.log("Could not fetch details form cricfoot blog json", e);
-                        document.getElementById('live-container').innerHTML = '<p class="text-center text-gray-500">Stream details unavailable.</p>';
+                        console.log("Could not fetch stream json", e);
+                        liveContainer.innerHTML = '<p class="text-center text-orange-600 font-bold">Stream links loading soon...</p>';
                     }
 
-                    // Progress bar (unchanged)
+                    // Better progress bar animation
                     const progContainer = document.createElement('div');
-                    progContainer.className = 'w-full bg-gray-200 rounded-full h-6 mb-4';
+                    progContainer.className = 'progress-shell mb-4';
                     const progBar = document.createElement('div');
-                    progBar.className = 'h-6 rounded-full';
+                    progBar.className = 'progress-fill';
                     const progText = document.createElement('div');
-                    progText.className = 'text-sm text-gray-600 mb-2 font-bold text-center';
+                    progText.className = 'timer-text';
                     progContainer.appendChild(progBar);
                     document.getElementById('live-tracker').appendChild(progText); // Append to specific div
                     document.getElementById('live-tracker').appendChild(progContainer);
@@ -449,18 +458,19 @@
                             const m = Math.abs(Math.floor(diff / 60000));
                             progText.textContent = `Starts in: ${Math.floor(m / 60)}h ${m % 60}m`;
                             progBar.style.width = '0%';
-                            progBar.classList.remove('bg-red-600');
+                            progBar.textContent = '';
                         } else if (diff > endMs - startMs) {
                             progText.textContent = 'Match Ended';
                             progBar.style.width = '100%';
+                            progBar.textContent = 'FULL TIME';
                         } else {
                             const perc = (diff / (duration * 3600000)) * 100;
                             const h = Math.floor(diff / 3600000);
                             const m = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
                             const s = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
                             progText.textContent = `Match Playing Time: ${h}:${m}:${s} / ${duration}:00:00`;
-                            progBar.className = 'h-6 rounded-full bg-red-600 text-white text-center font-bold';
                             progBar.style.width = perc + '%';
+                            progBar.textContent = `${Math.floor(perc)}%`;
                         }
                     };
 
@@ -586,6 +596,45 @@
           <div class="space-y-4 text-left overflow-visible break-words">
             <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">${matchName} - Match Details</h3>
             ${detailsHTML}
+            <h3 class="text-xl font-bold text-gray-900">Match Live Links</h3>
+            <div class="mobile-switch">
+              <button class="switch-btn active" data-target="lineupPanel">Lineups</button>
+              <button class="switch-btn" data-target="pregamePanel">Pregame Form</button>
+            </div>
+            <div id="lineupPanel" class="switch-panel">${`
+              <div class="neo-wrap">
+                <div class="neo-title">Lineups & Formations</div>
+                <div class="kv-grid">
+                  <div class="team-col">
+                    <h5>${team1} (${lu.home_formation || 'N/A'})</h5>
+                    <ul class="mini-list">${homePlayers.length ? homePlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
+                    <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${homeMiss.length ? homeMiss.join(', ') : 'None reported'}</p>
+                  </div>
+                  <div class="team-col">
+                    <h5>${team2} (${lu.away_formation || 'N/A'})</h5>
+                    <ul class="mini-list">${awayPlayers.length ? awayPlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
+                    <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${awayMiss.length ? awayMiss.join(', ') : 'None reported'}</p>
+                  </div>
+                </div>
+              </div>
+            `}</div>
+            <div id="pregamePanel" class="switch-panel hidden">${`
+              <div class="neo-wrap">
+                <div class="neo-title">Pregame Form</div>
+                <div class="kv-grid">
+                  <div class="kv">
+                    <b>${team1}</b>
+                    <span>Rating ${pre?.homeTeam?.avgRating || 'N/A'} | Pos #${pre?.homeTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.homeTeam?.value || 'N/A'}</span>
+                    <div class="pill-row">${formatForm(pre?.homeTeam?.form)}</div>
+                  </div>
+                  <div class="kv">
+                    <b>${team2}</b>
+                    <span>Rating ${pre?.awayTeam?.avgRating || 'N/A'} | Pos #${pre?.awayTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.awayTeam?.value || 'N/A'}</span>
+                    <div class="pill-row">${formatForm(pre?.awayTeam?.form)}</div>
+                  </div>
+                </div>
+              </div>
+            `}</div>
             <h3 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 text-gray-900">Frequently Asked Questions</h3>
             <div class="space-y-3">
               <div class="faq-card">
@@ -616,6 +665,15 @@
           </div>
         `;
                     document.getElementById('match-info').innerHTML = faqHTML;
+                    document.querySelectorAll('.switch-btn').forEach(btn => {
+                        btn.addEventListener('click', () => {
+                            document.querySelectorAll('.switch-btn').forEach(b => b.classList.remove('active'));
+                            btn.classList.add('active');
+                            document.querySelectorAll('.switch-panel').forEach(p => p.classList.add('hidden'));
+                            const t = document.getElementById(btn.dataset.target);
+                            if (t) t.classList.remove('hidden');
+                        });
+                    });
 
                     // Optional "More Matches" support (if section exists in this template)
                     const more = document.getElementById('more-matches');
