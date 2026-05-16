@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="robots" content="index" />
+    <meta name="description" id="meta-description" content="Watch live sports matches and highlights on YoSinTV." />
+    <meta name="keywords" id="meta-keywords" content="YoSinTV, live stream, football, cricket, sports highlights" />
+    <meta property="og:title" id="og-title" content="YoSinTV - Live Sports Streaming" />
+    <meta property="og:description" id="og-description"
+        content="Watch live sports matches and highlights on YoSinTV." />
+    <meta property="og:url" id="og-url" content="" />
+    <meta name="twitter:title" id="twitter-title" content="YoSinTV - Live Sports Streaming" />
+    <meta name="twitter:description" id="twitter-description"
+        content="Watch live sports matches and highlights on YoSinTV." />
+    <link rel="canonical" id="canonical-url" href="" />
+    <link href="https://web.cricfoot.net/favico.png" rel="icon" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <title>YoSinTV - Cricket | Football | Playing XI | Match Preview</title>
+    <style>
+        /* Custom styles for detail sections */
+        .detail-section {
+            margin-top: 1.5rem;
+        }
+
+        .detail-header {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 0.25rem;
+        }
+
+        .lineup-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .lineup-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .lineup-list li {
+            padding: 0.25rem 0;
+            border-bottom: 1px dashed #e5e7eb;
+            font-size: 0.875rem;
+            color: #4b5563;
+        }
+
+        .h2h-box {
+            background: #f9fafb;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .h2h-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .h2h-val {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #111827;
+        }
+
+        .h2h-label {
+            font-size: 0.75rem;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans text-gray-900">
+    <div id="fb-root"></div>
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto max-w-4xl px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="https://www.yosin-tv.net/" title="YoSinTV">
+                    <img alt="YoSinTV" src="https://web.cricfoot.net/logo.png" class="h-16 w-auto" />
+                    <h1 class="sr-only">YoSinTV: Cricket | Football Stream Free</h1>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto max-w-4xl px-4 py-4">
+        <div class="adspos">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147"
+                data-ad-slot="4345862479" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <main class="container mx-auto max-w-4xl px-4 py-8">
+        <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
+            <div class="space-y-4" id="cricket-matches">
+                <!-- Match Name -->
+                <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900" id="match-name"></h3>
+
+                <!-- Match Date/Time -->
+                <p class="text-sm sm:text-base font-semibold text-blue-600 mb-2" id="match-date-time"></p>
+
+                <!-- Stadium & Referee (Populated Dynamically) -->
+                <div id="info-bar" class="flex flex-wrap gap-4 text-sm text-gray-600 hidden mb-4">
+                    <div id="stadium-info" class="hidden">🏟️ <span id="stadium-val"></span></div>
+                    <div id="referee-info" class="hidden">👮‍♂️ <span id="referee-val"></span></div>
+                </div>
+
+                <p>● Watch the live of this match in HD Quality, Scroll down to check out every link for Smooth Live
+                    Stream of this match.</p>
+                <p>● Predicted lineups are available for the match a few days in advance while the actual lineup will be
+                    available about an hour ahead of the match.</p>
+
+                <!-- Lineup Image Placeholder -->
+                <div id="lineup-image-container" class="my-4"></div>
+
+                <!-- Dynamic Lineups & H2H Section -->
+                <div id="dynamic-details" class="space-y-6 hidden">
+                    <!-- H2H -->
+                    <div id="h2h-section" class="detail-section hidden">
+                        <div class="h2h-box">
+                            <div class="h2h-item"><span class="h2h-val" id="h2h-win">0</span><span
+                                    class="h2h-label">Won</span></div>
+                            <div class="h2h-item"><span class="h2h-val" id="h2h-draw">0</span><span
+                                    class="h2h-label">Draw</span></div>
+                            <div class="h2h-item"><span class="h2h-val" id="h2h-loss">0</span><span
+                                    class="h2h-label">Lost</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Lineups -->
+                    <div id="lineups-section" class="detail-section hidden">
+                        <h4 class="detail-header">Starting Lineups</h4>
+                        <div class="lineup-grid">
+                            <div>
+                                <h5 class="font-bold text-center text-sm mb-2" id="home-team-name">Home</h5>
+                                <ul id="home-lineup-list" class="lineup-list"></ul>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-center text-sm mb-2" id="away-team-name">Away</h5>
+                                <ul id="away-lineup-list" class="lineup-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="adspos">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147"
+                        data-ad-slot="4345862479" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+
+                <div id="live-tracker"></div>
+                <p>● If the first link stops working, freezes, or won’t open, try the second or third link to keep
+                    watching without trouble.</p>
+                <div id="live-container"></div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
+            <div id="match-info" class="space-y-4 min-w-full overflow-visible"></div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-md p-4 sm:p-6">
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">More Matches</h3>
+            <div id="more-matches" class="space-y-2 sm:space-y-4 min-w-full overflow-visible"></div>
+            <div id="no-matches" class="hidden text-center text-gray-600 mt-4">No additional matches available at this
+                time.</div>
+        </section>
+    </main>
+
+    <footer class="bg-white shadow-inner py-6 mt-8">
+        <div class="container mx-auto max-w-4xl px-4">
+            <ul class="flex flex-wrap justify-center space-x-4">
+                <li><a href="/" class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 hover:bg-blue-100">YoSinTV</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="container mx-auto max-w-4xl px-4 py-4">
+        <div class="adspos">
+            <script async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5525538810839147"
+                crossorigin="anonymous"></script>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147"
+                data-ad-slot="4345862479" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div id='fixedban' class='fixed bottom-0 left-1/2 -translate-x-1/2 z-[999]'>
+        <div class='relative w-[300px] h-[250px] bg-white rounded-lg shadow-xl border border-gray-200'>
+            <button id='close-fixedban'
+                class='absolute left-1/2 -translate-x-1/2 top-3 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors duration-200 cursor-pointer z-[1000]'>Close</button>
+            <div class='w-[300px] h-[250px] overflow-hidden pt-8'>
+                <ins class='adsbygoogle inline-block w-[300px] h-[250px]' data-ad-client='ca-pub-5525538810839147'
+                    data-ad-slot='5912194004'></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $('#close-fixedban').click(function () { $('#fixedban').hide(90); });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                requestAnimationFrame(async () => {
+                    const normalize = s => s.toString().toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
+
+                    // --- formatTime FUNCTION ---
+                    const formatTime = (iso, type) => {
+                        try {
+                            const d = new Date(iso);
+                            if (type === 'full') {
+                                const options = { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+                                return d.toLocaleString(undefined, options);
+                            }
+                            return {
+                                day: d.toLocaleString(undefined, { weekday: 'long' }),
+                                date: d.toLocaleString(undefined, { year: 'numeric', month: 'long', day: 'numeric' }),
+                                time: d.toLocaleString(undefined, { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true })
+                            };
+                        } catch (e) {
+                            return type === 'full' ? 'Invalid Time' : { day: 'N/A', date: 'N/A', time: 'N/A' };
+                        }
+                    };
+
+                    const mainApis = [
+                        'https://yosintv-api.pages.dev/api/cricket.json',
+                        'https://yosintv-api.pages.dev/api/football.json'
+                    ];
+
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const slug = urlParams.get('yosintv'); // Slug from URL
+
+                    if (!slug) {
+                        document.getElementById('match-name').textContent = 'No Match Selected';
+                        return;
+                    }
+
+                    const searchKey = normalize(slug);
+                    let match = null;
+
+                    // 1. Fetch Main Match Info (Metadata)
+                    for (const api of mainApis) {
+                        try {
+                            const res = await fetch(api);
+                            if (!res.ok) continue;
+                            const json = await res.json();
+                            const foundMatch = (json.matches || []).find(m => {
+                                const fullMatchName = normalize(m.team1 + 'vs' + m.team2);
+                                const team1Name = normalize(m.team1);
+                                const team2Name = normalize(m.team2);
+                                const isDetailsUrlMatch = m.details_url && normalize(m.details_url).includes(`yosintv${searchKey}`);
+                                return fullMatchName.includes(searchKey) || team1Name.includes(searchKey) || team2Name.includes(searchKey) || isDetailsUrlMatch;
+                            });
+                            if (foundMatch) {
+                                match = foundMatch;
+                                break;
+                            }
+                        } catch (e) { }
+                    }
+
+                    if (!match) {
+                        document.getElementById('match-name').textContent = 'Match Not Available';
+                        document.getElementById('match-info').innerHTML = '<p class="text-red-600 text-center">This match is not live right now.</p>';
+                        return;
+                    }
+
+                    const { team1, team2, start, duration, details_url, lineup_image_url } = match;
+                    const matchName = `${team1.trim()} vs ${team2.trim()}`;
+                    const startTimeFull = formatTime(start, 'full');
+
+                    // SEO & Meta
+                    document.title = `YoSinTV - ${matchName} Live Stream`;
+                    document.getElementById('meta-description').content = `Watch ${matchName} live stream on YoSinTV`;
+                    document.getElementById('og-title').content = document.title;
+                    document.getElementById('og-url').content = location.href;
+                    document.getElementById('canonical-url').href = location.href;
+
+                    // Display Info
+                    document.getElementById('match-name').textContent = `${matchName} - Live Details`;
+                    document.getElementById('match-date-time').textContent = `Match Time: ${startTimeFull}`;
+                    document.getElementById('home-team-name').textContent = team1;
+                    document.getElementById('away-team-name').textContent = team2;
+
+                    // Lineup Image
+                    const lineupImageContainer = document.getElementById('lineup-image-container');
+                    if (lineup_image_url) {
+                        lineupImageContainer.innerHTML = `
+            <div class="bg-gray-50 p-3 rounded-lg shadow-sm border border-gray-200">
+              <p class="text-center text-sm text-gray-700 font-semibold mb-2">Predicted Lineup/Preview Image</p>
+              <img src="${lineup_image_url}" alt="${matchName} Lineup Preview" class="w-full h-auto object-cover rounded-md border border-gray-300" onerror="this.onerror=null; this.src='https://placehold.co/600x400/ccc/000?text=Lineup+Image+Not+Available';" />
+            </div>`;
+                    } else {
+                        lineupImageContainer.innerHTML = '';
+                    }
+
+                    // 2. Fetch Extra Details from blog.cricfoot.net
+                    const extraDetailsUrl = `https://blog.cricfoot.net/${slug}.json`;
+                    let extraData = {};
+
+                    try {
+                        const r = await fetch(extraDetailsUrl);
+                        if (r.ok) extraData = await r.json();
+
+                        // Helper to get data from either source (Priority: extraData -> match)
+                        const getVal = (k) => (extraData && extraData[k]) || (match && match[k]);
+
+                        // Stadium
+                        const stadium = getVal('stadium');
+                        if (stadium && stadium !== "Unknown") {
+                            document.getElementById('stadium-val').textContent = stadium;
+                            document.getElementById('stadium-info').classList.remove('hidden');
+                            document.getElementById('info-bar').classList.remove('hidden');
+                        }
+
+                        // Referee
+                        const referee = getVal('referee');
+                        if (referee && referee !== "Unknown") {
+                            document.getElementById('referee-val').textContent = referee;
+                            document.getElementById('referee-info').classList.remove('hidden');
+                            document.getElementById('info-bar').classList.remove('hidden');
+                        }
+
+                        const dynamicDiv = document.getElementById('dynamic-details');
+
+                        // H2H
+                        const h2h = getVal('h2h');
+                        // Handle both object {summary:[]} (old) and array [] (new) formats if mixed
+                        const h2hData = (h2h && h2h.summary) ? h2h.summary : h2h;
+
+                        if (h2hData && Array.isArray(h2hData) && h2hData.length >= 3) {
+                            document.getElementById('h2h-win').textContent = h2hData[0];
+                            document.getElementById('h2h-draw').textContent = h2hData[1];
+                            document.getElementById('h2h-loss').textContent = h2hData[2];
+                            document.getElementById('h2h-section').classList.remove('hidden');
+                            dynamicDiv.classList.remove('hidden');
+                        }
+
+                        // Lineups
+                        const homeLineup = getVal('home_lineup');
+                        if (homeLineup && Array.isArray(homeLineup) && homeLineup.length > 0) {
+                            const hList = document.getElementById('home-lineup-list');
+                            hList.innerHTML = '';
+                            homeLineup.forEach(player => {
+                                hList.innerHTML += `<li>${player}</li>`;
+                            });
+                            document.getElementById('lineups-section').classList.remove('hidden');
+                            dynamicDiv.classList.remove('hidden');
+                        }
+
+                        const awayLineup = getVal('away_lineup');
+                        if (awayLineup && Array.isArray(awayLineup) && awayLineup.length > 0) {
+                            const aList = document.getElementById('away-lineup-list');
+                            aList.innerHTML = '';
+                            awayLineup.forEach(player => {
+                                aList.innerHTML += `<li>${player}</li>`;
+                            });
+                            document.getElementById('lineups-section').classList.remove('hidden');
+                            dynamicDiv.classList.remove('hidden');
+                        }
+
+                        // --- Render Stream Links from 'events' ---
+                        const liveContainer = document.getElementById('live-container');
+                        if (extraData.events) {
+                            const baseStyle = extraData.styles?.livee || "display:flex;justify-content:center;align-items:center;margin:12px 0;padding:15px;border-radius:8px;background:#d00;color:#fff;font-weight:bold;font-size:18px;cursor:pointer;text-decoration:none;";
+                            const hoverStyle = extraData.styles?.liveeHover || "box-shadow:0 6px 15px rgba(0,0,0,0.4);";
+
+                            extraData.events.forEach(event => {
+                                const links = event.links || (event.link ? [event.link] : []);
+                                if (links.length === 0) return;
+
+                                links.forEach((link, i) => {
+                                    const a = document.createElement('a');
+                                    a.href = link;
+                                    a.target = "_blank";
+                                    a.style.cssText = baseStyle;
+                                    a.onmouseover = () => a.style.cssText = baseStyle + hoverStyle;
+                                    a.onmouseout = () => a.style.cssText = baseStyle;
+                                    a.innerHTML = `${event.name ? event.name.replace(/India vs SA|IND vs SA/g, matchName) : 'Watch Live'} ${links.length > 1 ? `- Link ${i + 1}` : ''}`;
+                                    liveContainer.appendChild(a);
+                                });
+                            });
+                        } else {
+                            liveContainer.innerHTML = '<p class="text-center text-orange-600 font-bold">Stream links loading soon...</p>';
+                        }
+
+                    } catch (e) {
+                        console.log("Could not fetch details form cricfoot blog json", e);
+                        document.getElementById('live-container').innerHTML = '<p class="text-center text-gray-500">Stream details unavailable.</p>';
+                    }
+
+                    // Progress bar (unchanged)
+                    const progContainer = document.createElement('div');
+                    progContainer.className = 'w-full bg-gray-200 rounded-full h-6 mb-4';
+                    const progBar = document.createElement('div');
+                    progBar.className = 'h-6 rounded-full';
+                    const progText = document.createElement('div');
+                    progText.className = 'text-sm text-gray-600 mb-2 font-bold text-center';
+                    progContainer.appendChild(progBar);
+                    document.getElementById('live-tracker').appendChild(progText); // Append to specific div
+                    document.getElementById('live-tracker').appendChild(progContainer);
+
+                    const updateProgress = () => {
+                        const now = Date.now();
+                        const startMs = new Date(start).getTime();
+                        const endMs = startMs + duration * 3600000;
+                        const diff = now - startMs;
+
+                        if (diff < 0) {
+                            const m = Math.abs(Math.floor(diff / 60000));
+                            progText.textContent = `Starts in: ${Math.floor(m / 60)}h ${m % 60}m`;
+                            progBar.style.width = '0%';
+                            progBar.classList.remove('bg-red-600');
+                        } else if (diff > endMs - startMs) {
+                            progText.textContent = 'Match Ended';
+                            progBar.style.width = '100%';
+                        } else {
+                            const perc = (diff / (duration * 3600000)) * 100;
+                            const h = Math.floor(diff / 3600000);
+                            const m = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
+                            const s = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
+                            progText.textContent = `Match Playing Time: ${h}:${m}:${s} / ${duration}:00:00`;
+                            progBar.className = 'h-6 rounded-full bg-red-600 text-white text-center font-bold';
+                            progBar.style.width = perc + '%';
+                        }
+                    };
+
+                    updateProgress();
+                    setInterval(updateProgress, 1000);
+
+                    // Sidebar FAQ (unchanged provided logic)
+                    const faqHTML = `
+          <div class="space-y-4 text-left overflow-visible break-words">
+            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">${matchName} - Match Details</h3>
+            <h3 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 text-gray-900">Frequently Asked Questions</h3>
+            <div class="space-y-4">
+              <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="text-lg font-semibold text-gray-900 break-words">Which teams will face against ${team2.trim()} in this match?</h4>
+                <p class="text-gray-600 break-words">${team1.trim()} will face off against ${team2.trim()} in this exciting match.</p>
+              </div>
+              <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="text-lg font-semibold text-gray-900 break-words">When is the ${matchName} match happening?</h4>
+                <p class="text-gray-600 break-words">The match starts at ${startTimeFull}. Check official sources for venue details.</p>
+              </div>
+              <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="text-lg font-semibold text-gray-900 break-words">How long will the ${matchName} match last?</h4>
+                <p class="text-gray-600 break-words">The match is expected to last about ${duration} hours, including stoppage time.</p>
+              </div>
+              <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="text-lg font-semibold text-gray-900 break-words">Where can I watch the ${matchName} match live online?</h4>
+                <p class="text-gray-600 break-words">Stream the live match of ${matchName} via <a href="https://www.yosin-tv.net/" target="_blank" class="text-blue-600 hover:underline">YoSinTV Free Live Stream</a>.</p>
+              </div>
+            </div>
+          </div>
+        `;
+                    document.getElementById('match-info').innerHTML = faqHTML;
+
+                    // More Matches Logic
+                    const more = document.getElementById('more-matches');
+                    const allMatches = [];
+                    for (const api of mainApis) {
+                        try {
+                            const r = await fetch(api);
+                            if (r.ok) {
+                                const j = await r.json();
+                                allMatches.push(...(j.matches || []));
+                            }
+                        } catch (e) { }
+                    }
+                    const others = allMatches.filter(m => normalize(m.team1 + m.team2) !== normalize(team1 + team2))
+                        .sort(() => 0.5 - Math.random()).slice(0, 6);
+
+                    if (others.length === 0) {
+                        document.getElementById('no-matches').classList.remove('hidden');
+                    } else {
+                        others.forEach(m => {
+                            let otherMatchSlug;
+                            if (m.details_url) {
+                                try {
+                                    const matchUrlParams = new URLSearchParams(m.details_url.split('?')[1]);
+                                    otherMatchSlug = matchUrlParams.get('yosintv');
+                                } catch (e) {
+                                    otherMatchSlug = normalize(m.team1 + 'vs' + m.team2).replace(/vs/g, '');
+                                }
+                            } else {
+                                otherMatchSlug = normalize(m.team1 + 'vs' + m.team2).replace(/vs/g, '');
+                            }
+
+                            if (!otherMatchSlug) return;
+
+                            const card = document.createElement('a');
+                            card.href = `?yosintv=${otherMatchSlug}`;
+                            card.target = "_blank";
+                            card.className = 'bg-gray-50 p-4 rounded-lg flex justify-between items-center block hover:bg-gray-100';
+                            card.innerHTML = `<span class="font-medium">${m.team1} vs ${m.team2}</span>
+                              <span class="text-sm text-gray-600">${new Date(m.start).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>`;
+                            more.appendChild(card);
+                        });
+                    }
+                });
+            }, 0);
+        });
+    </script>
+</body>
+
+</html>
