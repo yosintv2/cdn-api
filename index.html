@@ -724,5 +724,372 @@ loadEv('https://yosintv2.github.io/yosintv.link/events-football.js', 'yst-ft-ev'
     <script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script>
     <script type="text/javascript">sc_online_i(1714446,"ffffff","ffffff");</script>
 </div>
+
+<!-- FIFA World Cup 2026 Popup -->
+<div id="fifa-popup" class="fifa-popup-overlay">
+  <div class="fifa-popup-box">
+
+    <!-- Close Button -->
+    <button class="fifa-close-btn" onclick="fifaClosePopup()">×</button>
+
+    <!-- FIFA Logo -->
+    <img
+      src="https://images.fotmob.com/image_resources/logo/leaguelogo/dark/77.png"
+      alt="FIFA World Cup 2026"
+      class="fifa-logo"
+    />
+
+    <!-- Title -->
+    <h2>FIFA World Cup 2026</h2>
+
+    <!-- YoSinTV LIVE -->
+    <div class="fifa-yosintv-live">
+      <span class="fifa-live-pulse"></span>
+      Live in YoSinTV
+    </div>
+
+    <!-- Date -->
+    <p class="fifa-date">June 12, 2026</p>
+
+    <!-- Countdown -->
+    <div class="fifa-countdown">
+
+      <div>
+        <span id="fifa-days">00</span>
+        <small>Days</small>
+      </div>
+
+      <div>
+        <span id="fifa-hours">00</span>
+        <small>Hours</small>
+      </div>
+
+      <div>
+        <span id="fifa-minutes">00</span>
+        <small>Minutes</small>
+      </div>
+
+      <div>
+        <span id="fifa-seconds">00</span>
+        <small>Seconds</small>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<style>
+
+/* Overlay */
+.fifa-popup-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.78);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:999999;
+  padding:16px;
+  backdrop-filter:blur(5px);
+}
+
+/* Popup Box */
+.fifa-popup-box{
+  position:relative;
+  width:100%;
+  max-width:420px;
+  padding:32px 24px;
+  border-radius:26px;
+  overflow:hidden;
+  text-align:center;
+  color:#fff;
+
+  background:
+    radial-gradient(circle at top, rgba(0,174,255,.22), transparent 40%),
+    linear-gradient(135deg,#06111f,#0f2747);
+
+  border:1px solid rgba(255,255,255,.1);
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.5),
+    0 0 30px rgba(0,174,255,.12);
+
+  animation:fifaPopupShow .35s ease;
+}
+
+@keyframes fifaPopupShow{
+  from{
+    opacity:0;
+    transform:scale(.85);
+  }
+  to{
+    opacity:1;
+    transform:scale(1);
+  }
+}
+
+/* Close Button */
+.fifa-close-btn{
+  position:absolute;
+  top:12px;
+  right:14px;
+  width:36px;
+  height:36px;
+  border:none;
+  border-radius:50%;
+  background:rgba(255,255,255,.14);
+  color:#fff;
+  font-size:24px;
+  cursor:pointer;
+  transition:.25s;
+}
+
+.fifa-close-btn:hover{
+  background:#ff2d55;
+  transform:rotate(90deg);
+}
+
+/* Logo */
+.fifa-logo{
+  width:95px;
+  height:95px;
+  object-fit:contain;
+  margin-bottom:16px;
+  filter:drop-shadow(0 0 15px rgba(255,255,255,.2));
+}
+
+/* Title */
+.fifa-popup-box h2{
+  margin:0;
+  line-height:1.3;
+  font-size:28px;
+  font-weight:800;
+  color:#ffffff !important;
+  text-shadow:0 0 14px rgba(255,255,255,.18);
+}
+
+/* Live YoSinTV */
+.fifa-yosintv-live{
+  margin-top:16px;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.12);
+  padding:10px 18px;
+  border-radius:999px;
+  font-size:14px;
+  font-weight:700;
+  color:#fff;
+  backdrop-filter:blur(8px);
+  box-shadow:0 0 20px rgba(0,174,255,.15);
+}
+
+/* Live Dot */
+.fifa-live-pulse{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:#ff2d55;
+  position:relative;
+  animation:fifaLiveBlink 1s infinite;
+}
+
+.fifa-live-pulse::after{
+  content:"";
+  position:absolute;
+  inset:-4px;
+  border-radius:50%;
+  border:2px solid rgba(255,45,85,.45);
+  animation:fifaRipple 1.5s infinite;
+}
+
+@keyframes fifaLiveBlink{
+  0%,100%{
+    opacity:1;
+  }
+  50%{
+    opacity:.4;
+  }
+}
+
+@keyframes fifaRipple{
+  0%{
+    transform:scale(.7);
+    opacity:1;
+  }
+  100%{
+    transform:scale(1.8);
+    opacity:0;
+  }
+}
+
+/* Date */
+.fifa-date{
+  margin-top:18px;
+  margin-bottom:22px;
+  color:#ffd369;
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:.5px;
+}
+
+/* Countdown */
+.fifa-countdown{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+}
+
+.fifa-countdown div{
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:18px;
+  padding:14px 8px;
+  backdrop-filter:blur(6px);
+}
+
+.fifa-countdown span{
+  display:block;
+  font-size:26px;
+  font-weight:800;
+  color:#ffffff;
+}
+
+.fifa-countdown small{
+  display:block;
+  margin-top:4px;
+  font-size:11px;
+  color:#dbe7ff;
+}
+
+/* Mobile */
+@media(max-width:480px){
+
+  .fifa-popup-box{
+    max-width:95%;
+    padding:28px 16px;
+  }
+
+  .fifa-popup-box h2{
+    font-size:22px;
+  }
+
+  .fifa-logo{
+    width:80px;
+    height:80px;
+  }
+
+  .fifa-yosintv-live{
+    font-size:12px;
+    padding:8px 14px;
+  }
+
+  .fifa-countdown{
+    gap:7px;
+  }
+
+  .fifa-countdown span{
+    font-size:20px;
+  }
+
+  .fifa-countdown small{
+    font-size:10px;
+  }
+
+}
+
+</style>
+
+<script>
+
+/* CLOSE POPUP */
+function fifaClosePopup(){
+
+  document.getElementById("fifa-popup").style.display = "none";
+
+  /* SAVE CLOSE TIME */
+  localStorage.setItem(
+    "fifaPopupLastClosed",
+    Date.now()
+  );
+}
+
+/* CHECK 2 HOUR RULE */
+(function(){
+
+  const lastClosed =
+    localStorage.getItem("fifaPopupLastClosed");
+
+  const TWO_HOURS =
+    1 * 60 * 60 * 1000;
+
+  if(lastClosed){
+
+    const diff =
+      Date.now() - parseInt(lastClosed);
+
+    /* HIDE IF NOT PASSED 2 HOURS */
+    if(diff < TWO_HOURS){
+
+      document.getElementById("fifa-popup").style.display = "none";
+
+    }
+
+  }
+
+})();
+
+/* COUNTDOWN TARGET */
+const fifaTargetDate =
+  new Date("June 12, 2026 00:00:00").getTime();
+
+/* COUNTDOWN FUNCTION */
+function fifaUpdateCountdown(){
+
+  const now = new Date().getTime();
+
+  const distance =
+    fifaTargetDate - now;
+
+  if(distance <= 0){
+
+    document.getElementById("fifa-days").innerText = "00";
+    document.getElementById("fifa-hours").innerText = "00";
+    document.getElementById("fifa-minutes").innerText = "00";
+    document.getElementById("fifa-seconds").innerText = "00";
+
+    return;
+  }
+
+  const days =
+    Math.floor(distance / (1000 * 60 * 60 * 24));
+
+  const hours =
+    Math.floor((distance / (1000 * 60 * 60)) % 24);
+
+  const minutes =
+    Math.floor((distance / (1000 * 60)) % 60);
+
+  const seconds =
+    Math.floor((distance / 1000) % 60);
+
+  document.getElementById("fifa-days").innerText = days;
+  document.getElementById("fifa-hours").innerText = hours;
+  document.getElementById("fifa-minutes").innerText = minutes;
+  document.getElementById("fifa-seconds").innerText = seconds;
+}
+
+/* START */
+fifaUpdateCountdown();
+
+setInterval(
+  fifaUpdateCountdown,
+  1000
+);
+
+</script>
+
 </body>
 </html>
