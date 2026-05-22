@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>YoSinTV Link Manager</title>
+<title>Match List Admin</title>
 
 <style>
 *{box-sizing:border-box}
@@ -40,6 +40,15 @@ h1{margin:0;font-size:30px}
   font-weight:800;
 }
 
+.admin-link{
+  background:#38bdf8;
+  color:#082f49;
+  padding:8px 14px;
+  border-radius:999px;
+  font-weight:800;
+  text-decoration:none;
+}
+
 .card{
   background:#1e293b;
   border:1px solid rgba(255,255,255,.08);
@@ -59,7 +68,6 @@ button,select,input{
 }
 
 select,input{background:#334155;color:white}
-
 input{min-width:260px;flex:1}
 
 button{
@@ -144,7 +152,6 @@ textarea{
 textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
 
 #status{margin:0;font-weight:700}
-
 #statusBox{display:none}
 
 .status-flex{
@@ -268,8 +275,11 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
 <div class="wrap">
 
   <div class="header">
-    <h1>YoSinTV Admin</h1>
-    <div class="badge">yosintv2/blog</div>
+    <h1>Match List Admin</h1>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <div class="badge">Match List Admin</div>
+      <a class="admin-link" href="https://login.yosintv.net/admin" target="_blank">Open Admin Login</a>
+    </div>
   </div>
 
   <div class="card">
@@ -299,7 +309,7 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
     </div>
 
     <div class="small-note">
-      ✅ Active JSON files only · Match countdown · Line numbers · JSON validator · Sticky Save/Load buttons
+      ✅ Files are sorted by nearest upcoming match first · Countdown · Line numbers · JSON validator
     </div>
   </div>
 
@@ -336,8 +346,7 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
 
   </div>
 
-  <div class="footer">
-  </div>
+  <div class="footer"></div>
 
 </div>
 
@@ -537,14 +546,72 @@ function validateJsonLive(){
   }
 }
 
+function getFileSortTime(file){
+  const match = matchTimeMap[file];
+
+  if(!match || !match.start){
+    return Number.MAX_SAFE_INTEGER;
+  }
+
+  const now = new Date();
+  const start = new Date(match.start);
+  const end = new Date(start.getTime() + Number(match.duration || 0) * 60 * 60 * 1000);
+
+  if(now >= start && now <= end){
+    return -1;
+  }
+
+  if(now < start){
+    return start.getTime() - now.getTime();
+  }
+
+  return Number.MAX_SAFE_INTEGER - 1;
+}
+
+function sortFilesByMatchTime(files){
+  return files.slice().sort((a,b) => {
+    const ta = getFileSortTime(a);
+    const tb = getFileSortTime(b);
+
+    if(ta !== tb) return ta - tb;
+
+    return a.localeCompare(b);
+  });
+}
+
+function getOptionLabel(file){
+  const match = matchTimeMap[file];
+  const saved = getSavedFiles();
+  const tick = saved[file] ? " ✅" : "";
+
+  if(!match){
+    return `${file}${tick}`;
+  }
+
+  const now = new Date();
+  const start = new Date(match.start);
+  const end = new Date(start.getTime() + Number(match.duration || 0) * 60 * 60 * 1000);
+
+  if(now < start){
+    return `${file} — starts in ${formatCountdown(start - now)}${tick}`;
+  }
+
+  if(now >= start && now <= end){
+    return `${file} — LIVE NOW${tick}`;
+  }
+
+  return `${file} — Match Over${tick}`;
+}
+
 function populateFiles(files){
   const select = document.getElementById("file");
   const currentValue = select.value;
-  const saved = getSavedFiles();
+
+  const sortedFiles = sortFilesByMatchTime(files);
 
   select.innerHTML = "";
 
-  if(!files.length){
+  if(!sortedFiles.length){
     const opt = document.createElement("option");
     opt.value = "";
     opt.textContent = "No active JSON files found";
@@ -554,20 +621,30 @@ function populateFiles(files){
     return;
   }
 
-  files.forEach(file => {
+  sortedFiles.forEach(file => {
     const opt = document.createElement("option");
     opt.value = file;
-    opt.textContent = saved[file] ? `${file} ✅` : file;
+    opt.textContent = getOptionLabel(file);
     select.appendChild(opt);
   });
 
-  if(files.includes(currentValue)){
+  if(sortedFiles.includes(currentValue)){
     select.value = currentValue;
   }
 
   updateEditorTitle();
   updateMatchStatus();
   setAutoCommit();
+}
+
+function refreshDropdownLabels(){
+  const currentFiles = Array.from(document.getElementById("file").options)
+    .map(opt => opt.value)
+    .filter(Boolean);
+
+  if(currentFiles.length){
+    populateFiles(currentFiles);
+  }
 }
 
 function filterFiles(){
@@ -650,7 +727,7 @@ async function loadFileList(){
       });
     }
 
-    allFiles = Array.from(found).sort();
+    allFiles = sortFilesByMatchTime(Array.from(found));
 
     populateFiles(allFiles);
 
@@ -891,6 +968,7 @@ function logout(){
 
 setInterval(updateEditorTitle,30000);
 setInterval(updateMatchStatus,1000);
+setInterval(refreshDropdownLabels,30000);
 
 updateLineNumbers();
 loadFileList();
