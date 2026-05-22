@@ -55,7 +55,6 @@ body{
 }
 
 select,
-input,
 button{
   border:0;
   outline:0;
@@ -64,15 +63,10 @@ button{
   font-size:15px;
 }
 
-select,
-input{
+select{
   background:#1e293b;
   color:white;
-}
-
-input{
-  flex:1;
-  min-width:160px;
+  width:100%;
 }
 
 button{
@@ -133,23 +127,7 @@ button:active{
   overflow:hidden;
 }
 
-#lineNumbers{
-  margin:0;
-  padding:18px 10px;
-  min-width:50px;
-  text-align:right;
-  background:#020617;
-  color:#475569;
-  border-right:1px solid rgba(255,255,255,.05);
-  font-size:12px;
-  line-height:1.6;
-  font-family:monospace;
-  overflow:hidden;
-  user-select:none;
-}
-
 textarea{
-  flex:1;
   width:100%;
   height:100%;
   border:0;
@@ -177,6 +155,17 @@ textarea::placeholder{
   color:#64748b;
 }
 
+.save-bottom{
+  margin-top:14px;
+}
+
+.save-bottom button{
+  width:100%;
+  padding:16px;
+  border-radius:18px;
+  font-size:16px;
+}
+
 .sticky-actions{
   position:fixed;
   right:14px;
@@ -185,18 +174,6 @@ textarea::placeholder{
   display:flex;
   flex-direction:column;
   gap:10px;
-}
-
-.sticky-actions input{
-  width:150px;
-  background:#1e293b;
-  color:white;
-  border:0;
-  border-radius:14px;
-  padding:13px;
-  font-size:13px;
-  outline:none;
-  box-shadow:0 10px 25px rgba(0,0,0,.35);
 }
 
 .sticky-actions button{
@@ -245,42 +222,33 @@ textarea::-webkit-scrollbar-thumb{
   }
 
   select,
-  input,
   button{
     width:100%;
   }
 
   .editor-wrap{
-    height:76vh;
+    height:68vh;
   }
 
   textarea{
-    font-size:13px;
-    line-height:1.6;
+    font-size:14px;
+    line-height:1.65;
     padding:14px;
   }
 
-  #lineNumbers{
-    padding:14px 8px;
-    min-width:42px;
-    font-size:11px;
-  }
-
   .sticky-actions{
-    right:10px;
-    bottom:10px;
+    display:none;
   }
 
-  .sticky-actions input{
-    width:130px;
-    font-size:12px;
-    padding:12px;
+  .save-bottom{
+    display:block;
+    padding-bottom:18px;
   }
+}
 
-  .sticky-actions button{
-    min-width:110px;
-    padding:13px;
-    font-size:13px;
+@media(min-width:769px){
+  .save-bottom{
+    display:none;
   }
 }
 </style>
@@ -298,24 +266,14 @@ textarea::-webkit-scrollbar-thumb{
   </div>
 
   <div class="top-card">
-
     <div class="row">
-
       <select id="file">
         <option value="shopping.json">Shopping</option>
         <option value="todo.json">Todo</option>
         <option value="cricket.json">Cricket</option>
         <option value="football.json">Football</option>
       </select>
-
-      <input
-        type="text"
-        id="commitMessage"
-        placeholder="Update note..."
-      />
-
     </div>
-
   </div>
 
   <div id="statusBox">
@@ -340,30 +298,25 @@ textarea::-webkit-scrollbar-thumb{
 
     <div class="editor-wrap">
 
-      <pre id="lineNumbers">1</pre>
-
       <textarea
         id="editor"
         spellcheck="false"
         placeholder="Write your notes here..."
-        oninput="updateLineNumbers()"
-        onscroll="syncScroll()"
       ></textarea>
 
     </div>
 
   </div>
 
+  <div class="save-bottom">
+    <button class="save-btn" onclick="saveFile()">
+      💾 Save
+    </button>
+  </div>
+
 </div>
 
 <div class="sticky-actions">
-
-  <input
-    type="text"
-    id="floatingSearch"
-    placeholder="Search note..."
-    oninput="searchFiles()"
-  />
 
   <button class="load-btn" onclick="loadFile()">
     📂 Load
@@ -415,22 +368,6 @@ function setStatus(message,type="info"){
   }
 }
 
-function updateLineNumbers(){
-
-  const editor = document.getElementById("editor");
-  const lineNumbers = document.getElementById("lineNumbers");
-
-  const lines = editor.value.split("\n").length;
-
-  lineNumbers.textContent =
-    Array.from({length:lines},(_,i)=>i+1).join("\n");
-}
-
-function syncScroll(){
-  document.getElementById("lineNumbers").scrollTop =
-    document.getElementById("editor").scrollTop;
-}
-
 function timeAgo(timestamp){
 
   if(!timestamp) return "Ready";
@@ -473,27 +410,8 @@ function getCurrentHHMM(){
   return `${hh}:${mm}`;
 }
 
-function autoCommitText(){
-
-  const file = document.getElementById("file").value;
-
-  document.getElementById("commitMessage").value =
-    `${getCurrentHHMM()} - ${getFileLabel(file)}`;
-}
-
-function searchFiles(){
-
-  const q = document.getElementById("floatingSearch").value.toLowerCase();
-  const select = document.getElementById("file");
-
-  for(let option of select.options){
-    if(option.text.toLowerCase().includes(q)){
-      select.value = option.value;
-      updateEditorTitle();
-      autoCommitText();
-      return;
-    }
-  }
+function makeCommitMessage(file){
+  return `${getCurrentHHMM()} - ${getFileLabel(file)}`;
 }
 
 async function loadFile(){
@@ -501,7 +419,6 @@ async function loadFile(){
   const file = document.getElementById("file").value;
 
   updateEditorTitle();
-  autoCommitText();
 
   setStatus(`Loading ${getFileLabel(file)}...`,"info");
 
@@ -520,10 +437,8 @@ async function loadFile(){
     document.getElementById("editor").value =
       data.content || "";
 
-    updateLineNumbers();
-
     setStatus(
-      `${timeAgo(saveTimes[file])}`,
+      timeAgo(saveTimes[file]),
       "success"
     );
 
@@ -541,9 +456,7 @@ async function saveFile(){
 
   const content = document.getElementById("editor").value;
 
-  const message =
-    document.getElementById("commitMessage").value.trim()
-    || `${getCurrentHHMM()} - ${label}`;
+  const message = makeCommitMessage(file);
 
   setStatus(`Saving ${label}...`,"info");
 
@@ -586,16 +499,13 @@ document.getElementById("file")
 .addEventListener("change",()=>{
 
   updateEditorTitle();
-  autoCommitText();
   loadFile();
 
 });
 
 setInterval(updateSaveInfo,1000);
 
-updateLineNumbers();
 updateEditorTitle();
-autoCommitText();
 loadFile();
 </script>
 
