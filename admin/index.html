@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YoSinTV Blog Admin Login</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#020617,#0f172a);
+  font-family:Arial,sans-serif;
+  color:white;
+}
+.box{
+  width:100%;
+  max-width:420px;
+  background:#1e293b;
+  padding:30px;
+  border-radius:22px;
+  box-shadow:0 20px 50px rgba(0,0,0,.35);
+}
+h1{margin-top:0}
+input,button{
+  width:100%;
+  border:0;
+  border-radius:12px;
+  padding:15px;
+  font-size:16px;
+  margin-top:12px;
+}
+input{
+  background:#020617;
+  color:white;
+}
+button{
+  background:#22c55e;
+  color:#052e16;
+  font-weight:800;
+  cursor:pointer;
+}
+#msg{
+  margin-top:15px;
+  font-weight:700;
+}
+</style>
+</head>
+<body>
 
+<div class="box">
+  <h1>YoSinTV Blog Admin</h1>
+  <p>Enter admin password to continue.</p>
+
+  <input type="password" id="password" placeholder="Admin Password">
+  <button onclick="login()">Login</button>
+
+  <div id="msg"></div>
+</div>
+
+<script>
+async function login(){
+  const password = document.getElementById("password").value.trim();
+  const msg = document.getElementById("msg");
+
+  if(!password){
+    msg.innerText = "Please enter password";
+    msg.style.color = "#fca5a5";
+    return;
+  }
+
+  msg.innerText = "Checking...";
+  msg.style.color = "#e2e8f0";
+
+  try{
+    const res = await fetch(
+      `/api/github?action=list&password=${encodeURIComponent(password)}`
+    );
+
+    const data = await res.json();
+
+    if(!res.ok){
+      throw new Error(data.error || data.message || "Login failed");
+    }
+
+    localStorage.setItem("blog_admin_password", password);
+    window.location.href = "/admin/";
+
+  }catch(e){
+    msg.innerText = "❌ " + e.message;
+    msg.style.color = "#fca5a5";
+  }
+}
+</script>
+
+</body>
+</html>
