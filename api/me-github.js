@@ -46,7 +46,7 @@ export default async function handler(req, res) {
           headers: {
             Authorization: `Bearer ${token}`,
             Accept: "application/vnd.github+json",
-            "User-Agent": "YoSinTV-Me-Admin"
+            "User-Agent": "YoSinTV-Me-Notes"
           }
         }
       );
@@ -74,7 +74,7 @@ export default async function handler(req, res) {
 
       if (!file || !file.endsWith(".json")) {
         return res.status(400).json({
-          error: "Missing or invalid JSON file"
+          error: "Missing or invalid .json file"
         });
       }
 
@@ -86,7 +86,7 @@ export default async function handler(req, res) {
           headers: {
             Authorization: `Bearer ${token}`,
             Accept: "application/vnd.github+json",
-            "User-Agent": "YoSinTV-Me-Admin"
+            "User-Agent": "YoSinTV-Me-Notes"
           }
         }
       );
@@ -97,8 +97,10 @@ export default async function handler(req, res) {
         return res.status(r.status).json(data);
       }
 
-      const raw = Buffer.from(data.content, "base64").toString("utf8");
-      const content = JSON.parse(raw);
+      const content = Buffer.from(
+        data.content,
+        "base64"
+      ).toString("utf8");
 
       return res.status(200).json({
         success: true,
@@ -111,18 +113,12 @@ export default async function handler(req, res) {
 
     if (req.method === "POST") {
       const file = String(req.body?.file || "").trim();
-      const content = req.body?.content;
+      const content = String(req.body?.content ?? "");
       const message = String(req.body?.message || "").trim();
 
       if (!file || !file.endsWith(".json")) {
         return res.status(400).json({
-          error: "Missing or invalid JSON file"
-        });
-      }
-
-      if (typeof content === "undefined") {
-        return res.status(400).json({
-          error: "Missing JSON content"
+          error: "Missing or invalid .json file"
         });
       }
 
@@ -134,7 +130,7 @@ export default async function handler(req, res) {
           headers: {
             Authorization: `Bearer ${token}`,
             Accept: "application/vnd.github+json",
-            "User-Agent": "YoSinTV-Me-Admin"
+            "User-Agent": "YoSinTV-Me-Notes"
           }
         }
       );
@@ -153,11 +149,11 @@ export default async function handler(req, res) {
             Authorization: `Bearer ${token}`,
             Accept: "application/vnd.github+json",
             "Content-Type": "application/json",
-            "User-Agent": "YoSinTV-Me-Admin"
+            "User-Agent": "YoSinTV-Me-Notes"
           },
           body: JSON.stringify({
-            message: message || `Update ${path} from Me Admin`,
-            content: Buffer.from(JSON.stringify(content, null, 2)).toString("base64"),
+            message: message || `Update ${path} note`,
+            content: Buffer.from(content).toString("base64"),
             sha: currentData.sha,
             branch
           })
