@@ -93,8 +93,8 @@ textarea{
 textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
 #status{margin:0;font-weight:700}
 #statusBox{display:none}
-.footer{text-align:center;opacity:.6;font-size:13px;padding-bottom:20px}
 .small-note{font-size:13px;color:#94a3b8;margin-top:10px}
+.footer{text-align:center;opacity:.6;font-size:13px;padding-bottom:20px}
 @media(max-width:768px){
   .row{flex-direction:column}
   button,select,input{width:100%}
@@ -117,13 +117,13 @@ textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
     <div class="row">
 
       <select id="file">
-        <option>Loading JSON files...</option>
+        <option>Loading active JSON files...</option>
       </select>
 
       <input
         type="text"
         id="searchFile"
-        placeholder="Search JSON file e.g. football, ipl, nepal"
+        placeholder="Search active JSON file e.g. ipl, nepal, alnassr"
         oninput="filterFiles()"
       />
 
@@ -142,7 +142,7 @@ textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
     </div>
 
     <div class="small-note">
-      ✅ Tick means this file was already saved from this admin browser.
+      Dropdown shows only JSON files found from cricket/football API details_url. ✅ means saved from this browser.
     </div>
   </div>
 
@@ -153,7 +153,7 @@ textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
   <div class="card editor-card">
     <div class="editor-top">
       <div class="editor-title" id="editorTitle">Select JSON file</div>
-      <div class="editor-actions">Soft Wrap ON · JSON Editor · GitHub Save</div>
+      <div class="editor-actions">Soft Wrap ON · Active JSON Only · GitHub Save</div>
     </div>
 
     <textarea
@@ -171,6 +171,12 @@ textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
 
 <script>
 const API_URL = "/api/github";
+
+const SOURCE_APIS = [
+  "https://yosintv-api.pages.dev/api/cricket.json",
+  "https://yosintv-api.pages.dev/api/footballl.json"
+];
+
 let allFiles = [];
 
 const password = localStorage.getItem("blog_admin_password");
@@ -185,7 +191,7 @@ function getSavedFiles(){
 
 function markFileSaved(file){
   const saved = getSavedFiles();
-  saved[file] = getCurrentTimeText();
+  saved[file] = true;
   localStorage.setItem("blog_saved_files", JSON.stringify(saved));
 }
 
@@ -207,7 +213,7 @@ function makeAutoCommitMessage(file){
 
 function setAutoCommit(){
   const file = document.getElementById("file").value;
-  if(!file || file === "Loading JSON files...") return;
+  if(!file || file.includes("Loading")) return;
 
   document.getElementById("commitMessage").value =
     makeAutoCommitMessage(file);
@@ -238,8 +244,8 @@ function setStatus(msg,type="info"){
 function updateEditorTitle(){
   const file = document.getElementById("file").value;
   const saved = getSavedFiles();
-  const tick = saved[file] ? ` ✅ Saved: ${saved[file]}` : "";
-  document.getElementById("editorTitle").innerText = "Editing: " + file + tick;
+  document.getElementById("editorTitle").innerText =
+    "Editing: " + file + (saved[file] ? " ✅" : "");
 }
 
 function populateFiles(files){
@@ -249,16 +255,19 @@ function populateFiles(files){
 
   select.innerHTML = "";
 
+  if(!files.length){
+    const opt = document.createElement("option");
+    opt.value = "";
+    opt.textContent = "No active JSON files found";
+    select.appendChild(opt);
+    updateEditorTitle();
+    return;
+  }
+
   files.forEach(file => {
     const opt = document.createElement("option");
     opt.value = file;
-
-    if(saved[file]){
-      opt.textContent = `${file} ✅ ${saved[file]}`;
-    }else{
-      opt.textContent = file;
-    }
-
+    opt.textContent = saved[file] ? `${file} ✅` : file;
     select.appendChild(opt);
   });
 
@@ -276,24 +285,58 @@ function filterFiles(){
   populateFiles(filtered);
 }
 
-async function loadFileList(){
-  setStatus("Loading JSON file list...","info");
+function extractMatches(data){
+  if(Array.isArray(data)) return data;
+  if(Array.isArray(data.matches)) return data.matches;
+  if(Array.isArray(data.data)) return data.data;
+  if(Array.isArray(data.events)) return data.events;
+  return [];
+}
+
+function extractJsonFileFromDetailsUrl(detailsUrl){
+  if(!detailsUrl) return null;
 
   try{
-    const res = await fetch(
-      `${API_URL}?action=list&password=${encodeURIComponent(password)}`
-    );
+    const u = new URL(detailsUrl);
+    const slug = u.searchParams.get("yosintv");
 
-    const data = await res.json();
+    if(!slug) return null;
 
-    if(!res.ok){
-      throw new Error(data.error || data.message || "Failed to load files");
+    return slug.trim().replace(/\.json$/i,"") + ".json";
+  }catch(e){
+    return null;
+  }
+}
+
+async function loadFileList(){
+  setStatus("Loading active JSON files from cricket/football API...","info");
+
+  try{
+    const found = new Set();
+
+    for(const api of SOURCE_APIS){
+      const res = await fetch(api);
+
+      if(!res.ok){
+        throw new Error("Could not load source API: " + api);
+      }
+
+      const data = await res.json();
+      const matches = extractMatches(data);
+
+      matches.forEach(item => {
+        const file = extractJsonFileFromDetailsUrl(item.details_url);
+        if(file){
+          found.add(file);
+        }
+      });
     }
 
-    allFiles = data.files || [];
+    allFiles = Array.from(found).sort();
+
     populateFiles(allFiles);
 
-    setStatus("✅ Loaded " + allFiles.length + " JSON files","success");
+    setStatus("✅ Loaded " + allFiles.length + " active JSON files","success");
 
     if(allFiles.length){
       loadFile();
@@ -313,7 +356,7 @@ document.getElementById("file").addEventListener("change",function(){
 async function loadFile(){
   const file = document.getElementById("file").value;
 
-  if(!file || file === "Loading JSON files...") return;
+  if(!file || file.includes("Loading") || file.includes("No active")) return;
 
   updateEditorTitle();
   setAutoCommit();
@@ -344,6 +387,11 @@ async function loadFile(){
 async function saveFile(){
   const file = document.getElementById("file").value;
   const editor = document.getElementById("editor");
+
+  if(!file || file.includes("Loading") || file.includes("No active")){
+    setStatus("❌ Please select a valid JSON file.","error");
+    return;
+  }
 
   const commitMessage =
     document.getElementById("commitMessage").value.trim()
@@ -379,11 +427,9 @@ async function saveFile(){
     }
 
     markFileSaved(file);
-    populateFiles(
-      document.getElementById("searchFile").value
-        ? allFiles.filter(f => f.toLowerCase().includes(document.getElementById("searchFile").value.toLowerCase()))
-        : allFiles
-    );
+
+    const q = document.getElementById("searchFile").value.toLowerCase();
+    populateFiles(q ? allFiles.filter(f => f.toLowerCase().includes(q)) : allFiles);
 
     updateEditorTitle();
     setAutoCommit();
