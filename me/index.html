@@ -153,7 +153,8 @@ textarea{
   width:100%;
   height:100%;
   border:0;
-  outline:0;
+  outline:none;
+  box-shadow:none;
   resize:none;
   padding:18px;
   background:#020617;
@@ -167,12 +168,13 @@ textarea{
   -webkit-appearance:none;
 }
 
-textarea::placeholder{
-  color:#64748b;
+textarea:focus{
+  outline:none;
+  box-shadow:none;
 }
 
-textarea:focus{
-  box-shadow:inset 0 0 0 2px #22c55e;
+textarea::placeholder{
+  color:#64748b;
 }
 
 .sticky-actions{
@@ -380,16 +382,23 @@ const password = localStorage.getItem("blog_admin_password") || "";
 
 let saveTimes = {};
 
+const labelMap = {
+  "shopping.json":"Shopping",
+  "todo.json":"Todo",
+  "cricket.json":"Cricket",
+  "football.json":"Football"
+};
+
+function getFileLabel(file){
+  return labelMap[file] || file.replace(".json","");
+}
+
 function setStatus(message,type="info"){
 
-  const box =
-    document.getElementById("statusBox");
-
-  const status =
-    document.getElementById("status");
+  const box = document.getElementById("statusBox");
+  const status = document.getElementById("status");
 
   box.style.display = "block";
-
   status.innerText = message;
 
   if(type === "success"){
@@ -408,233 +417,153 @@ function setStatus(message,type="info"){
 
 function updateLineNumbers(){
 
-  const editor =
-    document.getElementById("editor");
+  const editor = document.getElementById("editor");
+  const lineNumbers = document.getElementById("lineNumbers");
 
-  const lineNumbers =
-    document.getElementById("lineNumbers");
-
-  const lines =
-    editor.value.split("\n").length;
+  const lines = editor.value.split("\n").length;
 
   lineNumbers.textContent =
-    Array.from(
-      {length:lines},
-      (_,i)=>i+1
-    ).join("\n");
+    Array.from({length:lines},(_,i)=>i+1).join("\n");
 }
 
 function syncScroll(){
-
-  const editor =
-    document.getElementById("editor");
-
-  document.getElementById("lineNumbers")
-    .scrollTop = editor.scrollTop;
+  document.getElementById("lineNumbers").scrollTop =
+    document.getElementById("editor").scrollTop;
 }
 
 function timeAgo(timestamp){
 
   if(!timestamp) return "Ready";
 
-  const seconds =
-    Math.floor((Date.now()-timestamp)/1000);
+  const seconds = Math.floor((Date.now()-timestamp)/1000);
 
-  if(seconds < 10)
-    return "Saved just now";
+  if(seconds < 10) return "Updated just now";
+  if(seconds < 60) return `Updated ${seconds}s ago`;
 
-  if(seconds < 60)
-    return `Saved ${seconds}s ago`;
+  const minutes = Math.floor(seconds/60);
+  if(minutes < 60) return `Updated ${minutes}m ago`;
 
-  const minutes =
-    Math.floor(seconds/60);
+  const hours = Math.floor(minutes/60);
+  if(hours < 24) return `Updated ${hours}h ago`;
 
-  if(minutes < 60)
-    return `Saved ${minutes}m ago`;
-
-  const hours =
-    Math.floor(minutes/60);
-
-  return `Saved ${hours}h ago`;
+  const days = Math.floor(hours/24);
+  return `Updated ${days}d ago`;
 }
 
 function updateSaveInfo(){
 
-  const file =
-    document.getElementById("file").value;
+  const file = document.getElementById("file").value;
 
-  document.getElementById("saveInfo")
-    .innerText =
-      timeAgo(saveTimes[file]);
+  document.getElementById("saveInfo").innerText =
+    timeAgo(saveTimes[file]);
 }
 
 function updateEditorTitle(){
 
-  const file =
-    document.getElementById("file").value;
+  const file = document.getElementById("file").value;
 
-  let label = file;
+  document.getElementById("editorTitle").innerText =
+    getFileLabel(file);
+}
 
-  if(file === "shopping.json")
-    label = "Shopping";
-
-  if(file === "todo.json")
-    label = "Todo";
-
-  if(file === "cricket.json")
-    label = "Cricket";
-
-  if(file === "football.json")
-    label = "Football";
-
-  document.getElementById("editorTitle")
-    .innerText = label;
+function getCurrentHHMM(){
+  const d = new Date();
+  const hh = String(d.getHours()).padStart(2,"0");
+  const mm = String(d.getMinutes()).padStart(2,"0");
+  return `${hh}:${mm}`;
 }
 
 function autoCommitText(){
 
-  const file =
-    document.getElementById("file").value;
+  const file = document.getElementById("file").value;
 
-  const d = new Date();
-
-  const hh =
-    String(d.getHours()).padStart(2,"0");
-
-  const mm =
-    String(d.getMinutes()).padStart(2,"0");
-
-  document.getElementById("commitMessage")
-    .value =
-      `${hh}:${mm} update ${file}`;
+  document.getElementById("commitMessage").value =
+    `${getCurrentHHMM()} - ${getFileLabel(file)}`;
 }
 
 function searchFiles(){
 
-  const q =
-    document.getElementById("floatingSearch")
-    .value
-    .toLowerCase();
-
-  const select =
-    document.getElementById("file");
+  const q = document.getElementById("floatingSearch").value.toLowerCase();
+  const select = document.getElementById("file");
 
   for(let option of select.options){
-
-    if(
-      option.text.toLowerCase().includes(q)
-    ){
+    if(option.text.toLowerCase().includes(q)){
       select.value = option.value;
       updateEditorTitle();
+      autoCommitText();
       return;
     }
-
   }
 }
 
 async function loadFile(){
 
-  const file =
-    document.getElementById("file").value;
+  const file = document.getElementById("file").value;
 
   updateEditorTitle();
   autoCommitText();
 
-  setStatus(
-    `Loading ${file}...`,
-    "info"
-  );
+  setStatus(`Loading ${getFileLabel(file)}...`,"info");
 
   try{
 
-    const res =
-      await fetch(
-        `${API_URL}?file=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
-      );
+    const res = await fetch(
+      `${API_URL}?file=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
+    );
 
-    const data =
-      await res.json();
+    const data = await res.json();
 
     if(!res.ok){
-
-      throw new Error(
-        data.message ||
-        data.error ||
-        "Load failed"
-      );
-
+      throw new Error(data.message || data.error || "Load failed");
     }
 
-    document.getElementById("editor")
-      .value =
-        data.content || "";
+    document.getElementById("editor").value =
+      data.content || "";
 
     updateLineNumbers();
 
     setStatus(
-      `✅ Loaded ${file}`,
+      `${timeAgo(saveTimes[file])}`,
       "success"
     );
 
   }catch(e){
 
-    setStatus(
-      `❌ ${e.message}`,
-      "error"
-    );
+    setStatus(`❌ ${e.message}`,"error");
 
   }
 }
 
 async function saveFile(){
 
-  const file =
-    document.getElementById("file").value;
+  const file = document.getElementById("file").value;
+  const label = getFileLabel(file);
 
-  const content =
-    document.getElementById("editor")
-    .value;
+  const content = document.getElementById("editor").value;
 
   const message =
-    document.getElementById("commitMessage")
-    .value
-    .trim()
-    || `Update ${file}`;
+    document.getElementById("commitMessage").value.trim()
+    || `${getCurrentHHMM()} - ${label}`;
 
-  setStatus(
-    `Saving ${file}...`,
-    "info"
-  );
+  setStatus(`Saving ${label}...`,"info");
 
   try{
 
-    const res =
-      await fetch(API_URL,{
-        method:"POST",
+    const res = await fetch(API_URL,{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({
+        password,
+        file,
+        content,
+        message
+      })
+    });
 
-        headers:{
-          "Content-Type":"application/json"
-        },
-
-        body:JSON.stringify({
-          password,
-          file,
-          content,
-          message
-        })
-      });
-
-    const data =
-      await res.json();
+    const data = await res.json();
 
     if(!res.ok){
-
-      throw new Error(
-        data.message ||
-        data.error ||
-        "Save failed"
-      );
-
+      throw new Error(data.message || data.error || "Save failed");
     }
 
     saveTimes[file] = Date.now();
@@ -642,16 +571,13 @@ async function saveFile(){
     updateSaveInfo();
 
     setStatus(
-      `✅ Saved ${file}`,
+      timeAgo(saveTimes[file]),
       "success"
     );
 
   }catch(e){
 
-    setStatus(
-      `❌ ${e.message}`,
-      "error"
-    );
+    setStatus(`❌ ${e.message}`,"error");
 
   }
 }
