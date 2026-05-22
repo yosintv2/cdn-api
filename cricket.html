@@ -595,7 +595,7 @@
 
     async function loadMatches() {
         if (updateIntervalId) clearInterval(updateIntervalId);
-        const apiUrl = 'https://yosintv-api.pages.dev/api/cricket.json';
+        const apiUrl = 'https://yosintvapi.pages.dev/api/match-cricket.json';
         const list = document.getElementById('cricket-list');
         try {
             const res = await fetch(apiUrl);
