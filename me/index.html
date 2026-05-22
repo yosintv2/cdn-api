@@ -2,51 +2,50 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>My JSON Admin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>YoSin Notes</title>
 
 <style>
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box;
+  -webkit-tap-highlight-color:transparent;
+}
 
 body{
   margin:0;
   font-family:Arial,sans-serif;
-  background:linear-gradient(135deg,#020617,#0f172a);
-  color:#fff;
+  background:#020617;
+  color:white;
 }
 
 .wrap{
-  max-width:1200px;
+  max-width:1000px;
   margin:auto;
-  padding:20px;
+  padding:14px;
 }
 
 .header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:15px;
-  flex-wrap:wrap;
-  margin-bottom:20px;
+  margin-bottom:14px;
 }
 
-h1{margin:0;font-size:30px}
-
-.badge{
-  background:#22c55e;
-  color:#052e16;
-  padding:8px 14px;
-  border-radius:999px;
-  font-weight:800;
+.title{
+  font-size:28px;
+  font-weight:900;
+  margin:0;
 }
 
-.card{
-  background:#1e293b;
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:20px;
-  padding:18px;
-  margin-bottom:18px;
-  box-shadow:0 12px 35px rgba(0,0,0,.28);
+.subtitle{
+  margin-top:5px;
+  color:#94a3b8;
+  font-size:13px;
+}
+
+.top-card{
+  background:#0f172a;
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:18px;
+  padding:14px;
+  margin-bottom:14px;
 }
 
 .row{
@@ -55,193 +54,231 @@ h1{margin:0;font-size:30px}
   flex-wrap:wrap;
 }
 
-button,select,input{
+select,
+input,
+button{
   border:0;
-  border-radius:12px;
-  padding:13px 15px;
+  outline:0;
+  border-radius:14px;
+  padding:14px;
   font-size:15px;
 }
 
-select,input{
-  background:#334155;
+select,
+input{
+  background:#1e293b;
   color:white;
 }
 
 input{
-  min-width:260px;
   flex:1;
+  min-width:160px;
 }
 
 button{
   background:#22c55e;
   color:#04130a;
-  font-weight:800;
+  font-weight:900;
   cursor:pointer;
-  transition:.2s;
 }
 
-button:hover{
-  opacity:.9;
-  transform:translateY(-1px);
+button:active{
+  transform:scale(.98);
 }
 
-.blue{background:#38bdf8;color:#082f49}
-.danger{background:#ef4444;color:#fff}
-.dark{background:#475569;color:white}
+#statusBox{
+  display:none;
+  margin-bottom:14px;
+}
 
-#statusBox{display:none}
-#status{margin:0;font-weight:700}
+.status{
+  background:#0f172a;
+  border-radius:18px;
+  padding:14px;
+  font-size:14px;
+  font-weight:700;
+}
 
 .editor-card{
-  padding:0;
+  background:#0f172a;
+  border-radius:20px;
   overflow:hidden;
+  border:1px solid rgba(255,255,255,.06);
 }
 
 .editor-top{
   display:flex;
-  justify-content:space-between;
   align-items:center;
+  justify-content:space-between;
   gap:10px;
-  flex-wrap:wrap;
+  padding:14px;
+  border-bottom:1px solid rgba(255,255,255,.06);
   background:#020617;
-  border-bottom:1px solid rgba(255,255,255,.08);
-  padding:12px 16px;
 }
 
 .editor-title{
-  font-weight:800;
+  font-weight:900;
   color:#93c5fd;
+  font-size:14px;
 }
 
-.editor-actions{
-  font-size:13px;
+.save-info{
+  font-size:12px;
   color:#94a3b8;
 }
 
-.code-editor-wrap{
+.editor-wrap{
   display:flex;
-  width:100%;
   height:72vh;
-  background:#020617;
   overflow:hidden;
 }
 
 #lineNumbers{
   margin:0;
-  padding:20px 10px;
-  min-width:60px;
+  padding:18px 10px;
+  min-width:50px;
   text-align:right;
   background:#020617;
-  color:#64748b;
-  font-family:"SFMono-Regular","Consolas","Liberation Mono",monospace;
-  font-size:12.5px;
-  line-height:1.5;
-  user-select:none;
+  color:#475569;
+  border-right:1px solid rgba(255,255,255,.05);
+  font-size:12px;
+  line-height:1.6;
+  font-family:monospace;
   overflow:hidden;
-  border-right:1px solid rgba(255,255,255,.08);
+  user-select:none;
 }
 
 textarea{
   flex:1;
   width:100%;
   height:100%;
-  display:block;
-  background:#020617;
-  color:#d1fae5;
-  font-family:"SFMono-Regular","Consolas","Liberation Mono",monospace;
-  font-size:12.5px;
-  line-height:1.5;
   border:0;
   outline:0;
-  padding:20px;
   resize:none;
+  padding:18px;
+  background:#020617;
+  color:#e2e8f0;
+  font-size:14px;
+  line-height:1.7;
+  font-family:monospace;
+  overflow:auto;
   white-space:pre-wrap;
   overflow-wrap:anywhere;
-  word-break:normal;
-  overflow-x:auto;
-  overflow-y:auto;
-  tab-size:2;
-  caret-color:#22c55e;
+  -webkit-appearance:none;
+}
+
+textarea::placeholder{
+  color:#64748b;
 }
 
 textarea:focus{
   box-shadow:inset 0 0 0 2px #22c55e;
 }
 
-.small-note{
-  font-size:13px;
-  color:#94a3b8;
-  margin-top:10px;
-}
-
-.footer{
-  text-align:center;
-  opacity:.6;
-  font-size:13px;
-  padding-bottom:100px;
-}
-
 .sticky-actions{
   position:fixed;
-  right:20px;
-  bottom:20px;
-  z-index:9999;
+  right:14px;
+  bottom:14px;
+  z-index:999;
   display:flex;
   flex-direction:column;
-  gap:12px;
+  gap:10px;
 }
 
 .sticky-actions input{
-  min-width:180px;
-  padding:14px 16px;
-  border:0;
-  border-radius:16px;
+  width:150px;
   background:#1e293b;
   color:white;
-  font-size:14px;
-  font-weight:700;
+  border:0;
+  border-radius:14px;
+  padding:13px;
+  font-size:13px;
   outline:none;
   box-shadow:0 10px 25px rgba(0,0,0,.35);
 }
 
 .sticky-actions button{
-  min-width:150px;
-  padding:15px 18px;
+  min-width:130px;
+  padding:14px;
   border-radius:16px;
   border:0;
-  font-size:15px;
-  font-weight:800;
+  font-size:14px;
+  font-weight:900;
   cursor:pointer;
   box-shadow:0 10px 25px rgba(0,0,0,.35);
 }
 
-.sticky-load{background:#38bdf8;color:#082f49}
-.sticky-save{background:#22c55e;color:#04130a}
+.load-btn{
+  background:#38bdf8;
+  color:#082f49;
+}
+
+.save-btn{
+  background:#22c55e;
+  color:#04130a;
+}
+
+textarea::-webkit-scrollbar{
+  width:8px;
+  height:8px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+  background:#334155;
+  border-radius:999px;
+}
 
 @media(max-width:768px){
-  .row{flex-direction:column}
-  button,select,input{width:100%}
-  h1{font-size:24px}
-  .code-editor-wrap{height:66vh}
-  textarea{font-size:12px;line-height:1.45}
-  #lineNumbers{font-size:12px;line-height:1.45;min-width:54px}
+
+  .wrap{
+    padding:10px;
+  }
+
+  .title{
+    font-size:24px;
+  }
+
+  .row{
+    flex-direction:column;
+  }
+
+  select,
+  input,
+  button{
+    width:100%;
+  }
+
+  .editor-wrap{
+    height:76vh;
+  }
+
+  textarea{
+    font-size:13px;
+    line-height:1.6;
+    padding:14px;
+  }
+
+  #lineNumbers{
+    padding:14px 8px;
+    min-width:42px;
+    font-size:11px;
+  }
 
   .sticky-actions{
-    right:14px;
-    bottom:14px;
-    gap:10px;
+    right:10px;
+    bottom:10px;
   }
 
   .sticky-actions input{
-    min-width:140px;
-    padding:12px 14px;
-    font-size:13px;
+    width:130px;
+    font-size:12px;
+    padding:12px;
   }
 
   .sticky-actions button{
-    min-width:120px;
-    padding:14px 16px;
-    font-size:14px;
+    min-width:110px;
+    padding:13px;
+    font-size:13px;
   }
 }
 </style>
@@ -252,68 +289,67 @@ textarea:focus{
 <div class="wrap">
 
   <div class="header">
-    <h1>My JSON Admin</h1>
-    <div class="badge">/me folder</div>
+    <h1 class="title">YoSin Notes</h1>
+    <div class="subtitle">
+      Personal cloud notes synced with GitHub
+    </div>
   </div>
 
-  <div class="card">
+  <div class="top-card">
+
     <div class="row">
 
       <select id="file">
-        <option>Loading me/*.json...</option>
+        <option value="shopping.json">Shopping</option>
+        <option value="todo.json">Todo</option>
+        <option value="cricket.json">Cricket</option>
+        <option value="football.json">Football</option>
       </select>
 
       <input
         type="text"
-        id="searchFile"
-        placeholder="Search: cricket, football, todo, shopping"
-        oninput="filterFiles()"
-      />
-
-      <input
-        type="text"
         id="commitMessage"
-        placeholder="Auto commit note..."
+        placeholder="Update note..."
       />
 
-      <button class="blue" onclick="formatJson()">Format</button>
-      <button class="danger" onclick="clearEditor()">Clear</button>
-      <button class="dark" onclick="logout()">Logout</button>
-
     </div>
 
-    <div class="small-note">
-      This editor only loads and saves JSON files inside <b>/me/</b> folder.
+  </div>
+
+  <div id="statusBox">
+    <div class="status" id="status">
+      Ready
     </div>
   </div>
 
-  <div id="statusBox" class="card">
-    <p id="status">Ready</p>
-  </div>
-
-  <div class="card editor-card">
+  <div class="editor-card">
 
     <div class="editor-top">
-      <div class="editor-title" id="editorTitle">Select JSON file</div>
-      <div class="editor-actions">Line Numbers · JSON Validator · GitHub Save</div>
+
+      <div class="editor-title" id="editorTitle">
+        Shopping
+      </div>
+
+      <div class="save-info" id="saveInfo">
+        Ready
+      </div>
+
     </div>
 
-    <div class="code-editor-wrap">
+    <div class="editor-wrap">
+
       <pre id="lineNumbers">1</pre>
 
       <textarea
         id="editor"
         spellcheck="false"
-        placeholder="Select and load JSON file..."
-        oninput="updateLineNumbers(); validateJsonLive();"
+        placeholder="Write your notes here..."
+        oninput="updateLineNumbers()"
         onscroll="syncScroll()"
       ></textarea>
+
     </div>
 
-  </div>
-
-  <div class="footer">
-    My JSON Admin · Vercel + GitHub API
   </div>
 
 </div>
@@ -323,415 +359,318 @@ textarea:focus{
   <input
     type="text"
     id="floatingSearch"
-    placeholder="Search file..."
-    oninput="floatingSearchFiles()"
+    placeholder="Search note..."
+    oninput="searchFiles()"
   />
 
-  <button class="sticky-load" onclick="loadFile()">📂 Load</button>
-  <button class="sticky-save" onclick="saveFile()">💾 Save</button>
+  <button class="load-btn" onclick="loadFile()">
+    📂 Load
+  </button>
+
+  <button class="save-btn" onclick="saveFile()">
+    💾 Save
+  </button>
 
 </div>
 
 <script>
 const API_URL = "/api/me-github";
 
-let allFiles = [];
+const password = localStorage.getItem("blog_admin_password") || "";
 
-const password = localStorage.getItem("blog_admin_password");
+let saveTimes = {};
 
-if(!password){
-  window.location.href = "/admin/login.html";
-}
+function setStatus(message,type="info"){
 
-function getSavedFiles(){
-  return JSON.parse(localStorage.getItem("me_saved_files") || "{}");
-}
+  const box =
+    document.getElementById("statusBox");
 
-function markFileSaved(file){
-  const saved = getSavedFiles();
-  saved[file] = Date.now();
-  localStorage.setItem("me_saved_files", JSON.stringify(saved));
-}
-
-function timeAgo(timestamp){
-  if(!timestamp) return "";
-
-  const seconds = Math.floor((Date.now() - timestamp) / 1000);
-
-  if(seconds < 10) return "just now";
-  if(seconds < 60) return `${seconds} seconds ago`;
-
-  const minutes = Math.floor(seconds / 60);
-  if(minutes < 60) return `${minutes} minute${minutes > 1 ? "s" : ""} ago`;
-
-  const hours = Math.floor(minutes / 60);
-  if(hours < 24) return `${hours} hour${hours > 1 ? "s" : ""} ago`;
-
-  const days = Math.floor(hours / 24);
-  return `${days} day${days > 1 ? "s" : ""} ago`;
-}
-
-function getCurrentTimeText(){
-  const d = new Date();
-  const yyyy = d.getFullYear();
-  const mm = String(d.getMonth() + 1).padStart(2,"0");
-  const dd = String(d.getDate()).padStart(2,"0");
-  const hh = String(d.getHours()).padStart(2,"0");
-  const min = String(d.getMinutes()).padStart(2,"0");
-
-  return `${yyyy}-${mm}-${dd} ${hh}:${min}`;
-}
-
-function makeAutoCommitMessage(file){
-  return `${getCurrentTimeText()} - me/${file}`;
-}
-
-function setAutoCommit(){
-  const file = document.getElementById("file").value;
-
-  if(!file || file.includes("Loading")) return;
-
-  document.getElementById("commitMessage").value =
-    makeAutoCommitMessage(file);
-}
-
-function setStatus(msg,type="info"){
-  const status = document.getElementById("status");
-  const box = document.getElementById("statusBox");
+  const status =
+    document.getElementById("status");
 
   box.style.display = "block";
-  status.innerText = msg;
+
+  status.innerText = message;
 
   if(type === "success"){
-    box.style.background = "#052e16";
-    box.style.borderColor = "#16a34a";
+    status.style.background = "#052e16";
     status.style.color = "#86efac";
   }
   else if(type === "error"){
-    box.style.background = "#450a0a";
-    box.style.borderColor = "#dc2626";
+    status.style.background = "#450a0a";
     status.style.color = "#fca5a5";
   }
   else{
-    box.style.background = "#1e293b";
-    box.style.borderColor = "rgba(255,255,255,.08)";
+    status.style.background = "#0f172a";
     status.style.color = "#e2e8f0";
   }
 }
 
-function updateEditorTitle(){
-  const file = document.getElementById("file").value;
-  const saved = getSavedFiles();
-
-  if(saved[file]){
-    document.getElementById("editorTitle").innerText =
-      `Editing: me/${file} ✅ - updated ${timeAgo(saved[file])}`;
-  }else{
-    document.getElementById("editorTitle").innerText =
-      "Editing: me/" + file;
-  }
-}
-
 function updateLineNumbers(){
-  const editor = document.getElementById("editor");
-  const lineNumbers = document.getElementById("lineNumbers");
 
-  const lines = editor.value.split("\n").length;
+  const editor =
+    document.getElementById("editor");
 
-  lineNumbers.textContent = Array.from(
-    {length: lines},
-    (_, i) => i + 1
-  ).join("\n");
+  const lineNumbers =
+    document.getElementById("lineNumbers");
+
+  const lines =
+    editor.value.split("\n").length;
+
+  lineNumbers.textContent =
+    Array.from(
+      {length:lines},
+      (_,i)=>i+1
+    ).join("\n");
 }
 
 function syncScroll(){
-  document.getElementById("lineNumbers").scrollTop =
-    document.getElementById("editor").scrollTop;
+
+  const editor =
+    document.getElementById("editor");
+
+  document.getElementById("lineNumbers")
+    .scrollTop = editor.scrollTop;
 }
 
-function getJsonErrorLine(error,text){
-  const msg = error.message;
-  const posMatch = msg.match(/position (\d+)/i);
+function timeAgo(timestamp){
 
-  if(posMatch){
-    const pos = Number(posMatch[1]);
-    const before = text.slice(0,pos);
-    const lines = before.split("\n");
+  if(!timestamp) return "Ready";
 
-    return {
-      line:lines.length,
-      column:lines[lines.length - 1].length + 1,
-      message:msg
-    };
-  }
+  const seconds =
+    Math.floor((Date.now()-timestamp)/1000);
 
-  return {
-    line:null,
-    column:null,
-    message:msg
-  };
+  if(seconds < 10)
+    return "Saved just now";
+
+  if(seconds < 60)
+    return `Saved ${seconds}s ago`;
+
+  const minutes =
+    Math.floor(seconds/60);
+
+  if(minutes < 60)
+    return `Saved ${minutes}m ago`;
+
+  const hours =
+    Math.floor(minutes/60);
+
+  return `Saved ${hours}h ago`;
 }
 
-function validateJsonLive(){
-  const text = document.getElementById("editor").value.trim();
+function updateSaveInfo(){
 
-  if(!text){
-    setStatus("Editor is empty","info");
-    return false;
-  }
+  const file =
+    document.getElementById("file").value;
 
-  try{
-    JSON.parse(text);
-    setStatus("✅ Valid JSON","success");
-    return true;
-  }catch(e){
-    const err = getJsonErrorLine(e,text);
+  document.getElementById("saveInfo")
+    .innerText =
+      timeAgo(saveTimes[file]);
+}
 
-    if(err.line){
-      setStatus(
-        `❌ JSON Error on line ${err.line}, column ${err.column}: ${err.message}`,
-        "error"
-      );
-    }else{
-      setStatus("❌ JSON Error: " + err.message,"error");
+function updateEditorTitle(){
+
+  const file =
+    document.getElementById("file").value;
+
+  let label = file;
+
+  if(file === "shopping.json")
+    label = "Shopping";
+
+  if(file === "todo.json")
+    label = "Todo";
+
+  if(file === "cricket.json")
+    label = "Cricket";
+
+  if(file === "football.json")
+    label = "Football";
+
+  document.getElementById("editorTitle")
+    .innerText = label;
+}
+
+function autoCommitText(){
+
+  const file =
+    document.getElementById("file").value;
+
+  const d = new Date();
+
+  const hh =
+    String(d.getHours()).padStart(2,"0");
+
+  const mm =
+    String(d.getMinutes()).padStart(2,"0");
+
+  document.getElementById("commitMessage")
+    .value =
+      `${hh}:${mm} update ${file}`;
+}
+
+function searchFiles(){
+
+  const q =
+    document.getElementById("floatingSearch")
+    .value
+    .toLowerCase();
+
+  const select =
+    document.getElementById("file");
+
+  for(let option of select.options){
+
+    if(
+      option.text.toLowerCase().includes(q)
+    ){
+      select.value = option.value;
+      updateEditorTitle();
+      return;
     }
 
-    return false;
   }
 }
-
-function populateFiles(files){
-  const select = document.getElementById("file");
-  const currentValue = select.value;
-  const saved = getSavedFiles();
-
-  select.innerHTML = "";
-
-  if(!files.length){
-    const opt = document.createElement("option");
-    opt.value = "";
-    opt.textContent = "No JSON files found in /me/";
-    select.appendChild(opt);
-    updateEditorTitle();
-    return;
-  }
-
-  files.forEach(file => {
-    const opt = document.createElement("option");
-    opt.value = file;
-    opt.textContent = saved[file] ? `${file} ✅` : file;
-    select.appendChild(opt);
-  });
-
-  if(files.includes(currentValue)){
-    select.value = currentValue;
-  }
-
-  updateEditorTitle();
-  setAutoCommit();
-}
-
-function filterFiles(){
-  const q = document.getElementById("searchFile").value.toLowerCase();
-
-  populateFiles(
-    allFiles.filter(file => file.toLowerCase().includes(q))
-  );
-}
-
-function floatingSearchFiles(){
-  const q = document.getElementById("floatingSearch").value.toLowerCase();
-
-  populateFiles(
-    allFiles.filter(file => file.toLowerCase().includes(q))
-  );
-}
-
-async function loadFileList(){
-  setStatus("Loading /me JSON files...","info");
-
-  try{
-    const res = await fetch(
-      `${API_URL}?action=list&password=${encodeURIComponent(password)}`
-    );
-
-    const data = await res.json();
-
-    if(!res.ok){
-      throw new Error(data.message || data.error || "Failed to load file list");
-    }
-
-    allFiles = data.files || [];
-
-    populateFiles(allFiles);
-
-    setStatus(`✅ Loaded ${allFiles.length} JSON files from /me/`,"success");
-
-    if(allFiles.length){
-      loadFile();
-    }
-
-  }catch(e){
-    setStatus("❌ " + e.message,"error");
-  }
-}
-
-document.getElementById("file").addEventListener("change",function(){
-  updateEditorTitle();
-  setAutoCommit();
-  loadFile();
-});
 
 async function loadFile(){
-  const file = document.getElementById("file").value;
 
-  if(!file || file.includes("Loading") || file.includes("No JSON")) return;
+  const file =
+    document.getElementById("file").value;
 
   updateEditorTitle();
-  setAutoCommit();
+  autoCommitText();
 
-  setStatus("Loading me/" + file + "...","info");
+  setStatus(
+    `Loading ${file}...`,
+    "info"
+  );
 
   try{
-    const res = await fetch(
-      `${API_URL}?file=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
-    );
 
-    const data = await res.json();
+    const res =
+      await fetch(
+        `${API_URL}?file=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
+      );
+
+    const data =
+      await res.json();
 
     if(!res.ok){
-      throw new Error(data.message || data.error || "Load failed");
+
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Load failed"
+      );
+
     }
 
-    const editor = document.getElementById("editor");
-
-    editor.value = JSON.stringify(data.content,null,2);
+    document.getElementById("editor")
+      .value =
+        data.content || "";
 
     updateLineNumbers();
-    validateJsonLive();
 
-    setStatus("✅ Loaded successfully: me/" + file,"success");
+    setStatus(
+      `✅ Loaded ${file}`,
+      "success"
+    );
 
   }catch(e){
-    setStatus("❌ " + e.message,"error");
+
+    setStatus(
+      `❌ ${e.message}`,
+      "error"
+    );
+
   }
 }
 
 async function saveFile(){
-  const file = document.getElementById("file").value;
-  const editor = document.getElementById("editor");
 
-  if(!file || file.includes("Loading") || file.includes("No JSON")){
-    setStatus("❌ Please select a valid JSON file.","error");
-    return;
-  }
+  const file =
+    document.getElementById("file").value;
 
-  const commitMessage =
-    document.getElementById("commitMessage").value.trim()
-    || makeAutoCommitMessage(file);
+  const content =
+    document.getElementById("editor")
+    .value;
 
-  let content;
+  const message =
+    document.getElementById("commitMessage")
+    .value
+    .trim()
+    || `Update ${file}`;
 
-  try{
-    content = JSON.parse(editor.value);
-  }catch(e){
-    const err = getJsonErrorLine(e,editor.value);
-
-    if(err.line){
-      setStatus(
-        `❌ Cannot save. JSON error on line ${err.line}, column ${err.column}: ${err.message}`,
-        "error"
-      );
-    }else{
-      setStatus("❌ Cannot save. JSON error: " + err.message,"error");
-    }
-
-    return;
-  }
-
-  setStatus("Saving me/" + file + " to GitHub...","info");
+  setStatus(
+    `Saving ${file}...`,
+    "info"
+  );
 
   try{
-    const res = await fetch(API_URL,{
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({
-        password,
-        file,
-        content,
-        message:commitMessage
-      })
-    });
 
-    const data = await res.json();
+    const res =
+      await fetch(API_URL,{
+        method:"POST",
+
+        headers:{
+          "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify({
+          password,
+          file,
+          content,
+          message
+        })
+      });
+
+    const data =
+      await res.json();
 
     if(!res.ok){
-      throw new Error(data.message || data.error || "Save failed");
+
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Save failed"
+      );
+
     }
 
-    markFileSaved(file);
+    saveTimes[file] = Date.now();
 
-    const q = document.getElementById("searchFile").value.toLowerCase();
+    updateSaveInfo();
 
-    populateFiles(
-      q
-      ? allFiles.filter(f => f.toLowerCase().includes(q))
-      : allFiles
+    setStatus(
+      `✅ Saved ${file}`,
+      "success"
     );
 
-    updateEditorTitle();
-    setAutoCommit();
-    updateLineNumbers();
-    validateJsonLive();
-
-    setStatus("✅ Saved successfully: me/" + file,"success");
-
   }catch(e){
-    setStatus("❌ " + e.message,"error");
+
+    setStatus(
+      `❌ ${e.message}`,
+      "error"
+    );
+
   }
 }
 
-function formatJson(){
-  try{
-    const editor = document.getElementById("editor");
-    const json = JSON.parse(editor.value);
+document.getElementById("file")
+.addEventListener("change",()=>{
 
-    editor.value = JSON.stringify(json,null,2);
+  updateEditorTitle();
+  autoCommitText();
+  loadFile();
 
-    updateLineNumbers();
-    validateJsonLive();
+});
 
-    setStatus("✅ JSON formatted successfully","success");
-
-  }catch(e){
-    const err = getJsonErrorLine(e,document.getElementById("editor").value);
-
-    if(err.line){
-      setStatus(
-        `❌ JSON Error on line ${err.line}, column ${err.column}: ${err.message}`,
-        "error"
-      );
-    }else{
-      setStatus("❌ Invalid JSON","error");
-    }
-  }
-}
-
-function clearEditor(){
-  document.getElementById("editor").value = "";
-  updateLineNumbers();
-  setStatus("Editor cleared","info");
-}
-
-function logout(){
-  localStorage.removeItem("blog_admin_password");
-  window.location.href = "/admin/login.html";
-}
-
-setInterval(updateEditorTitle,30000);
+setInterval(updateSaveInfo,1000);
 
 updateLineNumbers();
-loadFileList();
+updateEditorTitle();
+autoCommitText();
+loadFile();
 </script>
 
 </body>
