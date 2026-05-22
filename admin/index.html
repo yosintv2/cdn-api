@@ -251,6 +251,29 @@ textarea::-webkit-scrollbar-thumb:hover{
   gap:12px;
 }
 
+.sticky-actions input{
+  min-width:180px;
+  padding:14px 16px;
+
+  border:0;
+  border-radius:16px;
+
+  background:#1e293b;
+  color:white;
+
+  font-size:14px;
+  font-weight:700;
+
+  outline:none;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,.35);
+}
+
+.sticky-actions input::placeholder{
+  color:#94a3b8;
+}
+
 .sticky-actions button{
   min-width:150px;
   padding:15px 18px;
@@ -319,6 +342,13 @@ textarea::-webkit-scrollbar-thumb:hover{
     right:14px;
     bottom:14px;
     gap:10px;
+  }
+
+  .sticky-actions input{
+    min-width:140px;
+    padding:12px 14px;
+    font-size:13px;
+    border-radius:14px;
   }
 
   .sticky-actions button{
@@ -410,9 +440,16 @@ textarea::-webkit-scrollbar-thumb:hover{
 
 </div>
 
-<!-- STICKY ACTION BUTTONS -->
+<!-- STICKY ACTIONS -->
 
 <div class="sticky-actions">
+
+  <input
+    type="text"
+    id="floatingSearch"
+    placeholder="Search file..."
+    oninput="floatingSearchFiles()"
+  />
 
   <button class="sticky-load" onclick="loadFile()">
     📂 Load
@@ -551,9 +588,11 @@ function syncScroll(){
 
 function getJsonErrorLine(error,text){
   const msg = error.message;
+
   const posMatch = msg.match(/position (\d+)/i);
 
   if(posMatch){
+
     const pos = Number(posMatch[1]);
 
     const before = text.slice(0,pos);
@@ -580,6 +619,7 @@ function getJsonErrorLine(error,text){
 }
 
 function validateJsonLive(){
+
   const editor = document.getElementById("editor");
 
   const text = editor.value.trim();
@@ -590,6 +630,7 @@ function validateJsonLive(){
   }
 
   try{
+
     JSON.parse(text);
 
     setStatus("✅ Valid JSON","success");
@@ -686,6 +727,22 @@ function filterFiles(){
     );
 
   populateFiles(filtered);
+}
+
+function floatingSearchFiles(){
+
+  const q =
+    document.getElementById("floatingSearch")
+    .value
+    .toLowerCase();
+
+  const filtered =
+    allFiles.filter(file =>
+      file.toLowerCase().includes(q)
+    );
+
+  populateFiles(filtered);
+
 }
 
 function extractMatches(data){
