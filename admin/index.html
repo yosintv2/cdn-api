@@ -6,7 +6,9 @@
 <title>YoSinTV Admin</title>
 
 <style>
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box;
+}
 
 body{
   margin:0;
@@ -15,7 +17,11 @@ body{
   color:#fff;
 }
 
-.wrap{max-width:1250px;margin:auto;padding:20px}
+.wrap{
+  max-width:1250px;
+  margin:auto;
+  padding:20px;
+}
 
 .header{
   display:flex;
@@ -26,7 +32,10 @@ body{
   margin-bottom:20px;
 }
 
-h1{margin:0;font-size:30px}
+h1{
+  margin:0;
+  font-size:30px;
+}
 
 .badge{
   background:#22c55e;
@@ -45,17 +54,31 @@ h1{margin:0;font-size:30px}
   box-shadow:0 12px 35px rgba(0,0,0,.28);
 }
 
-.row{display:flex;gap:10px;flex-wrap:wrap}
+.row{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
 
-button,select,input{
+button,
+select,
+input{
   border:0;
   border-radius:12px;
   padding:13px 15px;
   font-size:15px;
 }
 
-select,input{background:#334155;color:white}
-input{min-width:260px;flex:1}
+select,
+input{
+  background:#334155;
+  color:white;
+}
+
+input{
+  min-width:260px;
+  flex:1;
+}
 
 button{
   background:#22c55e;
@@ -65,12 +88,30 @@ button{
   transition:.2s;
 }
 
-button:hover{opacity:.9;transform:translateY(-1px)}
-.blue{background:#38bdf8;color:#082f49}
-.danger{background:#ef4444;color:#fff}
-.dark{background:#475569;color:white}
+button:hover{
+  opacity:.9;
+  transform:translateY(-1px);
+}
 
-.editor-card{padding:0;overflow:hidden}
+.blue{
+  background:#38bdf8;
+  color:#082f49;
+}
+
+.danger{
+  background:#ef4444;
+  color:#fff;
+}
+
+.dark{
+  background:#475569;
+  color:white;
+}
+
+.editor-card{
+  padding:0;
+  overflow:hidden;
+}
 
 .editor-top{
   display:flex;
@@ -83,8 +124,15 @@ button:hover{opacity:.9;transform:translateY(-1px)}
   padding:12px 16px;
 }
 
-.editor-title{font-weight:800;color:#93c5fd}
-.editor-actions{font-size:13px;color:#94a3b8}
+.editor-title{
+  font-weight:800;
+  color:#93c5fd;
+}
+
+.editor-actions{
+  font-size:13px;
+  color:#94a3b8;
+}
 
 .code-editor-wrap{
   display:flex;
@@ -97,7 +145,7 @@ button:hover{opacity:.9;transform:translateY(-1px)}
 #lineNumbers{
   margin:0;
   padding:20px 10px;
-  min-width:52px;
+  min-width:60px;
   text-align:right;
   background:#020617;
   color:#64748b;
@@ -114,14 +162,23 @@ textarea{
   width:100%;
   height:100%;
   display:block;
+
   background:#020617;
   color:#d1fae5;
-  font-family:"SFMono-Regular","Consolas","Liberation Mono",monospace;
+
+  font-family:
+    "SFMono-Regular",
+    "Consolas",
+    "Liberation Mono",
+    monospace;
+
   font-size:12.5px;
   line-height:1.5;
+
   border:0;
   outline:0;
   padding:20px;
+
   resize:none;
 
   white-space:pre-wrap;
@@ -135,30 +192,142 @@ textarea{
   caret-color:#22c55e;
 }
 
-textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
+textarea:focus{
+  box-shadow:inset 0 0 0 2px #22c55e;
+}
 
-#status{margin:0;font-weight:700}
-#statusBox{display:none}
+#status{
+  margin:0;
+  font-weight:700;
+}
 
-.small-note{font-size:13px;color:#94a3b8;margin-top:10px}
-.footer{text-align:center;opacity:.6;font-size:13px;padding-bottom:20px}
+#statusBox{
+  display:none;
+}
+
+.small-note{
+  font-size:13px;
+  color:#94a3b8;
+  margin-top:10px;
+}
+
+.footer{
+  text-align:center;
+  opacity:.6;
+  font-size:13px;
+  padding-bottom:100px;
+}
+
+/* SCROLLBAR */
 
 textarea::-webkit-scrollbar{
   width:10px;
   height:10px;
 }
 
-textarea::-webkit-scrollbar-track{background:#020617}
-textarea::-webkit-scrollbar-thumb{background:#334155;border-radius:999px}
-textarea::-webkit-scrollbar-thumb:hover{background:#475569}
+textarea::-webkit-scrollbar-track{
+  background:#020617;
+}
+
+textarea::-webkit-scrollbar-thumb{
+  background:#334155;
+  border-radius:999px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover{
+  background:#475569;
+}
+
+/* STICKY BUTTONS */
+
+.sticky-actions{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  z-index:9999;
+
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.sticky-actions button{
+  min-width:150px;
+  padding:15px 18px;
+  border-radius:16px;
+  border:0;
+
+  font-size:15px;
+  font-weight:800;
+
+  cursor:pointer;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,.35);
+
+  transition:.2s;
+}
+
+.sticky-actions button:hover{
+  transform:translateY(-2px) scale(1.02);
+}
+
+.sticky-load{
+  background:#38bdf8;
+  color:#082f49;
+}
+
+.sticky-save{
+  background:#22c55e;
+  color:#04130a;
+}
+
+/* MOBILE */
 
 @media(max-width:768px){
-  .row{flex-direction:column}
-  button,select,input{width:100%}
-  h1{font-size:24px}
-  .code-editor-wrap{height:66vh}
-  textarea{font-size:12px;line-height:1.45}
-  #lineNumbers{font-size:12px;line-height:1.45}
+
+  .row{
+    flex-direction:column;
+  }
+
+  button,
+  select,
+  input{
+    width:100%;
+  }
+
+  h1{
+    font-size:24px;
+  }
+
+  .code-editor-wrap{
+    height:66vh;
+  }
+
+  textarea{
+    font-size:12px;
+    line-height:1.45;
+  }
+
+  #lineNumbers{
+    font-size:12px;
+    line-height:1.45;
+    min-width:54px;
+  }
+
+  .sticky-actions{
+    right:14px;
+    bottom:14px;
+    gap:10px;
+  }
+
+  .sticky-actions button{
+    min-width:120px;
+    padding:14px 16px;
+    font-size:14px;
+    border-radius:14px;
+  }
+
 }
 </style>
 </head>
@@ -182,7 +351,7 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
       <input
         type="text"
         id="searchFile"
-        placeholder="Search active JSON file e.g. ipl, nepal, alnassr"
+        placeholder="Search active JSON file..."
         oninput="filterFiles()"
       />
 
@@ -192,8 +361,6 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
         placeholder="Auto commit note..."
       />
 
-      <button onclick="loadFile()">Load</button>
-      <button onclick="saveFile()">Save</button>
       <button class="blue" onclick="formatJson()">Format</button>
       <button class="danger" onclick="clearEditor()">Clear</button>
       <button class="dark" onclick="logout()">Logout</button>
@@ -201,7 +368,7 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
     </div>
 
     <div class="small-note">
-      Dropdown shows only JSON files found from cricket/football API details_url. ✅ means saved from this browser.
+      ✅ Active JSON files only · Line numbers · JSON validator · Sticky Save/Load buttons
     </div>
   </div>
 
@@ -210,12 +377,19 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
   </div>
 
   <div class="card editor-card">
+
     <div class="editor-top">
-      <div class="editor-title" id="editorTitle">Select JSON file</div>
-      <div class="editor-actions">Line Numbers · JSON Validator · GitHub Save</div>
+      <div class="editor-title" id="editorTitle">
+        Select JSON file
+      </div>
+
+      <div class="editor-actions">
+        Line Numbers · JSON Validator · GitHub Save
+      </div>
     </div>
 
     <div class="code-editor-wrap">
+
       <pre id="lineNumbers">1</pre>
 
       <textarea
@@ -225,12 +399,28 @@ textarea::-webkit-scrollbar-thumb:hover{background:#475569}
         oninput="updateLineNumbers(); validateJsonLive();"
         onscroll="syncScroll()"
       ></textarea>
+
     </div>
+
   </div>
 
   <div class="footer">
-    YoSinTV Blog Admin · Vercel + GitHub API
+    YoSinTV Admin · Vercel + GitHub API
   </div>
+
+</div>
+
+<!-- STICKY ACTION BUTTONS -->
+
+<div class="sticky-actions">
+
+  <button class="sticky-load" onclick="loadFile()">
+    📂 Load
+  </button>
+
+  <button class="sticky-save" onclick="saveFile()">
+    💾 Save
+  </button>
 
 </div>
 
@@ -280,6 +470,7 @@ function timeAgo(timestamp){
 
 function getCurrentTimeText(){
   const d = new Date();
+
   const yyyy = d.getFullYear();
   const mm = String(d.getMonth() + 1).padStart(2,"0");
   const dd = String(d.getDate()).padStart(2,"0");
@@ -295,6 +486,7 @@ function makeAutoCommitMessage(file){
 
 function setAutoCommit(){
   const file = document.getElementById("file").value;
+
   if(!file || file.includes("Loading")) return;
 
   document.getElementById("commitMessage").value =
@@ -312,11 +504,13 @@ function setStatus(msg,type="info"){
     box.style.background = "#052e16";
     box.style.borderColor = "#16a34a";
     status.style.color = "#86efac";
-  }else if(type === "error"){
+  }
+  else if(type === "error"){
     box.style.background = "#450a0a";
     box.style.borderColor = "#dc2626";
     status.style.color = "#fca5a5";
-  }else{
+  }
+  else{
     box.style.background = "#1e293b";
     box.style.borderColor = "rgba(255,255,255,.08)";
     status.style.color = "#e2e8f0";
@@ -361,19 +555,33 @@ function getJsonErrorLine(error,text){
 
   if(posMatch){
     const pos = Number(posMatch[1]);
-    const before = text.slice(0,pos);
-    const lines = before.split("\n");
-    const line = lines.length;
-    const column = lines[lines.length - 1].length + 1;
 
-    return {line,column,message:msg};
+    const before = text.slice(0,pos);
+
+    const lines = before.split("\n");
+
+    const line = lines.length;
+
+    const column =
+      lines[lines.length - 1].length + 1;
+
+    return {
+      line,
+      column,
+      message:msg
+    };
   }
 
-  return {line:null,column:null,message:msg};
+  return {
+    line:null,
+    column:null,
+    message:msg
+  };
 }
 
 function validateJsonLive(){
   const editor = document.getElementById("editor");
+
   const text = editor.value.trim();
 
   if(!text){
@@ -383,21 +591,29 @@ function validateJsonLive(){
 
   try{
     JSON.parse(text);
+
     setStatus("✅ Valid JSON","success");
+
     return true;
+
   }catch(e){
+
     const err = getJsonErrorLine(e,text);
 
     if(err.line){
+
       setStatus(
         `❌ JSON Error on line ${err.line}, column ${err.column}: ${err.message}`,
         "error"
       );
+
     }else{
+
       setStatus(
         `❌ JSON Error: ${err.message}`,
         "error"
       );
+
     }
 
     return false;
@@ -405,26 +621,47 @@ function validateJsonLive(){
 }
 
 function populateFiles(files){
-  const select = document.getElementById("file");
+
+  const select =
+    document.getElementById("file");
+
   const currentValue = select.value;
+
   const saved = getSavedFiles();
 
   select.innerHTML = "";
 
   if(!files.length){
-    const opt = document.createElement("option");
+
+    const opt =
+      document.createElement("option");
+
     opt.value = "";
-    opt.textContent = "No active JSON files found";
+
+    opt.textContent =
+      "No active JSON files found";
+
     select.appendChild(opt);
+
     updateEditorTitle();
+
     return;
   }
 
   files.forEach(file => {
-    const opt = document.createElement("option");
+
+    const opt =
+      document.createElement("option");
+
     opt.value = file;
-    opt.textContent = saved[file] ? `${file} ✅` : file;
+
+    opt.textContent =
+      saved[file]
+      ? `${file} ✅`
+      : file;
+
     select.appendChild(opt);
+
   });
 
   if(files.includes(currentValue)){
@@ -432,228 +669,439 @@ function populateFiles(files){
   }
 
   updateEditorTitle();
+
   setAutoCommit();
 }
 
 function filterFiles(){
-  const q = document.getElementById("searchFile").value.toLowerCase();
-  const filtered = allFiles.filter(file => file.toLowerCase().includes(q));
+
+  const q =
+    document.getElementById("searchFile")
+    .value
+    .toLowerCase();
+
+  const filtered =
+    allFiles.filter(file =>
+      file.toLowerCase().includes(q)
+    );
+
   populateFiles(filtered);
 }
 
 function extractMatches(data){
-  if(Array.isArray(data)) return data;
-  if(Array.isArray(data.matches)) return data.matches;
-  if(Array.isArray(data.data)) return data.data;
-  if(Array.isArray(data.events)) return data.events;
+
+  if(Array.isArray(data))
+    return data;
+
+  if(Array.isArray(data.matches))
+    return data.matches;
+
+  if(Array.isArray(data.data))
+    return data.data;
+
+  if(Array.isArray(data.events))
+    return data.events;
+
   return [];
 }
 
 function extractJsonFileFromDetailsUrl(detailsUrl){
-  if(!detailsUrl) return null;
+
+  if(!detailsUrl)
+    return null;
 
   try{
-    const u = new URL(detailsUrl);
-    const slug = u.searchParams.get("yosintv");
 
-    if(!slug) return null;
+    const u =
+      new URL(detailsUrl);
 
-    return slug.trim().replace(/\.json$/i,"") + ".json";
+    const slug =
+      u.searchParams.get("yosintv");
+
+    if(!slug)
+      return null;
+
+    return slug
+      .trim()
+      .replace(/\.json$/i,"")
+      + ".json";
+
   }catch(e){
+
     return null;
+
   }
 }
 
 async function loadFileList(){
-  setStatus("Loading active JSON files from cricket/football API...","info");
+
+  setStatus(
+    "Loading active JSON files...",
+    "info"
+  );
 
   try{
+
     const found = new Set();
 
     for(const api of SOURCE_APIS){
-      const res = await fetch(api);
+
+      const res =
+        await fetch(api);
 
       if(!res.ok){
-        throw new Error("Could not load source API: " + api);
+
+        throw new Error(
+          "Could not load source API"
+        );
+
       }
 
-      const data = await res.json();
-      const matches = extractMatches(data);
+      const data =
+        await res.json();
+
+      const matches =
+        extractMatches(data);
 
       matches.forEach(item => {
-        const file = extractJsonFileFromDetailsUrl(item.details_url);
+
+        const file =
+          extractJsonFileFromDetailsUrl(
+            item.details_url
+          );
+
         if(file){
           found.add(file);
         }
+
       });
+
     }
 
-    allFiles = Array.from(found).sort();
+    allFiles =
+      Array.from(found).sort();
 
     populateFiles(allFiles);
 
-    setStatus("✅ Loaded " + allFiles.length + " active JSON files","success");
+    setStatus(
+      `✅ Loaded ${allFiles.length} active JSON files`,
+      "success"
+    );
 
     if(allFiles.length){
       loadFile();
     }
 
   }catch(e){
-    setStatus("❌ " + e.message,"error");
+
+    setStatus(
+      "❌ " + e.message,
+      "error"
+    );
+
   }
 }
 
-document.getElementById("file").addEventListener("change",function(){
+document
+.getElementById("file")
+.addEventListener("change",function(){
+
   updateEditorTitle();
+
   setAutoCommit();
+
   loadFile();
+
 });
 
 async function loadFile(){
-  const file = document.getElementById("file").value;
 
-  if(!file || file.includes("Loading") || file.includes("No active")) return;
+  const file =
+    document.getElementById("file").value;
+
+  if(
+    !file ||
+    file.includes("Loading") ||
+    file.includes("No active")
+  ) return;
 
   updateEditorTitle();
+
   setAutoCommit();
 
-  setStatus("Loading " + file + "...","info");
+  setStatus(
+    "Loading " + file + "...",
+    "info"
+  );
 
   try{
-    const res = await fetch(
-      `${API_URL}?path=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
-    );
 
-    const data = await res.json();
+    const res =
+      await fetch(
+        `${API_URL}?path=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
+      );
+
+    const data =
+      await res.json();
 
     if(!res.ok){
-      throw new Error(data.message || data.error || "Load failed");
+
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Load failed"
+      );
+
     }
 
-    const editor = document.getElementById("editor");
-    editor.value = JSON.stringify(data.content,null,2);
+    const editor =
+      document.getElementById("editor");
+
+    editor.value =
+      JSON.stringify(
+        data.content,
+        null,
+        2
+      );
 
     updateLineNumbers();
+
     validateJsonLive();
 
-    setStatus("✅ Loaded successfully: " + file,"success");
+    setStatus(
+      "✅ Loaded successfully: " + file,
+      "success"
+    );
 
   }catch(e){
-    setStatus("❌ " + e.message,"error");
+
+    setStatus(
+      "❌ " + e.message,
+      "error"
+    );
+
   }
 }
 
 async function saveFile(){
-  const file = document.getElementById("file").value;
-  const editor = document.getElementById("editor");
 
-  if(!file || file.includes("Loading") || file.includes("No active")){
-    setStatus("❌ Please select a valid JSON file.","error");
+  const file =
+    document.getElementById("file").value;
+
+  const editor =
+    document.getElementById("editor");
+
+  if(
+    !file ||
+    file.includes("Loading") ||
+    file.includes("No active")
+  ){
+
+    setStatus(
+      "❌ Please select a valid JSON file.",
+      "error"
+    );
+
     return;
   }
 
   const commitMessage =
-    document.getElementById("commitMessage").value.trim()
+    document.getElementById("commitMessage")
+    .value
+    .trim()
     || makeAutoCommitMessage(file);
 
   let content;
 
   try{
-    content = JSON.parse(editor.value);
+
+    content =
+      JSON.parse(editor.value);
+
   }catch(e){
-    const err = getJsonErrorLine(e,editor.value);
+
+    const err =
+      getJsonErrorLine(
+        e,
+        editor.value
+      );
 
     if(err.line){
+
       setStatus(
         `❌ Cannot save. JSON error on line ${err.line}, column ${err.column}: ${err.message}`,
         "error"
       );
+
     }else{
+
       setStatus(
         `❌ Cannot save. JSON error: ${err.message}`,
         "error"
       );
+
     }
 
     return;
   }
 
-  setStatus("Saving to GitHub...","info");
+  setStatus(
+    "Saving to GitHub...",
+    "info"
+  );
 
   try{
-    const res = await fetch(API_URL,{
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({
-        password,
-        path:file,
-        content,
-        message:commitMessage
-      })
-    });
 
-    const data = await res.json();
+    const res =
+      await fetch(API_URL,{
+        method:"POST",
+
+        headers:{
+          "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify({
+          password,
+          path:file,
+          content,
+          message:commitMessage
+        })
+      });
+
+    const data =
+      await res.json();
 
     if(!res.ok){
-      throw new Error(data.message || data.error || "Save failed");
+
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Save failed"
+      );
+
     }
 
     markFileSaved(file);
 
-    const q = document.getElementById("searchFile").value.toLowerCase();
-    populateFiles(q ? allFiles.filter(f => f.toLowerCase().includes(q)) : allFiles);
+    const q =
+      document
+      .getElementById("searchFile")
+      .value
+      .toLowerCase();
+
+    populateFiles(
+      q
+      ? allFiles.filter(f =>
+          f.toLowerCase().includes(q)
+        )
+      : allFiles
+    );
 
     updateEditorTitle();
+
     setAutoCommit();
+
     updateLineNumbers();
+
     validateJsonLive();
 
-    setStatus("✅ Saved successfully: " + file,"success");
+    setStatus(
+      "✅ Saved successfully: " + file,
+      "success"
+    );
 
   }catch(e){
-    setStatus("❌ " + e.message,"error");
+
+    setStatus(
+      "❌ " + e.message,
+      "error"
+    );
+
   }
 }
 
 function formatJson(){
-  try{
-    const editor = document.getElementById("editor");
-    const json = JSON.parse(editor.value);
 
-    editor.value = JSON.stringify(json,null,2);
+  try{
+
+    const editor =
+      document.getElementById("editor");
+
+    const json =
+      JSON.parse(editor.value);
+
+    editor.value =
+      JSON.stringify(
+        json,
+        null,
+        2
+      );
 
     updateLineNumbers();
+
     validateJsonLive();
 
-    setStatus("✅ JSON formatted successfully","success");
+    setStatus(
+      "✅ JSON formatted successfully",
+      "success"
+    );
+
   }catch(e){
-    const err = getJsonErrorLine(e,document.getElementById("editor").value);
+
+    const err =
+      getJsonErrorLine(
+        e,
+        document.getElementById("editor").value
+      );
 
     if(err.line){
+
       setStatus(
         `❌ JSON Error on line ${err.line}, column ${err.column}: ${err.message}`,
         "error"
       );
+
     }else{
-      setStatus("❌ Invalid JSON","error");
+
+      setStatus(
+        "❌ Invalid JSON",
+        "error"
+      );
+
     }
+
   }
 }
 
 function clearEditor(){
+
   document.getElementById("editor").value = "";
+
   updateLineNumbers();
-  setStatus("Editor cleared","info");
+
+  setStatus(
+    "Editor cleared",
+    "info"
+  );
 }
 
 function logout(){
-  localStorage.removeItem("blog_admin_password");
-  window.location.href = "/admin/login.html";
+
+  localStorage.removeItem(
+    "blog_admin_password"
+  );
+
+  window.location.href =
+    "/admin/login.html";
 }
 
-setInterval(updateEditorTitle,30000);
+setInterval(
+  updateEditorTitle,
+  30000
+);
 
 updateLineNumbers();
+
 loadFileList();
 </script>
 
