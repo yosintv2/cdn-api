@@ -207,6 +207,41 @@ textarea::-webkit-scrollbar-thumb{
   border-radius:999px;
 }
 
+#savePopup{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) scale(.92);
+
+  background:#0f172a;
+  color:white;
+
+  padding:18px 24px;
+
+  border-radius:18px;
+
+  font-size:15px;
+  font-weight:800;
+
+  z-index:99999;
+
+  opacity:0;
+  visibility:hidden;
+
+  transition:.22s ease;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.45);
+
+  border:1px solid rgba(255,255,255,.06);
+}
+
+#savePopup.show{
+  opacity:1;
+  visibility:visible;
+  transform:translate(-50%,-50%) scale(1);
+}
+
 @media(max-width:768px){
 
   .wrap{
@@ -260,13 +295,16 @@ textarea::-webkit-scrollbar-thumb{
 
   <div class="header">
     <h1 class="title">YoSin Notes</h1>
+
     <div class="subtitle">
       Personal cloud notes synced with GitHub
     </div>
   </div>
 
   <div class="top-card">
+
     <div class="row">
+
       <select id="file">
         <option value="todo.json">Todo</option>
         <option value="shopping.json">Shopping</option>
@@ -274,7 +312,9 @@ textarea::-webkit-scrollbar-thumb{
         <option value="cricket.json">Cricket</option>
         <option value="football.json">Football</option>
       </select>
+
     </div>
+
   </div>
 
   <div id="statusBox">
@@ -310,9 +350,11 @@ textarea::-webkit-scrollbar-thumb{
   </div>
 
   <div class="save-bottom">
+
     <button class="save-btn" onclick="saveFile()">
       💾 Save
     </button>
+
   </div>
 
 </div>
@@ -329,16 +371,22 @@ textarea::-webkit-scrollbar-thumb{
 
 </div>
 
+<div id="savePopup">
+  Saving your notes...
+</div>
+
 <script>
 const API_URL = "/api/me-github";
 
-const password = localStorage.getItem("blog_admin_password") || "";
+const password =
+  localStorage.getItem("blog_admin_password") || "";
 
 let saveTimes = {};
 
 const labelMap = {
   "shopping.json":"Shopping",
   "todo.json":"Todo",
+  "ghumne.json":"Ghumne",
   "cricket.json":"Cricket",
   "football.json":"Football"
 };
@@ -349,48 +397,85 @@ function getFileLabel(file){
 
 function setStatus(message,type="info"){
 
-  const box = document.getElementById("statusBox");
-  const status = document.getElementById("status");
+  const box =
+    document.getElementById("statusBox");
+
+  const status =
+    document.getElementById("status");
 
   box.style.display = "block";
+
   status.innerText = message;
 
   if(type === "success"){
+
     status.style.background = "#052e16";
     status.style.color = "#86efac";
+
   }
   else if(type === "error"){
+
     status.style.background = "#450a0a";
     status.style.color = "#fca5a5";
+
   }
   else{
+
     status.style.background = "#0f172a";
     status.style.color = "#e2e8f0";
+
   }
+}
+
+function showSavePopup(){
+
+  const popup =
+    document.getElementById("savePopup");
+
+  popup.classList.add("show");
+
+  setTimeout(() => {
+    popup.classList.remove("show");
+  },1000);
+
 }
 
 function timeAgo(timestamp){
 
-  if(!timestamp) return "Ready";
+  if(!timestamp)
+    return "Ready";
 
-  const seconds = Math.floor((Date.now()-timestamp)/1000);
+  const seconds =
+    Math.floor((Date.now()-timestamp)/1000);
 
-  if(seconds < 10) return "Updated just now";
-  if(seconds < 60) return `Updated ${seconds}s ago`;
+  if(seconds < 10)
+    return "Updated just now";
 
-  const minutes = Math.floor(seconds/60);
-  if(minutes < 60) return `Updated ${minutes}m ago`;
+  if(seconds < 60)
+    return `Updated ${seconds}s ago`;
 
-  const hours = Math.floor(minutes/60);
-  if(hours < 24) return `Updated ${hours}h ago`;
+  const minutes =
+    Math.floor(seconds/60);
 
-  const days = Math.floor(hours/24);
+  if(minutes < 60)
+    return `Updated ${minutes}m ago`;
+
+  const hours =
+    Math.floor(minutes/60);
+
+  if(hours < 24)
+    return `Updated ${hours}h ago`;
+
+  const days =
+    Math.floor(hours/24);
+
   return `Updated ${days}d ago`;
 }
 
 function updateSaveInfo(){
 
-  const file = document.getElementById("file").value;
+  const file =
+    document.getElementById("file").value;
 
   document.getElementById("saveInfo").innerText =
     timeAgo(saveTimes[file]);
@@ -398,41 +483,62 @@ function updateSaveInfo(){
 
 function updateEditorTitle(){
 
-  const file = document.getElementById("file").value;
+  const file =
+    document.getElementById("file").value;
 
   document.getElementById("editorTitle").innerText =
     getFileLabel(file);
 }
 
 function getCurrentHHMM(){
+
   const d = new Date();
-  const hh = String(d.getHours()).padStart(2,"0");
-  const mm = String(d.getMinutes()).padStart(2,"0");
+
+  const hh =
+    String(d.getHours()).padStart(2,"0");
+
+  const mm =
+    String(d.getMinutes()).padStart(2,"0");
+
   return `${hh}:${mm}`;
 }
 
 function makeCommitMessage(file){
+
   return `${getCurrentHHMM()} - ${getFileLabel(file)}`;
+
 }
 
 async function loadFile(){
 
-  const file = document.getElementById("file").value;
+  const file =
+    document.getElementById("file").value;
 
   updateEditorTitle();
 
-  setStatus(`Loading ${getFileLabel(file)}...`,"info");
+  setStatus(
+    `Loading ${getFileLabel(file)}...`,
+    "info"
+  );
 
   try{
 
-    const res = await fetch(
-      `${API_URL}?file=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
-    );
+    const res =
+      await fetch(
+        `${API_URL}?file=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
+      );
 
-    const data = await res.json();
+    const data =
+      await res.json();
 
     if(!res.ok){
-      throw new Error(data.message || data.error || "Load failed");
+
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Load failed"
+      );
+
     }
 
     document.getElementById("editor").value =
@@ -445,39 +551,64 @@ async function loadFile(){
 
   }catch(e){
 
-    setStatus(`❌ ${e.message}`,"error");
+    setStatus(
+      `❌ ${e.message}`,
+      "error"
+    );
 
   }
 }
 
 async function saveFile(){
 
-  const file = document.getElementById("file").value;
-  const label = getFileLabel(file);
+  const file =
+    document.getElementById("file").value;
 
-  const content = document.getElementById("editor").value;
+  const label =
+    getFileLabel(file);
 
-  const message = makeCommitMessage(file);
+  const content =
+    document.getElementById("editor").value;
 
-  setStatus(`Saving ${label}...`,"info");
+  const message =
+    makeCommitMessage(file);
+
+  showSavePopup();
+
+  setStatus(
+    `Saving ${label}...`,
+    "info"
+  );
 
   try{
 
-    const res = await fetch(API_URL,{
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({
-        password,
-        file,
-        content,
-        message
-      })
-    });
+    const res =
+      await fetch(API_URL,{
+        method:"POST",
 
-    const data = await res.json();
+        headers:{
+          "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify({
+          password,
+          file,
+          content,
+          message
+        })
+      });
+
+    const data =
+      await res.json();
 
     if(!res.ok){
-      throw new Error(data.message || data.error || "Save failed");
+
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Save failed"
+      );
+
     }
 
     saveTimes[file] = Date.now();
@@ -491,7 +622,10 @@ async function saveFile(){
 
   }catch(e){
 
-    setStatus(`❌ ${e.message}`,"error");
+    setStatus(
+      `❌ ${e.message}`,
+      "error"
+    );
 
   }
 }
@@ -500,6 +634,7 @@ document.getElementById("file")
 .addEventListener("change",()=>{
 
   updateEditorTitle();
+
   loadFile();
 
 });
@@ -507,6 +642,7 @@ document.getElementById("file")
 setInterval(updateSaveInfo,1000);
 
 updateEditorTitle();
+
 loadFile();
 </script>
 
