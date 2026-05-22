@@ -13,11 +13,7 @@ body{
   background:linear-gradient(135deg,#020617,#0f172a);
   color:#fff;
 }
-.wrap{
-  max-width:1250px;
-  margin:auto;
-  padding:20px;
-}
+.wrap{max-width:1250px;margin:auto;padding:20px}
 .header{
   display:flex;
   justify-content:space-between;
@@ -42,25 +38,15 @@ h1{margin:0;font-size:30px}
   margin-bottom:18px;
   box-shadow:0 12px 35px rgba(0,0,0,.28);
 }
-.row{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-}
+.row{display:flex;gap:10px;flex-wrap:wrap}
 button,select,input{
   border:0;
   border-radius:12px;
   padding:13px 15px;
   font-size:15px;
 }
-select,input{
-  background:#334155;
-  color:white;
-}
-input{
-  min-width:260px;
-  flex:1;
-}
+select,input{background:#334155;color:white}
+input{min-width:260px;flex:1}
 button{
   background:#22c55e;
   color:#04130a;
@@ -68,17 +54,11 @@ button{
   cursor:pointer;
   transition:.2s;
 }
-button:hover{
-  opacity:.9;
-  transform:translateY(-1px);
-}
+button:hover{opacity:.9;transform:translateY(-1px)}
 .blue{background:#38bdf8;color:#082f49}
 .danger{background:#ef4444;color:#fff}
 .dark{background:#475569;color:white}
-.editor-card{
-  padding:0;
-  overflow:hidden;
-}
+.editor-card{padding:0;overflow:hidden}
 .editor-top{
   display:flex;
   justify-content:space-between;
@@ -89,14 +69,8 @@ button:hover{
   border-bottom:1px solid rgba(255,255,255,.08);
   padding:12px 16px;
 }
-.editor-title{
-  font-weight:800;
-  color:#93c5fd;
-}
-.editor-actions{
-  font-size:13px;
-  color:#94a3b8;
-}
+.editor-title{font-weight:800;color:#93c5fd}
+.editor-actions{font-size:13px;color:#94a3b8}
 textarea{
   width:100%;
   height:72vh;
@@ -116,20 +90,11 @@ textarea{
   overflow-x:hidden;
   overflow-y:auto;
 }
-textarea:focus{
-  box-shadow:inset 0 0 0 2px #22c55e;
-}
-#status{
-  margin:0;
-  font-weight:700;
-}
+textarea:focus{box-shadow:inset 0 0 0 2px #22c55e}
+#status{margin:0;font-weight:700}
 #statusBox{display:none}
-.footer{
-  text-align:center;
-  opacity:.6;
-  font-size:13px;
-  padding-bottom:20px;
-}
+.footer{text-align:center;opacity:.6;font-size:13px;padding-bottom:20px}
+.small-note{font-size:13px;color:#94a3b8;margin-top:10px}
 @media(max-width:768px){
   .row{flex-direction:column}
   button,select,input{width:100%}
@@ -165,7 +130,7 @@ textarea:focus{
       <input
         type="text"
         id="commitMessage"
-        placeholder="GitHub commit note..."
+        placeholder="Auto commit note..."
       />
 
       <button onclick="loadFile()">Load</button>
@@ -175,6 +140,10 @@ textarea:focus{
       <button class="dark" onclick="logout()">Logout</button>
 
     </div>
+
+    <div class="small-note">
+      ✅ Tick means this file was already saved from this admin browser.
+    </div>
   </div>
 
   <div id="statusBox" class="card">
@@ -182,14 +151,9 @@ textarea:focus{
   </div>
 
   <div class="card editor-card">
-
     <div class="editor-top">
-      <div class="editor-title" id="editorTitle">
-        Select JSON file
-      </div>
-      <div class="editor-actions">
-        Soft Wrap ON · JSON Editor · GitHub Save
-      </div>
+      <div class="editor-title" id="editorTitle">Select JSON file</div>
+      <div class="editor-actions">Soft Wrap ON · JSON Editor · GitHub Save</div>
     </div>
 
     <textarea
@@ -197,7 +161,6 @@ textarea:focus{
       spellcheck="false"
       placeholder="Select and load JSON file..."
     ></textarea>
-
   </div>
 
   <div class="footer">
@@ -214,6 +177,40 @@ const password = localStorage.getItem("blog_admin_password");
 
 if(!password){
   window.location.href = "/admin/login.html";
+}
+
+function getSavedFiles(){
+  return JSON.parse(localStorage.getItem("blog_saved_files") || "{}");
+}
+
+function markFileSaved(file){
+  const saved = getSavedFiles();
+  saved[file] = getCurrentTimeText();
+  localStorage.setItem("blog_saved_files", JSON.stringify(saved));
+}
+
+function getCurrentTimeText(){
+  const d = new Date();
+
+  const yyyy = d.getFullYear();
+  const mm = String(d.getMonth() + 1).padStart(2,"0");
+  const dd = String(d.getDate()).padStart(2,"0");
+  const hh = String(d.getHours()).padStart(2,"0");
+  const min = String(d.getMinutes()).padStart(2,"0");
+
+  return `${yyyy}-${mm}-${dd} ${hh}:${min}`;
+}
+
+function makeAutoCommitMessage(file){
+  return `${getCurrentTimeText()} - ${file}`;
+}
+
+function setAutoCommit(){
+  const file = document.getElementById("file").value;
+  if(!file || file === "Loading JSON files...") return;
+
+  document.getElementById("commitMessage").value =
+    makeAutoCommitMessage(file);
 }
 
 function setStatus(msg,type="info"){
@@ -240,21 +237,37 @@ function setStatus(msg,type="info"){
 
 function updateEditorTitle(){
   const file = document.getElementById("file").value;
-  document.getElementById("editorTitle").innerText = "Editing: " + file;
+  const saved = getSavedFiles();
+  const tick = saved[file] ? ` ✅ Saved: ${saved[file]}` : "";
+  document.getElementById("editorTitle").innerText = "Editing: " + file + tick;
 }
 
 function populateFiles(files){
   const select = document.getElementById("file");
+  const currentValue = select.value;
+  const saved = getSavedFiles();
+
   select.innerHTML = "";
 
   files.forEach(file => {
     const opt = document.createElement("option");
     opt.value = file;
-    opt.textContent = file;
+
+    if(saved[file]){
+      opt.textContent = `${file} ✅ ${saved[file]}`;
+    }else{
+      opt.textContent = file;
+    }
+
     select.appendChild(opt);
   });
 
+  if(files.includes(currentValue)){
+    select.value = currentValue;
+  }
+
   updateEditorTitle();
+  setAutoCommit();
 }
 
 function filterFiles(){
@@ -293,6 +306,7 @@ async function loadFileList(){
 
 document.getElementById("file").addEventListener("change",function(){
   updateEditorTitle();
+  setAutoCommit();
   loadFile();
 });
 
@@ -302,6 +316,8 @@ async function loadFile(){
   if(!file || file === "Loading JSON files...") return;
 
   updateEditorTitle();
+  setAutoCommit();
+
   setStatus("Loading " + file + "...","info");
 
   try{
@@ -331,7 +347,7 @@ async function saveFile(){
 
   const commitMessage =
     document.getElementById("commitMessage").value.trim()
-    || `Update ${file} from YoSinTV Blog Admin`;
+    || makeAutoCommitMessage(file);
 
   let content;
 
@@ -361,6 +377,16 @@ async function saveFile(){
     if(!res.ok){
       throw new Error(data.message || data.error || "Save failed");
     }
+
+    markFileSaved(file);
+    populateFiles(
+      document.getElementById("searchFile").value
+        ? allFiles.filter(f => f.toLowerCase().includes(document.getElementById("searchFile").value.toLowerCase()))
+        : allFiles
+    );
+
+    updateEditorTitle();
+    setAutoCommit();
 
     setStatus("✅ Saved successfully: " + file,"success");
 
