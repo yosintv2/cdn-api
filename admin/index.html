@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YoSinTV Blog JSON Admin</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:linear-gradient(135deg,#020617,#0f172a);
+  color:#fff;
+}
+.wrap{
+  max-width:1250px;
+  margin:auto;
+  padding:20px;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:15px;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+}
+h1{margin:0;font-size:30px}
+.badge{
+  background:#22c55e;
+  color:#052e16;
+  padding:8px 14px;
+  border-radius:999px;
+  font-weight:800;
+}
+.card{
+  background:#1e293b;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:20px;
+  padding:18px;
+  margin-bottom:18px;
+  box-shadow:0 12px 35px rgba(0,0,0,.28);
+}
+.row{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+button,select,input{
+  border:0;
+  border-radius:12px;
+  padding:13px 15px;
+  font-size:15px;
+}
+select,input{
+  background:#334155;
+  color:white;
+}
+input{
+  min-width:260px;
+  flex:1;
+}
+button{
+  background:#22c55e;
+  color:#04130a;
+  font-weight:800;
+  cursor:pointer;
+  transition:.2s;
+}
+button:hover{
+  opacity:.9;
+  transform:translateY(-1px);
+}
+.blue{background:#38bdf8;color:#082f49}
+.danger{background:#ef4444;color:#fff}
+.dark{background:#475569;color:white}
+.editor-card{
+  padding:0;
+  overflow:hidden;
+}
+.editor-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  background:#020617;
+  border-bottom:1px solid rgba(255,255,255,.08);
+  padding:12px 16px;
+}
+.editor-title{
+  font-weight:800;
+  color:#93c5fd;
+}
+.editor-actions{
+  font-size:13px;
+  color:#94a3b8;
+}
+textarea{
+  width:100%;
+  height:72vh;
+  display:block;
+  background:#020617;
+  color:#d1fae5;
+  font-family:"SFMono-Regular","Consolas","Liberation Mono",monospace;
+  font-size:14px;
+  line-height:1.65;
+  border:0;
+  outline:0;
+  padding:20px;
+  resize:vertical;
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+textarea:focus{
+  box-shadow:inset 0 0 0 2px #22c55e;
+}
+#status{
+  margin:0;
+  font-weight:700;
+}
+#statusBox{display:none}
+.footer{
+  text-align:center;
+  opacity:.6;
+  font-size:13px;
+  padding-bottom:20px;
+}
+@media(max-width:768px){
+  .row{flex-direction:column}
+  button,select,input{width:100%}
+  h1{font-size:24px}
+  textarea{height:66vh;font-size:13px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <div class="header">
+    <h1>YoSinTV Blog JSON Admin</h1>
+    <div class="badge">yosintv2/blog</div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+
+      <select id="file">
+        <option>Loading JSON files...</option>
+      </select>
+
+      <input
+        type="text"
+        id="searchFile"
+        placeholder="Search JSON file e.g. football, ipl, nepal"
+        oninput="filterFiles()"
+      />
+
+      <input
+        type="text"
+        id="commitMessage"
+        placeholder="GitHub commit note..."
+      />
+
+      <button onclick="loadFile()">Load</button>
+      <button onclick="saveFile()">Save</button>
+      <button class="blue" onclick="formatJson()">Format</button>
+      <button class="danger" onclick="clearEditor()">Clear</button>
+      <button class="dark" onclick="logout()">Logout</button>
+
+    </div>
+  </div>
+
+  <div id="statusBox" class="card">
+    <p id="status">Ready</p>
+  </div>
+
+  <div class="card editor-card">
+
+    <div class="editor-top">
+      <div class="editor-title" id="editorTitle">
+        Select JSON file
+      </div>
+      <div class="editor-actions">
+        Soft Wrap ON · JSON Editor · GitHub Save
+      </div>
+    </div>
+
+    <textarea
+      id="editor"
+      spellcheck="false"
+      placeholder="Select and load JSON file..."
+    ></textarea>
+
+  </div>
+
+  <div class="footer">
+    YoSinTV Blog Admin · Vercel + GitHub API
+  </div>
+
+</div>
+
+<script>
+const API_URL = "/api/github";
+let allFiles = [];
+
+const password = localStorage.getItem("blog_admin_password");
+
+if(!password){
+  window.location.href = "/admin/login.html";
+}
+
+function setStatus(msg,type="info"){
+  const status = document.getElementById("status");
+  const box = document.getElementById("statusBox");
+
+  box.style.display = "block";
+  status.innerText = msg;
+
+  if(type === "success"){
+    box.style.background = "#052e16";
+    box.style.borderColor = "#16a34a";
+    status.style.color = "#86efac";
+  }else if(type === "error"){
+    box.style.background = "#450a0a";
+    box.style.borderColor = "#dc2626";
+    status.style.color = "#fca5a5";
+  }else{
+    box.style.background = "#1e293b";
+    box.style.borderColor = "rgba(255,255,255,.08)";
+    status.style.color = "#e2e8f0";
+  }
+}
+
+function updateEditorTitle(){
+  const file = document.getElementById("file").value;
+  document.getElementById("editorTitle").innerText = "Editing: " + file;
+}
+
+function populateFiles(files){
+  const select = document.getElementById("file");
+  select.innerHTML = "";
+
+  files.forEach(file => {
+    const opt = document.createElement("option");
+    opt.value = file;
+    opt.textContent = file;
+    select.appendChild(opt);
+  });
+
+  updateEditorTitle();
+}
+
+function filterFiles(){
+  const q = document.getElementById("searchFile").value.toLowerCase();
+  const filtered = allFiles.filter(file => file.toLowerCase().includes(q));
+  populateFiles(filtered);
+}
+
+async function loadFileList(){
+  setStatus("Loading JSON file list...","info");
+
+  try{
+    const res = await fetch(
+      `${API_URL}?action=list&password=${encodeURIComponent(password)}`
+    );
+
+    const data = await res.json();
+
+    if(!res.ok){
+      throw new Error(data.error || data.message || "Failed to load files");
+    }
+
+    allFiles = data.files || [];
+    populateFiles(allFiles);
+
+    setStatus("✅ Loaded " + allFiles.length + " JSON files","success");
+
+    if(allFiles.length){
+      loadFile();
+    }
+
+  }catch(e){
+    setStatus("❌ " + e.message,"error");
+  }
+}
+
+document.getElementById("file").addEventListener("change",function(){
+  updateEditorTitle();
+  loadFile();
+});
+
+async function loadFile(){
+  const file = document.getElementById("file").value;
+
+  if(!file || file === "Loading JSON files...") return;
+
+  updateEditorTitle();
+  setStatus("Loading " + file + "...","info");
+
+  try{
+    const res = await fetch(
+      `${API_URL}?path=${encodeURIComponent(file)}&password=${encodeURIComponent(password)}`
+    );
+
+    const data = await res.json();
+
+    if(!res.ok){
+      throw new Error(data.message || data.error || "Load failed");
+    }
+
+    document.getElementById("editor").value =
+      JSON.stringify(data.content,null,2);
+
+    setStatus("✅ Loaded successfully: " + file,"success");
+
+  }catch(e){
+    setStatus("❌ " + e.message,"error");
+  }
+}
+
+async function saveFile(){
+  const file = document.getElementById("file").value;
+  const editor = document.getElementById("editor");
+
+  const commitMessage =
+    document.getElementById("commitMessage").value.trim()
+    || `Update ${file} from YoSinTV Blog Admin`;
+
+  let content;
+
+  try{
+    content = JSON.parse(editor.value);
+  }catch(e){
+    setStatus("❌ Invalid JSON. Please fix before saving.","error");
+    return;
+  }
+
+  setStatus("Saving to GitHub...","info");
+
+  try{
+    const res = await fetch(API_URL,{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({
+        password,
+        path:file,
+        content,
+        message:commitMessage
+      })
+    });
+
+    const data = await res.json();
+
+    if(!res.ok){
+      throw new Error(data.message || data.error || "Save failed");
+    }
+
+    setStatus("✅ Saved successfully: " + file,"success");
+
+  }catch(e){
+    setStatus("❌ " + e.message,"error");
+  }
+}
+
+function formatJson(){
+  try{
+    const editor = document.getElementById("editor");
+    const json = JSON.parse(editor.value);
+    editor.value = JSON.stringify(json,null,2);
+    setStatus("✅ JSON formatted successfully","success");
+  }catch(e){
+    setStatus("❌ Invalid JSON","error");
+  }
+}
+
+function clearEditor(){
+  document.getElementById("editor").value = "";
+  setStatus("Editor cleared","info");
+}
+
+function logout(){
+  localStorage.removeItem("blog_admin_password");
+  window.location.href = "/admin/login.html";
+}
+
+loadFileList();
+</script>
+
+</body>
+</html>
