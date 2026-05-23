@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -404,7 +403,11 @@ const SOURCE_APIS = [
   "https://yosintvapi.pages.dev/api/match-football.json"
 ];
 
-
+/* ── Required original globals ── */
+let allFiles = [];
+let matchTimeMap = {};
+const password = localStorage.getItem("blog_admin_password") || "";
+if (!password) window.location.href = "/admin/login.html";
 
 /* ── Storage helpers ── */
 function getSavedFiles() { return JSON.parse(localStorage.getItem("blog_saved_files") || "{}"); }
