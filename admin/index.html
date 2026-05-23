@@ -140,6 +140,22 @@ body{
   background:rgba(74,222,128,.08);
 }
 
+.btn:disabled{
+  opacity:.7;
+  cursor:not-allowed;
+}
+
+.btn.saving{
+  color:var(--amber);
+  border-color:rgba(250,204,21,.3);
+}
+
+.btn.saved{
+  color:var(--green);
+  border-color:rgba(74,222,128,.45);
+  background:rgba(74,222,128,.08);
+}
+
 .pill svg,
 .btn svg{
   width:14px;
@@ -434,7 +450,8 @@ select{
       <input type="text"
              id="searchFile"
              placeholder="Filter..."
-             oninput="filterFiles()" />
+             oninput="filterFiles()"
+             onkeydown="handleFilterEnter(event)" />
 
       <input type="text"
              id="commitMessage"
@@ -482,7 +499,7 @@ select{
       Load
     </button>
 
-    <button class="btn primary" onclick="saveFile()">
+    <button class="btn primary" id="saveBtn" onclick="saveFile()">
       Save to GitHub
     </button>
 
@@ -566,6 +583,40 @@ function setAutoCommit(){
 
   document.getElementById("commitMessage").value =
     makeAutoCommitMessage(f);
+}
+
+/* Save button effect */
+function setSaveButtonState(state){
+
+  const btn =
+    document.getElementById("saveBtn");
+
+  if(!btn) return;
+
+  btn.classList.remove("saving","saved");
+
+  if(state === "saving"){
+
+    btn.disabled = true;
+    btn.classList.add("saving");
+    btn.innerText = "Saving...";
+
+  }else if(state === "saved"){
+
+    btn.disabled = false;
+    btn.classList.add("saved");
+    btn.innerText = "Saved ✅";
+
+    setTimeout(()=>{
+      btn.classList.remove("saved");
+      btn.innerText = "Save to GitHub";
+    },1500);
+
+  }else{
+
+    btn.disabled = false;
+    btn.innerText = "Save to GitHub";
+  }
 }
 
 /* Status */
@@ -732,6 +783,35 @@ function filterFiles(){
       f => f.toLowerCase().includes(q)
     )
   );
+}
+
+/* Press Enter in filter to load selected filtered file */
+function handleFilterEnter(event){
+
+  if(event.key !== "Enter")
+    return;
+
+  event.preventDefault();
+
+  const sel =
+    document.getElementById("file");
+
+  const f = sel.value;
+
+  if(!f ||
+     f.includes("Loading") ||
+     f.includes("No files")){
+
+    setStatus(
+      "No matching file to load",
+      "error"
+    );
+
+    return;
+  }
+
+  setAutoCommit();
+  loadFile();
 }
 
 /* Badge */
@@ -1138,6 +1218,8 @@ async function saveFile(){
     return;
   }
 
+  setSaveButtonState("saving");
+
   setStatus(
     "Saving...",
     "info"
@@ -1181,12 +1263,16 @@ async function saveFile(){
 
     validateJsonLive();
 
+    setSaveButtonState("saved");
+
     setStatus(
       "Saved: " + f,
       "success"
     );
 
   }catch(e){
+
+    setSaveButtonState("normal");
 
     setStatus(
       e.message,
