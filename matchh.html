@@ -1,737 +1,910 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="robots" content="index" />
-    <meta name="description" id="meta-description" content="Watch live sports matches and highlights on YoSinTV." />
-    <meta name="keywords" id="meta-keywords" content="YoSinTV, live stream, football, cricket, sports highlights" />
-    <meta property="og:title" id="og-title" content="YoSinTV - Live Sports Streaming" />
-    <meta property="og:description" id="og-description"
-        content="Watch live sports matches and highlights on YoSinTV." />
-    <meta property="og:url" id="og-url" content="" />
-    <meta name="twitter:title" id="twitter-title" content="YoSinTV - Live Sports Streaming" />
-    <meta name="twitter:description" id="twitter-description"
-        content="Watch live sports matches and highlights on YoSinTV." />
-    <link rel="canonical" id="canonical-url" href="" />
-    <link href="https://web.cricfoot.net/favico.png" rel="icon" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-    <title>YoSinTV - Cricket | Football | Playing XI | Match Preview</title>
-    <style>
-        /* Custom styles for detail sections */
-        .detail-section {
-            margin-top: 1.5rem;
-        }
-
-        .detail-header {
-            font-size: 1.125rem;
-            font-weight: 700;
-            color: #1f2937;
-            margin-bottom: 0.5rem;
-            border-bottom: 1px solid #e5e7eb;
-            padding-bottom: 0.25rem;
-        }
-
-        .lineup-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-        }
-
-        .lineup-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .lineup-list li {
-            padding: 0.25rem 0;
-            border-bottom: 1px dashed #e5e7eb;
-            font-size: 0.875rem;
-            color: #4b5563;
-        }
-
-        .h2h-box {
-            background: #f9fafb;
-            padding: 1rem;
-            border-radius: 0.5rem;
-            display: flex;
-            justify-content: space-around;
-            text-align: center;
-        }
-
-        .h2h-item {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .h2h-val {
-            font-size: 1.25rem;
-            font-weight: 800;
-            color: #111827;
-        }
-
-        .h2h-label {
-            font-size: 0.75rem;
-            color: #6b7280;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        .neo-wrap { background: linear-gradient(145deg,#f8fbff,#eef5ff); border:1px solid #dbeafe; border-radius:16px; padding:16px; }
-        .neo-title { font-weight: 900; font-size: 1.2rem; color:#0f172a; letter-spacing:-0.02em; }
-        .kv-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:10px; }
-        .kv { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:10px; }
-        .kv b { display:block; font-size:11px; color:#475569; text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px; }
-        .kv span { font-size:14px; color:#0f172a; font-weight:700; }
-        .pill-row { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-        .pill { padding:6px 10px; border-radius:999px; font-size:12px; font-weight:700; border:1px solid #dbeafe; background:#f8fbff; color:#1e3a8a; }
-        .team-col { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
-        .team-col h5 { font-weight:800; color:#111827; margin-bottom:8px; }
-        .mini-list { font-size:13px; color:#334155; line-height:1.55; }
-        .mini-list li { margin-bottom:3px; }
-        .form-chip { display:inline-flex; align-items:center; justify-content:center; width:24px; height:24px; border-radius:999px; font-size:12px; font-weight:800; color:#fff; }
-        .form-W { background:#10b981; }
-        .form-L { background:#ef4444; }
-        .form-D { background:#6b7280; }
-        .faq-card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; }
-        .faq-card h4 { font-weight:800; color:#111827; margin-bottom:6px; }
-        .hero-board { background: radial-gradient(circle at top right,#dbeafe 0,#eff6ff 35%,#ffffff 100%); border:1px solid #dbeafe; border-radius:18px; padding:16px; }
-        .vs-grid { display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:10px; }
-        .team-side { display:flex; flex-direction:column; align-items:center; text-align:center; }
-        .team-logo { width:64px; height:64px; object-fit:contain; border-radius:14px; background:#fff; border:1px solid #e2e8f0; padding:8px; box-shadow:0 6px 18px rgba(15,23,42,.08); }
-        .team-name { margin-top:8px; font-weight:800; color:#0f172a; font-size:14px; line-height:1.2; }
-        .vs-badge { font-weight:900; color:#dc2626; font-size:30px; letter-spacing:-0.02em; }
-        .hero-meta { margin-top:12px; display:flex; flex-wrap:wrap; justify-content:center; gap:8px; }
-        .hero-chip { border:1px solid #bfdbfe; background:#f8fbff; color:#1e3a8a; border-radius:999px; padding:6px 10px; font-size:12px; font-weight:700; }
-        .progress-shell { background:#e2e8f0; border-radius:999px; height:26px; overflow:hidden; position:relative; }
-        .progress-fill { height:100%; width:0%; border-radius:999px; background:linear-gradient(90deg,#ef4444,#f97316,#ef4444); background-size:200% 100%; animation:flow 2s linear infinite; transition:width .8s ease; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:12px; }
-        .timer-text { font-weight:800; color:#334155; text-align:center; margin-bottom:8px; animation:pulseTxt 1.6s ease-in-out infinite; }
-        .mobile-switch { display:none; gap:8px; margin:10px 0; }
-        .switch-btn { border:1px solid #cbd5e1; background:#fff; padding:7px 10px; border-radius:10px; font-size:12px; font-weight:700; color:#0f172a; }
-        .switch-btn.active { background:#0f172a; color:#fff; border-color:#0f172a; }
-        .switch-panel.hidden { display:none; }
-        @keyframes flow { from { background-position:0% 0; } to { background-position:200% 0; } }
-        @keyframes pulseTxt { 0%,100% { opacity:1; } 50% { opacity:.65; } }
-        @media (max-width: 768px) {
-            .kv-grid { grid-template-columns:1fr; }
-            .mobile-switch { display:flex; }
-            .team-logo { width:52px; height:52px; }
-            .vs-badge { font-size:24px; }
-        }
-    </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=7981191925382455"
+     crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="robots" content="index" />
+  <meta name="description" id="meta-description" content="Watch live sports matches and highlights on YoSinTV." />
+  <meta name="keywords" id="meta-keywords" content="YoSinTV, live stream, football, cricket, sports highlights" />
+  <meta property="og:title" id="og-title" content="YoSinTV - Live Sports Streaming" />
+  <meta property="og:description" id="og-description" content="Watch live sports matches and highlights on YoSinTV." />
+  <meta property="og:url" id="og-url" content="" />
+  <meta name="twitter:title" id="twitter-title" content="YoSinTV - Live Sports Streaming" />
+  <meta name="twitter:description" id="twitter-description" content="Watch live sports matches and highlights on YoSinTV." />
+  <link rel="canonical" id="canonical-url" href="" />
+  <link href="https://web.cricfoot.net/favico.png" rel="icon" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <title>YoSinTV - Cricket | Football | Playing XI | Match Preview</title>
+  <style>
+    /* TRUE FULL-WIDTH LEAGUE BAR - Tight spacing */
+    .match-league-bar {
+        margin-top: 4px; 
+        padding: 6px 16px;
+        background: linear-gradient(135deg, rgba(29,78,216,0.08), rgba(37,99,235,0.12));
+        border-radius: 8px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .match-league-bar p {
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        opacity: 0.8;
+        color: #1d4ed8;
+        letter-spacing: 0.6px;
+    }
+    .dark .match-league-bar {
+        background: linear-gradient(135deg, rgba(30,64,175,0.2), rgba(59,130,246,0.25));
+    }
+    .dark .match-league-bar p {
+        color: #60a5fa;
+        opacity: 0.9;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .match-switch-btn {
+      border: 1px solid transparent;
+      border-radius: 10px;
+      padding: 7px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #334155;
+      background: transparent;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .match-switch-btn.active {
+      background: #ffffff;
+      color: #1d4ed8;
+      border-color: #bfdbfe;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.12);
+    }
+    .event-overview-grid {
+      display: grid;
+      gap: 0.625rem;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    @media (max-width: 1023px) {
+      .event-overview-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 639px) {
+      .event-overview-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .event-overview-grid .overview-full {
+        grid-column: 1 / -1;
+      }
+      .match-switch-btn {
+        padding: 6px 10px;
+        font-size: 11px;
+      }
+    }
+    .more-matches-track {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    @media (min-width: 640px) {
+      .more-matches-track {
+        gap: 1rem;
+      }
+    }
+    @media (max-width: 767px) {
+      .more-matches-track {
+        display: flex;
+        gap: 0.75rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+      }
+      .more-matches-track::-webkit-scrollbar {
+        display: none;
+      }
+      .more-matches-track .more-match-card {
+        flex: 0 0 84%;
+        min-width: 84%;
+        scroll-snap-align: start;
+      }
+    }
+  </style>
 </head>
-
 <body class="bg-gray-100 font-sans text-gray-900">
-    <div id="fb-root"></div>
-    <header class="bg-white shadow-sm">
-        <div class="container mx-auto max-w-4xl px-4 py-4 flex items-center justify-between">
-            <div class="flex items-center">
-                <a href="https://www.yosin-tv.net/" title="YoSinTV">
-                    <img alt="YoSinTV" src="https://web.cricfoot.net/logo.png" class="h-16 w-auto" />
-                    <h1 class="sr-only">YoSinTV: Cricket | Football Stream Free</h1>
-                </a>
-            </div>
-        </div>
-    </header>
-
-    <div class="container mx-auto max-w-4xl px-4 py-4">
-        <div class="adspos">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147"
-                data-ad-slot="4345862479" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
+  <div id="fb-root"></div>
+  <header class="bg-white shadow-sm">
+    <div class="container mx-auto max-w-4xl px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <a href="https://www.yosin-tv.net/" title="YoSinTV">
+          <img alt="YoSinTV" src="https://web.cricfoot.net/logo.png" class="h-16 w-auto" />
+          <h1 class="sr-only">YoSinTV: Cricket | Football Stream Free</h1>
+        </a>
+      </div>
     </div>
+  </header>
 
-    <main class="container mx-auto max-w-4xl px-4 py-8">
-        <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
-            <div class="space-y-4" id="cricket-matches">
-                <div class="hero-board">
-                    <div class="vs-grid">
-                        <div class="team-side">
-                            <img id="hero-team1-logo" class="team-logo" alt="Team 1">
-                            <div id="hero-team1-name" class="team-name"></div>
-                        </div>
-                        <div class="vs-badge">VS</div>
-                        <div class="team-side">
-                            <img id="hero-team2-logo" class="team-logo" alt="Team 2">
-                            <div id="hero-team2-name" class="team-name"></div>
-                        </div>
-                    </div>
-                    <div class="hero-meta">
-                        <span id="hero-league" class="hero-chip">League</span>
-                        <span id="hero-time" class="hero-chip">Kick-off</span>
-                    </div>
-                </div>
-                <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900" id="match-name"></h3>
-
-                <!-- Stadium & Referee (Populated Dynamically) -->
-                <div id="info-bar" class="flex flex-wrap gap-4 text-sm text-gray-600 hidden mb-4">
-                    <div id="stadium-info" class="hidden">🏟️ <span id="stadium-val"></span></div>
-                    <div id="referee-info" class="hidden">👮‍♂️ <span id="referee-val"></span></div>
-                </div>
-
-                <!-- Lineup Image Placeholder -->
-                <div id="lineup-image-container" class="my-4"></div>
-
-                <!-- Dynamic Lineups & H2H Section -->
-                <div id="dynamic-details" class="space-y-6 hidden">
-                    <!-- H2H -->
-                    <div id="h2h-section" class="detail-section hidden">
-                        <div class="h2h-box">
-                            <div class="h2h-item"><span class="h2h-val" id="h2h-win">0</span><span
-                                    class="h2h-label">Won</span></div>
-                            <div class="h2h-item"><span class="h2h-val" id="h2h-draw">0</span><span
-                                    class="h2h-label">Draw</span></div>
-                            <div class="h2h-item"><span class="h2h-val" id="h2h-loss">0</span><span
-                                    class="h2h-label">Lost</span></div>
-                        </div>
-                    </div>
-
-                    <!-- Lineups -->
-                    <div id="lineups-section" class="detail-section hidden">
-                        <h4 class="detail-header">Starting Lineups</h4>
-                        <div class="lineup-grid">
-                            <div>
-                                <h5 class="font-bold text-center text-sm mb-2" id="home-team-name">Home</h5>
-                                <ul id="home-lineup-list" class="lineup-list"></ul>
-                            </div>
-                            <div>
-                                <h5 class="font-bold text-center text-sm mb-2" id="away-team-name">Away</h5>
-                                <ul id="away-lineup-list" class="lineup-list"></ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="adspos">
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147"
-                        data-ad-slot="4345862479" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                </div>
-
-                <div id="live-tracker"></div>
-                <div id="live-container"></div>
-            </div>
-        </section>
-
-        <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
-            <div id="match-info" class="space-y-4 min-w-full overflow-visible"></div>
-        </section>
-
-    </main>
-
-    <footer class="bg-white shadow-inner py-6 mt-8">
-        <div class="container mx-auto max-w-4xl px-4">
-            <ul class="flex flex-wrap justify-center space-x-4">
-                <li><a href="/" class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 hover:bg-blue-100">YoSinTV</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-
-    <div class="container mx-auto max-w-4xl px-4 py-4">
-        <div class="adspos">
-            <script async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5525538810839147"
-                crossorigin="anonymous"></script>
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147"
-                data-ad-slot="4345862479" data-ad-format="auto" data-full-width-responsive="true"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
+  <div class="container mx-auto max-w-4xl px-4 py-4">
+    <div class="adspos">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147" data-ad-slot="4345862479" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
+  </div>
 
-    <div id='fixedban' class='fixed bottom-0 left-1/2 -translate-x-1/2 z-[999]'>
-        <div class='relative w-[300px] h-[250px] bg-white rounded-lg shadow-xl border border-gray-200'>
-            <button id='close-fixedban'
-                class='absolute left-1/2 -translate-x-1/2 top-3 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors duration-200 cursor-pointer z-[1000]'>Close</button>
-            <div class='w-[300px] h-[250px] overflow-hidden pt-8'>
-                <ins class='adsbygoogle inline-block w-[300px] h-[250px]' data-ad-client='ca-pub-5525538810839147'
-                    data-ad-slot='5912194004'></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  <main class="container mx-auto max-w-4xl px-4 py-8">
+    <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
+      <div class="space-y-4" id="cricket-matches">
+        <div class="flex flex-col items-center py-6">
+          <div class="w-full max-w-3xl">
+            <div class="bg-gray-50 rounded-xl shadow-md border border-gray-300 p-6 flex flex-col items-center">
+              <div class="grid grid-cols-3 items-center gap-4 text-center w-full">
+                <div class="flex flex-col items-center">
+                  <img id="team1-logo" alt="" class="w-12 h-12 md:w-16 md:h-16 object-contain">
+                  <span id="team1-name" class="mt-2 text-base md:text-lg font-bold text-gray-800"></span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="text-3xl md:text-5xl font-black text-red-600">VS</div>
+                </div>
+                <div class="flex flex-col items-center">
+                  <img id="team2-logo" alt="" class="w-12 h-12 md:w-16 md:h-16 object-contain">
+                  <span id="team2-name" class="mt-2 text-base md:text-lg font-bold text-gray-800"></span>
+                </div>
+              </div>
+              <div id="league-bar-container" class="match-league-bar hidden">
+                <p id="league-display"></p>
+              </div>
             </div>
+          </div>
         </div>
+
+        <p class="text-sm sm:text-base font-semibold text-blue-600 mb-2" id="match-date-time"></p>
+        <p>● Watch the live of this match in HD Quality, Scroll down to check out every link for Smooth Live Stream of this match.</p>
+        <p>● Predicted lineups are available for the match a few days in advance while the actual lineup will be available about an hour ahead of the match.</p>
+        <div id="lineup-image-container" class="my-4"></div>
+
+        <div class="adspos my-6">
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5525538810839147" data-ad-slot="4345862479" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <div id="live-tracker"></div>
+        <p>● If the first link stops working, freezes, or won’t open, try the second or third link to keep watching without trouble.</p>
+        <div id="live-container" class="space-y-4 my-8"></div>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
+      <h3 class="text-2xl font-bold text-gray-900 mb-4">More Matches</h3>
+      <div id="more-matches" class="more-matches-track min-w-full overflow-visible"></div>
+      <div id="no-matches" class="hidden text-center text-gray-600 mt-4">No additional matches available at this time.</div>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-4 sm:p-6">
+      <div id="match-info" class="space-y-4 min-w-full overflow-visible"></div>
+    </section>
+  </main>
+
+  <footer class="bg-white shadow-inner py-6 mt-8">
+    <div class="container mx-auto max-w-4xl px-4 text-center">
+      <ul class="flex flex-wrap justify-center space-x-4">
+        <li><a href="/" class="bg-gray-200 px-4 py-2 rounded-md text-gray-700 hover:bg-blue-100">YoSinTV Home</a></li>
+      </ul>
     </div>
+  </footer>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <div id='fixedban' class='fixed bottom-0 left-1/2 -translate-x-1/2 z-[999]'>
+    <div class='relative w-[300px] h-[250px] bg-white rounded-lg shadow-xl border border-gray-200'>
+      <button id='close-fixedban' class='absolute left-1/2 -translate-x-1/2 top-3 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors duration-200 cursor-pointer z-[1000]'>Close</button>
+      <div class='w-[300px] h-[250px] overflow-hidden pt-8'>
+        <ins class='adsbygoogle inline-block w-[300px] h-[250px]' data-ad-client='ca-pub-5525538810839147' data-ad-slot='5912194004'></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+    </div>
+  </div>
 
-    <script type='text/javascript'>
-        $(document).ready(function () {
-            $('#close-fixedban').click(function () { $('#fixedban').hide(90); });
-        });
-    </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type='text/javascript'>
+    $(document).ready(function() {
+      $('#close-fixedban').click(function() { $('#fixedban').hide(90); });
+    });
+  </script>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                requestAnimationFrame(async () => {
-                    const normalize = s => s.toString().toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        requestAnimationFrame(async () => {
+          const normalize = (s = '') => s.toString().toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/&/g, 'and').replace(/[^a-z0-9]/g, '');
+          const escapeHtml = (s = '') => s.toString().replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+          const toArray = (v) => Array.isArray(v) ? v : [];
+          const isSet = (v) => v !== null && v !== undefined && v !== '';
 
-                    // --- formatTime FUNCTION ---
-                    const formatTime = (iso, type) => {
-                        try {
-                            const d = new Date(iso);
-                            if (type === 'full') {
-                                const options = { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
-                                return d.toLocaleString(undefined, options);
-                            }
-                            return {
-                                day: d.toLocaleString(undefined, { weekday: 'long' }),
-                                date: d.toLocaleString(undefined, { year: 'numeric', month: 'long', day: 'numeric' }),
-                                time: d.toLocaleString(undefined, { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true })
-                            };
-                        } catch (e) {
-                            return type === 'full' ? 'Invalid Time' : { day: 'N/A', date: 'N/A', time: 'N/A' };
-                        }
-                    };
+          const formatTime = (iso) => {
+            if (!iso) return 'N/A';
+            const d = new Date(iso);
+            if (Number.isNaN(d.getTime())) return 'N/A';
+            return d.toLocaleString('en-US', {
+              month: 'long',
+              day: 'numeric',
+              year: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              hour12: true
+            }).replace(',', ' at');
+          };
 
-                    const mainApis = [
-                        'https://yosintv-api.pages.dev/api/cricket.json',
-                        'https://yosintv-api.pages.dev/api/footballl.json'
-                    ];
+          const formatShortTime = (iso) => {
+            if (!iso) return 'TBD';
+            const d = new Date(iso);
+            if (Number.isNaN(d.getTime())) return 'TBD';
+            return d.toLocaleString('en-US', {
+              month: 'short',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              hour12: true
+            });
+          };
 
-                    const urlParams = new URLSearchParams(window.location.search);
-                    const slug = urlParams.get('yosintv'); // Slug from URL
+          const formatLocalDateTime = (value) => {
+            if (!value) return 'N/A';
+            const d = new Date(value);
+            if (Number.isNaN(d.getTime())) return 'N/A';
+            return d.toLocaleString(undefined, {
+              weekday: 'short',
+              month: 'short',
+              day: 'numeric',
+              year: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              hour12: true,
+              timeZoneName: 'short'
+            });
+          };
 
-                    if (!slug) {
-                        document.getElementById('match-name').textContent = 'No Match Selected';
-                        return;
-                    }
+          const formatDurationMs = (ms) => {
+            const total = Math.max(0, Math.floor(ms / 1000));
+            const h = Math.floor(total / 3600);
+            const m = Math.floor((total % 3600) / 60);
+            const s = total % 60;
+            return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+          };
 
-                    const searchKey = normalize(slug);
-                    let match = null;
+          const formatTimeLeft = (ms) => {
+            const totalMinutes = Math.max(0, Math.floor(ms / 60000));
+            const days = Math.floor(totalMinutes / 1440);
+            const hours = Math.floor((totalMinutes % 1440) / 60);
+            const mins = totalMinutes % 60;
+            if (days > 0) return `${days}d ${hours}h`;
+            if (hours > 0) return `${hours}h ${mins}m`;
+            return `${mins}m`;
+          };
 
-                    // 1. Fetch Main Match Info (Metadata)
-                    for (const api of mainApis) {
-                        try {
-                            const res = await fetch(api);
-                            if (!res.ok) continue;
-                            const json = await res.json();
-                            const foundMatch = (json.matches || []).find(m => {
-                                const fullMatchName = normalize(m.team1 + 'vs' + m.team2);
-                                const team1Name = normalize(m.team1);
-                                const team2Name = normalize(m.team2);
-                                const isDetailsUrlMatch = m.details_url && normalize(m.details_url).includes(`yosintv${searchKey}`);
-                                return fullMatchName.includes(searchKey) || team1Name.includes(searchKey) || team2Name.includes(searchKey) || isDetailsUrlMatch;
-                            });
-                            if (foundMatch) {
-                                match = foundMatch;
-                                break;
-                            }
-                        } catch (e) { }
-                    }
+          const getCountdownState = (startIso, durationHours = 0) => {
+            const startMs = new Date(startIso).getTime();
+            if (!Number.isFinite(startMs)) {
+              return { label: 'Time TBD', tone: 'bg-gray-100 text-gray-600 border border-gray-200' };
+            }
 
-                    if (!match) {
-                        document.getElementById('match-name').textContent = 'Match Not Available';
-                        document.getElementById('match-info').innerHTML = '<p class="text-red-600 text-center">This match is not live right now.</p>';
-                        return;
-                    }
+            const now = Date.now();
+            const safeDuration = Number(durationHours) > 0 ? Number(durationHours) : 0;
+            const endMs = startMs + safeDuration * 3600000;
 
-                    const { team1, team2, start, duration, details_url, lineup_image_url, league } = match;
-                    const matchName = `${team1.trim()} vs ${team2.trim()}`;
-                    const startTimeFull = formatTime(start, 'full');
+            if (now < startMs) {
+              return {
+                label: `Starts in ${formatTimeLeft(startMs - now)}`,
+                tone: 'bg-blue-100 text-blue-700 border border-blue-200'
+              };
+            }
+            if (safeDuration > 0 && now < endMs) {
+              return { label: 'Live Now', tone: 'bg-green-100 text-green-700 border border-green-200' };
+            }
+            if (safeDuration > 0 && now >= endMs) {
+              return { label: 'Ended', tone: 'bg-gray-100 text-gray-600 border border-gray-200' };
+            }
+            return { label: 'Started', tone: 'bg-amber-100 text-amber-700 border border-amber-200' };
+          };
 
-                    // SEO & Meta
-                    document.title = `YoSinTV - ${matchName} Live Stream`;
-                    document.getElementById('meta-description').content = `Watch ${matchName} live stream on YoSinTV`;
-                    document.getElementById('og-title').content = document.title;
-                    document.getElementById('og-url').content = location.href;
-                    document.getElementById('canonical-url').href = location.href;
+          const getTeamLogo = (logoUrl, teamName, fallbackBg) => {
+            if (logoUrl) return logoUrl;
+            const short = (teamName || 'TBD').trim().substring(0, 3).toUpperCase();
+            return `https://placehold.co/120x120/${fallbackBg}/ffffff?text=${encodeURIComponent(short)}&font=roboto`;
+          };
 
-                    // Display Info
-                    document.getElementById('match-name').textContent = `${matchName}`;
-                    document.getElementById('home-team-name').textContent = team1;
-                    document.getElementById('away-team-name').textContent = team2;
-                    document.getElementById('hero-team1-name').textContent = team1;
-                    document.getElementById('hero-team2-name').textContent = team2;
-                    document.getElementById('hero-team1-logo').src = match.team1_logo || `https://placehold.co/120x120/3b82f6/ffffff?text=${team1.trim().substring(0,3).toUpperCase()}`;
-                    document.getElementById('hero-team2-logo').src = match.team2_logo || `https://placehold.co/120x120/dc2626/ffffff?text=${team2.trim().substring(0,3).toUpperCase()}`;
-                    document.getElementById('hero-league').textContent = league || 'Football';
-                    document.getElementById('hero-time').textContent = `Kick-off: ${startTimeFull}`;
+          const updateMoreMatchCountdowns = () => {
+            document.querySelectorAll('.more-match-countdown').forEach(el => {
+              const startIso = el.getAttribute('data-start') || '';
+              const duration = Number(el.getAttribute('data-duration') || 0);
+              const state = getCountdownState(startIso, duration);
+              el.textContent = state.label;
+              el.className = `more-match-countdown mt-1.5 inline-flex items-center justify-center px-2 py-0.5 rounded-full text-[10px] font-bold ${state.tone}`;
+            });
+          };
 
-                    // Lineup Image
-                    const lineupImageContainer = document.getElementById('lineup-image-container');
-                    if (lineup_image_url) {
-                        lineupImageContainer.innerHTML = `
-            <div class="bg-gray-50 p-3 rounded-lg shadow-sm border border-gray-200">
-              <p class="text-center text-sm text-gray-700 font-semibold mb-2">Predicted Lineup/Preview Image</p>
-              <img src="${lineup_image_url}" alt="${matchName} Lineup Preview" class="w-full h-auto object-cover rounded-md border border-gray-300" onerror="this.onerror=null; this.src='https://placehold.co/600x400/ccc/000?text=Lineup+Image+Not+Available';" />
+          const clearMoreMatchesAutoScroll = () => {
+            if (window.__moreMatchesAutoInterval) {
+              clearInterval(window.__moreMatchesAutoInterval);
+              window.__moreMatchesAutoInterval = null;
+            }
+            if (window.__moreMatchesAutoRaf) {
+              cancelAnimationFrame(window.__moreMatchesAutoRaf);
+              window.__moreMatchesAutoRaf = null;
+            }
+            const h = window.__moreMatchesAutoHandlers;
+            if (h && h.el) {
+              h.el.removeEventListener('mouseenter', h.onMouseEnter);
+              h.el.removeEventListener('touchstart', h.onTouchStart);
+              h.el.removeEventListener('touchend', h.onTouchEnd);
+            }
+            window.__moreMatchesAutoHandlers = null;
+          };
+
+          const setupMoreMatchesAutoScroll = (container) => {
+            clearMoreMatchesAutoScroll();
+            if (!container) return;
+
+            const isMobile = window.matchMedia('(max-width: 767px)').matches;
+            if (!isMobile) return;
+
+            const initialMax = container.scrollWidth - container.clientWidth;
+            if (initialMax <= 8) return;
+
+            container.scrollLeft = initialMax;
+            let pauseUntil = Date.now() + 2000;
+            const pause = (ms) => { pauseUntil = Date.now() + ms; };
+
+            const onMouseEnter = () => pause(3000);
+            const onTouchStart = () => pause(5200);
+            const onTouchEnd = () => pause(2200);
+            container.addEventListener('mouseenter', onMouseEnter, { passive: true });
+            container.addEventListener('touchstart', onTouchStart, { passive: true });
+            container.addEventListener('touchend', onTouchEnd, { passive: true });
+            window.__moreMatchesAutoHandlers = { el: container, onMouseEnter, onTouchStart, onTouchEnd };
+
+            const tick = () => {
+              const max = container.scrollWidth - container.clientWidth;
+              if (max <= 8 || Date.now() < pauseUntil) return;
+
+              const firstCard = container.querySelector('.more-match-card');
+              const computed = window.getComputedStyle(container);
+              const gap = parseFloat(computed.gap || computed.columnGap || '12') || 12;
+              const cardWidth = firstCard ? firstCard.getBoundingClientRect().width : (container.clientWidth * 0.84);
+              const step = Math.max(60, cardWidth + gap);
+
+              if (container.scrollLeft <= 2) {
+                container.scrollTo({ left: max, behavior: 'auto' });
+              } else {
+                const nextLeft = Math.max(0, container.scrollLeft - step);
+                container.scrollTo({ left: nextLeft, behavior: 'smooth' });
+              }
+            };
+
+            window.__moreMatchesAutoInterval = setInterval(tick, 2000);
+          };
+
+          if (!window.__moreMatchesResizeBound) {
+            window.addEventListener('resize', () => {
+              setupMoreMatchesAutoScroll(document.getElementById('more-matches'));
+            }, { passive: true });
+            window.__moreMatchesResizeBound = true;
+          }
+
+          const getSlugFromDetailsRaw = (detailsUrl = '') => {
+            if (!detailsUrl) return '';
+            try {
+              const u = new URL(detailsUrl);
+              return (u.searchParams.get('yosintv') || '').trim();
+            } catch (e) {
+              const m = detailsUrl.match(/[?&]yosintv=([^&]+)/i);
+              return m && m[1] ? decodeURIComponent(m[1]).trim() : '';
+            }
+          };
+
+          const getSlugFromDetails = (detailsUrl = '') => normalize(getSlugFromDetailsRaw(detailsUrl));
+
+          const getMainTeamName = (rawMatch) => {
+            if (!rawMatch || typeof rawMatch !== 'object') return 'Unknown Team';
+            if (typeof rawMatch.team1 === 'string' && rawMatch.team1.trim()) return rawMatch.team1.trim();
+            return 'Unknown Team';
+          };
+
+          const getSportType = (rawMatch) => {
+            if (rawMatch && rawMatch.football_data) return 'football';
+            if (rawMatch && rawMatch.cricket_data) return 'cricket';
+            return 'sports';
+          };
+
+          const buildListCard = (title, items) => {
+            if (!items.length) {
+              return `
+                <div class="bg-gray-50 rounded-lg border border-gray-200 p-3">
+                  <h5 class="text-sm font-bold text-gray-900 mb-2">${escapeHtml(title)}</h5>
+                  <p class="text-sm text-gray-500">Not available.</p>
+                </div>`;
+            }
+            return `
+              <div class="bg-gray-50 rounded-lg border border-gray-200 p-3">
+                <h5 class="text-sm font-bold text-gray-900 mb-2">${escapeHtml(title)}</h5>
+                <ul class="list-disc list-inside space-y-1 text-sm text-gray-700">
+                  ${items.map(item => `<li>${escapeHtml(item)}</li>`).join('')}
+                </ul>
+              </div>`;
+          };
+
+          const buildStat = (label, value) => {
+            if (!isSet(value)) return '';
+            return `
+              <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+                <p class="text-xs uppercase text-gray-500 font-semibold tracking-wide">${escapeHtml(label)}</p>
+                <p class="text-sm font-semibold text-gray-900 mt-1">${escapeHtml(String(value))}</p>
+              </div>`;
+          };
+
+          const buildOverviewItem = (label, value, className = '', showWhenEmpty = false) => {
+            if (!isSet(value) && !showWhenEmpty) return '';
+            const safeValue = isSet(value) ? String(value) : 'N/A';
+            return `
+              <div class="rounded-xl border border-slate-200/90 bg-white p-3 sm:p-3.5 shadow-[0_1px_0_rgba(15,23,42,0.04)] ${className}">
+                <p class="text-[10px] sm:text-[11px] uppercase tracking-wide text-slate-500 font-semibold">${escapeHtml(label)}</p>
+                <p class="mt-1 text-[13px] sm:text-sm font-semibold text-slate-900 leading-snug">${escapeHtml(safeValue)}</p>
+              </div>`;
+          };
+
+          const mainApis = [
+            { url: 'https://yosintvapi.pages.dev/api/match-cricket.json', sport: 'cricket' },
+            { url: 'https://yosintvapi.pages.dev/api/match-football.json', sport: 'football' }
+          ];
+
+          const urlParams = new URLSearchParams(window.location.search);
+          const slug = (urlParams.get('yosintv') || '').trim();
+          if (!slug) return;
+
+          const searchKey = normalize(slug);
+          const apiResponses = await Promise.allSettled(
+            mainApis.map(async ({ url, sport }) => {
+              const res = await fetch(url, { cache: 'no-store' });
+              if (!res.ok) throw new Error(`Failed ${url}`);
+              const json = await res.json();
+              const rawMatches = Array.isArray(json.matches) ? json.matches : (Array.isArray(json) ? json : []);
+              const matches = toArray(rawMatches).map(match => ({
+                ...match,
+                __sport: getSportType(match) === 'sports' ? sport : getSportType(match)
+              }));
+              return matches;
+            })
+          );
+
+          const allMatches = apiResponses
+            .filter(result => result.status === 'fulfilled')
+            .flatMap(result => result.value);
+
+          if (!allMatches.length) {
+            document.getElementById('match-info').innerHTML = '<p class="text-center text-red-600 font-semibold">Unable to load matches right now. Please refresh in a moment.</p>';
+            return;
+          }
+
+          const ranked = allMatches.map(m => {
+            const t1 = normalize(m.team1);
+            const t2 = normalize(m.team2);
+            const full = normalize(`${m.team1 || ''}vs${m.team2 || ''}`);
+            const detailsSlug = getSlugFromDetails(m.details_url);
+
+            let score = 0;
+            if (detailsSlug && detailsSlug === searchKey) score += 1000;
+            if (t1 === searchKey || t2 === searchKey) score += 800;
+            if (full === searchKey) score += 700;
+            if (full.includes(searchKey)) score += 500;
+            if (t1.includes(searchKey) || t2.includes(searchKey)) score += 300;
+            if (detailsSlug && detailsSlug.includes(searchKey)) score += 200;
+
+            return { match: m, score };
+          }).filter(x => x.score > 0).sort((a, b) => b.score - a.score);
+
+          if (!ranked.length) {
+            document.getElementById('match-info').innerHTML = '<p class="text-center text-red-600 font-semibold">No match found for this link. Please check the match URL.</p>';
+            document.getElementById('no-matches').classList.remove('hidden');
+            return;
+          }
+
+          const match = ranked[0].match;
+          const team1 = (match.team1 || '').trim();
+          const team2 = (match.team2 || '').trim();
+          const league = match.league || '';
+          const start = match.start;
+          const durationHours = Number(match.duration) > 0 ? Number(match.duration) : 0;
+          const lineupImageUrl = match.lineup_image_url || '';
+          const matchName = `${team1} vs ${team2}`;
+          const startTimeFormatted = formatTime(start);
+          const sportType = match.__sport || getSportType(match);
+          const detail = match.football_data || match.cricket_data || {};
+          const event = detail.event || {};
+          const h2h = detail.h2h || {};
+          const lineups = detail.lineups || {};
+          const pregameForm = detail.pregame_form || null;
+          const canonicalUrl = window.location.href;
+          const kickOffLocalTime = formatLocalDateTime(event.kick_off_time_utc || event.start_time_utc || start);
+
+          const setContent = (id, text) => {
+            const el = document.getElementById(id);
+            if (el) el.content = text;
+          };
+          const setHref = (id, val) => {
+            const el = document.getElementById(id);
+            if (el) el.href = val;
+          };
+
+          document.title = `YoSinTV - ${matchName} Live Stream`;
+          setContent('meta-description', `Watch ${matchName} live stream on YoSinTV with match preview, lineup and live links.`);
+          setContent('meta-keywords', `${team1}, ${team2}, ${league || 'sports'}, live stream, YoSinTV`);
+          setContent('og-title', `YoSinTV - ${matchName} Live Stream`);
+          setContent('og-description', `Watch ${matchName} live stream and match details on YoSinTV.`);
+          setContent('og-url', canonicalUrl);
+          setContent('twitter-title', `YoSinTV - ${matchName} Live Stream`);
+          setContent('twitter-description', `Watch ${matchName} live stream and match details on YoSinTV.`);
+          setHref('canonical-url', canonicalUrl);
+
+          document.getElementById('match-date-time').textContent = `Match Time: ${startTimeFormatted}`;
+          document.getElementById('team1-name').textContent = team1;
+          document.getElementById('team2-name').textContent = team2;
+
+          if (league) {
+            document.getElementById('league-display').textContent = `${league} • ${sportType.toUpperCase()}`;
+            document.getElementById('league-bar-container').classList.remove('hidden');
+          }
+
+          const team1Logo = document.getElementById('team1-logo');
+          const team2Logo = document.getElementById('team2-logo');
+          team1Logo.src = match.team1_logo || `https://placehold.co/120x120/3b82f6/ffffff?text=${encodeURIComponent(team1.substring(0, 3).toUpperCase())}&font=roboto`;
+          team2Logo.src = match.team2_logo || `https://placehold.co/120x120/dc2626/ffffff?text=${encodeURIComponent(team2.substring(0, 3).toUpperCase())}&font=roboto`;
+          team1Logo.alt = team1;
+          team2Logo.alt = team2;
+
+          if (lineupImageUrl) {
+            document.getElementById('lineup-image-container').innerHTML = `
+              <div class="bg-gray-50 p-3 rounded-lg shadow-sm border border-gray-200">
+                <p class="text-center text-sm text-gray-700 font-semibold mb-2">Predicted Lineup / Preview</p>
+                <img src="${escapeHtml(lineupImageUrl)}" alt="${escapeHtml(matchName)}" class="w-full h-auto object-cover rounded-md border border-gray-300" onerror="this.src='https://placehold.co/600x400/ccc/000?text=Lineup+Not+Available';" />
+              </div>`;
+          } else {
+            document.getElementById('lineup-image-container').innerHTML = '';
+          }
+
+          const liveContainer = document.getElementById('live-container');
+          const streamCandidates = [...new Set([
+            slug,
+            getSlugFromDetailsRaw(match.details_url)
+          ].filter(Boolean))];
+
+          let streamData = null;
+          for (const streamSlug of streamCandidates) {
+            try {
+              const streamRes = await fetch(`https://www.yosintv.net/${encodeURIComponent(streamSlug)}.json`, { cache: 'no-store' });
+              if (!streamRes.ok) continue;
+              const json = await streamRes.json();
+              if (json && Array.isArray(json.events) && json.events.length) {
+                streamData = json;
+                break;
+              }
+            } catch (e) {}
+          }
+
+          if (streamData && Array.isArray(streamData.events)) {
+            const baseStyle = streamData.styles?.livee || 'display:flex;justify-content:center;align-items:center;margin:12px 0;padding:15px;border-radius:8px;background:#2e7d32;color:#fff;font-weight:bold;font-size:18px;cursor:pointer;text-decoration:none;';
+            const hoverStyle = streamData.styles?.liveeHover || 'box-shadow:0 6px 15px rgba(0,0,0,0.4);';
+            liveContainer.innerHTML = '';
+
+            let appendedLinks = 0;
+            streamData.events.forEach(eventItem => {
+              const eventName = (eventItem.name || `${matchName} Live`).replace(/AUS vs IRE|India vs SA|IND vs SA/g, matchName).trim();
+              const rawLinks = Array.isArray(eventItem.links) ? eventItem.links : (eventItem.link ? [eventItem.link] : []);
+
+              rawLinks.forEach((linkUrl, index) => {
+                if (!linkUrl || !linkUrl.trim()) return;
+
+                const a = document.createElement('a');
+                a.href = linkUrl.trim();
+                a.target = '_blank';
+                a.style.cssText = baseStyle;
+                a.onmouseover = () => { a.style.cssText = baseStyle + hoverStyle; };
+                a.onmouseout = () => { a.style.cssText = baseStyle; };
+
+                let btnText = eventName;
+                if (rawLinks.length > 1 && !btnText.toLowerCase().includes('telegram')) {
+                  btnText += ` - Link ${index + 1}`;
+                }
+                a.textContent = btnText;
+                liveContainer.appendChild(a);
+                appendedLinks += 1;
+              });
+            });
+
+            if (!appendedLinks) {
+              liveContainer.innerHTML = '<p class="text-center text-orange-600 font-bold">Stream links loading soon...</p>';
+            }
+          } else {
+            liveContainer.innerHTML = '<p class="text-center text-orange-600 font-bold">Stream links loading soon...</p>';
+          }
+
+          if (durationHours > 0 && start) {
+            const progContainer = document.createElement('div');
+            progContainer.className = 'w-full bg-gray-200 rounded-full h-6 mb-4';
+            const progBar = document.createElement('div');
+            progBar.className = 'h-6 rounded-full bg-red-600 transition-all duration-1000';
+            const progText = document.createElement('div');
+            progText.className = 'text-sm text-gray-600 mb-2 font-bold text-center';
+            progContainer.appendChild(progBar);
+            liveContainer.before(progText);
+            liveContainer.before(progContainer);
+
+            const startMs = new Date(start).getTime();
+            const totalMs = durationHours * 3600000;
+            const endMs = startMs + totalMs;
+
+            const updateProgress = () => {
+              const now = Date.now();
+              const diff = now - startMs;
+              if (diff < 0) {
+                const mins = Math.abs(Math.floor(diff / 60000));
+                const hrs = Math.floor(mins / 60);
+                const remMins = mins % 60;
+                progText.textContent = `Starts in: ${hrs}h ${remMins}m`;
+                progBar.style.width = '0%';
+              } else if (now >= endMs) {
+                progText.textContent = 'Match Ended';
+                progBar.style.width = '100%';
+              } else {
+                const perc = Math.min((diff / totalMs) * 100, 100);
+                progText.textContent = `Match Playing Time: ${formatDurationMs(diff)} / ${formatDurationMs(totalMs)}`;
+                progBar.style.width = `${perc}%`;
+              }
+            };
+
+            updateProgress();
+            setInterval(updateProgress, 1000);
+          }
+
+          const formBadge = (value) => {
+            const v = (value || '').toString().toUpperCase();
+            if (v === 'W') return 'bg-green-100 text-green-800 border-green-200';
+            if (v === 'L') return 'bg-red-100 text-red-800 border-red-200';
+            return 'bg-gray-100 text-gray-800 border-gray-200';
+          };
+
+          const homePlayers = toArray(lineups.home_players);
+          const awayPlayers = toArray(lineups.away_players);
+          const homeMissing = toArray(lineups.home_missing_players);
+          const awayMissing = toArray(lineups.away_missing_players);
+
+          const pregamePanelContent = pregameForm ? `
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+              <div class="bg-gray-50 rounded-lg p-3 border border-gray-200">
+                <p class="font-semibold text-gray-900">${escapeHtml(team1)}</p>
+                <p class="text-sm text-gray-700 mt-1">Rating: ${escapeHtml(pregameForm.homeTeam?.avgRating || 'N/A')} | Position: ${escapeHtml(pregameForm.homeTeam?.position || 'N/A')}</p>
+                <p class="text-sm text-gray-700">Value (${escapeHtml(pregameForm.label || 'Pts')}): ${escapeHtml(pregameForm.homeTeam?.value || 'N/A')}</p>
+                <div class="flex flex-wrap gap-2 mt-2">
+                  ${toArray(pregameForm.homeTeam?.form).map(v => `<span class="px-2 py-1 rounded border text-xs font-bold ${formBadge(v)}">${escapeHtml(v)}</span>`).join('') || '<span class="text-sm text-gray-500">No recent form data.</span>'}
+                </div>
+              </div>
+              <div class="bg-gray-50 rounded-lg p-3 border border-gray-200">
+                <p class="font-semibold text-gray-900">${escapeHtml(team2)}</p>
+                <p class="text-sm text-gray-700 mt-1">Rating: ${escapeHtml(pregameForm.awayTeam?.avgRating || 'N/A')} | Position: ${escapeHtml(pregameForm.awayTeam?.position || 'N/A')}</p>
+                <p class="text-sm text-gray-700">Value (${escapeHtml(pregameForm.label || 'Pts')}): ${escapeHtml(pregameForm.awayTeam?.value || 'N/A')}</p>
+                <div class="flex flex-wrap gap-2 mt-2">
+                  ${toArray(pregameForm.awayTeam?.form).map(v => `<span class="px-2 py-1 rounded border text-xs font-bold ${formBadge(v)}">${escapeHtml(v)}</span>`).join('') || '<span class="text-sm text-gray-500">No recent form data.</span>'}
+                </div>
+              </div>
+            </div>` : `
+            <div class="bg-slate-50 rounded-lg border border-slate-200 p-4 text-sm text-slate-600">
+              Pregame form data is not available for this match yet.
             </div>`;
-                    } else {
-                        lineupImageContainer.innerHTML = '';
-                    }
 
-                    // 2. Fetch stream links with multi-source fallback
-                    let extraData = {};
-                    const streamSources = [
-                        `https://www.yosintv.net/${slug}.json`,
-                        `https://blog.cricfoot.net/${slug}.json`
-                    ];
-                    const liveContainer = document.getElementById('live-container');
+          const overviewCards = [
+            buildOverviewItem('Kick Off (Your Local Time)', kickOffLocalTime, 'overview-full', true),
+            buildOverviewItem('League', event.league || league || 'N/A', '', true),
+            buildOverviewItem('Sport', sportType.toUpperCase()),
+            buildOverviewItem('Round', isSet(event.round) ? event.round : null),
+            buildOverviewItem('Venue', event.venue || null, 'overview-full'),
+            buildOverviewItem('Stadium Capacity', isSet(event.stadium_capacity) ? event.stadium_capacity : null),
+            buildOverviewItem('Referee', event.referee || null),
+            buildOverviewItem('Home Manager', event.home_manager || null),
+            buildOverviewItem('Away Manager', event.away_manager || null)
+          ].filter(Boolean).join('');
 
-                    try {
-                        for (const src of streamSources) {
-                            try {
-                                const r = await fetch(src);
-                                if (!r.ok) continue;
-                                const j = await r.json();
-                                if (j && j.events && Array.isArray(j.events) && j.events.length > 0) {
-                                    extraData = j;
-                                    break;
-                                }
-                            } catch (e) {}
-                        }
-
-                        // Helper to get data from either source (Priority: extraData -> match)
-                        const getVal = (k) => (extraData && extraData[k]) || (match && match[k]);
-
-                        // Stadium
-                        const stadium = getVal('stadium');
-                        if (stadium && stadium !== "Unknown") {
-                            document.getElementById('stadium-val').textContent = stadium;
-                            document.getElementById('stadium-info').classList.remove('hidden');
-                            document.getElementById('info-bar').classList.remove('hidden');
-                        }
-
-                        // Referee
-                        const referee = getVal('referee');
-                        if (referee && referee !== "Unknown") {
-                            document.getElementById('referee-val').textContent = referee;
-                            document.getElementById('referee-info').classList.remove('hidden');
-                            document.getElementById('info-bar').classList.remove('hidden');
-                        }
-
-                        const dynamicDiv = document.getElementById('dynamic-details');
-
-                        // H2H
-                        const h2h = getVal('h2h');
-                        // Handle both object {summary:[]} (old) and array [] (new) formats if mixed
-                        const h2hData = (h2h && h2h.summary) ? h2h.summary : h2h;
-
-                        if (h2hData && Array.isArray(h2hData) && h2hData.length >= 3) {
-                            document.getElementById('h2h-win').textContent = h2hData[0];
-                            document.getElementById('h2h-draw').textContent = h2hData[1];
-                            document.getElementById('h2h-loss').textContent = h2hData[2];
-                            document.getElementById('h2h-section').classList.remove('hidden');
-                            dynamicDiv.classList.remove('hidden');
-                        }
-
-                        // Lineups
-                        const homeLineup = getVal('home_lineup');
-                        if (homeLineup && Array.isArray(homeLineup) && homeLineup.length > 0) {
-                            const hList = document.getElementById('home-lineup-list');
-                            hList.innerHTML = '';
-                            homeLineup.forEach(player => {
-                                hList.innerHTML += `<li>${player}</li>`;
-                            });
-                            document.getElementById('lineups-section').classList.remove('hidden');
-                            dynamicDiv.classList.remove('hidden');
-                        }
-
-                        const awayLineup = getVal('away_lineup');
-                        if (awayLineup && Array.isArray(awayLineup) && awayLineup.length > 0) {
-                            const aList = document.getElementById('away-lineup-list');
-                            aList.innerHTML = '';
-                            awayLineup.forEach(player => {
-                                aList.innerHTML += `<li>${player}</li>`;
-                            });
-                            document.getElementById('lineups-section').classList.remove('hidden');
-                            dynamicDiv.classList.remove('hidden');
-                        }
-
-                        if (extraData.events) {
-                            const baseStyle = extraData.styles?.livee || "display:flex;justify-content:center;align-items:center;margin:12px 0;padding:15px;border-radius:8px;background:#d00;color:#fff;font-weight:bold;font-size:18px;cursor:pointer;text-decoration:none;";
-                            const hoverStyle = extraData.styles?.liveeHover || "box-shadow:0 6px 15px rgba(0,0,0,0.4);";
-
-                            extraData.events.forEach(event => {
-                                const links = event.links || (event.link ? [event.link] : []);
-                                if (links.length === 0) return;
-
-                                links.forEach((link, i) => {
-                                    const a = document.createElement('a');
-                                    a.href = link;
-                                    a.target = "_blank";
-                                    a.style.cssText = baseStyle;
-                                    a.onmouseover = () => a.style.cssText = baseStyle + hoverStyle;
-                                    a.onmouseout = () => a.style.cssText = baseStyle;
-                                    a.innerHTML = `${event.name ? event.name.replace(/India vs SA|IND vs SA/g, matchName) : 'Watch Live'} ${links.length > 1 ? `- Link ${i + 1}` : ''}`;
-                                    liveContainer.appendChild(a);
-                                });
-                            });
-                        } else {
-                            liveContainer.innerHTML = '<p class="text-center text-orange-600 font-bold">Stream links loading soon...</p>';
-                        }
-
-                    } catch (e) {
-                        console.log("Could not fetch stream json", e);
-                        liveContainer.innerHTML = '<p class="text-center text-orange-600 font-bold">Stream links loading soon...</p>';
-                    }
-
-                    // Better progress bar animation
-                    const progContainer = document.createElement('div');
-                    progContainer.className = 'progress-shell mb-4';
-                    const progBar = document.createElement('div');
-                    progBar.className = 'progress-fill';
-                    const progText = document.createElement('div');
-                    progText.className = 'timer-text';
-                    progContainer.appendChild(progBar);
-                    document.getElementById('live-tracker').appendChild(progText); // Append to specific div
-                    document.getElementById('live-tracker').appendChild(progContainer);
-
-                    const updateProgress = () => {
-                        const now = Date.now();
-                        const startMs = new Date(start).getTime();
-                        const endMs = startMs + duration * 3600000;
-                        const diff = now - startMs;
-
-                        if (diff < 0) {
-                            const m = Math.abs(Math.floor(diff / 60000));
-                            progText.textContent = `Starts in: ${Math.floor(m / 60)}h ${m % 60}m`;
-                            progBar.style.width = '0%';
-                            progBar.textContent = '';
-                        } else if (diff > endMs - startMs) {
-                            progText.textContent = 'Match Ended';
-                            progBar.style.width = '100%';
-                            progBar.textContent = 'FULL TIME';
-                        } else {
-                            const perc = (diff / (duration * 3600000)) * 100;
-                            const h = Math.floor(diff / 3600000);
-                            const m = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
-                            const s = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
-                            progText.textContent = `Match Playing Time: ${h}:${m}:${s} / ${duration}:00:00`;
-                            progBar.style.width = perc + '%';
-                            progBar.textContent = `${Math.floor(perc)}%`;
-                        }
-                    };
-
-                    updateProgress();
-                    setInterval(updateProgress, 1000);
-
-                    // Football enrich: event + h2h + lineups + pregame_form
-                    const getFootballData = async () => {
-                        if (match.football_data) return match.football_data;
-                        if (!match.event_id) return null;
-                        const base = 'https://api.sofascore.com/api/v1/event/';
-                        try {
-                            const [evR, h2hR, lineR, preR] = await Promise.all([
-                                fetch(`${base}${match.event_id}`),
-                                fetch(`${base}${match.event_id}/h2h`),
-                                fetch(`${base}${match.event_id}/lineups`),
-                                fetch(`${base}${match.event_id}/pregame-form`)
-                            ]);
-                            const [evD, h2hD, lineD, preD] = await Promise.all([
-                                evR.json(),
-                                h2hR.json(),
-                                lineR.json(),
-                                preR.json().catch(() => ({}))
-                            ]);
-                            const ev = evD?.event || {};
-                            return {
-                                event: {
-                                    league: ev?.tournament?.name || league || 'N/A',
-                                    round: ev?.roundInfo?.round || 'N/A',
-                                    kick_off_time_utc: ev?.startTimestamp ? new Date(ev.startTimestamp * 1000).toUTCString() : startTimeFull,
-                                    venue: ev?.venue?.name || 'N/A',
-                                    stadium_capacity: ev?.venue?.capacity || 'N/A',
-                                    referee: ev?.referee?.name || 'N/A',
-                                    home_team: ev?.homeTeam?.name || team1,
-                                    away_team: ev?.awayTeam?.name || team2
-                                },
-                                h2h: h2hD?.teamDuel || h2hD || null,
-                                lineups: {
-                                    home_formation: lineD?.home?.formation || 'N/A',
-                                    away_formation: lineD?.away?.formation || 'N/A',
-                                    home_players: (lineD?.home?.players || []).map(p => p?.player?.name).filter(Boolean),
-                                    away_players: (lineD?.away?.players || []).map(p => p?.player?.name).filter(Boolean),
-                                    home_missing_players: (lineD?.home?.missingPlayers || []).map(p => p?.player?.name).filter(Boolean),
-                                    away_missing_players: (lineD?.away?.missingPlayers || []).map(p => p?.player?.name).filter(Boolean)
-                                },
-                                pregame_form: preD || null
-                            };
-                        } catch (e) {
-                            return null;
-                        }
-                    };
-
-                    const fd = await getFootballData();
-                    const evInfo = fd?.event || {};
-                    const duel = fd?.h2h || {};
-                    const lu = fd?.lineups || {};
-                    const pre = fd?.pregame_form || {};
-                    const homeForm = (pre?.homeTeam?.form || []).join(' ') || 'N/A';
-                    const awayForm = (pre?.awayTeam?.form || []).join(' ') || 'N/A';
-                    const totalH2H = (duel.homeWins || 0) + (duel.draws || 0) + (duel.awayWins || 0);
-
-                    const formatForm = (arr) => (arr || []).map(r => `<span class="form-chip form-${r}">${r}</span>`).join(' ');
-                    const homePlayers = (lu.home_players || []).slice(0, 20);
-                    const awayPlayers = (lu.away_players || []).slice(0, 20);
-                    const homeMiss = (lu.home_missing_players || []);
-                    const awayMiss = (lu.away_missing_players || []);
-                    const detailsHTML = `
-          <div class="neo-wrap">
-            <div class="neo-title">Match Intelligence Panel</div>
-            <div class="kv-grid">
-              <div class="kv"><b>League</b><span>${evInfo.league || league || 'N/A'}</span></div>
-              <div class="kv"><b>Round</b><span>${evInfo.round || 'N/A'}</span></div>
-              <div class="kv"><b>Kick-off (UTC)</b><span>${evInfo.kick_off_time_utc || startTimeFull}</span></div>
-              <div class="kv"><b>Venue</b><span>${evInfo.venue || 'N/A'}</span></div>
-              <div class="kv"><b>Capacity</b><span>${evInfo.stadium_capacity || 'N/A'}</span></div>
-              <div class="kv"><b>Referee</b><span>${evInfo.referee || 'N/A'}</span></div>
-              <div class="kv"><b>Home Manager</b><span>${evInfo.home_manager || 'N/A'}</span></div>
-              <div class="kv"><b>Away Manager</b><span>${evInfo.away_manager || 'N/A'}</span></div>
-            </div>
-          </div>
-          <div class="neo-wrap">
-            <div class="neo-title">Head-to-Head Snapshot</div>
-            <div class="pill-row">
-              <span class="pill">${team1} Wins: ${duel.homeWins ?? 'N/A'}</span>
-              <span class="pill">Draws: ${duel.draws ?? 'N/A'}</span>
-              <span class="pill">${team2} Wins: ${duel.awayWins ?? 'N/A'}</span>
-              <span class="pill">Total Meetings: ${totalH2H}</span>
-            </div>
-          </div>
-          <div class="neo-wrap">
-            <div class="neo-title">Lineups & Formations</div>
-            <div class="kv-grid">
-              <div class="team-col">
-                <h5>${team1} (${lu.home_formation || 'N/A'})</h5>
-                <ul class="mini-list">${homePlayers.length ? homePlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
-                <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${homeMiss.length ? homeMiss.join(', ') : 'None reported'}</p>
+          const matchSwitchButtons = `
+            <div class="overflow-x-auto no-scrollbar pb-1">
+              <div class="inline-flex min-w-max items-center gap-2 rounded-xl bg-slate-100 p-1">
+                <button type="button" class="match-switch-btn active" data-match-tab="h2h" aria-selected="true">Head to Head</button>
+                <button type="button" class="match-switch-btn" data-match-tab="lineups" aria-selected="false">Lineups</button>
+                <button type="button" class="match-switch-btn" data-match-tab="pregame" aria-selected="false">Pregame Form</button>
               </div>
-              <div class="team-col">
-                <h5>${team2} (${lu.away_formation || 'N/A'})</h5>
-                <ul class="mini-list">${awayPlayers.length ? awayPlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
-                <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${awayMiss.length ? awayMiss.join(', ') : 'None reported'}</p>
-              </div>
-            </div>
-          </div>
-          <div class="neo-wrap">
-            <div class="neo-title">Pregame Form</div>
-            <div class="kv-grid">
-              <div class="kv">
-                <b>${team1}</b>
-                <span>Rating ${pre?.homeTeam?.avgRating || 'N/A'} | Pos #${pre?.homeTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.homeTeam?.value || 'N/A'}</span>
-                <div class="pill-row">${formatForm(pre?.homeTeam?.form)}</div>
-              </div>
-              <div class="kv">
-                <b>${team2}</b>
-                <span>Rating ${pre?.awayTeam?.avgRating || 'N/A'} | Pos #${pre?.awayTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.awayTeam?.value || 'N/A'}</span>
-                <div class="pill-row">${formatForm(pre?.awayTeam?.form)}</div>
-              </div>
-            </div>
-          </div>
-        `;
+            </div>`;
 
-                    const faqHTML = `
-          <div class="space-y-4 text-left overflow-visible break-words">
-            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">${matchName} - Match Details</h3>
-            ${detailsHTML}
-            <h3 class="text-xl font-bold text-gray-900">Match Live Links</h3>
-            <div class="mobile-switch">
-              <button class="switch-btn active" data-target="lineupPanel">Lineups</button>
-              <button class="switch-btn" data-target="pregamePanel">Pregame Form</button>
-            </div>
-            <div id="lineupPanel" class="switch-panel">${`
-              <div class="neo-wrap">
-                <div class="neo-title">Lineups & Formations</div>
-                <div class="kv-grid">
-                  <div class="team-col">
-                    <h5>${team1} (${lu.home_formation || 'N/A'})</h5>
-                    <ul class="mini-list">${homePlayers.length ? homePlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
-                    <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${homeMiss.length ? homeMiss.join(', ') : 'None reported'}</p>
+          const matchInfoHtml = `
+            <div class="space-y-4 text-left overflow-visible break-words">
+              <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">${escapeHtml(matchName)} - Match Details</h3>
+              <h3 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 text-gray-900">Frequently Asked Questions</h3>
+              <div class="space-y-4">
+                <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                  <h4 class="text-lg font-semibold text-gray-900">Which teams will face against each other in this match?</h4>
+                  <p class="text-gray-600">${escapeHtml(team1)} will face off against ${escapeHtml(team2)} in this match.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                  <h4 class="text-lg font-semibold text-gray-900">When is the ${escapeHtml(matchName)} match happening?</h4>
+                  <p class="text-gray-600">The match starts at ${escapeHtml(startTimeFormatted)}.</p>
+                </div>
+              </div>
+
+              <div class="rounded-xl border border-slate-200 overflow-hidden bg-white shadow-sm">
+                <div class="bg-gradient-to-r from-sky-50 via-blue-50 to-indigo-50 border-b border-slate-200 p-3 sm:p-4">
+                  <div class="flex flex-wrap items-center justify-between gap-2">
+                    <h4 class="text-lg sm:text-xl font-bold text-slate-900">Event Overview</h4>
+                    <span class="inline-flex items-center px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full text-[11px] sm:text-xs font-semibold bg-white text-blue-700 border border-blue-200">${escapeHtml(sportType.toUpperCase())}</span>
                   </div>
-                  <div class="team-col">
-                    <h5>${team2} (${lu.away_formation || 'N/A'})</h5>
-                    <ul class="mini-list">${awayPlayers.length ? awayPlayers.map(p => `<li>• ${p}</li>`).join('') : '<li>• No lineup data</li>'}</ul>
-                    <p class="mt-2 text-xs text-red-600"><b>Missing:</b> ${awayMiss.length ? awayMiss.join(', ') : 'None reported'}</p>
+                  <p class="text-xs sm:text-sm text-slate-600 mt-1">All times shown in each visitor's local timezone.</p>
+                </div>
+                <div class="p-3 sm:p-4">
+                  <div class="event-overview-grid">
+                    ${overviewCards}
                   </div>
                 </div>
               </div>
-            `}</div>
-            <div id="pregamePanel" class="switch-panel hidden">${`
-              <div class="neo-wrap">
-                <div class="neo-title">Pregame Form</div>
-                <div class="kv-grid">
-                  <div class="kv">
-                    <b>${team1}</b>
-                    <span>Rating ${pre?.homeTeam?.avgRating || 'N/A'} | Pos #${pre?.homeTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.homeTeam?.value || 'N/A'}</span>
-                    <div class="pill-row">${formatForm(pre?.homeTeam?.form)}</div>
+
+              <div class="bg-white border border-gray-200 rounded-xl p-3 sm:p-4 space-y-3">
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                  <h4 class="text-lg sm:text-xl font-bold text-gray-900">Match Insights</h4>
+                  <p class="text-xs sm:text-sm text-gray-500">Switch between Head to Head, Lineups and Pregame Form.</p>
+                </div>
+                ${matchSwitchButtons}
+                <div class="space-y-3">
+                  <div data-match-panel="h2h">
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                      ${buildStat(`${team1} Wins`, isSet(h2h.homeWins) ? h2h.homeWins : 0)}
+                      ${buildStat(`${team2} Wins`, isSet(h2h.awayWins) ? h2h.awayWins : 0)}
+                      ${buildStat('Draws', isSet(h2h.draws) ? h2h.draws : 0)}
+                    </div>
                   </div>
-                  <div class="kv">
-                    <b>${team2}</b>
-                    <span>Rating ${pre?.awayTeam?.avgRating || 'N/A'} | Pos #${pre?.awayTeam?.position || 'N/A'} | ${pre?.label || 'Pts'} ${pre?.awayTeam?.value || 'N/A'}</span>
-                    <div class="pill-row">${formatForm(pre?.awayTeam?.form)}</div>
+                  <div data-match-panel="lineups" class="hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      ${buildListCard(`${team1} Players${lineups.home_formation ? ` (${lineups.home_formation})` : ''}`, homePlayers)}
+                      ${buildListCard(`${team2} Players${lineups.away_formation ? ` (${lineups.away_formation})` : ''}`, awayPlayers)}
+                      ${buildListCard(`${team1} Missing Players`, homeMissing)}
+                      ${buildListCard(`${team2} Missing Players`, awayMissing)}
+                    </div>
+                  </div>
+                  <div data-match-panel="pregame" class="hidden">
+                    ${pregamePanelContent}
                   </div>
                 </div>
               </div>
-            `}</div>
-            <h3 class="text-2xl font-bold border-b-2 border-gray-200 pb-2 text-gray-900">Frequently Asked Questions</h3>
-            <div class="space-y-3">
-              <div class="faq-card">
-                <h4 class="text-lg font-semibold text-gray-900 break-words">1. Which teams are playing this match?</h4>
-                <p class="text-gray-600 break-words">${team1.trim()} will face off against ${team2.trim()} in this exciting match.</p>
-              </div>
-              <div class="faq-card">
-                <h4 class="text-lg font-semibold text-gray-900 break-words">2. When does the match start?</h4>
-                <p class="text-gray-600 break-words">Kick-off is ${evInfo.kick_off_time_utc || startTimeFull}.</p>
-              </div>
-              <div class="faq-card">
-                <h4 class="text-lg font-semibold text-gray-900 break-words">3. How long will the match run?</h4>
-                <p class="text-gray-600 break-words">The match is expected to last about ${duration} hours, including stoppage time.</p>
-              </div>
-              <div class="faq-card">
-                <h4 class="text-lg font-semibold text-gray-900 break-words">4. Where can I watch this match live?</h4>
-                <p class="text-gray-600 break-words">Stream the live match of ${matchName} via <a href="https://www.yosin-tv.net/" target="_blank" class="text-blue-600 hover:underline">YoSinTV Free Live Stream</a>.</p>
-              </div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">5. What league is this fixture in?</h4><p class="text-gray-600 break-words">${evInfo.league || league || 'N/A'}.</p></div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">6. Which round is this match?</h4><p class="text-gray-600 break-words">Round ${evInfo.round || 'N/A'}.</p></div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">7. Where is this match being played?</h4><p class="text-gray-600 break-words">${evInfo.venue || 'Venue not announced yet'}.</p></div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">8. Who is the referee?</h4><p class="text-gray-600 break-words">${evInfo.referee || 'Referee details not available yet'}.</p></div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">9. What is the head-to-head record?</h4><p class="text-gray-600 break-words">${team1} wins: ${duel.homeWins ?? 'N/A'}, draws: ${duel.draws ?? 'N/A'}, ${team2} wins: ${duel.awayWins ?? 'N/A'}.</p></div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">10. What are the expected formations?</h4><p class="text-gray-600 break-words">${team1}: ${lu.home_formation || 'N/A'} | ${team2}: ${lu.away_formation || 'N/A'}.</p></div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">11. What are the latest pregame form trends?</h4><p class="text-gray-600 break-words">${team1}: ${homeForm} | ${team2}: ${awayForm}.</p></div>
-              <div class="faq-card"><h4 class="text-lg font-semibold text-gray-900 break-words">12. Are lineups confirmed?</h4><p class="text-gray-600 break-words">Predicted lineups are available early, and confirmed lineups usually appear closer to kick-off.</p></div>
-            </div>
-          </div>
-        `;
-                    document.getElementById('match-info').innerHTML = faqHTML;
-                    document.querySelectorAll('.switch-btn').forEach(btn => {
-                        btn.addEventListener('click', () => {
-                            document.querySelectorAll('.switch-btn').forEach(b => b.classList.remove('active'));
-                            btn.classList.add('active');
-                            document.querySelectorAll('.switch-panel').forEach(p => p.classList.add('hidden'));
-                            const t = document.getElementById(btn.dataset.target);
-                            if (t) t.classList.remove('hidden');
-                        });
-                    });
+            </div>`;
 
-                    // Optional "More Matches" support (if section exists in this template)
-                    const more = document.getElementById('more-matches');
-                    if (more) {
-                        more.innerHTML = '';
-                        for (const api of mainApis) {
-                            try {
-                                const r = await fetch(api);
-                                if (!r.ok) continue;
-                                const j = await r.json();
-                                (j.matches || []).slice(0, 5).forEach(m => {
-                                    if (normalize(m.team1) === normalize(team1)) return;
-                                    const card = document.createElement('a');
-                                    card.href = m.details_url || `?yosintv=${normalize(m.team1 + m.team2)}`;
-                                    card.className = 'bg-gray-50 p-4 rounded-lg flex justify-between items-center hover:bg-gray-100 block';
-                                    card.innerHTML = `<span>${m.team1} vs ${m.team2}</span><span class="text-sm text-gray-500">${new Date(m.start).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>`;
-                                    more.appendChild(card);
-                                });
-                            } catch (e) {}
-                        }
-                    }
-                });
-            }, 0);
+          document.getElementById('match-info').innerHTML = matchInfoHtml;
+          const matchInfoRoot = document.getElementById('match-info');
+          const matchTabButtons = Array.from(matchInfoRoot.querySelectorAll('[data-match-tab]'));
+          const matchTabPanels = Array.from(matchInfoRoot.querySelectorAll('[data-match-panel]'));
+
+          const activateMatchPanel = (panelName) => {
+            matchTabButtons.forEach(btn => {
+              const active = btn.getAttribute('data-match-tab') === panelName;
+              btn.classList.toggle('active', active);
+              btn.setAttribute('aria-selected', active ? 'true' : 'false');
+            });
+            matchTabPanels.forEach(panel => {
+              panel.classList.toggle('hidden', panel.getAttribute('data-match-panel') !== panelName);
+            });
+          };
+
+          matchTabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+              activateMatchPanel(btn.getAttribute('data-match-tab'));
+            });
+          });
+          activateMatchPanel('h2h');
+
+          const moreContainer = document.getElementById('more-matches');
+          const noMatches = document.getElementById('no-matches');
+          moreContainer.innerHTML = '';
+
+          const currentEventId = match.event_id || null;
+          const currentSport = (match.__sport || getSportType(match)).toLowerCase();
+          const seen = new Set();
+          const moreMatches = allMatches
+            .filter(m => {
+              const itemSport = (m.__sport || getSportType(m)).toLowerCase();
+              if (itemSport !== currentSport) return false;
+              if (currentEventId && m.event_id === currentEventId) return false;
+              const key = `${normalize(getMainTeamName(m))}-${normalize(m.team2 || '')}-${m.start || ''}`;
+              if (seen.has(key)) return false;
+              seen.add(key);
+              return true;
+            })
+            .sort((a, b) => new Date(a.start || 0).getTime() - new Date(b.start || 0).getTime())
+            .slice(0, 12);
+
+          if (!moreMatches.length) {
+            noMatches.classList.remove('hidden');
+            clearMoreMatchesAutoScroll();
+            if (window.__moreMatchCountdownTimer) {
+              clearInterval(window.__moreMatchCountdownTimer);
+              window.__moreMatchCountdownTimer = null;
+            }
+          } else {
+            noMatches.classList.add('hidden');
+            moreMatches.forEach(m => {
+              const card = document.createElement('a');
+              const detailsSlug = getSlugFromDetailsRaw(m.details_url);
+              const cardSport = (m.__sport || getSportType(m)).toUpperCase();
+              const cardCountdown = getCountdownState(m.start, m.duration);
+              const homeName = (m.team1 || '').trim();
+              const awayName = (m.team2 || '').trim();
+              const homeLogo = getTeamLogo(m.team1_logo, homeName, '3b82f6');
+              const awayLogo = getTeamLogo(m.team2_logo, awayName, 'dc2626');
+              card.href = m.details_url || `?yosintv=${encodeURIComponent(detailsSlug || normalize(`${m.team1 || ''}${m.team2 || ''}`))}`;
+              card.className = 'more-match-card block group';
+              card.innerHTML = `
+                <div class="rounded-xl border border-blue-100 bg-gradient-to-br from-white via-white to-blue-50 p-3 sm:p-3 shadow-sm group-hover:shadow-md group-hover:-translate-y-0.5 transition-all duration-200">
+                  <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-2 min-w-0">
+                      ${m.league_logo ? `<img src="${escapeHtml(m.league_logo)}" alt="${escapeHtml(m.league || 'League')}" class="w-4 h-4 rounded-full object-contain bg-white border border-gray-200 shrink-0" />` : ''}
+                      <span class="text-[11px] font-semibold text-gray-700 truncate">${escapeHtml(m.league || 'Match')}</span>
+                    </div>
+                    <span class="inline-flex items-center px-1.5 py-0.5 rounded-full text-[10px] font-bold bg-blue-100 text-blue-700">${escapeHtml(cardSport)}</span>
+                  </div>
+                  <div class="mt-2.5 grid grid-cols-[1fr_auto_1fr] items-center gap-2">
+                    <div class="flex flex-col items-center text-center">
+                      <img src="${escapeHtml(homeLogo)}" alt="${escapeHtml(homeName)}" class="w-10 h-10 sm:w-11 sm:h-11 object-contain rounded-full border border-gray-200 bg-white p-1 shadow-sm" />
+                      <p class="mt-1.5 text-[11px] sm:text-xs font-bold text-gray-900 leading-tight">${escapeHtml(homeName)}</p>
+                    </div>
+                    <div class="flex flex-col items-center px-1">
+                      <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-red-50 border border-red-100 text-red-600 font-extrabold text-[10px] sm:text-xs flex items-center justify-center">VS</div>
+                      <span data-start="${escapeHtml(m.start || '')}" data-duration="${escapeHtml(String(Number(m.duration) || 0))}" class="more-match-countdown mt-1.5 inline-flex items-center justify-center px-2 py-0.5 rounded-full text-[10px] font-bold ${cardCountdown.tone}">
+                        ${escapeHtml(cardCountdown.label)}
+                      </span>
+                    </div>
+                    <div class="flex flex-col items-center text-center">
+                      <img src="${escapeHtml(awayLogo)}" alt="${escapeHtml(awayName)}" class="w-10 h-10 sm:w-11 sm:h-11 object-contain rounded-full border border-gray-200 bg-white p-1 shadow-sm" />
+                      <p class="mt-1.5 text-[11px] sm:text-xs font-bold text-gray-900 leading-tight">${escapeHtml(awayName)}</p>
+                    </div>
+                  </div>
+                  <div class="mt-2.5 pt-2 border-t border-blue-100 flex items-center justify-between gap-2 text-[11px]">
+                    <span class="font-semibold text-gray-700">${escapeHtml(formatShortTime(m.start))}</span>
+                    <span class="text-gray-500">Open match</span>
+                  </div>
+                </div>`;
+              moreContainer.appendChild(card);
+            });
+
+            updateMoreMatchCountdowns();
+            if (window.__moreMatchCountdownTimer) clearInterval(window.__moreMatchCountdownTimer);
+            window.__moreMatchCountdownTimer = setInterval(updateMoreMatchCountdowns, 30000);
+            setupMoreMatchesAutoScroll(moreContainer);
+          }
         });
-    </script>
-</body>
+      }, 0);
+    });
+  </script>
 
+  <div style="position:fixed;top:0;left:0;width:100%;height:1px;overflow:hidden;visibility:hidden;z-index:9999;">
+    <script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script>
+    <script type="text/javascript">sc_online_i(1719927,"ffffff","ffffff");</script>
+    <noscript><a href="https://www.supercounters.com/" style="visibility:hidden;">free online counter</a></noscript>
+    <script id="_wauf8n">var _wau = _wau || []; _wau.push(["dynamic", "3h7l6orqla", "f8n", "c4302bffffff", "small"]);</script>
+    <script async src="//waust.at/d.js"></script>
+  </div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5243eba8b920487aaf6c8ac211a9ad54","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
 </html>
