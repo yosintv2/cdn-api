@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,9 +77,21 @@
       }
     }
     .more-matches-track {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
+      display: flex;
+      gap: 0.75rem;
+      overflow-x: hidden !important;
+      overflow-y: hidden !important;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-y;
+      padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+    .more-matches-track::-webkit-scrollbar { display: none; }
+    .more-matches-track .more-match-card {
+      flex: 0 0 320px;
+      min-width: 320px;
+      scroll-snap-align: start;
     }
     @media (min-width: 640px) {
       .more-matches-track {
@@ -85,23 +99,9 @@
       }
     }
     @media (max-width: 767px) {
-      .more-matches-track {
-        display: flex;
-        gap: 0.75rem;
-        overflow-x: auto;
-        overflow-y: hidden;
-        scroll-snap-type: x mandatory;
-        -webkit-overflow-scrolling: touch;
-        padding-bottom: 4px;
-        scrollbar-width: none;
-      }
-      .more-matches-track::-webkit-scrollbar {
-        display: none;
-      }
       .more-matches-track .more-match-card {
         flex: 0 0 84%;
         min-width: 84%;
-        scroll-snap-align: start;
       }
     }
   </style>
@@ -171,7 +171,7 @@
 
     <section class="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-6">
       <h3 class="text-2xl font-bold text-gray-900 mb-4">More Matches</h3>
-      <div id="more-matches" class="more-matches-track min-w-full overflow-visible"></div>
+      <div id="more-matches" class="more-matches-track min-w-full"></div>
       <div id="no-matches" class="hidden text-center text-gray-600 mt-4">No additional matches available at this time.</div>
     </section>
 
@@ -334,40 +334,20 @@
               cancelAnimationFrame(window.__moreMatchesAutoRaf);
               window.__moreMatchesAutoRaf = null;
             }
-            const h = window.__moreMatchesAutoHandlers;
-            if (h && h.el) {
-              h.el.removeEventListener('mouseenter', h.onMouseEnter);
-              h.el.removeEventListener('touchstart', h.onTouchStart);
-              h.el.removeEventListener('touchend', h.onTouchEnd);
-            }
-            window.__moreMatchesAutoHandlers = null;
           };
 
           const setupMoreMatchesAutoScroll = (container) => {
             clearMoreMatchesAutoScroll();
             if (!container) return;
 
-            const isMobile = window.matchMedia('(max-width: 767px)').matches;
-            if (!isMobile) return;
-
             const initialMax = container.scrollWidth - container.clientWidth;
             if (initialMax <= 8) return;
 
             container.scrollLeft = initialMax;
-            let pauseUntil = Date.now() + 2000;
-            const pause = (ms) => { pauseUntil = Date.now() + ms; };
-
-            const onMouseEnter = () => pause(3000);
-            const onTouchStart = () => pause(5200);
-            const onTouchEnd = () => pause(2200);
-            container.addEventListener('mouseenter', onMouseEnter, { passive: true });
-            container.addEventListener('touchstart', onTouchStart, { passive: true });
-            container.addEventListener('touchend', onTouchEnd, { passive: true });
-            window.__moreMatchesAutoHandlers = { el: container, onMouseEnter, onTouchStart, onTouchEnd };
 
             const tick = () => {
               const max = container.scrollWidth - container.clientWidth;
-              if (max <= 8 || Date.now() < pauseUntil) return;
+              if (max <= 8) return;
 
               const firstCard = container.querySelector('.more-match-card');
               const computed = window.getComputedStyle(container);
