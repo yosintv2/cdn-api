@@ -4,13 +4,313 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>YoSinTV Link Manager</title>
-<style>\n@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500&family=DM+Mono:wght@400;500&display=swap');\n\n*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n:root {\n  --bg: #0d0d0d;\n  --surface: #121212;\n  --surface2: #171717;\n  --surface3: #1f1f1f;\n  --border: rgba(255,255,255,.08);\n  --border2: rgba(255,255,255,.16);\n  --text: #e2e2e2;\n  --text2: #9a9a9a;\n  --text3: #636363;\n  --green: #4ade80;\n  --red: #ef4444;\n  --amber: #a3a3a3;\n  --mono: "DM Mono", "SFMono-Regular", "Consolas", monospace;\n}\n\nbody {\n  font-family: "DM Sans", system-ui, sans-serif;\n  font-weight: 300;\n  background: var(--bg);\n  color: var(--text);\n  min-height: 100vh;\n  padding-bottom: 58px;\n}\n\n.wrap { max-width: 680px; margin: 0 auto; padding: 22px 12px 80px; }\n\n.topbar {\n  display: flex; align-items: center; justify-content: space-between;\n  gap: 10px; margin-bottom: 12px; flex-wrap: wrap;\n}\n\n.brand { display: flex; align-items: baseline; gap: 8px; }\n.brand-name, .brand-sub {\n  font-size: 11px; font-weight: 500; color: var(--text2);\n  text-transform: uppercase; letter-spacing: .14em;\n}\n.brand-sub { color: var(--text3); font-weight: 300; }\n\n.topbar-actions { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }\n.sep { width: 1px; height: 14px; background: var(--border); margin: 0 2px; }\n\n.pill, .btn {\n  display: inline-flex; align-items: center; justify-content: center; gap: 5px;\n  border: 1px solid var(--border); background: transparent; color: var(--text3);\n  font-family: inherit; font-size: 11px; font-weight: 500; text-transform: uppercase;\n  letter-spacing: .12em; cursor: pointer; text-decoration: none; white-space: nowrap;\n  transition: color .15s, border-color .15s, background .15s;\n}\n.pill { padding: 6px 9px; border-radius: 4px; }\n.pill:hover, .btn:hover { color: var(--text); border-color: var(--border2); background: rgba(255,255,255,.03); }\n.pill.danger:hover { color: var(--red); border-color: rgba(239,68,68,.35); }\n.pill svg, .btn svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }\n\n.panel {\n  border: 1px solid var(--border); border-radius: 6px; overflow: hidden;\n  background: var(--surface); box-shadow: none;\n}\n\n.toolbar {\n  display: grid; grid-template-columns: 1fr 115px; gap: 7px;\n  padding: 9px; border-bottom: 1px solid var(--border); background: var(--surface);\n}\n#commitMessage { grid-column: 1 / -1; }\n\nselect, input[type="text"] {\n  background: transparent; color: var(--text); border: 1px solid var(--border);\n  border-radius: 4px; padding: 8px 9px; font-size: 12px; font-family: inherit;\n  font-weight: 300; outline: none; min-width: 0; width: 100%;\n}\nselect:hover, input[type="text"]:hover, select:focus, input[type="text"]:focus { border-color: var(--border2); }\nselect { font-family: var(--mono); }\n#searchFile, #commitMessage { max-width: none; }\n\n.editor-meta {\n  display: flex; align-items: center; justify-content: space-between; gap: 8px;\n  padding: 7px 9px; border-bottom: 1px solid var(--border); background: #101010;\n}\n.editor-filename {\n  font-family: var(--mono); font-size: 11px; color: var(--text3);\n  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;\n}\n.match-badge {\n  font-size: 10px; font-weight: 500; padding: 3px 8px; border-radius: 4px;\n  text-transform: uppercase; letter-spacing: .1em; white-space: nowrap;\n}\n.badge-live { background: rgba(74,222,128,.08); color: var(--green); border: 1px solid rgba(74,222,128,.25); }\n.badge-soon, .badge-over { background: transparent; color: var(--text3); border: 1px solid var(--border); }\n\n.editor-wrap { display: flex; height: 62vh; background: #0b0b0b; }\n#lineNumbers {\n  font-family: var(--mono); font-size: 12px; line-height: 1.65; padding: 14px 9px 14px 6px;\n  min-width: 42px; text-align: right; color: #393939; background: #0b0b0b;\n  border-right: 1px solid var(--border); user-select: none; overflow: hidden; white-space: pre; flex-shrink: 0;\n}\n#editor {\n  flex: 1; background: #0b0b0b; color: #d2d2d2; font-family: var(--mono);\n  font-size: 12.5px; line-height: 1.65; border: none; outline: none; padding: 14px;\n  resize: none; tab-size: 2; white-space: pre; overflow: auto; caret-color: var(--green);\n}\n#editor::placeholder { color: var(--text3); }\n#editor::-webkit-scrollbar { width: 8px; height: 8px; }\n#editor::-webkit-scrollbar-track { background: transparent; }\n#editor::-webkit-scrollbar-thumb { background: var(--surface3); border-radius: 999px; }\n\n.statusbar {\n  display: flex; align-items: center; gap: 8px; padding: 7px 9px; border-top: 1px solid var(--border);\n  background: #101010; font-size: 11px; color: var(--text3); min-height: 30px;\n  text-transform: uppercase; letter-spacing: .12em;\n}\n.status-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--text3); flex-shrink: 0; }\n.status-dot.ok { background: var(--green); box-shadow: 0 0 8px rgba(74,222,128,.3); }\n.status-dot.err { background: var(--red); }\n#statusText { flex: 1; min-width: 0; }\n\n.action-bar {\n  position: fixed; right: 14px; bottom: 14px; z-index: 50;\n  display: flex; align-items: center; justify-content: flex-end; gap: 8px;\n  padding: 7px; border: 1px solid var(--border); background: rgba(13,13,13,.94);\n  backdrop-filter: blur(8px); border-radius: 6px; flex-wrap: nowrap;\n}\n.hint { display: none; }\n.action-btns { display: flex; gap: 7px; }\n.btn { padding: 8px 11px; border-radius: 4px; }\n.btn.primary { background: rgba(74,222,128,.08); border-color: rgba(74,222,128,.32); color: var(--green); }\n.btn.primary:hover { background: rgba(74,222,128,.14); border-color: rgba(74,222,128,.5); }\n\n@media (max-width: 600px) {\n  .wrap { padding: 12px 8px 78px; }\n  .topbar-actions { width: 100%; }\n  .pill { flex: 1 1 auto; }\n  .sep { display: none; }\n  .toolbar { grid-template-columns: 1fr; padding: 8px; }\n  .editor-wrap { height: 58vh; }\n  .action-bar { left: 8px; right: 8px; bottom: 8px; }\n  .action-btns { width: 100%; }\n  .btn { flex: 1; }\n}\n</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500&family=DM+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0d0d0d;
+  --surface: #141414;
+  --surface2: #191919;
+  --surface3: #202020;
+  --border: rgba(255,255,255,.08);
+  --border2: rgba(255,255,255,.14);
+  --text: #e6e6e6;
+  --text2: #9a9a9a;
+  --text3: #636363;
+  --green: #4ade80;
+  --red: #f87171;
+  --amber: #c9a227;
+  --mono: "DM Mono", "SFMono-Regular", "Consolas", monospace;
+}
+
+body {
+  font-family: "DM Sans", system-ui, sans-serif;
+  font-weight: 300;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding-bottom: 72px;
+}
+
+.wrap { max-width: 680px; margin: 0 auto; padding: 26px 14px; }
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.brand-name {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+}
+
+.brand-sub {
+  font-size: 11px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  margin-left: 8px;
+}
+
+.topbar-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.sep { display: none; }
+
+.pill, .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text2);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: .15s ease;
+}
+
+.pill {
+  padding: 7px 9px;
+  border-radius: 4px;
+}
+
+.pill:hover, .btn:hover {
+  border-color: var(--border2);
+  color: var(--text);
+  background: var(--surface2);
+}
+
+.pill.danger:hover {
+  color: var(--red);
+  border-color: rgba(248,113,113,.35);
+}
+
+.pill svg, .btn svg {
+  width: 13px;
+  height: 13px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+.panel {
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.toolbar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+select, input[type="text"] {
+  width: 100%;
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 8px 9px;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 300;
+  outline: none;
+}
+
+select:focus, input[type="text"]:focus {
+  border-color: var(--border2);
+}
+
+.editor-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  background: #101010;
+}
+
+.editor-filename {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.match-badge {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.badge-live {
+  color: var(--green);
+  border: 1px solid rgba(74,222,128,.3);
+}
+
+.badge-soon {
+  color: var(--amber);
+  border: 1px solid rgba(201,162,39,.3);
+}
+
+.badge-over {
+  color: var(--text3);
+  border: 1px solid var(--border);
+}
+
+.editor-wrap {
+  display: flex;
+  height: 64vh;
+  background: #0b0b0b;
+}
+
+#lineNumbers {
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.65;
+  padding: 14px 9px;
+  min-width: 42px;
+  text-align: right;
+  color: var(--text3);
+  background: #101010;
+  border-right: 1px solid var(--border);
+  user-select: none;
+  overflow: hidden;
+  white-space: pre;
+  flex-shrink: 0;
+}
+
+#editor {
+  flex: 1;
+  background: #0b0b0b;
+  color: #d6d6d6;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.65;
+  border: none;
+  outline: none;
+  padding: 14px;
+  resize: none;
+  tab-size: 2;
+  white-space: pre;
+  overflow-x: auto;
+  overflow-y: auto;
+  caret-color: var(--green);
+}
+
+#editor::placeholder { color: var(--text3); }
+
+.statusbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-top: 1px solid var(--border);
+  background: #101010;
+  font-size: 11px;
+  color: var(--text3);
+}
+
+.status-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text3);
+  flex-shrink: 0;
+}
+
+.status-dot.ok { background: var(--green); }
+.status-dot.err { background: var(--red); }
+
+.action-bar {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 6px;
+  border: 1px solid var(--border);
+  background: rgba(13,13,13,.92);
+  backdrop-filter: blur(12px);
+}
+
+.hint { display: none; }
+
+.action-btns {
+  display: flex;
+  gap: 6px;
+}
+
+.btn {
+  padding: 8px 11px;
+  border-radius: 3px;
+}
+
+.btn.primary {
+  color: var(--green);
+  border-color: rgba(74,222,128,.35);
+}
+
+.btn.primary:hover {
+  background: rgba(74,222,128,.08);
+}
+
+@media (max-width: 600px) {
+  .wrap { padding: 14px 10px 86px; }
+  .topbar-actions { width: 100%; }
+  .pill { flex: 1; justify-content: center; }
+  .editor-wrap { height: 58vh; }
+
+  .action-bar {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .action-btns {
+    width: 100%;
+  }
+
+  .btn {
+    flex: 1;
+    justify-content: center;
+  }
+}
+</style>
 </head>
 <body>
 
 <div class="wrap">
 
-  <!-- Top bar -->
   <div class="topbar">
     <div class="brand">
       <span class="brand-name">YoSinTV</span>
@@ -42,10 +342,8 @@
     </div>
   </div>
 
-  <!-- Main panel -->
   <div class="panel">
 
-    <!-- Toolbar -->
     <div class="toolbar">
       <select id="file" onchange="onFileChange()">
         <option>Loading files...</option>
@@ -54,13 +352,11 @@
       <input type="text" id="commitMessage" placeholder="Commit message..." />
     </div>
 
-    <!-- File meta -->
     <div class="editor-meta">
       <span class="editor-filename" id="editorTitle">—</span>
       <span id="matchBadge"></span>
     </div>
 
-    <!-- Code editor -->
     <div class="editor-wrap">
       <pre id="lineNumbers">1</pre>
       <textarea
@@ -72,13 +368,11 @@
       ></textarea>
     </div>
 
-    <!-- Status bar -->
     <div class="statusbar">
       <div class="status-dot" id="statusDot"></div>
       <span id="statusText">Ready</span>
     </div>
 
-    <!-- Action bar -->
     <div class="action-bar">
       <span class="hint">Sorted by nearest match · JSON validation · Auto-commit</span>
       <div class="action-btns">
@@ -214,7 +508,7 @@ function updateEditorTitle() {
   const f = document.getElementById("file").value, saved = getSavedFiles();
   const el = document.getElementById("editorTitle");
   if (!f || f.includes("Loading") || f.includes("No files")) { el.innerText = "—"; return; }
-  el.innerText = saved[f] ? f + " · saved " + timeAgo(saved[f]) : f;
+  el.innerText = saved[f] ? f + " · saved " + timeAgo(saved[f]) + " ✅" : f;
 }
 
 /* ── Line numbers ── */
