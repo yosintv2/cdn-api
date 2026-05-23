@@ -4,386 +4,455 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>YoSinTV Link Manager</title>
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500&family=DM+Mono:wght@400;500&display=swap');
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-:root {
-  --bg: #0d0d0d;
-  --surface: #141414;
-  --surface2: #1a1a1a;
-  --surface3: #222222;
-  --border: rgba(255,255,255,.08);
-  --border2: rgba(255,255,255,.16);
-  --text: #e8e8e8;
-  --text2: #a0a0a0;
-  --text3: #666666;
-  --green: #4ade80;
-  --green-dim: rgba(74,222,128,.10);
-  --red: #f87171;
-  --red-dim: rgba(248,113,113,.10);
-  --amber: #fbbf24;
-  --amber-dim: rgba(251,191,36,.08);
-  --blue: #60a5fa;
-  --mono: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-  padding-bottom: 82px;
+:root{
+  --bg:#0d0d0d;
+  --surface:#151515;
+  --surface2:#1c1c1c;
+  --surface3:#222;
+  --border:rgba(255,255,255,.08);
+  --border2:rgba(255,255,255,.15);
+  --text:#ececec;
+  --text2:#a1a1a1;
+  --text3:#666;
+  --green:#4ade80;
+  --red:#f87171;
+  --amber:#facc15;
+  --mono:"DM Mono","Consolas",monospace;
 }
 
-/* ── Layout ── */
-.wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px; }
-
-/* ── Top bar ── */
-.topbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-  margin-bottom: 18px;
-  flex-wrap: wrap;
+body{
+  font-family:"DM Sans",sans-serif;
+  font-weight:300;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
 }
 
-.brand {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
+/* ───────── Layout ───────── */
+.wrap{
+  max-width:1400px;
+  width:100%;
+  margin:0 auto;
+  padding:20px;
 }
 
-.brand-name {
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text);
-  letter-spacing: -0.03em;
+/* ───────── Topbar ───────── */
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:18px;
+  flex-wrap:wrap;
 }
 
-.brand-sub {
-  font-size: 13px;
-  color: var(--text3);
-  font-weight: 400;
+.brand{
+  display:flex;
+  align-items:baseline;
+  gap:8px;
 }
 
-.topbar-actions {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+.brand-name{
+  font-size:14px;
+  font-weight:500;
+  letter-spacing:.14em;
+  text-transform:uppercase;
 }
 
-.sep { width: 1px; height: 16px; background: var(--border); margin: 0 4px; }
-
-/* ── Pill buttons ── */
-.pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 6px 11px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text2);
-  font-size: 12px;
-  font-family: inherit;
-  font-weight: 500;
-  cursor: pointer;
-  text-decoration: none;
-  transition: color .15s, border-color .15s, background .15s;
-  white-space: nowrap;
-}
-.pill:hover { color: var(--text); border-color: var(--border2); background: var(--surface2); }
-.pill svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
-.pill.danger:hover { color: var(--red); border-color: rgba(248,113,113,.35); background: var(--red-dim); }
-
-/* ── Main panel ── */
-.panel {
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  overflow: hidden;
-  background: var(--surface);
-  box-shadow: 0 10px 30px rgba(0,0,0,.28);
+.brand-sub{
+  font-size:11px;
+  color:var(--text3);
+  letter-spacing:.14em;
+  text-transform:uppercase;
 }
 
-/* ── Toolbar ── */
-.toolbar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px;
-  border-bottom: 1px solid var(--border);
-  flex-wrap: wrap;
-  background: var(--surface);
+.topbar-actions{
+  display:flex;
+  gap:6px;
+  flex-wrap:wrap;
 }
 
-select, input[type="text"] {
-  background: var(--surface2);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 9px;
-  padding: 8px 10px;
-  font-size: 13px;
-  font-family: inherit;
-  outline: none;
-  transition: border-color .15s, background .15s;
-  min-width: 0;
+.sep{
+  width:1px;
+  height:14px;
+  background:var(--border);
 }
 
-select:hover, input[type="text"]:hover { border-color: var(--border2); background: var(--surface3); }
-select:focus, input[type="text"]:focus { border-color: rgba(255,255,255,.28); background: var(--surface3); }
-
-select { flex: 1 1 240px; }
-#searchFile { flex: 1 1 130px; max-width: 170px; }
-#commitMessage { flex: 1 1 190px; max-width: 250px; }
-
-/* ── Editor meta row ── */
-.editor-meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 12px;
-  border-bottom: 1px solid var(--border);
-  background: #101010;
-  gap: 10px;
-  flex-wrap: wrap;
+/* ───────── Buttons ───────── */
+.pill,
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  border:1px solid var(--border);
+  background:transparent;
+  color:var(--text2);
+  cursor:pointer;
+  text-decoration:none;
+  transition:.15s ease;
 }
 
-.editor-filename {
-  font-family: var(--mono);
-  font-size: 12px;
-  color: var(--text2);
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.pill{
+  padding:7px 11px;
+  border-radius:5px;
+  font-size:11px;
+  font-weight:500;
+  letter-spacing:.08em;
+  text-transform:uppercase;
 }
 
-.match-badge {
-  font-size: 11px;
-  font-weight: 600;
-  padding: 3px 9px;
-  border-radius: 999px;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.badge-live  { background: var(--green-dim); color: var(--green); border: 1px solid rgba(74,222,128,.3); }
-.badge-soon  { background: var(--amber-dim); color: var(--amber); border: 1px solid rgba(251,191,36,.28); }
-.badge-over  { background: var(--surface2); color: var(--text3); border: 1px solid var(--border); }
-
-/* ── Code editor ── */
-.editor-wrap {
-  display: flex;
-  height: 62vh;
-  background: #0b0b0b;
+.btn{
+  width:100%;
+  padding:10px 14px;
+  border-radius:5px;
+  font-size:12px;
+  font-weight:500;
 }
 
-#lineNumbers {
-  font-family: var(--mono);
-  font-size: 12px;
-  line-height: 1.65;
-  padding: 14px 10px 14px 8px;
-  min-width: 46px;
-  text-align: right;
-  color: var(--text3);
-  background: #101010;
-  border-right: 1px solid var(--border);
-  user-select: none;
-  overflow: hidden;
-  white-space: pre;
-  flex-shrink: 0;
+.pill:hover,
+.btn:hover{
+  border-color:var(--border2);
+  color:var(--text);
+  background:var(--surface2);
 }
 
-#editor {
-  flex: 1;
-  background: #0b0b0b;
-  color: #d7d7d7;
-  font-family: var(--mono);
-  font-size: 12.5px;
-  line-height: 1.65;
-  border: none;
-  outline: none;
-  padding: 14px;
-  resize: none;
-  tab-size: 2;
-  white-space: pre;
-  overflow-x: auto;
-  overflow-y: auto;
-  caret-color: var(--green);
+.pill.danger:hover{
+  color:var(--red);
 }
 
-#editor::placeholder { color: var(--text3); }
-
-#editor::-webkit-scrollbar { width: 8px; height: 8px; }
-#editor::-webkit-scrollbar-track { background: transparent; }
-#editor::-webkit-scrollbar-thumb { background: var(--surface3); border-radius: 999px; }
-
-/* ── Status bar ── */
-.statusbar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
-  border-top: 1px solid var(--border);
-  background: #101010;
-  font-size: 12px;
-  color: var(--text3);
-  min-height: 34px;
+.btn.primary{
+  border-color:rgba(74,222,128,.25);
+  color:var(--green);
 }
 
-.status-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--text3);
-  flex-shrink: 0;
-  transition: background .2s;
-}
-.status-dot.ok  { background: var(--green); }
-.status-dot.err { background: var(--red); }
-
-#statusText { flex: 1; min-width: 0; }
-
-/* ── Bottom action bar ── */
-.action-bar {
-  position: fixed;
-  right: 14px;
-  bottom: 14px;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 8px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: rgba(13,13,13,.92);
-  backdrop-filter: blur(14px);
-  gap: 10px;
-  flex-wrap: wrap;
-  box-shadow: 0 12px 30px rgba(0,0,0,.35);
+.btn.primary:hover{
+  background:rgba(74,222,128,.08);
 }
 
-.hint {
-  display: none;
+.pill svg,
+.btn svg{
+  width:14px;
+  height:14px;
+  stroke:currentColor;
+  fill:none;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
 }
 
-.action-btns { display: flex; gap: 7px; }
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border-radius: 9px;
-  border: 1px solid var(--border);
-  background: var(--surface2);
-  color: var(--text2);
-  font-size: 12.5px;
-  font-family: inherit;
-  font-weight: 600;
-  cursor: pointer;
-  transition: color .15s, border-color .15s, background .15s;
-  white-space: nowrap;
+/* ───────── Panel ───────── */
+.panel{
+  border:1px solid var(--border);
+  background:var(--surface);
 }
-.btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
-.btn:hover { color: var(--text); border-color: var(--border2); background: var(--surface3); }
-.btn.primary {
-  background: var(--green-dim);
-  border-color: rgba(74,222,128,.35);
-  color: var(--green);
-}
-.btn.primary:hover { background: rgba(74,222,128,.16); border-color: rgba(74,222,128,.5); }
 
-/* ── Responsive ── */
-@media (max-width: 600px) {
-  .wrap { padding: 14px 10px 92px; }
-  .topbar { align-items: flex-start; }
-  .topbar-actions { width: 100%; }
-  .pill { flex: 1 1 auto; justify-content: center; }
-  .sep { display: none; }
-  .toolbar { padding: 10px; }
-  .editor-wrap { height: 56vh; }
-  #searchFile, #commitMessage { max-width: 100%; }
-  .action-bar {
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    align-items: stretch;
+/* ───────── Toolbar ───────── */
+.toolbar{
+  display:flex;
+  gap:8px;
+  padding:12px;
+  border-bottom:1px solid var(--border);
+  flex-wrap:wrap;
+}
+
+select,
+input[type="text"]{
+  background:transparent;
+  color:var(--text);
+  border:1px solid var(--border);
+  padding:10px 12px;
+  font-size:13px;
+  border-radius:4px;
+  outline:none;
+  transition:.15s ease;
+}
+
+select:hover,
+input:hover{
+  border-color:var(--border2);
+}
+
+select:focus,
+input:focus{
+  border-color:var(--green);
+}
+
+select{
+  flex:1 1 300px;
+}
+
+#searchFile{
+  flex:1 1 160px;
+}
+
+#commitMessage{
+  flex:1 1 220px;
+}
+
+/* ───────── Meta ───────── */
+.editor-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  padding:8px 12px;
+  border-bottom:1px solid var(--border);
+  background:#111;
+}
+
+.editor-filename{
+  font-family:var(--mono);
+  font-size:11px;
+  color:var(--text2);
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.match-badge{
+  font-size:10px;
+  padding:3px 8px;
+  border-radius:999px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  font-weight:500;
+}
+
+.badge-live{
+  color:var(--green);
+  border:1px solid rgba(74,222,128,.25);
+}
+
+.badge-soon{
+  color:var(--amber);
+  border:1px solid rgba(250,204,21,.2);
+}
+
+.badge-over{
+  color:var(--text3);
+  border:1px solid var(--border);
+}
+
+/* ───────── Editor ───────── */
+.editor-wrap{
+  display:flex;
+  height:74vh;
+  background:#0d0d0d;
+}
+
+#lineNumbers{
+  min-width:50px;
+  padding:14px 10px;
+  text-align:right;
+  background:#111;
+  color:#555;
+  border-right:1px solid var(--border);
+  font-family:var(--mono);
+  font-size:12px;
+  line-height:1.65;
+  user-select:none;
+  overflow:hidden;
+  white-space:pre;
+}
+
+#editor{
+  flex:1;
+  background:#0d0d0d;
+  color:#e8e8e8;
+  border:none;
+  outline:none;
+  resize:none;
+  padding:14px;
+  font-family:var(--mono);
+  font-size:12.5px;
+  line-height:1.65;
+  tab-size:2;
+  white-space:pre;
+  overflow:auto;
+  caret-color:var(--green);
+}
+
+#editor::placeholder{
+  color:#555;
+}
+
+#editor::-webkit-scrollbar{
+  width:8px;
+  height:8px;
+}
+
+#editor::-webkit-scrollbar-thumb{
+  background:#2b2b2b;
+}
+
+/* ───────── Status ───────── */
+.statusbar{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-top:1px solid var(--border);
+  background:#111;
+  color:var(--text3);
+  font-size:11px;
+}
+
+.status-dot{
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#555;
+}
+
+.status-dot.ok{
+  background:var(--green);
+}
+
+.status-dot.err{
+  background:var(--red);
+}
+
+/* ───────── Sticky Action ───────── */
+.action-bar{
+  position:fixed;
+  right:14px;
+  bottom:14px;
+  z-index:999;
+}
+
+.action-btns{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  width:190px;
+}
+
+/* ───────── Responsive ───────── */
+@media(max-width:700px){
+
+  .wrap{
+    padding:12px;
+    max-width:100%;
   }
-.action-btns {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
 
-.btn {
-  width: 100%;
-  justify-content: center;
-}
+  .toolbar{
+    flex-direction:column;
+  }
+
+  select,
+  input{
+    width:100%;
+  }
+
+  .editor-wrap{
+    height:58vh;
+  }
+
+  .topbar-actions{
+    width:100%;
+  }
+
+  .pill{
+    flex:1;
+  }
+
+  .action-bar{
+    left:12px;
+    right:12px;
+    bottom:12px;
+  }
+
+  .action-btns{
+    width:100%;
+    flex-direction:column;
+  }
+
+  .btn{
+    width:100%;
+  }
 }
 </style>
 </head>
+
 <body>
 
 <div class="wrap">
 
-  <!-- Top bar -->
+  <!-- Top -->
   <div class="topbar">
+
     <div class="brand">
       <span class="brand-name">YoSinTV</span>
       <span class="brand-sub">Link Manager</span>
     </div>
 
     <div class="topbar-actions">
+
       <a class="pill" href="https://sofax3.vercel.app/" target="_blank">
-        <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-        Match admin
+        Match Admin
       </a>
 
       <div class="sep"></div>
 
       <button class="pill" onclick="formatJson()">
-        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
         Format
       </button>
 
       <button class="pill" onclick="clearEditor()">
-        <svg viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
         Clear
       </button>
 
       <button class="pill danger" onclick="logout()">
-        <svg viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
         Logout
       </button>
+
     </div>
+
   </div>
 
-  <!-- Main panel -->
+  <!-- Panel -->
   <div class="panel">
 
     <!-- Toolbar -->
     <div class="toolbar">
+
       <select id="file" onchange="onFileChange()">
         <option>Loading files...</option>
       </select>
-      <input type="text" id="searchFile" placeholder="Filter..." oninput="filterFiles()" />
-      <input type="text" id="commitMessage" placeholder="Commit message..." />
+
+      <input type="text"
+             id="searchFile"
+             placeholder="Filter..."
+             oninput="filterFiles()" />
+
+      <input type="text"
+             id="commitMessage"
+             placeholder="Commit message..." />
+
     </div>
 
-    <!-- File meta -->
+    <!-- Meta -->
     <div class="editor-meta">
       <span class="editor-filename" id="editorTitle">—</span>
       <span id="matchBadge"></span>
     </div>
 
-    <!-- Code editor -->
+    <!-- Editor -->
     <div class="editor-wrap">
+
       <pre id="lineNumbers">1</pre>
+
       <textarea
         id="editor"
         spellcheck="false"
@@ -391,293 +460,814 @@ select { flex: 1 1 240px; }
         oninput="updateLineNumbers(); validateJsonLive();"
         onscroll="syncScroll()"
       ></textarea>
+
     </div>
 
-    <!-- Status bar -->
+    <!-- Status -->
     <div class="statusbar">
       <div class="status-dot" id="statusDot"></div>
       <span id="statusText">Ready</span>
     </div>
 
-    <!-- Action bar -->
-    <div class="action-bar">
-      <span class="hint">Sorted by nearest match · JSON validation · Auto-commit</span>
-      <div class="action-btns">
-        <button class="btn" onclick="loadFile()">
-          <svg viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
-          Load
-        </button>
-        <button class="btn primary" onclick="saveFile()">
-          <svg viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
-          Save to GitHub
-        </button>
-      </div>
-    </div>
+  </div>
+
+</div>
+
+<!-- Sticky Buttons -->
+<div class="action-bar">
+
+  <div class="action-btns">
+
+    <button class="btn" onclick="loadFile()">
+      Load
+    </button>
+
+    <button class="btn primary" onclick="saveFile()">
+      Save to GitHub
+    </button>
 
   </div>
+
 </div>
 
 <script>
 const API_URL = "/api/github";
+
 const SOURCE_APIS = [
   "https://yosintvapi.pages.dev/api/match-cricket.json",
   "https://yosintvapi.pages.dev/api/match-football.json"
 ];
 
-/* ── Required original globals ── */
+/* Globals */
 let allFiles = [];
 let matchTimeMap = {};
-const password = localStorage.getItem("blog_admin_password") || "";
-if (!password) window.location.href = "/admin/login.html";
 
-/* ── Storage helpers ── */
-function getSavedFiles() { return JSON.parse(localStorage.getItem("blog_saved_files") || "{}"); }
-function markFileSaved(f) { const s = getSavedFiles(); s[f] = Date.now(); localStorage.setItem("blog_saved_files", JSON.stringify(s)); }
+const password =
+  localStorage.getItem("blog_admin_password") || "";
 
-function timeAgo(t) {
-  if (!t) return "";
-  const s = Math.floor((Date.now() - t) / 1000);
-  if (s < 10) return "just now";
-  if (s < 60) return s + "s ago";
-  const m = Math.floor(s / 60);
-  if (m < 60) return m + "m ago";
-  const h = Math.floor(m / 60);
-  if (h < 24) return h + "h ago";
-  return Math.floor(h / 24) + "d ago";
+if (!password)
+  window.location.href = "/admin/login.html";
+
+/* Storage */
+function getSavedFiles(){
+  return JSON.parse(
+    localStorage.getItem("blog_saved_files") || "{}"
+  );
 }
 
-function getCurrentTimeText() {
+function markFileSaved(f){
+  const s = getSavedFiles();
+  s[f] = Date.now();
+  localStorage.setItem(
+    "blog_saved_files",
+    JSON.stringify(s)
+  );
+}
+
+function timeAgo(t){
+  if(!t) return "";
+
+  const s = Math.floor((Date.now()-t)/1000);
+
+  if(s < 10) return "just now";
+  if(s < 60) return s + "s ago";
+
+  const m = Math.floor(s/60);
+
+  if(m < 60) return m + "m ago";
+
+  const h = Math.floor(m/60);
+
+  if(h < 24) return h + "h ago";
+
+  return Math.floor(h/24) + "d ago";
+}
+
+function getCurrentTimeText(){
+
   const d = new Date();
+
   return d.getFullYear() + "-" +
-    String(d.getMonth() + 1).padStart(2, "0") + "-" +
-    String(d.getDate()).padStart(2, "0") + " " +
-    String(d.getHours()).padStart(2, "0") + ":" +
-    String(d.getMinutes()).padStart(2, "0");
+  String(d.getMonth()+1).padStart(2,"0") + "-" +
+  String(d.getDate()).padStart(2,"0") + " " +
+  String(d.getHours()).padStart(2,"0") + ":" +
+  String(d.getMinutes()).padStart(2,"0");
 }
 
-function makeAutoCommitMessage(f) { return getCurrentTimeText() + " - " + f; }
+function makeAutoCommitMessage(f){
+  return getCurrentTimeText() + " - " + f;
+}
 
-function setAutoCommit() {
+function setAutoCommit(){
+
   const f = document.getElementById("file").value;
-  if (!f || f.includes("Loading")) return;
-  document.getElementById("commitMessage").value = makeAutoCommitMessage(f);
+
+  if(!f || f.includes("Loading")) return;
+
+  document.getElementById("commitMessage").value =
+    makeAutoCommitMessage(f);
 }
 
-/* ── Status ── */
-function setStatus(msg, type) {
-  const dot = document.getElementById("statusDot");
-  document.getElementById("statusText").innerText = msg;
-  dot.className = "status-dot" + (type === "success" ? " ok" : type === "error" ? " err" : "");
+/* Status */
+function setStatus(msg,type){
+
+  const dot =
+    document.getElementById("statusDot");
+
+  document.getElementById("statusText").innerText =
+    msg;
+
+  dot.className =
+    "status-dot" +
+    (type==="success"
+      ? " ok"
+      : type==="error"
+      ? " err"
+      : "");
 }
 
-/* ── Match time helpers ── */
-function getFileSortTime(f) {
+/* Countdown */
+function getFileSortTime(f){
+
   const m = matchTimeMap[f];
-  if (!m || !m.start) return Number.MAX_SAFE_INTEGER;
-  const now = new Date(), start = new Date(m.start);
-  const end = new Date(start.getTime() + Number(m.duration || 0) * 3600000);
-  if (now >= start && now <= end) return -1;
-  if (now < start) return start - now;
+
+  if(!m || !m.start)
+    return Number.MAX_SAFE_INTEGER;
+
+  const now = new Date();
+  const start = new Date(m.start);
+
+  const end =
+    new Date(
+      start.getTime() +
+      Number(m.duration||0)*3600000
+    );
+
+  if(now >= start && now <= end)
+    return -1;
+
+  if(now < start)
+    return start - now;
+
   return Number.MAX_SAFE_INTEGER - 1;
 }
 
-function formatCountdown(ms) {
-  const s = Math.max(0, Math.floor(ms / 1000));
-  const d = Math.floor(s / 86400), h = Math.floor((s % 86400) / 3600);
-  const m = Math.floor((s % 3600) / 60), sec = s % 60;
-  if (d > 0) return d + "d " + h + "h";
-  if (h > 0) return h + "h " + m + "m";
-  return m + "m " + sec + "s";
+function formatCountdown(ms){
+
+  const s =
+    Math.max(0,Math.floor(ms/1000));
+
+  const d = Math.floor(s/86400);
+
+  const h =
+    Math.floor((s%86400)/3600);
+
+  const m =
+    Math.floor((s%3600)/60);
+
+  const sec = s%60;
+
+  if(d > 0)
+    return d+"d "+h+"h";
+
+  if(h > 0)
+    return h+"h "+m+"m";
+
+  return m+"m "+sec+"s";
 }
 
-function getOptionLabel(f) {
-  const m = matchTimeMap[f], saved = getSavedFiles(), tick = saved[f] ? " ✅" : "";
-  if (!m) return f + tick;
-  const now = new Date(), start = new Date(m.start);
-  const end = new Date(start.getTime() + Number(m.duration || 0) * 3600000);
-  if (now < start) return f + " — Starts in " + formatCountdown(start - now) + tick;
-  if (now >= start && now <= end) return f + " — LIVE" + tick;
+function getOptionLabel(f){
+
+  const m = matchTimeMap[f];
+
+  const saved = getSavedFiles();
+
+  const tick =
+    saved[f] ? " ✅" : "";
+
+  if(!m)
+    return f + tick;
+
+  const now = new Date();
+
+  const start =
+    new Date(m.start);
+
+  const end =
+    new Date(
+      start.getTime() +
+      Number(m.duration||0)*3600000
+    );
+
+  if(now < start)
+    return f +
+      " — Starts in " +
+      formatCountdown(start-now) +
+      tick;
+
+  if(now >= start && now <= end)
+    return f + " — LIVE" + tick;
+
   return f + " — Over" + tick;
 }
 
-/* ── Populate dropdown ── */
-function populateFiles(files) {
-  const sel = document.getElementById("file"), cur = sel.value;
-  const sorted = files.slice().sort((a, b) => getFileSortTime(a) - getFileSortTime(b) || a.localeCompare(b));
+/* Populate */
+function populateFiles(files){
+
+  const sel =
+    document.getElementById("file");
+
+  const cur = sel.value;
+
+  const sorted =
+    files.slice().sort(
+      (a,b)=>
+      getFileSortTime(a) -
+      getFileSortTime(b) ||
+      a.localeCompare(b)
+    );
+
   sel.innerHTML = "";
-  if (!sorted.length) { sel.innerHTML = '<option value="">No files found</option>'; updateEditorTitle(); return; }
-  sorted.forEach(f => { const o = document.createElement("option"); o.value = f; o.textContent = getOptionLabel(f); sel.appendChild(o); });
-  if (sorted.includes(cur)) sel.value = cur;
+
+  if(!sorted.length){
+
+    sel.innerHTML =
+      '<option value="">No files found</option>';
+
+    updateEditorTitle();
+
+    return;
+  }
+
+  sorted.forEach(f=>{
+
+    const o =
+      document.createElement("option");
+
+    o.value = f;
+
+    o.textContent =
+      getOptionLabel(f);
+
+    sel.appendChild(o);
+  });
+
+  if(sorted.includes(cur))
+    sel.value = cur;
+
   updateEditorTitle();
   updateMatchBadge();
   setAutoCommit();
 }
 
-/* ── Filter ── */
-function filterFiles() {
-  const q = document.getElementById("searchFile").value.toLowerCase();
-  populateFiles(allFiles.filter(f => f.toLowerCase().includes(q)));
+/* Filter */
+function filterFiles(){
+
+  const q =
+    document.getElementById("searchFile")
+    .value.toLowerCase();
+
+  populateFiles(
+    allFiles.filter(
+      f => f.toLowerCase().includes(q)
+    )
+  );
 }
 
-/* ── Match badge ── */
-function updateMatchBadge() {
-  const badge = document.getElementById("matchBadge"), f = document.getElementById("file").value;
-  if (!f || !matchTimeMap[f]) { badge.innerHTML = ""; return; }
-  const m = matchTimeMap[f], now = new Date(), start = new Date(m.start);
-  const end = new Date(start.getTime() + Number(m.duration) * 3600000);
-  if (now >= start && now <= end) badge.innerHTML = '<span class="match-badge badge-live">Live now</span>';
-  else if (now < start) badge.innerHTML = `<span class="match-badge badge-soon">Starts in ${formatCountdown(start - now)}</span>`;
-  else badge.innerHTML = '<span class="match-badge badge-over">Ended</span>';
-}
+/* Badge */
+function updateMatchBadge(){
 
-/* ── Editor title ── */
-function updateEditorTitle() {
-  const f = document.getElementById("file").value, saved = getSavedFiles();
-  const el = document.getElementById("editorTitle");
-  if (!f || f.includes("Loading") || f.includes("No files")) { el.innerText = "—"; return; }
-  el.innerText = saved[f] ? f + " · saved " + timeAgo(saved[f]) + " ✅" : f;
-}
+  const badge =
+    document.getElementById("matchBadge");
 
-/* ── Line numbers ── */
-function updateLineNumbers() {
-  const e = document.getElementById("editor");
-  document.getElementById("lineNumbers").textContent =
-    Array.from({ length: e.value.split("\n").length }, (_, i) => i + 1).join("\n");
-}
+  const f =
+    document.getElementById("file").value;
 
-function syncScroll() {
-  document.getElementById("lineNumbers").scrollTop = document.getElementById("editor").scrollTop;
-}
+  if(!f || !matchTimeMap[f]){
 
-/* ── JSON helpers ── */
-function getJsonErrorLine(err, text) {
-  const m = err.message.match(/position (\d+)/i);
-  if (m) {
-    const lines = text.slice(0, Number(m[1])).split("\n");
-    return { line: lines.length, column: lines[lines.length - 1].length + 1, message: err.message };
+    badge.innerHTML = "";
+
+    return;
   }
-  return { line: null, column: null, message: err.message };
+
+  const m = matchTimeMap[f];
+
+  const now = new Date();
+
+  const start =
+    new Date(m.start);
+
+  const end =
+    new Date(
+      start.getTime() +
+      Number(m.duration)*3600000
+    );
+
+  if(now >= start && now <= end){
+
+    badge.innerHTML =
+      '<span class="match-badge badge-live">Live now</span>';
+
+  }else if(now < start){
+
+    badge.innerHTML =
+      `<span class="match-badge badge-soon">Starts in ${formatCountdown(start-now)}</span>`;
+
+  }else{
+
+    badge.innerHTML =
+      '<span class="match-badge badge-over">Ended</span>';
+  }
 }
 
-function validateJsonLive() {
-  const text = document.getElementById("editor").value.trim();
-  if (!text) { setStatus("Empty", "info"); return false; }
-  try { JSON.parse(text); setStatus("Valid JSON", "success"); return true; }
-  catch (e) {
-    const err = getJsonErrorLine(e, text);
-    setStatus(err.line ? "Error on line " + err.line + ", col " + err.column : "Invalid JSON", "error");
+/* Title */
+function updateEditorTitle(){
+
+  const f =
+    document.getElementById("file").value;
+
+  const saved =
+    getSavedFiles();
+
+  const el =
+    document.getElementById("editorTitle");
+
+  if(!f ||
+    f.includes("Loading") ||
+    f.includes("No files")){
+
+    el.innerText = "—";
+
+    return;
+  }
+
+  el.innerText =
+    saved[f]
+    ? f + " · saved " +
+      timeAgo(saved[f]) +
+      " ✅"
+    : f;
+}
+
+/* Lines */
+function updateLineNumbers(){
+
+  const e =
+    document.getElementById("editor");
+
+  document.getElementById("lineNumbers")
+  .textContent =
+    Array.from(
+      {length:e.value.split("\n").length},
+      (_,i)=>i+1
+    ).join("\n");
+}
+
+function syncScroll(){
+
+  document.getElementById("lineNumbers")
+  .scrollTop =
+    document.getElementById("editor")
+    .scrollTop;
+}
+
+/* JSON */
+function getJsonErrorLine(err,text){
+
+  const m =
+    err.message.match(/position (\d+)/i);
+
+  if(m){
+
+    const lines =
+      text.slice(0,Number(m[1]))
+      .split("\n");
+
+    return {
+      line:lines.length,
+      column:
+        lines[lines.length-1].length+1,
+      message:err.message
+    };
+  }
+
+  return {
+    line:null,
+    column:null,
+    message:err.message
+  };
+}
+
+function validateJsonLive(){
+
+  const text =
+    document.getElementById("editor")
+    .value.trim();
+
+  if(!text){
+
+    setStatus("Empty","info");
+
+    return false;
+  }
+
+  try{
+
+    JSON.parse(text);
+
+    setStatus("Valid JSON","success");
+
+    return true;
+
+  }catch(e){
+
+    const err =
+      getJsonErrorLine(e,text);
+
+    setStatus(
+      err.line
+      ? "Error on line " +
+        err.line +
+        ", col " +
+        err.column
+      : "Invalid JSON",
+      "error"
+    );
+
     return false;
   }
 }
 
-/* ── Source API helpers ── */
-function extractMatches(d) { if (Array.isArray(d)) return d; return d.matches || d.data || d.events || []; }
+/* Helpers */
+function extractMatches(d){
 
-function extractJsonFile(url) {
-  if (!url) return null;
-  try { const u = new URL(url), s = u.searchParams.get("yosintv"); return s ? s.trim().replace(/\.json$/i, "") + ".json" : null; }
-  catch { return null; }
+  if(Array.isArray(d))
+    return d;
+
+  return d.matches ||
+         d.data ||
+         d.events ||
+         [];
 }
 
-function saveMatchTime(f, item) {
-  if (!f || !item.start || !item.duration) return;
-  matchTimeMap[f] = { start: item.start, duration: Number(item.duration), team1: item.team1 || item.home || "", team2: item.team2 || item.away || "" };
+function extractJsonFile(url){
+
+  if(!url)
+    return null;
+
+  try{
+
+    const u = new URL(url);
+
+    const s =
+      u.searchParams.get("yosintv");
+
+    return s
+      ? s.trim()
+          .replace(/\.json$/i,"")
+          + ".json"
+      : null;
+
+  }catch{
+
+    return null;
+  }
 }
 
-/* ── Load file list ── */
-async function loadFileList() {
-  setStatus("Loading files...", "info");
-  try {
-    const found = new Set();
-    for (const api of SOURCE_APIS) {
-      const res = await fetch(api);
-      if (!res.ok) throw new Error("API error: " + api);
-      extractMatches(await res.json()).forEach(item => {
-        const f = extractJsonFile(item.details_url);
-        if (f) { found.add(f); saveMatchTime(f, item); }
+function saveMatchTime(f,item){
+
+  if(!f ||
+     !item.start ||
+     !item.duration)
+    return;
+
+  matchTimeMap[f] = {
+    start:item.start,
+    duration:Number(item.duration),
+    team1:item.team1||item.home||"",
+    team2:item.team2||item.away||""
+  };
+}
+
+/* Load list */
+async function loadFileList(){
+
+  setStatus(
+    "Loading files...",
+    "info"
+  );
+
+  try{
+
+    const found =
+      new Set();
+
+    for(const api of SOURCE_APIS){
+
+      const res =
+        await fetch(api);
+
+      if(!res.ok)
+        throw new Error(
+          "API error: " + api
+        );
+
+      extractMatches(
+        await res.json()
+      ).forEach(item=>{
+
+        const f =
+          extractJsonFile(
+            item.details_url
+          );
+
+        if(f){
+
+          found.add(f);
+
+          saveMatchTime(f,item);
+        }
       });
     }
-    allFiles = Array.from(found).sort((a, b) => getFileSortTime(a) - getFileSortTime(b));
+
+    allFiles =
+      Array.from(found)
+      .sort(
+        (a,b)=>
+        getFileSortTime(a) -
+        getFileSortTime(b)
+      );
+
     populateFiles(allFiles);
-    setStatus(allFiles.length + " files loaded", "success");
-    if (allFiles.length) loadFile();
-  } catch (e) { setStatus(e.message, "error"); }
+
+    setStatus(
+      allFiles.length +
+      " files loaded",
+      "success"
+    );
+
+    if(allFiles.length)
+      loadFile();
+
+  }catch(e){
+
+    setStatus(
+      e.message,
+      "error"
+    );
+  }
 }
 
-/* ── File change ── */
-function onFileChange() { updateEditorTitle(); updateMatchBadge(); setAutoCommit(); loadFile(); }
+/* Change */
+function onFileChange(){
 
-/* ── Load file ── */
-async function loadFile() {
-  const f = document.getElementById("file").value;
-  if (!f || f.includes("Loading") || f.includes("No files")) return;
-  setStatus("Loading " + f + "...", "info");
-  try {
-    const res = await fetch(`${API_URL}?path=${encodeURIComponent(f)}&password=${encodeURIComponent(password)}`);
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || data.error || "Load failed");
-    document.getElementById("editor").value = JSON.stringify(data.content, null, 2);
+  updateEditorTitle();
+  updateMatchBadge();
+  setAutoCommit();
+  loadFile();
+}
+
+/* Load */
+async function loadFile(){
+
+  const f =
+    document.getElementById("file")
+    .value;
+
+  if(!f ||
+     f.includes("Loading") ||
+     f.includes("No files"))
+    return;
+
+  setStatus(
+    "Loading " + f + "...",
+    "info"
+  );
+
+  try{
+
+    const res =
+      await fetch(
+        `${API_URL}?path=${encodeURIComponent(f)}&password=${encodeURIComponent(password)}`
+      );
+
+    const data =
+      await res.json();
+
+    if(!res.ok)
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Load failed"
+      );
+
+    document.getElementById("editor")
+    .value =
+      JSON.stringify(
+        data.content,
+        null,
+        2
+      );
+
     updateLineNumbers();
     validateJsonLive();
-    setStatus("Loaded: " + f, "success");
-  } catch (e) { setStatus(e.message, "error"); }
+
+    setStatus(
+      "Loaded: " + f,
+      "success"
+    );
+
+  }catch(e){
+
+    setStatus(
+      e.message,
+      "error"
+    );
+  }
 }
 
-/* ── Save file ── */
-async function saveFile() {
-  const f = document.getElementById("file").value, editor = document.getElementById("editor");
-  if (!f || f.includes("Loading")) { setStatus("Select a file first", "error"); return; }
-  const commitMessage = document.getElementById("commitMessage").value.trim() || makeAutoCommitMessage(f);
+/* Save */
+async function saveFile(){
+
+  const f =
+    document.getElementById("file")
+    .value;
+
+  const editor =
+    document.getElementById("editor");
+
+  if(!f ||
+     f.includes("Loading")){
+
+    setStatus(
+      "Select a file first",
+      "error"
+    );
+
+    return;
+  }
+
+  const commitMessage =
+    document.getElementById("commitMessage")
+    .value.trim()
+    || makeAutoCommitMessage(f);
+
   let content;
-  try { content = JSON.parse(editor.value); }
-  catch (e) { const err = getJsonErrorLine(e, editor.value); setStatus(err.line ? "JSON error on line " + err.line : "Invalid JSON — cannot save", "error"); return; }
-  setStatus("Saving...", "info");
-  try {
-    const res = await fetch(API_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ password, path: f, content, message: commitMessage })
-    });
-    const data = await res.json();
-    if (!res.ok) throw new Error(data.message || data.error || "Save failed");
+
+  try{
+
+    content =
+      JSON.parse(editor.value);
+
+  }catch(e){
+
+    const err =
+      getJsonErrorLine(
+        e,
+        editor.value
+      );
+
+    setStatus(
+      err.line
+      ? "JSON error on line " +
+        err.line
+      : "Invalid JSON — cannot save",
+      "error"
+    );
+
+    return;
+  }
+
+  setStatus(
+    "Saving...",
+    "info"
+  );
+
+  try{
+
+    const res =
+      await fetch(API_URL,{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json"
+        },
+        body:JSON.stringify({
+          password,
+          path:f,
+          content,
+          message:commitMessage
+        })
+      });
+
+    const data =
+      await res.json();
+
+    if(!res.ok)
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Save failed"
+      );
+
     markFileSaved(f);
+
     populateFiles(allFiles);
+
     updateEditorTitle();
+
     setAutoCommit();
+
     updateLineNumbers();
+
     validateJsonLive();
-    setStatus("Saved: " + f, "success");
-  } catch (e) { setStatus(e.message, "error"); }
+
+    setStatus(
+      "Saved: " + f,
+      "success"
+    );
+
+  }catch(e){
+
+    setStatus(
+      e.message,
+      "error"
+    );
+  }
 }
 
-/* ── Toolbar actions ── */
-function formatJson() {
-  try {
-    const e = document.getElementById("editor");
-    e.value = JSON.stringify(JSON.parse(e.value), null, 2);
+/* Toolbar */
+function formatJson(){
+
+  try{
+
+    const e =
+      document.getElementById("editor");
+
+    e.value =
+      JSON.stringify(
+        JSON.parse(e.value),
+        null,
+        2
+      );
+
     updateLineNumbers();
+
     validateJsonLive();
-    setStatus("Formatted", "success");
-  } catch (e) { setStatus("Invalid JSON", "error"); }
+
+    setStatus(
+      "Formatted",
+      "success"
+    );
+
+  }catch(e){
+
+    setStatus(
+      "Invalid JSON",
+      "error"
+    );
+  }
 }
 
-function clearEditor() {
-  document.getElementById("editor").value = "";
+function clearEditor(){
+
+  document.getElementById("editor")
+  .value = "";
+
   updateLineNumbers();
-  setStatus("Cleared", "info");
+
+  setStatus(
+    "Cleared",
+    "info"
+  );
 }
 
-function logout() {
-  localStorage.removeItem("blog_admin_password");
-  window.location.href = "/admin/login.html";
+function logout(){
+
+  localStorage.removeItem(
+    "blog_admin_password"
+  );
+
+  window.location.href =
+    "/admin/login.html";
 }
 
-/* ── Intervals ── */
-setInterval(updateEditorTitle, 30000);
-setInterval(updateMatchBadge, 1000);
-setInterval(() => populateFiles(allFiles), 30000);
+/* Intervals */
+setInterval(
+  updateEditorTitle,
+  30000
+);
 
-/* ── Init ── */
+setInterval(
+  updateMatchBadge,
+  1000
+);
+
+setInterval(
+  ()=>populateFiles(allFiles),
+  30000
+);
+
+/* Init */
 updateLineNumbers();
 loadFileList();
 </script>
