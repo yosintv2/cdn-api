@@ -5,198 +5,188 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>YoSinTV Link Manager</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
   --bg: #0d0d0d;
   --surface: #141414;
-  --surface2: #191919;
-  --surface3: #202020;
+  --surface2: #1a1a1a;
+  --surface3: #222222;
   --border: rgba(255,255,255,.08);
-  --border2: rgba(255,255,255,.14);
-  --text: #e6e6e6;
-  --text2: #9a9a9a;
-  --text3: #636363;
+  --border2: rgba(255,255,255,.16);
+  --text: #e8e8e8;
+  --text2: #a0a0a0;
+  --text3: #666666;
   --green: #4ade80;
+  --green-dim: rgba(74,222,128,.10);
   --red: #f87171;
-  --amber: #c9a227;
-  --mono: "DM Mono", "SFMono-Regular", "Consolas", monospace;
+  --red-dim: rgba(248,113,113,.10);
+  --amber: #fbbf24;
+  --amber-dim: rgba(251,191,36,.08);
+  --blue: #60a5fa;
+  --mono: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
 }
 
 body {
-  font-family: "DM Sans", system-ui, sans-serif;
-  font-weight: 300;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
-  padding-bottom: 72px;
+  padding-bottom: 82px;
 }
 
-.wrap { max-width: 680px; margin: 0 auto; padding: 26px 14px; }
+/* ── Layout ── */
+.wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px; }
 
+/* ── Top bar ── */
 .topbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 14px;
+  gap: 14px;
+  margin-bottom: 18px;
   flex-wrap: wrap;
 }
 
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
 .brand-name {
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .16em;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.03em;
 }
 
 .brand-sub {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text3);
-  text-transform: uppercase;
-  letter-spacing: .16em;
-  margin-left: 8px;
+  font-weight: 400;
 }
 
 .topbar-actions {
   display: flex;
+  align-items: center;
   gap: 6px;
   flex-wrap: wrap;
 }
 
-.sep { display: none; }
+.sep { width: 1px; height: 16px; background: var(--border); margin: 0 4px; }
 
-.pill, .btn {
+/* ── Pill buttons ── */
+.pill {
   display: inline-flex;
   align-items: center;
   gap: 5px;
+  padding: 6px 11px;
+  border-radius: 8px;
   border: 1px solid var(--border);
-  background: transparent;
+  background: var(--surface);
   color: var(--text2);
+  font-size: 12px;
   font-family: inherit;
-  font-size: 11px;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .1em;
   cursor: pointer;
   text-decoration: none;
-  transition: .15s ease;
+  transition: color .15s, border-color .15s, background .15s;
+  white-space: nowrap;
 }
+.pill:hover { color: var(--text); border-color: var(--border2); background: var(--surface2); }
+.pill svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.pill.danger:hover { color: var(--red); border-color: rgba(248,113,113,.35); background: var(--red-dim); }
 
-.pill {
-  padding: 7px 9px;
-  border-radius: 4px;
-}
-
-.pill:hover, .btn:hover {
-  border-color: var(--border2);
-  color: var(--text);
-  background: var(--surface2);
-}
-
-.pill.danger:hover {
-  color: var(--red);
-  border-color: rgba(248,113,113,.35);
-}
-
-.pill svg, .btn svg {
-  width: 13px;
-  height: 13px;
-  stroke: currentColor;
-  fill: none;
-  stroke-width: 1.8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  flex-shrink: 0;
-}
-
+/* ── Main panel ── */
 .panel {
   border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgba(0,0,0,.28);
+}
+
+/* ── Toolbar ── */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
   background: var(--surface);
 }
 
-.toolbar {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 8px;
-  padding: 10px;
-  border-bottom: 1px solid var(--border);
-}
-
 select, input[type="text"] {
-  width: 100%;
-  background: transparent;
+  background: var(--surface2);
   color: var(--text);
   border: 1px solid var(--border);
-  border-radius: 3px;
-  padding: 8px 9px;
-  font-size: 12px;
+  border-radius: 9px;
+  padding: 8px 10px;
+  font-size: 13px;
   font-family: inherit;
-  font-weight: 300;
   outline: none;
+  transition: border-color .15s, background .15s;
+  min-width: 0;
 }
 
-select:focus, input[type="text"]:focus {
-  border-color: var(--border2);
-}
+select:hover, input[type="text"]:hover { border-color: var(--border2); background: var(--surface3); }
+select:focus, input[type="text"]:focus { border-color: rgba(255,255,255,.28); background: var(--surface3); }
 
+select { flex: 1 1 240px; }
+#searchFile { flex: 1 1 130px; max-width: 170px; }
+#commitMessage { flex: 1 1 190px; max-width: 250px; }
+
+/* ── Editor meta row ── */
 .editor-meta {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
+  justify-content: space-between;
+  padding: 8px 12px;
   border-bottom: 1px solid var(--border);
   background: #101010;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .editor-filename {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text2);
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .match-badge {
-  font-size: 10px;
-  font-weight: 500;
-  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 9px;
   border-radius: 999px;
   white-space: nowrap;
-  text-transform: uppercase;
-  letter-spacing: .1em;
+  flex-shrink: 0;
 }
+.badge-live  { background: var(--green-dim); color: var(--green); border: 1px solid rgba(74,222,128,.3); }
+.badge-soon  { background: var(--amber-dim); color: var(--amber); border: 1px solid rgba(251,191,36,.28); }
+.badge-over  { background: var(--surface2); color: var(--text3); border: 1px solid var(--border); }
 
-.badge-live {
-  color: var(--green);
-  border: 1px solid rgba(74,222,128,.3);
-}
-
-.badge-soon {
-  color: var(--amber);
-  border: 1px solid rgba(201,162,39,.3);
-}
-
-.badge-over {
-  color: var(--text3);
-  border: 1px solid var(--border);
-}
-
+/* ── Code editor ── */
 .editor-wrap {
   display: flex;
-  height: 64vh;
+  height: 62vh;
   background: #0b0b0b;
 }
 
 #lineNumbers {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.65;
-  padding: 14px 9px;
-  min-width: 42px;
+  padding: 14px 10px 14px 8px;
+  min-width: 46px;
   text-align: right;
   color: var(--text3);
   background: #101010;
@@ -210,9 +200,9 @@ select:focus, input[type="text"]:focus {
 #editor {
   flex: 1;
   background: #0b0b0b;
-  color: #d6d6d6;
+  color: #d7d7d7;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 12.5px;
   line-height: 1.65;
   border: none;
   outline: none;
@@ -227,83 +217,104 @@ select:focus, input[type="text"]:focus {
 
 #editor::placeholder { color: var(--text3); }
 
+#editor::-webkit-scrollbar { width: 8px; height: 8px; }
+#editor::-webkit-scrollbar-track { background: transparent; }
+#editor::-webkit-scrollbar-thumb { background: var(--surface3); border-radius: 999px; }
+
+/* ── Status bar ── */
 .statusbar {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 10px;
+  padding: 8px 12px;
   border-top: 1px solid var(--border);
   background: #101010;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text3);
+  min-height: 34px;
 }
 
 .status-dot {
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background: var(--text3);
   flex-shrink: 0;
+  transition: background .2s;
 }
-
-.status-dot.ok { background: var(--green); }
+.status-dot.ok  { background: var(--green); }
 .status-dot.err { background: var(--red); }
 
+#statusText { flex: 1; min-width: 0; }
+
+/* ── Bottom action bar ── */
 .action-bar {
   position: fixed;
-  right: 12px;
-  bottom: 12px;
-  z-index: 999;
+  right: 14px;
+  bottom: 14px;
+  z-index: 9999;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 6px;
+  padding: 8px;
   border: 1px solid var(--border);
+  border-radius: 12px;
   background: rgba(13,13,13,.92);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
+  gap: 10px;
+  flex-wrap: wrap;
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
 }
 
-.hint { display: none; }
-
-.action-btns {
-  display: flex;
-  gap: 6px;
+.hint {
+  display: none;
 }
+
+.action-btns { display: flex; gap: 7px; }
 
 .btn {
-  padding: 8px 11px;
-  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 9px;
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text2);
+  font-size: 12.5px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+  white-space: nowrap;
 }
-
+.btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.btn:hover { color: var(--text); border-color: var(--border2); background: var(--surface3); }
 .btn.primary {
-  color: var(--green);
+  background: var(--green-dim);
   border-color: rgba(74,222,128,.35);
+  color: var(--green);
 }
+.btn.primary:hover { background: rgba(74,222,128,.16); border-color: rgba(74,222,128,.5); }
 
-.btn.primary:hover {
-  background: rgba(74,222,128,.08);
-}
-
+/* ── Responsive ── */
 @media (max-width: 600px) {
-  .wrap { padding: 14px 10px 86px; }
+  .wrap { padding: 14px 10px 92px; }
+  .topbar { align-items: flex-start; }
   .topbar-actions { width: 100%; }
-  .pill { flex: 1; justify-content: center; }
-  .editor-wrap { height: 58vh; }
-
+  .pill { flex: 1 1 auto; justify-content: center; }
+  .sep { display: none; }
+  .toolbar { padding: 10px; }
+  .editor-wrap { height: 56vh; }
+  #searchFile, #commitMessage { max-width: 100%; }
   .action-bar {
     left: 10px;
     right: 10px;
     bottom: 10px;
+    align-items: stretch;
   }
-
-  .action-btns {
-    width: 100%;
-  }
-
-  .btn {
-    flex: 1;
-    justify-content: center;
-  }
+  .action-btns { width: 100%; justify-content: stretch; }
+  .btn { flex: 1; justify-content: center; }
 }
 </style>
 </head>
@@ -311,6 +322,7 @@ select:focus, input[type="text"]:focus {
 
 <div class="wrap">
 
+  <!-- Top bar -->
   <div class="topbar">
     <div class="brand">
       <span class="brand-name">YoSinTV</span>
@@ -342,8 +354,10 @@ select:focus, input[type="text"]:focus {
     </div>
   </div>
 
+  <!-- Main panel -->
   <div class="panel">
 
+    <!-- Toolbar -->
     <div class="toolbar">
       <select id="file" onchange="onFileChange()">
         <option>Loading files...</option>
@@ -352,11 +366,13 @@ select:focus, input[type="text"]:focus {
       <input type="text" id="commitMessage" placeholder="Commit message..." />
     </div>
 
+    <!-- File meta -->
     <div class="editor-meta">
       <span class="editor-filename" id="editorTitle">—</span>
       <span id="matchBadge"></span>
     </div>
 
+    <!-- Code editor -->
     <div class="editor-wrap">
       <pre id="lineNumbers">1</pre>
       <textarea
@@ -368,11 +384,13 @@ select:focus, input[type="text"]:focus {
       ></textarea>
     </div>
 
+    <!-- Status bar -->
     <div class="statusbar">
       <div class="status-dot" id="statusDot"></div>
       <span id="statusText">Ready</span>
     </div>
 
+    <!-- Action bar -->
     <div class="action-bar">
       <span class="hint">Sorted by nearest match · JSON validation · Auto-commit</span>
       <div class="action-btns">
