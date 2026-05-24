@@ -38,7 +38,6 @@ body{
   min-height:100vh;
 }
 
-/* ───────── Layout ───────── */
 .wrap{
   max-width:1200px;
   width:100%;
@@ -46,7 +45,6 @@ body{
   padding:20px;
 }
 
-/* ───────── Topbar ───────── */
 .topbar{
   display:flex;
   align-items:center;
@@ -88,7 +86,6 @@ body{
   background:var(--border);
 }
 
-/* ───────── Buttons ───────── */
 .pill,
 .btn{
   display:inline-flex;
@@ -167,13 +164,11 @@ body{
   stroke-linejoin:round;
 }
 
-/* ───────── Panel ───────── */
 .panel{
   border:1px solid var(--border);
   background:var(--surface);
 }
 
-/* ───────── Toolbar ───────── */
 .toolbar{
   display:flex;
   gap:8px;
@@ -216,7 +211,6 @@ select{
   flex:1 1 220px;
 }
 
-/* ───────── Meta ───────── */
 .editor-meta{
   display:flex;
   justify-content:space-between;
@@ -260,7 +254,6 @@ select{
   border:1px solid var(--border);
 }
 
-/* ───────── Editor ───────── */
 .editor-wrap{
   display:flex;
   height:74vh;
@@ -312,7 +305,6 @@ select{
   background:#2b2b2b;
 }
 
-/* ───────── Status ───────── */
 .statusbar{
   display:flex;
   align-items:center;
@@ -339,7 +331,6 @@ select{
   background:var(--red);
 }
 
-/* ───────── Sticky Action ───────── */
 .action-bar{
   position:fixed;
   right:14px;
@@ -354,9 +345,7 @@ select{
   width:190px;
 }
 
-/* ───────── Responsive ───────── */
 @media(max-width:700px){
-
   .wrap{
     padding:12px;
     max-width:100%;
@@ -405,44 +394,24 @@ select{
 
 <div class="wrap">
 
-  <!-- Top -->
   <div class="topbar">
-
     <div class="brand">
       <span class="brand-name">YoSinTV</span>
       <span class="brand-sub">Link Manager</span>
     </div>
 
     <div class="topbar-actions">
-
-      <a class="pill" href="https://sofax3.vercel.app/" target="_blank">
-        Match Admin
-      </a>
-
+      <a class="pill" href="https://sofax3.vercel.app/" target="_blank">Match Admin</a>
       <div class="sep"></div>
-
-      <button class="pill" onclick="formatJson()">
-        Format
-      </button>
-
-      <button class="pill" onclick="clearEditor()">
-        Clear
-      </button>
-
-      <button class="pill danger" onclick="logout()">
-        Logout
-      </button>
-
+      <button class="pill" onclick="formatJson()">Format</button>
+      <button class="pill" onclick="clearEditor()">Clear</button>
+      <button class="pill danger" onclick="logout()">Logout</button>
     </div>
-
   </div>
 
-  <!-- Panel -->
   <div class="panel">
 
-    <!-- Toolbar -->
     <div class="toolbar">
-
       <select id="file" onchange="onFileChange()">
         <option>Loading files...</option>
       </select>
@@ -456,18 +425,14 @@ select{
       <input type="text"
              id="commitMessage"
              placeholder="Commit message..." />
-
     </div>
 
-    <!-- Meta -->
     <div class="editor-meta">
       <span class="editor-filename" id="editorTitle">—</span>
       <span id="matchBadge"></span>
     </div>
 
-    <!-- Editor -->
     <div class="editor-wrap">
-
       <pre id="lineNumbers">1</pre>
 
       <textarea
@@ -477,34 +442,21 @@ select{
         oninput="updateLineNumbers(); validateJsonLive();"
         onscroll="syncScroll()"
       ></textarea>
-
     </div>
 
-    <!-- Status -->
     <div class="statusbar">
       <div class="status-dot" id="statusDot"></div>
       <span id="statusText">Ready</span>
     </div>
 
   </div>
-
 </div>
 
-<!-- Sticky Buttons -->
 <div class="action-bar">
-
   <div class="action-btns">
-
-    <button class="btn" onclick="loadFile()">
-      Load
-    </button>
-
-    <button class="btn primary" id="saveBtn" onclick="saveFile()">
-      Save to GitHub
-    </button>
-
+    <button class="btn" onclick="loadFile()">Load</button>
+    <button class="btn primary" id="saveBtn" onclick="saveFile()">Save to GitHub</button>
   </div>
-
 </div>
 
 <script>
@@ -561,7 +513,6 @@ function timeAgo(t){
 }
 
 function getCurrentTimeText(){
-
   const d = new Date();
 
   return d.getFullYear() + "-" +
@@ -576,7 +527,6 @@ function makeAutoCommitMessage(f){
 }
 
 function setAutoCommit(){
-
   const f = document.getElementById("file").value;
 
   if(!f || f.includes("Loading")) return;
@@ -587,7 +537,6 @@ function setAutoCommit(){
 
 /* Save button effect */
 function setSaveButtonState(state){
-
   const btn =
     document.getElementById("saveBtn");
 
@@ -596,13 +545,10 @@ function setSaveButtonState(state){
   btn.classList.remove("saving","saved");
 
   if(state === "saving"){
-
     btn.disabled = true;
     btn.classList.add("saving");
     btn.innerText = "Saving...";
-
   }else if(state === "saved"){
-
     btn.disabled = false;
     btn.classList.add("saved");
     btn.innerText = "Saved ✅";
@@ -611,9 +557,7 @@ function setSaveButtonState(state){
       btn.classList.remove("saved");
       btn.innerText = "Save to GitHub";
     },1500);
-
   }else{
-
     btn.disabled = false;
     btn.innerText = "Save to GitHub";
   }
@@ -621,7 +565,6 @@ function setSaveButtonState(state){
 
 /* Status */
 function setStatus(msg,type){
-
   const dot =
     document.getElementById("statusDot");
 
@@ -639,7 +582,6 @@ function setStatus(msg,type){
 
 /* Countdown */
 function getFileSortTime(f){
-
   const m = matchTimeMap[f];
 
   if(!m || !m.start)
@@ -664,18 +606,12 @@ function getFileSortTime(f){
 }
 
 function formatCountdown(ms){
-
   const s =
     Math.max(0,Math.floor(ms/1000));
 
   const d = Math.floor(s/86400);
-
-  const h =
-    Math.floor((s%86400)/3600);
-
-  const m =
-    Math.floor((s%3600)/60);
-
+  const h = Math.floor((s%86400)/3600);
+  const m = Math.floor((s%3600)/60);
   const sec = s%60;
 
   if(d > 0)
@@ -687,8 +623,14 @@ function formatCountdown(ms){
   return m+"m "+sec+"s";
 }
 
-function getOptionLabel(f){
+function formatMatchTime(date){
+  return date.toLocaleTimeString([],{
+    hour:"numeric",
+    minute:"2-digit"
+  });
+}
 
+function getOptionLabel(f){
   const m = matchTimeMap[f];
 
   const saved = getSavedFiles();
@@ -710,21 +652,25 @@ function getOptionLabel(f){
       Number(m.duration||0)*3600000
     );
 
+  const matchTime =
+    formatMatchTime(start);
+
   if(now < start)
     return f +
       " — Starts in " +
       formatCountdown(start-now) +
+      " / " +
+      matchTime +
       tick;
 
   if(now >= start && now <= end)
-    return f + " — LIVE" + tick;
+    return f + " — LIVE / " + matchTime + tick;
 
-  return f + " — Over" + tick;
+  return f + " — Over / " + matchTime + tick;
 }
 
 /* Populate */
 function populateFiles(files){
-
   const sel =
     document.getElementById("file");
 
@@ -741,7 +687,6 @@ function populateFiles(files){
   sel.innerHTML = "";
 
   if(!sorted.length){
-
     sel.innerHTML =
       '<option value="">No files found</option>';
 
@@ -751,7 +696,6 @@ function populateFiles(files){
   }
 
   sorted.forEach(f=>{
-
     const o =
       document.createElement("option");
 
@@ -773,7 +717,6 @@ function populateFiles(files){
 
 /* Filter */
 function filterFiles(){
-
   const q =
     document.getElementById("searchFile")
     .value.toLowerCase();
@@ -787,7 +730,6 @@ function filterFiles(){
 
 /* Press Enter in filter to load selected filtered file */
 function handleFilterEnter(event){
-
   if(event.key !== "Enter")
     return;
 
@@ -801,7 +743,6 @@ function handleFilterEnter(event){
   if(!f ||
      f.includes("Loading") ||
      f.includes("No files")){
-
     setStatus(
       "No matching file to load",
       "error"
@@ -816,7 +757,6 @@ function handleFilterEnter(event){
 
 /* Badge */
 function updateMatchBadge(){
-
   const badge =
     document.getElementById("matchBadge");
 
@@ -824,9 +764,7 @@ function updateMatchBadge(){
     document.getElementById("file").value;
 
   if(!f || !matchTimeMap[f]){
-
     badge.innerHTML = "";
-
     return;
   }
 
@@ -843,26 +781,27 @@ function updateMatchBadge(){
       Number(m.duration)*3600000
     );
 
+  const matchTime =
+    formatMatchTime(start);
+
   if(now >= start && now <= end){
-
     badge.innerHTML =
-      '<span class="match-badge badge-live">Live now</span>';
-
+      '<span class="match-badge badge-live">Live now / ' +
+      matchTime +
+      '</span>';
   }else if(now < start){
-
     badge.innerHTML =
-      `<span class="match-badge badge-soon">Starts in ${formatCountdown(start-now)}</span>`;
-
+      `<span class="match-badge badge-soon">Starts in ${formatCountdown(start-now)} / ${matchTime}</span>`;
   }else{
-
     badge.innerHTML =
-      '<span class="match-badge badge-over">Ended</span>';
+      '<span class="match-badge badge-over">Ended / ' +
+      matchTime +
+      '</span>';
   }
 }
 
 /* Title */
 function updateEditorTitle(){
-
   const f =
     document.getElementById("file").value;
 
@@ -875,9 +814,7 @@ function updateEditorTitle(){
   if(!f ||
     f.includes("Loading") ||
     f.includes("No files")){
-
     el.innerText = "—";
-
     return;
   }
 
@@ -891,7 +828,6 @@ function updateEditorTitle(){
 
 /* Lines */
 function updateLineNumbers(){
-
   const e =
     document.getElementById("editor");
 
@@ -904,7 +840,6 @@ function updateLineNumbers(){
 }
 
 function syncScroll(){
-
   document.getElementById("lineNumbers")
   .scrollTop =
     document.getElementById("editor")
@@ -913,12 +848,10 @@ function syncScroll(){
 
 /* JSON */
 function getJsonErrorLine(err,text){
-
   const m =
     err.message.match(/position (\d+)/i);
 
   if(m){
-
     const lines =
       text.slice(0,Number(m[1]))
       .split("\n");
@@ -939,28 +872,22 @@ function getJsonErrorLine(err,text){
 }
 
 function validateJsonLive(){
-
   const text =
     document.getElementById("editor")
     .value.trim();
 
   if(!text){
-
     setStatus("Empty","info");
-
     return false;
   }
 
   try{
-
     JSON.parse(text);
 
     setStatus("Valid JSON","success");
 
     return true;
-
   }catch(e){
-
     const err =
       getJsonErrorLine(e,text);
 
@@ -980,7 +907,6 @@ function validateJsonLive(){
 
 /* Helpers */
 function extractMatches(d){
-
   if(Array.isArray(d))
     return d;
 
@@ -991,12 +917,10 @@ function extractMatches(d){
 }
 
 function extractJsonFile(url){
-
   if(!url)
     return null;
 
   try{
-
     const u = new URL(url);
 
     const s =
@@ -1007,15 +931,12 @@ function extractJsonFile(url){
           .replace(/\.json$/i,"")
           + ".json"
       : null;
-
   }catch{
-
     return null;
   }
 }
 
 function saveMatchTime(f,item){
-
   if(!f ||
      !item.start ||
      !item.duration)
@@ -1031,19 +952,16 @@ function saveMatchTime(f,item){
 
 /* Load list */
 async function loadFileList(){
-
   setStatus(
     "Loading files...",
     "info"
   );
 
   try{
-
     const found =
       new Set();
 
     for(const api of SOURCE_APIS){
-
       const res =
         await fetch(api);
 
@@ -1055,16 +973,13 @@ async function loadFileList(){
       extractMatches(
         await res.json()
       ).forEach(item=>{
-
         const f =
           extractJsonFile(
             item.details_url
           );
 
         if(f){
-
           found.add(f);
-
           saveMatchTime(f,item);
         }
       });
@@ -1088,9 +1003,7 @@ async function loadFileList(){
 
     if(allFiles.length)
       loadFile();
-
   }catch(e){
-
     setStatus(
       e.message,
       "error"
@@ -1100,7 +1013,6 @@ async function loadFileList(){
 
 /* Change */
 function onFileChange(){
-
   updateEditorTitle();
   updateMatchBadge();
   setAutoCommit();
@@ -1109,7 +1021,6 @@ function onFileChange(){
 
 /* Load */
 async function loadFile(){
-
   const f =
     document.getElementById("file")
     .value;
@@ -1125,7 +1036,6 @@ async function loadFile(){
   );
 
   try{
-
     const res =
       await fetch(
         `${API_URL}?path=${encodeURIComponent(f)}&password=${encodeURIComponent(password)}`
@@ -1156,9 +1066,7 @@ async function loadFile(){
       "Loaded: " + f,
       "success"
     );
-
   }catch(e){
-
     setStatus(
       e.message,
       "error"
@@ -1168,7 +1076,6 @@ async function loadFile(){
 
 /* Save */
 async function saveFile(){
-
   const f =
     document.getElementById("file")
     .value;
@@ -1178,7 +1085,6 @@ async function saveFile(){
 
   if(!f ||
      f.includes("Loading")){
-
     setStatus(
       "Select a file first",
       "error"
@@ -1195,12 +1101,9 @@ async function saveFile(){
   let content;
 
   try{
-
     content =
       JSON.parse(editor.value);
-
   }catch(e){
-
     const err =
       getJsonErrorLine(
         e,
@@ -1226,7 +1129,6 @@ async function saveFile(){
   );
 
   try{
-
     const res =
       await fetch(API_URL,{
         method:"POST",
@@ -1269,9 +1171,7 @@ async function saveFile(){
       "Saved: " + f,
       "success"
     );
-
   }catch(e){
-
     setSaveButtonState("normal");
 
     setStatus(
@@ -1283,9 +1183,7 @@ async function saveFile(){
 
 /* Toolbar */
 function formatJson(){
-
   try{
-
     const e =
       document.getElementById("editor");
 
@@ -1304,9 +1202,7 @@ function formatJson(){
       "Formatted",
       "success"
     );
-
   }catch(e){
-
     setStatus(
       "Invalid JSON",
       "error"
@@ -1315,7 +1211,6 @@ function formatJson(){
 }
 
 function clearEditor(){
-
   document.getElementById("editor")
   .value = "";
 
@@ -1328,7 +1223,6 @@ function clearEditor(){
 }
 
 function logout(){
-
   localStorage.removeItem(
     "blog_admin_password"
   );
@@ -1358,5 +1252,6 @@ updateLineNumbers();
 loadFileList();
 </script>
 
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5243eba8b920487aaf6c8ac211a9ad54","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
