@@ -191,9 +191,8 @@ let allMatches = [];
         }
     }
     document.addEventListener('DOMContentLoaded', loadMatches);
-</script>
 
-<script>
+
 (() => {
     const makeLeagueLogoUrl = (leagueId) =>
         `https://api.sofascore1.com/api/v1/unique-tournament/${leagueId}/image`;
