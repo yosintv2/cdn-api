@@ -1,4 +1,4 @@
-  let allMatches = [];
+let allMatches = [];
     let updateIntervalId;
     const toggle = document.getElementById('darkModeToggle');
     const updateTheme = (isDark) => {
