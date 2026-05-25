@@ -1,3 +1,34 @@
+No Directionality widget found.
+Stack widgets require a
+Directionality widget ancestor to resolve the blignment" areunent-The default value for "alignment" is AlignmentDirestional tanstart, unich requires a text darection.
+The specific widget that could not find a Directionality
+The ownership chain for the
+al fected widgel isrslaakm
+
+-Applirapper ut
+UncontrolledproviderSappe -
+Providericope -
+-Focus InheritedScape ~
+_FocusScopeki thExter nallFocusNode
+_FocusinheritedScope :
+- FocusTraversalaroup -
+redlaqeryالب
+TypicalLy.
+widget is introduced by the
+Materlalfpp or hidgetstep mdget
+at the top of your application widget tree. It deternines the ambient reading direction and is used, for example, to deternine how to lay out text, how to Interpret
+"start" and fend"
+values, and to resolve EdgeInseC:Directional,
+Ali gmentDirectional, and other
+*Directional objecls.
+Instead of providins
+Directionality widget,
+solurion would be passing a non-directional alignment"
+explicit
+See also: https://
+docs flutter.dev/testing/errors 
+
+
 https://cdn.bipin01.com.np/app/api/config.json
 https://api.singhs.com.np/api/config.json
 
