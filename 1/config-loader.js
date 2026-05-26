@@ -1,0 +1,1 @@
+let CONFIG={};async function loadConfig(){try{const e=await fetch("config.json");if(!e.ok)throw new Error("Failed to load config");CONFIG=await e.json(),window.CONFIG=CONFIG,console.log("Config loaded successfully")}catch(e){console.error("Error loading config:",e)}}document.addEventListener("DOMContentLoaded",loadConfig),window.getConfig=function(){return CONFIG};

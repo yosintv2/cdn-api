@@ -1,0 +1,70 @@
+{
+  "app": {
+    "name": "YoSinTV",
+    "version": "1.0",
+    "description": "Live Cricket & Football Matches, Schedule & Playing XI"
+  },
+  "googleAds": {
+    "clientId": "ca-pub-5525538810839147",
+    "slots": {
+      "header": "4345862479",
+      "middleContent": "4345862479",
+      "footer": "4345862479",
+      "fixedBottom": "5912194004"
+    },
+    "adsenseScript": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  },
+  "api": {
+    "cricket": "https://yosintvapi.pages.dev/api/match-cricket.json",
+    "football": "https://yosintvapi.pages.dev/api/match-football.json",
+    "cricketEvents": "https://yosintv2.github.io/yosintv.link/events-cricket.js",
+    "footballEvents": "https://yosintv2.github.io/yosintv.link/events-football.js"
+  },
+  "logos": {
+    "main": "https://web.cricfoot.net/logo.png",
+    "favicon": "https://web.cricfoot.net/favico.png",
+    "leagueImageBase": "https://api.sofascore1.com/api/v1/unique-tournament"
+  },
+  "social": {
+    "telegram": "https://t.me/yosintvlive",
+    "highlightsLink": "https://www.cricfoot.net/?ads=yosintv.net"
+  },
+  "meta": {
+    "title": "YoSinTV - Cricket | Football | Playing XI | Sports News",
+    "description": "YoSinTV is sports website that covers all the Cricket Matches, World Cup, International/Domestic Matches, Football Matches, etc.",
+    "keywords": "live cricket, live football, match schedule, playing XI, match preview, T20 World Cup 2026",
+    "author": "YoSinTV",
+    "themeColor": "#1d4ed8"
+  },
+  "theme": {
+    "primaryColor": "#1d4ed8",
+    "accentColor": "#165dff",
+    "successColor": "#10b981",
+    "warningColor": "#ff6b35",
+    "dangerColor": "#ef4444",
+    "mutedColor": "#6b7280"
+  },
+  "popups": {
+    "fifa": {
+      "enabled": true,
+      "targetDate": "June 12, 2026",
+      "closeDurationHours": 2
+    },
+    "telegram": {
+      "enabled": true,
+      "closeDurationHours": 24
+    }
+  },
+  "features": {
+    "darkMode": true,
+    "countdownUpdater": true,
+    "leagueFilter": true,
+    "backToTop": true
+  },
+  "counters": {
+    "superCounter": {
+      "enabled": true,
+      "id": "1719927"
+    }
+  }
+}
