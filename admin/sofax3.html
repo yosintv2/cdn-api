@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YoSinTV API Admin</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500&family=DM+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --bg:#0d0d0d;
+  --surface:#151515;
+  --surface2:#1c1c1c;
+  --border:rgba(255,255,255,.08);
+  --border2:rgba(255,255,255,.15);
+  --text:#ececec;
+  --text2:#a1a1a1;
+  --text3:#666;
+  --green:#4ade80;
+  --red:#f87171;
+  --amber:#facc15;
+  --mono:"DM Mono","Consolas",monospace;
+}
+
+body{
+  font-family:"DM Sans",sans-serif;
+  font-weight:300;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+}
+
+.wrap{
+  max-width:1200px;
+  width:100%;
+  margin:0 auto;
+  padding:20px;
+}
+
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:18px;
+  flex-wrap:wrap;
+}
+
+.brand{
+  display:flex;
+  align-items:baseline;
+  gap:8px;
+}
+
+.brand-name{
+  font-size:14px;
+  font-weight:500;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+.brand-sub{
+  font-size:11px;
+  color:var(--text3);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+.topbar-actions{
+  display:flex;
+  gap:6px;
+  flex-wrap:wrap;
+}
+
+.pill,
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  border:1px solid var(--border);
+  background:transparent;
+  color:var(--text2);
+  cursor:pointer;
+  text-decoration:none;
+  transition:.15s ease;
+}
+
+.pill{
+  padding:7px 11px;
+  border-radius:5px;
+  font-size:11px;
+  font-weight:500;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.btn{
+  width:100%;
+  padding:10px 14px;
+  border-radius:5px;
+  font-size:12px;
+  font-weight:500;
+}
+
+.pill:hover,
+.btn:hover{
+  border-color:var(--border2);
+  color:var(--text);
+  background:var(--surface2);
+}
+
+.pill.danger:hover{
+  color:var(--red);
+}
+
+.btn.primary{
+  border-color:rgba(74,222,128,.25);
+  color:var(--green);
+}
+
+.btn.primary:hover{
+  background:rgba(74,222,128,.08);
+}
+
+.btn:disabled{
+  opacity:.7;
+  cursor:not-allowed;
+}
+
+.btn.saving{
+  color:var(--amber);
+  border-color:rgba(250,204,21,.3);
+}
+
+.btn.saved{
+  color:var(--green);
+  border-color:rgba(74,222,128,.45);
+  background:rgba(74,222,128,.08);
+}
+
+.panel{
+  border:1px solid var(--border);
+  background:var(--surface);
+}
+
+.toolbar{
+  display:flex;
+  gap:8px;
+  padding:12px;
+  border-bottom:1px solid var(--border);
+  flex-wrap:wrap;
+}
+
+select,
+input[type="text"]{
+  background:transparent;
+  color:var(--text);
+  border:1px solid var(--border);
+  padding:10px 12px;
+  font-size:13px;
+  border-radius:4px;
+  outline:none;
+  transition:.15s ease;
+}
+
+select:hover,
+input:hover{
+  border-color:var(--border2);
+}
+
+select:focus,
+input:focus{
+  border-color:var(--green);
+}
+
+select{
+  flex:1 1 300px;
+}
+
+#commitMessage{
+  flex:1 1 300px;
+}
+
+.editor-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  padding:8px 12px;
+  border-bottom:1px solid var(--border);
+  background:#111;
+}
+
+.editor-filename{
+  font-family:var(--mono);
+  font-size:11px;
+  color:var(--text2);
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.editor-actions{
+  font-size:10px;
+  color:var(--text3);
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.editor-wrap{
+  display:flex;
+  height:74vh;
+  background:#0d0d0d;
+}
+
+#editor{
+  flex:1;
+  width:100%;
+  background:#0d0d0d;
+  color:#e8e8e8;
+  border:none;
+  outline:none;
+  resize:none;
+  padding:14px;
+  font-family:var(--mono);
+  font-size:12.5px;
+  line-height:1.65;
+  tab-size:2;
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  overflow:auto;
+  caret-color:var(--green);
+}
+
+#editor::placeholder{
+  color:#555;
+}
+
+#editor::-webkit-scrollbar{
+  width:8px;
+  height:8px;
+}
+
+#editor::-webkit-scrollbar-thumb{
+  background:#2b2b2b;
+}
+
+.statusbar{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-top:1px solid var(--border);
+  background:#111;
+  color:var(--text3);
+  font-size:11px;
+}
+
+.status-dot{
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#555;
+}
+
+.status-dot.ok{
+  background:var(--green);
+}
+
+.status-dot.err{
+  background:var(--red);
+}
+
+.action-bar{
+  position:fixed;
+  right:14px;
+  bottom:14px;
+  z-index:999;
+}
+
+.action-btns{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  width:190px;
+}
+
+@media(max-width:700px){
+  .wrap{
+    padding:12px;
+    max-width:100%;
+  }
+
+  .toolbar{
+    flex-direction:column;
+  }
+
+  select,
+  input{
+    width:100%;
+  }
+
+  .editor-wrap{
+    height:58vh;
+  }
+
+  .topbar-actions{
+    width:100%;
+  }
+
+  .pill{
+    flex:1;
+  }
+
+  .action-bar{
+    left:12px;
+    right:12px;
+    bottom:12px;
+  }
+
+  .action-btns{
+    width:100%;
+    flex-direction:column;
+  }
+
+  .btn{
+    width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <div class="topbar">
+    <div class="brand">
+      <span class="brand-name">YoSinTV</span>
+      <span class="brand-sub">API Admin</span>
+    </div>
+
+    <div class="topbar-actions">
+      <button class="pill" onclick="formatJson()">Format</button>
+      <button class="pill danger" onclick="clearEditor()">Clear</button>
+    </div>
+  </div>
+
+  <div class="panel">
+
+    <div class="toolbar">
+
+      <select id="file">
+        <option value="api/match-football.json" data-label="Football API">Football API</option>
+        <option value="api/match-cricket.json" data-label="Cricket API">Cricket API</option>
+        <option value="api/articles.json" data-label="Articles API">Articles API</option>
+      </select>
+
+      <input
+        type="text"
+        id="commitMessage"
+        placeholder="Commit message..."
+      />
+
+    </div>
+
+    <div class="editor-meta">
+      <span class="editor-filename" id="editorTitle">
+        Editing: api/match-football.json
+      </span>
+      <span class="editor-actions" id="editorActions">Soft Wrap ON · JSON Mode · Auto Load</span>
+    </div>
+
+    <div class="editor-wrap">
+      <textarea
+        id="editor"
+        spellcheck="false"
+        placeholder="Click Load JSON..."
+      ></textarea>
+    </div>
+
+    <div class="statusbar">
+      <div class="status-dot" id="statusDot"></div>
+      <span id="statusText">Ready</span>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="action-bar">
+  <div class="action-btns">
+    <button class="btn" onclick="loadFile()">Load JSON</button>
+    <button class="btn primary" id="saveBtn" onclick="saveFile()">Save to GitHub</button>
+  </div>
+</div>
+
+<script>
+const API_URL = "/api/github";
+
+function getItemsFromContent(content){
+
+  if(Array.isArray(content))
+    return content;
+
+  if(!content || typeof content !== "object")
+    return [];
+
+  return content.matches ||
+         content.data ||
+         content.events ||
+         content.articles ||
+         [];
+}
+
+function hasYosintvDetailsUrl(item){
+
+  if(!item || typeof item !== "object")
+    return false;
+
+  if(!item.details_url)
+    return false;
+
+  try{
+    const url = new URL(item.details_url);
+    return url.searchParams.has("yosintv");
+  }catch(e){
+    return /[?&]yosintv=/.test(String(item.details_url));
+  }
+}
+
+function getMatchCount(content){
+
+  const items = getItemsFromContent(content);
+
+  return items.filter(hasYosintvDetailsUrl).length;
+}
+
+function getCleanLabel(file){
+
+  if(file.includes("football"))
+    return "Football API";
+
+  if(file.includes("cricket"))
+    return "Cricket API";
+
+  if(file.includes("articles"))
+    return "Articles API";
+
+  return file;
+}
+
+function formatMatchText(count){
+  return count === 1 ? "1 match" : count + " matches";
+}
+
+function setSaveButtonState(state){
+
+  const btn = document.getElementById("saveBtn");
+
+  if(!btn) return;
+
+  btn.classList.remove("saving","saved");
+
+  if(state === "saving"){
+
+    btn.disabled = true;
+    btn.classList.add("saving");
+    btn.innerText = "Saving...";
+
+  }else if(state === "saved"){
+
+    btn.disabled = false;
+    btn.classList.add("saved");
+    btn.innerText = "Saved ✅";
+
+    setTimeout(()=>{
+      btn.classList.remove("saved");
+      btn.innerText = "Save to GitHub";
+    },1500);
+
+  }else{
+
+    btn.disabled = false;
+    btn.innerText = "Save to GitHub";
+  }
+}
+
+function setStatus(msg,type="info"){
+
+  const text = document.getElementById("statusText");
+  const dot = document.getElementById("statusDot");
+
+  text.innerText = msg;
+
+  dot.className =
+    "status-dot" +
+    (type === "success" ? " ok" : type === "error" ? " err" : "");
+}
+
+function updateEditorTitle(){
+
+  const file = document.getElementById("file").value;
+
+  document.getElementById("editorTitle").innerText =
+    "Editing: " + file;
+}
+
+function updateEditorActionsFromContent(content){
+
+  const count = getMatchCount(content);
+
+  document.getElementById("editorActions").innerText =
+    "Detected " + formatMatchText(count) + " · JSON Mode";
+}
+
+async function updateApiCounts(){
+
+  const fileSelect = document.getElementById("file");
+
+  for(const option of fileSelect.options){
+
+    const file = option.value;
+    const cleanLabel = option.dataset.label || getCleanLabel(file);
+
+    option.textContent = cleanLabel + " - checking...";
+
+    try{
+
+      const res = await fetch(
+        `${API_URL}?path=${encodeURIComponent(file)}`
+      );
+
+      const data = await res.json();
+
+      if(!res.ok)
+        throw new Error("count failed");
+
+      const count = getMatchCount(data.content);
+
+      option.textContent =
+        cleanLabel + " - " + formatMatchText(count);
+
+    }catch(e){
+
+      option.textContent =
+        cleanLabel + " - 0 matches";
+    }
+  }
+}
+
+document.getElementById("file").addEventListener("change",function(){
+  updateEditorTitle();
+  loadFile();
+});
+
+async function loadFile(){
+
+  const file = document.getElementById("file").value;
+
+  updateEditorTitle();
+
+  setStatus("Loading " + file + "...","info");
+
+  try{
+
+    const res = await fetch(
+      `${API_URL}?path=${encodeURIComponent(file)}`
+    );
+
+    const data = await res.json();
+
+    if(!res.ok){
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Load failed"
+      );
+    }
+
+    document.getElementById("editor").value =
+      JSON.stringify(data.content,null,2);
+
+    updateEditorActionsFromContent(data.content);
+    updateApiCounts();
+
+    setStatus("Loaded: " + file,"success");
+
+  }catch(e){
+
+    setStatus(e.message,"error");
+
+  }
+}
+
+async function saveFile(){
+
+  const file = document.getElementById("file").value;
+  const editor = document.getElementById("editor");
+
+  const commitMessage =
+    document.getElementById("commitMessage").value.trim()
+    || `Update ${file} from YoSinTV Admin`;
+
+  let content;
+
+  try{
+    content = JSON.parse(editor.value);
+  }catch(e){
+    setStatus("Invalid JSON. Please fix before saving.","error");
+    return;
+  }
+
+  setSaveButtonState("saving");
+  setStatus("Saving to GitHub...","info");
+
+  try{
+
+    const res = await fetch(API_URL,{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify({
+        path:file,
+        content,
+        message:commitMessage
+      })
+    });
+
+    const data = await res.json();
+
+    if(!res.ok){
+      throw new Error(
+        data.message ||
+        data.error ||
+        "Save failed"
+      );
+    }
+
+    updateEditorActionsFromContent(content);
+    updateApiCounts();
+
+    setSaveButtonState("saved");
+    setStatus("Saved: " + file,"success");
+
+  }catch(e){
+
+    setSaveButtonState("normal");
+    setStatus(e.message,"error");
+
+  }
+}
+
+function formatJson(){
+
+  try{
+
+    const editor = document.getElementById("editor");
+    const json = JSON.parse(editor.value);
+
+    editor.value = JSON.stringify(json,null,2);
+
+    updateEditorActionsFromContent(json);
+
+    setStatus("Formatted","success");
+
+  }catch(e){
+
+    setStatus("Invalid JSON","error");
+
+  }
+}
+
+function clearEditor(){
+
+  document.getElementById("editor").value = "";
+  document.getElementById("editorActions").innerText =
+    "Soft Wrap ON · JSON Mode · Auto Load";
+  setStatus("Editor cleared","info");
+
+}
+
+updateApiCounts();
+loadFile();
+</script>
+
+</body>
+</html>
