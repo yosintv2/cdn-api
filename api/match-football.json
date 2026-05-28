@@ -1,238 +1,67 @@
 {
   "matches": [
     {
-      "team1": "Tala'ea El-Gaish",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43561/image",
-      "team2": "Wadi Degla",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43568/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/808/image",
-      "league": "Egyptian Premier League, Relegation Round",
-      "start": "2026-05-28T23:00:00+09:00",
-      "league_id": 808,
+      "team1": "Egypt",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4758/image",
+      "team2": "Russia",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4694/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
+      "league": "Int. Friendly Games",
+      "start": "2026-05-29T03:00:00+09:00",
+      "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=talaeaelgaish",
-      "event_id": 15728272,
+      "details_url": "https://www.yosintv.net/match?yosintv=egypt",
+      "streaming_url": "https://cdn.singhs.com.np/egypt.json",
+      "event_id": 16130134,
       "football_data": {
         "event": {
-          "league": "Egyptian Premier League, Relegation Round",
-          "round": 13,
-          "kick_off_time_utc": "Thu, 28 May 2026 14:00:00 GMT",
+          "league": "Int. Friendly Games",
+          "round": null,
+          "kick_off_time_utc": "Thu, 28 May 2026 18:00:00 GMT",
           "venue": null,
           "stadium_capacity": null,
-          "referee": null,
-          "home_team": "Tala'ea El-Gaish",
-          "away_team": "Wadi Degla",
-          "home_manager": "Gomaa Mashour",
-          "away_manager": "Mohamed El Sheikh"
+          "referee": "L Benbraham",
+          "home_team": "Egypt",
+          "away_team": "Russia",
+          "home_manager": "Hossam Hassan",
+          "away_manager": "Valeriy Karpin"
         },
         "h2h": {
-          "homeWins": 5,
-          "awayWins": 4,
-          "draws": 1
+          "homeWins": 0,
+          "awayWins": 1,
+          "draws": 0
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Mohamed Shaaban", "Khaled Stouhi", "Ahmed Alaa Eldin", "Ahmed Abdel Rahman Zola", "Hamed Khaled El Gabry", "Khaled Abo Ziada", "Houssem Eddine Souissi", "Karim Tarek", "Yehia Mostafa", "Mohamed Hany", "Fares Hatem"],
-          "away_players": ["Ziad Seyam", "Ahmed Ayman", "Ragab El Safi", "Kamal Aboul-Fetouh", "Ahmed Reda", "Ahmed Scholes", "Islam Adel", "Ahmed Farouk", "Mees Kaandorp", "Youssef Oya", "Zizo"],
-          "home_missing_players": [],
-          "away_missing_players": ["Ahmed Dahroug"]
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [
+            "Mahdi Soliman"
+          ],
+          "away_missing_players": [
+            "Aleksandr Golovin",
+            "Maksim Borisko",
+            "Nikolay Komlichenko"
+          ]
         },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "6.75",
-            "position": 7,
-            "value": "37",
-            "form": ["D", "W", "L", "W", "L"]
-          },
-          "awayTeam": {
-            "avgRating": "6.74",
-            "position": 1,
-            "value": "50",
-            "form": ["L", "D", "W", "D", "D"]
-          },
-          "label": "Pts"
-        }
+        "pregame_form": null
       }
     },
     {
-      "team1": "Petrojet",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43567/image",
-      "team2": "El Gouna FC",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/43565/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/808/image",
-      "league": "Egyptian Premier League, Relegation Round",
-      "start": "2026-05-28T23:00:00+09:00",
-      "league_id": 808,
+      "team1": "Ireland",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4693/image",
+      "team2": "Qatar",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4792/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
+      "league": "Int. Friendly Games",
+      "start": "2026-05-29T03:45:00+09:00",
+      "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=petrojet",
-      "event_id": 15728274,
-      "football_data": {
-        "event": {
-          "league": "Egyptian Premier League, Relegation Round",
-          "round": 13,
-          "kick_off_time_utc": "Thu, 28 May 2026 14:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": "Petrojet",
-          "away_team": "El Gouna FC",
-          "home_manager": "Sayed Eid",
-          "away_manager": "Ahmed Mostafa"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "awayWins": 5,
-          "draws": 2
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Omar Salah", "Mahmoud Shedid Kenawi", "Barakat Haggag", "Ahmed Bahbah", "Islam Abdallah", "Adham Hamed", "Mostafa El-Badry", "Mohamed Ibrahim Dodo", "Mostafa El Gamal", "Badr Mousa", "Gabriel Chukwudi"],
-          "away_players": ["Ahmed Masoud", "Mostafa Metawea", "Alpha Turay", "Saber El Shimi", "Ahmed Belya", "Hafiz Ibrahim", "Reda Salah", "Amr Khaled", "Mohamed Mahmoud", "Mohamed Emad", "Marwan Mohsen"],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "6.75",
-            "position": 4,
-            "value": "45",
-            "form": ["W", "D", "W", "D", "W"]
-          },
-          "awayTeam": {
-            "avgRating": "6.76",
-            "position": 5,
-            "value": "43",
-            "form": ["D", "L", "L", "D", "W"]
-          },
-          "label": "Pts"
-        }
-      }
-    },
-    {
-      "team1": "FC Torpedo Kutaisi",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5419/image",
-      "team2": "FC Gagra",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/36865/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/704/image",
-      "league": "Erovnuli Liga",
-      "start": "2026-05-29T01:00:00+09:00",
-      "league_id": 704,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=fctorpedokutaisi",
-      "event_id": 15388659,
+      "details_url": "https://www.yosintv.net/match?yosintv=ireland",
+      "streaming_url": "https://cdn.singhs.com.np/ireland.json",
+      "event_id": 15891670,
       "football_data": null
-    },
-    {
-      "team1": "América de Cali",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6102/image",
-      "team2": "Macará",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6001/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/480/image",
-      "league": "CONMEBOL Sudamericana, Group A",
-      "start": "2026-05-29T09:30:00+09:00",
-      "league_id": 480,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=americadecali",
-      "event_id": 15832045,
-      "football_data": {
-        "event": {
-          "league": "CONMEBOL Sudamericana, Group A",
-          "round": 6,
-          "kick_off_time_utc": "Fri, 29 May 2026 00:30:00 GMT",
-          "venue": "Olimpico Pascual Guerrero",
-          "stadium_capacity": 38000,
-          "referee": "Mario Diaz De Vivar",
-          "home_team": "América de Cali",
-          "away_team": "Macará",
-          "home_manager": "David González",
-          "away_manager": "Guillermo Sanguinetti"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Mateo Castillo Márquez"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "6.79",
-            "position": 2,
-            "value": "8",
-            "form": ["D", "W", "L", "W", "D"]
-          },
-          "awayTeam": {
-            "avgRating": "6.79",
-            "position": 1,
-            "value": "9",
-            "form": ["D", "W", "W", "D", "D"]
-          },
-          "label": "Pts"
-        }
-      }
-    },
-    {
-      "team1": "Tigre",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/7628/image",
-      "team2": "Alianza Atlético de Sullana",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/2307/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/480/image",
-      "league": "CONMEBOL Sudamericana, Group A",
-      "start": "2026-05-29T09:30:00+09:00",
-      "league_id": 480,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=tigre",
-      "event_id": 15832046,
-      "football_data": {
-        "event": {
-          "league": "CONMEBOL Sudamericana, Group A",
-          "round": 6,
-          "kick_off_time_utc": "Fri, 29 May 2026 00:30:00 GMT",
-          "venue": "Estadio Jose Dellagiovanna",
-          "stadium_capacity": 26282,
-          "referee": "David Ojeda",
-          "home_team": "Tigre",
-          "away_team": "Alianza Atlético de Sullana",
-          "home_manager": "Diego Dabove",
-          "away_manager": "Federico Urciuoli"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Santiago González"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "6.70",
-            "position": 3,
-            "value": "6",
-            "form": ["D", "L", "W", "D", "D"]
-          },
-          "awayTeam": {
-            "avgRating": "6.66",
-            "position": 4,
-            "value": "2",
-            "form": ["D", "L", "L", "L", "D"]
-          },
-          "label": "Pts"
-        }
-      }
     }
   ]
 }
