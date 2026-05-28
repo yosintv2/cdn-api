@@ -1,7 +1,7 @@
 {
   "review_mode": false,
   "streaming_enabled": true,
-  "streaming_url": "https://www.yosintv.net/{match_id}.json",
+  "streaming_url": "https://cdn.singhs.com.np/{match_id}.json",
   "ads_enabled": true,
   "banner_enabled": true,
   "rewarded_enabled": true,
