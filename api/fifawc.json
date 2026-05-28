@@ -1,0 +1,149 @@
+{
+  "matches": [
+    {
+      "team1": "Mexico",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4781/image",
+      "team2": "South Africa",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4736/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group A",
+      "start": "2026-06-12T04:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=mexico",
+      "streaming_url": "https://cdn.singhs.com.np/mexico.json",
+      "event_id": 15186710,
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group A",
+          "round": 1,
+          "kick_off_time_utc": "Thu, 11 Jun 2026 19:00:00 GMT",
+          "venue": "Estadio Azteca",
+          "stadium_capacity": 87523,
+          "referee": null,
+          "home_team": "Mexico",
+          "away_team": "South Africa",
+          "home_manager": "Javier Aguirre",
+          "away_manager": "Hugo Broos"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 1
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["César Montes"],
+          "away_missing_players": ["Aubrey Modiba"]
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "South Korea",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4735/image",
+      "team2": "Czechia",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4714/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group A",
+      "start": "2026-06-12T11:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=southkorea",
+      "streaming_url": "https://cdn.singhs.com.np/southkorea.json",
+      "event_id": 15186720,
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group A",
+          "round": 1,
+          "kick_off_time_utc": "Fri, 12 Jun 2026 02:00:00 GMT",
+          "venue": "Estadio Akron",
+          "stadium_capacity": 46355,
+          "referee": null,
+          "home_team": "South Korea",
+          "away_team": "Czechia",
+          "home_manager": "Myung Bo Hong",
+          "away_manager": "Miroslav Koubek"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "awayWins": 0,
+          "draws": 0
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": ["Jan Kliment", "Vítězslav Jaroš"]
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Canada",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4752/image",
+      "team2": "Bosnia & Herzegovina",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4479/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group B",
+      "start": "2026-06-13T04:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=canada",
+      "streaming_url": "https://cdn.singhs.com.np/canada.json",
+      "event_id": 15186836,
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group B",
+          "round": 1,
+          "kick_off_time_utc": "Fri, 12 Jun 2026 19:00:00 GMT",
+          "venue": "BMO Field",
+          "stadium_capacity": 45700,
+          "referee": null,
+          "home_team": "Canada",
+          "away_team": "Bosnia & Herzegovina",
+          "home_manager": "Jesse Marsch",
+          "away_manager": "Sergej Barbarez"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Ralph Priso"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "error": {
+            "code": 403,
+            "reason": "challenge"
+          }
+        }
+      }
+    },
+    {
+      "team1": "USA",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4724/image",
+      "team2": "Paraguay",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4789/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group D",
+      "start": "2026-06-13T10:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=usa",
+      "streaming_url": "https://cdn.singhs.com.np/usa.json",
+      "event_id": 15186873,
+      "football_data": null
+    }
+  ]
+}
