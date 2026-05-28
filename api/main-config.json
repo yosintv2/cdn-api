@@ -30,7 +30,7 @@
   "alt_config_url": "https://cdn.singhs.com.np/api/alt-config.json",
   
   "app_update": {
-    "latest_version": "1.2.0",
+    "latest_version": "2.0.0",
     "force_update": true,
     "update_url": "https://play.google.com/store/apps/details?id=net.yosintv.app",
     "popup_title": "New Update Available!",
