@@ -436,24 +436,38 @@
             { url: 'https://yosintvapi.pages.dev/api/match-football.json', sport: 'football' }
           ];
 
-          const urlParams = new URLSearchParams(window.location.search);
-          const slug = (urlParams.get('yosintv') || '').trim();
-          if (!slug) return;
+const urlParams = new URLSearchParams(window.location.search);
+// Accepts ?singhs=ufc or ?yosintv=ufc to stay backwards compatible
+const slug = (urlParams.get('singhs') || urlParams.get('yosintv') || '').trim();
+if (!slug) return;
 
-          const searchKey = normalize(slug);
-          const apiResponses = await Promise.allSettled(
-            mainApis.map(async ({ url, sport }) => {
-              const res = await fetch(url, { cache: 'no-store' });
-              if (!res.ok) throw new Error(`Failed ${url}`);
-              const json = await res.json();
-              const rawMatches = Array.isArray(json.matches) ? json.matches : (Array.isArray(json) ? json : []);
-              const matches = toArray(rawMatches).map(match => ({
-                ...match,
-                __sport: getSportType(match) === 'sports' ? sport : getSportType(match)
-              }));
-              return matches;
-            })
-          );
+const searchKey = normalize(slug);
+
+// Dynamically construct the URL pointing directly to the JSON file on the new CDN
+const targetUrl = `https://cdn.singhs.com.np/${slug}.json`;
+
+// We use an array structure to keep it compatible with the rest of your existing code downstream
+const apiResponses = await Promise.allSettled([
+  (async () => {
+    try {
+      const res = await fetch(targetUrl, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`Failed to fetch: ${targetUrl}`);
+      
+      const json = await res.json();
+      const rawMatches = Array.isArray(json.matches) ? json.matches : (Array.isArray(json) ? json : []);
+      
+      // Infers the sport type dynamically from the slug (e.g., 'ufc', 'cricket')
+      const matches = toArray(rawMatches).map(match => ({
+        ...match,
+        __sport: getSportType(match) === 'sports' ? slug : getSportType(match)
+      }));
+      return matches;
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  })()
+]);
 
           const allMatches = apiResponses
             .filter(result => result.status === 'fulfilled')
