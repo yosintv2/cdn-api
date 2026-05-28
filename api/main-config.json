@@ -24,10 +24,10 @@
   "popup_text": "Join our WhatsApp and Telegram groups to get the latest match updates and football/cricket news instantly!",
   "match_links": [],
   "articles": [],
-  "football_api_url": "https://api.singhs.com.np/api/match-football.json",
-  "cricket_api_url": "https://api.singhs.com.np/api/match-cricket.json",
-  "articles_api_url": "https://api.singhs.com.np/api/articles.json",
-  "alt_config_url": "https://api.singhs.com.np/api/alt-config.json",
+  "football_api_url": "https://cdn.singhs.com.np/api/match-football.json",
+  "cricket_api_url": "https://cdn.singhs.com.np/api/match-cricket.json",
+  "articles_api_url": "https://cdn.singhs.com.np/api/articles.json",
+  "alt_config_url": "https://cdn.singhs.com.np/api/alt-config.json",
   
   "app_update": {
     "latest_version": "1.2.0",
