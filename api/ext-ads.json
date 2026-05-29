@@ -1,0 +1,28 @@
+{
+  "ads": [
+    {
+      "id": "ad_1",
+      "key": "cc397015139acb8115e370f256273501",
+      "format": "iframe",
+      "height": 50,
+      "width": 320,
+      "script_url": "https://www.highperformanceformat.com/cc397015139acb8115e370f256273501/invoke.js"
+    },
+    {
+      "id": "ad_2",
+      "key": "4c08650947d4c46322e144002e791ad7",
+      "format": "iframe",
+      "height": 60,
+      "width": 468,
+      "script_url": "https://www.highperformanceformat.com/4c08650947d4c46322e144002e791ad7/invoke.js"
+    },
+    {
+      "id": "ad_3",
+      "key": "404fc8f3cacfd3432bb75ca06f2afb48",
+      "format": "iframe",
+      "height": 250,
+      "width": 300,
+      "script_url": "https://www.highperformanceformat.com/404fc8f3cacfd3432bb75ca06f2afb48/invoke.js"
+    }
+  ]
+}
