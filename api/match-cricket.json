@@ -10,8 +10,8 @@
       "start": "2026-05-29T23:00:00+09:00",
       "league_id": 102104,
       "duration": 5,
-      "details_url": "https://www.yosintv.net/match?yosintv=gujarattitans",
-      "streaming_url": "https://cdn.singhs.com.np/gujarattitans.json",
+      "details_url": "https://www.yosintv.net/match?yosintv=ipl",
+      "streaming_url": "https://cdn.singhs.com.np/ipl.json",
       "event_id": 16244016,
       "cricket_data": {
         "event": {
