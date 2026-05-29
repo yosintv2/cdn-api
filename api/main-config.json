@@ -1,7 +1,6 @@
 {
   "review_mode": true,
   "streaming_enabled": true,
-  "streaming_url": "https://cdn.singhs.com.np/{match_id}.json",
   "ads_enabled": true,
   "banner_enabled": true,
   "rewarded_enabled": true,
@@ -24,6 +23,7 @@
   "popup_text": "Join our WhatsApp and Telegram groups to get the latest match updates and football/cricket news instantly!",
   "match_links": [],
   "articles": [],
+  "streaming_url": "https://cdn.singhs.com.np/{match_id}.json",
   "football_api_url": "https://cdn.singhs.com.np/api/match-football.json",
   "cricket_api_url": "https://cdn.singhs.com.np/api/match-cricket.json",
   "articles_api_url": "https://cdn.singhs.com.np/api/articles.json",
