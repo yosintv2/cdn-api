@@ -1,6 +1,6 @@
 {
   "review_mode": true,
-  "streaming_enabled": true,
+  "streaming_enabled": false,
   "streaming_url": "https://cdn.singhs.com.np/{match_id}.json",
   "ads_enabled": true,
   "banner_enabled": true,
