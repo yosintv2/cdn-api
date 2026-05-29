@@ -1,5 +1,5 @@
 {
-  "review_mode": false,
+  "review_mode": true,
   "streaming_enabled": true,
   "streaming_url": "https://cdn.singhs.com.np/{match_id}.json",
   "ads_enabled": true,
@@ -31,7 +31,7 @@
   
   "app_update": {
     "latest_version": "2.0.0",
-    "force_update": true,
+    "force_update": true, 
     "update_url": "https://play.google.com/store/apps/details?id=net.yosintv.app",
     "popup_title": "New Update Available!",
     "popup_message": "A new version of YoSinTV is available with bug fixes and performance improvements. Update now for the best experience!"
