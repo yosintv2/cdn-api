@@ -1,122 +1,12 @@
 {
   "matches": [
     {
-      "team1": "Egypt",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4758/image",
-      "team2": "Russia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4694/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-05-29T03:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=egypt",
-      "streaming_url": "https://cdn.singhs.com.np/egypt.json",
-      "event_id": 16130134,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Thu, 28 May 2026 18:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": "L Benbraham",
-          "home_team": "Egypt",
-          "away_team": "Russia",
-          "home_manager": "Hossam Hassan",
-          "away_manager": "Valeriy Karpin"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 1,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Mahdi Soliman"
-          ],
-          "away_missing_players": [
-            "Aleksandr Golovin",
-            "Maksim Borisko",
-            "Nikolay Komlichenko"
-          ]
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Ireland",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4693/image",
-      "team2": "Qatar",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4792/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-05-29T03:45:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=ireland",
-      "streaming_url": "https://cdn.singhs.com.np/ireland.json",
-      "event_id": 15891670,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Thu, 28 May 2026 18:45:00 GMT",
-          "venue": "Aviva Stadium",
-          "stadium_capacity": 51700,
-          "referee": "Jamie Robinson",
-          "home_team": "Ireland",
-          "away_team": "Qatar",
-          "home_manager": "Heimir Hallgrímsson",
-          "away_manager": "Julen Lopetegui"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 403,
-            "reason": "challenge"
-          }
-        }
-      }
-    },
-    {
-      "team1": "South Africa",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4736/image",
-      "team2": "Nicaragua",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/21817/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-05-30T01:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=southafrica",
-      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
-      "event_id": 16154022,
-      "football_data": null
-    },
-    {
       "team1": "Paris Saint-Germain",
       "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/1644/image",
       "team2": "Arsenal",
       "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/42/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/7/image",
-      "league": "Champions League Final",
+      "league": "Champions League",
       "start": "2026-05-31T01:00:00+09:00",
       "league_id": 7,
       "duration": 2.2,
