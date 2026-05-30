@@ -36,7 +36,7 @@
           "away_formation": "4-2-3-1",
           "home_players": [
             "Matvey Safonov",
-            "Warren Zaïre-Emery",
+            "Achraf Hakimi",
             "Marquinhos",
             "Willian Pacho",
             "Nuno Mendes",
@@ -49,27 +49,22 @@
           ],
           "away_players": [
             "David Raya",
-            "Cristhian Mosquera",
+            "Jurriën Timber",
             "William Saliba",
             "Gabriel Magalhães",
             "Riccardo Calafiori",
             "Declan Rice",
             "Myles Lewis-Skelly",
             "Bukayo Saka",
-            "Eberechi Eze",
+            "Martin Ødegaard",
             "Leandro Trossard",
             "Kai Havertz"
           ],
-          "home_missing_players": [
-            "Quentin Ndjantou",
-            "Achraf Hakimi"
-          ],
+          "home_missing_players": [],
           "away_missing_players": [
             "Ben White",
             "Mikel Merino",
-            "Christian Nørgaard",
-            "Jurriën Timber",
-            "Noni Madueke"
+            "Christian Nørgaard"
           ]
         },
         "pregame_form": {
@@ -100,7 +95,7 @@
           "kick_off_time_utc": "Sat, 30 May 2026 23:00:00 GMT",
           "venue": "Estádio Urbano Caldeira",
           "stadium_capacity": 16080,
-          "referee": null,
+          "referee": "Rafael Rodrigo Klein",
           "home_team": "Santos",
           "away_team": "Vitória",
           "home_manager": "Cuca",
@@ -115,45 +110,47 @@
           "home_formation": "4-2-3-1",
           "away_formation": "4-3-3",
           "home_players": [
-            "Gabriel Brazão",
-            "Igor Vinícius",
+            "Diogenes",
             "Adonis Frías",
             "Lucas Veríssimo",
+            "Luan Peres",
             "Gonzalo Escobar",
             "Willian Arão",
             "Christian Oliva",
             "Gabriel Bontempo",
+            "Miguelito",
             "Álvaro Barreal",
-            "Rony",
             "Gabriel Barbosa"
           ],
           "away_players": [
             "Lucas Arcanjo",
-            "Nathan Mendes",
             "Edenilson",
-            "Luan Cândido",
-            "Jamerson",
             "Caique Gonçalves",
+            "Luan Cândido",
+            "Ramon",
+            "Zé Vitor",
             "Gabriel Baralhas",
             "Emmanuel Martínez",
             "Erick",
-            "Renê Santos",
+            "Renê Sousa",
             "Matheuzinho"
           ],
           "home_missing_players": [
             "Gustavo Henrique Pereira",
-            "Benjamín Rollheiser",
+            "Gabriel Brazão",
+            "Gabriel Menino",
             "João Schmidt",
             "Neymar",
             "Thaciano",
-            "Gabriel Menino"
+            "Igor Vinícius"
           ],
           "away_missing_players": [
             "Cacá",
+            "Aitor Cantalapiedra",
             "Edu",
             "Mateusinho",
+            "Nathan Mendes",
             "Pedro Henrique",
-            "Ramon",
             "Riccieli",
             "Rúben Ramos Ismael"
           ]
