@@ -31,7 +31,7 @@
   
   "app_update": {
     "latest_version": "2.0.0",
-    "force_update": false, 
+    "force_update": true, 
     "update_url": "https://play.google.com/store/apps/details?id=net.yosintv.app",
     "popup_title": "New Update Available!",
     "popup_message": "A new version of YoSinTV is available with bug fixes and performance improvements. Update now for the best experience!"
