@@ -1,57 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Gujarat Titans",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/216006/image",
-      "team2": "Rajasthan Royals",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187842/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/102104/image",
-      "league": "Indian Premier League, Playoffs",
-      "start": "2026-05-29T23:00:00+09:00",
-      "league_id": 102104,
-      "duration": 5,
-      "details_url": "https://www.yosintv.net/match?yosintv=ipl",
-      "streaming_url": "https://cdn.singhs.com.np/ipl.json",
-      "event_id": 16244016,
-      "cricket_data": {
-        "event": {
-          "league": "Indian Premier League, Playoffs",
-          "round": null,
-          "start_time_utc": "Fri, 29 May 2026 14:00:00 GMT",
-          "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
-          "stadium_capacity": null,
-          "home_team": "Gujarat Titans",
-          "away_team": "Rajasthan Royals"
-        },
-        "h2h": {
-          "homeWins": 7,
-          "awayWins": 3,
-          "draws": 0
-        },
-        "lineups": {
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        }
-      }
-    },
-    {
-      "team1": "Pakistan",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187754/image",
-      "team2": "Australia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187746/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/100912/image",
-      "league": "Australia in Pakistan, 3 ODI Series",
-      "start": "2026-05-30T20:30:00+09:00",
-      "league_id": 100912,
-      "duration": 8,
-      "details_url": "https://www.yosintv.net/match?yosintv=pakistan",
-      "streaming_url": "https://cdn.singhs.com.np/pakistan.json",
-      "event_id": 16141811,
-      "cricket_data": null
-    },
-    {
       "team1": "Nepal",
       "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187772/image",
       "team2": "China",
@@ -64,7 +13,27 @@
       "details_url": "https://www.yosintv.net/match?yosintv=nepal",
       "streaming_url": "https://cdn.singhs.com.np/nepal.json",
       "event_id": 16226765,
-      "cricket_data": null
+      "cricket_data": {
+        "event": {
+          "league": "Asian Games Men's T20I Qualifier, Group A",
+          "round": null,
+          "start_time_utc": "Sun, 31 May 2026 01:30:00 GMT",
+          "venue": "Singapore National Cricket Ground",
+          "stadium_capacity": null,
+          "home_team": "Nepal",
+          "away_team": "China"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        }
+      }
     },
     {
       "team1": "Malaysia",
@@ -79,6 +48,42 @@
       "details_url": "https://www.yosintv.net/match?yosintv=malaysia",
       "streaming_url": "https://cdn.singhs.com.np/malaysia.json",
       "event_id": 16226766,
+      "cricket_data": {
+        "event": {
+          "league": "Asian Games Men's T20I Qualifier, Group A",
+          "round": null,
+          "start_time_utc": "Sun, 31 May 2026 06:30:00 GMT",
+          "venue": "Singapore National Cricket Ground",
+          "stadium_capacity": null,
+          "home_team": "Malaysia",
+          "away_team": "Qatar"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "awayWins": 2,
+          "draws": 0
+        },
+        "lineups": {
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        }
+      }
+    },
+    {
+      "team1": "Royal Challengers Bengaluru",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187843/image",
+      "team2": "Gujarat Titans",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/216006/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/102275/image",
+      "league": "Indian Premier League, Final",
+      "start": "2026-05-31T23:00:00+09:00",
+      "league_id": 102275,
+      "duration": 5,
+      "details_url": "https://www.yosintv.net/match?yosintv=ipl",
+      "streaming_url": "https://cdn.singhs.com.np/ipl.json",
+      "event_id": 16253632,
       "cricket_data": null
     }
   ]
