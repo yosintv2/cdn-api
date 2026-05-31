@@ -258,21 +258,6 @@
       "football_data": null
     },
     {
-      "team1": "Czechia",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4714/image",
-      "team2": "Kosovo",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/154426/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-05-31T23:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=czechia",
-      "streaming_url": "https://cdn.singhs.com.np/czechia.json",
-      "event_id": 16186148,
-      "football_data": null
-    },
-    {
       "team1": "Poland",
       "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4703/image",
       "team2": "Ukraine",
