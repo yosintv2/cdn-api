@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Maldives",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6911/image",
-      "team2": "Afghanistan",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4689/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-02T01:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=maldives",
-      "streaming_url": "https://cdn.singhs.com.np/maldives.json",
-      "event_id": 16251064,
-      "football_data": null
-    },
-    {
       "team1": "Norway",
       "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4475/image",
       "team2": "Sweden",
