@@ -3,64 +3,29 @@
     {
       "team1": "Nepal",
       "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187772/image",
-      "team2": "China",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187812/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/185956/image",
-      "league": "Asian Games Men's T20I Qualifier, Group A",
-      "start": "2026-05-31T10:30:00+09:00",
-      "league_id": 185956,
-      "duration": 5,
-      "details_url": "https://www.yosintv.net/match?yosintv=nepal",
-      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
-      "event_id": 16226765,
-      "cricket_data": {
-        "event": {
-          "league": "Asian Games Men's T20I Qualifier, Group A",
-          "round": null,
-          "start_time_utc": "Sun, 31 May 2026 01:30:00 GMT",
-          "venue": "Singapore National Cricket Ground",
-          "stadium_capacity": null,
-          "home_team": "Nepal",
-          "away_team": "China"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        }
-      }
-    },
-    {
-      "team1": "Malaysia",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187811/image",
       "team2": "Qatar",
       "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/459350/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/185956/image",
       "league": "Asian Games Men's T20I Qualifier, Group A",
-      "start": "2026-05-31T15:30:00+09:00",
+      "start": "2026-06-02T10:30:00+09:00",
       "league_id": 185956,
       "duration": 5,
-      "details_url": "https://www.yosintv.net/match?yosintv=malaysia",
-      "streaming_url": "https://cdn.singhs.com.np/malaysia.json",
-      "event_id": 16226766,
+      "details_url": "https://www.yosintv.net/match?yosintv=nepal",
+      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
+      "event_id": 16226890,
       "cricket_data": {
         "event": {
           "league": "Asian Games Men's T20I Qualifier, Group A",
           "round": null,
-          "start_time_utc": "Sun, 31 May 2026 06:30:00 GMT",
+          "start_time_utc": "Tue, 02 Jun 2026 01:30:00 GMT",
           "venue": "Singapore National Cricket Ground",
           "stadium_capacity": null,
-          "home_team": "Malaysia",
+          "home_team": "Nepal",
           "away_team": "Qatar"
         },
         "h2h": {
-          "homeWins": 2,
-          "awayWins": 2,
+          "homeWins": 4,
+          "awayWins": 0,
           "draws": 0
         },
         "lineups": {
@@ -72,18 +37,84 @@
       }
     },
     {
-      "team1": "Royal Challengers Bengaluru",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187843/image",
-      "team2": "Gujarat Titans",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/216006/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/102275/image",
-      "league": "Indian Premier League, Final",
-      "start": "2026-05-31T23:00:00+09:00",
-      "league_id": 102275,
+      "team1": "West Indies",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187760/image",
+      "team2": "Sri Lanka",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187756/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/179559/image",
+      "league": "Sri Lanka in West Indies, 3 ODI Series",
+      "start": "2026-06-03T23:30:00+09:00",
+      "league_id": 179559,
+      "duration": 8,
+      "details_url": "https://www.yosintv.net/match?yosintv=westindies",
+      "streaming_url": "https://cdn.singhs.com.np/westindies.json",
+      "event_id": 15911693,
+      "cricket_data": {
+        "event": {
+          "league": "Sri Lanka in West Indies, 3 ODI Series",
+          "round": null,
+          "start_time_utc": "Wed, 03 Jun 2026 14:30:00 GMT",
+          "venue": "Sabina Park, Kingston",
+          "stadium_capacity": null,
+          "home_team": "West Indies",
+          "away_team": "Sri Lanka"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "awayWins": 8,
+          "draws": 0
+        },
+        "lineups": {
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        }
+      }
+    },
+    {
+      "team1": "Nepal",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187772/image",
+      "team2": "Malaysia",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187811/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/185956/image",
+      "league": "Asian Games Men's T20I Qualifier, Group A",
+      "start": "2026-06-04T15:30:00+09:00",
+      "league_id": 185956,
       "duration": 5,
-      "details_url": "https://www.yosintv.net/match?yosintv=ipl",
-      "streaming_url": "https://cdn.singhs.com.np/ipl.json",
-      "event_id": 16253632,
+      "details_url": "https://www.yosintv.net/match?yosintv=nepal",
+      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
+      "event_id": 16226895,
+      "cricket_data": null
+    },
+    {
+      "team1": "England",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187757/image",
+      "team2": "New Zealand",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187755/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/101137/image",
+      "league": "Crowe-Thorpe Trophy",
+      "start": "2026-06-04T19:00:00+09:00",
+      "league_id": 101137,
+      "duration": 8,
+      "details_url": "https://www.yosintv.net/match?yosintv=england",
+      "streaming_url": "https://cdn.singhs.com.np/england.json",
+      "event_id": 14266992,
+      "cricket_data": null
+    },
+    {
+      "team1": "Pakistan",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187754/image",
+      "team2": "Australia",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187746/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/100912/image",
+      "league": "Australia in Pakistan, 3 ODI Series",
+      "start": "2026-06-04T20:30:00+09:00",
+      "league_id": 100912,
+      "duration": 8,
+      "details_url": "https://www.yosintv.net/match?yosintv=pakistan",
+      "streaming_url": "https://cdn.singhs.com.np/pakistan.json",
+      "event_id": 16141929,
       "cricket_data": null
     }
   ]
