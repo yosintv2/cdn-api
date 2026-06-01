@@ -1,234 +1,64 @@
 {
   "matches": [
     {
-      "team1": "South Korea",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4735/image",
-      "team2": "Trinidad and Tobago",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5162/image",
+      "team1": "Maldives",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6911/image",
+      "team2": "Afghanistan",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4689/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
       "league": "Int. Friendly Games",
-      "start": "2026-05-31T10:00:00+09:00",
+      "start": "2026-06-02T01:00:00+09:00",
       "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=southkorea",
-      "streaming_url": "https://cdn.singhs.com.np/southkorea.json",
-      "event_id": 16173601,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sun, 31 May 2026 01:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": "Victor Rivas",
-          "home_team": "South Korea",
-          "away_team": "Trinidad and Tobago",
-          "home_manager": "Myung Bo Hong",
-          "away_manager": "Derek King"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Jo Hyeonwoo",
-            "Han-Beom Lee",
-            "Yu-min Cho",
-            "Gi-Hyuk Lee",
-            "Kim Moon-hwan",
-            "Jin-gyu Kim",
-            "Seung Ho Paik",
-            "Jens Castrop",
-            "Jun-Ho Bae",
-            "Dong-gyeong Lee",
-            "Son Heung-min",
-            "Jae-sung Lee",
-            "Jin-seob Park",
-            "Ji-sung Eom",
-            "Hwang Hee-chan",
-            "Kim Seung-gyu",
-            "Song Bum-keun",
-            "Young-woo Seol",
-            "Kim Tae-hyeon",
-            "Kim Min-jae",
-            "Wi-je Cho",
-            "Kang Sang-Yun",
-            "Hwang In-beom",
-            "Lee Tae-seok",
-            "Gue-sung Cho",
-            "Yang Hyun-Jun"
-          ],
-          "away_players": [
-            "Jabari Brice",
-            "Deron Payne",
-            "Kobi Henry",
-            "Kieran Ngwenya",
-            "Noah Powder",
-            "Daniel Phillips",
-            "Michel Poon-Angeron",
-            "Dante Sealy",
-            "Molik Khan",
-            "Judah García",
-            "Roald Mitchell",
-            "Jacob Greene",
-            "John-Paul Rochford",
-            "Isaiah Lee",
-            "Teshorne Ragoo",
-            "Jaylen Yearwood",
-            "Shervohnez Hamilton",
-            "Anthony Herbert",
-            "Kaihim Thomas",
-            "Jaheim Faustin",
-            "Ali Nakhid",
-            "Daniel David"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 403,
-            "reason": "challenge"
-          }
-        }
-      }
-    },
-    {
-      "team1": "Mexico",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4781/image",
-      "team2": "Australia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4741/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-05-31T11:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=mexico",
-      "streaming_url": "https://cdn.singhs.com.np/mexico.json",
-      "event_id": 15891671,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sun, 31 May 2026 02:00:00 GMT",
-          "venue": "Rose Bowl Stadium",
-          "stadium_capacity": 92542,
-          "referee": null,
-          "home_team": "Mexico",
-          "away_team": "Australia",
-          "home_manager": "Javier Aguirre",
-          "away_manager": "Tony Popovic"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "5-4-1",
-          "home_players": [
-            "Raúl Rangel",
-            "Jorge Sánchez",
-            "Edson Álvarez",
-            "Johan Vásquez",
-            "Mateo Chávez",
-            "Luis Romo",
-            "Luis Chávez",
-            "Orbelín Pineda",
-            "Álvaro Fidalgo",
-            "Alexis Vega",
-            "Guillermo Martínez",
-            "Guillermo Ochoa",
-            "Erik Lira",
-            "Armando González",
-            "Raúl Jiménez"
-          ],
-          "away_players": [
-            "Mathew Ryan",
-            "Jacob Italiano",
-            "Alessandro Circati",
-            "Harry Souttar",
-            "Lucas Herrington",
-            "Jordan Bos",
-            "Mathew Leckie",
-            "Jackson Irvine",
-            "Aiden O'Neill",
-            "Connor Metcalfe",
-            "Mohamed Touré",
-            "Patrick Beach",
-            "Paul Izzo",
-            "Miloš Degenek",
-            "Kye Rowles",
-            "Jason Geria",
-            "Aziz Behich",
-            "Cameron Burgess",
-            "Kai Trewin",
-            "Awer Mabil",
-            "Cameron Devlin",
-            "Ajdin Hrustić",
-            "Paul Okon-Engstler",
-            "Nishan Velupillay",
-            "Martin Boyle",
-            "Nestory Irankunda"
-          ],
-          "home_missing_players": [
-            "César Montes"
-          ],
-          "away_missing_players": [
-            "Patrick Yazbek"
-          ]
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Japan",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4770/image",
-      "team2": "Iceland",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4708/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-05-31T19:25:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=japan",
-      "streaming_url": "https://cdn.singhs.com.np/japan.json",
-      "event_id": 16012856,
+      "details_url": "https://www.yosintv.net/match?yosintv=maldives",
+      "streaming_url": "https://cdn.singhs.com.np/maldives.json",
+      "event_id": 16251064,
       "football_data": null
     },
     {
-      "team1": "Singapore",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4738/image",
-      "team2": "Mongolia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/23496/image",
+      "team1": "Norway",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4475/image",
+      "team2": "Sweden",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4688/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
       "league": "Int. Friendly Games",
-      "start": "2026-05-31T20:30:00+09:00",
+      "start": "2026-06-02T02:00:00+09:00",
       "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=singapore",
-      "streaming_url": "https://cdn.singhs.com.np/singapore.json",
-      "event_id": 16223220,
+      "details_url": "https://www.yosintv.net/match?yosintv=norway",
+      "streaming_url": "https://cdn.singhs.com.np/norway.json",
+      "event_id": 15891674,
+      "football_data": null
+    },
+    {
+      "team1": "Colombia",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4820/image",
+      "team2": "Costa Rica",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4756/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
+      "league": "Int. Friendly Games",
+      "start": "2026-06-02T08:00:00+09:00",
+      "league_id": 851,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=colombia",
+      "streaming_url": "https://cdn.singhs.com.np/colombia.json",
+      "event_id": 16112839,
       "football_data": {
         "event": {
           "league": "Int. Friendly Games",
           "round": null,
-          "kick_off_time_utc": "Sun, 31 May 2026 11:30:00 GMT",
+          "kick_off_time_utc": "Mon, 01 Jun 2026 23:00:00 GMT",
           "venue": null,
           "stadium_capacity": null,
           "referee": null,
-          "home_team": "Singapore",
-          "away_team": "Mongolia",
-          "home_manager": "Gavin Lee",
-          "away_manager": "Ichiro Otsuka"
+          "home_team": "Colombia",
+          "away_team": "Costa Rica",
+          "home_manager": "Nestor Lorenzo",
+          "away_manager": "Fernando Batista"
         },
         "h2h": {
-          "homeWins": 1,
-          "awayWins": 0,
+          "homeWins": 4,
+          "awayWins": 1,
           "draws": 0
         },
         "lineups": {
@@ -237,151 +67,9 @@
           "home_players": [],
           "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Switzerland",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4699/image",
-      "team2": "Jordan",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4771/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-05-31T22:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=switzerland",
-      "streaming_url": "https://cdn.singhs.com.np/switzerland.json",
-      "event_id": 15891673,
-      "football_data": null
-    },
-    {
-      "team1": "Poland",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4703/image",
-      "team2": "Ukraine",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4701/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-01T00:30:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=poland",
-      "streaming_url": "https://cdn.singhs.com.np/poland.json",
-      "event_id": 16153730,
-      "football_data": null
-    },
-    {
-      "team1": "Germany",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4711/image",
-      "team2": "Finland",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4712/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-01T03:45:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=germany",
-      "streaming_url": "https://cdn.singhs.com.np/germany.json",
-      "event_id": 15362814,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sun, 31 May 2026 18:45:00 GMT",
-          "venue": "MEWA Arena",
-          "stadium_capacity": 34000,
-          "referee": null,
-          "home_team": "Germany",
-          "away_team": "Finland",
-          "home_manager": "Julian Nagelsmann",
-          "away_manager": "Jacob Friis"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "awayWins": 0,
-          "draws": 2
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Serge Gnabry",
-            "Anton Stach"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 403,
-            "reason": "challenge"
-          }
-        }
-      }
-    },
-    {
-      "team1": "USA",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4724/image",
-      "team2": "Senegal",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4739/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-01T04:30:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=usa",
-      "streaming_url": "https://cdn.singhs.com.np/usa.json",
-      "event_id": 15362151,
-      "football_data": null
-    },
-    {
-      "team1": "Brazil",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4748/image",
-      "team2": "Panama",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5164/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-01T06:30:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=brazil",
-      "streaming_url": "https://cdn.singhs.com.np/brazil.json",
-      "event_id": 15926535,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sun, 31 May 2026 21:30:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": "Brazil",
-          "away_team": "Panama",
-          "home_manager": "Carlo Ancelotti",
-          "away_manager": "Thomas Christiansen"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Gabriel Sara",
-            "Neymar",
-            "Vinícius Júnior",
-            "João Pedro"
-          ],
           "away_missing_players": [
-            "Aníbal Godoy",
-            "Luis Mejía"
+            "Brandon Aguilera",
+            "Kenay Myrie"
           ]
         },
         "pregame_form": {
@@ -391,6 +79,21 @@
           }
         }
       }
+    },
+    {
+      "team1": "Canada",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4752/image",
+      "team2": "Uzbekistan",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4723/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
+      "league": "Int. Friendly Games",
+      "start": "2026-06-02T10:00:00+09:00",
+      "league_id": 851,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=canada",
+      "streaming_url": "https://cdn.singhs.com.np/canada.json",
+      "event_id": 15530938,
+      "football_data": null
     }
   ]
 }
