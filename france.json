@@ -4,7 +4,21 @@
       "name": "Join YoSinTV Telegram Channel",
       "link": "https://t.me/yosintvlive"
     },
-    "______________________________"
+    {
+      "name": "France vs Cote Divoire",
+      "links": [
+        "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/player/dsz?m=4515381",
+        "https://yosintv-api.pages.dev/api/ads",
+        "https://yosintv2.github.io/ads/foot.html?url=https://pooembed.eu/embed/mens-international-friendly/2026-06-04/fra-civ",
+        "https://yosintv-api.pages.dev/api/ads",
+        "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/player/blv?m=532081",
+        "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/player/blv?m=513394",
+        "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/player/blv?m=599634",
+        "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/player/blv?m=589848",
+        "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/player/blv?m=494201",
+        "https://yosintv2.github.io/ads/foot.html?url=https://yosintv100.pages.dev/player/blv?m=250874"
+      ]
+    }
   ],
   "styles": {
     "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
