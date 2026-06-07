@@ -1,437 +1,94 @@
 {
   "matches": [
     {
-      "team1": "Belgium",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4717/image",
-      "team2": "Tunisia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4729/image",
+      "team1": "Afghanistan",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4689/image",
+      "team2": "Pakistan",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/6081/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
       "league": "Int. Friendly Games",
-      "start": "2026-06-06T22:00:00+09:00",
+      "start": "2026-06-07T20:00:00+09:00",
       "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=belgium",
-      "streaming_url": "https://cdn.singhs.com.np/belgium.json",
-      "event_id": 15536791,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sat, 06 Jun 2026 13:00:00 GMT",
-          "venue": "Roi Baudouin",
-          "stadium_capacity": 50093,
-          "referee": "Anastasios Sidiropoulos",
-          "home_team": "Belgium",
-          "away_team": "Tunisia",
-          "home_manager": "Rudi Garcia",
-          "away_manager": "Sabri Lamouchi"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Zeno Debast"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 404,
-            "message": "Not Found"
-          }
-        }
-      }
-    },
-    {
-      "team1": "Portugal",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4704/image",
-      "team2": "Chile",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4754/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-07T02:45:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=portugal",
-      "streaming_url": "https://cdn.singhs.com.np/portugal.json",
-      "event_id": 15926543,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sat, 06 Jun 2026 17:45:00 GMT",
-          "venue": "Estadio Nacional do Jamor",
-          "stadium_capacity": 37593,
-          "referee": "Luca Zufferli",
-          "home_team": "Portugal",
-          "away_team": "Chile",
-          "home_manager": "Roberto Martínez",
-          "away_manager": "Nicolas Andres Cordova"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 1,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 403,
-            "reason": "challenge"
-          }
-        }
-      }
-    },
-    {
-      "team1": "USA",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4724/image",
-      "team2": "Germany",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4711/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-07T03:30:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=usa",
-      "streaming_url": "https://cdn.singhs.com.np/usa.json",
-      "event_id": 15184400,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sat, 06 Jun 2026 18:30:00 GMT",
-          "venue": "Soldier Field",
-          "stadium_capacity": 61500,
-          "referee": "Piero Maza",
-          "home_team": "USA",
-          "away_team": "Germany",
-          "home_manager": "Mauricio Pochettino",
-          "away_manager": "Julian Nagelsmann"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "awayWins": 4,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Johnny Cardoso",
-            "Quinn Sullivan"
-          ],
-          "away_missing_players": [
-            "Serge Gnabry"
-          ]
-        },
-        "pregame_form": {
-          "error": {
-            "code": 404,
-            "message": "Not Found"
-          }
-        }
-      }
-    },
-    {
-      "team1": "Switzerland",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4699/image",
-      "team2": "Australia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4741/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-07T04:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=switzerland",
-      "streaming_url": "https://cdn.singhs.com.np/switzerland.json",
-      "event_id": 16118856,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sat, 06 Jun 2026 19:00:00 GMT",
-          "venue": "Snapdragon Stadium",
-          "stadium_capacity": 35000,
-          "referee": null,
-          "home_team": "Switzerland",
-          "away_team": "Australia",
-          "home_manager": "Murat Yakin",
-          "away_manager": "Tony Popovic"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": [
-            "Patrick Yazbek"
-          ]
-        },
-        "pregame_form": {
-          "error": {
-            "code": 404,
-            "message": "Not Found"
-          }
-        }
-      }
-    },
-    {
-      "team1": "England",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4713/image",
-      "team2": "New Zealand",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4784/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-07T05:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=england",
-      "streaming_url": "https://cdn.singhs.com.np/england.json",
-      "event_id": 15926544,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sat, 06 Jun 2026 20:00:00 GMT",
-          "venue": "Raymond James Stadium",
-          "stadium_capacity": 65890,
-          "referee": null,
-          "home_team": "England",
-          "away_team": "New Zealand",
-          "home_manager": "Thomas Tuchel",
-          "away_manager": "Darren Bazeley"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Ben White"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 404,
-            "message": "Not Found"
-          }
-        }
-      }
-    },
-    {
-      "team1": "Bolivia",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4746/image",
-      "team2": "Scotland",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4695/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-07T05:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=bolivia",
-      "streaming_url": "https://cdn.singhs.com.np/bolivia.json",
-      "event_id": 16017800,
+      "details_url": "https://www.yosintv.net/match?yosintv=afghanistan",
+      "streaming_url": "https://cdn.singhs.com.np/afghanistan.json",
+      "event_id": 16251287,
       "football_data": null
     },
     {
-      "team1": "Brazil",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4748/image",
-      "team2": "Egypt",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4758/image",
+      "team1": "Denmark",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4476/image",
+      "team2": "Ukraine",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4701/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
       "league": "Int. Friendly Games",
-      "start": "2026-06-07T07:00:00+09:00",
+      "start": "2026-06-08T01:30:00+09:00",
       "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=brazil",
-      "streaming_url": "https://cdn.singhs.com.np/brazil.json",
-      "event_id": 15691379,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sat, 06 Jun 2026 22:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": "Brazil",
-          "away_team": "Egypt",
-          "home_manager": "Carlo Ancelotti",
-          "away_manager": "Hossam Hassan"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "awayWins": 0,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-1-2",
-          "home_players": [
-            "Alisson",
-            "Wesley",
-            "Marquinhos",
-            "Léo Pereira",
-            "Douglas Santos",
-            "Bruno Guimarães",
-            "Casemiro",
-            "Raphinha",
-            "Lucas Paquetá",
-            "Vinícius Júnior",
-            "Igor Thiago"
-          ],
-          "away_players": [
-            "Mostafa Shobeir",
-            "Yasser Ibrahim",
-            "Hamdy Fathy",
-            "Mohamed Abdelmonem",
-            "Mohamed Hany",
-            "Mohanad Lasheen",
-            "Marwan Attia",
-            "Ahmed Fatouh",
-            "Emam Ashour",
-            "Mohamed Salah",
-            "Omar Marmoush"
-          ],
-          "home_missing_players": [
-            "Neymar"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
+      "details_url": "https://www.yosintv.net/match?yosintv=denmark",
+      "streaming_url": "https://cdn.singhs.com.np/denmark.json",
+      "event_id": 16174772,
+      "football_data": null
     },
     {
-      "team1": "Venezuela",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4722/image",
-      "team2": "Türkiye",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4700/image",
+      "team1": "Croatia",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4715/image",
+      "team2": "Slovenia",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4484/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
       "league": "Int. Friendly Games",
-      "start": "2026-06-07T07:00:00+09:00",
+      "start": "2026-06-08T03:45:00+09:00",
       "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=venezuela",
-      "streaming_url": "https://cdn.singhs.com.np/venezuela.json",
-      "event_id": 16130144,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sat, 06 Jun 2026 22:00:00 GMT",
-          "venue": "Chase Stadium",
-          "stadium_capacity": 21550,
-          "referee": null,
-          "home_team": "Venezuela",
-          "away_team": "Türkiye",
-          "home_manager": "Osvaldo Augusto Vizcarrondo Araujo",
-          "away_manager": "Vincenzo Montella"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Alessandro Milani",
-            "José Martínez"
-          ],
-          "away_missing_players": [
-            "Ahmetcan Kaplan",
-            "Kenan Yıldız"
-          ]
-        },
-        "pregame_form": {
-          "error": {
-            "code": 404,
-            "message": "Not Found"
-          }
-        }
-      }
+      "details_url": "https://www.yosintv.net/match?yosintv=croatia",
+      "streaming_url": "https://cdn.singhs.com.np/croatia.json",
+      "event_id": 15536792,
+      "football_data": null
     },
     {
-      "team1": "Argentina",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4819/image",
-      "team2": "Honduras",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4827/image",
+      "team1": "Greece",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4710/image",
+      "team2": "Italy",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4707/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
       "league": "Int. Friendly Games",
-      "start": "2026-06-07T09:00:00+09:00",
+      "start": "2026-06-08T04:00:00+09:00",
       "league_id": 851,
       "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=argentina",
-      "streaming_url": "https://cdn.singhs.com.np/argentina.json",
-      "event_id": 16118858,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Sun, 07 Jun 2026 00:00:00 GMT",
-          "venue": "Kyle Field",
-          "stadium_capacity": 102733,
-          "referee": null,
-          "home_team": "Argentina",
-          "away_team": "Honduras",
-          "home_manager": "Lionel Scaloni",
-          "away_manager": "Jose Francisco Molina"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "awayWins": 0,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Gonzalo Montiel",
-            "Joaquin Panichelli",
-            "Julio Soler"
-          ],
-          "away_missing_players": [
-            "Julián Jose Martinez"
-          ]
-        },
-        "pregame_form": {
-          "error": {
-            "code": 404,
-            "message": "Not Found"
-          }
-        }
-      }
+      "details_url": "https://www.yosintv.net/match?yosintv=greece",
+      "streaming_url": "https://cdn.singhs.com.np/greece.json",
+      "event_id": 16174773,
+      "football_data": null
+    },
+    {
+      "team1": "Morocco",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4778/image",
+      "team2": "Norway",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4475/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
+      "league": "Int. Friendly Games",
+      "start": "2026-06-08T04:00:00+09:00",
+      "league_id": 851,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=morocco",
+      "streaming_url": "https://cdn.singhs.com.np/morocco.json",
+      "event_id": 16118859,
+      "football_data": null
+    },
+    {
+      "team1": "Colombia",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4820/image",
+      "team2": "Jordan",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4771/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
+      "league": "Int. Friendly Games",
+      "start": "2026-06-08T08:00:00+09:00",
+      "league_id": 851,
+      "duration": 2.2,
+      "details_url": "https://www.yosintv.net/match?yosintv=colombia",
+      "streaming_url": "https://cdn.singhs.com.np/colombia.json",
+      "event_id": 16118860,
+      "football_data": null
     }
   ]
 }
