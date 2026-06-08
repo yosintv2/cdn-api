@@ -13,7 +13,43 @@
       "details_url": "https://www.yosintv.net/match?yosintv=netherlands",
       "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
       "event_id": 16205032,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "Int. Friendly Games",
+          "round": null,
+          "kick_off_time_utc": "Mon, 08 Jun 2026 18:45:00 GMT",
+          "venue": "Icahn Stadium",
+          "stadium_capacity": 5000,
+          "referee": "Ilgiz Tantashev",
+          "home_team": "Netherlands",
+          "away_team": "Uzbekistan",
+          "home_manager": "Ronald Koeman",
+          "away_manager": "Fabio Cannavaro"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [
+            "Jerdy Schouten"
+          ],
+          "away_missing_players": [
+            "Azizjon Ganiev",
+            "Husniddin Aliqulov"
+          ]
+        },
+        "pregame_form": {
+          "error": {
+            "code": 404,
+            "message": "Not Found"
+          }
+        }
+      }
     },
     {
       "team1": "France",
@@ -28,7 +64,36 @@
       "details_url": "https://www.yosintv.net/match?yosintv=france",
       "streaming_url": "https://cdn.singhs.com.np/france.json",
       "event_id": 16130149,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "Int. Friendly Games",
+          "round": null,
+          "kick_off_time_utc": "Mon, 08 Jun 2026 19:10:00 GMT",
+          "venue": "Decathlon Arena - Stade Pierre Mauroy",
+          "stadium_capacity": 50186,
+          "referee": "Sascha Stegemann",
+          "home_team": "France",
+          "away_team": "Northern Ireland",
+          "home_manager": "Didier Deschamps",
+          "away_manager": "Michael O'Neill"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "awayWins": 0,
+          "draws": 0
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": [
+            "Conor Bradley"
+          ]
+        },
+        "pregame_form": null
+      }
     },
     {
       "team1": "Spain",
@@ -43,7 +108,44 @@
       "details_url": "https://www.yosintv.net/match?yosintv=spain",
       "streaming_url": "https://cdn.singhs.com.np/spain.json",
       "event_id": 16123045,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "Int. Friendly Games",
+          "round": null,
+          "kick_off_time_utc": "Tue, 09 Jun 2026 02:00:00 GMT",
+          "venue": null,
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": "Spain",
+          "away_team": "Peru",
+          "home_manager": "Luis De La Fuente",
+          "away_manager": "Mano Menezes"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [
+            "Ander Barrenetxea",
+            "Fermín López",
+            "Lamine Yamal"
+          ],
+          "away_missing_players": [
+            "Alex Valera"
+          ]
+        },
+        "pregame_form": {
+          "error": {
+            "code": 404,
+            "message": "Not Found"
+          }
+        }
+      }
     }
   ]
 }
