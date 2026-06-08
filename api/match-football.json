@@ -84,8 +84,8 @@
       "start": "2026-06-08T15:30:00+09:00",
       "league_id": null,
       "duration": 5,
-      "details_url": "https://www.yosintv.net/match?yosintv=hongkongc",
-      "streaming_url": "https://cdn.singhs.com.np/hongkongc.json",
+      "details_url": "https://www.yosintv.net/match?yosintv=nepal",
+      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
       "event_id": 16289449,
       "cricket_data": {
         "event": {
