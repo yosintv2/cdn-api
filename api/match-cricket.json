@@ -1,108 +1,40 @@
 {
   "matches": [
     {
-      "team1": "India",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187765/image",
-      "team2": "Afghanistan",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187575/image",
+      "team1": "Bangladesh",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187744/image",
+      "team2": "Australia",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187746/image",
       "league_logo": null,
-      "league": "Afghanistan in India, One-off Test (Day 3) - 2 remaining",
-      "start": "2026-06-08T13:00:00+09:00",
+      "league": "Australia in Bangladesh, 3 ODI Series",
+      "start": "2026-06-09T14:00:00+09:00",
       "league_id": null,
-      "duration": 120,
-      "details_url": "https://www.yosintv.net/match?yosintv=india",
-      "streaming_url": "https://cdn.singhs.com.np/india.json",
-      "event_id": 15644318,
+      "duration": 8,
+      "details_url": "https://www.yosintv.net/match?yosintv=bangladesh",
+      "streaming_url": "https://cdn.singhs.com.np/bangladesh.json",
+      "event_id": 16023708,
       "cricket_data": {
         "event": {
-          "league": "Afghanistan in India, One-off Test",
+          "league": "Australia in Bangladesh, 3 ODI Series",
           "round": null,
-          "start_time_utc": "Sat, 06 Jun 2026 04:00:00 GMT",
-          "venue": "Maharaja Yadavindra Singh International Cricket Stadium",
-          "stadium_capacity": null,
-          "home_team": "India",
-          "away_team": "Afghanistan"
+          "start_time_utc": "Tue, 09 Jun 2026 05:00:00 GMT",
+          "venue": "Sher-e-Bangla National Cricket Stadium",
+          "stadium_capacity": 25416,
+          "home_team": "Bangladesh",
+          "away_team": "Australia"
         },
         "h2h": {
-          "homeWins": 9,
-          "awayWins": 0,
-          "draws": 1
+          "homeWins": 4,
+          "awayWins": 6,
+          "draws": 0
         },
         "lineups": {
-          "home_players": [
-            "Dhruv Jurel",
-            "KL Rahul",
-            "Kuldeep Yadav",
-            "Manav Suthar",
-            "Mohammed Siraj",
-            "Prasidh Krishna",
-            "Sai Sudharsan",
-            "Washington Sundar",
-            "Yashasvi Jaiswal",
-            "Rishabh Pant",
-            "Shubman Gill",
-            "Arshdeep Singh",
-            "Gurnoor Brar",
-            "Hardik Pandya",
-            "Harsh Dubey",
-            "Ishan Kishan",
-            "Nitish Kumar Reddy",
-            "Prince Yadav",
-            "Rohit Sharma",
-            "Shreyas Iyer",
-            "Virat Kohli"
-          ],
-          "away_players": [
-            "Abdul Malik",
-            "Azmatullah Omarzai",
-            "Mohammad Saleem",
-            "Nangeyalia Kharote",
-            "Rahmanullah Gurbaz",
-            "Rahmat Shah",
-            "Sediqullah Atal",
-            "Sharafuddin Ashraf",
-            "Ziaur Rahman",
-            "Afsar Zazai",
-            "Hashmatullah Shahidi",
-            "Bilal Sami",
-            "Ikram Alikhil",
-            "Qais Ahmad",
-            "Rahmanullah"
-          ],
+          "home_players": [],
+          "away_players": [],
           "home_missing_players": [],
           "away_missing_players": []
         }
       }
-    },
-    {
-      "team1": "Hong Kong C.",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187774/image",
-      "team2": "Nepal",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187772/image",
-      "league_logo": null,
-      "league": "Asian Games Men's T20I Qualifier, Final",
-      "start": "2026-06-08T15:30:00+09:00",
-      "league_id": null,
-      "duration": 5,
-      "details_url": "https://www.yosintv.net/match?yosintv=nepal",
-      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
-      "event_id": 16289449,
-      "cricket_data": null
-    },
-    {
-      "team1": "Netherlands",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187840/image",
-      "team2": "USA",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/199276/image",
-      "league_logo": null,
-      "league": "ICC CWC League 2",
-      "start": "2026-06-08T23:30:00+09:00",
-      "league_id": null,
-      "duration": 8,
-      "details_url": "https://www.yosintv.net/match?yosintv=netherlands",
-      "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
-      "event_id": 16236789,
-      "cricket_data": null
     }
   ]
 }
