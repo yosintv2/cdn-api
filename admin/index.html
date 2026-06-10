@@ -254,19 +254,11 @@ select{
   border:1px solid var(--border);
 }
 
-editor-wrap{
+.editor-wrap{
   display:flex;
   height:74vh;
   background:#0d0d0d;
-  position: relative;
 }
-.center-notice {
-  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
-  pointer-events: none; font-family: var(--mono); color: var(--text2); font-size: 13px;
-  z-index: 5;
-}
-.center-notice .pill-like { background: rgba(255,255,255,.02); padding:8px 12px; border-radius:8px; border:1px solid var(--border); display:flex; align-items:center; gap:8px; }
-.center-notice .pill-like::before{ content: ''; width:8px; height:8px; border-radius:50%; background:var(--green); display:inline-block; }
 
 #lineNumbers{
   min-width:50px;
@@ -409,7 +401,7 @@ editor-wrap{
     </div>
 
     <div class="topbar-actions">
-      <a class="pill" href="https://login.yosintv.net/admin/sofax3.html">Match List Update</a>
+      <a class="pill" href="https://login.yosintv.net/admin/sofax3.html">Match List Uodate 3 Admin</a>
       <div class="sep"></div>
       <button class="pill" onclick="formatJson()">Format</button>
       <button class="pill" onclick="clearEditor()">Clear</button>
@@ -450,7 +442,6 @@ editor-wrap{
         oninput="updateLineNumbers(); validateJsonLive();"
         onscroll="syncScroll()"
       ></textarea>
-      <div class="center-notice" id="centerNotice" style="display:none"><div class="pill-like" id="centerText"></div></div>
     </div>
 
     <div class="statusbar">
@@ -896,10 +887,6 @@ function validateJsonLive(){
 
     setStatus("Valid JSON","success");
 
-    // hide any center invalid message
-    // (show briefly valid state)
-    // no-op here
-
     return true;
   }catch(e){
     const err =
@@ -914,9 +901,6 @@ function validateJsonLive(){
       : "Invalid JSON",
       "error"
     );
-
-    // show center invalid notice briefly
-    showCenterMessage(err.line ? ("JSON error on line " + err.line) : "Invalid JSON", 3500);
 
     return false;
   }
@@ -1079,9 +1063,6 @@ async function loadFile(){
     updateLineNumbers();
     validateJsonLive();
 
-    // show center loaded notice
-    showCenterMessage("Loaded: " + f, 3000);
-
     setStatus(
       "Loaded: " + f,
       "success"
@@ -1187,13 +1168,10 @@ async function saveFile(){
 
     setSaveButtonState("saved");
 
-      setStatus(
-        "Saved: " + f,
-        "success"
-      );
-
-      // show center saved notice and keep it updated
-      showSavedCenter(f);
+    setStatus(
+      "Saved: " + f,
+      "success"
+    );
   }catch(e){
     setSaveButtonState("normal");
 
@@ -1231,45 +1209,6 @@ function formatJson(){
       "error"
     );
   }
-}
-
-/* Center notice helpers */
-let centerTimer = null;
-let centerSavedInterval = null;
-
-function clearCenter(){
-  const el = document.getElementById('centerNotice');
-  if(!el) return;
-  el.style.display = 'none';
-  if(centerTimer){ clearTimeout(centerTimer); centerTimer = null; }
-  if(centerSavedInterval){ clearInterval(centerSavedInterval); centerSavedInterval = null; }
-}
-
-function showCenterMessage(text, timeout=3000){
-  const el = document.getElementById('centerNotice');
-  const t = document.getElementById('centerText');
-  if(!el || !t) return;
-  t.innerText = text;
-  el.style.display = 'flex';
-  if(centerTimer) { clearTimeout(centerTimer); centerTimer = null; }
-  if(timeout>0) centerTimer = setTimeout(()=>{ el.style.display='none'; centerTimer=null; }, timeout);
-}
-
-function showSavedCenter(file){
-  // clear any previous timers
-  if(centerSavedInterval){ clearInterval(centerSavedInterval); centerSavedInterval = null; }
-  const el = document.getElementById('centerNotice');
-  const t = document.getElementById('centerText');
-  if(!el || !t) return;
-  function update(){
-    const s = getSavedFiles();
-    const ts = s[file];
-    if(!ts){ el.style.display='none'; return; }
-    t.innerText = file + ' · saved ' + timeAgo(ts) + ' ✅';
-    el.style.display = 'flex';
-  }
-  update();
-  centerSavedInterval = setInterval(update, 30000);
 }
 
 function clearEditor(){
