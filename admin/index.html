@@ -438,11 +438,13 @@ let _lmReady = false, _s3Ready = false, _mnReady = false;
 
 // Link Manager API constants (moved early so lm_init can use them)
 const LM_API = "/api/github";
-const LM_SOURCES = [
+const SOURCE_APIS = [
   "https://cdn.singhs.com.np/api/fifawc.json",
   "https://cdn.singhs.com.np/api/match-cricket.json",
   "https://cdn.singhs.com.np/api/match-football.json"
 ];
+// keep old name for compatibility
+const LM_SOURCES = SOURCE_APIS;
 let lm_files = [], lm_times = {};
 
 function init() {
