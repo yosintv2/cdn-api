@@ -1,367 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Kuwait",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/5368/image",
-      "team2": "Oman",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4787/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-09T21:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=kuwait",
-      "streaming_url": "https://cdn.singhs.com.np/kuwait.json",
-      "event_id": 16205033,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Tue, 09 Jun 2026 12:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": "Kuwait",
-          "away_team": "Oman",
-          "home_manager": "Helio Sousa",
-          "away_manager": "Tarik Sektioui"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 8,
-          "draws": 2
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Indonesia",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4829/image",
-      "team2": "Mozambique",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4783/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-09T22:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=indonesia",
-      "streaming_url": "https://cdn.singhs.com.np/indonesia.json",
-      "event_id": 16255956,
-      "football_data": null
-    },
-    {
-      "team1": "Tajikistan",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/23488/image",
-      "team2": "India",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4828/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-10T00:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=tajikistan",
-      "streaming_url": "https://cdn.singhs.com.np/tajikistan.json",
-      "event_id": 16268596,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Tue, 09 Jun 2026 15:00:00 GMT",
-          "venue": "Central Stadium",
-          "stadium_capacity": 20000,
-          "referee": null,
-          "home_team": "Tajikistan",
-          "away_team": "India",
-          "home_manager": "Gela Shekiladze",
-          "away_manager": "Khalid Jamil"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "awayWins": 1,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 404,
-            "message": "Not Found"
-          }
-        }
-      }
-    },
-    {
-      "team1": "Hungary",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4709/image",
-      "team2": "Kazakhstan",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4772/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-10T02:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=hungary",
-      "streaming_url": "https://cdn.singhs.com.np/hungary.json",
-      "event_id": 16174776,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Tue, 09 Jun 2026 17:00:00 GMT",
-          "venue": "Nagyerdei Stadion",
-          "stadium_capacity": 20340,
-          "referee": "Pavle Ilic",
-          "home_team": "Hungary",
-          "away_team": "Kazakhstan",
-          "home_manager": "Marco Rossi",
-          "away_manager": "Talgat Baisufinov"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "awayWins": 1,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Senegal",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4739/image",
-      "team2": "Saudi Arabia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4834/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-10T08:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=senegal",
-      "streaming_url": "https://cdn.singhs.com.np/senegal.json",
-      "event_id": 16173603,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Tue, 09 Jun 2026 23:00:00 GMT",
-          "venue": "Toyota Field",
-          "stadium_capacity": 7000,
-          "referee": null,
-          "home_team": "Senegal",
-          "away_team": "Saudi Arabia",
-          "home_manager": "Pape Thiaw",
-          "away_manager": "Georgios Donis"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": [
-            "Mory Diaw",
-            "Krépin Diatta",
-            "Abdoulaye Seck",
-            "Mamadou Sarr",
-            "Ismail Jakobs",
-            "Lamine Camara",
-            "Bara Sapoko Ndiaye",
-            "Iliman Ndiaye",
-            "Habib Diarra",
-            "Sadio Mané",
-            "Nicolas Jackson"
-          ],
-          "away_players": [
-            "Ahmed Al-Kassar",
-            "Saud Abdulhamid",
-            "Ali Lajami",
-            "Jehad Thakri",
-            "Hassan Kadesh",
-            "Nasser Al-Dawsari",
-            "Ziyad Aljohani",
-            "Mohamed Kanno",
-            "Sultan Mandash",
-            "Khalid Al-Ghannam",
-            "Abdullah Al-Hamdan"
-          ],
-          "home_missing_players": [
-            "Kalidou Koulibaly"
-          ],
-          "away_missing_players": [
-            "Nawaf Al-Aqidi"
-          ]
-        },
-        "pregame_form": {
-          "error": {
-            "code": 403,
-            "reason": "challenge"
-          }
-        }
-      }
-    },
-    {
-      "team1": "Argentina",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4819/image",
-      "team2": "Iceland",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4708/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-10T10:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=argentina",
-      "streaming_url": "https://cdn.singhs.com.np/argentina.json",
-      "event_id": 16174777,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Wed, 10 Jun 2026 01:00:00 GMT",
-          "venue": "Jordan-Hare Stadium",
-          "stadium_capacity": 87451,
-          "referee": null,
-          "home_team": "Argentina",
-          "away_team": "Iceland",
-          "home_manager": "Lionel Scaloni",
-          "away_manager": "Arnar Bergmann Gunnlaugsson"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 0,
-          "draws": 1
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "5-4-1",
-          "home_players": [
-            "Emiliano Martínez",
-            "Agustín Giay",
-            "Nicolás Otamendi",
-            "Lisandro Martínez",
-            "Nicolás Tagliafico",
-            "Valentín Barco",
-            "Exequiel Palacios",
-            "Giuliano Simeone",
-            "Giovani Lo Celso",
-            "Thiago Almada",
-            "Lautaro Martínez"
-          ],
-          "away_players": [
-            "Hákon Rafn Valdimarsson",
-            "Dagur Dan Þórhallsson",
-            "Stefán Teitur Þórðarson",
-            "Daníel Grétarsson",
-            "Hjörtur Hermannsson",
-            "Logi Tomasson",
-            "Mikael Ellertsson",
-            "Gisli Thordarson",
-            "Andri Fannar Baldursson",
-            "Kristian Hlynsson",
-            "Brynjólfur Darri Willumsson"
-          ],
-          "home_missing_players": [
-            "Gonzalo Montiel",
-            "Lionel Messi"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Iraq",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4767/image",
-      "team2": "Venezuela",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4722/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/851/image",
-      "league": "Int. Friendly Games",
-      "start": "2026-06-10T10:00:00+09:00",
-      "league_id": 851,
-      "duration": 2.2,
-      "details_url": "https://www.yosintv.net/match?yosintv=iraq",
-      "streaming_url": "https://cdn.singhs.com.np/iraq.json",
-      "event_id": 16251282,
-      "football_data": {
-        "event": {
-          "league": "Int. Friendly Games",
-          "round": null,
-          "kick_off_time_utc": "Wed, 10 Jun 2026 01:00:00 GMT",
-          "venue": "SeatGeek Stadium",
-          "stadium_capacity": 28000,
-          "referee": null,
-          "home_team": "Iraq",
-          "away_team": "Venezuela",
-          "home_manager": "Graham Arnold",
-          "away_manager": "Oswaldo Vizcarrondo"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-5-2",
-          "home_players": [
-            "Ahmed Basil",
-            "Hussein Ali",
-            "Zaid Tahseen",
-            "Akam Hashem",
-            "Merchas Doski",
-            "Amir Al-Ammari",
-            "Zaid Ismail",
-            "Ibrahim Bayesh",
-            "Ali Jasim",
-            "Marko Farji",
-            "Ali Al-Hamadi"
-          ],
-          "away_players": [
-            "José Contreras",
-            "Nahuel Ferraresi",
-            "Christian Makoun",
-            "Teo Quintero",
-            "Jon Aramburu",
-            "Telasco Segovia",
-            "Yangel Herrera",
-            "Cristian Cásseres Jr.",
-            "Gleiker Mendoza",
-            "David Martínez Morales",
-            "Jesús Ramírez"
-          ],
-          "home_missing_players": [
-            "Ahmed Yahya"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "error": {
-            "code": 403,
-            "reason": "challenge"
-          }
-        }
-      }
-    },
-    {
       "team1": "Portugal",
       "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4704/image",
       "team2": "Nigeria",
@@ -374,7 +13,63 @@
       "details_url": "https://www.yosintv.net/match?yosintv=portugal",
       "streaming_url": "https://cdn.singhs.com.np/portugal.json",
       "event_id": 16135568,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "Int. Friendly Games",
+          "round": null,
+          "kick_off_time_utc": "Wed, 10 Jun 2026 19:45:00 GMT",
+          "venue": "Estádio Dr. Magalhães Pessoa",
+          "stadium_capacity": 23888,
+          "referee": "Mateo Busquets Ferrer",
+          "home_team": "Portugal",
+          "away_team": "Nigeria",
+          "home_manager": "Roberto Martínez",
+          "away_manager": "Eric Chelle"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "awayWins": 0,
+          "draws": 0
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-4-2",
+          "home_players": [
+            "José Sá",
+            "Diogo Dalot",
+            "Tomás Araújo",
+            "Gonçalo Inácio",
+            "João Cancelo",
+            "Samú Costa",
+            "Vitinha",
+            "Pedro Neto",
+            "Bruno Fernandes",
+            "Francisco Trincão",
+            "Cristiano Ronaldo"
+          ],
+          "away_players": [
+            "Maduka Okoye",
+            "Bright Osayi-Samuel",
+            "Semi Ajayi",
+            "Calvin Bassey",
+            "Onyemaechi Bruno",
+            "Moses Simon",
+            "Frank Onyeka",
+            "Wilfred Ndidi",
+            "Alex Iwobi",
+            "Akor Adams",
+            "Paul Onuachu"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "error": {
+            "code": 404,
+            "message": "Not Found"
+          }
+        }
+      }
     },
     {
       "team1": "England",
