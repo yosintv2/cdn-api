@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YoSinTV Admin</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500&family=DM+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0d0d0d;
+  --surface: #131313;
+  --surface2: #1c1c1c;
+  --border: rgba(255,255,255,.07);
+  --border2: rgba(255,255,255,.14);
+  --text: #ececec;
+  --text2: #a1a1a1;
+  --text3: #555;
+  --accent: #6366f1;
+  --accent-bg: rgba(99,102,241,.12);
+  --accent-border: rgba(99,102,241,.22);
+  --green: #4ade80;
+  --red: #f87171;
+  --amber: #facc15;
+  --mono: "DM Mono","Consolas",monospace;
+  --sw: 230px;
+}
+
+body { font-family: "DM Sans", sans-serif; font-weight: 300; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+/* ── Login ── */
+#loginOverlay {
+  position: fixed; inset: 0; z-index: 200;
+  background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+  display: flex; align-items: center; justify-content: center;
+}
+.login-box {
+  width: 100%; max-width: 400px; padding: 36px;
+  background: #1a2235; border-radius: 18px;
+  box-shadow: 0 24px 60px rgba(0,0,0,.4);
+  border: 1px solid rgba(255,255,255,.06);
+}
+.login-logo {
+  width: 40px; height: 40px; background: var(--accent);
+  border-radius: 10px; display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 18px; color: #fff; margin-bottom: 18px;
+}
+.login-box h2 { font-size: 20px; font-weight: 500; margin-bottom: 6px; }
+.login-box p { font-size: 13px; color: var(--text2); margin-bottom: 24px; }
+.login-input {
+  width: 100%; padding: 13px 14px; border-radius: 9px; font-size: 14px; margin-top: 0;
+  background: rgba(255,255,255,.05); color: var(--text);
+  border: 1px solid rgba(255,255,255,.1); outline: none; transition: .15s;
+}
+.login-input:focus { border-color: var(--accent); }
+.login-btn {
+  width: 100%; margin-top: 12px; padding: 13px; border-radius: 9px;
+  background: var(--accent); color: #fff; font-size: 14px; font-weight: 600;
+  border: none; cursor: pointer; transition: .15s;
+}
+.login-btn:hover { opacity: .88; }
+#loginMsg { margin-top: 12px; font-size: 12px; font-weight: 500; min-height: 18px; }
+
+/* ── Shell ── */
+#appShell { display: flex; min-height: 100vh; }
+
+#sidebar {
+  width: var(--sw); min-height: 100vh; flex-shrink: 0;
+  background: linear-gradient(180deg,#f6f8fb,#eef2ff);
+  border-right: 1px solid rgba(0,0,0,.06);
+  display: flex; flex-direction: column;
+  position: fixed; top: 0; left: 0; bottom: 0; z-index: 50;
+  transition: transform .25s ease;
+  color: #222;
+}
+.sb-brand {
+  padding: 18px; 
+  border-bottom: 1px solid rgba(0,0,0,.04);
+  display: flex; align-items: center; gap: 12px;
+}
+.sb-logo {
+  width: 34px; height: 34px; background: var(--accent); border-radius: 9px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 15px; color: #fff; flex-shrink: 0;
+}
+.sb-brand-text .t1 { font-size: 14px; font-weight: 600; line-height: 1.2; color:#111 }
+.sb-brand-text .t2 { font-size: 10px; color: #6b7280; letter-spacing: .12em; text-transform: uppercase; }
+
+.sb-nav { flex: 1; padding: 12px 10px; display: flex; flex-direction: column; gap: 6px; overflow-y: auto; }
+.sb-label { font-size: 11px; color: #9ca3af; letter-spacing: .12em; text-transform: uppercase; padding: 8px 8px 6px; }
+
+.nav-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px; border-radius: 10px;
+  font-size: 13px; color: #374151;
+  cursor: pointer; transition: .12s ease;
+  user-select: none; border: 1px solid transparent;
+}
+.nav-item:hover { background: #ffffff; color: #111827; box-shadow: 0 6px 14px rgba(16,24,40,.04); }
+.nav-item.active { background: #ffffff; color: var(--accent); border-left: 4px solid var(--accent); box-shadow: 0 8px 20px rgba(16,24,40,.06); }
+.nav-item svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+
+.sb-footer { padding: 12px 10px; border-top: 1px solid rgba(0,0,0,.04); }
+
+/* ── Content ── */
+#content { margin-left: var(--sw); flex: 1; display: flex; flex-direction: column; min-height: 100vh; }
+
+.section { display: none; flex: 1; flex-direction: column; }
+.section.active { display: flex; }
+
+/* ── Tool layout ── */
+.wrap { max-width: 1200px; width: 100%; margin: 0 auto; padding: 20px; flex: 1; display: flex; flex-direction: column; }
+
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; flex-wrap: wrap; }
+.page-title { font-size: 15px; font-weight: 500; }
+.page-sub { font-size: 10px; color: var(--text3); letter-spacing: .12em; text-transform: uppercase; margin-top: 2px; }
+.topbar-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.pill, .action-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  border: 1px solid var(--border); background: transparent; color: var(--text2);
+  cursor: pointer; text-decoration: none; transition: .13s ease; font-family: inherit;
+}
+.pill { padding: 7px 11px; border-radius: 5px; font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
+.action-btn { width: 100%; padding: 10px 14px; border-radius: 5px; font-size: 12px; font-weight: 500; }
+.pill:hover, .action-btn:hover { border-color: var(--border2); color: var(--text); background: var(--surface2); }
+.action-btn.primary { border-color: rgba(74,222,128,.25); color: var(--green); }
+.action-btn.primary:hover { background: rgba(74,222,128,.08); }
+.action-btn:disabled { opacity: .65; cursor: not-allowed; }
+.action-btn.saving { color: var(--amber); border-color: rgba(250,204,21,.3); }
+.action-btn.saved { color: var(--green); border-color: rgba(74,222,128,.45); background: rgba(74,222,128,.08); }
+.pill svg, .action-btn svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+.panel { border: 1px solid var(--border); background: var(--surface); border-radius: 2px; }
+.toolbar { display: flex; gap: 8px; padding: 12px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+
+select, input[type="text"], input[type="password"] {
+  background: transparent; color: var(--text); border: 1px solid var(--border);
+  padding: 9px 12px; font-size: 13px; border-radius: 4px; outline: none; transition: .13s; font-family: inherit;
+}
+select:hover, input:hover { border-color: var(--border2); }
+select:focus, input:focus { border-color: var(--green); }
+
+.editor-meta {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 8px 12px; border-bottom: 1px solid var(--border); background: #0f0f0f;
+}
+.editor-filename { font-family: var(--mono); font-size: 11px; color: var(--text2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.match-badge { font-size: 10px; padding: 3px 8px; border-radius: 999px; letter-spacing: .07em; text-transform: uppercase; font-weight: 500; white-space: nowrap; }
+.badge-live { color: var(--green); border: 1px solid rgba(74,222,128,.25); }
+.badge-soon { color: var(--amber); border: 1px solid rgba(250,204,21,.2); }
+.badge-over { color: var(--text3); border: 1px solid var(--border); }
+
+.editor-wrap { display: flex; height: 65vh; background: var(--bg); }
+
+#lm-lineNumbers {
+  min-width: 50px; padding: 14px 10px; text-align: right;
+  background: #0f0f0f; color: #444; border-right: 1px solid var(--border);
+  font-family: var(--mono); font-size: 12px; line-height: 1.65;
+  user-select: none; overflow: hidden; white-space: pre;
+}
+
+.code-editor {
+  flex: 1; background: var(--bg); color: #e0e0e0; border: none; outline: none;
+  resize: none; padding: 14px; font-family: var(--mono); font-size: 12.5px;
+  line-height: 1.65; tab-size: 2; overflow: auto; caret-color: var(--green);
+}
+.code-editor::placeholder { color: #444; }
+.code-editor::-webkit-scrollbar { width: 7px; height: 7px; }
+.code-editor::-webkit-scrollbar-thumb { background: #252525; border-radius: 3px; }
+
+.statusbar {
+  display: flex; align-items: center; gap: 8px; padding: 8px 12px;
+  border-top: 1px solid var(--border); background: #0f0f0f; color: var(--text3); font-size: 11px;
+}
+.status-dot { width: 5px; height: 5px; border-radius: 50%; background: #444; }
+.status-dot.ok { background: var(--green); }
+.status-dot.err { background: var(--red); }
+
+.action-bar { position: fixed; right: 14px; bottom: 14px; z-index: 100; }
+.action-btns { display: flex; flex-direction: column; gap: 6px; width: 190px; }
+
+/* mobile */
+.mobile-bar { display: none; align-items: center; gap: 10px; padding: 12px 16px; border-bottom: 1px solid var(--border); background: var(--surface); }
+.mobile-menu { background: none; border: 1px solid var(--border); color: var(--text2); padding: 7px; border-radius: 6px; cursor: pointer; display: flex; align-items: center; }
+.mobile-menu svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sb-overlay { display: none; position: fixed; inset: 0; z-index: 40; background: rgba(0,0,0,.5); }
+
+@media(max-width: 768px) {
+  :root { --sw: 0px; }
+  #sidebar { transform: translateX(-230px); width: 230px; }
+  #sidebar.open { transform: translateX(0); }
+  .sb-overlay.open { display: block; }
+  #content { margin-left: 0; }
+  .mobile-bar { display: flex; }
+  .wrap { padding: 12px; }
+  .toolbar { flex-direction: column; }
+  select, input { width: 100%; }
+  .editor-wrap { height: 52vh; }
+  .action-bar { left: 12px; right: 12px; bottom: 12px; }
+  .action-btns { width: 100%; flex-direction: row; }
+  .action-btn { flex: 1; }
+}
+</style>
+</head>
+<body>
+
+<!-- Login Overlay -->
+<div id="loginOverlay">
+  <div class="login-box">
+    <div class="login-logo">Y</div>
+    <h2>YoSinTV Admin</h2>
+    <p>Enter your admin password to continue.</p>
+    <input class="login-input" type="password" id="loginPassword" placeholder="Admin password"
+      onkeydown="if(event.key==='Enter') doLogin()" autofocus />
+    <button class="login-btn" onclick="doLogin()">Sign in</button>
+    <div id="loginMsg"></div>
+  </div>
+</div>
+
+<!-- Sidebar overlay (mobile) -->
+<div class="sb-overlay" id="sbOverlay" onclick="closeSidebar()"></div>
+
+<!-- App Shell -->
+<div id="appShell" style="display:none">
+
+  <nav id="sidebar">
+    <div class="sb-brand">
+      <div class="sb-logo">Y</div>
+      <div class="sb-brand-text">
+        <div class="t1">YoSinTV</div>
+        <div class="t2">Admin Panel</div>
+      </div>
+    </div>
+
+    <div class="sb-nav">
+      <div class="sb-label">Tools</div>
+
+      <div class="nav-item active" data-s="links" onclick="switchSection('links')">
+        <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        Link Manager
+      </div>
+
+      <div class="nav-item" data-s="sofax3" onclick="switchSection('sofax3')">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Sofax3 Admin
+      </div>
+
+      <div class="nav-item" data-s="notes" onclick="switchSection('notes')">
+        <svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        Me Notes
+      </div>
+    </div>
+
+    <div class="sb-footer">
+      <div class="nav-item" onclick="logout()" style="color:var(--red);opacity:.8">
+        <svg viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+        Logout
+      </div>
+    </div>
+  </nav>
+
+  <main id="content">
+
+    <!-- Mobile topbar -->
+    <div class="mobile-bar">
+      <button class="mobile-menu" onclick="openSidebar()">
+        <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <span id="mobilePageTitle" style="font-size:14px;font-weight:500">Link Manager</span>
+    </div>
+
+    <!-- ──────────────────────────────────────── -->
+    <!-- SECTION: Link Manager                   -->
+    <!-- ──────────────────────────────────────── -->
+    <div class="section active" id="section-links">
+      <div class="wrap">
+        <div class="topbar">
+          <div>
+            <div class="page-title">Link Manager</div>
+            <div class="page-sub">YoSinTV · Match Files</div>
+          </div>
+          <div class="topbar-actions">
+            <button class="pill" onclick="lm_formatJson()">Format</button>
+            <button class="pill" onclick="lm_clearEditor()">Clear</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="toolbar">
+            <select id="lm-file" onchange="lm_onFileChange()" style="flex:1 1 280px">
+              <option>Loading files...</option>
+            </select>
+            <input type="text" id="lm-searchFile" placeholder="Filter..." style="flex:1 1 140px"
+              oninput="lm_filterFiles()" onkeydown="lm_filterEnter(event)" />
+            <input type="text" id="lm-commit" placeholder="Commit message..." style="flex:1 1 200px" />
+          </div>
+
+          <div class="editor-meta">
+            <span class="editor-filename" id="lm-title">—</span>
+            <span id="lm-badge"></span>
+          </div>
+
+          <div class="editor-wrap">
+            <pre id="lm-lineNumbers">1</pre>
+            <textarea class="code-editor" id="lm-editor" spellcheck="false"
+              placeholder="Select a file to begin..."
+              oninput="lm_updateLines(); lm_validateJson();"
+              onscroll="lm_syncScroll()"></textarea>
+          </div>
+
+          <div class="statusbar">
+            <div class="status-dot" id="lm-dot"></div>
+            <span id="lm-status">Ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="action-bar">
+        <div class="action-btns">
+          <button class="action-btn" onclick="lm_load()">Load</button>
+          <button class="action-btn primary" id="lm-saveBtn" onclick="lm_save()">Save to GitHub</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────── -->
+    <!-- SECTION: Sofax3 Admin                   -->
+    <!-- ──────────────────────────────────────── -->
+    <div class="section" id="section-sofax3">
+      <div class="wrap">
+        <div class="topbar">
+          <div>
+            <div class="page-title">Sofax3 Admin</div>
+            <div class="page-sub">API Files</div>
+          </div>
+          <div class="topbar-actions">
+            <button class="pill" onclick="s3_format()">Format</button>
+            <button class="pill" onclick="s3_clear()">Clear</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="toolbar">
+            <select id="s3-file" onchange="s3_onFileChange()" style="flex:1 1 280px">
+              <option value="/api/fifawc.json" data-label="FIFA WC API">FIFA WC API</option>
+              <option value="api/match-football.json" data-label="Football API">Football API</option>
+              <option value="api/match-cricket.json" data-label="Cricket API">Cricket API</option>
+              <option value="api/articles.json" data-label="Articles API">Articles API</option>
+              <option value="api/more.json" data-label="More Games">More Games - YoSinTV HP</option>
+              <option value="api/cricket-homepage.json" data-label="Cricket HP">Cricket - YoSinTV HP</option>
+              <option value="api/football-homepage.json" data-label="Football HP">Football - YoSinTV HP</option>
+            </select>
+            <input type="text" id="s3-commit" placeholder="Commit message..." style="flex:1 1 260px" />
+          </div>
+
+          <div class="editor-meta">
+            <span class="editor-filename" id="s3-title">Editing: api/match-football.json</span>
+            <span class="editor-filename" id="s3-info" style="text-align:right;flex-shrink:0">JSON Mode</span>
+          </div>
+
+          <div class="editor-wrap">
+            <textarea class="code-editor" id="s3-editor" spellcheck="false"
+              placeholder="Click Load JSON..."
+              style="white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word"></textarea>
+          </div>
+
+          <div class="statusbar">
+            <div class="status-dot" id="s3-dot"></div>
+            <span id="s3-status">Ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="action-bar">
+        <div class="action-btns">
+          <button class="action-btn" onclick="s3_load()">Load JSON</button>
+          <button class="action-btn primary" id="s3-saveBtn" onclick="s3_save()">Save to GitHub</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────── -->
+    <!-- SECTION: Me Notes                       -->
+    <!-- ──────────────────────────────────────── -->
+    <div class="section" id="section-notes">
+      <div class="wrap">
+        <div class="topbar">
+          <div>
+            <div class="page-title">Me Notes</div>
+            <div class="page-sub">Private · me/ folder</div>
+          </div>
+          <div class="topbar-actions">
+            <button class="pill" onclick="mn_format()">Format</button>
+            <button class="pill" onclick="mn_clear()">Clear</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="toolbar">
+            <select id="mn-file" onchange="mn_onFileChange()" style="flex:1 1 280px">
+              <option>Loading...</option>
+            </select>
+            <input type="text" id="mn-commit" placeholder="Commit message..." style="flex:1 1 260px" />
+          </div>
+
+          <div class="editor-meta">
+            <span class="editor-filename" id="mn-title">—</span>
+          </div>
+
+          <div class="editor-wrap">
+            <textarea class="code-editor" id="mn-editor" spellcheck="false"
+              placeholder="Select a file to begin..."
+              style="white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word"
+              oninput="mn_validateJson()"></textarea>
+          </div>
+
+          <div class="statusbar">
+            <div class="status-dot" id="mn-dot"></div>
+            <span id="mn-status">Ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="action-bar">
+        <div class="action-btns">
+          <button class="action-btn" onclick="mn_load()">Load</button>
+          <button class="action-btn primary" id="mn-saveBtn" onclick="mn_save()">Save to GitHub</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════
+// CORE
+// ═══════════════════════════════════════════════
+let _pw = localStorage.getItem("blog_admin_password") || "";
+let _lmReady = false, _s3Ready = false, _mnReady = false;
+
+function init() {
+  if (_pw) { showApp(); }
+  else { document.getElementById("loginOverlay").style.display = "flex"; }
+}
+
+function showApp() {
+  document.getElementById("loginOverlay").style.display = "none";
+  document.getElementById("appShell").style.display = "flex";
+  if (!_lmReady) { _lmReady = true; lm_init(); }
+  // route to section based on URL when app is shown
+  try { routeFromPath(); } catch (e) {}
+}
+
+async function doLogin() {
+  const pw = document.getElementById("loginPassword").value.trim();
+  const msg = document.getElementById("loginMsg");
+  if (!pw) { msg.style.color = "#f87171"; msg.innerText = "Enter your password."; return; }
+  msg.style.color = "#a1a1a1"; msg.innerText = "Checking...";
+  try {
+    const r = await fetch(`/api/github?action=list&password=${encodeURIComponent(pw)}`);
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error || d.message || "Wrong password");
+    localStorage.setItem("blog_admin_password", pw);
+    _pw = pw;
+    showApp();
+  } catch(e) {
+    msg.style.color = "#f87171";
+    msg.innerText = "✗ " + e.message;
+  }
+}
+
+function logout() {
+  localStorage.removeItem("blog_admin_password");
+  location.reload();
+}
+
+function switchSection(name, push = true) {
+  document.querySelectorAll(".section").forEach(s => s.classList.remove("active"));
+  document.querySelectorAll(".nav-item[data-s]").forEach(n => n.classList.remove("active"));
+  const sectionEl = document.getElementById("section-" + name);
+  if (!sectionEl) return;
+  sectionEl.classList.add("active");
+  const ni = document.querySelector(`.nav-item[data-s="${name}"]`);
+  if (ni) ni.classList.add("active");
+  document.getElementById("mobilePageTitle").innerText = ni ? ni.innerText.trim() : "";
+  closeSidebar();
+
+  if (name === "sofax3" && !_s3Ready) { _s3Ready = true; s3_init(); }
+  if (name === "notes" && !_mnReady) { _mnReady = true; mn_init(); }
+
+  if (push) {
+    try {
+      const base = location.pathname.split('/').slice(0, -1).join('/') || '';
+      const path = name === 'links' ? (base || '/admin/') : `${(base || '/admin/')}${name}`;
+      history.pushState({ section: name }, '', path);
+    } catch (e) { /* ignore history errors */ }
+  }
+}
+
+function routeFromPath() {
+  const p = location.pathname.replace(/\/+$|^\/+/, '');
+  // get last segment
+  let seg = p.split('/').pop() || '';
+  if (!seg || seg === 'admin' || seg === 'index.html') seg = 'links';
+  // strip .html if present
+  seg = seg.replace(/\.html$/i, '');
+  // map known aliases
+  if (['sofax3', 'notes', 'links'].includes(seg)) {
+    switchSection(seg, false);
+  } else {
+    switchSection('links', false);
+  }
+}
+
+window.addEventListener('popstate', (e) => {
+  if (e.state && e.state.section) {
+    switchSection(e.state.section, false);
+  } else {
+    routeFromPath();
+  }
+});
+
+function openSidebar() {
+  document.getElementById("sidebar").classList.add("open");
+  document.getElementById("sbOverlay").classList.add("open");
+}
+function closeSidebar() {
+  document.getElementById("sidebar").classList.remove("open");
+  document.getElementById("sbOverlay").classList.remove("open");
+}
+
+init();
+
+// ═══════════════════════════════════════════════
+// LINK MANAGER
+// ═══════════════════════════════════════════════
+const LM_API = "/api/github";
+const LM_SOURCES = [
+  "https://cdn.singhs.com.np/api/fifawc.json",
+  "https://cdn.singhs.com.np/api/match-cricket.json",
+  "https://cdn.singhs.com.np/api/match-football.json"
+];
+let lm_files = [], lm_times = {};
+
+const lm_saved = () => JSON.parse(localStorage.getItem("blog_saved_files") || "{}");
+const lm_markSaved = f => { const s = lm_saved(); s[f] = Date.now(); localStorage.setItem("blog_saved_files", JSON.stringify(s)); };
+
+function lm_timeAgo(t) {
+  if (!t) return "";
+  const s = Math.floor((Date.now()-t)/1000);
+  if (s < 10) return "just now"; if (s < 60) return s+"s ago";
+  const m = Math.floor(s/60); if (m < 60) return m+"m ago";
+  const h = Math.floor(m/60); if (h < 24) return h+"h ago";
+  return Math.floor(h/24)+"d ago";
+}
+
+function lm_now() {
+  const d = new Date();
+  return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")+" "+String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0");
+}
+
+function lm_autoCommit() {
+  const f = document.getElementById("lm-file").value;
+  if (!f || f.includes("Loading")) return;
+  document.getElementById("lm-commit").value = lm_now() + " - " + f;
+}
+
+function lm_setSave(state) {
+  const b = document.getElementById("lm-saveBtn");
+  b.classList.remove("saving","saved");
+  if (state === "saving") { b.disabled = true; b.classList.add("saving"); b.innerText = "Saving..."; }
+  else if (state === "saved") { b.disabled = false; b.classList.add("saved"); b.innerText = "Saved ✅"; setTimeout(() => { b.classList.remove("saved"); b.innerText = "Save to GitHub"; }, 1500); }
+  else { b.disabled = false; b.innerText = "Save to GitHub"; }
+}
+
+function lm_st(msg, type) {
+  document.getElementById("lm-status").innerText = msg;
+  document.getElementById("lm-dot").className = "status-dot"+(type==="success"?" ok":type==="error"?" err":"");
+}
+
+function lm_sortTime(f) {
+  const m = lm_times[f]; if (!m?.start) return Number.MAX_SAFE_INTEGER;
+  const now = new Date(), start = new Date(m.start), end = new Date(start.getTime()+m.duration*3600000);
+  if (now >= start && now <= end) return -1;
+  if (now < start) return start - now;
+  return Number.MAX_SAFE_INTEGER - 1;
+}
+
+function lm_countdown(ms) {
+  const s = Math.max(0,Math.floor(ms/1000));
+  const d=Math.floor(s/86400),h=Math.floor((s%86400)/3600),m=Math.floor((s%3600)/60),sec=s%60;
+  if (d>0) return d+"d "+h+"h"; if (h>0) return h+"h "+m+"m"; return m+"m "+sec+"s";
+}
+
+function lm_matchTime(date) { return date.toLocaleTimeString([],{hour:"numeric",minute:"2-digit"}); }
+
+function lm_optLabel(f) {
+  const m = lm_times[f], tick = lm_saved()[f] ? " ✅" : "";
+  if (!m) return f+tick;
+  const now = new Date(), start = new Date(m.start), end = new Date(start.getTime()+m.duration*3600000), t = lm_matchTime(start);
+  if (now < start) return f+" — Starts in "+lm_countdown(start-now)+" / "+t+tick;
+  if (now >= start && now <= end) return f+" — LIVE / "+t+tick;
+  return f+" — Over / "+t+tick;
+}
+
+function lm_populate(files) {
+  const sel = document.getElementById("lm-file"), cur = sel.value;
+  const sorted = files.slice().sort((a,b) => lm_sortTime(a)-lm_sortTime(b)||a.localeCompare(b));
+  sel.innerHTML = "";
+  if (!sorted.length) { sel.innerHTML='<option value="">No files found</option>'; lm_updateTitle(); return; }
+  sorted.forEach(f => { const o=document.createElement("option"); o.value=f; o.textContent=lm_optLabel(f); sel.appendChild(o); });
+  if (sorted.includes(cur)) sel.value = cur;
+  lm_updateTitle(); lm_updateBadge(); lm_autoCommit();
+}
+
+function lm_filterFiles() {
+  const q = document.getElementById("lm-searchFile").value.toLowerCase();
+  lm_populate(lm_files.filter(f => f.toLowerCase().includes(q)));
+}
+
+function lm_filterEnter(e) {
+  if (e.key !== "Enter") return; e.preventDefault();
+  const f = document.getElementById("lm-file").value;
+  if (!f || f.includes("Loading") || f.includes("No files")) { lm_st("No matching file", "error"); return; }
+  lm_autoCommit(); lm_load();
+}
+
+function lm_updateBadge() {
+  const badge = document.getElementById("lm-badge"), f = document.getElementById("lm-file").value;
+  if (!f || !lm_times[f]) { badge.innerHTML = ""; return; }
+  const m = lm_times[f], now = new Date(), start = new Date(m.start), end = new Date(start.getTime()+m.duration*3600000), t = lm_matchTime(start);
+  if (now >= start && now <= end) badge.innerHTML = `<span class="match-badge badge-live">Live now / ${t}</span>`;
+  else if (now < start) badge.innerHTML = `<span class="match-badge badge-soon">Starts in ${lm_countdown(start-now)} / ${t}</span>`;
+  else badge.innerHTML = `<span class="match-badge badge-over">Ended / ${t}</span>`;
+}
+
+function lm_updateTitle() {
+  const f = document.getElementById("lm-file").value, s = lm_saved(), el = document.getElementById("lm-title");
+  if (!f || f.includes("Loading") || f.includes("No files")) { el.innerText = "—"; return; }
+  el.innerText = s[f] ? f+" · saved "+lm_timeAgo(s[f])+" ✅" : f;
+}
+
+function lm_updateLines() {
+  const e = document.getElementById("lm-editor");
+  document.getElementById("lm-lineNumbers").textContent = Array.from({length:e.value.split("\n").length},(_,i)=>i+1).join("\n");
+}
+
+function lm_syncScroll() { document.getElementById("lm-lineNumbers").scrollTop = document.getElementById("lm-editor").scrollTop; }
+
+function lm_jsonErr(err, text) {
+  const m = err.message.match(/position (\d+)/i);
+  if (m) { const lines = text.slice(0,+m[1]).split("\n"); return {line:lines.length,col:lines[lines.length-1].length+1}; }
+  return {line:null,col:null};
+}
+
+function lm_validateJson() {
+  const text = document.getElementById("lm-editor").value.trim();
+  if (!text) { lm_st("Empty","info"); return false; }
+  try { JSON.parse(text); lm_st("Valid JSON","success"); return true; }
+  catch(e) { const {line,col}=lm_jsonErr(e,text); lm_st(line?"Error on line "+line+", col "+col:"Invalid JSON","error"); return false; }
+}
+
+function lm_onFileChange() { lm_updateTitle(); lm_updateBadge(); lm_autoCommit(); lm_load(); }
+
+async function lm_loadList() {
+  lm_st("Loading files...","info");
+  try {
+    const found = new Set();
+    for (const api of LM_SOURCES) {
+      const r = await fetch(api); if (!r.ok) throw new Error("API error: "+api);
+      const d = await r.json();
+      (Array.isArray(d)?d:d.matches||d.data||d.events||[]).forEach(item => {
+        try { const u = new URL(item.details_url||""), s = u.searchParams.get("yosintv"); if (s) { const f=s.trim().replace(/\.json$/i,"")+".json"; found.add(f); if (item.start&&item.duration) lm_times[f]={start:item.start,duration:+item.duration}; } } catch {}
+      });
+    }
+    lm_files = Array.from(found).sort((a,b)=>lm_sortTime(a)-lm_sortTime(b));
+    lm_populate(lm_files);
+    lm_st(lm_files.length+" files loaded","success");
+    if (lm_files.length) lm_load();
+  } catch(e) { lm_st(e.message,"error"); }
+}
+
+async function lm_load() {
+  const f = document.getElementById("lm-file").value;
+  if (!f||f.includes("Loading")||f.includes("No files")) return;
+  lm_st("Loading "+f+"...","info");
+  try {
+    const r = await fetch(`${LM_API}?path=${encodeURIComponent(f)}&password=${encodeURIComponent(_pw)}`);
+    const d = await r.json(); if (!r.ok) throw new Error(d.message||d.error||"Load failed");
+    document.getElementById("lm-editor").value = JSON.stringify(d.content,null,2);
+    lm_updateLines(); lm_validateJson(); lm_st("Loaded: "+f,"success");
+  } catch(e) { lm_st(e.message,"error"); }
+}
+
+async function lm_save() {
+  const f = document.getElementById("lm-file").value, editor = document.getElementById("lm-editor");
+  if (!f||f.includes("Loading")) { lm_st("Select a file first","error"); return; }
+  const msg = document.getElementById("lm-commit").value.trim() || lm_now()+" - "+f;
+  let content; try { content=JSON.parse(editor.value); } catch(e) { const {line}=lm_jsonErr(e,editor.value); lm_st(line?"JSON error on line "+line:"Invalid JSON","error"); return; }
+  lm_setSave("saving"); lm_st("Saving...","info");
+  try {
+    const r = await fetch(LM_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password:_pw,path:f,content,message:msg})});
+    const d = await r.json(); if (!r.ok) throw new Error(d.message||d.error||"Save failed");
+    lm_markSaved(f); lm_populate(lm_files); lm_updateTitle(); lm_autoCommit(); lm_updateLines(); lm_validateJson();
+    lm_setSave("saved"); lm_st("Saved: "+f,"success");
+  } catch(e) { lm_setSave("normal"); lm_st(e.message,"error"); }
+}
+
+function lm_formatJson() {
+  try { const e=document.getElementById("lm-editor"); e.value=JSON.stringify(JSON.parse(e.value),null,2); lm_updateLines(); lm_validateJson(); lm_st("Formatted","success"); }
+  catch { lm_st("Invalid JSON","error"); }
+}
+function lm_clearEditor() { document.getElementById("lm-editor").value=""; lm_updateLines(); lm_st("Cleared","info"); }
+
+function lm_init() {
+  lm_updateLines(); lm_loadList();
+  setInterval(lm_updateTitle, 30000);
+  setInterval(lm_updateBadge, 1000);
+  setInterval(() => lm_populate(lm_files), 30000);
+}
+
+// ═══════════════════════════════════════════════
+// SOFAX3 ADMIN
+// ═══════════════════════════════════════════════
+const S3_API = "/api/sofax3";
+
+function s3_items(content) {
+  if (Array.isArray(content)) return content;
+  if (!content||typeof content!=="object") return [];
+  return content.matches||content.data||content.events||content.articles||[];
+}
+function s3_hasYosintv(item) { if (!item?.details_url) return false; try { return new URL(item.details_url).searchParams.has("yosintv"); } catch { return /[?&]yosintv=/.test(String(item.details_url)); } }
+const s3_count = content => s3_items(content).filter(s3_hasYosintv).length;
+
+function s3_setSave(state) {
+  const b=document.getElementById("s3-saveBtn"); b.classList.remove("saving","saved");
+  if (state==="saving") { b.disabled=true; b.classList.add("saving"); b.innerText="Saving..."; }
+  else if (state==="saved") { b.disabled=false; b.classList.add("saved"); b.innerText="Saved ✅"; setTimeout(()=>{ b.classList.remove("saved"); b.innerText="Save to GitHub"; },1500); }
+  else { b.disabled=false; b.innerText="Save to GitHub"; }
+}
+function s3_st(msg,type="info") { document.getElementById("s3-status").innerText=msg; document.getElementById("s3-dot").className="status-dot"+(type==="success"?" ok":type==="error"?" err":""); }
+function s3_updateTitle() { document.getElementById("s3-title").innerText="Editing: "+document.getElementById("s3-file").value; }
+function s3_updateInfo(content) { const c=s3_count(content); document.getElementById("s3-info").innerText="Detected "+(c===1?"1 match":c+" matches")+" · JSON Mode"; }
+function s3_onFileChange() { s3_updateTitle(); s3_load(); }
+
+async function s3_load() {
+  const file=document.getElementById("s3-file").value; s3_updateTitle(); s3_st("Loading "+file+"...","info");
+  try {
+    const r=await fetch(`${S3_API}?path=${encodeURIComponent(file)}`), d=await r.json();
+    if (!r.ok) throw new Error(d.message||d.error||"Load failed");
+    document.getElementById("s3-editor").value=JSON.stringify(d.content,null,2);
+    s3_updateInfo(d.content); s3_updateCounts(); s3_st("Loaded: "+file,"success");
+  } catch(e) { s3_st(e.message,"error"); }
+}
+
+async function s3_updateCounts() {
+  const sel=document.getElementById("s3-file");
+  for (const opt of sel.options) {
+    const file=opt.value, label=opt.dataset.label||file;
+    opt.textContent=label+" - checking...";
+    try {
+      const r=await fetch(`${S3_API}?path=${encodeURIComponent(file)}`), d=await r.json();
+      if (!r.ok) throw new Error();
+      const c=s3_count(d.content); opt.textContent=label+" - "+(c===1?"1 match":c+" matches");
+    } catch { opt.textContent=label+" - 0 matches"; }
+  }
+}
+
+async function s3_save() {
+  const file=document.getElementById("s3-file").value, editor=document.getElementById("s3-editor");
+  const msg=document.getElementById("s3-commit").value.trim()||`Update ${file} from YoSinTV Admin`;
+  let content; try { content=JSON.parse(editor.value); } catch { s3_st("Invalid JSON. Fix before saving.","error"); return; }
+  s3_setSave("saving"); s3_st("Saving to GitHub...","info");
+  try {
+    const r=await fetch(S3_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({path:file,content,message:msg})});
+    const d=await r.json(); if (!r.ok) throw new Error(d.message||d.error||"Save failed");
+    s3_updateInfo(content); s3_updateCounts(); s3_setSave("saved"); s3_st("Saved: "+file,"success");
+  } catch(e) { s3_setSave("normal"); s3_st(e.message,"error"); }
+}
+
+function s3_format() {
+  try { const e=document.getElementById("s3-editor"); const j=JSON.parse(e.value); e.value=JSON.stringify(j,null,2); s3_updateInfo(j); s3_st("Formatted","success"); }
+  catch { s3_st("Invalid JSON","error"); }
+}
+function s3_clear() { document.getElementById("s3-editor").value=""; document.getElementById("s3-info").innerText="JSON Mode"; s3_st("Cleared","info"); }
+
+function s3_init() { s3_updateCounts(); s3_load(); }
+
+// ═══════════════════════════════════════════════
+// ME NOTES
+// ═══════════════════════════════════════════════
+const MN_API = "/api/me-github";
+
+function mn_st(msg,type="info") { document.getElementById("mn-status").innerText=msg; document.getElementById("mn-dot").className="status-dot"+(type==="success"?" ok":type==="error"?" err":""); }
+function mn_setSave(state) {
+  const b=document.getElementById("mn-saveBtn"); b.classList.remove("saving","saved");
+  if (state==="saving") { b.disabled=true; b.classList.add("saving"); b.innerText="Saving..."; }
+  else if (state==="saved") { b.disabled=false; b.classList.add("saved"); b.innerText="Saved ✅"; setTimeout(()=>{ b.classList.remove("saved"); b.innerText="Save to GitHub"; },1500); }
+  else { b.disabled=false; b.innerText="Save to GitHub"; }
+}
+function mn_validateJson() {
+  const t=document.getElementById("mn-editor").value.trim();
+  if (!t) { mn_st("Empty","info"); return; }
+  try { JSON.parse(t); mn_st("Valid JSON","success"); } catch { mn_st("Invalid JSON","error"); }
+}
+function mn_onFileChange() { document.getElementById("mn-title").innerText=document.getElementById("mn-file").value||"—"; mn_load(); }
+
+async function mn_init() {
+  mn_st("Loading file list...","info");
+  try {
+    const r=await fetch(`${MN_API}?action=list&password=${encodeURIComponent(_pw)}`), d=await r.json();
+    if (!r.ok) throw new Error(d.error||"Failed to load list");
+    const files=d.files||[]; const sel=document.getElementById("mn-file"); sel.innerHTML="";
+    if (!files.length) { sel.innerHTML='<option value="">No files found</option>'; mn_st("No files","info"); return; }
+    files.forEach(f=>{ const o=document.createElement("option"); o.value=f; o.textContent=f; sel.appendChild(o); });
+    document.getElementById("mn-title").innerText=sel.value;
+    mn_st(files.length+" files loaded","success"); mn_load();
+  } catch(e) { mn_st(e.message,"error"); }
+}
+
+async function mn_load() {
+  const file=document.getElementById("mn-file").value;
+  if (!file||file.includes("No files")) return;
+  mn_st("Loading "+file+"...","info");
+  try {
+    const r=await fetch(`${MN_API}?file=${encodeURIComponent(file)}&password=${encodeURIComponent(_pw)}`), d=await r.json();
+    if (!r.ok) throw new Error(d.error||"Load failed");
+    document.getElementById("mn-editor").value=d.content||"";
+    mn_validateJson(); mn_st("Loaded: "+file,"success");
+  } catch(e) { mn_st(e.message,"error"); }
+}
+
+async function mn_save() {
+  const file=document.getElementById("mn-file").value;
+  if (!file||file.includes("No files")) { mn_st("Select a file first","error"); return; }
+  const content=document.getElementById("mn-editor").value, msg=document.getElementById("mn-commit").value.trim()||`Update ${file}`;
+  mn_setSave("saving"); mn_st("Saving...","info");
+  try {
+    const r=await fetch(MN_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password:_pw,file,content,message:msg})});
+    const d=await r.json(); if (!r.ok) throw new Error(d.error||"Save failed");
+    mn_setSave("saved"); mn_st("Saved: "+file,"success");
+  } catch(e) { mn_setSave("normal"); mn_st(e.message,"error"); }
+}
+
+function mn_format() {
+  try { const e=document.getElementById("mn-editor"); e.value=JSON.stringify(JSON.parse(e.value),null,2); mn_validateJson(); mn_st("Formatted","success"); }
+  catch { mn_st("Invalid JSON","error"); }
+}
+function mn_clear() { document.getElementById("mn-editor").value=""; mn_st("Cleared","info"); }
+</script>
+
+</body>
+</html>
