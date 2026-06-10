@@ -621,17 +621,25 @@ function formatCountdown(ms){
 
   if(h > 0)
     return h+"h "+m+"m";
+  const sportRaw = item.sport || item.type || detectSportFromFilename(f) || inferSportFromSource(item._sourceApi) || "";
+  const sport = sportRaw ? String(sportRaw).toLowerCase() : "";
+  
+  matchTimeMap[f] = {
+    start:item.start,
+    duration:Number(item.duration),
+    team1:item.team1||item.home||"",
+    team2:item.team2||item.away||"",
+    sport: sport
+  };
 
-  return m+"m "+sec+"s";
+
+function inferSportFromSource(api){
+  if(!api) return "";
+  const s = api.toLowerCase();
+  if(s.includes("fifawc") || s.includes("football")) return "football";
+  if(s.includes("cricket")) return "cricket";
+  return "";
 }
-
-function formatMatchTime(date){
-  return date.toLocaleTimeString([],{
-    hour:"numeric",
-    minute:"2-digit"
-  });
-}
-
 function getOptionLabel(f){
   const m = matchTimeMap[f];
 
@@ -826,7 +834,7 @@ function updateEditorTitle(){
 
   if(meta){
     const teams = [meta.team1, meta.team2].filter(Boolean).join(" vs ");
-    const sport = meta.sport ? ` (${meta.sport})` : "";
+    const sport = meta.sport ? ` (${meta.sport[0].toUpperCase()}${meta.sport.slice(1)})` : "";
 
     if(teams)
       label = `${f} - ${teams}${sport}`;
@@ -956,7 +964,8 @@ function saveMatchTime(f,item){
      !item.duration)
     return;
 
-  const sport = item.sport || item.type || detectSportFromFilename(f) || "";
+  const sportRaw = item.sport || item.type || detectSportFromFilename(f) || "";
+  const sport = sportRaw ? String(sportRaw).toLowerCase() : "";
 
   matchTimeMap[f] = {
     start:item.start,
@@ -1004,6 +1013,8 @@ async function loadFileList(){
           );
 
         if(f){
+          // tag item with its source so we can infer sport when not present
+          item._sourceApi = api;
           found.add(f);
           saveMatchTime(f,item);
         }
