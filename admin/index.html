@@ -621,25 +621,17 @@ function formatCountdown(ms){
 
   if(h > 0)
     return h+"h "+m+"m";
-  const sportRaw = item.sport || item.type || detectSportFromFilename(f) || inferSportFromSource(item._sourceApi) || "";
-  const sport = sportRaw ? String(sportRaw).toLowerCase() : "";
-  
-  matchTimeMap[f] = {
-    start:item.start,
-    duration:Number(item.duration),
-    team1:item.team1||item.home||"",
-    team2:item.team2||item.away||"",
-    sport: sport
-  };
 
-
-function inferSportFromSource(api){
-  if(!api) return "";
-  const s = api.toLowerCase();
-  if(s.includes("fifawc") || s.includes("football")) return "football";
-  if(s.includes("cricket")) return "cricket";
-  return "";
+  return m+"m "+sec+"s";
 }
+
+function formatMatchTime(date){
+  return date.toLocaleTimeString([],{
+    hour:"numeric",
+    minute:"2-digit"
+  });
+}
+
 function getOptionLabel(f){
   const m = matchTimeMap[f];
 
@@ -1013,8 +1005,6 @@ async function loadFileList(){
           );
 
         if(f){
-          // tag item with its source so we can infer sport when not present
-          item._sourceApi = api;
           found.add(f);
           saveMatchTime(f,item);
         }
@@ -1288,7 +1278,5 @@ updateLineNumbers();
 loadFileList();
 </script>
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5243eba8b920487aaf6c8ac211a9ad54","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5243eba8b920487aaf6c8ac211a9ad54","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
