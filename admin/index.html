@@ -259,6 +259,11 @@ select{
   height:74vh;
   background:#0d0d0d;
 }
+.center-notice {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  pointer-events: none; font-family: var(--mono); color: var(--text2); font-size: 13px;
+}
+.center-notice .pill-like { background: rgba(255,255,255,.02); padding:8px 12px; border-radius:8px; border:1px solid var(--border); }
 
 #lineNumbers{
   min-width:50px;
@@ -815,7 +820,7 @@ function updateEditorTitle(){
   if(!f ||
     f.includes("Loading") ||
     f.includes("No files")){
-    el.innerText = "—";
+    el.innerText = "—";a
     return;
   }
 
