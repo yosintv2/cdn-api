@@ -447,6 +447,7 @@ select{
         oninput="updateLineNumbers(); validateJsonLive();"
         onscroll="syncScroll()"
       ></textarea>
+      <div class="center-notice" id="centerNotice" style="display:none"><div class="pill-like" id="centerText"></div></div>
     </div>
 
     <div class="statusbar">
@@ -820,7 +821,7 @@ function updateEditorTitle(){
   if(!f ||
     f.includes("Loading") ||
     f.includes("No files")){
-    el.innerText = "—";a
+    el.innerText = "—";
     return;
   }
 
@@ -892,6 +893,10 @@ function validateJsonLive(){
 
     setStatus("Valid JSON","success");
 
+    // hide any center invalid message
+    // (show briefly valid state)
+    // no-op here
+
     return true;
   }catch(e){
     const err =
@@ -906,6 +911,9 @@ function validateJsonLive(){
       : "Invalid JSON",
       "error"
     );
+
+    // show center invalid notice briefly
+    showCenterMessage(err.line ? ("JSON error on line " + err.line) : "Invalid JSON", 3500);
 
     return false;
   }
@@ -1068,6 +1076,9 @@ async function loadFile(){
     updateLineNumbers();
     validateJsonLive();
 
+    // show center loaded notice
+    showCenterMessage("Loaded: " + f, 3000);
+
     setStatus(
       "Loaded: " + f,
       "success"
@@ -1173,10 +1184,13 @@ async function saveFile(){
 
     setSaveButtonState("saved");
 
-    setStatus(
-      "Saved: " + f,
-      "success"
-    );
+      setStatus(
+        "Saved: " + f,
+        "success"
+      );
+
+      // show center saved notice and keep it updated
+      showSavedCenter(f);
   }catch(e){
     setSaveButtonState("normal");
 
@@ -1214,6 +1228,45 @@ function formatJson(){
       "error"
     );
   }
+}
+
+/* Center notice helpers */
+let centerTimer = null;
+let centerSavedInterval = null;
+
+function clearCenter(){
+  const el = document.getElementById('centerNotice');
+  if(!el) return;
+  el.style.display = 'none';
+  if(centerTimer){ clearTimeout(centerTimer); centerTimer = null; }
+  if(centerSavedInterval){ clearInterval(centerSavedInterval); centerSavedInterval = null; }
+}
+
+function showCenterMessage(text, timeout=3000){
+  const el = document.getElementById('centerNotice');
+  const t = document.getElementById('centerText');
+  if(!el || !t) return;
+  t.innerText = text;
+  el.style.display = 'flex';
+  if(centerTimer) { clearTimeout(centerTimer); centerTimer = null; }
+  if(timeout>0) centerTimer = setTimeout(()=>{ el.style.display='none'; centerTimer=null; }, timeout);
+}
+
+function showSavedCenter(file){
+  // clear any previous timers
+  if(centerSavedInterval){ clearInterval(centerSavedInterval); centerSavedInterval = null; }
+  const el = document.getElementById('centerNotice');
+  const t = document.getElementById('centerText');
+  if(!el || !t) return;
+  function update(){
+    const s = getSavedFiles();
+    const ts = s[file];
+    if(!ts){ el.style.display='none'; return; }
+    t.innerText = file + ' · saved ' + timeAgo(ts) + ' ✅';
+    el.style.display = 'flex';
+  }
+  update();
+  centerSavedInterval = setInterval(update, 30000);
 }
 
 function clearEditor(){
