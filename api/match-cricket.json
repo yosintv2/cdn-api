@@ -1,18 +1,33 @@
 {
   "matches": [
     {
-      "team1": "Canada",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/189195/image",
-      "team2": "Netherlands",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187840/image",
+      "team1": "India",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187765/image",
+      "team2": "Afghanistan",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187575/image",
       "league_logo": null,
-      "league": "ICC CWC League 2",
-      "start": "2026-06-11T00:00:00+09:00",
+      "league": "Afghanistan in India, 3 ODI Series",
+      "start": "2026-06-13T17:00:00+09:00",
       "league_id": null,
       "duration": 8,
-      "details_url": "https://www.yosintv.net/match?yosintv=canada",
-      "streaming_url": "https://cdn.singhs.com.np/canada.json",
-      "event_id": 16236790,
+      "details_url": "https://web.getemoji.online/?yosintv=india",
+      "streaming_url": "https://cdn.singhs.com.np/india.json",
+      "event_id": 15644319,
+      "cricket_data": null
+    },
+    {
+      "team1": "West Indies",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187760/image",
+      "team2": "Sri Lanka",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187756/image",
+      "league_logo": null,
+      "league": "Sri Lanka in West Indies, 3 T20I Series",
+      "start": "2026-06-14T09:30:00+09:00",
+      "league_id": null,
+      "duration": 5,
+      "details_url": "https://web.getemoji.online/?yosintv=westindies",
+      "streaming_url": "https://cdn.singhs.com.np/westindies.json",
+      "event_id": 15911892,
       "cricket_data": null
     },
     {
@@ -22,12 +37,12 @@
       "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187746/image",
       "league_logo": null,
       "league": "Australia in Bangladesh, 3 ODI Series",
-      "start": "2026-06-11T14:00:00+09:00",
+      "start": "2026-06-14T14:00:00+09:00",
       "league_id": null,
       "duration": 8,
-      "details_url": "https://www.yosintv.net/match?yosintv=bangladesh",
+      "details_url": "https://web.getemoji.online/?yosintv=bangladesh",
       "streaming_url": "https://cdn.singhs.com.np/bangladesh.json",
-      "event_id": 16023709,
+      "event_id": 16023721,
       "cricket_data": null
     }
   ]
