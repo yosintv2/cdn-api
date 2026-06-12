@@ -4,20 +4,7 @@
       "name": "Join YoSinTV Telegram Channel",
       "link": "https://t.me/yosintvlive"
     },
-    {
-      "name": "Hungary vs Kazakhstan",
-      "links": [
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/dsz?m=4544898",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=527384",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=484845",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=513394",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=380460",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=414317",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=611178"
-      ]
-    }
+    "______________________________"
   ],
   "styles": {
     "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",

@@ -4,23 +4,7 @@
       "name": "Join YoSinTV Telegram Channel",
       "link": "https://t.me/yosintvlive"
     },
-    {
-      "name": "Portugal vs Nigeria",
-      "links": [
-        "https://redirects.pages.dev/foot.html?url=https://hlsplayers.pages.dev/player3?url=https://live05.msdht.app/live/24561735.m3u8",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/dsz?m=4541787",
-        "https://redirects.pages.dev/foot.html?url=https://hlsplayers.pages.dev/player3?url=https://live.egmdispatch.com/live/71325934_731c8815876ae21767430709843eee17_autoChange.m3u8",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://redirects.pages.dev/foot.html?url=https://embedindia.st/embed/mens-international-friendly/2026-06-10/por-nga",
-        "https://redirects.pages.dev/foot.html?url=https://junkieembeds.pages.dev/embed/fox-soccer-plus",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=327159",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=599634",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=344370",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=494201",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=552832"
-      ]
-    }
+    "______________________________"
   ],
   "styles": {
     "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",

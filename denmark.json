@@ -4,23 +4,7 @@
       "name": "Join YoSinTV Telegram Channel",
       "link": "https://t.me/yosintvlive"
     },
-    {
-      "name": "Denmark vs Ukraine",
-      "links": [
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/dsz?m=4541804",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/shaka?id=fox2",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/akk?m=52d432a9837790fce98c161b89382d7c",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://yosintv2.github.io/ads/foot.html?url=https://embedindia.st/embed/mens-international-friendly/2026-06-07/den-ukr",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/blv?m=168740",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/blv?m=611382",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/blv?m=360663",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/blv?m=534219",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/blv?m=250874",
-        "https://yosintv2.github.io/ads/foot.html?url=https://cr7world.pages.dev/player/blv?m=147801"
-      ]
-    }
+    "______________________________"
   ],
   "styles": {
     "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",

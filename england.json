@@ -4,21 +4,7 @@
       "name": "Join YoSinTV Telegram Channel",
       "link": "https://t.me/yosintvlive"
     },
-    {
-      "name": "England vs Costa Rica",
-      "links": [
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/dsz?m=4512458",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://redirects.pages.dev/foot.html?url=https://embedindia.st/embed/mens-international-friendly/2026-06-10/eng-crc",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=552716",
-        "https://yosintv-api.pages.dev/api/ads",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=132343",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=250874",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=589848",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=527384",
-        "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/player/blv?m=531989"
-      ]
-    }
+    "______________________________"
   ],
   "styles": {
     "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
