@@ -12,7 +12,7 @@
   "interstitial_ad_id": "ca-app-pub-5525538810839147/6568244519",
   "analytics_enabled": true,
   "google_analytics_id": "G-XXXXXXXXXX",
-  "maintenance_mode": false,
+  "maintenance_mode": true,
   "maintenance_message": "App is under maintenance. Please watch live matches from website for now.",
   "app_message": "Welcome to YoSinTV v1.1.0! Enjoy cricket & football updates.",
   "app_message_type": "info",
