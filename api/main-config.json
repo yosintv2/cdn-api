@@ -31,9 +31,9 @@
   
   "app_update": {
     "latest_version": "1.1",
-    "force_update": false, 
+    "force_update": true, 
     "update_url": "https://play.google.com/store/apps/details?id=net.yosintv.tv",
-    "popup_title": "New Update Available!",
-    "popup_message": "A new version of YoSinTV is available with bug fixes and performance improvements. Update now for the best experience!"
+    "popup_title": "Under Maintenance",
+    "popup_message": "App is under maintenance. Please watch live matches from website for now."
   }
 }
