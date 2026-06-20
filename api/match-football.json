@@ -1,343 +1,124 @@
 {
   "matches": [
     {
-      "team1": "USA",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4724/image",
-      "team2": "Australia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4741/image",
+      "team1": "Netherlands",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4705/image",
+      "team2": "Sweden",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4688/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
-      "league": "FIFA World Cup, Group D",
-      "start": "2026-06-20T04:00:00+09:00",
+      "league": "FIFA World Cup, Group F",
+      "start": "2026-06-21T02:00:00+09:00",
       "league_id": 16,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=usa",
-      "streaming_url": "https://cdn.singhs.com.np/usa.json",
-      "event_id": 15186878,
-      "football_data": {
-        "event": {
-          "league": null,
-          "round": null,
-          "kick_off_time_utc": null,
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": null,
-          "away_team": null,
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "homeWins": 2,
-          "awayWins": 0,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-2-1",
-          "home_players": [
-            "Matthew Freese",
-            "Alexander Freeman",
-            "Chris Richards",
-            "Tim Ream",
-            "Antonee Robinson",
-            "Tyler Adams",
-            "Malik Tillman",
-            "Sergiño Dest",
-            "Weston McKennie",
-            "Christian Pulišić",
-            "Folarin Balogun"
-          ],
-          "away_players": [
-            "Patrick Beach",
-            "Alessandro Circati",
-            "Harry Souttar",
-            "Cameron Burgess",
-            "Jacob Italiano",
-            "Aiden O'Neill",
-            "Paul Okon-Engstler",
-            "Jordan Bos",
-            "Connor Metcalfe",
-            "Nestory Irankunda",
-            "Mohamed Touré"
-          ],
-          "home_missing_players": [
-            "Christian Pulišić"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "7.14",
-            "position": 1,
-            "value": "3",
-            "form": [
-              "W"
-            ]
-          },
-          "awayTeam": {
-            "avgRating": "7.17",
-            "position": 2,
-            "value": "3",
-            "form": [
-              "W"
-            ]
-          },
-          "label": "Pts"
-        }
-      }
+      "details_url": "https://web.getemoji.online/?yosintv=netherlands",
+      "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
+      "event_id": 15186957,
+      "football_data": null
     },
     {
-      "team1": "Scotland",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4695/image",
-      "team2": "Morocco",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4778/image",
+      "team1": "Germany",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4711/image",
+      "team2": "Côte d'Ivoire",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4768/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
-      "league": "FIFA World Cup, Group C",
-      "start": "2026-06-20T07:00:00+09:00",
+      "league": "FIFA World Cup, Group E",
+      "start": "2026-06-21T05:00:00+09:00",
       "league_id": 16,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=scotland",
-      "streaming_url": "https://cdn.singhs.com.np/scotland.json",
-      "event_id": 15186859,
-      "football_data": {
-        "event": {
-          "league": "FIFA World Cup, Group C",
-          "round": 2,
-          "kick_off_time_utc": "Fri, 19 Jun 2026 22:00:00 GMT",
-          "venue": "Gillette Stadium",
-          "stadium_capacity": 66829,
-          "referee": "Ilgiz Tantashev",
-          "home_team": "Scotland",
-          "away_team": "Morocco",
-          "home_manager": "Steve Clarke",
-          "away_manager": "Mohamed Ouahbi"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "awayWins": 1,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Angus Gunn",
-            "Aaron Hickey",
-            "Grant Hanley",
-            "Jack Hendry",
-            "Andy Robertson",
-            "Ben Gannon-Doak",
-            "Scott McTominay",
-            "Lewis Ferguson",
-            "John McGinn",
-            "Lawrence Shankland",
-            "Che Adams"
-          ],
-          "away_players": [
-            "Bono",
-            "Achraf Hakimi",
-            "Issa Diop",
-            "Chadi Riad",
-            "Noussair Mazraoui",
-            "Ayyoub Bouaddi",
-            "Neil El Aynaoui",
-            "Brahim Díaz",
-            "Azzedine Ounahi",
-            "Bilal El Khannouss",
-            "Ismael Saibari"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "6.93",
-            "position": 1,
-            "value": "3",
-            "form": [
-              "W"
-            ]
-          },
-          "awayTeam": {
-            "avgRating": "6.84",
-            "position": 2,
-            "value": "1",
-            "form": [
-              "D"
-            ]
-          },
-          "label": "Pts"
-        }
-      }
+      "details_url": "https://web.getemoji.online/?yosintv=germany",
+      "streaming_url": "https://cdn.singhs.com.np/germany.json",
+      "event_id": 15186905,
+      "football_data": null
     },
     {
-      "team1": "Brazil",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4748/image",
-      "team2": "Haiti",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/7229/image",
+      "team1": "Ecuador",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4757/image",
+      "team2": "Curaçao",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/55827/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
-      "league": "FIFA World Cup, Group C",
-      "start": "2026-06-20T09:30:00+09:00",
+      "league": "FIFA World Cup, Group E",
+      "start": "2026-06-21T09:00:00+09:00",
       "league_id": 16,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=brazil",
-      "streaming_url": "https://cdn.singhs.com.np/brazil.json",
-      "event_id": 15186856,
-      "football_data": {
-        "event": {
-          "league": "FIFA World Cup, Group C",
-          "round": 2,
-          "kick_off_time_utc": "Sat, 20 Jun 2026 00:30:00 GMT",
-          "venue": "Lincoln Financial Field",
-          "stadium_capacity": 69176,
-          "referee": "Alejandro Hernandez",
-          "home_team": "Brazil",
-          "away_team": "Haiti",
-          "home_manager": "Carlo Ancelotti",
-          "away_manager": "Sébastien Migné"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "awayWins": 0,
-          "draws": 0
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": [
-            "Alisson",
-            "Roger Ibañez",
-            "Marquinhos",
-            "Gabriel Magalhães",
-            "Douglas Santos",
-            "Casemiro",
-            "Bruno Guimarães",
-            "Raphinha",
-            "Lucas Paquetá",
-            "Vinícius Júnior",
-            "Igor Thiago"
-          ],
-          "away_players": [
-            "Johny Placide",
-            "Carlens Arcus",
-            "Ricardo Adé",
-            "Hannes Delcroix",
-            "Martin Expérience",
-            "Louicius Don Deedson",
-            "Danley Jean Jacques",
-            "Jean-Ricner Bellegarde",
-            "Ruben Providence",
-            "Frantzdy Pierrot",
-            "Wilson Isidor"
-          ],
-          "home_missing_players": [
-            "Neymar"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "6.83",
-            "position": 3,
-            "value": "1",
-            "form": [
-              "D"
-            ]
-          },
-          "awayTeam": {
-            "avgRating": "6.74",
-            "position": 4,
-            "value": "0",
-            "form": [
-              "L"
-            ]
-          },
-          "label": "Pts"
-        }
-      }
+      "details_url": "https://web.getemoji.online/?yosintv=ecuador",
+      "streaming_url": "https://cdn.singhs.com.np/ecuador.json",
+      "event_id": 15186906,
+      "football_data": null
     },
     {
-      "team1": "Türkiye",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4700/image",
-      "team2": "Paraguay",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4789/image",
+      "team1": "Tunisia",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4729/image",
+      "team2": "Japan",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4770/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
-      "league": "FIFA World Cup, Group D",
-      "start": "2026-06-20T12:00:00+09:00",
+      "league": "FIFA World Cup, Group F",
+      "start": "2026-06-21T13:00:00+09:00",
       "league_id": 16,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=turkiye",
-      "streaming_url": "https://cdn.singhs.com.np/turkiye.json",
-      "event_id": 15186879,
-      "football_data": {
-        "event": {
-          "league": "FIFA World Cup, Group D",
-          "round": 2,
-          "kick_off_time_utc": "Sat, 20 Jun 2026 03:00:00 GMT",
-          "venue": "Levi's Stadium",
-          "stadium_capacity": 68500,
-          "referee": "Iván Barton",
-          "home_team": "Türkiye",
-          "away_team": "Paraguay",
-          "home_manager": "Vincenzo Montella",
-          "away_manager": "Gustavo Alfaro"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": [
-            "Uğurcan Çakır",
-            "Zeki Çelik",
-            "Merih Demiral",
-            "Abdülkerim Bardakcı",
-            "Ferdi Kadıoğlu",
-            "Hakan Çalhanoğlu",
-            "İsmail Yüksek",
-            "Arda Güler",
-            "Orkun Kökçü",
-            "Barış Alper Yılmaz",
-            "Kerem Aktürkoğlu"
-          ],
-          "away_players": [
-            "Orlando Gill",
-            "Juan Cáceres",
-            "Gustavo Gómez",
-            "Omar Alderete",
-            "Junior Alonso",
-            "Diego Gómez",
-            "Andrés Cubas",
-            "Damián Bobadilla",
-            "Miguel Almirón",
-            "Antonio Sanabria",
-            "Julio Enciso"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "homeTeam": {
-            "avgRating": "6.58",
-            "position": 3,
-            "value": "0",
-            "form": [
-              "L"
-            ]
-          },
-          "awayTeam": {
-            "avgRating": "6.33",
-            "position": 4,
-            "value": "0",
-            "form": [
-              "L"
-            ]
-          },
-          "label": "Pts"
-        }
-      }
+      "details_url": "https://web.getemoji.online/?yosintv=tunisia",
+      "streaming_url": "https://cdn.singhs.com.np/tunisia.json",
+      "event_id": 15186963,
+      "football_data": null
+    },
+    {
+      "team1": "Spain",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4698/image",
+      "team2": "Saudi Arabia",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4834/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group H",
+      "start": "2026-06-22T01:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=spain",
+      "streaming_url": "https://cdn.singhs.com.np/spain.json",
+      "event_id": 15186840,
+      "football_data": null
+    },
+    {
+      "team1": "Belgium",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4717/image",
+      "team2": "Iran",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4766/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group G",
+      "start": "2026-06-22T04:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=belgium",
+      "streaming_url": "https://cdn.singhs.com.np/belgium.json",
+      "event_id": 15186499,
+      "football_data": null
+    },
+    {
+      "team1": "Uruguay",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4725/image",
+      "team2": "Cabo Verde",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4753/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group H",
+      "start": "2026-06-22T07:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=uruguay",
+      "streaming_url": "https://cdn.singhs.com.np/uruguay.json",
+      "event_id": 15186800,
+      "football_data": null
+    },
+    {
+      "team1": "New Zealand",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4784/image",
+      "team2": "Egypt",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4758/image",
+      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
+      "league": "FIFA World Cup, Group G",
+      "start": "2026-06-22T10:00:00+09:00",
+      "league_id": 16,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=newzealand",
+      "streaming_url": "https://cdn.singhs.com.np/newzealand.json",
+      "event_id": 15186827,
+      "football_data": null
     }
   ]
 }
