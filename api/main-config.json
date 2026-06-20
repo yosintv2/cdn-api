@@ -14,6 +14,7 @@
   "google_analytics_id": "G-XXXXXXXXXX",
   "maintenance_mode": false,
   "maintenance_message": "App is under maintenance. Please watch live matches from website for now.",
+  "app_message_enabled": true,
   "app_message": "Welcome to YoSinTV v1.1.0! Enjoy cricket & football updates.",
   "app_message_type": "info",
   "whatsapp_link": "https://www.whatsapp.com/channel/0029Vb7ikzn9hXF5ec0uUI0H",
