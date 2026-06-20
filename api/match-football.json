@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Netherlands",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4705/image",
-      "team2": "Sweden",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4688/image",
-      "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
-      "league": "FIFA World Cup, Group F",
-      "start": "2026-06-21T02:00:00+09:00",
-      "league_id": 16,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=netherlands",
-      "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
-      "event_id": 15186957,
-      "football_data": null
-    },
-    {
       "team1": "Germany",
       "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4711/image",
       "team2": "Côte d'Ivoire",
@@ -28,7 +13,52 @@
       "details_url": "https://web.getemoji.online/?yosintv=germany",
       "streaming_url": "https://cdn.singhs.com.np/germany.json",
       "event_id": 15186905,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": null,
+          "round": null,
+          "kick_off_time_utc": null,
+          "venue": null,
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": null,
+          "away_team": null,
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "homeWins": 0,
+          "awayWins": 0,
+          "draws": 1
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "homeTeam": {
+            "avgRating": "7.53",
+            "position": 1,
+            "value": "3",
+            "form": [
+              "W"
+            ]
+          },
+          "awayTeam": {
+            "avgRating": "7.09",
+            "position": 2,
+            "value": "3",
+            "form": [
+              "W"
+            ]
+          },
+          "label": "Pts"
+        }
+      }
     },
     {
       "team1": "Ecuador",
@@ -43,7 +73,62 @@
       "details_url": "https://web.getemoji.online/?yosintv=ecuador",
       "streaming_url": "https://cdn.singhs.com.np/ecuador.json",
       "event_id": 15186906,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group E",
+          "round": 2,
+          "kick_off_time_utc": "Sun, 21 Jun 2026 00:00:00 GMT",
+          "venue": "Arrowhead Stadium",
+          "stadium_capacity": 76416,
+          "referee": "Ma Ning",
+          "home_team": "Ecuador",
+          "away_team": "Curaçao",
+          "home_manager": "Sebastian Beccacece",
+          "away_manager": "Dick Advocaat"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-3-3",
+          "home_players": [
+            "Hernán Galíndez",
+            "Ángelo Preciado",
+            "Willian Pacho",
+            "Joel Ordóñez",
+            "Piero Hincapié",
+            "John Yeboah",
+            "Moisés Caicedo",
+            "Alan Franco",
+            "Gonzalo Plata",
+            "Enner Valencia",
+            "Pedro Vite"
+          ],
+          "away_players": [
+            "Eloy Room",
+            "Sherel Constancio Floranus",
+            "Armando Obispo",
+            "Riechedly Bazoer",
+            "Deveron Fonville",
+            "Livano Comenencia",
+            "Leandro Bacuna",
+            "Juninho Bacuna",
+            "Tahith Chong",
+            "Jürgen Locadia",
+            "Jeremy Antonisse"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "error": {
+            "code": 403,
+            "reason": "challenge"
+          }
+        }
+      }
     },
     {
       "team1": "Tunisia",
@@ -58,7 +143,79 @@
       "details_url": "https://web.getemoji.online/?yosintv=tunisia",
       "streaming_url": "https://cdn.singhs.com.np/tunisia.json",
       "event_id": 15186963,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group F",
+          "round": 2,
+          "kick_off_time_utc": "Sun, 21 Jun 2026 04:00:00 GMT",
+          "venue": "Estadio BBVA",
+          "stadium_capacity": 53500,
+          "referee": "Istvan Kovacs",
+          "home_team": "Tunisia",
+          "away_team": "Japan",
+          "home_manager": "Hervé Renard",
+          "away_manager": "Hajime Moriyasu"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "awayWins": 3,
+          "draws": 0
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-4-2-1",
+          "home_players": [
+            "Aymen Dahmen",
+            "Yan Valery",
+            "Omar Rekik",
+            "Montassar Talbi",
+            "Ali Abdi",
+            "Ellyes Skhiri",
+            "Rani Khedira",
+            "Elias Achouri",
+            "Hannibal Mejbri",
+            "Ismael Gharbi",
+            "Firas Chaouat"
+          ],
+          "away_players": [
+            "Zion Suzuki",
+            "Tsuyoshi Watanabe",
+            "Shogo Taniguchi",
+            "Hiroki Itō",
+            "Yukinari Sugawara",
+            "Daichi Kamada",
+            "Kaishu Sano",
+            "Keito Nakamura",
+            "Ritsu Doan",
+            "Daizen Maeda",
+            "Ayase Ueda"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": [
+            "Takefusa Kubo",
+            "Shuto Machino"
+          ]
+        },
+        "pregame_form": {
+          "homeTeam": {
+            "avgRating": "6.19",
+            "position": 4,
+            "value": "0",
+            "form": [
+              "L"
+            ]
+          },
+          "awayTeam": {
+            "avgRating": "6.72",
+            "position": 2,
+            "value": "1",
+            "form": [
+              "D"
+            ]
+          },
+          "label": "Pts"
+        }
+      }
     },
     {
       "team1": "Spain",
@@ -73,7 +230,66 @@
       "details_url": "https://web.getemoji.online/?yosintv=spain",
       "streaming_url": "https://cdn.singhs.com.np/spain.json",
       "event_id": 15186840,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": null,
+          "round": null,
+          "kick_off_time_utc": null,
+          "venue": null,
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": null,
+          "away_team": null,
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "error": {
+            "code": 403,
+            "reason": "challenge"
+          }
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-4-2",
+          "home_players": [
+            "Unai Simón",
+            "Marcos Llorente",
+            "Pau Cubarsí",
+            "Aymeric Laporte",
+            "Marc Cucurella",
+            "Pedri",
+            "Dani Olmo",
+            "Rodri",
+            "Lamine Yamal",
+            "Mikel Oyarzabal",
+            "Ferran Torres"
+          ],
+          "away_players": [
+            "Mohammed Al-Owais",
+            "Saud Abdulhamid",
+            "Abdulelah Al-Amri",
+            "Hassan Altambakti",
+            "Moteb Al-Harbi",
+            "Mohammed Abu Al-Shamat",
+            "Mohamed Kanno",
+            "Abdullah Al-Khaibari",
+            "Salem Al-Dawsari",
+            "Musab Al Juwayr",
+            "Firas Al-Buraikan"
+          ],
+          "home_missing_players": [
+            "Víctor Muñoz"
+          ],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "error": {
+            "code": 403,
+            "reason": "challenge"
+          }
+        }
+      }
     },
     {
       "team1": "Belgium",
@@ -88,7 +304,53 @@
       "details_url": "https://web.getemoji.online/?yosintv=belgium",
       "streaming_url": "https://cdn.singhs.com.np/belgium.json",
       "event_id": 15186499,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group G",
+          "round": 2,
+          "kick_off_time_utc": "Sun, 21 Jun 2026 19:00:00 GMT",
+          "venue": "SoFi Stadium",
+          "stadium_capacity": 70242,
+          "referee": "Dario Herrera",
+          "home_team": "Belgium",
+          "away_team": "Iran",
+          "home_manager": "Rudi Garcia",
+          "away_manager": "Amir Ghalenoei"
+        },
+        "h2h": {
+          "error": {
+            "code": 403,
+            "reason": "challenge"
+          }
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "homeTeam": {
+            "avgRating": "6.91",
+            "position": 3,
+            "value": "1",
+            "form": [
+              "D"
+            ]
+          },
+          "awayTeam": {
+            "avgRating": "6.83",
+            "position": 2,
+            "value": "1",
+            "form": [
+              "D"
+            ]
+          },
+          "label": "Pts"
+        }
+      }
     },
     {
       "team1": "Uruguay",
@@ -103,7 +365,77 @@
       "details_url": "https://web.getemoji.online/?yosintv=uruguay",
       "streaming_url": "https://cdn.singhs.com.np/uruguay.json",
       "event_id": 15186800,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group H",
+          "round": 2,
+          "kick_off_time_utc": "Sun, 21 Jun 2026 22:00:00 GMT",
+          "venue": "Hard Rock Stadium",
+          "stadium_capacity": 65326,
+          "referee": "Espen Eskas",
+          "home_team": "Uruguay",
+          "away_team": "Cabo Verde",
+          "home_manager": "Marcelo Bielsa",
+          "away_manager": "Bubista"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-2-3-1",
+          "home_players": [
+            "Fernando Muslera",
+            "Guillermo Varela",
+            "Sebastián Cáceres",
+            "Mathías Olivera",
+            "Juan Sanabria",
+            "Federico Valverde",
+            "Nicolás de la Cruz",
+            "Rodrigo Bentancur",
+            "Maximiliano Araújo",
+            "Federico Viñas",
+            "Agustín Canobbio"
+          ],
+          "away_players": [
+            "Vozinha",
+            "Steven Moreira",
+            "Pico",
+            "Diney Borges",
+            "Sidny Lopes Cabral",
+            "Kevin Lenini",
+            "Laros Duarte",
+            "Ryan Mendes",
+            "Jamiro Monteiro",
+            "Jovane Cabral",
+            "Dailon Rocha Livramento"
+          ],
+          "home_missing_players": [
+            "Ronald Araújo"
+          ],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "homeTeam": {
+            "avgRating": "6.65",
+            "position": 1,
+            "value": "1",
+            "form": [
+              "D"
+            ]
+          },
+          "awayTeam": {
+            "avgRating": "7.01",
+            "position": 4,
+            "value": "1",
+            "form": [
+              "D"
+            ]
+          },
+          "label": "Pts"
+        }
+      }
     },
     {
       "team1": "New Zealand",
@@ -118,7 +450,53 @@
       "details_url": "https://web.getemoji.online/?yosintv=newzealand",
       "streaming_url": "https://cdn.singhs.com.np/newzealand.json",
       "event_id": 15186827,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "FIFA World Cup, Group G",
+          "round": 2,
+          "kick_off_time_utc": "Mon, 22 Jun 2026 01:00:00 GMT",
+          "venue": "BC Place",
+          "stadium_capacity": 54500,
+          "referee": "Omar Mohamed Al Ali",
+          "home_team": "New Zealand",
+          "away_team": "Egypt",
+          "home_manager": "Darren Bazeley",
+          "away_manager": "Hossam Hassan"
+        },
+        "h2h": {
+          "error": {
+            "code": 403,
+            "reason": "challenge"
+          }
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "homeTeam": {
+            "avgRating": "6.70",
+            "position": 1,
+            "value": "1",
+            "form": [
+              "D"
+            ]
+          },
+          "awayTeam": {
+            "avgRating": "6.76",
+            "position": 4,
+            "value": "1",
+            "form": [
+              "D"
+            ]
+          },
+          "label": "Pts"
+        }
+      }
     }
   ]
 }
