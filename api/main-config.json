@@ -1,5 +1,5 @@
 {
-  "review_mode": true,
+  "review_mode": false,
   "streaming_enabled": true,
   "ads_enabled": false,
   "banner_enabled": true,
@@ -30,7 +30,7 @@
   "alt_config_url": "https://cdn.singhs.com.np/api/alt-config.json",
   
   "app_update": {
-    "latest_version": "1.1.0",
+    "latest_version": "1.1.1",
     "force_update": false, 
     "update_url": "https://play.google.com/store/apps/details?id=net.yosintv.tv",
     "popup_title": "Under Maintenance",
