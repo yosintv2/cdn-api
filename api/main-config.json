@@ -31,7 +31,7 @@
   
   "app_update": {
     "latest_version": "1.1.1",
-    "force_update": true, 
+    "force_update": false, 
     "update_url": "https://play.google.com/store/apps/details?id=net.yosintv.tv",
     "popup_title": "Update New Version",
     "popup_message": "A new version of the app is available. Please update the app to continue enjoying live matches."
