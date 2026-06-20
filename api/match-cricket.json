@@ -7,18 +7,18 @@
       "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187575/image",
       "league_logo": null,
       "league": "Afghanistan in India, 3 ODI Series",
-      "start": "2026-06-17T17:00:00+09:00",
+      "start": "2026-06-20T17:00:00+09:00",
       "league_id": null,
       "duration": 8,
       "details_url": "https://web.getemoji.online/?yosintv=india",
       "streaming_url": "https://cdn.singhs.com.np/india.json",
-      "event_id": 15644320,
+      "event_id": 15644321,
       "cricket_data": {
         "event": {
           "league": "Afghanistan in India, 3 ODI Series",
           "round": null,
-          "start_time_utc": "Wed, 17 Jun 2026 08:00:00 GMT",
-          "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+          "start_time_utc": "Sat, 20 Jun 2026 08:00:00 GMT",
+          "venue": "MA Chidambaram Stadium",
           "stadium_capacity": null,
           "home_team": "India",
           "away_team": "Afghanistan"
@@ -30,10 +30,10 @@
         },
         "lineups": {
           "home_players": [
-            "Arshdeep Singh",
             "Gurnoor Brar",
-            "KL Rahul",
-            "Kuldeep Yadav",
+            "Harsh Dubey",
+            "Nitish Kumar Reddy",
+            "Prasidh Krishna",
             "Prince Yadav",
             "Rohit Sharma",
             "Shreyas Iyer",
@@ -41,116 +41,32 @@
             "Yashasvi Jaiswal",
             "Ishan Kishan",
             "Shubman Gill",
-            "Harsh Dubey",
-            "Nitish Kumar Reddy",
-            "Prasidh Krishna"
+            "Arshdeep Singh",
+            "Harshit Rana",
+            "KL Rahul",
+            "Kuldeep Yadav"
           ],
           "away_players": [
             "AM Ghazanfar",
-            "Bilal Sami",
+            "Azmatullah Omarzai",
             "Darwish Rasooli",
+            "Fareed Ahmad",
             "Ibrahim Zadran",
-            "Mohammad Saleem",
-            "Nangeyalia Kharote",
+            "Mohammad Nabi",
             "Rahmat Shah",
             "Rashid Khan",
-            "Sediqullah Atal",
+            "Ziaur Rahman",
             "Rahmanullah Gurbaz",
             "Hashmatullah Shahidi",
-            "Azmatullah Omarzai",
-            "Mohammad Nabi",
-            "Ziaur Rahman"
+            "Bilal Sami",
+            "Mohammad Saleem",
+            "Nangeyalia Kharote",
+            "Sediqullah Atal"
           ],
           "home_missing_players": [],
           "away_missing_players": []
         }
       }
-    },
-    {
-      "team1": "Bangladesh",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187744/image",
-      "team2": "Australia",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187746/image",
-      "league_logo": null,
-      "league": "Australia in Bangladesh, 3 T20I Series",
-      "start": "2026-06-17T17:00:00+09:00",
-      "league_id": null,
-      "duration": 5,
-      "details_url": "https://web.getemoji.online/?yosintv=bangladesh",
-      "streaming_url": "https://cdn.singhs.com.np/bangladesh.json",
-      "event_id": 16023751,
-      "cricket_data": {
-        "event": {
-          "league": "Australia in Bangladesh, 3 T20I Series",
-          "round": null,
-          "start_time_utc": "Wed, 17 Jun 2026 08:00:00 GMT",
-          "venue": "Zahur Ahmed Chowdhury Stadium",
-          "stadium_capacity": 22000,
-          "home_team": "Bangladesh",
-          "away_team": "Australia"
-        },
-        "h2h": {
-          "homeWins": 5,
-          "awayWins": 5,
-          "draws": 0
-        },
-        "lineups": {
-          "home_players": [
-            "Abdul Saqlain",
-            "Mahedi Hasan",
-            "Mustafizur Rahman",
-            "Rishad Hossain",
-            "Saif Hassan",
-            "Shamim Hossain",
-            "Shoriful Islam",
-            "Soumya Sarkar",
-            "Tanzid Hasan",
-            "Parvez Hossain Emon",
-            "Towhid Hridoy",
-            "Litton Das",
-            "Nahid Rana",
-            "Nasum Ahmed",
-            "Nurul Hasan",
-            "Taskin Ahmed"
-          ],
-          "away_players": [
-            "Adam Zampa",
-            "Cooper Connolly",
-            "Joel Davies",
-            "Matt Renshaw",
-            "Nathan Ellis",
-            "Nikhil Chaudhary",
-            "Spencer Johnson",
-            "Tim David",
-            "Xavier Bartlett",
-            "Josh Inglis",
-            "Mitchell Marsh",
-            "Aaron Hardie",
-            "Cameron Green",
-            "Josh Philippe",
-            "Matthew Kuhnemann",
-            "Riley Meredith",
-            "Travis Head"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        }
-      }
-    },
-    {
-      "team1": "England",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187757/image",
-      "team2": "New Zealand",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187755/image",
-      "league_logo": null,
-      "league": "Crowe-Thorpe Trophy",
-      "start": "2026-06-17T19:00:00+09:00",
-      "league_id": null,
-      "duration": 8,
-      "details_url": "https://web.getemoji.online/?yosintv=england",
-      "streaming_url": "https://cdn.singhs.com.np/england.json",
-      "event_id": 14266993,
-      "cricket_data": null
     }
   ]
 }
