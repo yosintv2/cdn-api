@@ -1,30 +1,40 @@
 {
   "review_mode": false,
   "streaming_enabled": true,
+  
   "ads_enabled": true,
   "banner_enabled": true,
+  
+  "rewarded_ad_id_time": 1,
   "rewarded_enabled": true,
   "app_open_enabled": true,
-  "rewarded_ad_id_time": 1,
   "interstitial_enabled": true,
+  
   "banner_ad_id": "ca-app-pub-5525538810839147/3825132304",
   "rewarded_ad_id": "ca-app-pub-5525538810839147/6942250234",
   "app_open_ad_id": "ca-app-pub-5525538810839147/1223019695",
   "interstitial_ad_id": "ca-app-pub-5525538810839147/6568244519",
+  
   "analytics_enabled": true,
   "google_analytics_id": "G-XXXXXXXXXX",
+  
   "maintenance_mode": false,
   "maintenance_message": "App is under maintenance. Please watch live matches from website for now.",
+  
   "app_message_enabled": true,
   "app_message": "Welcome to YoSinTV v1.1.0! Enjoy cricket & football updates.",
   "app_message_type": "info",
+  
   "whatsapp_link": "https://www.whatsapp.com/channel/0029Vb7ikzn9hXF5ec0uUI0H",
   "telegram_link": "https://t.me/yosintvlive",
+  
   "popup_enabled": true,
   "popup_title": "Welcome to YoSinTV!",
   "popup_text": "Join our WhatsApp and Telegram groups to get the latest match updates and football/cricket news instantly!",
+  
   "match_links": [],
   "articles": [],
+  
   "streaming_url": "https://cdn.singhs.com.np/{match_id}.json",
   "football_api_url": "https://cdn.singhs.com.np/api/match-football.json",
   "cricket_api_url": "https://cdn.singhs.com.np/api/match-cricket.json",
