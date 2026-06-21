@@ -1,7 +1,7 @@
 {
   "review_mode": false,
   "streaming_enabled": true,
-  "ads_enabled": false,
+  "ads_enabled": true,
   "banner_enabled": true,
   "rewarded_enabled": true,
   "app_open_enabled": true,
