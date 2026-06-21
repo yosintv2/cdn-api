@@ -5,7 +5,7 @@
   "banner_enabled": true,
   "rewarded_enabled": true,
   "app_open_enabled": true,
-  "rewarded_ad_id_time": 1,
+  "rewarded_ad_id_time": 5,
   "interstitial_enabled": true,
   "banner_ad_id": "ca-app-pub-5525538810839147/3825132304",
   "rewarded_ad_id": "ca-app-pub-5525538810839147/6942250234",
