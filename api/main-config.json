@@ -28,7 +28,7 @@
   "whatsapp_link": "https://www.whatsapp.com/channel/0029Vb7ikzn9hXF5ec0uUI0H",
   "telegram_link": "https://t.me/yosintvlive",
   
-  "popup_enabled": true,
+  "popup_enabled": false,
   "popup_title": "Welcome to YoSinTV!",
   "popup_text": "Join our WhatsApp and Telegram groups to get the latest match updates and football/cricket news instantly!",
   
