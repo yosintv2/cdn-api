@@ -1,72 +1,49 @@
 {
   "matches": [
     {
-      "team1": "India",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187765/image",
-      "team2": "Afghanistan",
-      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187575/image",
+      "team1": "England",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187757/image",
+      "team2": "New Zealand",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187755/image",
       "league_logo": null,
-      "league": "Afghanistan in India, 3 ODI Series",
-      "start": "2026-06-20T17:00:00+09:00",
+      "league": "Crowe-Thorpe Trophy",
+      "start": "2026-06-25T19:00:00+09:00",
       "league_id": null,
       "duration": 8,
-      "details_url": "https://web.getemoji.online/?yosintv=india",
-      "streaming_url": "https://cdn.singhs.com.np/india.json",
-      "event_id": 15644321,
-      "cricket_data": {
-        "event": {
-          "league": "Afghanistan in India, 3 ODI Series",
-          "round": null,
-          "start_time_utc": "Sat, 20 Jun 2026 08:00:00 GMT",
-          "venue": "MA Chidambaram Stadium",
-          "stadium_capacity": null,
-          "home_team": "India",
-          "away_team": "Afghanistan"
-        },
-        "h2h": {
-          "homeWins": 10,
-          "awayWins": 0,
-          "draws": 0
-        },
-        "lineups": {
-          "home_players": [
-            "Gurnoor Brar",
-            "Harsh Dubey",
-            "Nitish Kumar Reddy",
-            "Prasidh Krishna",
-            "Prince Yadav",
-            "Rohit Sharma",
-            "Shreyas Iyer",
-            "Washington Sundar",
-            "Yashasvi Jaiswal",
-            "Ishan Kishan",
-            "Shubman Gill",
-            "Arshdeep Singh",
-            "Harshit Rana",
-            "KL Rahul",
-            "Kuldeep Yadav"
-          ],
-          "away_players": [
-            "AM Ghazanfar",
-            "Azmatullah Omarzai",
-            "Darwish Rasooli",
-            "Fareed Ahmad",
-            "Ibrahim Zadran",
-            "Mohammad Nabi",
-            "Rahmat Shah",
-            "Rashid Khan",
-            "Ziaur Rahman",
-            "Rahmanullah Gurbaz",
-            "Hashmatullah Shahidi",
-            "Bilal Sami",
-            "Mohammad Saleem",
-            "Nangeyalia Kharote",
-            "Sediqullah Atal"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        }
-      }
+      "details_url": "https://web.getemoji.online/?yosintv=england",
+      "streaming_url": "https://cdn.singhs.com.np/england.json",
+      "event_id": 14266994,
+      "cricket_data": null
+    },
+    {
+      "team1": "West Indies",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187760/image",
+      "team2": "Sri Lanka",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187756/image",
+      "league_logo": null,
+      "league": "Sobers-Tissera Trophy",
+      "start": "2026-06-25T23:00:00+09:00",
+      "league_id": null,
+      "duration": 8,
+      "details_url": "https://web.getemoji.online/?yosintv=westindies",
+      "streaming_url": "https://cdn.singhs.com.np/westindies.json",
+      "event_id": 15911894,
+      "cricket_data": null
+    },
+    {
+      "team1": "Ireland",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187766/image",
+      "team2": "India",
+      "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/187765/image",
+      "league_logo": null,
+      "league": "India in Ireland, 2 T20I Series",
+      "start": "2026-06-26T21:30:00+09:00",
+      "league_id": null,
+      "duration": 5,
+      "details_url": "https://web.getemoji.online/?yosintv=ireland",
+      "streaming_url": "https://cdn.singhs.com.np/ireland.json",
+      "event_id": 15840448,
+      "cricket_data": null
     }
   ]
 }
