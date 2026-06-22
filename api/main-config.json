@@ -18,7 +18,7 @@
   "analytics_enabled": true,
   "google_analytics_id": "G-XXXXXXXXXX",
   
-  "maintenance_mode": true,
+  "maintenance_mode": false,
   "maintenance_message": "App is under maintenance. Please watch live matches from website for now in www.yosintv.net",
   
   "app_message_enabled": true,
