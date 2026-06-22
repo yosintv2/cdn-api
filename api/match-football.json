@@ -2,7 +2,7 @@
   "matches": [
     {
       "team1": "Argentina",
-      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4819/image",
+      "team1_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4819/image ",
       "team2": "Austria",
       "team2_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/team/4718/image",
       "league_logo": "https://i1.wp.com/api.sofascore1.com/api/v1/unique-tournament/16/image",
