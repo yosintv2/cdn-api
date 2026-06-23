@@ -1,61 +1,14 @@
 {
   "events": [
     {
-      "name": "All Devices 1 - Czechia vs S. Africa ",
-      "link": "https://redirects.pages.dev/ftt.html?url=https://cr7world.pages.dev/shaka?id=mob1"
+      "name": "Join YoSinTV Telegram Channel",
+      "link": "https://t.me/yosintvlive"
     },
-    {
-      "name": "All Devices 2 - Czechia vs S. Africa ",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "All Devices 3 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=mob2"
-    },
-    {
-      "name": "All Devices 4 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=mob3"
-    },
-    {
-      "name": "No Delay 1 - Czechia vs S. Africa  ",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "No Delay 2 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=ios1"
-    },
-    {
-      "name": "No Delay 3 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=ios2"
-    },
-    {
-      "name": "PC/Laptop 1 - Czechia vs S. Africa  ",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "PC/Laptop 2 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc11"
-    },
-    {
-      "name": "PC/Laptop 3 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc22"
-    },
-    {
-      "name": "PC/Laptop 4 - Czechia vs S. Africa  ",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "PC/Laptop 5 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc33"
-    },
-    {
-      "name": "PC/Laptop 6 - Czechia vs S. Africa  ",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc44"
-    }
+    "______________________________"
   ],
   "styles": {
-    "livee": "display:flex;justify-content:center;align-items:center;text-decoration:none;color:inherit;margin:5px 0;padding:10px;border:2px solid #000;border-radius:5px;cursor:pointer;transition:box-shadow .3s ease;background-color:#2e7d32;color:white;font-weight:bold;",
-    "liveeHover": "box-shadow:0 4px 8px rgba(0,0,0,.2);",
-    "liveeName": "flex:2;text-align:center;color:white;font-weight:bold;"
+    "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
   }
 }

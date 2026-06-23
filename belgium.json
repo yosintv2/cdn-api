@@ -1,61 +1,14 @@
 {
   "events": [
     {
-      "name": "All Devices - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=2mob1"
+      "name": "Join YoSinTV Telegram Channel",
+      "link": "https://t.me/yosintvlive"
     },
-    {
-      "name": "All Devices - Belgium vs Iran",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "All Devices - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=2mob2"
-    },
-    {
-      "name": "All Devices - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=2mob3"
-    },
-    {
-      "name": "No Delay 1 - Belgium vs Iran",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "No Delay 2 - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=2ios1"
-    },
-    {
-      "name": "No Delay 3 - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=2ios2"
-    },
-    {
-      "name": "PC/Laptop 1 - Belgium vs Iran",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "PC/Laptop 2 - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc11"
-    },
-    {
-      "name": "PC/Laptop 3 - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc22"
-    },
-    {
-      "name": "PC/Laptop 4 - Belgium vs Iran",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "PC/Laptop 5 - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc33"
-    },
-    {
-      "name": "PC/Laptop 6 - Belgium vs Iran",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=pc44"
-    }
+    "______________________________"
   ],
   "styles": {
-    "livee": "display:flex;justify-content:center;align-items:center;text-decoration:none;color:inherit;margin:5px 0;padding:10px;border:2px solid #000;border-radius:5px;cursor:pointer;transition:box-shadow .3s ease;background-color:#2e7d32;color:white;font-weight:bold;",
-    "liveeHover": "box-shadow:0 4px 8px rgba(0,0,0,.2);",
-    "liveeName": "flex:2;text-align:center;color:white;font-weight:bold;"
+    "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
   }
 }
