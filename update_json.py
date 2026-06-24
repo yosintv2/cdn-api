@@ -45,6 +45,7 @@ def update_files():
     # Configuration
     exclude_files = [
 
+        "football.json", 
         "ipl.json", 
         "nepal.json", 
         "bpl.json", #Add Upper undeletable json
