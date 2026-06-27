@@ -1,36 +1,178 @@
 {
   "matches": [
     {
-      "team1": "Norway",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8492.png",
-      "team2": "France",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6723.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894798.png",
-      "league": "World Cup Grp. I",
-      "start": "2026-06-27T04:00:00+09:00",
-      "league_id": 894798,
+      "team1": "Croatia",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10155.png",
+      "team2": "Ghana",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6714.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894801.png",
+      "league": "World Cup Grp. L",
+      "start": "2026-06-28T06:00:00+09:00",
+      "league_id": 894801,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=norway",
-      "streaming_url": "https://cdn.singhs.com.np/norway.json",
-      "event_id": 4667808,
+      "details_url": "https://web.getemoji.online/?yosintv=croatia",
+      "streaming_url": "https://cdn.singhs.com.np/croatia.json",
+      "event_id": 4667830,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. I",
+          "league": "World Cup Grp. L",
           "round": 3,
-          "kick_off_time_utc": "Fri, 26 Jun 2026 19:00:00 GMT",
-          "venue": "Boston Stadium",
+          "kick_off_time_utc": "Sat, 27 Jun 2026 21:00:00 GMT",
+          "venue": "Philadelphia Stadium",
           "stadium_capacity": null,
-          "referee": "Michael Oliver",
+          "referee": "Drew Thomas Fischer",
           "home_team": {
-            "name": "Norway",
-            "id": 8492
+            "name": "Croatia",
+            "id": 10155
           },
           "away_team": {
-            "name": "France",
-            "id": 6723
+            "name": "Ghana",
+            "id": 6714
           },
-          "home_manager": "Ståle Solbakken",
-          "away_manager": "Guy Stéphan"
+          "home_manager": "Zlatko Dalic",
+          "away_manager": "Carlos Queiroz"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-1-2-3",
+          "home_players": [
+            "Dominik Livakovic",
+            "Josip Stanisic",
+            "Josip Sutalo",
+            "Marin Pongracic",
+            "Josko Gvardiol",
+            "Luka Modric",
+            "Mateo Kovacic",
+            "Marco Pasalic",
+            "Martin Baturina",
+            "Ivan Perisic",
+            "Petar Musa"
+          ],
+          "away_players": [
+            "Benjamin Asare",
+            "Marvin Senaya",
+            "Jonas Adjetey",
+            "Jerome Opoku",
+            "Gideon Mensah",
+            "Kwasi Sibo",
+            "Caleb Yirenkyi",
+            "Thomas Partey",
+            "Iñaki Williams",
+            "Jordan Ayew",
+            "Antoine Semenyo"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Panama",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5922.png",
+      "team2": "England",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894801.png",
+      "league": "World Cup Grp. L",
+      "start": "2026-06-28T06:00:00+09:00",
+      "league_id": 894801,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=panama",
+      "streaming_url": "https://cdn.singhs.com.np/panama.json",
+      "event_id": 4667829,
+      "football_data": {
+        "event": {
+          "league": "World Cup Grp. L",
+          "round": 3,
+          "kick_off_time_utc": "Sat, 27 Jun 2026 21:00:00 GMT",
+          "venue": "New York New Jersey Stadium",
+          "stadium_capacity": null,
+          "referee": "Abdulrahman Ibrahim Al Jassim",
+          "home_team": {
+            "name": "Panama",
+            "id": 5922
+          },
+          "away_team": {
+            "name": "England",
+            "id": 8491
+          },
+          "home_manager": "Thomas Christiansen",
+          "away_manager": "Thomas Tuchel"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "5-4-1",
+          "away_formation": "4-2-3-1",
+          "home_players": [
+            "Orlando Mosquera",
+            "César Blackman",
+            "Jiovany Ramos",
+            "José Córdoba",
+            "Amir Murillo",
+            "Andrés Andrade",
+            "Yoel Bárcenas",
+            "Cristian Martínez",
+            "Carlos Harvey",
+            "José Luis Rodriguez",
+            "José Fajardo"
+          ],
+          "away_players": [
+            "Jordan Pickford",
+            "Ezri Konsa",
+            "John Stones",
+            "Marc Guéhi",
+            "Djed Spence",
+            "Elliot Anderson",
+            "Kobbie Mainoo",
+            "Noni Madueke",
+            "Jude Bellingham",
+            "Anthony Gordon",
+            "Harry Kane"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Colombia",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8258.png",
+      "team2": "Portugal",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8361.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894800.png",
+      "league": "World Cup Grp. K",
+      "start": "2026-06-28T08:30:00+09:00",
+      "league_id": 894800,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=colombia",
+      "streaming_url": "https://cdn.singhs.com.np/colombia.json",
+      "event_id": 4667823,
+      "football_data": {
+        "event": {
+          "league": "World Cup Grp. K",
+          "round": 3,
+          "kick_off_time_utc": "Sat, 27 Jun 2026 23:30:00 GMT",
+          "venue": "Miami Stadium",
+          "stadium_capacity": null,
+          "referee": "Alireza Faghani",
+          "home_team": {
+            "name": "Colombia",
+            "id": 8258
+          },
+          "away_team": {
+            "name": "Portugal",
+            "id": 8361
+          },
+          "home_manager": "Néstor Lorenzo",
+          "away_manager": "Roberto Martínez"
         },
         "h2h": {
           "teamDuel": null,
@@ -40,30 +182,30 @@
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
           "home_players": [
-            "Ørjan Håskjold Nyland",
-            "Marcus Holmgren Pedersen",
-            "Kristoffer Ajer",
-            "Torbjørn Heggem",
-            "David Møller Wolfe",
-            "Martin Ødegaard",
-            "Sander Berge",
-            "Fredrik Aursnes",
-            "Alexander Sørloth",
-            "Erling Haaland",
-            "Antonio Nusa"
+            "Camilo Vargas",
+            "Daniel Muñoz",
+            "Davinson Sánchez",
+            "Jhon Lucumí",
+            "Johan Mojica",
+            "Gustavo Puerta",
+            "Jefferson Lerma",
+            "Jhon Arias",
+            "James Rodríguez",
+            "Luis Suárez",
+            "Luis Díaz"
           ],
           "away_players": [
-            "Mike Maignan",
-            "Jules Koundé",
-            "William Saliba",
-            "Dayot Upamecano",
-            "Theo Hernández",
-            "Aurélien Tchouaméni",
-            "Adrien Rabiot",
-            "Ousmane Dembélé",
-            "Michael Olise",
-            "Désiré Doué",
-            "Kylian Mbappé"
+            "Diogo Costa",
+            "João Cancelo",
+            "Rúben Dias",
+            "Renato Veiga",
+            "Nuno Mendes",
+            "João Neves",
+            "Vitinha",
+            "Pedro Neto",
+            "Bruno Fernandes",
+            "Joao Félix",
+            "Cristiano Ronaldo"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -72,140 +214,69 @@
       }
     },
     {
-      "team1": "Senegal",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6395.png",
-      "team2": "Iraq",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5819.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894798.png",
-      "league": "World Cup Grp. I",
-      "start": "2026-06-27T04:00:00+09:00",
-      "league_id": 894798,
+      "team1": "DR Congo",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6321.png",
+      "team2": "Uzbekistan",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8700.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894800.png",
+      "league": "World Cup Grp. K",
+      "start": "2026-06-28T08:30:00+09:00",
+      "league_id": 894800,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=senegal",
-      "streaming_url": "https://cdn.singhs.com.np/senegal.json",
-      "event_id": 4667809,
+      "details_url": "https://web.getemoji.online/?yosintv=drcongo",
+      "streaming_url": "https://cdn.singhs.com.np/drcongo.json",
+      "event_id": 4667824,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. I",
+          "league": "World Cup Grp. K",
           "round": 3,
-          "kick_off_time_utc": "Fri, 26 Jun 2026 19:00:00 GMT",
-          "venue": "Toronto Stadium",
+          "kick_off_time_utc": "Sat, 27 Jun 2026 23:30:00 GMT",
+          "venue": "Atlanta Stadium",
           "stadium_capacity": null,
-          "referee": "Anthony Taylor",
+          "referee": "Felix Zwayer",
           "home_team": {
-            "name": "Senegal",
-            "id": 6395
+            "name": "DR Congo",
+            "id": 6321
           },
           "away_team": {
-            "name": "Iraq",
-            "id": 5819
+            "name": "Uzbekistan",
+            "id": 8700
           },
-          "home_manager": "Pape Thiaw",
-          "away_manager": "Graham Arnold"
+          "home_manager": "Sébastien Desabre",
+          "away_manager": "Fabio Cannavaro"
         },
         "h2h": {
           "teamDuel": null,
           "managerDuel": null
         },
         "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-1-3-2",
-          "home_players": [
-            "Mory Diaw",
-            "Krépin Diatta",
-            "Kalidou Koulibaly",
-            "Moussa Niakhaté",
-            "Malick Diouf",
-            "Idrissa Gana Gueye",
-            "Pape Gueye",
-            "Lamine Camara",
-            "Ismaïla Sarr",
-            "Nicolas Jackson",
-            "Sadio Mané"
-          ],
-          "away_players": [
-            "Ahmed Basil Fadhil",
-            "Hussein Ali",
-            "Zaid Tahseen",
-            "Akam Hashem",
-            "Merchas Doski",
-            "Zidane Iqbal",
-            "Marko Lawk Farji",
-            "Amir Al-Ammari",
-            "Ali Jasim",
-            "Ali Al Hamadi",
-            "Ayman Hussein"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Cape Verde",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5888.png",
-      "team2": "Saudi Arabia",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7795.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894797.png",
-      "league": "World Cup Grp. H",
-      "start": "2026-06-27T09:00:00+09:00",
-      "league_id": 894797,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=capeverde",
-      "streaming_url": "https://cdn.singhs.com.np/capeverde.json",
-      "event_id": 4667803,
-      "football_data": {
-        "event": {
-          "league": "World Cup Grp. H",
-          "round": 3,
-          "kick_off_time_utc": "Sat, 27 Jun 2026 00:00:00 GMT",
-          "venue": "Houston Stadium",
-          "stadium_capacity": null,
-          "referee": "François Letexier",
-          "home_team": {
-            "name": "Cape Verde",
-            "id": 5888
-          },
-          "away_team": {
-            "name": "Saudi Arabia",
-            "id": 7795
-          },
-          "home_manager": "Bubista",
-          "away_manager": "Georgios Donis"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
+          "home_formation": "5-3-2",
           "away_formation": "5-4-1",
           "home_players": [
-            "Vozinha",
-            "Steven Moreira",
-            "Roberto Lopes",
-            "Diney Borges",
-            "João Paulo",
-            "Kevin Pina",
-            "Deroy Duarte",
-            "Ryan Mendes",
-            "Jamiro Monteiro",
-            "Garry Rodrigues",
-            "Gilson Benchimol"
+            "Lionel Mpasi-Nzau",
+            "Chancel Mbemba",
+            "Axel Tuanzebe",
+            "Steve Kapuadi",
+            "Aaron Wan-Bissaka",
+            "Arthur Masuaku",
+            "Noah Sadiki",
+            "Samuel Moutoussamy",
+            "Edo Kayembe",
+            "Cédric Bakambu",
+            "Yoane Wissa"
           ],
           "away_players": [
-            "Mohammed Al Owais",
-            "Abdulelah Al Amri",
-            "Ali Lajami",
-            "Hassan Al Tambakti",
-            "Saud Abdulhamid",
-            "Moteb Al-Harbi",
-            "Mohammed Abu Al Shamat",
-            "Mohamed Kanno",
-            "Nasser Al-Dawsari",
-            "Salem Al-Dawsari",
-            "Firas Al-Buraikan"
+            "Abduvohid Nematov",
+            "Abdukodir Khusanov",
+            "Abdulla Abdullaev",
+            "Rustamjon Ashurmatov",
+            "Behruzjon Karimov",
+            "Sherzod Nasrulloev",
+            "Azizjon Ganiev",
+            "Odildzhon Khamrobekov",
+            "Otabek Shukurov",
+            "Abbosbek Fayzullayev",
+            "Eldor Shomurodov"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -214,122 +285,36 @@
       }
     },
     {
-      "team1": "Uruguay",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5796.png",
-      "team2": "Spain",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894797.png",
-      "league": "World Cup Grp. H",
-      "start": "2026-06-27T09:00:00+09:00",
-      "league_id": 894797,
+      "team1": "Algeria",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6317.png",
+      "team2": "Austria",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8255.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894799.png",
+      "league": "World Cup Grp. J",
+      "start": "2026-06-28T11:00:00+09:00",
+      "league_id": 894799,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=uruguay",
-      "streaming_url": "https://cdn.singhs.com.np/uruguay.json",
-      "event_id": 4667802,
-      "football_data": null
-    },
-    {
-      "team1": "Egypt",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10255.png",
-      "team2": "Iran",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6711.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894796.png",
-      "league": "World Cup Grp. G",
-      "start": "2026-06-27T12:00:00+09:00",
-      "league_id": 894796,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=egypt",
-      "streaming_url": "https://cdn.singhs.com.np/egypt.json",
-      "event_id": 4667795,
+      "details_url": "https://web.getemoji.online/?yosintv=algeria",
+      "streaming_url": "https://cdn.singhs.com.np/algeria.json",
+      "event_id": 4667817,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. G",
+          "league": "World Cup Grp. J",
           "round": 3,
-          "kick_off_time_utc": "Sat, 27 Jun 2026 03:00:00 GMT",
-          "venue": "Seattle Stadium",
+          "kick_off_time_utc": "Sun, 28 Jun 2026 02:00:00 GMT",
+          "venue": "Kansas City Stadium",
           "stadium_capacity": null,
-          "referee": "Szymon Marciniak",
+          "referee": "Ilgiz Tantashev",
           "home_team": {
-            "name": "Egypt",
-            "id": 10255
+            "name": "Algeria",
+            "id": 6317
           },
           "away_team": {
-            "name": "Iran",
-            "id": 6711
+            "name": "Austria",
+            "id": 8255
           },
-          "home_manager": "Hossam Hassan",
-          "away_manager": "Amir Ghalenoei"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "5-4-1",
-          "home_players": [
-            "Mostafa Ahmed Shobeir",
-            "Mohamed Hany",
-            "Yasser Ibrahim",
-            "Rami Rabia",
-            "Ahmed Abou El Fotouh",
-            "Marwan Ateya",
-            "Mohanad Lasheen",
-            "Mostafa Ziko",
-            "Mohamed Salah",
-            "Emam Ashour",
-            "Omar Marmoush"
-          ],
-          "away_players": [
-            "Alireza Beiranvand",
-            "Hossein Kanaani",
-            "Ali Nemati",
-            "Shoja Khalilzadeh",
-            "Ramin Rezaeian",
-            "Ehsan Haji Safi",
-            "Alireza Jahanbakhsh",
-            "Saman Ghoddos",
-            "Saeid Ezatolahi",
-            "Mohammad Mohebi",
-            "Mehdi Taremi"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "New Zealand",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5820.png",
-      "team2": "Belgium",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894796.png",
-      "league": "World Cup Grp. G",
-      "start": "2026-06-27T12:00:00+09:00",
-      "league_id": 894796,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=newzealand",
-      "streaming_url": "https://cdn.singhs.com.np/newzealand.json",
-      "event_id": 4667794,
-      "football_data": {
-        "event": {
-          "league": "World Cup Grp. G",
-          "round": 3,
-          "kick_off_time_utc": "Sat, 27 Jun 2026 03:00:00 GMT",
-          "venue": "BC Place Vancouver",
-          "stadium_capacity": null,
-          "referee": "Adham Mohammad Tumah Makhadmeh",
-          "home_team": {
-            "name": "New Zealand",
-            "id": 5820
-          },
-          "away_team": {
-            "name": "Belgium",
-            "id": 8263
-          },
-          "home_manager": "Darren Bazeley",
-          "away_manager": "Rudi Garcia"
+          "home_manager": "Vladimir Petkovic",
+          "away_manager": "Ralf Rangnick"
         },
         "h2h": {
           "teamDuel": null,
@@ -339,30 +324,101 @@
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
           "home_players": [
-            "Max Crocombe",
-            "Tim Payne",
-            "Finn Surman",
-            "Michael Boxall",
-            "Liberato Cacace",
-            "Joe Bell",
-            "Marko Stamenic",
-            "Callum McCowatt",
-            "Sarpreet Singh",
-            "Elijah Just",
-            "Chris Wood"
+            "Luca Zidane",
+            "Rafik Belghali",
+            "Aïssa Mandi",
+            "Ramy Bensebaini",
+            "Rayan Aït-Nouri",
+            "Nabil Bentaleb",
+            "Hicham Boudaoui",
+            "Riyad Mahrez",
+            "Ibrahim Maza",
+            "Farès Chaïbi",
+            "Amine Gouiri"
           ],
           "away_players": [
-            "Thibaut Courtois",
-            "Thomas Meunier",
-            "Koni De Winter",
-            "Brandon Mechele",
-            "Maxim De Cuyper",
-            "Nicolas Raskin",
-            "Youri Tielemans",
-            "Alexis Saelemaekers",
-            "Kevin De Bruyne",
-            "Leandro Trossard",
-            "Romelu Lukaku"
+            "Alexander Schlager",
+            "Stefan Posch",
+            "Kevin Danso",
+            "David Alaba",
+            "Konrad Laimer",
+            "Nicolas Seiwald",
+            "Xaver Schlager",
+            "Romano Schmid",
+            "Paul Wanner",
+            "Marcel Sabitzer",
+            "Michael Gregoritsch"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Jordan",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5816.png",
+      "team2": "Argentina",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6706.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894799.png",
+      "league": "World Cup Grp. J",
+      "start": "2026-06-28T11:00:00+09:00",
+      "league_id": 894799,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=jordan",
+      "streaming_url": "https://cdn.singhs.com.np/jordan.json",
+      "event_id": 4667816,
+      "football_data": {
+        "event": {
+          "league": "World Cup Grp. J",
+          "round": 3,
+          "kick_off_time_utc": "Sun, 28 Jun 2026 02:00:00 GMT",
+          "venue": "Dallas Stadium",
+          "stadium_capacity": null,
+          "referee": "István Kovács",
+          "home_team": {
+            "name": "Jordan",
+            "id": 5816
+          },
+          "away_team": {
+            "name": "Argentina",
+            "id": 6706
+          },
+          "home_manager": "Jamal Sellami",
+          "away_manager": "Lionel Scaloni"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "away_formation": "4-1-2-3",
+          "home_players": [
+            "Yazeed Yazeed Abulaila",
+            "Abdallah Nasib",
+            "Yazan Abu Al-Arab",
+            "Husam Abu Dahab",
+            "Ehsan Haddad",
+            "Nizar Al Rashdan",
+            "Noor Al-Rawabdeh",
+            "Mohannad Abu Taha",
+            "Mousa Tamari",
+            "Mahmoud Al Mardi",
+            "Ali Iyad Olwan"
+          ],
+          "away_players": [
+            "Emiliano Martínez",
+            "Gonzalo Montiel",
+            "Nicolás Otamendi",
+            "Marcos Senesi",
+            "Nicolás Tagliafico",
+            "Rodrigo De Paul",
+            "Exequiel Palacios",
+            "Giovani Lo Celso",
+            "Giuliano Simeone",
+            "Julián Álvarez",
+            "Nicolás González"
           ],
           "home_missing_players": [],
           "away_missing_players": []
