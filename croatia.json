@@ -1,14 +1,61 @@
 {
   "events": [
     {
-      "name": "Join YoSinTV Telegram Channel",
-      "link": "https://t.me/yosintvlive"
+      "name": "All Devices - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamA1"
     },
-    "______________________________"
+    {
+      "name": "All Devices - Croatia vs Ghana",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "All Devices - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamA2"
+    },
+    {
+      "name": "All Devices - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamA3"
+    },
+    {
+      "name": "No Delay 1 - Croatia vs Ghana",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "No Delay 2 - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamA4"
+    },
+    {
+      "name": "No Delay 3 - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamA5"
+    },
+    {
+      "name": "PC/Laptop 1 - Croatia vs Ghana",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "PC/Laptop 2 - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=pc11"
+    },
+    {
+      "name": "PC/Laptop 3 - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=pc22"
+    },
+    {
+      "name": "PC/Laptop 4 - Croatia vs Ghana",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "PC/Laptop 5 - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=pc33"
+    },
+    {
+      "name": "PC/Laptop 6 - Croatia vs Ghana",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=pc44"
+    }
   ],
   "styles": {
-    "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
-    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
-    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+    "livee": "display:flex;justify-content:center;align-items:center;text-decoration:none;color:inherit;margin:5px 0;padding:10px;border:2px solid #000;border-radius:5px;cursor:pointer;transition:box-shadow .3s ease;background-color:#2e7d32;color:white;font-weight:bold;",
+    "liveeHover": "box-shadow:0 4px 8px rgba(0,0,0,.2);",
+    "liveeName": "flex:2;text-align:center;color:white;font-weight:bold;"
   }
 }
