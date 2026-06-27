@@ -1,10 +1,15 @@
 {
-  "title": "All Events",
+  "title": "All Cricket Events",
   "matches": [
     {
-      "name": " FIFA World Cup 2026: Click Here ",
-      "image": "https://images.fotmob.com/image_resources/logo/leaguelogo/77.png",
-      "link": "https://www.yosintv.net/football.html"
+      "name": " Sri Lanka vs West Indies 2026 ",
+      "image": "https://cricketvectors.akamaized.net/Series/2GF.png",
+      "link": "https://www.yosintv.net/cricket.html"
+    },
+    {
+      "name": " India vs Ireland 2026 ",
+      "image": "https://cricketvectors.akamaized.net/Series/2FN.png",
+      "link": "https://www.yosintv.net/cricket.html"
     },
     {
       "name": " All Cricket Matches: Click Here ",
