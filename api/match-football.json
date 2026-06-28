@@ -1,36 +1,36 @@
 {
   "matches": [
     {
-      "team1": "Croatia",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10155.png",
-      "team2": "Ghana",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6714.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894801.png",
-      "league": "World Cup Grp. L",
-      "start": "2026-06-28T06:00:00+09:00",
-      "league_id": 894801,
+      "team1": "South Africa",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6316.png",
+      "team2": "Canada",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5810.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-06-29T04:00:00+09:00",
+      "league_id": 894789,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=croatia",
-      "streaming_url": "https://cdn.singhs.com.np/croatia.json",
-      "event_id": 4667830,
+      "details_url": "https://web.getemoji.online/?yosintv=southafrica",
+      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
+      "event_id": 4653705,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. L",
-          "round": 3,
-          "kick_off_time_utc": "Sat, 27 Jun 2026 21:00:00 GMT",
-          "venue": "Philadelphia Stadium",
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Sun, 28 Jun 2026 19:00:00 GMT",
+          "venue": "Los Angeles Stadium",
           "stadium_capacity": null,
-          "referee": "Drew Thomas Fischer",
+          "referee": "João Pedro Silva Pinheiro",
           "home_team": {
-            "name": "Croatia",
-            "id": 10155
+            "name": "South Africa",
+            "id": 6316
           },
           "away_team": {
-            "name": "Ghana",
-            "id": 6714
+            "name": "Canada",
+            "id": 5810
           },
-          "home_manager": "Zlatko Dalic",
-          "away_manager": "Carlos Queiroz"
+          "home_manager": "Hugo Broos",
+          "away_manager": "Jesse Marsch"
         },
         "h2h": {
           "teamDuel": null,
@@ -38,32 +38,32 @@
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-1-2-3",
+          "away_formation": "4-4-2",
           "home_players": [
-            "Dominik Livakovic",
-            "Josip Stanisic",
-            "Josip Sutalo",
-            "Marin Pongracic",
-            "Josko Gvardiol",
-            "Luka Modric",
-            "Mateo Kovacic",
-            "Marco Pasalic",
-            "Martin Baturina",
-            "Ivan Perisic",
-            "Petar Musa"
+            "Ronwen Williams",
+            "Khuliso Mudau",
+            "Ime Okon",
+            "Mbekezeli Mbokazi",
+            "Aubrey Maphosa Modiba",
+            "Thalente Mbatha",
+            "Sphephelo Sithole",
+            "Thapelo Maseko",
+            "Relebohile Mofokeng",
+            "Oswin Appollis",
+            "Evidence Makgopa"
           ],
           "away_players": [
-            "Benjamin Asare",
-            "Marvin Senaya",
-            "Jonas Adjetey",
-            "Jerome Opoku",
-            "Gideon Mensah",
-            "Kwasi Sibo",
-            "Caleb Yirenkyi",
-            "Thomas Partey",
-            "Iñaki Williams",
-            "Jordan Ayew",
-            "Antoine Semenyo"
+            "Maxime Crépeau",
+            "Alistair Johnston",
+            "Luc De Fougerolles",
+            "Derek Cornelius",
+            "Richie Laryea",
+            "Tajon Buchanan",
+            "Nathan Saliba",
+            "Stephen Eustaquio",
+            "Ali Ahmed",
+            "Cyle Larin",
+            "Jonathan David"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -72,69 +72,69 @@
       }
     },
     {
-      "team1": "Panama",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5922.png",
-      "team2": "England",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894801.png",
-      "league": "World Cup Grp. L",
-      "start": "2026-06-28T06:00:00+09:00",
-      "league_id": 894801,
+      "team1": "Brazil",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8256.png",
+      "team2": "Japan",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6715.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-06-30T02:00:00+09:00",
+      "league_id": 894789,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=panama",
-      "streaming_url": "https://cdn.singhs.com.np/panama.json",
-      "event_id": 4667829,
+      "details_url": "https://web.getemoji.online/?yosintv=brazil",
+      "streaming_url": "https://cdn.singhs.com.np/brazil.json",
+      "event_id": 4653711,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. L",
-          "round": 3,
-          "kick_off_time_utc": "Sat, 27 Jun 2026 21:00:00 GMT",
-          "venue": "New York New Jersey Stadium",
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Mon, 29 Jun 2026 17:00:00 GMT",
+          "venue": "Houston Stadium",
           "stadium_capacity": null,
-          "referee": "Abdulrahman Ibrahim Al Jassim",
+          "referee": "Maurizio Mariani",
           "home_team": {
-            "name": "Panama",
-            "id": 5922
+            "name": "Brazil",
+            "id": 8256
           },
           "away_team": {
-            "name": "England",
-            "id": 8491
+            "name": "Japan",
+            "id": 6715
           },
-          "home_manager": "Thomas Christiansen",
-          "away_manager": "Thomas Tuchel"
+          "home_manager": "Carlo Ancelotti",
+          "away_manager": "Hajime Moriyasu"
         },
         "h2h": {
           "teamDuel": null,
           "managerDuel": null
         },
         "lineups": {
-          "home_formation": "5-4-1",
-          "away_formation": "4-2-3-1",
+          "home_formation": "4-1-2-3",
+          "away_formation": "3-4-2-1",
           "home_players": [
-            "Orlando Mosquera",
-            "César Blackman",
-            "Jiovany Ramos",
-            "José Córdoba",
-            "Amir Murillo",
-            "Andrés Andrade",
-            "Yoel Bárcenas",
-            "Cristian Martínez",
-            "Carlos Harvey",
-            "José Luis Rodriguez",
-            "José Fajardo"
+            "Alisson Becker",
+            "Danilo",
+            "Marquinhos",
+            "Gabriel",
+            "Douglas Santos",
+            "Casemiro",
+            "Bruno Guimarães",
+            "Lucas Paquetá",
+            "Rayan",
+            "Matheus Cunha",
+            "Vinícius Júnior"
           ],
           "away_players": [
-            "Jordan Pickford",
-            "Ezri Konsa",
-            "John Stones",
-            "Marc Guéhi",
-            "Djed Spence",
-            "Elliot Anderson",
-            "Kobbie Mainoo",
-            "Noni Madueke",
-            "Jude Bellingham",
-            "Anthony Gordon",
-            "Harry Kane"
+            "Zion Suzuki",
+            "Ayumu Seko",
+            "Ko Itakura",
+            "Hiroki Ito",
+            "Yukinari Sugawara",
+            "Ao Tanaka",
+            "Daichi Kamada",
+            "Keito Nakamura",
+            "Ritsu Doan",
+            "Daizen Maeda",
+            "Ayase Ueda"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -143,36 +143,51 @@
       }
     },
     {
-      "team1": "Colombia",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8258.png",
-      "team2": "Portugal",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8361.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894800.png",
-      "league": "World Cup Grp. K",
-      "start": "2026-06-28T08:30:00+09:00",
-      "league_id": 894800,
+      "team1": "Germany",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+      "team2": "Paraguay",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6724.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-06-30T05:30:00+09:00",
+      "league_id": 894789,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=colombia",
-      "streaming_url": "https://cdn.singhs.com.np/colombia.json",
-      "event_id": 4667823,
+      "details_url": "https://web.getemoji.online/?yosintv=germany",
+      "streaming_url": "https://cdn.singhs.com.np/germany.json",
+      "event_id": 4653703,
+      "football_data": null
+    },
+    {
+      "team1": "Netherlands",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6708.png",
+      "team2": "Morocco",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6262.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-06-30T10:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=netherlands",
+      "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
+      "event_id": 4653706,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. K",
-          "round": 3,
-          "kick_off_time_utc": "Sat, 27 Jun 2026 23:30:00 GMT",
-          "venue": "Miami Stadium",
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Tue, 30 Jun 2026 01:00:00 GMT",
+          "venue": "Monterrey Stadium",
           "stadium_capacity": null,
-          "referee": "Alireza Faghani",
+          "referee": "Wilton Sampaio",
           "home_team": {
-            "name": "Colombia",
-            "id": 8258
+            "name": "Netherlands",
+            "id": 6708
           },
           "away_team": {
-            "name": "Portugal",
-            "id": 8361
+            "name": "Morocco",
+            "id": 6262
           },
-          "home_manager": "Néstor Lorenzo",
-          "away_manager": "Roberto Martínez"
+          "home_manager": "Ronald Koeman",
+          "away_manager": "Mohamed Ouahbi"
         },
         "h2h": {
           "teamDuel": null,
@@ -182,30 +197,30 @@
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
           "home_players": [
-            "Camilo Vargas",
-            "Daniel Muñoz",
-            "Davinson Sánchez",
-            "Jhon Lucumí",
-            "Johan Mojica",
-            "Gustavo Puerta",
-            "Jefferson Lerma",
-            "Jhon Arias",
-            "James Rodríguez",
-            "Luis Suárez",
-            "Luis Díaz"
+            "Bart Verbruggen",
+            "Denzel Dumfries",
+            "Jan Paul van Hecke",
+            "Virgil van Dijk",
+            "Nathan Aké",
+            "Ryan Gravenberch",
+            "Frenkie de Jong",
+            "Tijjani Reijnders",
+            "Donyell Malen",
+            "Brian Brobbey",
+            "Cody Gakpo"
           ],
           "away_players": [
-            "Diogo Costa",
-            "João Cancelo",
-            "Rúben Dias",
-            "Renato Veiga",
-            "Nuno Mendes",
-            "João Neves",
-            "Vitinha",
-            "Pedro Neto",
-            "Bruno Fernandes",
-            "Joao Félix",
-            "Cristiano Ronaldo"
+            "Yassine Bounou",
+            "Achraf Hakimi",
+            "Redouane Halhal",
+            "Chadi Riad",
+            "Anass Salah-Eddine",
+            "Sofyan Amrabat",
+            "Neil El Aynaoui",
+            "Brahim Díaz",
+            "Ismael Saibari",
+            "Bilal El Khannouss",
+            "Ayoub El Kaabi"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -214,107 +229,36 @@
       }
     },
     {
-      "team1": "DR Congo",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6321.png",
-      "team2": "Uzbekistan",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8700.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894800.png",
-      "league": "World Cup Grp. K",
-      "start": "2026-06-28T08:30:00+09:00",
-      "league_id": 894800,
+      "team1": "Ivory Coast",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6709.png",
+      "team2": "Norway",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8492.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-01T02:00:00+09:00",
+      "league_id": 894789,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=drcongo",
-      "streaming_url": "https://cdn.singhs.com.np/drcongo.json",
-      "event_id": 4667824,
+      "details_url": "https://web.getemoji.online/?yosintv=ivorycoast",
+      "streaming_url": "https://cdn.singhs.com.np/ivorycoast.json",
+      "event_id": 4653712,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. K",
-          "round": 3,
-          "kick_off_time_utc": "Sat, 27 Jun 2026 23:30:00 GMT",
-          "venue": "Atlanta Stadium",
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Tue, 30 Jun 2026 17:00:00 GMT",
+          "venue": "Dallas Stadium",
           "stadium_capacity": null,
-          "referee": "Felix Zwayer",
+          "referee": null,
           "home_team": {
-            "name": "DR Congo",
-            "id": 6321
+            "name": "Ivory Coast",
+            "id": 6709
           },
           "away_team": {
-            "name": "Uzbekistan",
-            "id": 8700
+            "name": "Norway",
+            "id": 8492
           },
-          "home_manager": "Sébastien Desabre",
-          "away_manager": "Fabio Cannavaro"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "5-3-2",
-          "away_formation": "5-4-1",
-          "home_players": [
-            "Lionel Mpasi-Nzau",
-            "Chancel Mbemba",
-            "Axel Tuanzebe",
-            "Steve Kapuadi",
-            "Aaron Wan-Bissaka",
-            "Arthur Masuaku",
-            "Noah Sadiki",
-            "Samuel Moutoussamy",
-            "Edo Kayembe",
-            "Cédric Bakambu",
-            "Yoane Wissa"
-          ],
-          "away_players": [
-            "Abduvohid Nematov",
-            "Abdukodir Khusanov",
-            "Abdulla Abdullaev",
-            "Rustamjon Ashurmatov",
-            "Behruzjon Karimov",
-            "Sherzod Nasrulloev",
-            "Azizjon Ganiev",
-            "Odildzhon Khamrobekov",
-            "Otabek Shukurov",
-            "Abbosbek Fayzullayev",
-            "Eldor Shomurodov"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Algeria",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6317.png",
-      "team2": "Austria",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8255.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894799.png",
-      "league": "World Cup Grp. J",
-      "start": "2026-06-28T11:00:00+09:00",
-      "league_id": 894799,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=algeria",
-      "streaming_url": "https://cdn.singhs.com.np/algeria.json",
-      "event_id": 4667817,
-      "football_data": {
-        "event": {
-          "league": "World Cup Grp. J",
-          "round": 3,
-          "kick_off_time_utc": "Sun, 28 Jun 2026 02:00:00 GMT",
-          "venue": "Kansas City Stadium",
-          "stadium_capacity": null,
-          "referee": "Ilgiz Tantashev",
-          "home_team": {
-            "name": "Algeria",
-            "id": 6317
-          },
-          "away_team": {
-            "name": "Austria",
-            "id": 8255
-          },
-          "home_manager": "Vladimir Petkovic",
-          "away_manager": "Ralf Rangnick"
+          "home_manager": "Emerse Faé",
+          "away_manager": "Ståle Solbakken"
         },
         "h2h": {
           "teamDuel": null,
@@ -322,32 +266,32 @@
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
+          "away_formation": "4-3-3",
           "home_players": [
-            "Luca Zidane",
-            "Rafik Belghali",
-            "Aïssa Mandi",
-            "Ramy Bensebaini",
-            "Rayan Aït-Nouri",
-            "Nabil Bentaleb",
-            "Hicham Boudaoui",
-            "Riyad Mahrez",
-            "Ibrahim Maza",
-            "Farès Chaïbi",
-            "Amine Gouiri"
+            "Yahia Fofana",
+            "Guéla Doué",
+            "Odilon Kossounou",
+            "Ousmane Diomande",
+            "Christopher Opéri",
+            "Ibrahim Sangaré",
+            "Franck Kessié",
+            "Amad Diallo",
+            "Nicolas Pépé",
+            "Yan Diomande",
+            "Ange-Yoan Bonny"
           ],
           "away_players": [
-            "Alexander Schlager",
-            "Stefan Posch",
-            "Kevin Danso",
-            "David Alaba",
-            "Konrad Laimer",
-            "Nicolas Seiwald",
-            "Xaver Schlager",
-            "Romano Schmid",
-            "Paul Wanner",
-            "Marcel Sabitzer",
-            "Michael Gregoritsch"
+            "Egil Selvik",
+            "Fredrik Aursnes",
+            "Henrik Falchener",
+            "Leo Østigard",
+            "Fredrik André Bjørkan",
+            "Kristian Thorstvedt",
+            "Patrick Berg",
+            "Thelo Aasgaard",
+            "Oscar Bobb",
+            "Jørgen Strand Larsen",
+            "Andreas Schjelderup"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -356,69 +300,69 @@
       }
     },
     {
-      "team1": "Jordan",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5816.png",
-      "team2": "Argentina",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6706.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894799.png",
-      "league": "World Cup Grp. J",
-      "start": "2026-06-28T11:00:00+09:00",
-      "league_id": 894799,
+      "team1": "France",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6723.png",
+      "team2": "Sweden",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8520.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-01T06:00:00+09:00",
+      "league_id": 894789,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=jordan",
-      "streaming_url": "https://cdn.singhs.com.np/jordan.json",
-      "event_id": 4667816,
+      "details_url": "https://web.getemoji.online/?yosintv=france",
+      "streaming_url": "https://cdn.singhs.com.np/france.json",
+      "event_id": 4653704,
       "football_data": {
         "event": {
-          "league": "World Cup Grp. J",
-          "round": 3,
-          "kick_off_time_utc": "Sun, 28 Jun 2026 02:00:00 GMT",
-          "venue": "Dallas Stadium",
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Tue, 30 Jun 2026 21:00:00 GMT",
+          "venue": "New York New Jersey Stadium",
           "stadium_capacity": null,
-          "referee": "István Kovács",
+          "referee": null,
           "home_team": {
-            "name": "Jordan",
-            "id": 5816
+            "name": "France",
+            "id": 6723
           },
           "away_team": {
-            "name": "Argentina",
-            "id": 6706
+            "name": "Sweden",
+            "id": 8520
           },
-          "home_manager": "Jamal Sellami",
-          "away_manager": "Lionel Scaloni"
+          "home_manager": "Guy Stéphan",
+          "away_manager": "Graham Potter"
         },
         "h2h": {
           "teamDuel": null,
           "managerDuel": null
         },
         "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-1-2-3",
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-4-3",
           "home_players": [
-            "Yazeed Yazeed Abulaila",
-            "Abdallah Nasib",
-            "Yazan Abu Al-Arab",
-            "Husam Abu Dahab",
-            "Ehsan Haddad",
-            "Nizar Al Rashdan",
-            "Noor Al-Rawabdeh",
-            "Mohannad Abu Taha",
-            "Mousa Tamari",
-            "Mahmoud Al Mardi",
-            "Ali Iyad Olwan"
+            "Mike Maignan",
+            "Jules Koundé",
+            "Dayot Upamecano",
+            "Maxence Lacroix",
+            "Theo Hernández",
+            "Aurélien Tchouaméni",
+            "Kouadio Koné",
+            "Ousmane Dembélé",
+            "Michael Olise",
+            "Désiré Doué",
+            "Kylian Mbappé"
           ],
           "away_players": [
-            "Emiliano Martínez",
-            "Gonzalo Montiel",
-            "Nicolás Otamendi",
-            "Marcos Senesi",
-            "Nicolás Tagliafico",
-            "Rodrigo De Paul",
-            "Exequiel Palacios",
-            "Giovani Lo Celso",
-            "Giuliano Simeone",
-            "Julián Álvarez",
-            "Nicolás González"
+            "Jacob Widell Zetterström",
+            "Gustaf Lagerbielke",
+            "Isak Hien",
+            "Gabriel Gudmundsson",
+            "Alexander Bernhardsson",
+            "Victor Nilsson Lindelöf",
+            "Yasin Ayari",
+            "Elliot Stroud",
+            "Anthony Elanga",
+            "Viktor Gyökeres",
+            "Alexander Isak"
           ],
           "home_missing_players": [],
           "away_missing_players": []
