@@ -1,14 +1,61 @@
 {
   "events": [
     {
-      "name": "Join YoSinTV Telegram Channel",
-      "link": "https://t.me/yosintvlive"
+      "name": "All Devices - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamB1"
     },
-    "______________________________"
+    {
+      "name": "All Devices - Germany vs Paraguay",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "All Devices - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamB2"
+    },
+    {
+      "name": "All Devices - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamB3"
+    },
+    {
+      "name": "No Delay 1 - Germany vs Paraguay",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "No Delay 2 - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamB4"
+    },
+    {
+      "name": "No Delay 3 - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamB5"
+    },
+    {
+      "name": "PC/Laptop 1 - Germany vs Paraguay",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "PC/Laptop 2 - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamBPC1"
+    },
+    {
+      "name": "PC/Laptop 3 - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamBPC2"
+    },
+    {
+      "name": "PC/Laptop 4 - Germany vs Paraguay",
+      "link": "https://yosintv-api.pages.dev/api/ads"
+    },
+    {
+      "name": "PC/Laptop 5 - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamBPC3"
+    },
+    {
+      "name": "PC/Laptop 6 - Germany vs Paraguay",
+      "link": "https://redirects.pages.dev/foot.html?url=https://fancodeee.pages.dev/shaka?id=TeamBPC4"
+    }
   ],
   "styles": {
-    "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
-    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
-    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+    "livee": "display:flex;justify-content:center;align-items:center;text-decoration:none;color:inherit;margin:5px 0;padding:10px;border:2px solid #000;border-radius:5px;cursor:pointer;transition:box-shadow .3s ease;background-color:#2e7d32;color:white;font-weight:bold;",
+    "liveeHover": "box-shadow:0 4px 8px rgba(0,0,0,.2);",
+    "liveeName": "flex:2;text-align:center;color:white;font-weight:bold;"
   }
 }
