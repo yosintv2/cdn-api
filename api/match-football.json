@@ -1,234 +1,6 @@
 {
   "matches": [
     {
-      "team1": "South Africa",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6316.png",
-      "team2": "Canada",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5810.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-06-29T04:00:00+09:00",
-      "league_id": 894789,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=southafrica",
-      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
-      "event_id": 4653705,
-      "football_data": {
-        "event": {
-          "league": "World Cup",
-          "round": 1,
-          "kick_off_time_utc": "Sun, 28 Jun 2026 19:00:00 GMT",
-          "venue": "Los Angeles Stadium",
-          "stadium_capacity": null,
-          "referee": "João Pedro Silva Pinheiro",
-          "home_team": {
-            "name": "South Africa",
-            "id": 6316
-          },
-          "away_team": {
-            "name": "Canada",
-            "id": 5810
-          },
-          "home_manager": "Hugo Broos",
-          "away_manager": "Jesse Marsch"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": [
-            "Ronwen Williams",
-            "Khuliso Mudau",
-            "Ime Okon",
-            "Mbekezeli Mbokazi",
-            "Aubrey Maphosa Modiba",
-            "Thalente Mbatha",
-            "Sphephelo Sithole",
-            "Thapelo Maseko",
-            "Relebohile Mofokeng",
-            "Oswin Appollis",
-            "Evidence Makgopa"
-          ],
-          "away_players": [
-            "Maxime Crépeau",
-            "Alistair Johnston",
-            "Luc De Fougerolles",
-            "Derek Cornelius",
-            "Richie Laryea",
-            "Tajon Buchanan",
-            "Nathan Saliba",
-            "Stephen Eustaquio",
-            "Ali Ahmed",
-            "Cyle Larin",
-            "Jonathan David"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Brazil",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8256.png",
-      "team2": "Japan",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6715.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-06-30T02:00:00+09:00",
-      "league_id": 894789,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=brazil",
-      "streaming_url": "https://cdn.singhs.com.np/brazil.json",
-      "event_id": 4653711,
-      "football_data": {
-        "event": {
-          "league": "World Cup",
-          "round": 1,
-          "kick_off_time_utc": "Mon, 29 Jun 2026 17:00:00 GMT",
-          "venue": "Houston Stadium",
-          "stadium_capacity": null,
-          "referee": "Maurizio Mariani",
-          "home_team": {
-            "name": "Brazil",
-            "id": 8256
-          },
-          "away_team": {
-            "name": "Japan",
-            "id": 6715
-          },
-          "home_manager": "Carlo Ancelotti",
-          "away_manager": "Hajime Moriyasu"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-1-2-3",
-          "away_formation": "3-4-2-1",
-          "home_players": [
-            "Alisson Becker",
-            "Danilo",
-            "Marquinhos",
-            "Gabriel",
-            "Douglas Santos",
-            "Casemiro",
-            "Bruno Guimarães",
-            "Lucas Paquetá",
-            "Rayan",
-            "Matheus Cunha",
-            "Vinícius Júnior"
-          ],
-          "away_players": [
-            "Zion Suzuki",
-            "Ayumu Seko",
-            "Ko Itakura",
-            "Hiroki Ito",
-            "Yukinari Sugawara",
-            "Ao Tanaka",
-            "Daichi Kamada",
-            "Keito Nakamura",
-            "Ritsu Doan",
-            "Daizen Maeda",
-            "Ayase Ueda"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Germany",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-      "team2": "Paraguay",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6724.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-06-30T05:30:00+09:00",
-      "league_id": 894789,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=germany",
-      "streaming_url": "https://cdn.singhs.com.np/germany.json",
-      "event_id": 4653703,
-      "football_data": null
-    },
-    {
-      "team1": "Netherlands",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6708.png",
-      "team2": "Morocco",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6262.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-06-30T10:00:00+09:00",
-      "league_id": 894789,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=netherlands",
-      "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
-      "event_id": 4653706,
-      "football_data": {
-        "event": {
-          "league": "World Cup",
-          "round": 1,
-          "kick_off_time_utc": "Tue, 30 Jun 2026 01:00:00 GMT",
-          "venue": "Monterrey Stadium",
-          "stadium_capacity": null,
-          "referee": "Wilton Sampaio",
-          "home_team": {
-            "name": "Netherlands",
-            "id": 6708
-          },
-          "away_team": {
-            "name": "Morocco",
-            "id": 6262
-          },
-          "home_manager": "Ronald Koeman",
-          "away_manager": "Mohamed Ouahbi"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Bart Verbruggen",
-            "Denzel Dumfries",
-            "Jan Paul van Hecke",
-            "Virgil van Dijk",
-            "Nathan Aké",
-            "Ryan Gravenberch",
-            "Frenkie de Jong",
-            "Tijjani Reijnders",
-            "Donyell Malen",
-            "Brian Brobbey",
-            "Cody Gakpo"
-          ],
-          "away_players": [
-            "Yassine Bounou",
-            "Achraf Hakimi",
-            "Redouane Halhal",
-            "Chadi Riad",
-            "Anass Salah-Eddine",
-            "Sofyan Amrabat",
-            "Neil El Aynaoui",
-            "Brahim Díaz",
-            "Ismael Saibari",
-            "Bilal El Khannouss",
-            "Ayoub El Kaabi"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
       "team1": "Ivory Coast",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6709.png",
       "team2": "Norway",
@@ -248,7 +20,7 @@
           "kick_off_time_utc": "Tue, 30 Jun 2026 17:00:00 GMT",
           "venue": "Dallas Stadium",
           "stadium_capacity": null,
-          "referee": null,
+          "referee": "Jesús Noel Valenzuela Sáez",
           "home_team": {
             "name": "Ivory Coast",
             "id": 6709
@@ -265,33 +37,33 @@
           "managerDuel": null
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
           "home_players": [
             "Yahia Fofana",
             "Guéla Doué",
             "Odilon Kossounou",
             "Ousmane Diomande",
-            "Christopher Opéri",
-            "Ibrahim Sangaré",
+            "Ghislain Konan",
             "Franck Kessié",
+            "Ibrahim Sangaré",
+            "Christ Inao Oulaï",
             "Amad Diallo",
             "Nicolas Pépé",
-            "Yan Diomande",
-            "Ange-Yoan Bonny"
+            "Yan Diomande"
           ],
           "away_players": [
-            "Egil Selvik",
+            "Ørjan Håskjold Nyland",
             "Fredrik Aursnes",
-            "Henrik Falchener",
-            "Leo Østigard",
-            "Fredrik André Bjørkan",
-            "Kristian Thorstvedt",
+            "Kristoffer Ajer",
+            "Torbjørn Heggem",
+            "David Møller Wolfe",
+            "Sander Berge",
             "Patrick Berg",
-            "Thelo Aasgaard",
-            "Oscar Bobb",
-            "Jørgen Strand Larsen",
-            "Andreas Schjelderup"
+            "Alexander Sørloth",
+            "Martin Ødegaard",
+            "Antonio Nusa",
+            "Erling Haaland"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -319,7 +91,7 @@
           "kick_off_time_utc": "Tue, 30 Jun 2026 21:00:00 GMT",
           "venue": "New York New Jersey Stadium",
           "stadium_capacity": null,
-          "referee": null,
+          "referee": "Danny Desmond Makkelie",
           "home_team": {
             "name": "France",
             "id": 6723
@@ -328,7 +100,7 @@
             "name": "Sweden",
             "id": 8520
           },
-          "home_manager": "Guy Stéphan",
+          "home_manager": "Didier Deschamps",
           "away_manager": "Graham Potter"
         },
         "h2h": {
@@ -342,10 +114,10 @@
             "Mike Maignan",
             "Jules Koundé",
             "Dayot Upamecano",
-            "Maxence Lacroix",
+            "William Saliba",
             "Theo Hernández",
             "Aurélien Tchouaméni",
-            "Kouadio Koné",
+            "Adrien Rabiot",
             "Ousmane Dembélé",
             "Michael Olise",
             "Désiré Doué",
@@ -354,15 +126,228 @@
           "away_players": [
             "Jacob Widell Zetterström",
             "Gustaf Lagerbielke",
-            "Isak Hien",
+            "Victor Nilsson Lindelöf",
             "Gabriel Gudmundsson",
             "Alexander Bernhardsson",
-            "Victor Nilsson Lindelöf",
             "Yasin Ayari",
+            "Jesper Karlström",
             "Elliot Stroud",
             "Anthony Elanga",
             "Viktor Gyökeres",
             "Alexander Isak"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Mexico",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6710.png",
+      "team2": "Ecuador",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6707.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-01T10:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=mexico",
+      "streaming_url": "https://cdn.singhs.com.np/mexico.json",
+      "event_id": 4653713,
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Wed, 01 Jul 2026 01:00:00 GMT",
+          "venue": "Mexico City Stadium",
+          "stadium_capacity": null,
+          "referee": "Slavko Vinčić",
+          "home_team": {
+            "name": "Mexico",
+            "id": 6710
+          },
+          "away_team": {
+            "name": "Ecuador",
+            "id": 6707
+          },
+          "home_manager": "Javier Aguirre",
+          "away_manager": "Sebastián Beccacece"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-1-4-1",
+          "away_formation": "4-4-2",
+          "home_players": [
+            "Raúl Rangel",
+            "Jorge Sánchez",
+            "Edson Álvarez",
+            "Johan Vásquez",
+            "Jesús Gallardo",
+            "Érik Lira",
+            "Roberto Alvarado",
+            "Álvaro Fidalgo",
+            "Brian Gutiérrez",
+            "Julián Quiñones",
+            "Raul Jiménez"
+          ],
+          "away_players": [
+            "Hernán Galindez",
+            "Alan Franco",
+            "Joel Ordóñez",
+            "Willian Pacho",
+            "Piero Hincapié",
+            "John Yeboah",
+            "Moisés Caicedo",
+            "Pedro Vite",
+            "Nilson Angulo",
+            "Gonzalo Plata",
+            "Enner Valencia"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "England",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png",
+      "team2": "DR Congo",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6321.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-02T01:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=england",
+      "streaming_url": "https://cdn.singhs.com.np/england.json",
+      "event_id": 4653714,
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Wed, 01 Jul 2026 16:00:00 GMT",
+          "venue": "Atlanta Stadium",
+          "stadium_capacity": null,
+          "referee": "Adham Makhadmeh",
+          "home_team": {
+            "name": "England",
+            "id": 8491
+          },
+          "away_team": {
+            "name": "DR Congo",
+            "id": 6321
+          },
+          "home_manager": "Thomas Tuchel",
+          "away_manager": "Sébastien Desabre"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-4-2",
+          "home_players": [
+            "Jordan Pickford",
+            "Djed Spence",
+            "Ezri Konsa",
+            "Marc Guéhi",
+            "Nico O'Reilly",
+            "Elliot Anderson",
+            "Declan Rice",
+            "Bukayo Saka",
+            "Jude Bellingham",
+            "Marcus Rashford",
+            "Harry Kane"
+          ],
+          "away_players": [
+            "Lionel Mpasi-Nzau",
+            "Aaron Wan-Bissaka",
+            "Chancel Mbemba",
+            "Axel Tuanzebe",
+            "Arthur Masuaku",
+            "Nathanaël Mbuku",
+            "Samuel Moutoussamy",
+            "Noah Sadiki",
+            "Brian Cipenga",
+            "Yoane Wissa",
+            "Cédric Bakambu"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Belgium",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+      "team2": "Senegal",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6395.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-02T05:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://web.getemoji.online/?yosintv=belgium",
+      "streaming_url": "https://cdn.singhs.com.np/belgium.json",
+      "event_id": 4653710,
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Wed, 01 Jul 2026 20:00:00 GMT",
+          "venue": "Seattle Stadium",
+          "stadium_capacity": null,
+          "referee": "Said Martinez",
+          "home_team": {
+            "name": "Belgium",
+            "id": 8263
+          },
+          "away_team": {
+            "name": "Senegal",
+            "id": 6395
+          },
+          "home_manager": "Rudi Garcia",
+          "away_manager": "Pape Thiaw"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-3-3",
+          "home_players": [
+            "Thibaut Courtois",
+            "Timothy Castagne",
+            "Brandon Mechele",
+            "Arthur Theate",
+            "Maxim De Cuyper",
+            "Youri Tielemans",
+            "Hans Vanaken",
+            "Jérémy Doku",
+            "Kevin De Bruyne",
+            "Leandro Trossard",
+            "Charles De Ketelaere"
+          ],
+          "away_players": [
+            "Mory Diaw",
+            "Krépin Diatta",
+            "Abdoulaye Seck",
+            "Moussa Niakhaté",
+            "Ismail Jakobs",
+            "Habib Diarra",
+            "Idrissa Gana Gueye",
+            "Pape Gueye",
+            "Iliman Ndiaye",
+            "Ismaïla Sarr",
+            "Sadio Mané"
           ],
           "home_missing_players": [],
           "away_missing_players": []
