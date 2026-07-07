@@ -1,36 +1,107 @@
 {
   "matches": [
     {
-      "team1": "Brazil",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8256.png",
-      "team2": "Norway",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8492.png",
+      "team1": "Argentina",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6706.png",
+      "team2": "Egypt",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10255.png",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
       "league": "World Cup",
-      "start": "2026-07-06T05:00:00+09:00",
+      "start": "2026-07-08T01:00:00+09:00",
       "league_id": 894789,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=brazil",
-      "streaming_url": "https://cdn.singhs.com.np/brazil.json",
-      "event_id": 4653846,
+      "details_url": "https://home.getemoji.online/?yosintv=argentina",
+      "streaming_url": "https://cdn.singhs.com.np/argentina.json",
+      "event_id": 4653848,
       "football_data": {
         "event": {
           "league": "World Cup",
           "round": 1,
-          "kick_off_time_utc": "Sun, 05 Jul 2026 20:00:00 GMT",
-          "venue": "New York New Jersey Stadium",
+          "kick_off_time_utc": "Tue, 07 Jul 2026 16:00:00 GMT",
+          "venue": "Atlanta Stadium",
           "stadium_capacity": null,
-          "referee": "Ismail Elfath",
+          "referee": "François Letexier",
           "home_team": {
-            "name": "Brazil",
-            "id": 8256
+            "name": "Argentina",
+            "id": 6706
           },
           "away_team": {
-            "name": "Norway",
-            "id": 8492
+            "name": "Egypt",
+            "id": 10255
           },
-          "home_manager": "Carlo Ancelotti",
-          "away_manager": "Ståle Solbakken"
+          "home_manager": "Lionel Scaloni",
+          "away_manager": "Hossam Hassan"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-2-3-1",
+          "home_players": [
+            "Emiliano Martínez",
+            "Nahuel Molina",
+            "Cristian Romero",
+            "Lisandro Martínez",
+            "Nicolás Tagliafico",
+            "Rodrigo De Paul",
+            "Alexis Mac Allister",
+            "Enzo Fernández",
+            "Thiago Almada",
+            "Lionel Messi",
+            "Lautaro Martínez"
+          ],
+          "away_players": [
+            "Mostafa Ahmed Shobeir",
+            "Mohamed Hany",
+            "Yasser Ibrahim",
+            "Rami Rabia",
+            "Karim Hafez",
+            "Mohanad Lasheen",
+            "Marwan Ateya",
+            "Emam Ashour",
+            "Mohamed Salah",
+            "Omar Marmoush",
+            "Mostafa Ziko"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Switzerland",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6717.png",
+      "team2": "Colombia",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8258.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-08T05:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=switzerland",
+      "streaming_url": "https://cdn.singhs.com.np/switzerland.json",
+      "event_id": 4653849,
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Tue, 07 Jul 2026 20:00:00 GMT",
+          "venue": "BC Place Vancouver",
+          "stadium_capacity": null,
+          "referee": "Iván Arcides Barton Cisneros",
+          "home_team": {
+            "name": "Switzerland",
+            "id": 6717
+          },
+          "away_team": {
+            "name": "Colombia",
+            "id": 8258
+          },
+          "home_manager": "Murat Yakin",
+          "away_manager": "Néstor Lorenzo"
         },
         "h2h": {
           "teamDuel": null,
@@ -40,30 +111,30 @@
           "home_formation": "4-2-3-1",
           "away_formation": "4-3-3",
           "home_players": [
-            "Alisson Becker",
-            "Danilo",
-            "Marquinhos",
-            "Gabriel",
-            "Douglas Santos",
-            "Casemiro",
-            "Bruno Guimarães",
-            "Rayan",
-            "Gabriel Martinelli",
-            "Vinícius Júnior",
-            "Matheus Cunha"
+            "Gregor Kobel",
+            "Denis Zakaria",
+            "Nico Elvedi",
+            "Manuel Akanji",
+            "Ricardo Rodríguez",
+            "Remo Freuler",
+            "Granit Xhaka",
+            "Dan Ndoye",
+            "Johan Manzambi",
+            "Rubén Vargas",
+            "Breel Embolo"
           ],
           "away_players": [
-            "Ørjan Håskjold Nyland",
-            "Marcus Holmgren Pedersen",
-            "Kristoffer Ajer",
-            "Torbjørn Heggem",
-            "David Møller Wolfe",
-            "Martin Ødegaard",
-            "Sander Berge",
-            "Patrick Berg",
-            "Alexander Sørloth",
-            "Erling Haaland",
-            "Antonio Nusa"
+            "Camilo Vargas",
+            "Daniel Muñoz",
+            "Davinson Sánchez",
+            "Jhon Lucumí",
+            "Johan Mojica",
+            "Gustavo Puerta",
+            "Jefferson Lerma",
+            "Jhon Arias",
+            "James Rodríguez",
+            "Luis Suárez",
+            "Luis Díaz"
           ],
           "home_missing_players": [],
           "away_missing_players": []
@@ -72,107 +143,36 @@
       }
     },
     {
-      "team1": "Mexico",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6710.png",
-      "team2": "England",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png",
+      "team1": "France",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6723.png",
+      "team2": "Morocco",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6262.png",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
       "league": "World Cup",
-      "start": "2026-07-06T09:00:00+09:00",
+      "start": "2026-07-10T05:00:00+09:00",
       "league_id": 894789,
       "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=mexico",
-      "streaming_url": "https://cdn.singhs.com.np/mexico.json",
-      "event_id": 4653847,
+      "details_url": "https://home.getemoji.online/?yosintv=france",
+      "streaming_url": "https://cdn.singhs.com.np/france.json",
+      "event_id": 4653851,
       "football_data": {
         "event": {
           "league": "World Cup",
           "round": 1,
-          "kick_off_time_utc": "Mon, 06 Jul 2026 00:00:00 GMT",
-          "venue": "Mexico City Stadium",
+          "kick_off_time_utc": "Thu, 09 Jul 2026 20:00:00 GMT",
+          "venue": "Boston Stadium",
           "stadium_capacity": null,
-          "referee": "Alireza Faghani",
+          "referee": null,
           "home_team": {
-            "name": "Mexico",
-            "id": 6710
+            "name": "France",
+            "id": 6723
           },
           "away_team": {
-            "name": "England",
-            "id": 8491
+            "name": "Morocco",
+            "id": 6262
           },
-          "home_manager": "Javier Aguirre",
-          "away_manager": "Thomas Tuchel"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Raúl Rangel",
-            "Jorge Sánchez",
-            "César Montes",
-            "Johan Vásquez",
-            "Jesús Gallardo",
-            "Gilberto Mora",
-            "Érik Lira",
-            "Luis Romo",
-            "Roberto Alvarado",
-            "Raul Jiménez",
-            "Julián Quiñones"
-          ],
-          "away_players": [
-            "Jordan Pickford",
-            "Djed Spence",
-            "Ezri Konsa",
-            "Marc Guéhi",
-            "Nico O'Reilly",
-            "Elliot Anderson",
-            "Declan Rice",
-            "Bukayo Saka",
-            "Jude Bellingham",
-            "Anthony Gordon",
-            "Harry Kane"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Portugal",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8361.png",
-      "team2": "Spain",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-07-07T04:00:00+09:00",
-      "league_id": 894789,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=portugal",
-      "streaming_url": "https://cdn.singhs.com.np/portugal.json",
-      "event_id": 4653844,
-      "football_data": {
-        "event": {
-          "league": "World Cup",
-          "round": 1,
-          "kick_off_time_utc": "Mon, 06 Jul 2026 19:00:00 GMT",
-          "venue": "Dallas Stadium",
-          "stadium_capacity": null,
-          "referee": "Anthony Taylor",
-          "home_team": {
-            "name": "Portugal",
-            "id": 8361
-          },
-          "away_team": {
-            "name": "Spain",
-            "id": 6720
-          },
-          "home_manager": "Roberto Martínez",
-          "away_manager": "Luis de la Fuente"
+          "home_manager": "Didier Deschamps",
+          "away_manager": "Mohamed Ouahbi"
         },
         "h2h": {
           "teamDuel": null,
@@ -182,19 +182,77 @@
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
           "home_players": [
-            "Diogo Costa",
-            "João Cancelo",
-            "Rúben Dias",
-            "Renato Veiga",
-            "Nuno Mendes",
-            "João Neves",
-            "Vitinha",
-            "Pedro Neto",
-            "Bruno Fernandes",
-            "Rafael Leão",
-            "Cristiano Ronaldo"
+            "Mike Maignan",
+            "Jules Koundé",
+            "Dayot Upamecano",
+            "William Saliba",
+            "Lucas Digne",
+            "Kouadio Koné",
+            "Adrien Rabiot",
+            "Ousmane Dembélé",
+            "Michael Olise",
+            "Bradley Barcola",
+            "Kylian Mbappé"
           ],
           "away_players": [
+            "Yassine Bounou",
+            "Achraf Hakimi",
+            "Issa Diop",
+            "Redouane Halhal",
+            "Noussair Mazraoui",
+            "Neil El Aynaoui",
+            "Ayyoub Bouaddi",
+            "Brahim Díaz",
+            "Azzedine Ounahi",
+            "Bilal El Khannouss",
+            "Ismael Saibari"
+          ],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Spain",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+      "team2": "Belgium",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-11T04:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=spain",
+      "streaming_url": "https://cdn.singhs.com.np/spain.json",
+      "event_id": 4653853,
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": 1,
+          "kick_off_time_utc": "Fri, 10 Jul 2026 19:00:00 GMT",
+          "venue": "Los Angeles Stadium",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Spain",
+            "id": 6720
+          },
+          "away_team": {
+            "name": "Belgium",
+            "id": 8263
+          },
+          "home_manager": "Luis de la Fuente",
+          "away_manager": "Rudi Garcia"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": [
             "Unai Simón",
             "Pedro Porro",
             "Pau Cubarsí",
@@ -207,75 +265,17 @@
             "Álex Baena",
             "Mikel Oyarzabal"
           ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "USA",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6713.png",
-      "team2": "Belgium",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-07-07T09:00:00+09:00",
-      "league_id": 894789,
-      "duration": 2.2,
-      "details_url": "https://web.getemoji.online/?yosintv=usa",
-      "streaming_url": "https://cdn.singhs.com.np/usa.json",
-      "event_id": 4653845,
-      "football_data": {
-        "event": {
-          "league": "World Cup",
-          "round": 1,
-          "kick_off_time_utc": "Tue, 07 Jul 2026 00:00:00 GMT",
-          "venue": "Seattle Stadium",
-          "stadium_capacity": null,
-          "referee": "Adham Mohammad Tumah Makhadmeh",
-          "home_team": {
-            "name": "USA",
-            "id": 6713
-          },
-          "away_team": {
-            "name": "Belgium",
-            "id": 8263
-          },
-          "home_manager": "Mauricio Pochettino",
-          "away_manager": "Rudi Garcia"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Matt Freese",
-            "Alex Freeman",
-            "Chris Richards",
-            "Tim Ream",
-            "Antonee Robinson",
-            "Weston McKennie",
-            "Tyler Adams",
-            "Malik Tillman",
-            "Sergiño Dest",
-            "Ricardo Pepi",
-            "Christian Pulisic"
-          ],
           "away_players": [
             "Thibaut Courtois",
             "Timothy Castagne",
+            "Nathan Ngoy",
             "Brandon Mechele",
-            "Arthur Theate",
             "Maxim De Cuyper",
+            "Amadou Onana",
+            "Nicolas Raskin",
+            "Dodi Lukébakio",
             "Youri Tielemans",
-            "Hans Vanaken",
             "Leandro Trossard",
-            "Kevin De Bruyne",
-            "Jérémy Doku",
             "Charles De Ketelaere"
           ],
           "home_missing_players": [],
