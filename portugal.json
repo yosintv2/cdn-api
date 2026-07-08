@@ -1,73 +1,14 @@
 {
   "events": [
     {
-      "name": "All Devices - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamA1"
+      "name": "Join YoSinTV Telegram Channel",
+      "link": "https://t.me/yosintvlive"
     },
-    {
-      "name": "All Devices - Portugal vs Spain",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "All Devices - Portugal vs Spain",
-      "link": "https://play9.hls-player.net/ft?src=https://cr7world.pages.dev/shaka?id=TeamA2"
-    },
-    {
-      "name": "All Devices - Portugal vs Spain",
-      "link": "https://play9.hls-player.net/ft?src=https://cr7world.pages.dev/shaka?id=TeamA3"
-    },
-    {
-      "name": "No Delay 1 - Portugal vs Spain",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "No Delay 2 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamA4"
-    },
-    {
-      "name": "No Delay 3 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamA5"
-    },
-    {
-      "name": "English 1 - Portugal vs Spain",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "English 2 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC1"
-    },
-    {
-      "name": "English 3 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC2"
-    },
-    {
-      "name": "PC/Laptop 1 - Portugal vs Spain",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "PC/Laptop 2 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC3"
-    },
-    {
-      "name": "PC/Laptop 3 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC4"
-    },
-    {
-      "name": "PC/Laptop 4 - Portugal vs Spain",
-      "link": "https://yosintv-api.pages.dev/api/ads"
-    },
-    {
-      "name": "PC/Laptop 5 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC5"
-    },
-    {
-      "name": "PC/Laptop 6 - Portugal vs Spain",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC6"
-    }
+    "______________________________"
   ],
   "styles": {
-    "livee": "display:flex;justify-content:center;align-items:center;text-decoration:none;color:inherit;margin:5px 0;padding:10px;border:2px solid #000;border-radius:5px;cursor:pointer;transition:box-shadow .3s ease;background-color:#2e7d32;color:white;font-weight:bold;",
-    "liveeHover": "box-shadow:0 4px 8px rgba(0,0,0,.2);",
-    "liveeName": "flex:2;text-align:center;color:white;font-weight:bold;"
+    "livee": "display: flex; justify-content: center; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 10px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: #2e7d32; color: white;font-weight: bold;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
   }
 }
