@@ -2,7 +2,7 @@
   "events": [
     {
       "name": "All Devices - France vs Morocco",
-      "link": "https://www.footem.co/?src=https://cr7world.pages.dev/shaka?id=TeamA1"
+      "link": "https://www.footem.co/bundesliga/?src=https://cr7world.pages.dev/shaka?id=TeamA1"
     },
     {
       "name": "All Devices - France vs Morocco",
@@ -14,7 +14,7 @@
     },
     {
       "name": "All Devices - France vs Morocco",
-      "link": "https://play8.hls-player.net/ft?src=https://cr7world.pages.dev/shaka?id=TeamA3"
+      "link": "http://www.footem.co/serie-a/?src=https://cr7world.pages.dev/shaka?id=TeamA3"
     },
     {
       "name": "No Delay 1 - France vs Morocco",
@@ -22,11 +22,11 @@
     },
     {
       "name": "No Delay 2 - France vs Morocco",
-      "link": "https://play8.hls-player.net/ft?src=https://cr7world.pages.dev/shaka?id=TeamA4"
+      "link": "http://www.footem.co/serie-a/?src=https://cr7world.pages.dev/shaka?id=TeamA4"
     },
     {
       "name": "No Delay 3 - France vs Morocco",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamA5"
+      "link": "https://www.footem.co/bundesliga/?src=https://cr7world.pages.dev/shaka?id=TeamA5"
     },
     {
       "name": "PC/Laptop 1 - France vs Morocco",
@@ -34,11 +34,11 @@
     },
     {
       "name": "PC/Laptop 2 - France vs Morocco",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC1"
+      "link": "https://www.footem.co/ligue-1/?src=https://cr7world.pages.dev/shaka?id=TeamAPC1"
     },
     {
       "name": "PC/Laptop 3 - France vs Morocco",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC2"
+      "link": "http://www.footem.co/laliga/?src=https://cr7world.pages.dev/shaka?id=TeamAPC2"
     },
     {
       "name": "PC/Laptop 4 - France vs Morocco",
@@ -46,11 +46,11 @@
     },
     {
       "name": "PC/Laptop 2 - France vs Morocco",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC3"
+      "link": "http://www.footem.co/laliga/?src=https://cr7world.pages.dev/shaka?id=TeamAPC3"
     },
     {
       "name": "PC/Laptop 3 - France vs Morocco",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC4"
+      "link": "https://www.footem.co/premier-league/?src=https://cr7world.pages.dev/shaka?id=TeamAPC4"
     },
     {
       "name": "PC/Laptop 4 - France vs Morocco",
@@ -58,11 +58,11 @@
     },
     {
       "name": "PC/Laptop 5 - France vs Morocco",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC5"
+      "link": "http://www.footem.co/serie-a/?src=https://cr7world.pages.dev/shaka?id=TeamAPC5"
     },
     {
       "name": "PC/Laptop 6 - France vs Morocco",
-      "link": "https://redirects.pages.dev/foot.html?url=https://cr7world.pages.dev/shaka?id=TeamAPC6"
+      "link": "http://www.footem.co/laliga/?src=https://cr7world.pages.dev/shaka?id=TeamAPC6"
     }
   ],
   "styles": {
