@@ -1,70 +1,46 @@
 {
   "matches": [
     {
-      "team1": "France",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6723.png",
-      "team2": "Spain",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-07-15T04:00:00+09:00",
-      "league_id": 894789,
+      "team1": "Newcastle",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
+      "team2": "Darlington",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8598.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-18T21:00:00+09:00",
+      "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=france",
-      "streaming_url": "https://cdn.singhs.com.np/france.json",
-      "event_id": 4653855,
+      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
+      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
+      "event_id": 5898823,
       "football_data": {
         "event": {
-          "league": "World Cup",
-          "round": 1,
-          "kick_off_time_utc": "Tue, 14 Jul 2026 19:00:00 GMT",
-          "venue": "Dallas Stadium",
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 12:00:00 GMT",
+          "venue": null,
           "stadium_capacity": null,
           "referee": null,
           "home_team": {
-            "name": "France",
-            "id": 6723
+            "name": "Newcastle United",
+            "id": 10261
           },
           "away_team": {
-            "name": "Spain",
-            "id": 6720
+            "name": "Darlington",
+            "id": 8598
           },
-          "home_manager": "Didier Deschamps",
-          "away_manager": "Luis de la Fuente"
+          "home_manager": null,
+          "away_manager": null
         },
         "h2h": {
           "teamDuel": null,
           "managerDuel": null
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Mike Maignan",
-            "Jules Koundé",
-            "Dayot Upamecano",
-            "William Saliba",
-            "Lucas Digne",
-            "Kouadio Koné",
-            "Adrien Rabiot",
-            "Ousmane Dembélé",
-            "Michael Olise",
-            "Désiré Doué",
-            "Kylian Mbappé"
-          ],
-          "away_players": [
-            "Unai Simón",
-            "Pedro Porro",
-            "Pau Cubarsí",
-            "Aymeric Laporte",
-            "Marc Cucurella",
-            "Rodri",
-            "Fabián Ruiz",
-            "Lamine Yamal",
-            "Dani Olmo",
-            "Álex Baena",
-            "Mikel Oyarzabal"
-          ],
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
           "home_missing_players": [],
           "away_missing_players": []
         },
@@ -72,75 +48,143 @@
       }
     },
     {
-      "team1": "England",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png",
-      "team2": "Argentina",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6706.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-07-16T04:00:00+09:00",
-      "league_id": 894789,
+      "team1": "Dundee FC",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8284.png",
+      "team2": "Everton",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8668.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-18T22:00:00+09:00",
+      "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=england",
-      "streaming_url": "https://cdn.singhs.com.np/england.json",
-      "event_id": 4653856,
+      "details_url": "https://home.getemoji.online/?yosintv=dundeefc",
+      "streaming_url": "https://cdn.singhs.com.np/dundeefc.json",
+      "event_id": 5853428,
+      "football_data": null
+    },
+    {
+      "team1": "Basel",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9931.png",
+      "team2": "Juventus",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9885.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-18T22:30:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=basel",
+      "streaming_url": "https://cdn.singhs.com.np/basel.json",
+      "event_id": 5769579,
+      "football_data": null
+    },
+    {
+      "team1": "Man United",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
+      "team2": "Wrexham",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9841.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-19T00:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=manunited",
+      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
+      "event_id": 5449681,
       "football_data": {
         "event": {
-          "league": "World Cup",
-          "round": 1,
-          "kick_off_time_utc": "Wed, 15 Jul 2026 19:00:00 GMT",
-          "venue": "Atlanta Stadium",
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 15:00:00 GMT",
+          "venue": "Helsingin olympiastadion",
           "stadium_capacity": null,
           "referee": null,
           "home_team": {
-            "name": "England",
-            "id": 8491
+            "name": "Manchester United",
+            "id": 10260
           },
           "away_team": {
-            "name": "Argentina",
-            "id": 6706
+            "name": "Wrexham",
+            "id": 9841
           },
-          "home_manager": "Thomas Tuchel",
-          "away_manager": "Lionel Scaloni"
+          "home_manager": null,
+          "away_manager": null
         },
         "h2h": {
           "teamDuel": null,
           "managerDuel": null
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-1-2-1-2",
-          "home_players": [
-            "Jordan Pickford",
-            "Ezri Konsa",
-            "John Stones",
-            "Marc Guéhi",
-            "Nico O'Reilly",
-            "Declan Rice",
-            "Elliot Anderson",
-            "Noni Madueke",
-            "Jude Bellingham",
-            "Anthony Gordon",
-            "Harry Kane"
-          ],
-          "away_players": [
-            "Emiliano Martínez",
-            "Nahuel Molina",
-            "Cristian Romero",
-            "Lisandro Martínez",
-            "Nicolás Tagliafico",
-            "Leandro Paredes",
-            "Rodrigo De Paul",
-            "Alexis Mac Allister",
-            "Enzo Fernández",
-            "Lionel Messi",
-            "Julián Álvarez"
-          ],
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
           "home_missing_players": [],
           "away_missing_players": []
         },
         "pregame_form": null
       }
+    },
+    {
+      "team1": "France",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6723.png",
+      "team2": "England",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-19T06:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=france",
+      "streaming_url": "https://cdn.singhs.com.np/france.json",
+      "event_id": 4653857,
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": "bronze",
+          "kick_off_time_utc": "Sat, 18 Jul 2026 21:00:00 GMT",
+          "venue": "Miami Stadium",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "France",
+            "id": 6723
+          },
+          "away_team": {
+            "name": "England",
+            "id": 8491
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Spain",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+      "team2": "Argentina",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6706.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-20T04:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=spain",
+      "streaming_url": "https://cdn.singhs.com.np/spain.json",
+      "event_id": 4653858,
+      "football_data": null
     }
   ]
 }
