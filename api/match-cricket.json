@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "team1": "England",
-      "team2": "India",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/england.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/india.png",
-      "league": "India in England, 3 ODI Series, 2026",
-      "start": "2026-07-14T10:00Z",
-      "duration": 8,
-      "details_url": "https://home.getemoji.online/?yosintv=india",
-      "streaming_url": "https://cdn.singhs.com.np/india.json",
-      "event_id": "264917",
-      "cricket_data": null,
-      "status": "pre",
-      "statusDesc": "Scheduled"
-    },
-    {
       "team1": "Zimbabwe",
       "team2": "Bangladesh",
       "team1_logo": "https://aimages.willow.tv/teamLogos/zimbabwe.png",
