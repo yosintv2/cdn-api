@@ -1,6 +1,53 @@
 {
   "matches": [
     {
+      "team1": "Benfica",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9772.png",
+      "team2": "Villarreal",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-18T03:45:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5793440,
+      "football_data": {
+        "event": {
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Fri, 17 Jul 2026 18:45:00 GMT",
+          "venue": "Estádio do Algarve",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Benfica",
+            "id": 9772
+          },
+          "away_team": {
+            "name": "Villarreal",
+            "id": 10205
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
       "team1": "Newcastle",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
       "team2": "Darlington",
