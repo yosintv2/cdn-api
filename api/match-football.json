@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "team1": "Benfica",
+      "team1": "Benficaa",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9772.png",
       "team2": "Villarreal",
       "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
@@ -75,6 +75,53 @@
           "away_team": {
             "name": "Darlington",
             "id": 8598
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Vietnam",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5894.png",
+      "team2": "Myanmar",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8307.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/914609.png",
+      "league": "Friendlies",
+      "start": "2026-07-18T21:00:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=vietnam",
+      "streaming_url": "https://cdn.singhs.com.np/vietnam.json",
+      "event_id": 5924775,
+      "football_data": {
+        "event": {
+          "league": "Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 12:00:00 GMT",
+          "venue": "Sân vận động Thái Nguyên",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Vietnam",
+            "id": 5894
+          },
+          "away_team": {
+            "name": "Myanmar",
+            "id": 8307
           },
           "home_manager": null,
           "away_manager": null
