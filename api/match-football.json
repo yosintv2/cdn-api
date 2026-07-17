@@ -48,130 +48,6 @@
       }
     },
     {
-      "team1": "Newcastle",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
-      "team2": "Darlington",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8598.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-18T21:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
-      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
-      "event_id": 5898823,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 12:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Newcastle United",
-            "id": 10261
-          },
-          "away_team": {
-            "name": "Darlington",
-            "id": 8598
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Vietnam",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5894.png",
-      "team2": "Myanmar",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8307.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/914609.png",
-      "league": "Friendlies",
-      "start": "2026-07-18T21:00:00+09:00",
-      "league_id": 914609,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=vietnam",
-      "streaming_url": "https://cdn.singhs.com.np/vietnam.json",
-      "event_id": 5924775,
-      "football_data": {
-        "event": {
-          "league": "Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 12:00:00 GMT",
-          "venue": "Sân vận động Thái Nguyên",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Vietnam",
-            "id": 5894
-          },
-          "away_team": {
-            "name": "Myanmar",
-            "id": 8307
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Dundee FC",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8284.png",
-      "team2": "Everton",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8668.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-18T22:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dundeefc",
-      "streaming_url": "https://cdn.singhs.com.np/dundeefc.json",
-      "event_id": 5853428,
-      "football_data": null
-    },
-    {
-      "team1": "Basel",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9931.png",
-      "team2": "Juventus",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9885.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-18T22:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=basel",
-      "streaming_url": "https://cdn.singhs.com.np/basel.json",
-      "event_id": 5769579,
-      "football_data": null
-    },
-    {
       "team1": "Man United",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
       "team2": "Wrexham",
@@ -238,7 +114,7 @@
           "kick_off_time_utc": "Sat, 18 Jul 2026 21:00:00 GMT",
           "venue": "Miami Stadium",
           "stadium_capacity": null,
-          "referee": null,
+          "referee": "Jesus Valenzuela",
           "home_team": {
             "name": "France",
             "id": 6723
@@ -247,18 +123,18 @@
             "name": "England",
             "id": 8491
           },
-          "home_manager": null,
-          "away_manager": null
+          "home_manager": "Didier Deschamps",
+          "away_manager": "Thomas Tuchel"
         },
         "h2h": {
           "teamDuel": null,
           "managerDuel": null
         },
         "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Mike Maignan", "Malo Gusto", "Ibrahima Konaté", "Maxence Lacroix", "Theo Hernández", "Warren Zaïre-Emery", "N'Golo Kanté", "Ousmane Dembélé", "Rayan Cherki", "Désiré Doué", "Kylian Mbappé"],
+          "away_players": ["Jordan Pickford", "Jarell Quansah", "Ezri Konsa", "Marc Guéhi", "Djed Spence", "Elliot Anderson", "Jude Bellingham", "Noni Madueke", "Morgan Rogers", "Marcus Rashford", "Harry Kane"],
           "home_missing_players": [],
           "away_missing_players": []
         },
@@ -278,7 +154,39 @@
       "details_url": "https://home.getemoji.online/?yosintv=spain",
       "streaming_url": "https://cdn.singhs.com.np/spain.json",
       "event_id": 4653858,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": "final",
+          "kick_off_time_utc": "Sun, 19 Jul 2026 19:00:00 GMT",
+          "venue": "New York New Jersey Stadium",
+          "stadium_capacity": null,
+          "referee": "Slavko Vincic",
+          "home_team": {
+            "name": "Spain",
+            "id": 6720
+          },
+          "away_team": {
+            "name": "Argentina",
+            "id": 6706
+          },
+          "home_manager": "Luis de la Fuente",
+          "away_manager": "Lionel Scaloni"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-4-2",
+          "home_players": ["Unai Simón", "Pedro Porro", "Pau Cubarsí", "Aymeric Laporte", "Marc Cucurella", "Rodri", "Fabián Ruiz", "Lamine Yamal", "Dani Olmo", "Álex Baena", "Mikel Oyarzabal"],
+          "away_players": ["Emiliano Martínez", "Nahuel Molina", "Cristian Romero", "Lisandro Martínez", "Nicolás Tagliafico", "Giuliano Simeone", "Enzo Fernández", "Leandro Paredes", "Alexis Mac Allister", "Lionel Messi", "Julián Álvarez"],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
     }
   ]
 }
