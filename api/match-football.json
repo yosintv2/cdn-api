@@ -1,102 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Basel",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9931.png",
-      "team2": "Juventus",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9885.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-18T22:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=juventus",
-      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
-      "event_id": 5769579,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 13:30:00 GMT",
-          "venue": "St. Jakob-Park",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Basel",
-            "id": 9931
-          },
-          "away_team": {
-            "name": "Juventus",
-            "id": 9885
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Notts County",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9819.png",
-      "team2": "Nottm Forest",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10203.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-18T23:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
-      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
-      "event_id": 5899092,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 14:00:00 GMT",
-          "venue": "Meadow Lane",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Notts County",
-            "id": 9819
-          },
-          "away_team": {
-            "name": "Nottingham Forest",
-            "id": 10203
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["James Belshaw", "James Gibbons", "Lucas Ness", "Jacob Bedeau", "Maziar Kouhyar", "Max Sanders", "Scott Robertson", "Emile Acquah", "Callum Roberts", "Matthew Baker", "Lee Ndlovu"],
-          "away_players": ["Matz Sels", "Ola Aina", "Nikola Milenkovic", "Morato", "Neco Williams", "Jair Cunha", "Ryan Yates", "Omari Hutchinson", "James McAtee", "Morgan Gibbs-White", "Igor Jesus"],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      },
-      "pushed": true
-    },
-    {
       "team1": "Man United",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
       "team2": "Wrexham",
@@ -193,6 +97,53 @@
       "pushed": true
     },
     {
+      "team1": "Braga",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10264.png",
+      "team2": "Celta Vigo",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-19T03:30:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=braga",
+      "streaming_url": "https://cdn.singhs.com.np/braga.json",
+      "event_id": 5900324,
+      "football_data": {
+        "event": {
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 18:30:00 GMT",
+          "venue": "Estádio Municipal de Braga",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Braga",
+            "id": 10264
+          },
+          "away_team": {
+            "name": "Celta Vigo",
+            "id": 9910
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
       "team1": "France",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6723.png",
       "team2": "England",
@@ -285,7 +236,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     }
   ]
 }
