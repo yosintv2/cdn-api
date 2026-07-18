@@ -97,53 +97,6 @@
       "pushed": true
     },
     {
-      "team1": "Braga",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10264.png",
-      "team2": "Celta Vigo",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-19T03:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=braga",
-      "streaming_url": "https://cdn.singhs.com.np/braga.json",
-      "event_id": 5900324,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 18:30:00 GMT",
-          "venue": "Estádio Municipal de Braga",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Braga",
-            "id": 10264
-          },
-          "away_team": {
-            "name": "Celta Vigo",
-            "id": 9910
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
       "team1": "France",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6723.png",
       "team2": "England",
