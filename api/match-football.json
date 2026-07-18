@@ -1,33 +1,127 @@
 {
   "matches": [
     {
-      "team1": "Benfica",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9772.png",
-      "team2": "Villarreal",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
+      "team1": "Newcastle",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
+      "team2": "Darlington",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8598.png",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-07-18T03:45:00+09:00",
+      "start": "2026-07-18T21:00:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=benfica",
-      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
-      "event_id": 5793440,
+      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
+      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
+      "event_id": 5898823,
       "football_data": {
         "event": {
           "league": "Club Friendlies",
           "round": null,
-          "kick_off_time_utc": "Fri, 17 Jul 2026 18:45:00 GMT",
-          "venue": "Estádio do Algarve",
+          "kick_off_time_utc": "Sat, 18 Jul 2026 12:00:00 GMT",
+          "venue": null,
           "stadium_capacity": null,
           "referee": null,
           "home_team": {
-            "name": "Benfica",
-            "id": 9772
+            "name": "Newcastle United",
+            "id": 10261
           },
           "away_team": {
-            "name": "Villarreal",
-            "id": 10205
+            "name": "Darlington",
+            "id": 8598
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Dundee FC",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8284.png",
+      "team2": "Everton",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8668.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-18T22:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=dundeefc",
+      "streaming_url": "https://cdn.singhs.com.np/dundeefc.json",
+      "event_id": 5853428,
+      "football_data": {
+        "event": {
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 13:00:00 GMT",
+          "venue": "Dens Park",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Dundee FC",
+            "id": 8284
+          },
+          "away_team": {
+            "name": "Everton",
+            "id": 8668
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Basel",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9931.png",
+      "team2": "Juventus",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9885.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-18T22:30:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=basel",
+      "streaming_url": "https://cdn.singhs.com.np/basel.json",
+      "event_id": 5769579,
+      "football_data": {
+        "event": {
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 13:30:00 GMT",
+          "venue": "St. Jakob-Park",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Basel",
+            "id": 9931
+          },
+          "away_team": {
+            "name": "Juventus",
+            "id": 9885
           },
           "home_manager": null,
           "away_manager": null
@@ -92,7 +186,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "France",
@@ -139,7 +234,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Spain",
@@ -186,7 +282,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     }
   ]
 }
