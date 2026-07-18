@@ -1,33 +1,33 @@
 {
   "matches": [
     {
-      "team1": "Man United",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
-      "team2": "Wrexham",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9841.png",
+      "team1": "Braga",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10264.png",
+      "team2": "Celta Vigo",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-07-19T00:00:00+09:00",
+      "start": "2026-07-19T03:30:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=manunited",
-      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
-      "event_id": 5449681,
+      "details_url": "https://home.getemoji.online/?yosintv=braga",
+      "streaming_url": "https://cdn.singhs.com.np/braga.json",
+      "event_id": 5900324,
       "football_data": {
         "event": {
           "league": "Club Friendlies",
           "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 15:00:00 GMT",
-          "venue": "Helsingin olympiastadion",
+          "kick_off_time_utc": "Sat, 18 Jul 2026 18:30:00 GMT",
+          "venue": "Estádio Municipal de Braga",
           "stadium_capacity": null,
           "referee": null,
           "home_team": {
-            "name": "Manchester United",
-            "id": 10260
+            "name": "Braga",
+            "id": 10264
           },
           "away_team": {
-            "name": "Wrexham",
-            "id": 9841
+            "name": "Celta Vigo",
+            "id": 9910
           },
           "home_manager": null,
           "away_manager": null
@@ -45,56 +45,7 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Oberhausen",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7782.png",
-      "team2": "Dortmund",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9789.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-19T00:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
-      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
-      "event_id": 5765420,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 15:00:00 GMT",
-          "venue": "Stadion Niederrhein",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Oberhausen",
-            "id": 7782
-          },
-          "away_team": {
-            "name": "Borussia Dortmund",
-            "id": 9789
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      },
-      "pushed": true
+      }
     },
     {
       "team1": "France",
