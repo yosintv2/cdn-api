@@ -1,100 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Newcastle",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
-      "team2": "Darlington",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8598.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-18T21:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
-      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
-      "event_id": 5898823,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 12:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Newcastle United",
-            "id": 10261
-          },
-          "away_team": {
-            "name": "Darlington",
-            "id": 8598
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Dundee FC",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8284.png",
-      "team2": "Everton",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8668.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-18T22:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dundeefc",
-      "streaming_url": "https://cdn.singhs.com.np/dundeefc.json",
-      "event_id": 5853428,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Sat, 18 Jul 2026 13:00:00 GMT",
-          "venue": "Dens Park",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Dundee FC",
-            "id": 8284
-          },
-          "away_team": {
-            "name": "Everton",
-            "id": 8668
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
       "team1": "Basel",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9931.png",
       "team2": "Juventus",
@@ -104,8 +10,8 @@
       "start": "2026-07-18T22:30:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=basel",
-      "streaming_url": "https://cdn.singhs.com.np/basel.json",
+      "details_url": "https://home.getemoji.online/?yosintv=juventus",
+      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
       "event_id": 5769579,
       "football_data": {
         "event": {
@@ -135,6 +41,53 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
+    },
+    {
+      "team1": "Notts County",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9819.png",
+      "team2": "Nottm Forest",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10203.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-18T23:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
+      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
+      "event_id": 5899092,
+      "football_data": {
+        "event": {
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 14:00:00 GMT",
+          "venue": "Meadow Lane",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Notts County",
+            "id": 9819
+          },
+          "away_team": {
+            "name": "Nottingham Forest",
+            "id": 10203
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["James Belshaw", "James Gibbons", "Lucas Ness", "Jacob Bedeau", "Maziar Kouhyar", "Max Sanders", "Scott Robertson", "Emile Acquah", "Callum Roberts", "Matthew Baker", "Lee Ndlovu"],
+          "away_players": ["Matz Sels", "Ola Aina", "Nikola Milenkovic", "Morato", "Neco Williams", "Jair Cunha", "Ryan Yates", "Omari Hutchinson", "James McAtee", "Morgan Gibbs-White", "Igor Jesus"],
           "home_missing_players": [],
           "away_missing_players": []
         },
@@ -186,8 +139,54 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      },
-      "pushed": true
+      }
+    },
+    {
+      "team1": "Oberhausen",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7782.png",
+      "team2": "Dortmund",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9789.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-19T00:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
+      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
+      "event_id": 5765420,
+      "football_data": {
+        "event": {
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Sat, 18 Jul 2026 15:00:00 GMT",
+          "venue": "Stadion Niederrhein",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Oberhausen",
+            "id": 7782
+          },
+          "away_team": {
+            "name": "Borussia Dortmund",
+            "id": 9789
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      }
     },
     {
       "team1": "France",
@@ -234,56 +233,7 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Spain",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
-      "team2": "Argentina",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6706.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
-      "league": "World Cup",
-      "start": "2026-07-20T04:00:00+09:00",
-      "league_id": 894789,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=spain",
-      "streaming_url": "https://cdn.singhs.com.np/spain.json",
-      "event_id": 4653858,
-      "football_data": {
-        "event": {
-          "league": "World Cup",
-          "round": "final",
-          "kick_off_time_utc": "Sun, 19 Jul 2026 19:00:00 GMT",
-          "venue": "New York New Jersey Stadium",
-          "stadium_capacity": null,
-          "referee": "Slavko Vincic",
-          "home_team": {
-            "name": "Spain",
-            "id": 6720
-          },
-          "away_team": {
-            "name": "Argentina",
-            "id": 6706
-          },
-          "home_manager": "Luis de la Fuente",
-          "away_manager": "Lionel Scaloni"
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": ["Unai Simón", "Pedro Porro", "Pau Cubarsí", "Aymeric Laporte", "Marc Cucurella", "Rodri", "Fabián Ruiz", "Lamine Yamal", "Dani Olmo", "Álex Baena", "Mikel Oyarzabal"],
-          "away_players": ["Emiliano Martínez", "Nahuel Molina", "Cristian Romero", "Lisandro Martínez", "Nicolás Tagliafico", "Giuliano Simeone", "Enzo Fernández", "Leandro Paredes", "Alexis Mac Allister", "Lionel Messi", "Julián Álvarez"],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      },
-      "pushed": true
+      }
     }
   ]
 }
