@@ -45,7 +45,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Notts County",
@@ -92,7 +93,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Man United",
@@ -139,7 +141,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Oberhausen",
@@ -186,7 +189,8 @@
           "away_missing_players": []
         },
         "pregame_form": null
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "France",
@@ -229,6 +233,54 @@
           "away_formation": "4-2-3-1",
           "home_players": ["Mike Maignan", "Malo Gusto", "Ibrahima Konaté", "Maxence Lacroix", "Theo Hernández", "Warren Zaïre-Emery", "N'Golo Kanté", "Ousmane Dembélé", "Rayan Cherki", "Désiré Doué", "Kylian Mbappé"],
           "away_players": ["Jordan Pickford", "Jarell Quansah", "Ezri Konsa", "Marc Guéhi", "Djed Spence", "Elliot Anderson", "Jude Bellingham", "Noni Madueke", "Morgan Rogers", "Marcus Rashford", "Harry Kane"],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": null
+      },
+      "pushed": true
+    },
+    {
+      "team1": "Spain",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+      "team2": "Argentina",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6706.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/894789.png",
+      "league": "World Cup",
+      "start": "2026-07-20T04:00:00+09:00",
+      "league_id": 894789,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=spain",
+      "streaming_url": "https://cdn.singhs.com.np/spain.json",
+      "event_id": 4653858,
+      "football_data": {
+        "event": {
+          "league": "World Cup",
+          "round": "final",
+          "kick_off_time_utc": "Sun, 19 Jul 2026 19:00:00 GMT",
+          "venue": "New York New Jersey Stadium",
+          "stadium_capacity": null,
+          "referee": "Slavko Vincic",
+          "home_team": {
+            "name": "Spain",
+            "id": 6720
+          },
+          "away_team": {
+            "name": "Argentina",
+            "id": 6706
+          },
+          "home_manager": "Luis de la Fuente",
+          "away_manager": "Lionel Scaloni"
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-4-2",
+          "home_players": ["Unai Simón", "Pedro Porro", "Pau Cubarsí", "Aymeric Laporte", "Marc Cucurella", "Rodri", "Fabián Ruiz", "Lamine Yamal", "Dani Olmo", "Álex Baena", "Mikel Oyarzabal"],
+          "away_players": ["Emiliano Martínez", "Nahuel Molina", "Cristian Romero", "Lisandro Martínez", "Nicolás Tagliafico", "Giuliano Simeone", "Enzo Fernández", "Leandro Paredes", "Alexis Mac Allister", "Lionel Messi", "Julián Álvarez"],
           "home_missing_players": [],
           "away_missing_players": []
         },
