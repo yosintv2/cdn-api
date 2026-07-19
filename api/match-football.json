@@ -19,8 +19,10 @@
           "round": "final",
           "kick_off_time_utc": "Sun, 19 Jul 2026 19:00:00 GMT",
           "venue": "New York New Jersey Stadium",
+          "venue_city": "East Rutherford, New Jersey",
+          "venue_country": "United States",
           "stadium_capacity": null,
-          "referee": "Slavko Vincic",
+          "referee": "Slavko Vinčić",
           "home_team": {
             "name": "Spain",
             "id": 6720
@@ -33,20 +35,23 @@
           "away_manager": "Lionel Scaloni"
         },
         "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 2
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
+          "away_formation": "4-1-3-2",
           "home_players": ["Unai Simón", "Pedro Porro", "Pau Cubarsí", "Aymeric Laporte", "Marc Cucurella", "Rodri", "Fabián Ruiz", "Lamine Yamal", "Dani Olmo", "Álex Baena", "Mikel Oyarzabal"],
-          "away_players": ["Emiliano Martínez", "Nahuel Molina", "Cristian Romero", "Lisandro Martínez", "Nicolás Tagliafico", "Giuliano Simeone", "Enzo Fernández", "Leandro Paredes", "Alexis Mac Allister", "Lionel Messi", "Julián Álvarez"],
+          "away_players": ["Emiliano Martínez", "Nahuel Molina", "Cristian Romero", "Lisandro Martínez", "Nicolás Tagliafico", "Leandro Paredes", "Rodrigo De Paul", "Enzo Fernández", "Alexis Mac Allister", "Lionel Messi", "Julián Álvarez"],
           "home_missing_players": [],
           "away_missing_players": []
         },
-        "pregame_form": null
-      },
-      "pushed": true
+        "pregame_form": {
+          "home": "WWWWW",
+          "away": "WWWWW"
+        }
+      }
     },
     {
       "team1": "Walsall",
@@ -67,6 +72,8 @@
           "round": null,
           "kick_off_time_utc": "Tue, 21 Jul 2026 18:30:00 GMT",
           "venue": "Pallet-Track Bescot Stadium",
+          "venue_city": "Walsall, West Midlands",
+          "venue_country": "England",
           "stadium_capacity": null,
           "referee": null,
           "home_team": {
@@ -81,8 +88,9 @@
           "away_manager": null
         },
         "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
+          "homeWins": 1,
+          "draws": 3,
+          "awayWins": 9
         },
         "lineups": {
           "home_formation": null,
@@ -92,245 +100,10 @@
           "home_missing_players": [],
           "away_missing_players": []
         },
-        "pregame_form": null
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Universidad Central",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/188213.png",
-      "team2": "Santos FC",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8514.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001658.png",
-      "league": "Copa Sudamericana Knockout Round Play-offs",
-      "start": "2026-07-22T09:30:00+09:00",
-      "league_id": 1000001658,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=santosfc",
-      "streaming_url": "https://cdn.singhs.com.np/santosfc.json",
-      "event_id": 5702733,
-      "football_data": {
-        "event": {
-          "league": "CONMEBOL Sudamericana",
-          "round": "Knockout Round Play-offs",
-          "kick_off_time_utc": "Wed, 22 Jul 2026 00:30:00 GMT",
-          "venue": "Estadio Polideportivo Misael Delgado",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Universidad Central",
-            "id": 188213
-          },
-          "away_team": {
-            "name": "Santos FC",
-            "id": 8514
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Nottm Forest",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10203.png",
-      "team2": "Blackburn",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8655.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-22T19:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
-      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
-      "event_id": 5899093,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Wed, 22 Jul 2026 10:00:00 GMT",
-          "venue": "Estádio da Nora",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Nottingham Forest",
-            "id": 10203
-          },
-          "away_team": {
-            "name": "Blackburn Rovers",
-            "id": 8655
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Inter Miami CF",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/960720.png",
-      "team2": "Chicago",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6397.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/913550.png",
-      "league": "Major League Soccer",
-      "start": "2026-07-23T08:30:00+09:00",
-      "league_id": 913550,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
-      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
-      "event_id": 5071218,
-      "football_data": {
-        "event": {
-          "league": "Major League Soccer",
-          "round": null,
-          "kick_off_time_utc": "Wed, 22 Jul 2026 23:30:00 GMT",
-          "venue": "Nu Stadium",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Inter Miami CF",
-            "id": 960720
-          },
-          "away_team": {
-            "name": "Chicago Fire FC",
-            "id": 6397
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Barcelona",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
-      "team2": "CE Europa",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/189639.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-24T21:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
-      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
-      "event_id": 5900320,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Fri, 24 Jul 2026 12:00:00 GMT",
-          "venue": null,
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Barcelona",
-            "id": 8634
-          },
-          "away_team": {
-            "name": "CE Europa",
-            "id": 189639
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
-      }
-    },
-    {
-      "team1": "Rosenborg",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8422.png",
-      "team2": "Man United",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-25T01:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=manunited",
-      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
-      "event_id": 5449682,
-      "football_data": {
-        "event": {
-          "league": "Club Friendlies",
-          "round": null,
-          "kick_off_time_utc": "Fri, 24 Jul 2026 16:00:00 GMT",
-          "venue": "Lerkendal Stadion",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Rosenborg",
-            "id": 8422
-          },
-          "away_team": {
-            "name": "Manchester United",
-            "id": 10260
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "teamDuel": null,
-          "managerDuel": null
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": null
+        "pregame_form": {
+          "home": "LLWLL",
+          "away": "WDWWW"
+        }
       }
     }
   ]
