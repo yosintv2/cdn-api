@@ -107,7 +107,7 @@
     },
     {
       "team1": "Universidad Central",
-      "team1_logo": "https://img.singhs.com.np/team/188213.png",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/188213.png",
       "team2": "Santos FC",
       "team2_logo": "https://img.singhs.com.np/team/8514.png",
       "league_logo": "https://img.singhs.com.np/league/1000001658.png",
@@ -208,59 +208,6 @@
         "pregame_form": {
           "home": "LDLDW",
           "away": "LDWLD"
-        }
-      }
-    },
-    {
-      "team1": "Inter Miami CF",
-      "team1_logo": "https://img.singhs.com.np/team/960720.png",
-      "team2": "Chicago",
-      "team2_logo": "https://img.singhs.com.np/team/6397.png",
-      "league_logo": "https://img.singhs.com.np/league/913550.png",
-      "league": "Major League Soccer",
-      "start": "2026-07-23T08:30:00+09:00",
-      "league_id": 913550,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
-      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
-      "event_id": 5071218,
-      "football_data": {
-        "event": {
-          "league": "Major League Soccer",
-          "round": null,
-          "kick_off_time_utc": "Wed, 22 Jul 2026 23:30:00 GMT",
-          "venue": "Nu Stadium",
-          "venue_city": "Miami, Florida",
-          "venue_country": "United States",
-          "stadium_capacity": null,
-          "referee": null,
-          "home_team": {
-            "name": "Inter Miami CF",
-            "id": 960720
-          },
-          "away_team": {
-            "name": "Chicago Fire FC",
-            "id": 6397
-          },
-          "home_manager": null,
-          "away_manager": null
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 2,
-          "awayWins": 5
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "LWWWW",
-          "away": "LLWWW"
         }
       }
     }
