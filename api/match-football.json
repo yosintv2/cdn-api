@@ -1,6 +1,159 @@
 {
   "matches": [
     {
+      "team1": "Sporting CP",
+      "team1_logo": "https://img.singhs.com.np/team/9768.png",
+      "team2": "Strasbourg",
+      "team2_logo": "https://img.singhs.com.np/team/9848.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-21T04:15:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=sportingcp",
+      "streaming_url": "https://cdn.singhs.com.np/sportingcp.json",
+      "event_id": 5900292,
+      "football_data": {
+        "event": {
+          "match_id": 5900292,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Mon, 20 Jul 2026 19:15:00 GMT",
+          "venue": "Estádio do Algarve",
+          "venue_city": "Almancil",
+          "venue_country": "Portugal",
+          "venue_lat": 37.088262822,
+          "venue_lng": -7.974722385,
+          "stadium_capacity": 30305,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Sporting CP",
+            "id": 9768
+          },
+          "away_team": {
+            "name": "Strasbourg",
+            "id": 9848
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Zeno Debast", "João Simões", "Fotis Ioannidis"],
+          "away_missing_players": ["Joaquín Panichelli"],
+          "home_unavailable": [
+            {
+              "name": "Zeno Debast",
+              "injury": "injury",
+              "return": "Unknown"
+            },
+            {
+              "name": "João Simões",
+              "injury": "injury",
+              "return": "A few weeks"
+            },
+            {
+              "name": "Fotis Ioannidis",
+              "injury": "injury",
+              "return": "A few days"
+            }
+          ],
+          "away_unavailable": [
+            {
+              "name": "Joaquín Panichelli",
+              "injury": "injury",
+              "return": "Early December 2026"
+            }
+          ]
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "W",
+              "score": "5 - 1",
+              "home": "Sporting CP",
+              "away": "Vitoria de Guimaraes",
+              "date": "2026-05-04T19:15:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 4",
+              "home": "Rio Ave",
+              "away": "Sporting CP",
+              "date": "2026-05-11T19:15:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 0",
+              "home": "Sporting CP",
+              "away": "Gil Vicente",
+              "date": "2026-05-16T19:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 2",
+              "home": "Sporting CP",
+              "away": "Torreense",
+              "date": "2026-05-24T16:15:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "4 - 1",
+              "home": "Sporting CP",
+              "away": "Celtic",
+              "date": "2026-07-14T16:30:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "L",
+              "score": "1 - 2",
+              "home": "Strasbourg",
+              "away": "Toulouse",
+              "date": "2026-05-03T15:15:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "0 - 1",
+              "home": "Strasbourg",
+              "away": "Rayo Vallecano",
+              "date": "2026-05-07T19:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "Angers",
+              "away": "Strasbourg",
+              "date": "2026-05-10T19:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 2",
+              "home": "Brest",
+              "away": "Strasbourg",
+              "date": "2026-05-13T17:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "5 - 4",
+              "home": "Strasbourg",
+              "away": "Monaco",
+              "date": "2026-05-17T19:00:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
       "team1": "Walsall",
       "team1_logo": "https://img.singhs.com.np/team/10006.png",
       "team2": "Aston Villa",
@@ -154,7 +307,8 @@
             }
           ]
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Universidad Central",
@@ -305,7 +459,8 @@
             }
           ]
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Nottm Forest",
@@ -472,7 +627,8 @@
             }
           ]
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
