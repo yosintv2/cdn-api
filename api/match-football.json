@@ -1,6 +1,58 @@
 {
   "matches": [
     {
+      "team1": "Sporting CP",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9768.png",
+      "team2": "Strasbourg",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9848.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-21T04:15:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=sportingcp",
+      "streaming_url": "https://cdn.singhs.com.np/sportingcp.json",
+      "event_id": 5900292,
+      "football_data": {
+        "event": {
+          "league": "Club Friendlies",
+          "round": null,
+          "kick_off_time_utc": "Mon, 20 Jul 2026 19:15:00 GMT",
+          "venue": "Estádio do Algarve",
+          "venue_city": "Almancil",
+          "venue_country": "Portugal",
+          "stadium_capacity": null,
+          "referee": null,
+          "home_team": {
+            "name": "Sporting CP",
+            "id": 9768
+          },
+          "away_team": {
+            "name": "Strasbourg",
+            "id": 9848
+          },
+          "home_manager": null,
+          "away_manager": null
+        },
+        "h2h": {
+          "teamDuel": null,
+          "managerDuel": null
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WWWLW",
+          "away": "LLDWW"
+        }
+      }
+    },
+    {
       "team1": "Walsall",
       "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10006.png",
       "team2": "Aston Villa",
@@ -105,7 +157,8 @@
           "home": "DLLWL",
           "away": "DLWWL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Nottm Forest",
@@ -158,7 +211,8 @@
           "home": "LDLDW",
           "away": "LDWLD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Inter Miami CF",
@@ -211,7 +265,8 @@
           "home": "LWWWW",
           "away": "LLWWW"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
