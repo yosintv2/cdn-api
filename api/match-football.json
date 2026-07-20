@@ -1,64 +1,11 @@
 {
   "matches": [
     {
-      "team1": "Kalmar FF",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9892.png",
-      "team2": "Malmö FF",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10237.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/67.png",
-      "league": "Allsvenskan",
-      "start": "2026-07-21T02:00:00+09:00",
-      "league_id": 67,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=kalmarff",
-      "streaming_url": "https://cdn.singhs.com.np/kalmarff.json",
-      "event_id": 5107539,
-      "football_data": {
-        "event": {
-          "league": "Allsvenskan",
-          "round": 13,
-          "kick_off_time_utc": "Mon, 20 Jul 2026 17:00:00 GMT",
-          "venue": "Guldfågeln Arena",
-          "venue_city": "Kalmar",
-          "venue_country": "Sweden",
-          "stadium_capacity": null,
-          "referee": "Adi Aganovic",
-          "home_team": {
-            "name": "Kalmar FF",
-            "id": 9892
-          },
-          "away_team": {
-            "name": "Malmö FF",
-            "id": 10237
-          },
-          "home_manager": "Toni Koskela",
-          "away_manager": "Gaute Helstrup"
-        },
-        "h2h": {
-          "homeWins": 6,
-          "draws": 9,
-          "awayWins": 22
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Jakob Kindberg", "Rony Jansson", "Lars Sætra", "Aboubacar Keita", "Victor Larsson", "Carl Gustafsson", "Robert Gojani", "Charlie Rosenqvist", "Abdussalam Magashy", "Charles Sagoe Jr.", "Marius Söderbäck"],
-          "away_players": ["Johan Dahlin", "Jens Stryger Larsen", "Colin Rösler", "Malte Frejd Pålsson", "Noah Åstrand John", "Kenan Busuladzic", "Otto Rosengren", "Adrian Skogmar", "Sead Haksabanovic", "Erik Botheim", "Anton Höög"],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "LWLWL",
-          "away": "LWDWW"
-        }
-      }
-    },
-    {
       "team1": "Sporting CP",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9768.png",
+      "team1_logo": "https://img.singhs.com.np/team/9768.png",
       "team2": "Strasbourg",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9848.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "team2_logo": "https://img.singhs.com.np/team/9848.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
       "start": "2026-07-21T04:15:00+09:00",
       "league_id": 915708,
@@ -103,15 +50,14 @@
           "home": "WWWLW",
           "away": "LLDWW"
         }
-      },
-      "pushed": true
+      }
     },
     {
       "team1": "Walsall",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10006.png",
+      "team1_logo": "https://img.singhs.com.np/team/10006.png",
       "team2": "Aston Villa",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10252.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "team2_logo": "https://img.singhs.com.np/team/10252.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
       "start": "2026-07-22T03:30:00+09:00",
       "league_id": 915708,
@@ -157,15 +103,14 @@
           "home": "LLWLL",
           "away": "WDWWW"
         }
-      },
-      "pushed": true
+      }
     },
     {
       "team1": "Universidad Central",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/188213.png",
+      "team1_logo": "https://img.singhs.com.np/team/188213.png",
       "team2": "Santos FC",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8514.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001658.png",
+      "team2_logo": "https://img.singhs.com.np/team/8514.png",
+      "league_logo": "https://img.singhs.com.np/league/1000001658.png",
       "league": "Copa Sudamericana Knockout Round Play-offs",
       "start": "2026-07-22T09:30:00+09:00",
       "league_id": 1000001658,
@@ -211,15 +156,14 @@
           "home": "DLLWL",
           "away": "DLWWL"
         }
-      },
-      "pushed": true
+      }
     },
     {
       "team1": "Nottm Forest",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10203.png",
+      "team1_logo": "https://img.singhs.com.np/team/10203.png",
       "team2": "Blackburn",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8655.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/915708.png",
+      "team2_logo": "https://img.singhs.com.np/team/8655.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
       "start": "2026-07-22T19:00:00+09:00",
       "league_id": 915708,
@@ -265,15 +209,14 @@
           "home": "LDLDW",
           "away": "LDWLD"
         }
-      },
-      "pushed": true
+      }
     },
     {
       "team1": "Inter Miami CF",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/960720.png",
+      "team1_logo": "https://img.singhs.com.np/team/960720.png",
       "team2": "Chicago",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6397.png",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/913550.png",
+      "team2_logo": "https://img.singhs.com.np/team/6397.png",
+      "league_logo": "https://img.singhs.com.np/league/913550.png",
       "league": "Major League Soccer",
       "start": "2026-07-23T08:30:00+09:00",
       "league_id": 913550,
@@ -319,8 +262,7 @@
           "home": "LWWWW",
           "away": "LLWWW"
         }
-      },
-      "pushed": true
+      }
     }
   ]
 }
