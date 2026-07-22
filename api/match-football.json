@@ -1,468 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Sporting CP",
-      "team1_logo": "https://img.singhs.com.np/team/9768.png",
-      "team2": "Strasbourg",
-      "team2_logo": "https://img.singhs.com.np/team/9848.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-21T04:15:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=sportingcp",
-      "streaming_url": "https://cdn.singhs.com.np/sportingcp.json",
-      "event_id": 5900292,
-      "football_data": {
-        "event": {
-          "match_id": 5900292,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Mon, 20 Jul 2026 19:15:00 GMT",
-          "venue": "Estádio do Algarve",
-          "venue_city": "Almancil",
-          "venue_country": "Portugal",
-          "venue_lat": 37.088262822,
-          "venue_lng": -7.974722385,
-          "stadium_capacity": 30305,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Sporting CP",
-            "id": 9768
-          },
-          "away_team": {
-            "name": "Strasbourg",
-            "id": 9848
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Zeno Debast", "João Simões", "Fotis Ioannidis"],
-          "away_missing_players": ["Joaquín Panichelli"],
-          "home_unavailable": [
-            {
-              "name": "Zeno Debast",
-              "injury": "injury",
-              "return": "Unknown"
-            },
-            {
-              "name": "João Simões",
-              "injury": "injury",
-              "return": "A few weeks"
-            },
-            {
-              "name": "Fotis Ioannidis",
-              "injury": "injury",
-              "return": "A few days"
-            }
-          ],
-          "away_unavailable": [
-            {
-              "name": "Joaquín Panichelli",
-              "injury": "injury",
-              "return": "Early December 2026"
-            }
-          ]
-        },
-        "pregame_form": {
-          "home": [
-            {
-              "result": "W",
-              "score": "5 - 1",
-              "home": "Sporting CP",
-              "away": "Vitoria de Guimaraes",
-              "date": "2026-05-04T19:15:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "1 - 4",
-              "home": "Rio Ave",
-              "away": "Sporting CP",
-              "date": "2026-05-11T19:15:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "3 - 0",
-              "home": "Sporting CP",
-              "away": "Gil Vicente",
-              "date": "2026-05-16T19:30:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "1 - 2",
-              "home": "Sporting CP",
-              "away": "Torreense",
-              "date": "2026-05-24T16:15:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "4 - 1",
-              "home": "Sporting CP",
-              "away": "Celtic",
-              "date": "2026-07-14T16:30:00.000Z"
-            }
-          ],
-          "away": [
-            {
-              "result": "L",
-              "score": "1 - 2",
-              "home": "Strasbourg",
-              "away": "Toulouse",
-              "date": "2026-05-03T15:15:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "0 - 1",
-              "home": "Strasbourg",
-              "away": "Rayo Vallecano",
-              "date": "2026-05-07T19:00:00.000Z"
-            },
-            {
-              "result": "D",
-              "score": "1 - 1",
-              "home": "Angers",
-              "away": "Strasbourg",
-              "date": "2026-05-10T19:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "1 - 2",
-              "home": "Brest",
-              "away": "Strasbourg",
-              "date": "2026-05-13T17:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "5 - 4",
-              "home": "Strasbourg",
-              "away": "Monaco",
-              "date": "2026-05-17T19:00:00.000Z"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "team1": "Walsall",
-      "team1_logo": "https://img.singhs.com.np/team/10006.png",
-      "team2": "Aston Villa",
-      "team2_logo": "https://img.singhs.com.np/team/10252.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-22T03:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=astonvilla",
-      "streaming_url": "https://cdn.singhs.com.np/astonvilla.json",
-      "event_id": 5847098,
-      "football_data": {
-        "event": {
-          "match_id": 5847098,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Tue, 21 Jul 2026 18:30:00 GMT",
-          "venue": "Pallet-Track Bescot Stadium",
-          "venue_city": "Walsall, West Midlands",
-          "venue_country": "England",
-          "venue_lat": 52.565390156,
-          "venue_lng": -1.990437806,
-          "stadium_capacity": 11300,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Walsall",
-            "id": 10006
-          },
-          "away_team": {
-            "name": "Aston Villa",
-            "id": 10252
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 3,
-          "awayWins": 9
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": ["Amadou Onana", "Johan Manzambi", "Alysson Edward", "Boubacar Kamara"],
-          "home_unavailable": [],
-          "away_unavailable": [
-            {
-              "name": "Amadou Onana",
-              "injury": "injury",
-              "return": "Late March 2027"
-            },
-            {
-              "name": "Johan Manzambi",
-              "injury": "injury",
-              "return": "About 1-2 weeks"
-            },
-            {
-              "name": "Alysson Edward",
-              "injury": "injury",
-              "return": "Doubtful"
-            },
-            {
-              "name": "Boubacar Kamara",
-              "injury": "injury",
-              "return": "Late July 2026"
-            }
-          ]
-        },
-        "pregame_form": {
-          "home": [
-            {
-              "result": "L",
-              "score": "2 - 1",
-              "home": "Swindon Town",
-              "away": "Walsall",
-              "date": "2026-04-06T14:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "0 - 4",
-              "home": "Walsall",
-              "away": "Cheltenham Town",
-              "date": "2026-04-11T14:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "1 - 3",
-              "home": "Barrow",
-              "away": "Walsall",
-              "date": "2026-04-18T11:30:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "0 - 2",
-              "home": "Walsall",
-              "away": "Harrogate Town",
-              "date": "2026-04-25T14:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "3 - 1",
-              "home": "Bromley",
-              "away": "Walsall",
-              "date": "2026-05-02T14:00:00.000Z"
-            }
-          ],
-          "away": [
-            {
-              "result": "W",
-              "score": "4 - 0",
-              "home": "Aston Villa",
-              "away": "Nottingham Forest",
-              "date": "2026-05-07T19:00:00.000Z"
-            },
-            {
-              "result": "D",
-              "score": "2 - 2",
-              "home": "Burnley",
-              "away": "Aston Villa",
-              "date": "2026-05-10T13:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "4 - 2",
-              "home": "Aston Villa",
-              "away": "Liverpool",
-              "date": "2026-05-15T19:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "0 - 3",
-              "home": "Freiburg",
-              "away": "Aston Villa",
-              "date": "2026-05-20T19:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "1 - 2",
-              "home": "Manchester City",
-              "away": "Aston Villa",
-              "date": "2026-05-24T15:00:00.000Z"
-            }
-          ]
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Universidad Central",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/188213.png",
-      "team2": "Santos FC",
-      "team2_logo": "https://img.singhs.com.np/team/8514.png",
-      "league_logo": "https://img.singhs.com.np/league/1000001658.png",
-      "league": "Copa Sudamericana Knockout Round Play-offs",
-      "start": "2026-07-22T09:30:00+09:00",
-      "league_id": 1000001658,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=santosfc",
-      "streaming_url": "https://cdn.singhs.com.np/santosfc.json",
-      "event_id": 5702733,
-      "football_data": {
-        "event": {
-          "match_id": 5702733,
-          "league": "CONMEBOL Sudamericana",
-          "league_id": 299,
-          "round": "Knockout Round Play-offs",
-          "tournament": "CONMEBOL Sudamericana",
-          "kick_off_time_utc": "Wed, 22 Jul 2026 00:30:00 GMT",
-          "venue": "Estadio Polideportivo Misael Delgado",
-          "venue_city": "Valencia",
-          "venue_country": "Venezuela",
-          "venue_lat": 10.223416741,
-          "venue_lng": -68.011347055,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": null,
-          "home_team": {
-            "name": "Universidad Central",
-            "id": 188213
-          },
-          "away_team": {
-            "name": "Santos FC",
-            "id": 8514
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": ["João Schmidt", "Moisés", "Vinicius Lira"],
-          "home_unavailable": [],
-          "away_unavailable": [
-            {
-              "name": "João Schmidt",
-              "injury": "injury",
-              "return": "Late July 2026"
-            },
-            {
-              "name": "Moisés",
-              "injury": "injury",
-              "return": "About 1-2 weeks"
-            },
-            {
-              "name": "Vinicius Lira",
-              "injury": "injury",
-              "return": "Out for season"
-            }
-          ]
-        },
-        "pregame_form": {
-          "home": [
-            {
-              "result": "D",
-              "score": "0 - 0",
-              "home": "Deportivo La Guaira",
-              "away": "Universidad Central",
-              "date": "2026-05-15T23:30:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "4 - 0",
-              "home": "Rosario Central",
-              "away": "Universidad Central",
-              "date": "2026-05-19T22:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "2 - 1",
-              "home": "Academia Puerto Cabello",
-              "away": "Universidad Central",
-              "date": "2026-05-23T22:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "0 - 1",
-              "home": "Libertad",
-              "away": "Universidad Central",
-              "date": "2026-05-27T22:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "2 - 3",
-              "home": "Universidad Central",
-              "away": "Portuguesa FC",
-              "date": "2026-05-30T20:00:00.000Z"
-            }
-          ],
-          "away": [
-            {
-              "result": "D",
-              "score": "2 - 2",
-              "home": "Santos FC",
-              "away": "San Lorenzo",
-              "date": "2026-05-20T22:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "3 - 2",
-              "home": "Gremio",
-              "away": "Santos FC",
-              "date": "2026-05-23T22:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "3 - 0",
-              "home": "Santos FC",
-              "away": "Deportivo Cuenca",
-              "date": "2026-05-27T00:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "3 - 1",
-              "home": "Santos FC",
-              "away": "Vitoria",
-              "date": "2026-05-30T23:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "2 - 1",
-              "home": "Botafogo RJ",
-              "away": "Santos FC",
-              "date": "2026-07-16T22:30:00.000Z"
-            }
-          ]
-        }
-      },
-      "pushed": true
-    },
-    {
       "team1": "Nottm Forest",
       "team1_logo": "https://img.singhs.com.np/team/10203.png",
       "team2": "Blackburn",
@@ -627,8 +165,1169 @@
             }
           ]
         }
-      },
-      "pushed": true
+      }
+    },
+    {
+      "team1": "Napoli",
+      "team1_logo": "https://img.singhs.com.np/team/9875.png",
+      "team2": "Arezzo",
+      "team2_logo": "https://img.singhs.com.np/team/9849.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-23T01:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=napoli",
+      "streaming_url": "https://cdn.singhs.com.np/napoli.json",
+      "event_id": 5959346,
+      "football_data": {
+        "event": {
+          "match_id": 5959346,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Wed, 22 Jul 2026 16:00:00 GMT",
+          "venue": "Stadio Comunale",
+          "venue_city": "Dimaro",
+          "venue_country": "Italy",
+          "venue_lat": 46.326779555,
+          "venue_lng": 10.881904364,
+          "stadium_capacity": 2000,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Napoli",
+            "id": 9875
+          },
+          "away_team": {
+            "name": "Arezzo",
+            "id": 9849
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 1
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Alessandro Buongiorno", "Billy Gilmour", "Stanislav Lobotka"],
+          "away_missing_players": [],
+          "home_unavailable": [
+            {
+              "name": "Alessandro Buongiorno",
+              "injury": "injury",
+              "return": "Early October 2026"
+            },
+            {
+              "name": "Billy Gilmour",
+              "injury": "injury",
+              "return": "Mid August 2026"
+            },
+            {
+              "name": "Stanislav Lobotka",
+              "injury": "injury",
+              "return": "A few weeks"
+            }
+          ],
+          "away_unavailable": []
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "W",
+              "score": "4 - 0",
+              "home": "Napoli",
+              "away": "Cremonese",
+              "date": "2026-04-24T18:45:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "0 - 0",
+              "home": "Como",
+              "away": "Napoli",
+              "date": "2026-05-02T16:00:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "2 - 3",
+              "home": "Napoli",
+              "away": "Bologna",
+              "date": "2026-05-11T18:45:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "0 - 3",
+              "home": "Pisa",
+              "away": "Napoli",
+              "date": "2026-05-17T10:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 0",
+              "home": "Napoli",
+              "away": "Udinese",
+              "date": "2026-05-24T16:00:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "W",
+              "score": "2 - 0",
+              "home": "Arezzo",
+              "away": "Livorno",
+              "date": "2026-04-12T15:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 4",
+              "home": "Pineto",
+              "away": "Arezzo",
+              "date": "2026-04-18T18:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 1",
+              "home": "Arezzo",
+              "away": "Torres",
+              "date": "2026-04-26T12:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "2 - 5",
+              "home": "Arezzo",
+              "away": "LR Vicenza",
+              "date": "2026-05-02T15:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 0",
+              "home": "Benevento",
+              "away": "Arezzo",
+              "date": "2026-05-09T18:30:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team1": "Maidenhead United",
+      "team1_logo": "https://img.singhs.com.np/team/45725.png",
+      "team2": "Wolves",
+      "team2_logo": "https://img.singhs.com.np/team/8602.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-23T03:30:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=wolves",
+      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
+      "event_id": 5958745,
+      "football_data": {
+        "event": {
+          "match_id": 5958745,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Wed, 22 Jul 2026 18:30:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": null,
+          "home_team": {
+            "name": "Maidenhead United",
+            "id": 45725
+          },
+          "away_team": {
+            "name": "Wolverhampton Wanderers",
+            "id": 8602
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": [],
+          "home_unavailable": [],
+          "away_unavailable": []
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "W",
+              "score": "2 - 1",
+              "home": "Maidenhead United",
+              "away": "Hampton & Richmond",
+              "date": "2026-04-06T14:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "Chelmsford",
+              "away": "Maidenhead United",
+              "date": "2026-04-11T14:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 0",
+              "home": "Maidenhead United",
+              "away": "Dover",
+              "date": "2026-04-18T14:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "0 - 0",
+              "home": "Hornchurch",
+              "away": "Maidenhead United",
+              "date": "2026-04-25T11:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "2 - 0",
+              "home": "Dorking Wanderers",
+              "away": "Maidenhead United",
+              "date": "2026-04-29T18:45:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "L",
+              "score": "0 - 1",
+              "home": "Wolverhampton Wanderers",
+              "away": "Tottenham Hotspur",
+              "date": "2026-04-25T14:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "Wolverhampton Wanderers",
+              "away": "Sunderland",
+              "date": "2026-05-02T14:00:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "3 - 0",
+              "home": "Brighton & Hove Albion",
+              "away": "Wolverhampton Wanderers",
+              "date": "2026-05-09T14:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "Wolverhampton Wanderers",
+              "away": "Fulham",
+              "date": "2026-05-17T14:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "Burnley",
+              "away": "Wolverhampton Wanderers",
+              "date": "2026-05-24T15:00:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team1": "Gil Vicente",
+      "team1_logo": "https://img.singhs.com.np/team/9764.png",
+      "team2": "FC Porto",
+      "team2_logo": "https://img.singhs.com.np/team/9773.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-23T04:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=fcporto",
+      "streaming_url": "https://cdn.singhs.com.np/fcporto.json",
+      "event_id": 5958747,
+      "football_data": {
+        "event": {
+          "match_id": 5958747,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Wed, 22 Jul 2026 19:00:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": null,
+          "home_team": {
+            "name": "Gil Vicente",
+            "id": 9764
+          },
+          "away_team": {
+            "name": "FC Porto",
+            "id": 9773
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 4,
+          "draws": 4,
+          "awayWins": 20
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Mohamed Bamba"],
+          "away_missing_players": ["Martim Fernandes", "Samu Omorodion Aghehowa"],
+          "home_unavailable": [
+            {
+              "name": "Mohamed Bamba",
+              "injury": "injury",
+              "return": "Early August 2026"
+            }
+          ],
+          "away_unavailable": [
+            {
+              "name": "Martim Fernandes",
+              "injury": "injury",
+              "return": "Back in training"
+            },
+            {
+              "name": "Samu Omorodion Aghehowa",
+              "injury": "injury",
+              "return": "Late October 2026"
+            }
+          ]
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "L",
+              "score": "0 - 1",
+              "home": "Gil Vicente",
+              "away": "Vitoria de Guimaraes",
+              "date": "2026-04-18T19:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 1",
+              "home": "Gil Vicente",
+              "away": "Casa Pia AC",
+              "date": "2026-04-27T19:15:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "0 - 0",
+              "home": "Rio Ave",
+              "away": "Gil Vicente",
+              "date": "2026-05-03T19:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 3",
+              "home": "Gil Vicente",
+              "away": "Arouca",
+              "date": "2026-05-11T19:15:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "3 - 0",
+              "home": "Sporting CP",
+              "away": "Gil Vicente",
+              "date": "2026-05-16T19:30:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "D",
+              "score": "0 - 0",
+              "home": "FC Porto",
+              "away": "Sporting CP",
+              "date": "2026-04-22T19:45:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 2",
+              "home": "Estrela da Amadora",
+              "away": "FC Porto",
+              "date": "2026-04-26T17:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 0",
+              "home": "FC Porto",
+              "away": "Alverca",
+              "date": "2026-05-02T19:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "3 - 1",
+              "home": "AVS Futebol SAD",
+              "away": "FC Porto",
+              "date": "2026-05-10T17:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 0",
+              "home": "FC Porto",
+              "away": "Santa Clara",
+              "date": "2026-05-16T14:30:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team1": "Inter Miami CF",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/960720.png",
+      "team2": "Chicago",
+      "team2_logo": "https://img.singhs.com.np/team/6397.png",
+      "league_logo": "https://img.singhs.com.np/league/913550.png",
+      "league": "Major League Soccer",
+      "start": "2026-07-23T08:30:00+09:00",
+      "league_id": 913550,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
+      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
+      "event_id": 5071218,
+      "football_data": {
+        "event": {
+          "match_id": 5071218,
+          "league": "Major League Soccer",
+          "league_id": 10000001,
+          "round": null,
+          "tournament": "Major League Soccer",
+          "kick_off_time_utc": "Wed, 22 Jul 2026 23:30:00 GMT",
+          "venue": "Nu Stadium",
+          "venue_city": "Miami, Florida",
+          "venue_country": "United States",
+          "venue_lat": 25.792775779,
+          "venue_lng": -80.259473606,
+          "stadium_capacity": 26700,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Inter Miami CF",
+            "id": 960720
+          },
+          "away_team": {
+            "name": "Chicago Fire FC",
+            "id": 6397
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 3,
+          "draws": 2,
+          "awayWins": 5
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Tadeo Allende"],
+          "away_missing_players": ["André Franco"],
+          "home_unavailable": [
+            {
+              "name": "Tadeo Allende",
+              "injury": "injury",
+              "return": "Late July 2026"
+            }
+          ],
+          "away_unavailable": [
+            {
+              "name": "André Franco",
+              "injury": "injury",
+              "return": "Early August 2026"
+            }
+          ]
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "L",
+              "score": "3 - 4",
+              "home": "Inter Miami CF",
+              "away": "Orlando City",
+              "date": "2026-05-02T23:15:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 4",
+              "home": "Toronto FC",
+              "away": "Inter Miami CF",
+              "date": "2026-05-09T17:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 5",
+              "home": "FC Cincinnati",
+              "away": "Inter Miami CF",
+              "date": "2026-05-13T23:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 0",
+              "home": "Inter Miami CF",
+              "away": "Portland Timbers",
+              "date": "2026-05-17T22:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "6 - 4",
+              "home": "Inter Miami CF",
+              "away": "Philadelphia Union",
+              "date": "2026-05-24T23:00:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "L",
+              "score": "2 - 3",
+              "home": "Chicago Fire FC",
+              "away": "FC Cincinnati",
+              "date": "2026-05-03T00:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 3",
+              "home": "Chicago Fire FC",
+              "away": "Red Bull New York",
+              "date": "2026-05-09T18:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 3",
+              "home": "DC United",
+              "away": "Chicago Fire FC",
+              "date": "2026-05-13T23:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "0 - 2",
+              "home": "CF Montreal",
+              "away": "Chicago Fire FC",
+              "date": "2026-05-16T20:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 1",
+              "home": "Chicago Fire FC",
+              "away": "Toronto FC",
+              "date": "2026-05-24T00:30:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team1": "St. Gallen",
+      "team1_logo": "https://img.singhs.com.np/team/10190.png",
+      "team2": "Benfica",
+      "team2_logo": "https://img.singhs.com.np/team/9772.png",
+      "league_logo": "https://img.singhs.com.np/league/937349.png",
+      "league": "Europa League Qualification",
+      "start": "2026-07-24T03:00:00+09:00",
+      "league_id": 937349,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5788583,
+      "football_data": {
+        "event": {
+          "match_id": 5788583,
+          "league": "Europa League Qualification",
+          "league_id": 937349,
+          "round": 2,
+          "tournament": "Europa League Qualification",
+          "kick_off_time_utc": "Thu, 23 Jul 2026 18:00:00 GMT",
+          "venue": "Berit Sitterstadion",
+          "venue_city": "St. Gallen",
+          "venue_country": "Switzerland",
+          "venue_lat": 47.408195984,
+          "venue_lng": 9.304620624,
+          "stadium_capacity": 20029,
+          "stadium_surface": "grass",
+          "referee": "Luca Pairetto",
+          "home_team": {
+            "name": "St. Gallen",
+            "id": 10190
+          },
+          "away_team": {
+            "name": "Benfica",
+            "id": 9772
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Nino Weibel", "Behar Neziri"],
+          "away_missing_players": [],
+          "home_unavailable": [
+            {
+              "name": "Nino Weibel",
+              "injury": "injury",
+              "return": "Late July 2026"
+            },
+            {
+              "name": "Behar Neziri",
+              "injury": "injury",
+              "return": "Early September 2026"
+            }
+          ],
+          "away_unavailable": []
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "W",
+              "score": "1 - 3",
+              "home": "Basel",
+              "away": "St. Gallen",
+              "date": "2026-05-14T14:30:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "St. Gallen",
+              "away": "Thun",
+              "date": "2026-05-17T14:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "0 - 3",
+              "home": "FC Stade Lausanne-Ouchy",
+              "away": "St. Gallen",
+              "date": "2026-05-24T12:00:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "6 - 3",
+              "home": "Lyon",
+              "away": "St. Gallen",
+              "date": "2026-07-11T08:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "0 - 3",
+              "home": "St. Gallen",
+              "away": "Norwich City",
+              "date": "2026-07-17T18:00:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "D",
+              "score": "2 - 2",
+              "home": "Famalicao",
+              "away": "Benfica",
+              "date": "2026-05-02T17:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "2 - 2",
+              "home": "Benfica",
+              "away": "Braga",
+              "date": "2026-05-11T19:15:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 3",
+              "home": "Estoril",
+              "away": "Benfica",
+              "date": "2026-05-16T19:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 2",
+              "home": "Benfica",
+              "away": "Flamengo",
+              "date": "2026-07-11T18:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 0",
+              "home": "Benfica",
+              "away": "Villarreal",
+              "date": "2026-07-17T18:45:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team1": "Barcelona",
+      "team1_logo": "https://img.singhs.com.np/team/8634.png",
+      "team2": "CE Europa",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/189639.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-24T21:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
+      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
+      "event_id": 5900320,
+      "football_data": {
+        "event": {
+          "match_id": 5900320,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Fri, 24 Jul 2026 12:00:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": null,
+          "home_team": {
+            "name": "Barcelona",
+            "id": 8634
+          },
+          "away_team": {
+            "name": "CE Europa",
+            "id": 189639
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Frenkie De Jong", "Fermín López"],
+          "away_missing_players": [],
+          "home_unavailable": [
+            {
+              "name": "Frenkie De Jong",
+              "injury": "injury",
+              "return": "Early October 2026"
+            },
+            {
+              "name": "Fermín López",
+              "injury": "injury",
+              "return": "Early August 2026"
+            }
+          ],
+          "away_unavailable": []
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "W",
+              "score": "1 - 2",
+              "home": "Osasuna",
+              "away": "Barcelona",
+              "date": "2026-05-02T19:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 0",
+              "home": "Barcelona",
+              "away": "Real Madrid",
+              "date": "2026-05-10T19:00:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 0",
+              "home": "Deportivo Alaves",
+              "away": "Barcelona",
+              "date": "2026-05-13T19:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 1",
+              "home": "Barcelona",
+              "away": "Real Betis",
+              "date": "2026-05-17T19:15:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "3 - 1",
+              "home": "Valencia",
+              "away": "Barcelona",
+              "date": "2026-05-23T19:00:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "D",
+              "score": "3 - 3",
+              "home": "CE Europa",
+              "away": "Villarreal B",
+              "date": "2026-05-10T14:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "2 - 1",
+              "home": "Gimnastic",
+              "away": "CE Europa",
+              "date": "2026-05-16T19:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 2",
+              "home": "CE Europa",
+              "away": "UD Ibiza",
+              "date": "2026-05-23T16:30:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "CE Europa",
+              "away": "Celta Fortuna",
+              "date": "2026-05-31T14:15:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "3 - 2",
+              "home": "Celta Fortuna",
+              "away": "CE Europa",
+              "date": "2026-06-07T14:15:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team1": "Rosenborg",
+      "team1_logo": "https://img.singhs.com.np/team/8422.png",
+      "team2": "Man United",
+      "team2_logo": "https://img.singhs.com.np/team/10260.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-25T01:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=manunited",
+      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
+      "event_id": 5449682,
+      "football_data": {
+        "event": {
+          "match_id": 5449682,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Fri, 24 Jul 2026 16:00:00 GMT",
+          "venue": "Lerkendal Stadion",
+          "venue_city": "Trondheim",
+          "venue_country": "Norway",
+          "venue_lat": 63.412379006,
+          "venue_lng": 10.404310226,
+          "stadium_capacity": 21850,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Rosenborg",
+            "id": 8422
+          },
+          "away_team": {
+            "name": "Manchester United",
+            "id": 10260
+          },
+          "home_manager": "Freyr Alexandersson",
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Leopold Wahlstedt", "Jonas Svensson", "Mikkel Konradsen Ceïde", "Tomás Nemcík", "Adrian Pereira", "Mads Bomholt", "Ole Kristian Selnæs", "Iver Fossum", "Dávid Duris", "Amin Chiakha", "Emil Konradsen Ceïde"],
+          "away_players": ["Tom Heaton", "Leny Yoro", "Harry Maguire", "Ayden Heaven", "Luke Shaw", "Mason Mount", "Andrey Santos", "Bryan Mbeumo", "Jack Fletcher", "Patrick Dorgu", "Joshua Zirkzee"],
+          "home_missing_players": ["Dino Islamovic"],
+          "away_missing_players": ["Kobbie Mainoo", "Youri Tielemans", "Manuel Ugarte", "Matthijs de Ligt"],
+          "home_unavailable": [
+            {
+              "name": "Dino Islamovic",
+              "injury": "injury",
+              "return": "Early August 2026"
+            }
+          ],
+          "away_unavailable": [
+            {
+              "name": "Kobbie Mainoo",
+              "injury": "injury",
+              "return": "Unknown"
+            },
+            {
+              "name": "Youri Tielemans",
+              "injury": "injury",
+              "return": "A few days"
+            },
+            {
+              "name": "Manuel Ugarte",
+              "injury": "injury",
+              "return": "Early March 2027"
+            },
+            {
+              "name": "Matthijs de Ligt",
+              "injury": "injury",
+              "return": "Late September 2026"
+            }
+          ]
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "L",
+              "score": "2 - 0",
+              "home": "KFUM",
+              "away": "Rosenborg",
+              "date": "2026-05-25T15:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "2 - 2",
+              "home": "Rosenborg",
+              "away": "Bodø/Glimt",
+              "date": "2026-05-29T17:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 1",
+              "home": "Rosenborg",
+              "away": "Molde",
+              "date": "2026-07-05T13:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 0",
+              "home": "Rosenborg",
+              "away": "Kristiansund",
+              "date": "2026-07-12T15:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "0 - 3",
+              "home": "Start",
+              "away": "Rosenborg",
+              "date": "2026-07-18T14:00:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "W",
+              "score": "3 - 2",
+              "home": "Manchester United",
+              "away": "Liverpool",
+              "date": "2026-05-03T14:30:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "0 - 0",
+              "home": "Sunderland",
+              "away": "Manchester United",
+              "date": "2026-05-09T14:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 2",
+              "home": "Manchester United",
+              "away": "Nottingham Forest",
+              "date": "2026-05-17T11:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "0 - 3",
+              "home": "Brighton & Hove Albion",
+              "away": "Manchester United",
+              "date": "2026-05-24T15:00:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "0 - 1",
+              "home": "Manchester United",
+              "away": "Wrexham",
+              "date": "2026-07-18T15:00:00.000Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team1": "Benfica",
+      "team1_logo": "https://img.singhs.com.np/team/9772.png",
+      "team2": "CF Os Belenenses",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1296841.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-25T02:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5958597,
+      "football_data": {
+        "event": {
+          "match_id": 5958597,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Fri, 24 Jul 2026 17:00:00 GMT",
+          "venue": "Estádio do Sport Lisboa e Benfica (da Luz)",
+          "venue_city": "Lisboa",
+          "venue_country": "Portugal",
+          "venue_lat": 38.75264836,
+          "venue_lng": -9.184699059,
+          "stadium_capacity": 68100,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Benfica",
+            "id": 9772
+          },
+          "away_team": {
+            "name": "CF Os Belenenses",
+            "id": 1296841
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": [],
+          "home_unavailable": [],
+          "away_unavailable": []
+        },
+        "pregame_form": {
+          "home": [
+            {
+              "result": "D",
+              "score": "2 - 2",
+              "home": "Famalicao",
+              "away": "Benfica",
+              "date": "2026-05-02T17:00:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "2 - 2",
+              "home": "Benfica",
+              "away": "Braga",
+              "date": "2026-05-11T19:15:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 3",
+              "home": "Estoril",
+              "away": "Benfica",
+              "date": "2026-05-16T19:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 2",
+              "home": "Benfica",
+              "away": "Flamengo",
+              "date": "2026-07-11T18:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "2 - 0",
+              "home": "Benfica",
+              "away": "Villarreal",
+              "date": "2026-07-17T18:45:00.000Z"
+            }
+          ],
+          "away": [
+            {
+              "result": "D",
+              "score": "1 - 1",
+              "home": "CF Os Belenenses",
+              "away": "Santarem",
+              "date": "2026-05-02T10:00:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "1 - 2",
+              "home": "Varzim",
+              "away": "CF Os Belenenses",
+              "date": "2026-05-10T18:30:00.000Z"
+            },
+            {
+              "result": "W",
+              "score": "3 - 1",
+              "home": "CF Os Belenenses",
+              "away": "Mafra",
+              "date": "2026-05-16T15:30:00.000Z"
+            },
+            {
+              "result": "L",
+              "score": "1 - 0",
+              "home": "Farense",
+              "away": "CF Os Belenenses",
+              "date": "2026-05-23T19:30:00.000Z"
+            },
+            {
+              "result": "D",
+              "score": "0 - 0",
+              "home": "CF Os Belenenses",
+              "away": "Farense",
+              "date": "2026-05-30T19:30:00.000Z"
+            }
+          ]
+        }
+      }
     }
   ]
 }
