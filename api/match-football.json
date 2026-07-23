@@ -28,7 +28,7 @@
           "venue_lng": -80.259473606,
           "stadium_capacity": 26700,
           "stadium_surface": "grass",
-          "referee": null,
+          "referee": "Rubiel Vazquez",
           "home_team": {
             "name": "Inter Miami CF",
             "id": 960720
@@ -37,10 +37,10 @@
             "name": "Chicago Fire FC",
             "id": 6397
           },
-          "home_manager": null,
-          "away_manager": null,
+          "home_manager": "Angel Guillermo Hoyos",
+          "away_manager": "Gregg Berhalter",
           "gender": "male",
-          "coverage_level": "lower"
+          "coverage_level": "xG"
         },
         "h2h": {
           "homeWins": 3,
@@ -48,102 +48,16 @@
           "awayWins": 5
         },
         "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Tadeo Allende"],
-          "away_missing_players": ["André Franco"],
-          "home_unavailable": [
-            {
-              "name": "Tadeo Allende",
-              "injury": "injury",
-              "return": "Doubtful"
-            }
-          ],
-          "away_unavailable": [
-            {
-              "name": "André Franco",
-              "injury": "injury",
-              "return": "Early August 2026"
-            }
-          ]
+          "home_formation": "4-4-2",
+          "away_formation": "4-4-2",
+          "home_players": ["Rocco Ríos Novo", "Facundo Mura", "Ian Fray", "Micael", "Sergio Reguilón", "David Ruiz", "Yannick Bright", "Telasco Segovia", "Mateo Silvetti", "Germán Berterame", "Luis Suárez"],
+          "away_players": ["Chris Brady", "Jonathan Dean", "Joel Waterman", "Jack Elliott", "Andrew Gutman", "Philip Zinckernagel", "Djé D'Avilla", "Anton Salétros", "Jonathan Bamba", "Maren Haile-Selassie", "Robert Lewandowski"],
+          "home_missing_players": ["Santiago Morales", "Alexander Shaw", "Gonzalo Luján", "Maximiliano Falcón", "David Ayala", "Tadeo Allende"],
+          "away_missing_players": ["Christopher Cupps", "Mbekezeli Mbokazi", "André Franco"]
         },
         "pregame_form": {
-          "home": [
-            {
-              "result": "L",
-              "score": "3 - 4",
-              "home": "Inter Miami CF",
-              "away": "Orlando City",
-              "date": "2026-05-02T23:15:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "2 - 4",
-              "home": "Toronto FC",
-              "away": "Inter Miami CF",
-              "date": "2026-05-09T17:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "3 - 5",
-              "home": "FC Cincinnati",
-              "away": "Inter Miami CF",
-              "date": "2026-05-13T23:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "2 - 0",
-              "home": "Inter Miami CF",
-              "away": "Portland Timbers",
-              "date": "2026-05-17T22:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "6 - 4",
-              "home": "Inter Miami CF",
-              "away": "Philadelphia Union",
-              "date": "2026-05-24T23:00:00.000Z"
-            }
-          ],
-          "away": [
-            {
-              "result": "L",
-              "score": "2 - 3",
-              "home": "Chicago Fire FC",
-              "away": "FC Cincinnati",
-              "date": "2026-05-03T00:30:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "1 - 3",
-              "home": "Chicago Fire FC",
-              "away": "Red Bull New York",
-              "date": "2026-05-09T18:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "1 - 3",
-              "home": "DC United",
-              "away": "Chicago Fire FC",
-              "date": "2026-05-13T23:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "0 - 2",
-              "home": "CF Montreal",
-              "away": "Chicago Fire FC",
-              "date": "2026-05-16T20:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "2 - 1",
-              "home": "Chicago Fire FC",
-              "away": "Toronto FC",
-              "date": "2026-05-24T00:30:00.000Z"
-            }
-          ]
+          "home": "LWWWW",
+          "away": "LLWWW"
         }
       }
     },
@@ -200,96 +114,11 @@
           "home_players": [],
           "away_players": [],
           "home_missing_players": ["Nino Weibel", "Behar Neziri"],
-          "away_missing_players": [],
-          "home_unavailable": [
-            {
-              "name": "Nino Weibel",
-              "injury": "injury",
-              "return": "Late July 2026"
-            },
-            {
-              "name": "Behar Neziri",
-              "injury": "injury",
-              "return": "Early September 2026"
-            }
-          ],
-          "away_unavailable": []
+          "away_missing_players": []
         },
         "pregame_form": {
-          "home": [
-            {
-              "result": "W",
-              "score": "1 - 3",
-              "home": "Basel",
-              "away": "St. Gallen",
-              "date": "2026-05-14T14:30:00.000Z"
-            },
-            {
-              "result": "D",
-              "score": "1 - 1",
-              "home": "St. Gallen",
-              "away": "Thun",
-              "date": "2026-05-17T14:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "0 - 3",
-              "home": "FC Stade Lausanne-Ouchy",
-              "away": "St. Gallen",
-              "date": "2026-05-24T12:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "6 - 3",
-              "home": "Lyon",
-              "away": "St. Gallen",
-              "date": "2026-07-11T08:30:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "0 - 3",
-              "home": "St. Gallen",
-              "away": "Norwich City",
-              "date": "2026-07-17T18:00:00.000Z"
-            }
-          ],
-          "away": [
-            {
-              "result": "D",
-              "score": "2 - 2",
-              "home": "Famalicao",
-              "away": "Benfica",
-              "date": "2026-05-02T17:00:00.000Z"
-            },
-            {
-              "result": "D",
-              "score": "2 - 2",
-              "home": "Benfica",
-              "away": "Braga",
-              "date": "2026-05-11T19:15:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "1 - 3",
-              "home": "Estoril",
-              "away": "Benfica",
-              "date": "2026-05-16T19:30:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "1 - 2",
-              "home": "Benfica",
-              "away": "Flamengo",
-              "date": "2026-07-11T18:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "2 - 0",
-              "home": "Benfica",
-              "away": "Villarreal",
-              "date": "2026-07-17T18:45:00.000Z"
-            }
-          ]
+          "home": "WDWLL",
+          "away": "DDWLW"
         }
       }
     },
@@ -342,96 +171,11 @@
           "home_players": [],
           "away_players": [],
           "home_missing_players": ["Frenkie De Jong", "Fermín López"],
-          "away_missing_players": [],
-          "home_unavailable": [
-            {
-              "name": "Frenkie De Jong",
-              "injury": "injury",
-              "return": "Early October 2026"
-            },
-            {
-              "name": "Fermín López",
-              "injury": "injury",
-              "return": "Early August 2026"
-            }
-          ],
-          "away_unavailable": []
+          "away_missing_players": []
         },
         "pregame_form": {
-          "home": [
-            {
-              "result": "W",
-              "score": "1 - 2",
-              "home": "Osasuna",
-              "away": "Barcelona",
-              "date": "2026-05-02T19:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "2 - 0",
-              "home": "Barcelona",
-              "away": "Real Madrid",
-              "date": "2026-05-10T19:00:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "1 - 0",
-              "home": "Deportivo Alaves",
-              "away": "Barcelona",
-              "date": "2026-05-13T19:30:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "3 - 1",
-              "home": "Barcelona",
-              "away": "Real Betis",
-              "date": "2026-05-17T19:15:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "3 - 1",
-              "home": "Valencia",
-              "away": "Barcelona",
-              "date": "2026-05-23T19:00:00.000Z"
-            }
-          ],
-          "away": [
-            {
-              "result": "D",
-              "score": "3 - 3",
-              "home": "CE Europa",
-              "away": "Villarreal B",
-              "date": "2026-05-10T14:30:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "2 - 1",
-              "home": "Gimnastic",
-              "away": "CE Europa",
-              "date": "2026-05-16T19:00:00.000Z"
-            },
-            {
-              "result": "W",
-              "score": "3 - 2",
-              "home": "CE Europa",
-              "away": "UD Ibiza",
-              "date": "2026-05-23T16:30:00.000Z"
-            },
-            {
-              "result": "D",
-              "score": "1 - 1",
-              "home": "CE Europa",
-              "away": "Celta Fortuna",
-              "date": "2026-05-31T14:15:00.000Z"
-            },
-            {
-              "result": "L",
-              "score": "3 - 2",
-              "home": "Celta Fortuna",
-              "away": "CE Europa",
-              "date": "2026-06-07T14:15:00.000Z"
-            }
-          ]
+          "home": "WWLWL",
+          "away": "DLWDL"
         }
       }
     }
