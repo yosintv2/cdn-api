@@ -1,63 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Barcelona",
-      "team1_logo": "https://img.singhs.com.np/team/8634.png",
-      "team2": "CE Europa",
-      "team2_logo": "https://img.singhs.com.np/team/189639.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-24T21:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
-      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
-      "event_id": 5900320,
-      "football_data": {
-        "event": {
-          "match_id": 5900320,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Fri, 24 Jul 2026 12:00:00 GMT",
-          "venue": null,
-          "venue_city": null,
-          "venue_country": null,
-          "venue_lat": null,
-          "venue_lng": null,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": null,
-          "home_team": {
-            "name": "Barcelona",
-            "id": 8634
-          },
-          "away_team": {
-            "name": "CE Europa",
-            "id": 189639
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Frenkie De Jong", "Fermín López"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WWLWL",
-          "away": "DLWDL"
-        }
-      }
-    },
-    {
       "team1": "Rosenborg",
       "team1_logo": "https://img.singhs.com.np/team/8422.png",
       "team2": "Man United",
@@ -176,6 +119,63 @@
       }
     },
     {
+      "team1": "Barcelona",
+      "team1_logo": "https://img.singhs.com.np/team/8634.png",
+      "team2": "CE Europa",
+      "team2_logo": "https://img.singhs.com.np/team/189639.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-25T03:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
+      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
+      "event_id": 5900320,
+      "football_data": {
+        "event": {
+          "match_id": 5900320,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Fri, 24 Jul 2026 12:00:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": null,
+          "home_team": {
+            "name": "Barcelona",
+            "id": 8634
+          },
+          "away_team": {
+            "name": "CE Europa",
+            "id": 189639
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Frenkie De Jong", "Fermín López"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WWLWL",
+          "away": "DLWDL"
+        }
+      }
+    },
+    {
       "team1": "Düsseldorf",
       "team1_logo": "https://img.singhs.com.np/team/8194.png",
       "team2": "Dortmund",
@@ -188,7 +188,53 @@
       "details_url": "https://home.getemoji.online/?yosintv=dortmund",
       "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
       "event_id": 5924412,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "match_id": 5924412,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Sat, 25 Jul 2026 11:00:00 GMT",
+          "venue": "Merkur Spiel-Arena",
+          "venue_city": "Düsseldorf",
+          "venue_country": "Germany",
+          "venue_lat": 51.261545599,
+          "venue_lng": 6.733181477,
+          "stadium_capacity": 54600,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Fortuna Düsseldorf",
+            "id": 8194
+          },
+          "away_team": {
+            "name": "Borussia Dortmund",
+            "id": 9789
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 3,
+          "awayWins": 7
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Marcel Benger"],
+          "away_missing_players": ["Nico Schlotterbeck", "Kauã Prates", "Emre Can"]
+        },
+        "pregame_form": {
+          "home": "LWLWL",
+          "away": "WLWWW"
+        }
+      }
     },
     {
       "team1": "Gateshead FC",
@@ -203,7 +249,53 @@
       "details_url": "https://home.getemoji.online/?yosintv=newcastle",
       "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
       "event_id": 5898824,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "match_id": 5898824,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Sat, 25 Jul 2026 11:30:00 GMT",
+          "venue": "Gateshead International Stadium",
+          "venue_city": "Gateshead, Tyne and Wear",
+          "venue_country": "England",
+          "venue_lat": 54.961010318,
+          "venue_lng": -1.57967627,
+          "stadium_capacity": 11750,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Gateshead FC",
+            "id": 6189
+          },
+          "away_team": {
+            "name": "Newcastle United",
+            "id": 10261
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 2
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": ["Lewis Miley"]
+        },
+        "pregame_form": {
+          "home": "DWWLL",
+          "away": "LWDWL"
+        }
+      }
     },
     {
       "team1": "Wehen Wiesbaden",
@@ -218,7 +310,53 @@
       "details_url": "https://home.getemoji.online/?yosintv=bayernmunchen",
       "streaming_url": "https://cdn.singhs.com.np/bayernmunchen.json",
       "event_id": 5449687,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "match_id": 5449687,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Sat, 25 Jul 2026 13:30:00 GMT",
+          "venue": "BRITA-Arena",
+          "venue_city": "Wiesbaden",
+          "venue_country": "Germany",
+          "venue_lat": 50.071229888,
+          "venue_lng": 8.256633282,
+          "stadium_capacity": 13144,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Wehen Wiesbaden",
+            "id": 8196
+          },
+          "away_team": {
+            "name": "Bayern München",
+            "id": 9823
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 1
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": ["Lennart Karl", "Serge Gnabry"]
+        },
+        "pregame_form": {
+          "home": "DDLLW",
+          "away": "DDWWW"
+        }
+      }
     },
     {
       "team1": "Celtic",
@@ -233,7 +371,53 @@
       "details_url": "https://home.getemoji.online/?yosintv=milan",
       "streaming_url": "https://cdn.singhs.com.np/milan.json",
       "event_id": 5765531,
-      "football_data": null
+      "football_data": {
+        "event": {
+          "match_id": 5765531,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Sat, 25 Jul 2026 14:00:00 GMT",
+          "venue": "Celtic Park",
+          "venue_city": "Glasgow",
+          "venue_country": "Scotland",
+          "venue_lat": 55.849719363,
+          "venue_lng": -4.205580354,
+          "stadium_capacity": 60832,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Celtic",
+            "id": 9925
+          },
+          "away_team": {
+            "name": "Milan",
+            "id": 8564
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 4
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": ["Christian Pulisic"]
+        },
+        "pregame_form": {
+          "home": "WWDLD",
+          "away": "DLLWL"
+        }
+      }
     }
   ]
 }
