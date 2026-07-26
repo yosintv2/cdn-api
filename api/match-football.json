@@ -52,7 +52,12 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Hugo Ekitiké", "Conor Bradley", "Giovanni Leoni", "Stefan Bajcetic"],
+          "home_missing_players": [
+            "Hugo Ekitiké",
+            "Conor Bradley",
+            "Giovanni Leoni",
+            "Stefan Bajcetic"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
@@ -112,10 +117,44 @@
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-4-2",
-          "home_players": ["Sébastian Breza", "Dawid Bugaj", "Jalen Neal", "Brayan Vera", "Luca Petrasso", "Fabian Herbers", "Matthew Longstaff", "Victor Loturi", "Gennadiy Synchuk", "Prince Osei Owusu", "Noah Streit"],
-          "away_players": ["Rocco Ríos Novo", "Facundo Mura", "Ian Fray", "Micael", "Sergio Reguilón", "David Ruiz", "Yannick Bright", "Telasco Segovia", "Mateo Silvetti", "Germán Berterame", "Luis Suárez"],
-          "home_missing_players": ["Thomas Gillier", "Josh-Duc Nteziryayo", "Bode Hidalgo", "Wiki Carmona"],
-          "away_missing_players": ["Gonzalo Luján", "Maximiliano Falcón", "David Ayala", "Tadeo Allende"]
+          "home_players": [
+            "Sébastian Breza",
+            "Dawid Bugaj",
+            "Jalen Neal",
+            "Brayan Vera",
+            "Luca Petrasso",
+            "Fabian Herbers",
+            "Matthew Longstaff",
+            "Victor Loturi",
+            "Gennadiy Synchuk",
+            "Prince Osei Owusu",
+            "Noah Streit"
+          ],
+          "away_players": [
+            "Rocco Ríos Novo",
+            "Facundo Mura",
+            "Ian Fray",
+            "Micael",
+            "Sergio Reguilón",
+            "David Ruiz",
+            "Yannick Bright",
+            "Telasco Segovia",
+            "Mateo Silvetti",
+            "Germán Berterame",
+            "Luis Suárez"
+          ],
+          "home_missing_players": [
+            "Thomas Gillier",
+            "Josh-Duc Nteziryayo",
+            "Bode Hidalgo",
+            "Wiki Carmona"
+          ],
+          "away_missing_players": [
+            "Gonzalo Luján",
+            "Maximiliano Falcón",
+            "David Ayala",
+            "Tadeo Allende"
+          ]
         },
         "pregame_form": {
           "home": "DWWDL",
@@ -134,8 +173,8 @@
       "start": "2026-07-26T12:00:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=aucklandfc",
-      "streaming_url": "https://cdn.singhs.com.np/aucklandfc.json",
+      "details_url": "https://home.getemoji.online/?yosintv=tottenham",
+      "streaming_url": "https://cdn.singhs.com.np/tottenham.json",
       "event_id": 5449688,
       "football_data": {
         "event": {
@@ -173,7 +212,12 @@
           "home_players": [],
           "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": ["Xavi Simons", "Wilson Odobert", "Ben Davies", "Dejan Kulusevski"]
+          "away_missing_players": [
+            "Xavi Simons",
+            "Wilson Odobert",
+            "Ben Davies",
+            "Dejan Kulusevski"
+          ]
         },
         "pregame_form": {
           "home": "DDDWW",
@@ -229,8 +273,16 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Murillo", "Ola Aina", "Callum Hudson-Odoi", "Nicolò Savona"],
-          "away_missing_players": ["Telmo Arcanjo", "Gui"]
+          "home_missing_players": [
+            "Murillo",
+            "Ola Aina",
+            "Callum Hudson-Odoi",
+            "Nicolò Savona"
+          ],
+          "away_missing_players": [
+            "Telmo Arcanjo",
+            "Gui"
+          ]
         },
         "pregame_form": {
           "home": "DLDWW",
@@ -287,7 +339,10 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Eymen Laghrissi", "Marcel Beifus"],
+          "home_missing_players": [
+            "Eymen Laghrissi",
+            "Marcel Beifus"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
@@ -407,7 +462,11 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Alessandro Buongiorno", "Billy Gilmour", "Stanislav Lobotka"],
+          "home_missing_players": [
+            "Alessandro Buongiorno",
+            "Billy Gilmour",
+            "Stanislav Lobotka"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
