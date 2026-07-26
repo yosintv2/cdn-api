@@ -1,297 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Liverpool",
-      "team1_logo": "https://img.singhs.com.np/team/8650.png",
-      "team2": "Sunderland",
-      "team2_logo": "https://img.singhs.com.np/team/8472.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-26T07:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 5498878,
-      "football_data": {
-        "event": {
-          "match_id": 5498878,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sat, 25 Jul 2026 22:00:00 GMT",
-          "venue": "GEODIS Park",
-          "venue_city": "Nashville, Tennessee",
-          "venue_country": "United States",
-          "venue_lat": 36.130239005,
-          "venue_lng": -86.765556,
-          "stadium_capacity": 30109,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Liverpool",
-            "id": 8650
-          },
-          "away_team": {
-            "name": "Sunderland",
-            "id": 8472
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 8,
-          "draws": 7,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Hugo Ekitiké",
-            "Conor Bradley",
-            "Giovanni Leoni",
-            "Stefan Bajcetic"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WLDLD",
-          "away": "DDWWW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Montreal",
-      "team1_logo": "https://img.singhs.com.np/team/161195.png",
-      "team2": "Inter Miami CF",
-      "team2_logo": "https://img.singhs.com.np/team/960720.png",
-      "league_logo": "https://img.singhs.com.np/league/913550.png",
-      "league": "Major League Soccer",
-      "start": "2026-07-26T08:30:00+09:00",
-      "league_id": 913550,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
-      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
-      "event_id": 5071233,
-      "football_data": {
-        "event": {
-          "match_id": 5071233,
-          "league": "Major League Soccer",
-          "league_id": 10000001,
-          "round": null,
-          "tournament": "Major League Soccer",
-          "kick_off_time_utc": "Sat, 25 Jul 2026 23:30:00 GMT",
-          "venue": "Stade Saputo",
-          "venue_city": "Montreal, Québec",
-          "venue_country": "Canada",
-          "venue_lat": 45.563072404,
-          "venue_lng": -73.552683592,
-          "stadium_capacity": 20801,
-          "stadium_surface": "grass",
-          "referee": "Alexis Da Silva",
-          "home_team": {
-            "name": "CF Montreal",
-            "id": 161195
-          },
-          "away_team": {
-            "name": "Inter Miami CF",
-            "id": 960720
-          },
-          "home_manager": "Philippe Eullaffroy",
-          "away_manager": "Angel Guillermo Hoyos",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 6,
-          "draws": 1,
-          "awayWins": 5
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-4-2",
-          "home_players": [
-            "Sébastian Breza",
-            "Dawid Bugaj",
-            "Jalen Neal",
-            "Brayan Vera",
-            "Luca Petrasso",
-            "Fabian Herbers",
-            "Matthew Longstaff",
-            "Victor Loturi",
-            "Gennadiy Synchuk",
-            "Prince Osei Owusu",
-            "Noah Streit"
-          ],
-          "away_players": [
-            "Rocco Ríos Novo",
-            "Facundo Mura",
-            "Ian Fray",
-            "Micael",
-            "Sergio Reguilón",
-            "David Ruiz",
-            "Yannick Bright",
-            "Telasco Segovia",
-            "Mateo Silvetti",
-            "Germán Berterame",
-            "Luis Suárez"
-          ],
-          "home_missing_players": [
-            "Thomas Gillier",
-            "Josh-Duc Nteziryayo",
-            "Bode Hidalgo",
-            "Wiki Carmona"
-          ],
-          "away_missing_players": [
-            "Gonzalo Luján",
-            "Maximiliano Falcón",
-            "David Ayala",
-            "Tadeo Allende"
-          ]
-        },
-        "pregame_form": {
-          "home": "DWWDL",
-          "away": "WWWWW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Auckland FC",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1642068.png",
-      "team2": "Tottenham",
-      "team2_logo": "https://img.singhs.com.np/team/8586.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-26T12:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=tottenham",
-      "streaming_url": "https://cdn.singhs.com.np/tottenham.json",
-      "event_id": 5449688,
-      "football_data": {
-        "event": {
-          "match_id": 5449688,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 26 Jul 2026 03:00:00 GMT",
-          "venue": "Eden Park",
-          "venue_city": "Auckland",
-          "venue_country": "New Zealand",
-          "venue_lat": -36.874956158,
-          "venue_lng": 174.744806886,
-          "stadium_capacity": 50000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Auckland FC",
-            "id": 1642068
-          },
-          "away_team": {
-            "name": "Tottenham Hotspur",
-            "id": 8586
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": [
-            "Xavi Simons",
-            "Wilson Odobert",
-            "Ben Davies",
-            "Dejan Kulusevski"
-          ]
-        },
-        "pregame_form": {
-          "home": "DDDWW",
-          "away": "WDLWW"
-        }
-      }
-    },
-    {
-      "team1": "Nottm Forest",
-      "team1_logo": "https://img.singhs.com.np/team/10203.png",
-      "team2": "Vitoria de Guimaraes",
-      "team2_logo": "https://img.singhs.com.np/team/7844.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-26T21:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
-      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
-      "event_id": 5899094,
-      "football_data": {
-        "event": {
-          "match_id": 5899094,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 26 Jul 2026 12:00:00 GMT",
-          "venue": null,
-          "venue_city": null,
-          "venue_country": null,
-          "venue_lat": null,
-          "venue_lng": null,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": null,
-          "home_team": {
-            "name": "Nottingham Forest",
-            "id": 10203
-          },
-          "away_team": {
-            "name": "Vitoria de Guimaraes",
-            "id": 7844
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [
-            "Murillo",
-            "Ola Aina",
-            "Callum Hudson-Odoi",
-            "Nicolò Savona"
-          ],
-          "away_missing_players": [
-            "Telmo Arcanjo",
-            "Gui"
-          ]
-        },
-        "pregame_form": {
-          "home": "DLDWW",
-          "away": "WWLLL"
-        }
-      },
-      "pushed": true
-    },
-    {
       "team1": "Karlsruher SC",
       "team1_logo": "https://img.singhs.com.np/team/8295.png",
       "team2": "Inter",
@@ -339,18 +48,29 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": [
-            "Eymen Laghrissi",
-            "Marcel Beifus"
-          ],
+          "home_missing_players": ["Eymen Laghrissi", "Marcel Beifus"],
           "away_missing_players": []
         },
         "pregame_form": {
           "home": "LLWDL",
           "away": "WWWDD"
         }
-      },
-      "pushed": true
+      }
+    },
+    {
+      "team1": "Cannes",
+      "team1_logo": "https://img.singhs.com.np/team/7826.png",
+      "team2": "Roma",
+      "team2_logo": "https://img.singhs.com.np/team/8686.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-27T00:30:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=roma",
+      "streaming_url": "https://cdn.singhs.com.np/roma.json",
+      "event_id": 5874659,
+      "football_data": null
     },
     {
       "team1": "Roma",
@@ -411,8 +131,7 @@
           "home": "WWWWW",
           "away": "WWWLL"
         }
-      },
-      "pushed": true
+      }
     },
     {
       "team1": "Napoli",
@@ -462,19 +181,14 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": [
-            "Alessandro Buongiorno",
-            "Billy Gilmour",
-            "Stanislav Lobotka"
-          ],
+          "home_missing_players": ["Alessandro Buongiorno", "Billy Gilmour", "Stanislav Lobotka"],
           "away_missing_players": []
         },
         "pregame_form": {
           "home": "DLWWL",
           "away": "LDLDL"
         }
-      },
-      "pushed": true
+      }
     }
   ]
 }
