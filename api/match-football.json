@@ -1,41 +1,41 @@
 {
   "matches": [
     {
-      "team1": "Karlsruher SC",
-      "team1_logo": "https://img.singhs.com.np/team/8295.png",
-      "team2": "Inter",
-      "team2_logo": "https://img.singhs.com.np/team/8636.png",
+      "team1": "Western Sydney",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/323834.png",
+      "team2": "Chelsea",
+      "team2_logo": "https://img.singhs.com.np/team/8455.png",
       "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-07-26T23:30:00+09:00",
+      "start": "2026-07-28T18:45:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=inter",
-      "streaming_url": "https://cdn.singhs.com.np/inter.json",
-      "event_id": 5847084,
+      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
+      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
+      "event_id": 5199446,
       "football_data": {
         "event": {
-          "match_id": 5847084,
+          "match_id": 5199446,
           "league": "Club Friendlies",
           "league_id": 915708,
           "round": null,
           "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 26 Jul 2026 14:30:00 GMT",
-          "venue": "BBBank Wildpark",
-          "venue_city": "Karlsruhe",
-          "venue_country": "Germany",
-          "venue_lat": 49.020016197,
-          "venue_lng": 8.413024164,
-          "stadium_capacity": 34302,
-          "stadium_surface": "grass",
+          "kick_off_time_utc": "Tue, 28 Jul 2026 09:45:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
           "referee": null,
           "home_team": {
-            "name": "Karlsruher SC",
-            "id": 8295
+            "name": "Western Sydney Wanderers FC",
+            "id": 323834
           },
           "away_team": {
-            "name": "Inter",
-            "id": 8636
+            "name": "Chelsea",
+            "id": 8455
           },
           "home_manager": null,
           "away_manager": null,
@@ -48,66 +48,51 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Eymen Laghrissi", "Marcel Beifus"],
-          "away_missing_players": []
+          "home_missing_players": [],
+          "away_missing_players": ["Mykhaylo Mudryk", "Roméo Lavia", "Estêvão", "Jamie Bynoe-Gittens"]
         },
         "pregame_form": {
-          "home": "LLWDL",
-          "away": "WWWDD"
+          "home": "LLLLW",
+          "away": "LDLWL"
         }
       }
     },
     {
-      "team1": "Cannes",
-      "team1_logo": "https://img.singhs.com.np/team/7826.png",
-      "team2": "Roma",
-      "team2_logo": "https://img.singhs.com.np/team/8686.png",
+      "team1": "Real Madrid",
+      "team1_logo": "https://img.singhs.com.np/team/8633.png",
+      "team2": "Leganes",
+      "team2_logo": "https://img.singhs.com.np/team/7854.png",
       "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-07-27T00:30:00+09:00",
+      "start": "2026-07-29T01:00:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=roma",
-      "streaming_url": "https://cdn.singhs.com.np/roma.json",
-      "event_id": 5874659,
-      "football_data": null
-    },
-    {
-      "team1": "Roma",
-      "team1_logo": "https://img.singhs.com.np/team/8686.png",
-      "team2": "Cannes",
-      "team2_logo": "https://img.singhs.com.np/team/7826.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-27T00:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=roma",
-      "streaming_url": "https://cdn.singhs.com.np/roma.json",
-      "event_id": 5874659,
+      "details_url": "https://home.getemoji.online/?yosintv=realmadrid",
+      "streaming_url": "https://cdn.singhs.com.np/realmadrid.json",
+      "event_id": 5958714,
       "football_data": {
         "event": {
-          "match_id": 5874659,
+          "match_id": 5958714,
           "league": "Club Friendlies",
           "league_id": 915708,
           "round": null,
           "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 26 Jul 2026 15:30:00 GMT",
-          "venue": "Stade Pierre de Coubertin",
-          "venue_city": "Cannes",
-          "venue_country": "France",
-          "venue_lat": 43.553042565,
-          "venue_lng": 6.964892149,
-          "stadium_capacity": 11211,
-          "stadium_surface": "grass",
+          "kick_off_time_utc": "Tue, 28 Jul 2026 16:00:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
           "referee": null,
           "home_team": {
-            "name": "Roma",
-            "id": 8686
+            "name": "Real Madrid",
+            "id": 8633
           },
           "away_team": {
-            "name": "Cannes",
-            "id": 7826
+            "name": "Leganes",
+            "id": 7854
           },
           "home_manager": null,
           "away_manager": null,
@@ -115,60 +100,60 @@
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 1,
-          "draws": 0,
-          "awayWins": 0
+          "homeWins": 11,
+          "draws": 2,
+          "awayWins": 2
         },
         "lineups": {
           "home_formation": null,
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
+          "home_missing_players": ["Thibaut Courtois", "Éder Militao", "Rodrygo"],
+          "away_missing_players": ["Marcos Leiva"]
         },
         "pregame_form": {
-          "home": "WWWWW",
-          "away": "WWWLL"
+          "home": "WLWWW",
+          "away": "LDLWL"
         }
       }
     },
     {
-      "team1": "Napoli",
-      "team1_logo": "https://img.singhs.com.np/team/9875.png",
-      "team2": "Carrarese",
-      "team2_logo": "https://img.singhs.com.np/team/6488.png",
+      "team1": "Aston Villa",
+      "team1_logo": "https://img.singhs.com.np/team/10252.png",
+      "team2": "Real Sociedad",
+      "team2_logo": "https://img.singhs.com.np/team/8560.png",
       "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-07-27T01:00:00+09:00",
+      "start": "2026-07-29T03:30:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=napoli",
-      "streaming_url": "https://cdn.singhs.com.np/napoli.json",
-      "event_id": 5968149,
+      "details_url": "https://home.getemoji.online/?yosintv=astonvilla",
+      "streaming_url": "https://cdn.singhs.com.np/astonvilla.json",
+      "event_id": 5874657,
       "football_data": {
         "event": {
-          "match_id": 5968149,
+          "match_id": 5874657,
           "league": "Club Friendlies",
           "league_id": 915708,
           "round": null,
           "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 26 Jul 2026 16:00:00 GMT",
-          "venue": "Stadio Comunale",
-          "venue_city": "Dimaro",
-          "venue_country": "Italy",
-          "venue_lat": 46.326779555,
-          "venue_lng": 10.881904364,
-          "stadium_capacity": 2000,
+          "kick_off_time_utc": "Tue, 28 Jul 2026 18:30:00 GMT",
+          "venue": "Pallet-Track Bescot Stadium",
+          "venue_city": "Walsall, West Midlands",
+          "venue_country": "England",
+          "venue_lat": 52.565390156,
+          "venue_lng": -1.990437806,
+          "stadium_capacity": 11300,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "Napoli",
-            "id": 9875
+            "name": "Aston Villa",
+            "id": 10252
           },
           "away_team": {
-            "name": "Carrarese",
-            "id": 6488
+            "name": "Real Sociedad",
+            "id": 8560
           },
           "home_manager": null,
           "away_manager": null,
@@ -181,12 +166,73 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Alessandro Buongiorno", "Billy Gilmour", "Stanislav Lobotka"],
-          "away_missing_players": []
+          "home_missing_players": ["Amadou Onana", "Johan Manzambi", "Alysson Edward"],
+          "away_missing_players": ["Álvaro Odriozola"]
         },
         "pregame_form": {
-          "home": "DLWWL",
-          "away": "LDLDL"
+          "home": "WWWWL",
+          "away": "DLDDW"
+        }
+      }
+    },
+    {
+      "team1": "Sao Paulo",
+      "team1_logo": "https://img.singhs.com.np/team/10277.png",
+      "team2": "Santos FC",
+      "team2_logo": "https://img.singhs.com.np/team/8514.png",
+      "league_logo": "https://img.singhs.com.np/league/268.png",
+      "league": "Serie A",
+      "start": "2026-07-29T09:00:00+09:00",
+      "league_id": 268,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=santosfc",
+      "streaming_url": "https://cdn.singhs.com.np/santosfc.json",
+      "event_id": 5103566,
+      "football_data": {
+        "event": {
+          "match_id": 5103566,
+          "league": "Brazilian Serie A",
+          "league_id": 268,
+          "round": 21,
+          "tournament": "Brazilian Serie A",
+          "kick_off_time_utc": "Wed, 29 Jul 2026 00:00:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": null,
+          "home_team": {
+            "name": "Sao Paulo",
+            "id": 10277
+          },
+          "away_team": {
+            "name": "Santos FC",
+            "id": 8514
+          },
+          "home_manager": "Dorival Júnior",
+          "away_manager": "Cuca",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 16,
+          "draws": 8,
+          "awayWins": 15
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-1-4-1",
+          "home_players": ["Rafael", "Lucas Ramon", "Robert Arboleda", "Rafael Tolói", "Wendell", "Damián Bobadilla", "Pablo Maia", "Marcos Antônio", "Artur", "Luciano", "Jonathan Calleri"],
+          "away_players": ["Gabriel Brazão", "Igor Vinícius", "Lucas Veríssimo", "João Ananias", "Gonzalo Escobar", "Willian Arão", "Gabriel Bontempo", "Benjamín Rollheiser", "Neymar", "Álvaro Barreal", "Gabriel Barbosa"],
+          "home_missing_players": ["Rafael Tolói", "Maik", "Lucas Moura"],
+          "away_missing_players": ["Gustavo Henrique", "Vinicius Lira"]
+        },
+        "pregame_form": {
+          "home": "DDWLL",
+          "away": "WWLWD"
         }
       }
     }
