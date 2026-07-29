@@ -10,8 +10,8 @@
       "start": "2026-07-29T18:45:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=sydneyfc",
-      "streaming_url": "https://cdn.singhs.com.np/sydneyfc.json",
+      "details_url": "https://home.getemoji.online/?yosintv=tottenham",
+      "streaming_url": "https://cdn.singhs.com.np/tottenham.json",
       "event_id": 5199447,
       "football_data": {
         "event": {
@@ -50,10 +50,39 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-1-4-1",
-          "home_players": ["Gus Hoefsloot", "Rhyan Grant", "Alexandar Popovic", "Jordan Courtney-Perkins", "Benjamin Garuccio", "Wataru Kamijo", "Rhys Youlley", "Zachary de Jesus", "Tiago Quintal", "Akol Akon", "Mathias Macallister"],
-          "away_players": ["Brandon Austin", "Tye Hall", "Malachi Hardy", "Kota Takai", "Rio Kyerematen", "Archie Gray", "Manor Solomon", "Jamie Donley", "Lucá Williams-Barnett", "Mikey Moore", "Dane Scarlett"],
+          "home_players": [
+            "Gus Hoefsloot",
+            "Rhyan Grant",
+            "Alexandar Popovic",
+            "Jordan Courtney-Perkins",
+            "Benjamin Garuccio",
+            "Wataru Kamijo",
+            "Rhys Youlley",
+            "Zachary de Jesus",
+            "Tiago Quintal",
+            "Akol Akon",
+            "Mathias Macallister"
+          ],
+          "away_players": [
+            "Brandon Austin",
+            "Tye Hall",
+            "Malachi Hardy",
+            "Kota Takai",
+            "Rio Kyerematen",
+            "Archie Gray",
+            "Manor Solomon",
+            "Jamie Donley",
+            "Lucá Williams-Barnett",
+            "Mikey Moore",
+            "Dane Scarlett"
+          ],
           "home_missing_players": [],
-          "away_missing_players": ["Xavi Simons", "Wilson Odobert", "Ben Davies", "Dejan Kulusevski"]
+          "away_missing_players": [
+            "Xavi Simons",
+            "Wilson Odobert",
+            "Ben Davies",
+            "Dejan Kulusevski"
+          ]
         },
         "pregame_form": {
           "home": "WDDLW",
@@ -114,7 +143,11 @@
           "home_players": [],
           "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": ["Nico Schlotterbeck", "Kauã Prates", "Emre Can"]
+          "away_missing_players": [
+            "Nico Schlotterbeck",
+            "Kauã Prates",
+            "Emre Can"
+          ]
         },
         "pregame_form": {
           "home": "WWWDW",
@@ -236,7 +269,9 @@
           "home_players": [],
           "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": ["Lewis Miley"]
+          "away_missing_players": [
+            "Lewis Miley"
+          ]
         },
         "pregame_form": {
           "home": "LDLWW",
@@ -351,9 +386,38 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "3-4-2-1",
-          "home_players": ["Giorgi Mamardashvili", "Jeremie Frimpong", "Joseph Gomez", "Mor Talla Ndiaye", "Konstantinos Tsimikas", "Curtis Jones", "James McConnell", "Kieran Morrison", "Harvey Elliott", "Rio Ngumoha", "Will Wright"],
-          "away_players": ["Arthur Okonkwo", "Zak Vyner", "Dominic Hyam", "Lewis Brunt", "Aaron James", "Lewis O'Brien", "Matthew James", "George Thomason", "Bailey Cadamarteri", "Nathan Broadhead", "Kieffer Moore"],
-          "home_missing_players": ["Hugo Ekitiké", "Conor Bradley", "Giovanni Leoni", "Stefan Bajcetic"],
+          "home_players": [
+            "Giorgi Mamardashvili",
+            "Jeremie Frimpong",
+            "Joseph Gomez",
+            "Mor Talla Ndiaye",
+            "Konstantinos Tsimikas",
+            "Curtis Jones",
+            "James McConnell",
+            "Kieran Morrison",
+            "Harvey Elliott",
+            "Rio Ngumoha",
+            "Will Wright"
+          ],
+          "away_players": [
+            "Arthur Okonkwo",
+            "Zak Vyner",
+            "Dominic Hyam",
+            "Lewis Brunt",
+            "Aaron James",
+            "Lewis O'Brien",
+            "Matthew James",
+            "George Thomason",
+            "Bailey Cadamarteri",
+            "Nathan Broadhead",
+            "Kieffer Moore"
+          ],
+          "home_missing_players": [
+            "Hugo Ekitiké",
+            "Conor Bradley",
+            "Giovanni Leoni",
+            "Stefan Bajcetic"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
