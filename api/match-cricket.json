@@ -1,21 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Namibia",
-      "team2": "Nepal",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/namibia.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
-      "league": "ICC CWC League 2, 2023-27",
-      "start": "2026-07-27T18:00:00+09:00",
-      "duration": 8,
-      "details_url": "https://home.getemoji.online/?yosintv=nepal",
-      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
-      "event_id": "270954",
-      "cricket_data": null,
-      "status": "pre",
-      "statusDesc": "Scheduled"
-    },
-    {
       "team1": "Nepal",
       "team2": "Netherlands",
       "team1_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
@@ -56,6 +41,21 @@
       "details_url": "https://home.getemoji.online/?yosintv=srilanka",
       "streaming_url": "https://cdn.singhs.com.np/srilanka.json",
       "event_id": "272145",
+      "cricket_data": null,
+      "status": "pre",
+      "statusDesc": "Scheduled"
+    },
+    {
+      "team1": "England",
+      "team2": "Pakistan",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/england.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/pakistan.png",
+      "league": "Pakistan in England, 3 Test Series, 2026",
+      "start": "2026-08-19T19:00:00+09:00",
+      "duration": 10,
+      "details_url": "https://home.getemoji.online/?yosintv=england",
+      "streaming_url": "https://cdn.singhs.com.np/england.json",
+      "event_id": "264906",
       "cricket_data": null,
       "status": "pre",
       "statusDesc": "Scheduled"
