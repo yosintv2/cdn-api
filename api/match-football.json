@@ -63,6 +63,67 @@
       "pushed": true
     },
     {
+      "team1": "Leeds",
+      "team1_logo": "https://img.singhs.com.np/team/8463.png",
+      "team2": "Sunderland",
+      "team2_logo": "https://img.singhs.com.np/team/8472.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-31T08:30:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=leeds",
+      "streaming_url": "https://cdn.singhs.com.np/leeds.json",
+      "event_id": 5739318,
+      "football_data": {
+        "event": {
+          "match_id": 5739318,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Thu, 30 Jul 2026 23:30:00 GMT",
+          "venue": null,
+          "venue_city": null,
+          "venue_country": null,
+          "venue_lat": null,
+          "venue_lng": null,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": null,
+          "home_team": {
+            "name": "Leeds United",
+            "id": 8463
+          },
+          "away_team": {
+            "name": "Sunderland",
+            "id": 8472
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "draws": 4,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": "3-4-3",
+          "away_formation": "4-1-4-1",
+          "home_players": ["Alex Cairns", "James Justin", "Joe Rodon", "Alfie Cresswell", "Daniel James", "Ethan Ampadu", "Sean Longstaff", "Jayden Lienou", "Wilfried Gnonto", "Joël Piroe", "Callum Mills"],
+          "away_players": ["Melker Ellborg", "Nordi Mukiele", "Daniel Ballard", "Luke O'Nien", "Reinildo", "Alan Browne", "Trai Hume", "Enzo Le Fée", "Chris Rigg", "Romaine Mundle", "Wilson Isidor"],
+          "home_missing_players": ["Ilia Gruev"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WDWLL",
+          "away": "DWWWL"
+        }
+      }
+    },
+    {
       "team1": "Juventus",
       "team1_logo": "https://img.singhs.com.np/team/9885.png",
       "team2": "Nice",
@@ -295,7 +356,8 @@
           "home": "DLWLW",
           "away": "LWWWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "FC Tokyo",
@@ -352,7 +414,8 @@
           "home": "WDLDL",
           "away": "WWWLL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Man City",
@@ -413,7 +476,8 @@
           "home": "WWWDL",
           "away": "WWDDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Man United",
@@ -474,7 +538,8 @@
           "home": "DWWLW",
           "away": "LWWLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Cardiff",
@@ -531,7 +596,8 @@
           "home": "WWWLL",
           "away": "WWWWD"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
