@@ -1,26 +1,83 @@
 {
   "matches": [
     {
-      "team1": "Sydney FC",
-      "team1_logo": "https://img.singhs.com.np/team/10164.png",
-      "team2": "Tottenham",
-      "team2_logo": "https://img.singhs.com.np/team/8586.png",
+      "team1": "Augsburg",
+      "team1_logo": "https://img.singhs.com.np/team/8406.png",
+      "team2": "Bournemouth",
+      "team2_logo": "https://img.singhs.com.np/team/8678.png",
       "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-07-29T18:45:00+09:00",
+      "start": "2026-07-30T23:00:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=tottenham",
-      "streaming_url": "https://cdn.singhs.com.np/tottenham.json",
-      "event_id": 5199447,
+      "details_url": "https://home.getemoji.online/?yosintv=augsburg",
+      "streaming_url": "https://cdn.singhs.com.np/augsburg.json",
+      "event_id": 5899060,
       "football_data": {
         "event": {
-          "match_id": 5199447,
+          "match_id": 5899060,
           "league": "Club Friendlies",
           "league_id": 915708,
           "round": null,
           "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 29 Jul 2026 09:45:00 GMT",
+          "kick_off_time_utc": "Thu, 30 Jul 2026 14:00:00 GMT",
+          "venue": "1508 SaalfeldenArena",
+          "venue_city": "Saalfelden am Steinernen Meer",
+          "venue_country": "Austria",
+          "venue_lat": 47.436106983,
+          "venue_lng": 12.854754925,
+          "stadium_capacity": 1250,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Augsburg",
+            "id": 8406
+          },
+          "away_team": {
+            "name": "AFC Bournemouth",
+            "id": 8678
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": ["Julio Soler"]
+        },
+        "pregame_form": {
+          "home": "DWWLD",
+          "away": "WWDDW"
+        }
+      }
+    },
+    {
+      "team1": "FC Rottach-Egern",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/954908.png",
+      "team2": "Bayern München",
+      "team2_logo": "https://img.singhs.com.np/team/9823.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-07-31T01:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=bayernmunchen",
+      "streaming_url": "https://cdn.singhs.com.np/bayernmunchen.json",
+      "event_id": 5765427,
+      "football_data": {
+        "event": {
+          "match_id": 5765427,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Thu, 30 Jul 2026 16:00:00 GMT",
           "venue": null,
           "venue_city": null,
           "venue_country": null,
@@ -30,12 +87,12 @@
           "stadium_surface": null,
           "referee": null,
           "home_team": {
-            "name": "Sydney FC",
-            "id": 10164
+            "name": "FC Rottach-Egern",
+            "id": 954908
           },
           "away_team": {
-            "name": "Tottenham Hotspur",
-            "id": 8586
+            "name": "Bayern München",
+            "id": 9823
           },
           "home_manager": null,
           "away_manager": null,
@@ -45,87 +102,58 @@
         "h2h": {
           "homeWins": 0,
           "draws": 0,
-          "awayWins": 1
+          "awayWins": 3
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-1-4-1",
-          "home_players": [
-            "Gus Hoefsloot",
-            "Rhyan Grant",
-            "Alexandar Popovic",
-            "Jordan Courtney-Perkins",
-            "Benjamin Garuccio",
-            "Wataru Kamijo",
-            "Rhys Youlley",
-            "Zachary de Jesus",
-            "Tiago Quintal",
-            "Akol Akon",
-            "Mathias Macallister"
-          ],
-          "away_players": [
-            "Brandon Austin",
-            "Tye Hall",
-            "Malachi Hardy",
-            "Kota Takai",
-            "Rio Kyerematen",
-            "Archie Gray",
-            "Manor Solomon",
-            "Jamie Donley",
-            "Lucá Williams-Barnett",
-            "Mikey Moore",
-            "Dane Scarlett"
-          ],
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": [
-            "Xavi Simons",
-            "Wilson Odobert",
-            "Ben Davies",
-            "Dejan Kulusevski"
-          ]
+          "away_missing_players": ["Lennart Karl", "Serge Gnabry"]
         },
         "pregame_form": {
-          "home": "WDDLW",
-          "away": "DLWWW"
+          "home": "LLL",
+          "away": "DWWWL"
         }
       }
     },
     {
-      "team1": "Cerezo Osaka",
-      "team1_logo": "https://img.singhs.com.np/team/4692.png",
-      "team2": "Dortmund",
-      "team2_logo": "https://img.singhs.com.np/team/9789.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-29T19:00:00+09:00",
-      "league_id": 915708,
+      "team1": "Benfica",
+      "team1_logo": "https://img.singhs.com.np/team/9772.png",
+      "team2": "St. Gallen",
+      "team2_logo": "https://img.singhs.com.np/team/10190.png",
+      "league_logo": "https://img.singhs.com.np/league/937349.png",
+      "league": "Europa League Qualification",
+      "start": "2026-07-31T04:00:00+09:00",
+      "league_id": 937349,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
-      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
-      "event_id": 5765421,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5788592,
       "football_data": {
         "event": {
-          "match_id": 5765421,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 29 Jul 2026 10:00:00 GMT",
-          "venue": "YANMAR HANASAKA STADIUM",
-          "venue_city": "Ōsaka (Osaka)",
-          "venue_country": "Japan",
-          "venue_lat": 34.615369499,
-          "venue_lng": 135.51641643,
-          "stadium_capacity": 24481,
+          "match_id": 5788592,
+          "league": "Europa League Qualification",
+          "league_id": 937349,
+          "round": 2,
+          "tournament": "Europa League Qualification",
+          "kick_off_time_utc": "Thu, 30 Jul 2026 19:00:00 GMT",
+          "venue": "Estádio do Sport Lisboa e Benfica (da Luz)",
+          "venue_city": "Lisboa",
+          "venue_country": "Portugal",
+          "venue_lat": 38.75264836,
+          "venue_lng": -9.184699059,
+          "stadium_capacity": 68100,
           "stadium_surface": "grass",
-          "referee": null,
+          "referee": "Florian Badstübner",
           "home_team": {
-            "name": "Cerezo Osaka",
-            "id": 4692
+            "name": "Benfica",
+            "id": 9772
           },
           "away_team": {
-            "name": "Borussia Dortmund",
-            "id": 9789
+            "name": "St. Gallen",
+            "id": 10190
           },
           "home_manager": null,
           "away_manager": null,
@@ -143,239 +171,50 @@
           "home_players": [],
           "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": [
-            "Nico Schlotterbeck",
-            "Kauã Prates",
-            "Emre Can"
-          ]
+          "away_missing_players": ["Nino Weibel", "Behar Neziri"]
         },
         "pregame_form": {
-          "home": "WWWDW",
-          "away": "LWWWL"
+          "home": "WLWLW",
+          "away": "WLLWW"
         }
       }
     },
     {
-      "team1": "Atletico Madrid",
-      "team1_logo": "https://img.singhs.com.np/team/9906.png",
-      "team2": "Getafe",
-      "team2_logo": "https://img.singhs.com.np/team/8305.png",
+      "team1": "Juventus",
+      "team1_logo": "https://img.singhs.com.np/team/9885.png",
+      "team2": "Nice",
+      "team2_logo": "https://img.singhs.com.np/team/9831.png",
       "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-07-30T03:30:00+09:00",
+      "start": "2026-08-01T01:00:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=atleticomadrid",
-      "streaming_url": "https://cdn.singhs.com.np/atleticomadrid.json",
-      "event_id": 5978391,
+      "details_url": "https://home.getemoji.online/?yosintv=juventus",
+      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
+      "event_id": 5970454,
       "football_data": {
         "event": {
-          "match_id": 5978391,
+          "match_id": 5970454,
           "league": "Club Friendlies",
           "league_id": 915708,
           "round": null,
           "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 29 Jul 2026 18:30:00 GMT",
-          "venue": "Miniestadio Cerro del Espino",
-          "venue_city": "Majadahonda",
-          "venue_country": "Spain",
-          "venue_lat": 40.457562397,
-          "venue_lng": -3.860287517,
-          "stadium_capacity": 3865,
+          "kick_off_time_utc": "Fri, 31 Jul 2026 16:00:00 GMT",
+          "venue": "Juventus Training Center Continassa",
+          "venue_city": "Torino",
+          "venue_country": "Italy",
+          "venue_lat": 45.112158,
+          "venue_lng": 7.63251,
+          "stadium_capacity": 2000,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "Atletico Madrid",
-            "id": 9906
+            "name": "Juventus",
+            "id": 9885
           },
           "away_team": {
-            "name": "Getafe",
-            "id": 8305
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 26,
-          "draws": 7,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "LLWWL",
-          "away": "DWLWW"
-        }
-      }
-    },
-    {
-      "team1": "Bristol City",
-      "team1_logo": "https://img.singhs.com.np/team/8427.png",
-      "team2": "Newcastle",
-      "team2_logo": "https://img.singhs.com.np/team/10261.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-30T03:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
-      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
-      "event_id": 5898825,
-      "football_data": {
-        "event": {
-          "match_id": 5898825,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 29 Jul 2026 18:30:00 GMT",
-          "venue": "Ashton Gate Stadium",
-          "venue_city": "Bristol",
-          "venue_country": "England",
-          "venue_lat": 51.440122578,
-          "venue_lng": -2.62027815,
-          "stadium_capacity": 27000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Bristol City",
-            "id": 8427
-          },
-          "away_team": {
-            "name": "Newcastle United",
-            "id": 10261
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 1,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": [
-            "Lewis Miley"
-          ]
-        },
-        "pregame_form": {
-          "home": "LDLWW",
-          "away": "WDWLD"
-        }
-      }
-    },
-    {
-      "team1": "Doncaster",
-      "team1_logo": "https://img.singhs.com.np/team/9903.png",
-      "team2": "Wolves",
-      "team2_logo": "https://img.singhs.com.np/team/8602.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-30T03:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wolves",
-      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
-      "event_id": 5973922,
-      "football_data": {
-        "event": {
-          "match_id": 5973922,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 29 Jul 2026 18:30:00 GMT",
-          "venue": "Club Doncaster Sports Village",
-          "venue_city": "Doncaster, South Yorkshire",
-          "venue_country": "England",
-          "venue_lat": 53.509820635,
-          "venue_lng": -1.113757789,
-          "stadium_capacity": 15231,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Doncaster Rovers",
-            "id": 9903
-          },
-          "away_team": {
-            "name": "Wolverhampton Wanderers",
-            "id": 8602
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 1,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WWLDW",
-          "away": "LDDWL"
-        }
-      }
-    },
-    {
-      "team1": "Liverpool",
-      "team1_logo": "https://img.singhs.com.np/team/8650.png",
-      "team2": "Wrexham",
-      "team2_logo": "https://img.singhs.com.np/team/9841.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-07-30T08:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 5498879,
-      "football_data": {
-        "event": {
-          "match_id": 5498879,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 29 Jul 2026 23:30:00 GMT",
-          "venue": "Yankee Stadium",
-          "venue_city": "New York City",
-          "venue_country": "United States",
-          "venue_lat": 40.829685963,
-          "venue_lng": -73.926202655,
-          "stadium_capacity": 54251,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Liverpool",
-            "id": 8650
-          },
-          "away_team": {
-            "name": "Wrexham",
-            "id": 9841
+            "name": "Nice",
+            "id": 9831
           },
           "home_manager": null,
           "away_manager": null,
@@ -384,45 +223,130 @@
         },
         "h2h": null,
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-2-1",
-          "home_players": [
-            "Giorgi Mamardashvili",
-            "Jeremie Frimpong",
-            "Joseph Gomez",
-            "Mor Talla Ndiaye",
-            "Konstantinos Tsimikas",
-            "Curtis Jones",
-            "James McConnell",
-            "Kieran Morrison",
-            "Harvey Elliott",
-            "Rio Ngumoha",
-            "Will Wright"
-          ],
-          "away_players": [
-            "Arthur Okonkwo",
-            "Zak Vyner",
-            "Dominic Hyam",
-            "Lewis Brunt",
-            "Aaron James",
-            "Lewis O'Brien",
-            "Matthew James",
-            "George Thomason",
-            "Bailey Cadamarteri",
-            "Nathan Broadhead",
-            "Kieffer Moore"
-          ],
-          "home_missing_players": [
-            "Hugo Ekitiké",
-            "Conor Bradley",
-            "Giovanni Leoni",
-            "Stefan Bajcetic"
-          ],
-          "away_missing_players": []
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Jeff Ekhator"],
+          "away_missing_players": ["Kojo Peprah Oppong", "Mohamed Abdelmonem"]
         },
         "pregame_form": {
-          "home": "LDLDW",
-          "away": "LDDWW"
+          "home": "WLDDW",
+          "away": "LDWWW"
+        }
+      }
+    },
+    {
+      "team1": "Birmingham",
+      "team1_logo": "https://img.singhs.com.np/team/8658.png",
+      "team2": "Barcelona",
+      "team2_logo": "https://img.singhs.com.np/team/8634.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-08-01T03:45:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
+      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
+      "event_id": 5793366,
+      "football_data": {
+        "event": {
+          "match_id": 5793366,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Fri, 31 Jul 2026 18:45:00 GMT",
+          "venue": "St. Andrew's @ Knighthead Park",
+          "venue_city": "Birmingham",
+          "venue_country": "England",
+          "venue_lat": 52.47573289,
+          "venue_lng": -1.868104935,
+          "stadium_capacity": 30009,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Birmingham City",
+            "id": 8658
+          },
+          "away_team": {
+            "name": "Barcelona",
+            "id": 8634
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": ["Frenkie De Jong", "Fermín López"]
+        },
+        "pregame_form": {
+          "home": "WWDWW",
+          "away": "WWLWL"
+        }
+      }
+    },
+    {
+      "team1": "Sporting CP",
+      "team1_logo": "https://img.singhs.com.np/team/9768.png",
+      "team2": "Nottm Forest",
+      "team2_logo": "https://img.singhs.com.np/team/10203.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-08-01T03:45:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=sportingcp",
+      "streaming_url": "https://cdn.singhs.com.np/sportingcp.json",
+      "event_id": 5899095,
+      "football_data": {
+        "event": {
+          "match_id": 5899095,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Fri, 31 Jul 2026 18:45:00 GMT",
+          "venue": "Estádio do Algarve",
+          "venue_city": "Almancil",
+          "venue_country": "Portugal",
+          "venue_lat": 37.088262822,
+          "venue_lng": -7.974722385,
+          "stadium_capacity": 30305,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Sporting CP",
+            "id": 9768
+          },
+          "away_team": {
+            "name": "Nottingham Forest",
+            "id": 10203
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Zeno Debast", "João Simões", "Fotis Ioannidis"],
+          "away_missing_players": ["Murillo", "Ola Aina", "Callum Hudson-Odoi", "Nicolò Savona"]
+        },
+        "pregame_form": {
+          "home": "WLWWW",
+          "away": "DLDWW"
         }
       }
     }
