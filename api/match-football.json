@@ -237,7 +237,8 @@
           "home": "LWWLW",
           "away": "LLWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Mallorca",
@@ -352,7 +353,8 @@
           "home": "WWWDW",
           "away": "WWWLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Inter Miami CF",
@@ -409,7 +411,8 @@
           "home": "WWWWD",
           "away": "WLLDD"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
