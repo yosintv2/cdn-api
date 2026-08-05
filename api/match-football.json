@@ -1,188 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Milan",
-      "team1_logo": "https://img.singhs.com.np/team/8564.png",
-      "team2": "Inter",
-      "team2_logo": "https://img.singhs.com.np/team/8636.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-05T19:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=milan",
-      "streaming_url": "https://cdn.singhs.com.np/milan.json",
-      "event_id": 5449691,
-      "football_data": {
-        "event": {
-          "match_id": 5449691,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 05 Aug 2026 11:00:00 GMT",
-          "venue": "Optus Stadium",
-          "venue_city": "Perth",
-          "venue_country": "Australia",
-          "venue_lat": -31.951101821,
-          "venue_lng": 115.889056413,
-          "stadium_capacity": 65000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Milan",
-            "id": 8564
-          },
-          "away_team": {
-            "name": "Inter",
-            "id": 8636
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 17,
-          "draws": 10,
-          "awayWins": 20
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "3-5-2",
-          "home_players": ["Lorenzo Torriani", "Fikayo Tomori", "Matteo Gabbia", "Strahinja Pavlovic", "Zachary Athekame", "Samuele Ricci", "Christian Comotto", "Davide Bartesaghi", "Ruben Loftus-Cheek", "Lorenzo Ossola", "Andrej Kostic"],
-          "away_players": ["Josep Martínez", "Benjamin Pavard", "Yann Aurel Bisseck", "Carlos Augusto", "Andy Diouf", "Nicolò Barella", "Aleksandar Stankovic", "Henrikh Mkhitaryan", "Federico Dimarco", "Francesco Pio Esposito", "Jamal Iddrissou"],
-          "home_missing_players": ["Christian Pulisic"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "LLWLD",
-          "away": "WDDWD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "K-League All Stars",
-      "team1_logo": "https://img.singhs.com.np/team/207969.png",
-      "team2": "Man City",
-      "team2_logo": "https://img.singhs.com.np/team/8456.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-05T20:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=mancity",
-      "streaming_url": "https://cdn.singhs.com.np/mancity.json",
-      "event_id": 5862944,
-      "football_data": {
-        "event": {
-          "match_id": 5862944,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 05 Aug 2026 11:00:00 GMT",
-          "venue": null,
-          "venue_city": null,
-          "venue_country": null,
-          "venue_lat": null,
-          "venue_lng": null,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": null,
-          "home_team": {
-            "name": "K-League All Stars",
-            "id": 207969
-          },
-          "away_team": {
-            "name": "Manchester City",
-            "id": 8456
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": ["Rodri"]
-        },
-        "pregame_form": {
-          "home": "DLWLW",
-          "away": "WWDLD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Chelsea",
-      "team1_logo": "https://img.singhs.com.np/team/8455.png",
-      "team2": "Juventus",
-      "team2_logo": "https://img.singhs.com.np/team/9885.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-05T20:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
-      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
-      "event_id": 5406268,
-      "football_data": {
-        "event": {
-          "match_id": 5406268,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 05 Aug 2026 11:30:00 GMT",
-          "venue": "Kai Tak Sports Park",
-          "venue_city": "Kowloon City",
-          "venue_country": "Hong Kong",
-          "venue_lat": 22.322393099,
-          "venue_lng": 114.197291624,
-          "stadium_capacity": 50000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Chelsea",
-            "id": 8455
-          },
-          "away_team": {
-            "name": "Juventus",
-            "id": 9885
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 1,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-3",
-          "home_players": ["Teddy Sharman-Lowe", "Marco Palestra", "Wesley Fofana", "Levi Colwill", "Jorrel Hato", "Dário Essugo", "Roméo Lavia", "Estêvão", "Cole Palmer", "Jamie Gittens", "João Pedro"],
-          "away_players": ["Michele Di Gregorio", "Federico Gatti", "Lloyd Kelly", "Pierre Kalulu", "Zeki Çelik", "Manuel Locatelli", "Douglas Luiz", "Andrea Cambiaso", "Edon Zhegrova", "Arkadiusz Milik", "Fabio Miretti"],
-          "home_missing_players": ["Mykhaylo Mudryk", "Roméo Lavia", "Jamie Bynoe-Gittens"],
-          "away_missing_players": ["Jeff Ekhator"]
-        },
-        "pregame_form": {
-          "home": "LWLWL",
-          "away": "LDDWW"
-        }
-      },
-      "pushed": true
-    },
-    {
       "team1": "Napoli",
       "team1_logo": "https://img.singhs.com.np/team/9875.png",
       "team2": "Osasuna",
@@ -237,66 +55,7 @@
           "home": "LWWLW",
           "away": "LLWWW"
         }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Mallorca",
-      "team1_logo": "https://img.singhs.com.np/team/8661.png",
-      "team2": "PSG",
-      "team2_logo": "https://img.singhs.com.np/team/9847.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-06T03:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=psg",
-      "streaming_url": "https://cdn.singhs.com.np/psg.json",
-      "event_id": 5874665,
-      "football_data": {
-        "event": {
-          "match_id": 5874665,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Wed, 05 Aug 2026 19:00:00 GMT",
-          "venue": "Estadi Mallorca Son Moix",
-          "venue_city": "Palma de Mallorca",
-          "venue_country": "Spain",
-          "venue_lat": 39.589939598,
-          "venue_lng": 2.6300776,
-          "stadium_capacity": 26020,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Mallorca",
-            "id": 8661
-          },
-          "away_team": {
-            "name": "Paris Saint-Germain",
-            "id": 9847
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Johan Mojica", "Jan Salas"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WDLLW",
-          "away": "DWWLD"
-        }
-      },
-      "pushed": true
+      }
     },
     {
       "team1": "Arsenal",
@@ -357,6 +116,63 @@
       "pushed": true
     },
     {
+      "team1": "Mallorca",
+      "team1_logo": "https://img.singhs.com.np/team/8661.png",
+      "team2": "PSG",
+      "team2_logo": "https://img.singhs.com.np/team/9847.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-08-06T04:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=psg",
+      "streaming_url": "https://cdn.singhs.com.np/psg.json",
+      "event_id": 5874665,
+      "football_data": {
+        "event": {
+          "match_id": 5874665,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Wed, 05 Aug 2026 19:00:00 GMT",
+          "venue": "Estadi Mallorca Son Moix",
+          "venue_city": "Palma de Mallorca",
+          "venue_country": "Spain",
+          "venue_lat": 39.589939598,
+          "venue_lng": 2.6300776,
+          "stadium_capacity": 26020,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Mallorca",
+            "id": 8661
+          },
+          "away_team": {
+            "name": "Paris Saint-Germain",
+            "id": 9847
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Johan Mojica", "Jan Salas"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WDLLW",
+          "away": "DWWLD"
+        }
+      }
+    },
+    {
       "team1": "Inter Miami CF",
       "team1_logo": "https://img.singhs.com.np/team/960720.png",
       "team2": "San Luis",
@@ -413,6 +229,128 @@
         }
       },
       "pushed": true
+    },
+    {
+      "team1": "Benfica",
+      "team1_logo": "https://img.singhs.com.np/team/9772.png",
+      "team2": "Hearts",
+      "team2_logo": "https://img.singhs.com.np/team/9860.png",
+      "league_logo": "https://img.singhs.com.np/league/937349.png",
+      "league": "Europa League Qualification",
+      "start": "2026-08-07T04:00:00+09:00",
+      "league_id": 937349,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5955038,
+      "football_data": {
+        "event": {
+          "match_id": 5955038,
+          "league": "Europa League Qualification",
+          "league_id": 937349,
+          "round": 3,
+          "tournament": "Europa League Qualification",
+          "kick_off_time_utc": "Thu, 06 Aug 2026 19:00:00 GMT",
+          "venue": "Estádio do Sport Lisboa e Benfica (da Luz)",
+          "venue_city": "Lisboa",
+          "venue_country": "Portugal",
+          "venue_lat": 38.75264836,
+          "venue_lng": -9.184699059,
+          "stadium_capacity": 68100,
+          "stadium_surface": "grass",
+          "referee": "Marian Alexandru Barbu",
+          "home_team": {
+            "name": "Benfica",
+            "id": 9772
+          },
+          "away_team": {
+            "name": "Heart of Midlothian",
+            "id": 9860
+          },
+          "home_manager": "Marco Silva",
+          "away_manager": "Wouter Vrancken",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Anatoliy Trubin", "Alexander Bah", "António Silva", "Clément Lenglet", "Samuel Dahl", "Leandro Barreiro", "Enzo Barrenechea", "Rafa Silva", "Georgiy Sudakov", "Jakub Kaminski", "Vangelis Pavlidis"],
+          "away_players": ["Beau Reus", "Jordi Altena", "Stuart Findlay", "Harry Milne", "Laurent Mendy", "Oisin McEntee", "Blair Spittal", "Sabah Kerjota", "Amadou Ba-Sy", "Calvin Miller", "Cláudio Braga"],
+          "home_missing_players": [],
+          "away_missing_players": ["Christian Borchgrevink", "Stephen Kingsley", "Craig Halkett", "Eduardo Ageu"]
+        },
+        "pregame_form": {
+          "home": "LWLWW",
+          "away": "WWLLL"
+        }
+      }
+    },
+    {
+      "team1": "Bayern München",
+      "team1_logo": "https://img.singhs.com.np/team/9823.png",
+      "team2": "Aston Villa",
+      "team2_logo": "https://img.singhs.com.np/team/10252.png",
+      "league_logo": "https://img.singhs.com.np/league/915708.png",
+      "league": "Club Friendlies",
+      "start": "2026-08-07T21:00:00+09:00",
+      "league_id": 915708,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=bayernmunchen",
+      "streaming_url": "https://cdn.singhs.com.np/bayernmunchen.json",
+      "event_id": 5449690,
+      "football_data": {
+        "event": {
+          "match_id": 5449690,
+          "league": "Club Friendlies",
+          "league_id": 915708,
+          "round": null,
+          "tournament": "Club Friendlies",
+          "kick_off_time_utc": "Fri, 07 Aug 2026 12:00:00 GMT",
+          "venue": "Kai Tak Sports Park",
+          "venue_city": "Kowloon City",
+          "venue_country": "Hong Kong",
+          "venue_lat": 22.322393099,
+          "venue_lng": 114.197291624,
+          "stadium_capacity": 50000,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Bayern München",
+            "id": 9823
+          },
+          "away_team": {
+            "name": "Aston Villa",
+            "id": 10252
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 1
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Jonas Urbig", "Vincent Manuba", "Filip Pavic", "Min-Jae Kim", "Hiroki Ito", "Tom Bischof", "João Palhinha", "Felipe Chávez", "Guido Della Rovere", "Bara Ndiaye", "Bastian Assomo"],
+          "away_players": ["Marco Bizot", "Matty Cash", "Victor Nilsson Lindelöf", "TJ Carroll", "Triston Rowe", "Lamare Bogarde", "João Gomes", "Alysson Edward", "Emiliano Buendía", "Alejandro Garnacho", "Evann Guessand"],
+          "home_missing_players": ["Lennart Karl", "Serge Gnabry"],
+          "away_missing_players": ["Amadou Onana", "Johan Manzambi", "Alysson Edward"]
+        },
+        "pregame_form": {
+          "home": "WWLWW",
+          "away": "WWLLW"
+        }
+      }
     }
   ]
 }
