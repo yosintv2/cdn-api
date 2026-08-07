@@ -1,36 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Nepal",
-      "team2": "Netherlands",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/netherlands.png",
-      "league": "ICC CWC League 2, 2023-27",
-      "start": "2026-07-29T18:00:00+09:00",
-      "duration": 8,
-      "details_url": "https://home.getemoji.online/?yosintv=nepal",
-      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
-      "event_id": "270956",
-      "cricket_data": null,
-      "status": "pre",
-      "statusDesc": "Scheduled"
-    },
-    {
-      "team1": "West Indies",
-      "team2": "Pakistan",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/westindies.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/pakistan.png",
-      "league": "Pakistan in West Indies, 2 Test Series, 2026",
-      "start": "2026-08-02T23:00:00+09:00",
-      "duration": 10,
-      "details_url": "https://home.getemoji.online/?yosintv=westindies",
-      "streaming_url": "https://cdn.singhs.com.np/westindies.json",
-      "event_id": "271578",
-      "cricket_data": null,
-      "status": "pre",
-      "statusDesc": "Scheduled"
-    },
-    {
       "team1": "Sri Lanka",
       "team2": "India",
       "team1_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
@@ -59,6 +29,21 @@
       "cricket_data": null,
       "status": "pre",
       "statusDesc": "Scheduled"
+    },
+    {
+      "team1": "Ireland",
+      "team2": "Afghanistan",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/ireland.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/afghanistan.png",
+      "league": "Afghanistan in Ireland, 5 ODI Series, 2026",
+      "start": "2026-08-07T18:45:00+09:00",
+      "duration": 8,
+      "details_url": "https://home.getemoji.online/?yosintv=ireland",
+      "streaming_url": "https://cdn.singhs.com.np/ireland.json",
+      "event_id": "270207",
+      "cricket_data": null,
+      "status": "in",
+      "statusDesc": "Live Now"
     }
   ]
 }
