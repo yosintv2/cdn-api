@@ -1,41 +1,41 @@
 {
   "matches": [
     {
-      "team1": "Man City",
-      "team1_logo": "https://img.singhs.com.np/team/8456.png",
-      "team2": "Atletico Madrid",
-      "team2_logo": "https://img.singhs.com.np/team/9906.png",
+      "team1": "Juventus",
+      "team1_logo": "https://img.singhs.com.np/team/9885.png",
+      "team2": "Palermo",
+      "team2_logo": "https://img.singhs.com.np/team/8540.png",
       "league_logo": "https://img.singhs.com.np/league/915708.png",
       "league": "Club Friendlies",
-      "start": "2026-08-09T20:00:00+09:00",
+      "start": "2026-08-11T19:00:00+09:00",
       "league_id": 915708,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=mancity",
-      "streaming_url": "https://cdn.singhs.com.np/mancity.json",
-      "event_id": 5862945,
+      "details_url": "https://home.getemoji.online/?yosintv=juventus",
+      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
+      "event_id": 5900862,
       "football_data": {
         "event": {
-          "match_id": 5862945,
+          "match_id": 5900862,
           "league": "Club Friendlies",
           "league_id": 915708,
           "round": null,
           "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 09 Aug 2026 11:00:00 GMT",
-          "venue": "Seoul World Cup Stadium",
-          "venue_city": "Seoul",
-          "venue_country": "South Korea",
-          "venue_lat": 37.568222123,
-          "venue_lng": 126.897368431,
-          "stadium_capacity": 68476,
+          "kick_off_time_utc": "Tue, 11 Aug 2026 10:00:00 GMT",
+          "venue": "Optus Stadium",
+          "venue_city": "Perth",
+          "venue_country": "Australia",
+          "venue_lat": -31.951101821,
+          "venue_lng": 115.889056413,
+          "stadium_capacity": 65000,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "Manchester City",
-            "id": 8456
+            "name": "Juventus",
+            "id": 9885
           },
           "away_team": {
-            "name": "Atletico Madrid",
-            "id": 9906
+            "name": "Palermo",
+            "id": 8540
           },
           "home_manager": null,
           "away_manager": null,
@@ -43,388 +43,23 @@
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 1,
-          "draws": 1,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": ["Gianluigi Donnarumma", "Rico Lewis", "Abdukodir Khusanov", "Rúben Dias", "Josko Gvardiol", "Tijjani Reijnders", "Mateo Kovacic", "Antoine Semenyo", "Phil Foden", "Rayan Aït-Nouri", "Divin Mubama"],
-          "away_players": ["Jan Oblak", "Jorge Domínguez", "Robin Le Normand", "Dávid Hancko", "Matteo Ruggeri", "Carlos Martín", "Obed Vargas", "Koke", "Ademola Lookman", "Jorge Castillo", "Arnau Ortiz"],
-          "home_missing_players": ["Rodri"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WDLDW",
-          "away": "WWLWL"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Johor Darul Ta'zim",
-      "team1_logo": "https://img.singhs.com.np/team/165228.png",
-      "team2": "Chelsea",
-      "team2_logo": "https://img.singhs.com.np/team/8455.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-09T21:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
-      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
-      "event_id": 5739313,
-      "football_data": {
-        "event": {
-          "match_id": 5739313,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 09 Aug 2026 12:00:00 GMT",
-          "venue": "Stadium Sultan Ibrahim Larkin",
-          "venue_city": "Iskandar Puteri (Nusajaya)",
-          "venue_country": "Malaysia",
-          "venue_lat": 1.481781,
-          "venue_lng": 103.619313,
-          "stadium_capacity": 40000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Johor Darul Ta'zim",
-            "id": 165228
-          },
-          "away_team": {
-            "name": "Chelsea",
-            "id": 8455
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": ["Mykhaylo Mudryk", "Roméo Lavia", "Jamie Bynoe-Gittens"]
-        },
-        "pregame_form": {
-          "home": "LWWWD",
-          "away": "LWLLW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Arsenal",
-      "team1_logo": "https://img.singhs.com.np/team/9825.png",
-      "team2": "Dortmund",
-      "team2_logo": "https://img.singhs.com.np/team/9789.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-09T22:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=arsenal",
-      "streaming_url": "https://cdn.singhs.com.np/arsenal.json",
-      "event_id": 5898653,
-      "football_data": {
-        "event": {
-          "match_id": 5898653,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 09 Aug 2026 13:00:00 GMT",
-          "venue": "Emirates Stadium",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.555074614,
-          "venue_lng": -0.108457804,
-          "stadium_capacity": 60704,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Arsenal",
-            "id": 9825
-          },
-          "away_team": {
-            "name": "Borussia Dortmund",
-            "id": 9789
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 1,
+          "homeWins": 10,
+          "draws": 0,
           "awayWins": 2
         },
         "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "3-4-3",
-          "home_players": ["Kepa Arrizabalaga", "Ben White", "Cristhian Mosquera", "Piero Hincapié", "Riccardo Calafiori", "Ethan Nwaneri", "Myles Lewis-Skelly", "Kai Havertz", "Max Dowman", "Viktor Gyökeres", "Christos Tzolis"],
-          "away_players": ["Patrick Drewes", "Luca Reggiani", "Waldemar Anton", "Roméo Ritter", "Daniel Svensson", "Jobe Bellingham", "Felix Nmecha", "Maximilian Beier", "Carney Chukwuemeka", "Fábio Silva", "Samuele Inácio"],
-          "home_missing_players": ["Louie Copley", "William Saliba", "Ben White"],
-          "away_missing_players": ["Nico Schlotterbeck", "Konstantinos Karetsas", "Kauã Prates", "Emre Can"]
-        },
-        "pregame_form": {
-          "home": "WWDWL",
-          "away": "WWLLW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Liverpool",
-      "team1_logo": "https://img.singhs.com.np/team/8650.png",
-      "team2": "Monaco",
-      "team2_logo": "https://img.singhs.com.np/team/9829.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-09T22:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 5765326,
-      "football_data": {
-        "event": {
-          "match_id": 5765326,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 09 Aug 2026 13:30:00 GMT",
-          "venue": "Anfield",
-          "venue_city": "Liverpool",
-          "venue_country": "England",
-          "venue_lat": 53.430827885,
-          "venue_lng": -2.960852981,
-          "stadium_capacity": 61276,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Liverpool",
-            "id": 8650
-          },
-          "away_team": {
-            "name": "Monaco",
-            "id": 9829
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
           "home_formation": null,
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Hugo Ekitiké", "Conor Bradley", "Giovanni Leoni", "Stefan Bajcetic"],
-          "away_missing_players": ["Mohammed Salisu", "Takumi Minamino"]
-        },
-        "pregame_form": {
-          "home": "LDWWL",
-          "away": "WLLLW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "FC Porto",
-      "team1_logo": "https://img.singhs.com.np/team/9773.png",
-      "team2": "Alverca",
-      "team2_logo": "https://img.singhs.com.np/team/9780.png",
-      "league_logo": "https://img.singhs.com.np/league/61.png",
-      "league": "Liga Portugal",
-      "start": "2026-08-10T02:00:00+09:00",
-      "league_id": 61,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=fcporto",
-      "streaming_url": "https://cdn.singhs.com.np/fcporto.json",
-      "event_id": 5887563,
-      "football_data": {
-        "event": {
-          "match_id": 5887563,
-          "league": "Liga Portugal",
-          "league_id": 61,
-          "round": 1,
-          "tournament": "Liga Portugal",
-          "kick_off_time_utc": "Sun, 09 Aug 2026 17:00:00 GMT",
-          "venue": "Estádio Do Dragão",
-          "venue_city": "Porto",
-          "venue_country": "Portugal",
-          "venue_lat": 41.16179085,
-          "venue_lng": -8.5837394,
-          "stadium_capacity": 50399,
-          "stadium_surface": "grass",
-          "referee": "Luís Miguel Branco Godinho",
-          "home_team": {
-            "name": "FC Porto",
-            "id": 9773
-          },
-          "away_team": {
-            "name": "Alverca",
-            "id": 9780
-          },
-          "home_manager": "Francesco Farioli",
-          "away_manager": "Sérgio Ferreira",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "3-4-3",
-          "home_players": ["Diogo Costa", "Martim Fernandes", "Jakub Kiwior", "Nehuén Pérez", "Zaidu Sanusi", "Alan Varela", "Victor Froholdt", "Gabriel Veiga", "Pepê", "André Silva", "William Gomes"],
-          "away_players": ["Matheus Mendes", "Steven Baseya", "Sergi Gómez", "Yaya Bojang", "Nabili Touaizi", "Davy Gui", "Sabit Abdulai", "Isaac James", "Lucas Figueiredo", "Vivaldo Semedo", "Chiquinho"],
-          "home_missing_players": ["Cláudio Ramos", "Jan Bednarek", "Vasco Sousa", "Samuel Aghehowa"],
-          "away_missing_players": ["Julián Martínez"]
-        },
-        "pregame_form": {
-          "home": "LWLWW",
-          "away": "LWLDL"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Benfica",
-      "team1_logo": "https://img.singhs.com.np/team/9772.png",
-      "team2": "Academico Viseu",
-      "team2_logo": "https://img.singhs.com.np/team/1786.png",
-      "league_logo": "https://img.singhs.com.np/league/61.png",
-      "league": "Liga Portugal",
-      "start": "2026-08-10T04:30:00+09:00",
-      "league_id": 61,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=benfica",
-      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
-      "event_id": 5887565,
-      "football_data": {
-        "event": {
-          "match_id": 5887565,
-          "league": "Liga Portugal",
-          "league_id": 61,
-          "round": 1,
-          "tournament": "Liga Portugal",
-          "kick_off_time_utc": "Sun, 09 Aug 2026 19:30:00 GMT",
-          "venue": "Estádio do Sport Lisboa e Benfica (da Luz)",
-          "venue_city": "Lisboa",
-          "venue_country": "Portugal",
-          "venue_lat": 38.75264836,
-          "venue_lng": -9.184699059,
-          "stadium_capacity": 68100,
-          "stadium_surface": "grass",
-          "referee": "David Rafael Oliveira Silva",
-          "home_team": {
-            "name": "Benfica",
-            "id": 9772
-          },
-          "away_team": {
-            "name": "Academico Viseu",
-            "id": 1786
-          },
-          "home_manager": "Marco Silva",
-          "away_manager": "Bruno Pinheiro",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Anatoliy Trubin", "Amar Dedic", "Tomás Araújo", "Clément Lenglet", "Samuel Dahl", "Leandro Barreiro", "Enzo Barrenechea", "Rafa Silva", "Georgiy Sudakov", "Gianluca Prestianni", "Vangelis Pavlidis"],
-          "away_players": ["Matheus Sampaio", "Robinho", "Rúben Pereira", "Anthony Correia", "Gu Costa", "Luís Silva", "Cristian Ferreira", "João Guilherme", "Soufiane Messeguem", "Lorougnon Gohi", "André Clovis"],
-          "home_missing_players": [],
+          "home_missing_players": ["Jeff Ekhator"],
           "away_missing_players": []
         },
         "pregame_form": {
-          "home": "WLWWW",
-          "away": "WDDWD"
+          "home": "DWWWL",
+          "away": "DWLLW"
         }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Santos FC",
-      "team1_logo": "https://img.singhs.com.np/team/8514.png",
-      "team2": "Athletico Paranaense",
-      "team2_logo": "https://img.singhs.com.np/team/10273.png",
-      "league_logo": "https://img.singhs.com.np/league/268.png",
-      "league": "Serie A",
-      "start": "2026-08-10T06:30:00+09:00",
-      "league_id": 268,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=santosfc",
-      "streaming_url": "https://cdn.singhs.com.np/santosfc.json",
-      "event_id": 5103576,
-      "football_data": {
-        "event": {
-          "match_id": 5103576,
-          "league": "Brazilian Serie A",
-          "league_id": 268,
-          "round": 22,
-          "tournament": "Brazilian Serie A",
-          "kick_off_time_utc": "Sun, 09 Aug 2026 21:30:00 GMT",
-          "venue": "Estádio Urbano Caldeira",
-          "venue_city": "Santos, São Paulo",
-          "venue_country": "Brazil",
-          "venue_lat": -23.951096662,
-          "venue_lng": -46.338894367,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": "Rafael Rodrigo Klein",
-          "home_team": {
-            "name": "Santos FC",
-            "id": 8514
-          },
-          "away_team": {
-            "name": "Athletico Paranaense",
-            "id": 10273
-          },
-          "home_manager": "Cuca",
-          "away_manager": "Odair Hellmann",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 15,
-          "draws": 5,
-          "awayWins": 11
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Gabriel Brazão", "Gabriel Menino", "Adonis Frías", "João Ananias", "Gonzalo Escobar", "Christian Oliva", "João Schmidt", "Gabriel Bontempo", "Gustavo Caballero", "Álvaro Barreal", "Gabriel Barbosa"],
-          "away_players": ["Santos", "Gastón Benavídez", "Juan Aguirre", "Arthur Dias", "Gilberto", "Jádson", "Luiz Gustavo", "Léo Derik", "Leozinho", "Steven Mendoza", "Kevin Viveros"],
-          "home_missing_players": ["Neymar", "Igor Vinícius", "Lucas Veríssimo", "Moisés", "Gustavo Henrique", "Vinicius Lira"],
-          "away_missing_players": ["Santos", "Lucas Esquivel", "Claudinho"]
-        },
-        "pregame_form": {
-          "home": "WDWDW",
-          "away": "WWDWL"
-        }
-      },
-      "pushed": true
+      }
     }
   ]
 }
