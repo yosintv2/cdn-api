@@ -10,8 +10,8 @@
       "start": "2026-08-18T04:00:00+09:00",
       "league_id": 87,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=deportivoacoruna",
-      "streaming_url": "https://cdn.singhs.com.np/deportivoacoruna.json",
+      "details_url": "https://home.getemoji.online/?yosintv=elche",
+      "streaming_url": "https://cdn.singhs.com.np/elche.json",
       "event_id": 5868014,
       "football_data": null
     },
@@ -65,10 +65,36 @@
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
-          "home_players": ["André Gomes", "André Geraldes", "Khaly", "David Sousa", "Abdu Conté", "Seba Pérez", "Lawrence Ofori", "Gabi Pereira", "Kevin Prieto", "Henrique Araújo", "Rochinha"],
-          "away_players": ["Samuel Soares", "Alexander Bah", "Tomás Araújo", "Clément Lenglet", "Samuel Dahl", "Leandro Barreiro", "Enzo Barrenechea", "Gianluca Prestianni", "Rafa Silva", "Andreas Schjelderup", "Vangelis Pavlidis"],
+          "home_players": [
+            "André Gomes",
+            "André Geraldes",
+            "Khaly",
+            "David Sousa",
+            "Abdu Conté",
+            "Seba Pérez",
+            "Lawrence Ofori",
+            "Gabi Pereira",
+            "Kevin Prieto",
+            "Henrique Araújo",
+            "Rochinha"
+          ],
+          "away_players": [
+            "Samuel Soares",
+            "Alexander Bah",
+            "Tomás Araújo",
+            "Clément Lenglet",
+            "Samuel Dahl",
+            "Leandro Barreiro",
+            "Enzo Barrenechea",
+            "Gianluca Prestianni",
+            "Rafa Silva",
+            "Andreas Schjelderup",
+            "Vangelis Pavlidis"
+          ],
           "home_missing_players": [],
-          "away_missing_players": ["Fredrik Aursnes"]
+          "away_missing_players": [
+            "Fredrik Aursnes"
+          ]
         },
         "pregame_form": {
           "home": "WDDWL",
