@@ -1,478 +1,78 @@
 {
   "matches": [
     {
-      "team1": "Liverpool",
-      "team1_logo": "https://img.singhs.com.np/team/8650.png",
-      "team2": "Como",
-      "team2_logo": "https://img.singhs.com.np/team/10171.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-16T19:30:00+09:00",
-      "league_id": 915708,
+      "team1": "Deportivo A Coruña",
+      "team1_logo": "https://img.singhs.com.np/team/9783.png",
+      "team2": "Elche",
+      "team2_logo": "https://img.singhs.com.np/team/10268.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-08-18T04:00:00+09:00",
+      "league_id": 87,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 5973785,
-      "football_data": {
-        "event": {
-          "match_id": 5765327,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 17:00:00 GMT",
-          "venue": "Anfield",
-          "venue_city": "Liverpool",
-          "venue_country": "England",
-          "venue_lat": 53.430827885,
-          "venue_lng": -2.960852981,
-          "stadium_capacity": 61276,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Liverpool",
-            "id": 8650
-          },
-          "away_team": {
-            "name": "Como",
-            "id": 10171
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Alisson Becker", "Jeremie Frimpong", "Ifeanyi Ndukwe", "Virgil van Dijk", "Konstantinos Tsimikas", "Dominik Szoboszlai", "Ryan Gravenberch", "Lewis Koumas", "Florian Wirtz", "Cody Gakpo", "Alexander Isak"],
-          "away_players": ["Jean Butez", "Yan Couto", "Jacobo Ramón", "Marc-Oliver Kempf", "Álex Valle", "Lucas Da Cunha", "Máximo Perrone", "Assane Diao", "Martin Baturina", "Mattia Liberali", "Anastasios Douvikas"],
-          "home_missing_players": ["Curtis Jones", "Vítezslav Jaros", "Jérémy Jacquet", "Joe Gomez", "Hugo Ekitiké", "Conor Bradley", "Giovanni Leoni", "Stefan Bajcetic"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "DWWLL",
-          "away": "WWWDD"
-        }
-      }
+      "details_url": "https://home.getemoji.online/?yosintv=deportivoacoruna",
+      "streaming_url": "https://cdn.singhs.com.np/deportivoacoruna.json",
+      "event_id": 5868014,
+      "football_data": null
     },
     {
-      "team1": "Nottm Forest",
-      "team1_logo": "https://img.singhs.com.np/team/10203.png",
-      "team2": "Brest",
-      "team2_logo": "https://img.singhs.com.np/team/8521.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-16T22:00:00+09:00",
-      "league_id": 915708,
+      "team1": "Casa Pia AC",
+      "team1_logo": "https://img.singhs.com.np/team/212821.png",
+      "team2": "Benfica",
+      "team2_logo": "https://img.singhs.com.np/team/9772.png",
+      "league_logo": "https://img.singhs.com.np/league/61.png",
+      "league": "Liga Portugal",
+      "start": "2026-08-18T04:15:00+09:00",
+      "league_id": 61,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
-      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
-      "event_id": 5899097,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5887595,
       "football_data": {
         "event": {
-          "match_id": 5899097,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 13:00:00 GMT",
-          "venue": "The City Ground",
-          "venue_city": "Nottingham, Nottinghamshire",
-          "venue_country": "England",
-          "venue_lat": 52.939913226,
-          "venue_lng": -1.132894009,
-          "stadium_capacity": 31042,
+          "match_id": 5887595,
+          "league": "Liga Portugal",
+          "league_id": 61,
+          "round": 2,
+          "tournament": "Liga Portugal",
+          "kick_off_time_utc": "Mon, 17 Aug 2026 19:15:00 GMT",
+          "venue": "Estádio Municipal de Rio Maior",
+          "venue_city": "Rio Maior",
+          "venue_country": "Portugal",
+          "venue_lat": 39.344540974,
+          "venue_lng": -8.935162425,
+          "stadium_capacity": 8500,
           "stadium_surface": "grass",
-          "referee": null,
+          "referee": "João Pedro Silva Pinheiro",
           "home_team": {
-            "name": "Nottingham Forest",
-            "id": 10203
+            "name": "Casa Pia AC",
+            "id": 212821
           },
           "away_team": {
-            "name": "Brest",
-            "id": 8521
+            "name": "Benfica",
+            "id": 9772
           },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Chris Wood", "Callum Hudson-Odoi", "Nicolò Savona"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WLLLW",
-          "away": "DDLDD"
-        }
-      }
-    },
-    {
-      "team1": "Arsenal",
-      "team1_logo": "https://img.singhs.com.np/team/9825.png",
-      "team2": "Man City",
-      "team2_logo": "https://img.singhs.com.np/team/8456.png",
-      "league_logo": "https://img.singhs.com.np/league/247.png",
-      "league": "Community Shield",
-      "start": "2026-08-16T23:00:00+09:00",
-      "league_id": 247,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=arsenal",
-      "streaming_url": "https://cdn.singhs.com.np/arsenal.json",
-      "event_id": 5793186,
-      "football_data": {
-        "event": {
-          "match_id": 5793186,
-          "league": "Community Shield",
-          "league_id": 247,
-          "round": "final",
-          "tournament": "Community Shield",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 14:00:00 GMT",
-          "venue": "Principality Stadium",
-          "venue_city": "Cardiff (Caerdydd)",
-          "venue_country": "Wales",
-          "venue_lat": 51.478182304,
-          "venue_lng": -3.182660937,
-          "stadium_capacity": 74500,
-          "stadium_surface": "grass",
-          "referee": "Samuel Barrott",
-          "home_team": {
-            "name": "Arsenal",
-            "id": 9825
-          },
-          "away_team": {
-            "name": "Manchester City",
-            "id": 8456
-          },
-          "home_manager": "Mikel Arteta",
-          "away_manager": "Enzo Maresca",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 11,
-          "draws": 10,
-          "awayWins": 23
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Kepa Arrizabalaga", "Ben White", "Cristhian Mosquera", "Gabriel", "Riccardo Calafiori", "Martin Ødegaard", "Bruno Guimarães", "Myles Lewis-Skelly", "Max Dowman", "Viktor Gyökeres", "Christos Tzolis"],
-          "away_players": ["Gianluigi Donnarumma", "Matheus Nunes", "Rúben Dias", "Josko Gvardiol", "Rayan Aït-Nouri", "Mateo Kovacic", "Nico González", "Antoine Semenyo", "Phil Foden", "Jérémy Doku", "Omar Marmoush"],
-          "home_missing_players": ["Jurriën Timber", "William Saliba"],
-          "away_missing_players": ["Rodri"]
-        },
-        "pregame_form": {
-          "home": "DWLLD",
-          "away": "DLDWW"
-        }
-      }
-    },
-    {
-      "team1": "Basel",
-      "team1_logo": "https://img.singhs.com.np/team/9931.png",
-      "team2": "Barcelona",
-      "team2_logo": "https://img.singhs.com.np/team/8634.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-16T23:30:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
-      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
-      "event_id": 6000973,
-      "football_data": {
-        "event": {
-          "match_id": 6000973,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 14:30:00 GMT",
-          "venue": "St. Jakob-Park",
-          "venue_city": "Basel",
-          "venue_country": "Switzerland",
-          "venue_lat": 47.541586612,
-          "venue_lng": 7.620060593,
-          "stadium_capacity": 37994,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Basel",
-            "id": 9931
-          },
-          "away_team": {
-            "name": "Barcelona",
-            "id": 8634
-          },
-          "home_manager": "Stephan Lichtsteiner",
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-3-3",
-          "home_players": ["Mirko Salvi", "Keigo Tsunemoto", "Flavius Daniliuc", "Akpe Victory", "Moussa Cissé", "Léo Leroy", "Becir Omeragic", "Ludwig Malachowski Thorell", "Asane Sow", "Zan Celar", "Kazeem Olaigbe"],
-          "away_players": ["Wojciech Szczesny", "Xavi Espart", "Andreas Christensen", "Gerard Martín", "Jordi Pesquer", "Ebrima Tunkara", "Marc Bernal", "Brian Fariñas", "Karim Adeyemi", "Hamza Abdelkarim", "Shane Kluivert"],
-          "home_missing_players": ["Coleen Louis", "Jonas Omlin", "Gabriel Sigua"],
-          "away_missing_players": ["Roony Bardghji", "Frenkie De Jong"]
-        },
-        "pregame_form": {
-          "home": "DWLWW",
-          "away": "WLDWL"
-        }
-      }
-    },
-    {
-      "team1": "Newcastle",
-      "team1_logo": "https://img.singhs.com.np/team/10261.png",
-      "team2": "Strasbourg",
-      "team2_logo": "https://img.singhs.com.np/team/9848.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-17T00:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
-      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
-      "event_id": 5918243,
-      "football_data": {
-        "event": {
-          "match_id": 5918243,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 15:00:00 GMT",
-          "venue": "St. James' Park",
-          "venue_city": "Newcastle upon Tyne",
-          "venue_country": "England",
-          "venue_lat": 54.975540166,
-          "venue_lng": -1.621620655,
-          "stadium_capacity": 52264,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Newcastle United",
-            "id": 10261
-          },
-          "away_team": {
-            "name": "Strasbourg",
-            "id": 9848
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Anthony Elanga", "Lewis Hall", "Valentino Livramento", "Fabian Schär", "Lewis Miley"],
-          "away_missing_players": ["Joaquín Panichelli"]
-        },
-        "pregame_form": {
-          "home": "DLWLL",
-          "away": "WLLLL"
-        }
-      }
-    },
-    {
-      "team1": "Schalke 04",
-      "team1_logo": "https://img.singhs.com.np/team/10189.png",
-      "team2": "Real Madrid",
-      "team2_logo": "https://img.singhs.com.np/team/8633.png",
-      "league_logo": "https://img.singhs.com.np/league/915708.png",
-      "league": "Club Friendlies",
-      "start": "2026-08-17T00:00:00+09:00",
-      "league_id": 915708,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=realmadrid",
-      "streaming_url": "https://cdn.singhs.com.np/realmadrid.json",
-      "event_id": 5979020,
-      "football_data": {
-        "event": {
-          "match_id": 5979020,
-          "league": "Club Friendlies",
-          "league_id": 915708,
-          "round": null,
-          "tournament": "Club Friendlies",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 15:00:00 GMT",
-          "venue": "VELTINS-Arena",
-          "venue_city": "Gelsenkirchen",
-          "venue_country": "Germany",
-          "venue_lat": 51.554580973,
-          "venue_lng": 7.06738472,
-          "stadium_capacity": 62278,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Schalke 04",
-            "id": 10189
-          },
-          "away_team": {
-            "name": "Real Madrid",
-            "id": 8633
-          },
-          "home_manager": null,
-          "away_manager": null,
+          "home_manager": "Filipe Coelho",
+          "away_manager": "Marco Silva",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
           "homeWins": 1,
-          "draws": 0,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Adrian Gantenbein"],
-          "away_missing_players": ["Raúl Asencio", "Éder Militao", "Rodrygo"]
-        },
-        "pregame_form": {
-          "home": "WWWWL",
-          "away": "WWDWW"
-        }
-      }
-    },
-    {
-      "team1": "Lens",
-      "team1_logo": "https://img.singhs.com.np/team/8588.png",
-      "team2": "PSG",
-      "team2_logo": "https://img.singhs.com.np/team/9847.png",
-      "league_logo": "https://img.singhs.com.np/league/935524.png",
-      "league": "Super Cup",
-      "start": "2026-08-17T03:45:00+09:00",
-      "league_id": 935524,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=psg",
-      "streaming_url": "https://cdn.singhs.com.np/psg.json",
-      "event_id": 5740646,
-      "football_data": {
-        "event": {
-          "match_id": 5740646,
-          "league": "Super Cup",
-          "league_id": 935524,
-          "round": "final",
-          "tournament": "Super Cup",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 18:45:00 GMT",
-          "venue": "Stade Bollaert-Delelis",
-          "venue_city": "Lens",
-          "venue_country": "France",
-          "venue_lat": 50.432866762,
-          "venue_lng": 2.81494081,
-          "stadium_capacity": 41233,
-          "stadium_surface": "grass",
-          "referee": "Jeremie Pignard",
-          "home_team": {
-            "name": "Lens",
-            "id": 8588
-          },
-          "away_team": {
-            "name": "Paris Saint-Germain",
-            "id": 9847
-          },
-          "home_manager": "Dino Toppmöller",
-          "away_manager": "Luis Enrique",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 4,
-          "awayWins": 12
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Robin Risser", "Kyllian Antonio", "Ismaëlo Ganiou", "Maik Nawrocki", "Saud Abdulhamid", "Andrija Bulatovic", "Amadou Haidara", "Thorgan Hazard", "Florian Thauvin", "Franjo Ivanovic", "Odsonne Édouard"],
-          "away_players": ["Matvey Safonov", "Achraf Hakimi", "Ilya Zabarnyi", "Lucas Beraldo", "Lucas Digne", "Warren Zaïre-Emery", "Vitinha", "João Neves", "Désiré Doué", "Ousmane Dembélé", "Khvicha Kvaratskhelia"],
-          "home_missing_players": ["Jhoanner Chávez", "Samson Baidoo", "Nidal Celik", "Jonathan Gradit"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WWWDL",
-          "away": "LDLDW"
-        }
-      }
-    },
-    {
-      "team1": "Vasco da Gama",
-      "team1_logo": "https://img.singhs.com.np/team/10276.png",
-      "team2": "Santos FC",
-      "team2_logo": "https://img.singhs.com.np/team/8514.png",
-      "league_logo": "https://img.singhs.com.np/league/268.png",
-      "league": "Serie A",
-      "start": "2026-08-17T04:00:00+09:00",
-      "league_id": 268,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=santosfc",
-      "streaming_url": "https://cdn.singhs.com.np/santosfc.json",
-      "event_id": 5103585,
-      "football_data": {
-        "event": {
-          "match_id": 5103585,
-          "league": "Brazilian Serie A",
-          "league_id": 268,
-          "round": 23,
-          "tournament": "Brazilian Serie A",
-          "kick_off_time_utc": "Sun, 16 Aug 2026 19:00:00 GMT",
-          "venue": "Estádio São Januário",
-          "venue_city": "Rio de Janeiro, Rio de Janeiro",
-          "venue_country": "Brazil",
-          "venue_lat": -22.890903018,
-          "venue_lng": -43.228250742,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": "Lucas Casagrande",
-          "home_team": {
-            "name": "Vasco da Gama",
-            "id": 10276
-          },
-          "away_team": {
-            "name": "Santos FC",
-            "id": 8514
-          },
-          "home_manager": "Pedro Emanuel",
-          "away_manager": "Cuca",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 9,
-          "draws": 6,
-          "awayWins": 11
+          "draws": 3,
+          "awayWins": 5
         },
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
-          "home_players": ["Léo Jardim", "José Rodríguez", "Alan Saldivia", "Robert Renan", "Cuiabano", "Johan Rojas", "Cauan Barros", "Thiago Mendes", "Adson", "David", "Nuno Moreira"],
-          "away_players": ["Gabriel Brazão", "Gabriel Menino", "Willian Arão", "Luan Peres", "Gonzalo Escobar", "Christian Oliva", "João Schmidt", "Gabriel Bontempo", "Neymar", "Álvaro Barreal", "Gabriel Barbosa"],
-          "home_missing_players": ["Cuiabano", "Carlos Cuesta", "Andrés Gómez", "Brenner"],
-          "away_missing_players": ["Gabriel Bontempo", "Gabriel Menino", "Igor Vinícius", "Lucas Veríssimo", "Moisés", "Gustavo Henrique", "Vinicius Lira"]
+          "home_players": ["André Gomes", "André Geraldes", "Khaly", "David Sousa", "Abdu Conté", "Seba Pérez", "Lawrence Ofori", "Gabi Pereira", "Kevin Prieto", "Henrique Araújo", "Rochinha"],
+          "away_players": ["Samuel Soares", "Alexander Bah", "Tomás Araújo", "Clément Lenglet", "Samuel Dahl", "Leandro Barreiro", "Enzo Barrenechea", "Gianluca Prestianni", "Rafa Silva", "Andreas Schjelderup", "Vangelis Pavlidis"],
+          "home_missing_players": [],
+          "away_missing_players": ["Fredrik Aursnes"]
         },
         "pregame_form": {
-          "home": "WDWDD",
-          "away": "WDWLW"
+          "home": "WDDWL",
+          "away": "WWWDD"
         }
       }
     }
