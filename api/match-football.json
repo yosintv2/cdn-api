@@ -59,7 +59,8 @@
           "home": "WDWLW",
           "away": "DLWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Arsenal",
@@ -74,7 +75,8 @@
       "details_url": "https://home.getemoji.online/?yosintv=arsenal",
       "streaming_url": "https://cdn.singhs.com.np/arsenal.json",
       "event_id": 5795363,
-      "football_data": null
+      "football_data": null,
+      "pushed": true
     },
     {
       "team1": "Real Betis",
@@ -89,7 +91,8 @@
       "details_url": "https://home.getemoji.online/?yosintv=realbetis",
       "streaming_url": "https://cdn.singhs.com.np/realbetis.json",
       "event_id": 5868023,
-      "football_data": null
+      "football_data": null,
+      "pushed": true
     },
     {
       "team1": "Hull",
@@ -150,7 +153,8 @@
           "home": "WWDLD",
           "away": "WWDDL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Nottm Forest",
@@ -211,7 +215,8 @@
           "home": "LLLWW",
           "away": "WWWDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Preston",
@@ -272,7 +277,8 @@
           "home": "WLLDL",
           "away": "LWWWD"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
