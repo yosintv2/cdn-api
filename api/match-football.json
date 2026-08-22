@@ -1,68 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Hull",
-      "team1_logo": "https://img.singhs.com.np/team/8667.png",
-      "team2": "Man United",
-      "team2_logo": "https://img.singhs.com.np/team/10260.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-08-22T20:30:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=manunited",
-      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
-      "event_id": 5795364,
-      "football_data": {
-        "event": {
-          "match_id": 5795364,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 1,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 22 Aug 2026 11:30:00 GMT",
-          "venue": "MKM Stadium",
-          "venue_city": "Hull",
-          "venue_country": "England",
-          "venue_lat": 53.746239635,
-          "venue_lng": -0.367639661,
-          "stadium_capacity": 25586,
-          "stadium_surface": "grass",
-          "referee": "Darren England",
-          "home_team": {
-            "name": "Hull City",
-            "id": 8667
-          },
-          "away_team": {
-            "name": "Manchester United",
-            "id": 10260
-          },
-          "home_manager": "Sergej Jakirovic",
-          "away_manager": "Michael Carrick",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 5
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Konstantinos Tzolakis", "Lewie Coyle", "Semi Ajayi", "Nobel Mendy", "Ryan Giles", "Regan Slater", "Lucas Gourna-Douath", "Mohamed Belloumi", "Matt Crooks", "Elliot Stroud", "Oli McBurnie"],
-          "away_players": ["Senne Lammens", "Diogo Dalot", "Harry Maguire", "Ayden Heaven", "Luke Shaw", "Youri Tielemans", "Andrey Santos", "Amad Diallo", "Bruno Fernandes", "Matheus Cunha", "Bryan Mbeumo"],
-          "home_missing_players": ["Cody Drameh", "Patrick McNair", "Jack Butland", "Charlie Hughes", "Matty Jacob", "Darko Gyabi", "Eliot Matazo", "Hidemasa Morita", "Joe Gelhardt", "Óscar Zambrano"],
-          "away_missing_players": ["Karl Darlow", "Benjamin Sesko", "Tom Heaton", "Matthijs de Ligt", "Manuel Ugarte", "Mason Mount"]
-        },
-        "pregame_form": {
-          "home": "WWDLD",
-          "away": "WWDDL"
-        }
-      },
-      "pushed": true
-    },
-    {
       "team1": "Nottm Forest",
       "team1_logo": "https://img.singhs.com.np/team/10203.png",
       "team2": "Leeds",
@@ -187,6 +125,128 @@
       "pushed": true
     },
     {
+      "team1": "Everton",
+      "team1_logo": "https://img.singhs.com.np/team/8668.png",
+      "team2": "Crystal Palace",
+      "team2_logo": "https://img.singhs.com.np/team/9826.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-08-22T23:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=everton",
+      "streaming_url": "https://cdn.singhs.com.np/everton.json",
+      "event_id": 5795365,
+      "football_data": {
+        "event": {
+          "match_id": 5795365,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 1,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 22 Aug 2026 14:00:00 GMT",
+          "venue": "Hill Dickinson Stadium",
+          "venue_city": "Liverpool, Merseyside",
+          "venue_country": "England",
+          "venue_lat": 53.42498148,
+          "venue_lng": -3.002691341,
+          "stadium_capacity": 52769,
+          "stadium_surface": "grass",
+          "referee": "Paul Tierney",
+          "home_team": {
+            "name": "Everton",
+            "id": 8668
+          },
+          "away_team": {
+            "name": "Crystal Palace",
+            "id": 9826
+          },
+          "home_manager": "David Moyes",
+          "away_manager": "Pierre Sage",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 13,
+          "draws": 12,
+          "awayWins": 4
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Jordan Pickford", "Merlin Röhl", "James Tarkowski", "Jarrad Branthwaite", "Vitaliy Mykolenko", "Harrison Armstrong", "Hayden Hackney", "Iliman Ndiaye", "Kiernan Dewsbury-Hall", "Tyrique George", "Thierno Barry"],
+          "away_players": ["Dean Henderson", "Jaydee Canvot", "Chris Richards", "Chadi Riad", "Daniel Muñoz", "Daichi Kamada", "Adam Wharton", "Tyrick Mitchell", "Edward Nketiah", "Dwight McNeil", "Jean-Philippe Mateta"],
+          "home_missing_players": ["Christian Nørgaard", "Tim Iroegbunam"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "LWLWD",
+          "away": "LWWLL"
+        }
+      }
+    },
+    {
+      "team1": "Ipswich",
+      "team1_logo": "https://img.singhs.com.np/team/9902.png",
+      "team2": "Sunderland",
+      "team2_logo": "https://img.singhs.com.np/team/8472.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-08-22T23:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=ipswich",
+      "streaming_url": "https://cdn.singhs.com.np/ipswich.json",
+      "event_id": 5795366,
+      "football_data": {
+        "event": {
+          "match_id": 5795366,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 1,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 22 Aug 2026 14:00:00 GMT",
+          "venue": "Portman Road",
+          "venue_city": "Ipswich, Suffolk",
+          "venue_country": "England",
+          "venue_lat": 52.054949657,
+          "venue_lng": 1.145263016,
+          "stadium_capacity": 30056,
+          "stadium_surface": "grass",
+          "referee": "Farai Hallam",
+          "home_team": {
+            "name": "Ipswich Town",
+            "id": 9902
+          },
+          "away_team": {
+            "name": "Sunderland",
+            "id": 8472
+          },
+          "home_manager": "Gary O'Neil",
+          "away_manager": "Régis Le Bris",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 4,
+          "draws": 2,
+          "awayWins": 4
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Kjell Scherpen", "Dara O'Shea", "Issa Diop", "Jacob Greaves", "Leif Davis", "Marcelino Núñez", "Sasa Lukic", "Abdul Fatawu", "Julio Enciso", "Daizen Maeda", "Emersonn"],
+          "away_players": ["Robin Roefs", "Thomas Meunier", "Daniel Ballard", "Luke O'Nien", "Reinildo", "Granit Xhaka", "Noah Sadiki", "Trai Hume", "Enzo Le Fée", "Nilson Angulo", "Brian Brobbey"],
+          "home_missing_players": ["Florentino", "Azor Matusiwa"],
+          "away_missing_players": ["Simon Adingra"]
+        },
+        "pregame_form": {
+          "home": "LWWWW",
+          "away": "LLWWW"
+        }
+      }
+    },
+    {
       "team1": "Athletic Club",
       "team1_logo": "https://img.singhs.com.np/team/8315.png",
       "team2": "Sevilla",
@@ -245,7 +305,8 @@
           "home": "WWLLL",
           "away": "WWWLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Inter",
@@ -306,7 +367,8 @@
           "home": "WDDWW",
           "away": "WLWLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Brentford",
@@ -367,7 +429,8 @@
           "home": "LDDWW",
           "away": "WWDWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Valencia",
@@ -428,7 +491,8 @@
           "home": "LWLDL",
           "away": "WDWWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Dortmund",
@@ -489,7 +553,8 @@
           "home": "LLWWD",
           "away": "WWWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Genoa",
@@ -550,7 +615,8 @@
           "home": "WDWLW",
           "away": "LWWDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Espanyol",
@@ -611,7 +677,8 @@
           "home": "WDDLW",
           "away": "WDWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Inter Miami CF",
@@ -672,7 +739,8 @@
           "home": "WLLLD",
           "away": "DLDWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Brighton",
@@ -733,7 +801,8 @@
           "home": "LLWWD",
           "away": "LWLLL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Man City",
@@ -794,7 +863,8 @@
           "home": "LDWWL",
           "away": "DDWDL"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
