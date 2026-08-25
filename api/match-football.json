@@ -1,376 +1,366 @@
 {
   "matches": [
     {
-      "team1": "Al-Ettifaq",
-      "team1_logo": "https://img.singhs.com.np/team/101915.png",
-      "team2": "Al Nassr FC",
-      "team2_logo": "https://img.singhs.com.np/team/101918.png",
-      "league_logo": "https://img.singhs.com.np/league/536.png",
-      "league": "Saudi Pro League",
-      "start": "2026-08-26T03:00:00+09:00",
-      "league_id": 536,
+      "team1": "Al Ahli",
+      "team1_logo": "https://img.singhs.com.np/team/2530.png",
+      "team2": "Auckland FC",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1642068.png",
+      "league_logo": "https://img.singhs.com.np/league/944452.png",
+      "league": "FIFA Intercontinental Cup",
+      "start": "2026-08-27T03:00:00+09:00",
+      "league_id": 944452,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=alnassrfc",
-      "streaming_url": "https://cdn.singhs.com.np/alnassrfc.json",
-      "event_id": 5970103,
+      "details_url": "https://home.getemoji.online/?yosintv=alahli",
+      "streaming_url": "https://cdn.singhs.com.np/alahli.json",
+      "event_id": 6072164,
       "football_data": {
         "event": {
-          "match_id": 5970103,
-          "league": "Saudi Pro League",
-          "league_id": 536,
-          "round": 3,
-          "tournament": "Saudi Pro League",
-          "kick_off_time_utc": "Tue, 25 Aug 2026 18:00:00 GMT",
-          "venue": "Al Ettifaq Club Stadium",
-          "venue_city": "Dammam",
+          "match_id": 6072164,
+          "league": "FIFA Intercontinental Cup",
+          "league_id": 944452,
+          "round": 1,
+          "tournament": "FIFA Intercontinental Cup",
+          "kick_off_time_utc": "Wed, 26 Aug 2026 18:00:00 GMT",
+          "venue": "Alinma Bank Stadium at King Abdullah Sport City",
+          "venue_city": "Jeddah",
           "venue_country": "Saudi Arabia",
-          "venue_lat": 26.350810607,
-          "venue_lng": 50.181306303,
-          "stadium_capacity": 15000,
+          "venue_lat": 21.763282267,
+          "venue_lng": 39.164306606,
+          "stadium_capacity": 63079,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "Al-Ettifaq",
-            "id": 101915
+            "name": "Al Ahli",
+            "id": 2530
           },
           "away_team": {
-            "name": "Al Nassr FC",
-            "id": 101918
+            "name": "Auckland FC",
+            "id": 1642068
           },
-          "home_manager": "Arthur Papas",
-          "away_manager": "Ange Postecoglou",
+          "home_manager": null,
+          "away_manager": null,
           "gender": "male",
           "coverage_level": "lower"
         },
-        "h2h": {
-          "homeWins": 5,
-          "draws": 6,
-          "awayWins": 10
-        },
+        "h2h": null,
         "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-4-2",
-          "home_players": ["Turki Ba Al Jawsh", "Madallah Al Olayan", "Abdullah Ahmed Khateeb", "Jack Hendry", "Radhi Al Otaibi", "Khalid Al Ghannam", "Álvaro Medrán", "Ondrej Duda", "Rayane Messi", "Yasir Al Shammari", "Moussa Dembélé"],
-          "away_players": ["Bento Krepski", "Nawaf Al-Boushail", "Abdulelah Al Amri", "Iñigo Martínez", "Salem Al Najdi", "Kingsley Coman", "Ângelo", "Abdullah Al-Khaibari", "Sadio Mané", "Abdullah Al-Hamdan", "Joao Félix"],
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": ["Sultan Al-Ghannam"]
+          "away_missing_players": []
         },
         "pregame_form": {
-          "home": "LDWLW",
-          "away": "LWWWW"
+          "home": "WDWWW",
+          "away": "DDWWL"
         }
-      },
-      "pushed": true
+      }
     },
     {
-      "team1": "Sheff Wed",
-      "team1_logo": "https://img.singhs.com.np/team/10163.png",
-      "team2": "Wolves",
-      "team2_logo": "https://img.singhs.com.np/team/8602.png",
+      "team1": "Newcastle",
+      "team1_logo": "https://img.singhs.com.np/team/10261.png",
+      "team2": "West Brom",
+      "team2_logo": "https://img.singhs.com.np/team/8659.png",
       "league_logo": "https://img.singhs.com.np/league/938221.png",
       "league": "EFL Cup",
-      "start": "2026-08-26T03:45:00+09:00",
+      "start": "2026-08-27T03:45:00+09:00",
       "league_id": 938221,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wolves",
-      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
-      "event_id": 6005652,
+      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
+      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
+      "event_id": 6005645,
       "football_data": {
         "event": {
-          "match_id": 6005652,
+          "match_id": 6005645,
           "league": "EFL Cup",
           "league_id": 938221,
           "round": 2,
           "tournament": "EFL Cup",
-          "kick_off_time_utc": "Tue, 25 Aug 2026 18:45:00 GMT",
-          "venue": "Hillsborough",
-          "venue_city": "Sheffield",
+          "kick_off_time_utc": "Wed, 26 Aug 2026 18:45:00 GMT",
+          "venue": "St. James' Park",
+          "venue_city": "Newcastle upon Tyne",
           "venue_country": "England",
-          "venue_lat": 53.411423241,
-          "venue_lng": -1.500683874,
-          "stadium_capacity": 39814,
+          "venue_lat": 54.975540166,
+          "venue_lng": -1.621620655,
+          "stadium_capacity": 52719,
           "stadium_surface": "grass",
-          "referee": "Ben Speedie",
+          "referee": "Robert Madley",
           "home_team": {
-            "name": "Sheffield Wednesday",
-            "id": 10163
+            "name": "Newcastle United",
+            "id": 10261
           },
           "away_team": {
-            "name": "Wolverhampton Wanderers",
-            "id": 8602
+            "name": "West Bromwich Albion",
+            "id": 8659
           },
-          "home_manager": "Henrik Pedersen",
-          "away_manager": "César Peixoto",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 3,
-          "awayWins": 6
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Joe Lumley", "Yan Valery", "Gabriel Otegbayo", "Liam Cooper", "Max Lowe", "Barry Bannan", "Billy Mitchell", "Harry Gray", "Callum Slattery", "Louie Barry", "Jamal Lowe"],
-          "away_players": ["José Sá", "Jackson Tchatchoua", "Nasser Djiga", "Toti Gomes", "Hugo Bueno", "Marshall Munetsi", "André", "Rodrigo Gomes", "Fer López", "Mateus Mané", "Raul Jiménez"],
-          "home_missing_players": [],
-          "away_missing_players": ["Kieran Trippier", "Yerson Mosquera"]
-        },
-        "pregame_form": {
-          "home": "WLWWL",
-          "away": "WWWDW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Southampton",
-      "team1_logo": "https://img.singhs.com.np/team/8466.png",
-      "team2": "West Ham",
-      "team2_logo": "https://img.singhs.com.np/team/8654.png",
-      "league_logo": "https://img.singhs.com.np/league/938221.png",
-      "league": "EFL Cup",
-      "start": "2026-08-26T03:45:00+09:00",
-      "league_id": 938221,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=southampton",
-      "streaming_url": "https://cdn.singhs.com.np/southampton.json",
-      "event_id": 6005661,
-      "football_data": {
-        "event": {
-          "match_id": 6005661,
-          "league": "EFL Cup",
-          "league_id": 938221,
-          "round": 2,
-          "tournament": "EFL Cup",
-          "kick_off_time_utc": "Tue, 25 Aug 2026 18:45:00 GMT",
-          "venue": "St. Mary's Stadium",
-          "venue_city": "Southampton, Hampshire",
-          "venue_country": "England",
-          "venue_lat": 50.905894751,
-          "venue_lng": -1.391047239,
-          "stadium_capacity": 32689,
-          "stadium_surface": "grass",
-          "referee": "Ruebyn Ricardo",
-          "home_team": {
-            "name": "Southampton",
-            "id": 8466
-          },
-          "away_team": {
-            "name": "West Ham United",
-            "id": 8654
-          },
-          "home_manager": "Tonda Eckert",
-          "away_manager": "Nuno Espírito Santo",
+          "home_manager": "Matthias Jaissle",
+          "away_manager": "James Morrison",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
           "homeWins": 7,
-          "draws": 8,
-          "awayWins": 12
+          "draws": 5,
+          "awayWins": 5
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-4-1-1",
+          "home_players": ["Lukás Hornícek", "Amar Dedic", "Malick Thiaw", "Sven Botman", "Lewis Hall", "Sean Steur", "Lewis Miley", "Anthony Elanga", "Yoane Wissa", "Harvey Barnes", "William Osula"],
+          "away_players": ["Max O'Leary", "Nolan Galves", "Nathaniel Phillips", "George Campbell", "Callum Styles", "Harry Whitwell", "Jayson Molumby", "Ousmane Diakité", "Isaac Price", "Felix Horn Myhre", "Jimmy-Jay Morgan"],
+          "home_missing_players": ["Dan Burn", "Valentino Livramento", "Joelinton"],
+          "away_missing_players": ["Aune Selland Heggebø"]
+        },
+        "pregame_form": {
+          "home": "WLLDD",
+          "away": "WWWWW"
+        }
+      }
+    },
+    {
+      "team1": "Tottenham",
+      "team1_logo": "https://img.singhs.com.np/team/8586.png",
+      "team2": "Charlton",
+      "team2_logo": "https://img.singhs.com.np/team/8451.png",
+      "league_logo": "https://img.singhs.com.np/league/938221.png",
+      "league": "EFL Cup",
+      "start": "2026-08-27T03:45:00+09:00",
+      "league_id": 938221,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=tottenham",
+      "streaming_url": "https://cdn.singhs.com.np/tottenham.json",
+      "event_id": 6005666,
+      "football_data": {
+        "event": {
+          "match_id": 6005666,
+          "league": "EFL Cup",
+          "league_id": 938221,
+          "round": 2,
+          "tournament": "EFL Cup",
+          "kick_off_time_utc": "Wed, 26 Aug 2026 18:45:00 GMT",
+          "venue": "Tottenham Hotspur Stadium",
+          "venue_city": "London",
+          "venue_country": "England",
+          "venue_lat": 51.604216666,
+          "venue_lng": -0.066229079,
+          "stadium_capacity": 62850,
+          "stadium_surface": "grass",
+          "referee": "Thomas Bramall",
+          "home_team": {
+            "name": "Tottenham Hotspur",
+            "id": 8586
+          },
+          "away_team": {
+            "name": "Charlton Athletic",
+            "id": 8451
+          },
+          "home_manager": "Roberto De Zerbi",
+          "away_manager": "Nathan Jones",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 0
         },
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Daniel Peretz", "James Bree", "Nathan Wood", "Jack Stephens", "Ryan Manning", "Flynn Downes", "Kuryu Matsuki", "Tom Fellows", "Finn Azaz", "Léo Scienza", "Cyle Larin"],
-          "away_players": ["Mads Hermansen", "Kyle Walker-Peters", "Konstantinos Mavropanos", "Max Kilman", "Oliver Scarles", "Arne Engels", "Mohamadou Kanté", "Jarrod Bowen", "Joël Piroe", "Manor Solomon", "Valentín Castellanos"],
-          "home_missing_players": ["Caspar Jander"],
-          "away_missing_players": ["Tomás Soucek", "Pablo Felipe"]
+          "home_players": ["Antonín Kinsky", "Archie Gray", "Jan Paul van Hecke", "Marcos Senesi", "Andrew Robertson", "Sandro Tonali", "Lucas Bergvall", "Mikey Moore", "Conor Gallagher", "Mathys Tel", "Richarlison"],
+          "away_players": ["Arthur Okonkwo", "Dan McNamara", "Lloyd Jones", "Billy Koumetio", "Amari'i Bell", "Conor Coventry", "Nathaniel Chalobah", "Karlan Grant", "Sonny Carey", "Tyreece Campbell", "Miles Leaburn"],
+          "home_missing_players": ["Savinho", "Micky van de Ven", "Pedro Porro", "Dejan Kulusevski", "Pape Sarr", "Xavi Simons", "Mohammed Kudus", "Wilson Odobert"],
+          "away_missing_players": ["Timothy Noor Ouma"]
         },
         "pregame_form": {
-          "home": "WWWLW",
-          "away": "DDWDL"
+          "home": "WDWWL",
+          "away": "DLWWW"
         }
-      },
-      "pushed": true
+      }
     },
     {
-      "team1": "Nottm Forest",
-      "team1_logo": "https://img.singhs.com.np/team/10203.png",
-      "team2": "Leeds",
-      "team2_logo": "https://img.singhs.com.np/team/8463.png",
-      "league_logo": "https://img.singhs.com.np/league/938221.png",
-      "league": "EFL Cup",
-      "start": "2026-08-26T04:00:00+09:00",
-      "league_id": 938221,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
-      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
-      "event_id": 6005647,
-      "football_data": {
-        "event": {
-          "match_id": 6005647,
-          "league": "EFL Cup",
-          "league_id": 938221,
-          "round": 2,
-          "tournament": "EFL Cup",
-          "kick_off_time_utc": "Tue, 25 Aug 2026 19:00:00 GMT",
-          "venue": "The City Ground",
-          "venue_city": "Nottingham, Nottinghamshire",
-          "venue_country": "England",
-          "venue_lat": 52.939913226,
-          "venue_lng": -1.132894009,
-          "stadium_capacity": 31042,
-          "stadium_surface": "grass",
-          "referee": "Andrew Kitchen",
-          "home_team": {
-            "name": "Nottingham Forest",
-            "id": 10203
-          },
-          "away_team": {
-            "name": "Leeds United",
-            "id": 8463
-          },
-          "home_manager": "Oliver Glasner",
-          "away_manager": "Daniel Farke",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 10,
-          "draws": 7,
-          "awayWins": 9
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "3-4-3",
-          "home_players": ["Matz Sels", "Jair Cunha", "Nikola Milenkovic", "Murillo", "Ola Aina", "James McAtee", "Ibrahim Sangaré", "Neco Williams", "Morgan Gibbs-White", "Dan Ndoye", "Igor Jesus"],
-          "away_players": ["James Trafford", "Joe Rodon", "Jaka Bijol", "Tarik Muharemovic", "Jayden Bogle", "Anton Stach", "Ethan Ampadu", "James Justin", "Harry Wilson", "Dominic Calvert-Lewin", "Brenden Aaronson"],
-          "home_missing_players": ["Nicolò Savona", "Ryan Yates"],
-          "away_missing_players": ["Mateo Joseph", "Gabriel Gudmundsson", "Ilia Gruev", "Wilfried Gnonto"]
-        },
-        "pregame_form": {
-          "home": "LLWWL",
-          "away": "WWDWW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Valencia",
-      "team1_logo": "https://img.singhs.com.np/team/10267.png",
-      "team2": "Real Betis",
-      "team2_logo": "https://img.singhs.com.np/team/8603.png",
+      "team1": "Real Madrid",
+      "team1_logo": "https://img.singhs.com.np/team/8633.png",
+      "team2": "Real Sociedad",
+      "team2_logo": "https://img.singhs.com.np/team/8560.png",
       "league_logo": "https://img.singhs.com.np/league/87.png",
       "league": "LaLiga",
-      "start": "2026-08-26T04:00:00+09:00",
+      "start": "2026-08-27T04:00:00+09:00",
       "league_id": 87,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=realbetis",
-      "streaming_url": "https://cdn.singhs.com.np/realbetis.json",
-      "event_id": 5868020,
+      "details_url": "https://home.getemoji.online/?yosintv=realmadrid",
+      "streaming_url": "https://cdn.singhs.com.np/realmadrid.json",
+      "event_id": 5868018,
       "football_data": {
         "event": {
-          "match_id": 5868020,
+          "match_id": 5868018,
           "league": "LaLiga",
           "league_id": 87,
           "round": 1,
           "tournament": "LaLiga",
-          "kick_off_time_utc": "Tue, 25 Aug 2026 19:00:00 GMT",
-          "venue": "Estadio de Mestalla",
-          "venue_city": "Valencia",
+          "kick_off_time_utc": "Wed, 26 Aug 2026 19:00:00 GMT",
+          "venue": "Estadio Bernabéu",
+          "venue_city": "Madrid",
           "venue_country": "Spain",
-          "venue_lat": 39.474601503,
-          "venue_lng": -0.358257294,
-          "stadium_capacity": 49430,
+          "venue_lat": 40.453068279,
+          "venue_lng": -3.688353896,
+          "stadium_capacity": 83186,
           "stadium_surface": "grass",
-          "referee": null,
+          "referee": "Mateo Busquets",
           "home_team": {
-            "name": "Valencia",
-            "id": 10267
+            "name": "Real Madrid",
+            "id": 8633
           },
           "away_team": {
-            "name": "Real Betis",
-            "id": 8603
+            "name": "Real Sociedad",
+            "id": 8560
           },
-          "home_manager": "Carlos Corberán",
-          "away_manager": "Manuel Pellegrini",
+          "home_manager": "José Mourinho",
+          "away_manager": "Pellegrino Matarazzo",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 10,
-          "draws": 9,
-          "awayWins": 12
+          "homeWins": 25,
+          "draws": 5,
+          "awayWins": 5
         },
         "lineups": {
-          "home_formation": "5-4-1",
+          "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Stole Dimitrievski", "César Tárrega", "Pepelu", "Mouctar Diakhaby", "Jesus Vázquez", "José Gayà", "Ryunosuke Sato", "Filip Ugrinic", "Guido Rodríguez", "Javier Guerra", "Arnaut Danjuma"],
-          "away_players": ["Álvaro Vallés", "Héctor Bellerín", "Marc Bartra", "Natan", "Fran García", "Facundo Bernal", "Marc Roca", "Antony", "Pablo Fornals", "Rodrigo Riquelme", "Juan Hernández"],
-          "home_missing_players": ["Justin De Haas", "Luis Rioja", "José Copete", "Diego López", "Alberto Marí", "Sergi Canós"],
-          "away_missing_players": ["Gonzalo Petit", "Ismael Barea", "Diego Conde", "Aitor Ruibal", "Giovani Lo Celso", "Abdessamad Ezzalzouli"]
+          "home_players": ["Thibaut Courtois", "Trent Alexander-Arnold", "Ibrahima Konaté", "Dean Huijsen", "Marc Cucurella", "Bernardo Silva", "Federico Valverde", "Arda Güler", "Jude Bellingham", "Vinícius Júnior", "Kylian Mbappé"],
+          "away_players": ["Alex Remiro", "Jon Aramburu", "Igor Zubeldia", "Jon Martín", "Sergio Gómez", "Yangel Herrera", "Luka Sucic", "Takefusa Kubo", "Carlos Soler", "Ander Barrenetxea", "Mikel Oyarzabal"],
+          "home_missing_players": ["Aurélien Tchouaméni", "Endrick", "Éder Militao", "Ferland Mendy", "Raúl Asencio", "Thiago Pitarch", "Rodrygo"],
+          "away_missing_players": ["Pablo Marín", "Jon Gorrotxategi", "Gonçalo Guedes", "Álvaro Odriozola"]
         },
         "pregame_form": {
-          "home": "WLDLD",
-          "away": "WWDLW"
+          "home": "DWWWW",
+          "away": "WLLLL"
         }
-      },
-      "pushed": true
+      }
     },
     {
-      "team1": "Birmingham",
-      "team1_logo": "https://img.singhs.com.np/team/8658.png",
-      "team2": "Brentford",
-      "team2_logo": "https://img.singhs.com.np/team/9937.png",
+      "team1": "Preston",
+      "team1_logo": "https://img.singhs.com.np/team/8411.png",
+      "team2": "Everton",
+      "team2_logo": "https://img.singhs.com.np/team/8668.png",
       "league_logo": "https://img.singhs.com.np/league/938221.png",
       "league": "EFL Cup",
-      "start": "2026-08-26T04:00:00+09:00",
+      "start": "2026-08-27T04:00:00+09:00",
       "league_id": 938221,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=birmingham",
-      "streaming_url": "https://cdn.singhs.com.np/birmingham.json",
-      "event_id": 6005660,
+      "details_url": "https://home.getemoji.online/?yosintv=preston",
+      "streaming_url": "https://cdn.singhs.com.np/preston.json",
+      "event_id": 6005650,
       "football_data": {
         "event": {
-          "match_id": 6005660,
+          "match_id": 6005650,
           "league": "EFL Cup",
           "league_id": 938221,
           "round": 2,
           "tournament": "EFL Cup",
-          "kick_off_time_utc": "Tue, 25 Aug 2026 19:00:00 GMT",
-          "venue": "St. Andrew's @ Knighthead Park",
-          "venue_city": "Birmingham",
+          "kick_off_time_utc": "Wed, 26 Aug 2026 19:00:00 GMT",
+          "venue": "Deepdale",
+          "venue_city": "Preston",
           "venue_country": "England",
-          "venue_lat": 52.47573289,
-          "venue_lng": -1.868104935,
-          "stadium_capacity": 30009,
+          "venue_lat": 53.772181168,
+          "venue_lng": -2.68843174,
+          "stadium_capacity": 23408,
           "stadium_surface": "grass",
-          "referee": "Tim Robinson",
+          "referee": "Tony Harrington",
           "home_team": {
-            "name": "Birmingham City",
-            "id": 8658
+            "name": "Preston North End",
+            "id": 8411
           },
           "away_team": {
-            "name": "Brentford",
-            "id": 9937
+            "name": "Everton",
+            "id": 8668
           },
-          "home_manager": "Chris Davies",
-          "away_manager": "Keith Andrews",
+          "home_manager": "Paul Heckingbottom",
+          "away_manager": "David Moyes",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 6,
-          "draws": 6,
+          "homeWins": 0,
+          "draws": 0,
           "awayWins": 3
         },
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["James Beadle", "Bright Osayi-Samuel", "Phil Neumann", "Christoph Klarer", "Alexander Cochrane", "Tomoki Iwata", "Jhon Solís", "Carlos Vicente", "Seung-Ho Paik", "Jay Stansfield", "August Priske"],
-          "away_players": ["Caoimhín Kelleher", "Michael Kayode", "Kristoffer Ajer", "Nathan Collins", "Keane Lewis-Potter", "Mamadou Sangaré", "Vitaly Janelt", "Dango Ouattara", "Mathias Jensen", "Kevin Schade", "Igor Thiago"],
-          "home_missing_players": ["Marc Leonard"],
-          "away_missing_players": ["Sepp van den Berg", "Antoni Milambo"]
+          "home_players": ["Daniel Iversen", "Harry Clarke", "Jordan Storey", "Liam Lindsay", "Andrew Hughes", "Alistair McCann", "Léo Leroy", "Alfie Devine", "Callum Lang", "Delano Burgzorg", "Jusef Erabi"],
+          "away_players": ["Jordan Pickford", "Merlin Röhl", "James Tarkowski", "Jarrad Branthwaite", "Vitaliy Mykolenko", "Harrison Armstrong", "Hayden Hackney", "Iliman Ndiaye", "Kiernan Dewsbury-Hall", "Tyrique George", "Thierno Barry"],
+          "home_missing_players": [],
+          "away_missing_players": ["Christian Nørgaard", "Tim Iroegbunam"]
         },
         "pregame_form": {
-          "home": "WDWDD",
-          "away": "DDWWW"
+          "home": "LLDLL",
+          "away": "WLWDW"
         }
-      },
-      "pushed": true
+      }
+    },
+    {
+      "team1": "Palmeiras",
+      "team1_logo": "https://img.singhs.com.np/team/10283.png",
+      "team2": "Santos FC",
+      "team2_logo": "https://img.singhs.com.np/team/8514.png",
+      "league_logo": "https://img.singhs.com.np/league/9067.png",
+      "league": "Copa do Brasil",
+      "start": "2026-08-27T09:30:00+09:00",
+      "league_id": 9067,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=santosfc",
+      "streaming_url": "https://cdn.singhs.com.np/santosfc.json",
+      "event_id": 1000019463,
+      "football_data": {
+        "event": {
+          "match_id": 1000019463,
+          "league": "Copa do Brazil",
+          "league_id": 9067,
+          "round": "Quarter-finals",
+          "tournament": "Copa do Brazil",
+          "kick_off_time_utc": "Thu, 27 Aug 2026 00:30:00 GMT",
+          "venue": "Nubank Parque",
+          "venue_city": "São Paulo, São Paulo",
+          "venue_country": "Brazil",
+          "venue_lat": -23.527529652,
+          "venue_lng": -46.678475458,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": "Bruno Arleu de Araujo",
+          "home_team": {
+            "name": "Palmeiras",
+            "id": 10283
+          },
+          "away_team": {
+            "name": "Santos FC",
+            "id": 8514
+          },
+          "home_manager": "Abel Ferreira",
+          "away_manager": "Cuca",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 20,
+          "draws": 6,
+          "awayWins": 14
+        },
+        "lineups": {
+          "home_formation": "3-4-1-2",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Carlos Miguel", "Agustín Giay", "Gustavo Gómez", "Alexander Barboza", "Allan", "Andreas Pereira", "Marlon Freitas", "Arthur", "Mauricio", "Vitor Roque", "José Manuel López"],
+          "away_players": ["Gabriel Brazão", "Igor Vinícius", "Willian Arão", "Luan Peres", "Gonzalo Escobar", "Gustavo Henrique", "João Schmidt", "Rony", "Neymar", "Álvaro Barreal", "Gabriel Barbosa"],
+          "home_missing_players": ["Joaquín Piquerez", "Ramón Sosa", "Paulinho", "Jefté"],
+          "away_missing_players": ["Gabriel Menino", "Lucas Veríssimo", "Vinicius Lira"]
+        },
+        "pregame_form": {
+          "home": "DDLWW",
+          "away": "LWWDD"
+        }
+      }
     }
   ]
 }
