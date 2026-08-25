@@ -59,7 +59,8 @@
           "home": "LDWLW",
           "away": "LWWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Sheff Wed",
@@ -120,7 +121,8 @@
           "home": "WLWWL",
           "away": "WWWDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Southampton",
@@ -181,7 +183,8 @@
           "home": "WWWLW",
           "away": "DDWDL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Nottm Forest",
@@ -242,7 +245,8 @@
           "home": "LLWWL",
           "away": "WWDWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Valencia",
@@ -303,68 +307,8 @@
           "home": "WLDLD",
           "away": "WWDLW"
         }
-      }
-    },
-    {
-      "team1": "Birmingham",
-      "team1_logo": "https://img.singhs.com.np/team/8658.png",
-      "team2": "Brentford",
-      "team2_logo": "https://img.singhs.com.np/team/9937.png",
-      "league_logo": "https://img.singhs.com.np/league/938221.png",
-      "league": "EFL Cup",
-      "start": "2026-08-26T04:00:00+09:00",
-      "league_id": 938221,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=birmingham",
-      "streaming_url": "https://cdn.singhs.com.np/birmingham.json",
-      "event_id": 6005660,
-      "football_data": {
-        "event": {
-          "match_id": 6005660,
-          "league": "EFL Cup",
-          "league_id": 938221,
-          "round": 2,
-          "tournament": "EFL Cup",
-          "kick_off_time_utc": "Tue, 25 Aug 2026 19:00:00 GMT",
-          "venue": "St. Andrew's @ Knighthead Park",
-          "venue_city": "Birmingham",
-          "venue_country": "England",
-          "venue_lat": 52.47573289,
-          "venue_lng": -1.868104935,
-          "stadium_capacity": 30009,
-          "stadium_surface": "grass",
-          "referee": "Tim Robinson",
-          "home_team": {
-            "name": "Birmingham City",
-            "id": 8658
-          },
-          "away_team": {
-            "name": "Brentford",
-            "id": 9937
-          },
-          "home_manager": "Chris Davies",
-          "away_manager": "Keith Andrews",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 6,
-          "draws": 6,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["James Beadle", "Bright Osayi-Samuel", "Phil Neumann", "Christoph Klarer", "Alexander Cochrane", "Tomoki Iwata", "Jhon Solís", "Carlos Vicente", "Seung-Ho Paik", "Jay Stansfield", "August Priske"],
-          "away_players": ["Caoimhín Kelleher", "Michael Kayode", "Kristoffer Ajer", "Nathan Collins", "Keane Lewis-Potter", "Mamadou Sangaré", "Vitaly Janelt", "Dango Ouattara", "Mathias Jensen", "Kevin Schade", "Igor Thiago"],
-          "home_missing_players": ["Marc Leonard"],
-          "away_missing_players": ["Sepp van den Berg", "Antoni Milambo"]
-        },
-        "pregame_form": {
-          "home": "WDWDD",
-          "away": "DDWWW"
-        }
-      }
+      },
+      "pushed": true
     }
   ]
 }
