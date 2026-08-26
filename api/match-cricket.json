@@ -1,34 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Australia",
-      "team2": "Bangladesh",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/australia.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/bangladesh.png",
-      "league": "Bangladesh in Australia, 2 Test Series, 2026",
-      "start": "2026-08-26T09:00:00+09:00",
-      "duration": 10,
-      "format": "Test",
-      "details_url": "https://home.getemoji.online/?yosintv=australia",
-      "streaming_url": "https://cdn.singhs.com.np/australia.json",
-      "event_id": "270224",
-      "cricket_data": null
-    },
-    {
-      "team1": "Sri Lanka",
-      "team2": "India",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/india.png",
-      "league": "India in Sri Lanka, 2 Test Series, 2026",
-      "start": "2026-08-26T13:30:00+09:00",
-      "duration": 10,
-      "format": "Test",
-      "details_url": "https://home.getemoji.online/?yosintv=srilanka",
-      "streaming_url": "https://cdn.singhs.com.np/srilanka.json",
-      "event_id": "272146",
-      "cricket_data": null
-    },
-    {
       "team1": "England",
       "team2": "Pakistan",
       "team1_logo": "https://aimages.willow.tv/teamLogos/england.png",
@@ -54,6 +26,20 @@
       "details_url": "https://home.getemoji.online/?yosintv=namibia",
       "streaming_url": "https://cdn.singhs.com.np/namibia.json",
       "event_id": "273840",
+      "cricket_data": null
+    },
+    {
+      "team1": "South Africa",
+      "team2": "Zimbabwe",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/zimbabwe.png",
+      "league": "T20I Tri-Series in Namibia, 2026",
+      "start": "2026-08-29T21:00:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=southafrica",
+      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
+      "event_id": "273841",
       "cricket_data": null
     }
   ]
