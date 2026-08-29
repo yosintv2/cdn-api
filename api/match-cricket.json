@@ -29,6 +29,20 @@
       "cricket_data": null
     },
     {
+      "team1": "Bahrain",
+      "team2": "Nepal",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/bahrain.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
+      "league": "ACC Men's Premier Cup, 2026",
+      "start": "2026-08-31T10:30:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=bahrain",
+      "streaming_url": "https://cdn.singhs.com.np/bahrain.json",
+      "event_id": "273926",
+      "cricket_data": null
+    },
+    {
       "team1": "Namibia",
       "team2": "Zimbabwe",
       "team1_logo": "https://aimages.willow.tv/teamLogos/namibia.png",
