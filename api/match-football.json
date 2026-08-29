@@ -1,68 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Wolves",
-      "team1_logo": "https://img.singhs.com.np/team/8602.png",
-      "team2": "Stoke",
-      "team2_logo": "https://img.singhs.com.np/team/10194.png",
-      "league_logo": "https://img.singhs.com.np/league/938218.png",
-      "league": "Championship",
-      "start": "2026-08-29T20:30:00+09:00",
-      "league_id": 938218,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wolves",
-      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
-      "event_id": 5836788,
-      "football_data": {
-        "event": {
-          "match_id": 5836788,
-          "league": "Championship",
-          "league_id": 938218,
-          "round": 3,
-          "tournament": "Championship",
-          "kick_off_time_utc": "Sat, 29 Aug 2026 11:30:00 GMT",
-          "venue": "Molineux Stadium",
-          "venue_city": "Wolverhampton, West Midlands",
-          "venue_country": "England",
-          "venue_lat": 52.590238498,
-          "venue_lng": -2.130433023,
-          "stadium_capacity": 31750,
-          "stadium_surface": "grass",
-          "referee": "Tom Nield",
-          "home_team": {
-            "name": "Wolverhampton Wanderers",
-            "id": 8602
-          },
-          "away_team": {
-            "name": "Stoke City",
-            "id": 10194
-          },
-          "home_manager": "César Peixoto",
-          "away_manager": "Mark Robins",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 3,
-          "awayWins": 5
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["José Sá", "Pedro Lima", "Nasser Djiga", "Saheed Olagunju", "David Møller Wolfe", "Boubacar Traoré", "Jordan James", "Rodrigo Gomes", "Tommy Doyle", "Tawanda Chirewa", "Adam Armstrong"],
-          "away_players": ["Joshua Griffiths", "Ben Johnson", "Ben Wilmot", "Luke Graham", "Laurence Giani", "Ethan Galbraith", "Ben Pearson", "Million Manhoef", "Tomás Rigo", "Sorba Thomas", "Róbert Bozeník"],
-          "home_missing_players": ["Rafiki Saïd", "Kieran Trippier", "Yerson Mosquera"],
-          "away_missing_players": ["Svante Ingelsson", "Lamine Cissé", "Junior Tchamadeu", "Ato Ampah", "Aaron Cresswell"]
-        },
-        "pregame_form": {
-          "home": "WWDWW",
-          "away": "DWLLD"
-        }
-      },
-      "pushed": true
-    },
-    {
       "team1": "Liverpool",
       "team1_logo": "https://img.singhs.com.np/team/8650.png",
       "team2": "Nottm Forest",
@@ -183,7 +121,8 @@
           "home": "DWDLL",
           "away": "LWDWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Coventry",
@@ -244,7 +183,8 @@
           "home": "DWWLW",
           "away": "DLDWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Levante",
@@ -305,7 +245,8 @@
           "home": "LWLLD",
           "away": "WDLWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Dortmund",
@@ -552,7 +493,8 @@
           "home": "LLLLL",
           "away": "DDLWL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Juventus",
@@ -736,68 +678,6 @@
         "pregame_form": {
           "home": "LLLDL",
           "away": "LDDWD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Chelsea",
-      "team1_logo": "https://img.singhs.com.np/team/8455.png",
-      "team2": "Brighton",
-      "team2_logo": "https://img.singhs.com.np/team/10204.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-08-30T22:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
-      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
-      "event_id": 5795427,
-      "football_data": {
-        "event": {
-          "match_id": 5795427,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 2,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 13:00:00 GMT",
-          "venue": "Stamford Bridge",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.481711963,
-          "venue_lng": -0.190974623,
-          "stadium_capacity": 40044,
-          "stadium_surface": "grass",
-          "referee": "Michael Oliver",
-          "home_team": {
-            "name": "Chelsea",
-            "id": 8455
-          },
-          "away_team": {
-            "name": "Brighton & Hove Albion",
-            "id": 10204
-          },
-          "home_manager": "Xabi Alonso",
-          "away_manager": "Fabian Hürzeler",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 11,
-          "draws": 5,
-          "awayWins": 7
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Robert Sánchez", "Josh Acheampong", "Maxence Lacroix", "Levi Colwill", "Malo Gusto", "Reece James", "Roméo Lavia", "Jorrel Hato", "Cole Palmer", "Morgan Rogers", "João Pedro"],
-          "away_players": ["Bart Verbruggen", "Mats Wieffer", "Luka Vuskovic", "Lewis Dunk", "Olivier Boscagli", "Pascal Groß", "Yasin Ayari", "Diego Gómez", "Pascal Struijk", "Maxim De Cuyper", "Georginio Rutter"],
-          "home_missing_players": ["Enzo Fernández", "Jordan Henderson", "Marco Palestra", "Moisés Caicedo"],
-          "away_missing_players": ["Kaoru Mitoma", "Jack Hinshelwood", "Evan Ferguson", "Stefanos Tzimas", "Yankuba Minteh"]
-        },
-        "pregame_form": {
-          "home": "WDWWW",
-          "away": "WWDWW"
         }
       },
       "pushed": true
