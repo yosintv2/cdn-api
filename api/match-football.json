@@ -59,7 +59,8 @@
           "home": "WWDWW",
           "away": "DWLLD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Liverpool",
@@ -119,6 +120,190 @@
         "pregame_form": {
           "home": "LLDWD",
           "away": "LWWLL"
+        }
+      },
+      "pushed": true
+    },
+    {
+      "team1": "Bournemouth",
+      "team1_logo": "https://img.singhs.com.np/team/8678.png",
+      "team2": "Everton",
+      "team2_logo": "https://img.singhs.com.np/team/8668.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-08-29T23:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=bournemouth",
+      "streaming_url": "https://cdn.singhs.com.np/bournemouth.json",
+      "event_id": 5795425,
+      "football_data": {
+        "event": {
+          "match_id": 5795425,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 2,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 29 Aug 2026 14:00:00 GMT",
+          "venue": "Vitality Stadium",
+          "venue_city": "Bournemouth, Dorset",
+          "venue_country": "England",
+          "venue_lat": 50.735240532,
+          "venue_lng": -1.838309616,
+          "stadium_capacity": 11307,
+          "stadium_surface": "grass",
+          "referee": "Chris Kavanagh",
+          "home_team": {
+            "name": "AFC Bournemouth",
+            "id": 8678
+          },
+          "away_team": {
+            "name": "Everton",
+            "id": 8668
+          },
+          "home_manager": "Marco Rose",
+          "away_manager": "David Moyes",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 12,
+          "draws": 2,
+          "awayWins": 8
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Djordje Petrovic", "Adam Smith", "James Hill", "António Silva", "Adrien Truffert", "Lewis Cook", "Alex Scott", "Rayan", "Justin Kluivert", "Marcus Tavernier", "Evanilson"],
+          "away_players": ["Jordan Pickford", "Merlin Röhl", "James Tarkowski", "Jarrad Branthwaite", "Vitaliy Mykolenko", "Harrison Armstrong", "James Garner", "Iliman Ndiaye", "Kiernan Dewsbury-Hall", "Tyrique George", "Thierno Barry"],
+          "home_missing_players": ["Julián Araujo", "Veljko Milosavljevic", "Junior Kroupi", "Amine Adli"],
+          "away_missing_players": ["Hayden Hackney", "Christian Nørgaard", "Tim Iroegbunam"]
+        },
+        "pregame_form": {
+          "home": "DWDLL",
+          "away": "LWDWW"
+        }
+      }
+    },
+    {
+      "team1": "Coventry",
+      "team1_logo": "https://img.singhs.com.np/team/8669.png",
+      "team2": "Hull",
+      "team2_logo": "https://img.singhs.com.np/team/8667.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-08-29T23:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=coventry",
+      "streaming_url": "https://cdn.singhs.com.np/coventry.json",
+      "event_id": 5795428,
+      "football_data": {
+        "event": {
+          "match_id": 5795428,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 2,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 29 Aug 2026 14:00:00 GMT",
+          "venue": "Coventry Building Society Arena",
+          "venue_city": "Coventry, West Midlands",
+          "venue_country": "England",
+          "venue_lat": 52.448111389,
+          "venue_lng": -1.495629251,
+          "stadium_capacity": 32609,
+          "stadium_surface": "grass",
+          "referee": "Josh Smith",
+          "home_team": {
+            "name": "Coventry City",
+            "id": 8669
+          },
+          "away_team": {
+            "name": "Hull City",
+            "id": 8667
+          },
+          "home_manager": "Frank Lampard",
+          "away_manager": "Sergej Jakirovic",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 3,
+          "draws": 6,
+          "awayWins": 5
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "3-4-3",
+          "home_players": ["Carl Rushworth", "Milan van Ewijk", "Bobby Thomas", "Aurèle Amenda", "Jay Dasilva", "Caleb Yirenkyi", "Matt Grimes", "Frank Onyeka", "Loum Tchaouna", "Taiwo Awoniyi", "Ephron Mason-Clark"],
+          "away_players": ["Konstantinos Tzolakis", "Semi Ajayi", "John Egan", "Nobel Mendy", "Lewie Coyle", "Matt Crooks", "Regan Slater", "Ryan Giles", "Mohamed Belloumi", "Oli McBurnie", "Elliot Stroud"],
+          "home_missing_players": ["Kaine Kesler-Hayden", "Luke Woolfenden", "Haji Wright"],
+          "away_missing_players": ["Jack Butland", "Charlie Hughes", "Matty Jacob", "Darko Gyabi", "Eliot Matazo", "Joe Gelhardt", "Óscar Zambrano"]
+        },
+        "pregame_form": {
+          "home": "DWWLW",
+          "away": "DLDWD"
+        }
+      }
+    },
+    {
+      "team1": "Levante",
+      "team1_logo": "https://img.singhs.com.np/team/8581.png",
+      "team2": "Real Betis",
+      "team2_logo": "https://img.singhs.com.np/team/8603.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-08-30T00:00:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=realbetis",
+      "streaming_url": "https://cdn.singhs.com.np/realbetis.json",
+      "event_id": 5868035,
+      "football_data": {
+        "event": {
+          "match_id": 5868035,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 3,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Sat, 29 Aug 2026 15:00:00 GMT",
+          "venue": "Estadio Ciudad de Valencia",
+          "venue_city": "Valencia",
+          "venue_country": "Spain",
+          "venue_lat": 39.494685764,
+          "venue_lng": -0.363820195,
+          "stadium_capacity": 25534,
+          "stadium_surface": "grass",
+          "referee": "Ricardo De Burgos",
+          "home_team": {
+            "name": "Levante",
+            "id": 8581
+          },
+          "away_team": {
+            "name": "Real Betis",
+            "id": 8603
+          },
+          "home_manager": "Luís Castro",
+          "away_manager": "Manuel Pellegrini",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 6,
+          "draws": 3,
+          "awayWins": 11
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Mathew Ryan", "Nacho Pérez", "Adrián De La Fuente", "Aïssa Mandi", "Manuel Sánchez", "Jon Olasagasti", "Hugo Sotelo", "Roger Brugué", "Enzo Bardeli", "Thiago Fernández", "Iván Romero"],
+          "away_players": ["Álvaro Vallés", "Héctor Bellerín", "Marc Bartra", "Natan", "Fran García", "Marc Roca", "Facundo Bernal", "Antony", "Pablo Fornals", "Rodrigo Riquelme", "Juan Hernández"],
+          "home_missing_players": ["Álex Primo"],
+          "away_missing_players": ["Gonzalo Petit", "Ismael Barea", "Diego Conde", "Aitor Ruibal", "Giovani Lo Celso"]
+        },
+        "pregame_form": {
+          "home": "LWLLD",
+          "away": "WDLWW"
         }
       }
     },
@@ -181,7 +366,8 @@
           "home": "LWWDL",
           "away": "LWLWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Tottenham",
@@ -242,7 +428,8 @@
           "home": "DWWLW",
           "away": "LLDDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Académico Viseu",
@@ -302,6 +489,68 @@
         "pregame_form": {
           "home": "WDDLD",
           "away": "WWWWW"
+        }
+      },
+      "pushed": true
+    },
+    {
+      "team1": "Real Sociedad",
+      "team1_logo": "https://img.singhs.com.np/team/8560.png",
+      "team2": "Espanyol",
+      "team2_logo": "https://img.singhs.com.np/team/8558.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-08-30T02:00:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=espanyol",
+      "streaming_url": "https://cdn.singhs.com.np/espanyol.json",
+      "event_id": 5868039,
+      "football_data": {
+        "event": {
+          "match_id": 5868039,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 3,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Sat, 29 Aug 2026 17:00:00 GMT",
+          "venue": "Estadio Municipal de Anoeta",
+          "venue_city": "Donostia-San Sebastián",
+          "venue_country": "Spain",
+          "venue_lat": 43.301375816,
+          "venue_lng": -1.97360158,
+          "stadium_capacity": 40000,
+          "stadium_surface": "grass",
+          "referee": "Manuel Orellana",
+          "home_team": {
+            "name": "Real Sociedad",
+            "id": 8560
+          },
+          "away_team": {
+            "name": "Espanyol",
+            "id": 8558
+          },
+          "home_manager": "Pellegrino Matarazzo",
+          "away_manager": "Manolo González",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 15,
+          "draws": 7,
+          "awayWins": 7
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Alex Remiro", "Jon Aramburu", "Igor Zubeldia", "Jon Martín", "Sergio Gómez", "Yangel Herrera", "Luka Sucic", "Takefusa Kubo", "Carlos Soler", "Ander Barrenetxea", "Mikel Oyarzabal"],
+          "away_players": ["Marko Dmitrovic", "Omar El Hilali", "Clemens Riedel", "Unai Núñez", "Roger Hinojo", "Edu Expósito", "Urko González", "Álex Calatrava", "Javi Hernández", "Tyrhys Dolan", "Roberto Fernández"],
+          "home_missing_players": ["Álvaro Odriozola", "Pablo Marín"],
+          "away_missing_players": ["Leandro Cabrera", "Javi Puado", "Kike García"]
+        },
+        "pregame_form": {
+          "home": "LLLLL",
+          "away": "DDLWL"
         }
       }
     },
@@ -364,7 +613,8 @@
           "home": "WWLWW",
           "away": "DDLWL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Sevilla",
@@ -425,7 +675,8 @@
           "home": "WWLWW",
           "away": "LLWWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Inter Miami CF",
@@ -486,7 +737,8 @@
           "home": "LLLDL",
           "away": "LDDWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Chelsea",
@@ -547,7 +799,8 @@
           "home": "WDWWW",
           "away": "WWDWW"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
