@@ -6,26 +6,12 @@
       "team1_logo": "https://aimages.willow.tv/teamLogos/england.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/pakistan.png",
       "league": "Pakistan in England, 3 Test Series, 2026",
-      "start": "2026-08-30T19:00:00+09:00",
+      "start": "2026-08-31T19:00:00+09:00",
       "duration": 10,
       "format": "Test",
       "details_url": "https://home.getemoji.online/?yosintv=england",
       "streaming_url": "https://cdn.singhs.com.np/england.json",
       "event_id": "264907",
-      "cricket_data": null
-    },
-    {
-      "team1": "South Africa",
-      "team2": "Zimbabwe",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/zimbabwe.png",
-      "league": "T20I Tri-Series in Namibia, 2026",
-      "start": "2026-08-29T21:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=southafrica",
-      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
-      "event_id": "273841",
       "cricket_data": null
     },
     {
@@ -54,6 +40,20 @@
       "details_url": "https://home.getemoji.online/?yosintv=namibia",
       "streaming_url": "https://cdn.singhs.com.np/namibia.json",
       "event_id": "273842",
+      "cricket_data": null
+    },
+    {
+      "team1": "Zimbabwe",
+      "team2": "South Africa",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/zimbabwe.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
+      "league": "T20I Tri-Series in Namibia, 2026",
+      "start": "2026-09-01T21:00:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=zimbabwe",
+      "streaming_url": "https://cdn.singhs.com.np/zimbabwe.json",
+      "event_id": "273843",
       "cricket_data": null
     }
   ]
