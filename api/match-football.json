@@ -1,798 +1,307 @@
 {
   "matches": [
     {
-      "team1": "Juventus",
-      "team1_logo": "https://img.singhs.com.np/team/9885.png",
-      "team2": "Parma",
-      "team2_logo": "https://img.singhs.com.np/team/10167.png",
+      "team1": "Lecce",
+      "team1_logo": "https://img.singhs.com.np/team/9888.png",
+      "team2": "Roma",
+      "team2_logo": "https://img.singhs.com.np/team/8686.png",
       "league_logo": "https://img.singhs.com.np/league/55.png",
       "league": "Serie A",
-      "start": "2026-08-30T03:45:00+09:00",
+      "start": "2026-09-01T01:30:00+09:00",
       "league_id": 55,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=juventus",
-      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
-      "event_id": 5749654,
+      "details_url": "https://home.getemoji.online/?yosintv=roma",
+      "streaming_url": "https://cdn.singhs.com.np/roma.json",
+      "event_id": 5749656,
       "football_data": {
         "event": {
-          "match_id": 5749654,
+          "match_id": 5749656,
           "league": "Serie A",
           "league_id": 55,
           "round": 2,
           "tournament": "Serie A",
-          "kick_off_time_utc": "Sat, 29 Aug 2026 18:45:00 GMT",
-          "venue": "Allianz Stadium",
-          "venue_city": "Torino",
+          "kick_off_time_utc": "Mon, 31 Aug 2026 16:30:00 GMT",
+          "venue": "Stadio Ettore Giardiniero - Via del Mare",
+          "venue_city": "Lecce",
           "venue_country": "Italy",
-          "venue_lat": 45.109527284,
-          "venue_lng": 7.641302313,
-          "stadium_capacity": 41689,
+          "venue_lat": 40.365103138,
+          "venue_lng": 18.208851814,
+          "stadium_capacity": 33876,
           "stadium_surface": "grass",
-          "referee": "Francesco Fourneau",
+          "referee": "Daniele Chiffi",
           "home_team": {
-            "name": "Juventus",
-            "id": 9885
+            "name": "Lecce",
+            "id": 9888
           },
           "away_team": {
-            "name": "Parma",
-            "id": 10167
+            "name": "Roma",
+            "id": 8686
           },
-          "home_manager": "Luciano Spalletti",
-          "away_manager": "Carlos Cuesta",
+          "home_manager": "Eusebio Di Francesco",
+          "away_manager": "Gian Piero Gasperini",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 13,
-          "draws": 4,
-          "awayWins": 4
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 12
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Guglielmo Vicario", "Pierre Kalulu", "Gleison Bremer", "Jhon Lucumí", "Andrea Cambiaso", "Manuel Locatelli", "Douglas Luiz", "Francisco Conceição", "Kerim Alajbegovic", "Jérémie Boga", "Randal Kolo Muani"],
-          "away_players": ["Edoardo Corvi", "Enrico Del Prato", "Mariano Troilo", "Abdoulaye Ndiaye", "Emanuele Valeri", "Adrián Bernabé", "Mandela Keita", "Christian Ordóñez", "El Bilal Touré", "David Romero", "Simone Lontani"],
-          "home_missing_players": ["Weston McKennie", "Khéphren Thuram-Ulien", "Kenan Yildiz"],
-          "away_missing_players": ["Botond Balogh", "Hans Nicolussi Caviglia"]
+          "home_formation": "4-3-3",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Wladimiro Falcone", "Danilo Veiga", "Kialonda Gaspar", "Jamil Siebert", "Antonino Gallo", "Lassana Coulibaly", "Oumar Ngom", "Olaf Gorter", "Santiago Pierotti", "Willem Geubbels", "Konan N’Dri"],
+          "away_players": ["Mile Svilar", "Gianluca Mancini", "Evan N'Dicka", "Mario Hermoso", "Nahuel Molina", "Bryan Cristante", "Manu Koné", "Wesley", "Rodrigo Mora", "Paulo Dybala", "Donyell Malen"],
+          "home_missing_players": [],
+          "away_missing_players": ["Devyne Rensch", "Lorenzo Pellegrini"]
         },
         "pregame_form": {
-          "home": "WWLWW",
-          "away": "DDLWL"
+          "home": "WLDLW",
+          "away": "LWLDW"
         }
-      },
-      "pushed": true
+      }
     },
     {
-      "team1": "Sevilla",
-      "team1_logo": "https://img.singhs.com.np/team/8302.png",
-      "team2": "Atlético Madrid",
-      "team2_logo": "https://img.singhs.com.np/team/9906.png",
+      "team1": "Osasuna",
+      "team1_logo": "https://img.singhs.com.np/team/8371.png",
+      "team2": "Getafe",
+      "team2_logo": "https://img.singhs.com.np/team/8305.png",
       "league_logo": "https://img.singhs.com.np/league/87.png",
       "league": "LaLiga",
-      "start": "2026-08-30T04:30:00+09:00",
+      "start": "2026-09-01T02:30:00+09:00",
       "league_id": 87,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=atleticomadrid",
-      "streaming_url": "https://cdn.singhs.com.np/atleticomadrid.json",
-      "event_id": 5868040,
+      "details_url": "https://home.getemoji.online/?yosintv=osasuna",
+      "streaming_url": "https://cdn.singhs.com.np/osasuna.json",
+      "event_id": 5868036,
       "football_data": {
         "event": {
-          "match_id": 5868040,
+          "match_id": 5868036,
           "league": "LaLiga",
           "league_id": 87,
           "round": 3,
           "tournament": "LaLiga",
-          "kick_off_time_utc": "Sat, 29 Aug 2026 19:30:00 GMT",
-          "venue": "Estadio Ramón Sánchez Pizjuán",
-          "venue_city": "Sevilla",
+          "kick_off_time_utc": "Mon, 31 Aug 2026 17:30:00 GMT",
+          "venue": "Estadio El Sadar",
+          "venue_city": "Pamplona (Iruñea)",
           "venue_country": "Spain",
-          "venue_lat": 37.384045627,
-          "venue_lng": -5.970591903,
-          "stadium_capacity": 42714,
+          "venue_lat": 42.796676994,
+          "venue_lng": -1.637141258,
+          "stadium_capacity": 23576,
           "stadium_surface": "grass",
-          "referee": "Javier Alberola",
+          "referee": "Jon Ander González Esteban",
           "home_team": {
-            "name": "Sevilla",
-            "id": 8302
+            "name": "Osasuna",
+            "id": 8371
           },
           "away_team": {
-            "name": "Atlético Madrid",
-            "id": 9906
+            "name": "Getafe",
+            "id": 8305
           },
-          "home_manager": "Luis García",
-          "away_manager": "Diego Simeone",
+          "home_manager": "Luis Ramis",
+          "away_manager": "José Bordalás",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 4,
+          "draws": 9,
+          "awayWins": 9
+        },
+        "lineups": {
+          "home_formation": "5-4-1",
+          "away_formation": "3-5-2",
+          "home_players": ["Sergio Herrera", "Asier Osambela", "Alejandro Catena", "Jorge Herrando", "Iñigo Arguibide", "Abel Bretones", "Jonathan Dubasin", "Jon Moncayola", "Lucas Torró", "Enrique Barja", "Raúl García"],
+          "away_players": ["David Soria", "Saba Sazonov", "Djené", "Zaid Abner Romero", "Andrés García", "Ramón Terrats", "Orel Mangala", "Francho Serrano", "Johan Mojica", "Enes Ünal", "Martín Satriano"],
+          "home_missing_players": ["Valentin Rosier"],
+          "away_missing_players": ["Abdel Abqar", "Mario Martín", "Christantus Uche", "Juanmi"]
+        },
+        "pregame_form": {
+          "home": "WWLDW",
+          "away": "LLWWL"
+        }
+      }
+    },
+    {
+      "team1": "Aston Villa",
+      "team1_logo": "https://img.singhs.com.np/team/10252.png",
+      "team2": "Arsenal",
+      "team2_logo": "https://img.singhs.com.np/team/9825.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-09-01T04:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=astonvilla",
+      "streaming_url": "https://cdn.singhs.com.np/astonvilla.json",
+      "event_id": 5795426,
+      "football_data": {
+        "event": {
+          "match_id": 5795426,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 2,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Mon, 31 Aug 2026 19:00:00 GMT",
+          "venue": "Villa Park",
+          "venue_city": "Birmingham",
+          "venue_country": "England",
+          "venue_lat": 52.509090736,
+          "venue_lng": -1.884841919,
+          "stadium_capacity": 43205,
+          "stadium_surface": "grass",
+          "referee": "Jarred Gillett",
+          "home_team": {
+            "name": "Aston Villa",
+            "id": 10252
+          },
+          "away_team": {
+            "name": "Arsenal",
+            "id": 9825
+          },
+          "home_manager": "Unai Emery",
+          "away_manager": "Mikel Arteta",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
           "homeWins": 8,
-          "draws": 13,
-          "awayWins": 17
+          "draws": 2,
+          "awayWins": 18
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": ["Odysseas Vlachodimos", "Juan Iglesias", "Kike Salas", "Andrés Lopez", "Gabriel Suazo", "Lucien Agoumé", "Jon Guridi", "Miguel Sierra", "Peque Fernández", "Julio Díaz", "Robbie Ure"],
-          "away_players": ["Jan Oblak", "Marcos Llorente", "Marc Pubill", "Dávid Hancko", "Alejandro Grimaldo", "Giuliano Simeone", "Johnny Cardoso", "Pablo Barrios", "Álex Baena", "Kang-In Lee", "Ademola Lookman"],
-          "home_missing_players": [],
-          "away_missing_players": ["Morten Hjulmand", "Robin Le Normand", "Alexander Sørloth"]
-        },
-        "pregame_form": {
-          "home": "WWLWW",
-          "away": "LLWWD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Inter Miami CF",
-      "team1_logo": "https://img.singhs.com.np/team/960720.png",
-      "team2": "Montreal",
-      "team2_logo": "https://img.singhs.com.np/team/161195.png",
-      "league_logo": "https://img.singhs.com.np/league/913550.png",
-      "league": "Major League Soccer",
-      "start": "2026-08-30T08:30:00+09:00",
-      "league_id": 913550,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
-      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
-      "event_id": 5071309,
-      "football_data": {
-        "event": {
-          "match_id": 5071309,
-          "league": "Major League Soccer",
-          "league_id": 10000001,
-          "round": null,
-          "tournament": "Major League Soccer",
-          "kick_off_time_utc": "Sat, 29 Aug 2026 23:30:00 GMT",
-          "venue": "Nu Stadium",
-          "venue_city": "Miami, Florida",
-          "venue_country": "United States",
-          "venue_lat": 25.792775779,
-          "venue_lng": -80.259473606,
-          "stadium_capacity": 26700,
-          "stadium_surface": "grass",
-          "referee": "Elijio Arreguin",
-          "home_team": {
-            "name": "Inter Miami CF",
-            "id": 960720
-          },
-          "away_team": {
-            "name": "CF Montréal",
-            "id": 161195
-          },
-          "home_manager": "Angel Guillermo Hoyos",
-          "away_manager": "Philippe Eullaffroy",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 6,
-          "draws": 1,
-          "awayWins": 6
-        },
-        "lineups": {
-          "home_formation": "4-3-2-1",
           "away_formation": "4-3-3",
-          "home_players": ["Dayne St. Clair", "Ian Fray", "Gonzalo Luján", "Maximiliano Falcón", "Sergio Reguilón", "Rodrigo De Paul", "Casemiro", "Telasco Segovia", "Lionel Messi", "Luis Suárez", "Germán Berterame"],
-          "away_players": ["Thomas Gillier", "Dawid Bugaj", "Jalen Neal", "Brayan Vera", "Luca Petrasso", "Matthew Longstaff", "Daniel Pereira", "Victor Loturi", "Noah Streit", "Prince Osei Owusu", "Daniel Ríos"],
-          "home_missing_players": ["Mateo Silvetti", "Santiago Morales", "Micael"],
-          "away_missing_players": ["Brayan Ceballos", "Efraín Morales", "Frankie Amaya", "Josh-Duc Nteziryayo", "Bode Hidalgo", "Wiki Carmona"]
+          "home_players": ["Zion Suzuki", "Matty Cash", "Victor Nilsson Lindelöf", "Pau Torres", "Ian Maatsen", "Boubacar Kamara", "Leon Goretzka", "John McGinn", "Emiliano Buendía", "George Hemmings", "Nicolas Jackson"],
+          "away_players": ["David Raya", "Ben White", "Cristhian Mosquera", "Gabriel", "Riccardo Calafiori", "Martin Ødegaard", "Declan Rice", "Myles Lewis-Skelly", "Bukayo Saka", "Kai Havertz", "Christos Tzolis"],
+          "home_missing_players": ["Tammy Abraham", "Amadou Onana", "João Gomes", "Johan Manzambi", "Brian Madjo", "Leon Bailey"],
+          "away_missing_players": ["Bruno Guimarães", "Jurriën Timber", "William Saliba"]
         },
         "pregame_form": {
-          "home": "LLLDL",
-          "away": "LDDWD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Chelsea",
-      "team1_logo": "https://img.singhs.com.np/team/8455.png",
-      "team2": "Brighton",
-      "team2_logo": "https://img.singhs.com.np/team/10204.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-08-30T22:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
-      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
-      "event_id": 5795427,
-      "football_data": {
-        "event": {
-          "match_id": 5795427,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 2,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 13:00:00 GMT",
-          "venue": "Stamford Bridge",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.481711963,
-          "venue_lng": -0.190974623,
-          "stadium_capacity": 40044,
-          "stadium_surface": "grass",
-          "referee": "Michael Oliver",
-          "home_team": {
-            "name": "Chelsea",
-            "id": 8455
-          },
-          "away_team": {
-            "name": "Brighton & Hove Albion",
-            "id": 10204
-          },
-          "home_manager": "Xabi Alonso",
-          "away_manager": "Fabian Hürzeler",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 11,
-          "draws": 5,
-          "awayWins": 7
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Robert Sánchez", "Josh Acheampong", "Maxence Lacroix", "Levi Colwill", "Malo Gusto", "Reece James", "Roméo Lavia", "Jorrel Hato", "Cole Palmer", "Morgan Rogers", "João Pedro"],
-          "away_players": ["Bart Verbruggen", "Mats Wieffer", "Luka Vuskovic", "Lewis Dunk", "Olivier Boscagli", "Pascal Groß", "Yasin Ayari", "Diego Gómez", "Pascal Struijk", "Maxim De Cuyper", "Georginio Rutter"],
-          "home_missing_players": ["Enzo Fernández", "Jordan Henderson", "Marco Palestra", "Moisés Caicedo"],
-          "away_missing_players": ["Kaoru Mitoma", "Jack Hinshelwood", "Evan Ferguson", "Stefanos Tzimas", "Yankuba Minteh"]
-        },
-        "pregame_form": {
-          "home": "WDWWW",
-          "away": "WWDWW"
+          "home": "WLLLL",
+          "away": "LLDWW"
         }
       }
     },
     {
-      "team1": "Leeds",
-      "team1_logo": "https://img.singhs.com.np/team/8463.png",
-      "team2": "Brentford",
-      "team2_logo": "https://img.singhs.com.np/team/9937.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-08-30T22:00:00+09:00",
-      "league_id": 47,
+      "team1": "Benfica",
+      "team1_logo": "https://img.singhs.com.np/team/9772.png",
+      "team2": "Estoril",
+      "team2_logo": "https://img.singhs.com.np/team/7842.png",
+      "league_logo": "https://img.singhs.com.np/league/61.png",
+      "league": "Liga Portugal",
+      "start": "2026-09-01T04:15:00+09:00",
+      "league_id": 61,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=leeds",
-      "streaming_url": "https://cdn.singhs.com.np/leeds.json",
-      "event_id": 5795430,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5887617,
       "football_data": {
         "event": {
-          "match_id": 5795430,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 2,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 13:00:00 GMT",
-          "venue": "Elland Road",
-          "venue_city": "Leeds, West Yorkshire",
-          "venue_country": "England",
-          "venue_lat": 53.777833534,
-          "venue_lng": -1.572278738,
-          "stadium_capacity": 37645,
+          "match_id": 5887617,
+          "league": "Liga Portugal",
+          "league_id": 61,
+          "round": 4,
+          "tournament": "Liga Portugal",
+          "kick_off_time_utc": "Mon, 31 Aug 2026 19:15:00 GMT",
+          "venue": "Estádio do Sport Lisboa e Benfica (da Luz)",
+          "venue_city": "Lisboa",
+          "venue_country": "Portugal",
+          "venue_lat": 38.75264836,
+          "venue_lng": -9.184699059,
+          "stadium_capacity": 68100,
           "stadium_surface": "grass",
-          "referee": "Tony Harrington",
+          "referee": "Hélder Carvalho",
           "home_team": {
-            "name": "Leeds United",
-            "id": 8463
+            "name": "Benfica",
+            "id": 9772
           },
           "away_team": {
-            "name": "Brentford",
-            "id": 9937
+            "name": "Estoril",
+            "id": 7842
           },
-          "home_manager": "Daniel Farke",
-          "away_manager": "Keith Andrews",
+          "home_manager": "Marco Silva",
+          "away_manager": "Vasco Matos",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 4,
-          "draws": 8,
-          "awayWins": 6
-        },
-        "lineups": {
-          "home_formation": "3-4-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["James Trafford", "Joe Rodon", "Jaka Bijol", "Tarik Muharemovic", "Jayden Bogle", "Anton Stach", "Ethan Ampadu", "James Justin", "Harry Wilson", "Dominic Calvert-Lewin", "Brenden Aaronson"],
-          "away_players": ["Caoimhín Kelleher", "Michael Kayode", "Kristoffer Ajer", "Nathan Collins", "Keane Lewis-Potter", "Mamadou Sangaré", "Vitaly Janelt", "Dango Ouattara", "Mathias Jensen", "Kevin Schade", "Igor Thiago"],
-          "home_missing_players": ["Wilfried Gnonto", "Gabriel Gudmundsson", "Ilia Gruev", "Mateo Joseph"],
-          "away_missing_players": ["Sepp van den Berg", "Antoni Milambo"]
-        },
-        "pregame_form": {
-          "home": "WDWWW",
-          "away": "DWWWW"
-        }
-      }
-    },
-    {
-      "team1": "Sunderland",
-      "team1_logo": "https://img.singhs.com.np/team/8472.png",
-      "team2": "Fulham",
-      "team2_logo": "https://img.singhs.com.np/team/9879.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-08-30T22:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=sunderland",
-      "streaming_url": "https://cdn.singhs.com.np/sunderland.json",
-      "event_id": 5795433,
-      "football_data": {
-        "event": {
-          "match_id": 5795433,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 2,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 13:00:00 GMT",
-          "venue": "Stadium of Light",
-          "venue_city": "Sunderland",
-          "venue_country": "England",
-          "venue_lat": 54.914421504,
-          "venue_lng": -1.388177276,
-          "stadium_capacity": 49000,
-          "stadium_surface": "grass",
-          "referee": "Michael Salisbury",
-          "home_team": {
-            "name": "Sunderland",
-            "id": 8472
-          },
-          "away_team": {
-            "name": "Fulham",
-            "id": 9879
-          },
-          "home_manager": "Régis Le Bris",
-          "away_manager": "Álvaro Arbeloa",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 4,
-          "draws": 5,
-          "awayWins": 7
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Robin Roefs", "Thomas Meunier", "Daniel Ballard", "Omar Alderete", "Reinildo", "Granit Xhaka", "Noah Sadiki", "Trai Hume", "Enzo Le Fée", "Nilson Angulo", "Brian Brobbey"],
-          "away_players": ["Bernd Leno", "Timothy Castagne", "Joachim Andersen", "Calvin Bassey", "Antonee Robinson", "Sander Berge", "Alex Iwobi", "Oscar Bobb", "Joshua King", "César Palacios", "Gonzalo García"],
-          "home_missing_players": ["Dayann Méthalie", "Simon Adingra"],
-          "away_missing_players": ["Tom Cairney"]
-        },
-        "pregame_form": {
-          "home": "LWWWL",
-          "away": "WDWLW"
-        }
-      }
-    },
-    {
-      "team1": "Real Madrid",
-      "team1_logo": "https://img.singhs.com.np/team/8633.png",
-      "team2": "Málaga",
-      "team2_logo": "https://img.singhs.com.np/team/9864.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-08-31T00:00:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=realmadrid",
-      "streaming_url": "https://cdn.singhs.com.np/realmadrid.json",
-      "event_id": 5868038,
-      "football_data": {
-        "event": {
-          "match_id": 5868038,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 3,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 15:00:00 GMT",
-          "venue": "Estadio Bernabéu",
-          "venue_city": "Madrid",
-          "venue_country": "Spain",
-          "venue_lat": 40.453068279,
-          "venue_lng": -3.688353896,
-          "stadium_capacity": 83186,
-          "stadium_surface": "grass",
-          "referee": "Juan Martínez Munuera",
-          "home_team": {
-            "name": "Real Madrid",
-            "id": 8633
-          },
-          "away_team": {
-            "name": "Málaga",
-            "id": 9864
-          },
-          "home_manager": "José Mourinho",
-          "away_manager": "Juan Funes",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 14,
-          "draws": 3,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Thibaut Courtois", "Denzel Dumfries", "Ibrahima Konaté", "Dean Huijsen", "Marc Cucurella", "Bernardo Silva", "Federico Valverde", "Arda Güler", "Jude Bellingham", "Vinícius Júnior", "Kylian Mbappé"],
-          "away_players": ["Alfonso Herrero", "Carlos Puga", "Ángel Recio", "Einar Galilea", "Rafita", "Dani Lorenzo", "Izan Merino", "David Larrubia", "Carlos Dotor", "Joaquín Muñoz", "Chupe"],
-          "home_missing_players": ["Éder Militao", "Ferland Mendy", "Raúl Asencio", "Aurélien Tchouaméni", "Thiago Pitarch", "Endrick", "Rodrygo"],
-          "away_missing_players": ["Adrián Nino", "Diego Murillo", "Fernando Calero", "Moussa Diarra", "Aarón Ochoa"]
-        },
-        "pregame_form": {
-          "home": "WWWWW",
-          "away": "DWDLD"
-        }
-      }
-    },
-    {
-      "team1": "Man United",
-      "team1_logo": "https://img.singhs.com.np/team/10260.png",
-      "team2": "Ipswich",
-      "team2_logo": "https://img.singhs.com.np/team/9902.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-08-31T00:30:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=manunited",
-      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
-      "event_id": 5795432,
-      "football_data": {
-        "event": {
-          "match_id": 5795432,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 2,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 15:30:00 GMT",
-          "venue": "Old Trafford",
-          "venue_city": "Manchester",
-          "venue_country": "England",
-          "venue_lat": 53.463094458,
-          "venue_lng": -2.29137361,
-          "stadium_capacity": 74244,
-          "stadium_surface": "grass",
-          "referee": "Craig Pawson",
-          "home_team": {
-            "name": "Manchester United",
-            "id": 10260
-          },
-          "away_team": {
-            "name": "Ipswich Town",
-            "id": 9902
-          },
-          "home_manager": "Michael Carrick",
-          "away_manager": "Gary O'Neil",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 1,
+          "homeWins": 25,
+          "draws": 4,
           "awayWins": 0
         },
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Senne Lammens", "Noussair Mazraoui", "Harry Maguire", "Ayden Heaven", "Luke Shaw", "Youri Tielemans", "Andrey Santos", "Bryan Mbeumo", "Bruno Fernandes", "Patrick Dorgu", "Matheus Cunha"],
-          "away_players": ["Kjell Scherpen", "Dara O'Shea", "Issa Diop", "Jacob Greaves", "Leif Davis", "Marcelino Núñez", "Sasa Lukic", "Abdul Fatawu", "Julio Enciso", "Daizen Maeda", "Emersonn"],
-          "home_missing_players": ["Mason Mount", "Tom Heaton", "Matthijs de Ligt", "Carlos Baleba", "Manuel Ugarte", "Amad Diallo"],
-          "away_missing_players": ["Florentino", "Azor Matusiwa", "Jaden Philogene-Bidace"]
+          "home_players": ["Samuel Soares", "Alexander Bah", "Tomás Araújo", "Clément Lenglet", "Samuel Dahl", "Leandro Barreiro", "Enzo Barrenechea", "Rafa Silva", "Georgiy Sudakov", "Gianluca Prestianni", "Vangelis Pavlidis"],
+          "away_players": ["Joel Robles", "Ricard Sánchez", "Ferro", "Ismael Sierra", "Fernando Medrano", "Tiago Brito", "Antef Tsoungui", "Rafik Guitane", "João Carvalho", "André Lacximicant", "Yanis Begraoui"],
+          "home_missing_players": ["Fredrik Aursnes"],
+          "away_missing_players": ["Jordan Holsgrove"]
         },
         "pregame_form": {
-          "home": "WDDLL",
-          "away": "WWWWW"
+          "home": "DDWWW",
+          "away": "DLDLL"
         }
       }
     },
     {
-      "team1": "Napoli",
-      "team1_logo": "https://img.singhs.com.np/team/9875.png",
-      "team2": "Como",
-      "team2_logo": "https://img.singhs.com.np/team/10171.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-08-31T01:30:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=napoli",
-      "streaming_url": "https://cdn.singhs.com.np/napoli.json",
-      "event_id": 5749658,
-      "football_data": {
-        "event": {
-          "match_id": 5749658,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 2,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 16:30:00 GMT",
-          "venue": "Stadio Diego Armando Maradona",
-          "venue_city": "Napoli",
-          "venue_country": "Italy",
-          "venue_lat": 40.827974049,
-          "venue_lng": 14.19293046,
-          "stadium_capacity": 54726,
-          "stadium_surface": "grass",
-          "referee": "Luca Pairetto",
-          "home_team": {
-            "name": "Napoli",
-            "id": 9875
-          },
-          "away_team": {
-            "name": "Como",
-            "id": 10171
-          },
-          "home_manager": "Massimiliano Allegri",
-          "away_manager": "Cesc Fàbregas",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 3,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Alex Meret", "Giovanni Di Lorenzo", "Amir Rrahmani", "Rafa Marín", "Leonardo Spinazzola", "Frank Anguissa", "Stanislav Lobotka", "Scott McTominay", "Matteo Politano", "Rasmus Højlund", "Alisson Santos"],
-          "away_players": ["Jean Butez", "Yan Couto", "Jacobo Ramón", "Trevoh Chalobah", "Álex Valle", "Lucas Da Cunha", "Luis Milla", "Assane Diao", "Nico Paz", "Martin Baturina", "Anastasios Douvikas"],
-          "home_missing_players": ["Pasquale Mazzocchi", "Alessandro Buongiorno", "Luca Marianucci"],
-          "away_missing_players": ["Jayden Addai"]
-        },
-        "pregame_form": {
-          "home": "WWDWW",
-          "away": "DDDLD"
-        }
-      }
-    },
-    {
-      "team1": "Deportivo A Coruña",
-      "team1_logo": "https://img.singhs.com.np/team/9783.png",
-      "team2": "Valencia",
-      "team2_logo": "https://img.singhs.com.np/team/10267.png",
+      "team1": "Barcelona",
+      "team1_logo": "https://img.singhs.com.np/team/8634.png",
+      "team2": "Rayo Vallecano",
+      "team2_logo": "https://img.singhs.com.np/team/8370.png",
       "league_logo": "https://img.singhs.com.np/league/87.png",
       "league": "LaLiga",
-      "start": "2026-08-31T02:30:00+09:00",
+      "start": "2026-09-01T04:30:00+09:00",
       "league_id": 87,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=deportivoacoruna",
-      "streaming_url": "https://cdn.singhs.com.np/deportivoacoruna.json",
-      "event_id": 5868033,
+      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
+      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
+      "event_id": 5868034,
       "football_data": {
         "event": {
-          "match_id": 5868033,
+          "match_id": 5868034,
           "league": "LaLiga",
           "league_id": 87,
           "round": 3,
           "tournament": "LaLiga",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 17:30:00 GMT",
-          "venue": "Estadio Abanca-Riazor",
-          "venue_city": "A Coruña (La Coruña)",
+          "kick_off_time_utc": "Mon, 31 Aug 2026 19:30:00 GMT",
+          "venue": "Spotify Camp Nou",
+          "venue_city": "Barcelona",
           "venue_country": "Spain",
-          "venue_lat": 43.368720349,
-          "venue_lng": -8.417529613,
-          "stadium_capacity": 32490,
+          "venue_lat": 41.380890137,
+          "venue_lng": 2.122812867,
+          "stadium_capacity": 99787,
           "stadium_surface": "grass",
-          "referee": "Miguel Ángel Ortiz Arias",
+          "referee": null,
           "home_team": {
-            "name": "Deportivo A Coruña",
-            "id": 9783
+            "name": "Barcelona",
+            "id": 8634
           },
           "away_team": {
-            "name": "Valencia",
-            "id": 10267
+            "name": "Rayo Vallecano",
+            "id": 8370
           },
-          "home_manager": "Antonio Hidalgo",
-          "away_manager": "Carlos Corberán",
+          "home_manager": "Hans-Dieter Flick",
+          "away_manager": "Beñat San José",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 1,
-          "draws": 4,
-          "awayWins": 7
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Leo Román", "Ximo Navarro", "Lucas Noubi", "Miguel Loureiro", "Giacomo Quagliata", "Adrià Altimira", "Mario Soriano", "Lorenzo Amatucci", "Jonathan Asp", "Luismi Cruz", "Pierre-Emerick Aubameyang"],
-          "away_players": ["Stole Dimitrievski", "Arnau Martínez", "César Tárrega", "Mouctar Diakhaby", "José Gayà", "Filip Ugrinic", "Pepelu", "Ryunosuke Sato", "Javier Guerra", "Arnaut Danjuma", "Umar Sadiq"],
-          "home_missing_players": ["Adama Traoré", "Noé"],
-          "away_missing_players": ["Pablo Maffeo", "José Copete", "Justin De Haas", "Diego López", "Guido Rodríguez", "Alberto Marí", "Sergi Canós"]
-        },
-        "pregame_form": {
-          "home": "DWLDD",
-          "away": "LDLDL"
-        }
-      }
-    },
-    {
-      "team1": "Cagliari",
-      "team1_logo": "https://img.singhs.com.np/team/8529.png",
-      "team2": "Inter",
-      "team2_logo": "https://img.singhs.com.np/team/8636.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-08-31T03:45:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=inter",
-      "streaming_url": "https://cdn.singhs.com.np/inter.json",
-      "event_id": 5749652,
-      "football_data": {
-        "event": {
-          "match_id": 5749652,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 2,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 18:45:00 GMT",
-          "venue": "Unipol Domus",
-          "venue_city": "Cagliari",
-          "venue_country": "Italy",
-          "venue_lat": 39.199802357,
-          "venue_lng": 9.137473349,
-          "stadium_capacity": 16416,
-          "stadium_surface": "grass",
-          "referee": "Michael Fabbri",
-          "home_team": {
-            "name": "Cagliari",
-            "id": 8529
-          },
-          "away_team": {
-            "name": "Inter",
-            "id": 8636
-          },
-          "home_manager": "Fabio Pisacane",
-          "away_manager": "Cristian Chivu",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 4,
-          "draws": 6,
-          "awayWins": 20
-        },
-        "lineups": {
-          "home_formation": "4-3-2-1",
-          "away_formation": "3-5-2",
-          "home_players": ["Elia Caprile", "Zé Pedro", "Alessandro Deiola", "Juan Rodríguez", "Adam Obert", "Alessandro Romano", "Harry Winks", "Jacopo Fazzini", "Michel Ndary Adopo", "Daniel Maldini", "Paul Mendy"],
-          "away_players": ["Josep Martínez", "Yann Aurel Bisseck", "Manuel Akanji", "Alessandro Bastoni", "Andy Diouf", "Nicolò Barella", "Hakan Çalhanoglu", "Piotr Zielinski", "Federico Dimarco", "Francesco Pio Esposito", "Lautaro Martínez"],
-          "home_missing_players": ["Riyad Idrissi", "Yael Trepy"],
-          "away_missing_players": ["Djed Spence"]
-        },
-        "pregame_form": {
-          "home": "DWDWW",
-          "away": "DDWWW"
-        }
-      }
-    },
-    {
-      "team1": "Corinthians",
-      "team1_logo": "https://img.singhs.com.np/team/9808.png",
-      "team2": "Santos FC",
-      "team2_logo": "https://img.singhs.com.np/team/8514.png",
-      "league_logo": "https://img.singhs.com.np/league/268.png",
-      "league": "Série A",
-      "start": "2026-08-31T04:00:00+09:00",
-      "league_id": 268,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=santosfc",
-      "streaming_url": "https://cdn.singhs.com.np/santosfc.json",
-      "event_id": 5103607,
-      "football_data": {
-        "event": {
-          "match_id": 5103607,
-          "league": "Brazilian Serie A",
-          "league_id": 268,
-          "round": 25,
-          "tournament": "Brazilian Serie A",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 19:00:00 GMT",
-          "venue": "Neo Química Arena",
-          "venue_city": "São Paulo, São Paulo",
-          "venue_country": "Brazil",
-          "venue_lat": -23.545306226,
-          "venue_lng": -46.474239577,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": "Wilton Pereira Sampaio",
-          "home_team": {
-            "name": "Corinthians",
-            "id": 9808
-          },
-          "away_team": {
-            "name": "Santos FC",
-            "id": 8514
-          },
-          "home_manager": "Fernando Diniz",
-          "away_manager": "Cuca",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 15,
-          "draws": 14,
-          "awayWins": 14
+          "homeWins": 17,
+          "draws": 3,
+          "awayWins": 3
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": ["Kauê Camargo", "Pedro Milans", "Gabriel Paulista", "Gustavo Henrique", "Fabrizio Angileri", "Raniele", "Allan", "Kaio César", "Breno Bidon", "André Carrillo", "Pedro Raul"],
-          "away_players": ["Gabriel Brazão", "Igor Vinícius", "Lucas Veríssimo", "Luan Peres", "Gonzalo Escobar", "Gustavo Henrique", "Willian Arão", "João Schmidt", "Álvaro Barreal", "Benjamín Rollheiser", "Gustavo Caballero"],
-          "home_missing_players": ["Breno Bidon", "Hugo Souza", "André Ramalho", "Bidu", "André", "Zakaria Labyad", "Yuri Alberto", "Vitinho", "Kayke"],
-          "away_missing_players": ["João Schmidt", "Gabriel Menino", "Vinicius Lira"]
-        },
-        "pregame_form": {
-          "home": "WDLWL",
-          "away": "WWDDL"
-        }
-      }
-    },
-    {
-      "team1": "Celta Vigo",
-      "team1_logo": "https://img.singhs.com.np/team/9910.png",
-      "team2": "Athletic Club",
-      "team2_logo": "https://img.singhs.com.np/team/8315.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-08-31T04:30:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=celtavigo",
-      "streaming_url": "https://cdn.singhs.com.np/celtavigo.json",
-      "event_id": 5868032,
-      "football_data": {
-        "event": {
-          "match_id": 5868032,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 3,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Sun, 30 Aug 2026 19:30:00 GMT",
-          "venue": "Estadio Abanca-Balaídos",
-          "venue_city": "Vigo",
-          "venue_country": "Spain",
-          "venue_lat": 42.211851813,
-          "venue_lng": -8.739720583,
-          "stadium_capacity": 24870,
-          "stadium_surface": "grass",
-          "referee": "Mateo Busquets Ferrer",
-          "home_team": {
-            "name": "Celta Vigo",
-            "id": 9910
-          },
-          "away_team": {
-            "name": "Athletic Club",
-            "id": 8315
-          },
-          "home_manager": "Claudio Giráldez",
-          "away_manager": "Edin Terzic",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 9,
-          "draws": 7,
-          "awayWins": 16
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Ionut Radu", "Javi Rodríguez", "Yoel Lago", "Abdoulaye Faye", "Javi Rueda", "Miguel Román", "Aleix Febas", "Sergio Carreira", "Jones El-Abdellaoui", "Hugo Álvarez", "Ferrán Jutglà"],
-          "away_players": ["Unai Simón", "Jesús Areso", "Aitor Paredes", "Aymeric Laporte", "Yuri Berchiche", "Mikel Jauregizar", "Peio Canales", "Iñaki Williams", "Oihan Sancet", "Alex Berenguer", "Gorka Guruzeta"],
-          "home_missing_players": ["Marcos Alonso", "Borja Iglesias"],
-          "away_missing_players": ["Johaneko Louisjean", "Andoni Gorosabel", "Daniel Vivian", "Unai Eguiluz", "Beñat Prados"]
+          "home_players": ["Joan García", "Jules Koundé", "Pau Cubarsí", "Gerard Martín", "João Cancelo", "Rodri", "Pedri", "Lamine Yamal", "Fermín López", "Karim Adeyemi", "Raphinha"],
+          "away_players": ["Dani Cárdenas", "Andrei Ratiu", "Florian Lejeune", "Pelayo Fernández", "Jozhua Vertrouwd", "Pathé Ciss", "Unai López", "Jorge de Frutos", "Pedro Díaz", "Fran Pérez", "Sergio Camello"],
+          "home_missing_players": ["Frenkie de Jong", "Gavi", "Roony Bardghji"],
+          "away_missing_players": ["Marash Kumbulla", "Augusto Batalla", "Luiz Felipe", "Isi Palazón"]
         },
         "pregame_form": {
-          "home": "WWDDL",
-          "away": "LLLLL"
+          "home": "LWWWW",
+          "away": "LWLLD"
         }
       }
     }
