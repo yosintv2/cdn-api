@@ -1,17 +1,17 @@
 {
   "matches": [
     {
-      "team1": "Zimbabwe",
-      "team2": "South Africa",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/zimbabwe.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
-      "league": "T20I Tri-Series in Namibia, 2026",
-      "start": "2026-09-01T21:00:00+09:00",
+      "team1": "Malaysia",
+      "team2": "Nepal",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/malaysia.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
+      "league": "ACC Men's Premier Cup, 2026",
+      "start": "2026-09-03T10:30:00+09:00",
       "duration": 5,
       "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=zimbabwe",
-      "streaming_url": "https://cdn.singhs.com.np/zimbabwe.json",
-      "event_id": "273843",
+      "details_url": "https://home.getemoji.online/?yosintv=malaysia",
+      "streaming_url": "https://cdn.singhs.com.np/malaysia.json",
+      "event_id": "273932",
       "cricket_data": null
     },
     {
@@ -26,6 +26,20 @@
       "details_url": "https://home.getemoji.online/?yosintv=namibia",
       "streaming_url": "https://cdn.singhs.com.np/namibia.json",
       "event_id": "273844",
+      "cricket_data": null
+    },
+    {
+      "team1": "Namibia",
+      "team2": "South Africa",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/namibia.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
+      "league": "T20I Tri-Series in Namibia, 2026",
+      "start": "2026-09-04T21:00:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=namibia",
+      "streaming_url": "https://cdn.singhs.com.np/namibia.json",
+      "event_id": "273845",
       "cricket_data": null
     }
   ]
