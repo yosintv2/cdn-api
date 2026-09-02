@@ -1,120 +1,120 @@
 {
   "matches": [
     {
-      "team1": "HEBC Hamburg",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/946303.png",
-      "team2": "Dortmund",
-      "team2_logo": "https://img.singhs.com.np/team/9789.png",
+      "team1": "VfL Osnabrück",
+      "team1_logo": "https://img.singhs.com.np/team/9775.png",
+      "team2": "Bayern München",
+      "team2_logo": "https://img.singhs.com.np/team/9823.png",
       "league_logo": "https://img.singhs.com.np/league/936417.png",
       "league": "DFB Pokal",
-      "start": "2026-09-02T03:45:00+09:00",
+      "start": "2026-09-03T03:45:00+09:00",
       "league_id": 936417,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
-      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
-      "event_id": 5750701,
+      "details_url": "https://home.getemoji.online/?yosintv=bayernmunchen",
+      "streaming_url": "https://cdn.singhs.com.np/bayernmunchen.json",
+      "event_id": 5750702,
       "football_data": {
         "event": {
-          "match_id": 5750701,
+          "match_id": 5750702,
           "league": "DFB Pokal",
           "league_id": 936417,
           "round": 1,
           "tournament": "DFB Pokal",
-          "kick_off_time_utc": "Tue, 01 Sep 2026 18:45:00 GMT",
-          "venue": "Volksparkstadion",
-          "venue_city": "Hamburg",
+          "kick_off_time_utc": "Wed, 02 Sep 2026 18:45:00 GMT",
+          "venue": "Stadion an der Bremer Brücke",
+          "venue_city": "Osnabrück",
           "venue_country": "Germany",
-          "venue_lat": 53.587134005,
-          "venue_lng": 9.898579717,
-          "stadium_capacity": 57000,
+          "venue_lat": 52.280807653,
+          "venue_lng": 8.071249723,
+          "stadium_capacity": 16667,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "HEBC Hamburg",
-            "id": 946303
+            "name": "VfL Osnabrück",
+            "id": 9775
           },
           "away_team": {
-            "name": "Borussia Dortmund",
-            "id": 9789
+            "name": "Bayern München",
+            "id": 9823
           },
-          "home_manager": null,
-          "away_manager": null,
+          "home_manager": "Timo Schultz",
+          "away_manager": "Vincent Kompany",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": null,
         "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": ["Justin Lerma", "Giannis Konstantelias", "Ramy Bensebaini", "Carney Chukwuemeka", "Nico Schlotterbeck", "Emre Can"]
+          "home_formation": "3-4-2-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Jonas Krumrey", "Robin Fabinski", "Jannik Müller", "Niklas Wiemann", "Patrick Kammerbauer", "Fridolin Wagner", "Bjarke Jacobsen", "Ismail Badjie", "Adrian Beck", "Leonhard Münst", "Robin Meißner"],
+          "away_players": ["Manuel Neuer", "Konrad Laimer", "Dayot Upamecano", "Min-Jae Kim", "Alphonso Davies", "Joshua Kimmich", "Aleksandar Pavlovic", "Michael Olise", "Nathaniel Brown", "Luis Díaz", "Harry Kane"],
+          "home_missing_players": ["Jonathan Wensing"],
+          "away_missing_players": ["Jamal Musiala", "Serge Gnabry"]
         },
         "pregame_form": {
-          "home": "",
-          "away": "WWDLW"
+          "home": "DWLLW",
+          "away": "WWWWW"
         }
       }
     },
     {
-      "team1": "West Ham",
-      "team1_logo": "https://img.singhs.com.np/team/8654.png",
-      "team2": "Wolves",
-      "team2_logo": "https://img.singhs.com.np/team/8602.png",
-      "league_logo": "https://img.singhs.com.np/league/938218.png",
-      "league": "Championship",
-      "start": "2026-09-02T03:45:00+09:00",
-      "league_id": 938218,
+      "team1": "Santos",
+      "team1_logo": "https://img.singhs.com.np/team/8514.png",
+      "team2": "Palmeiras",
+      "team2_logo": "https://img.singhs.com.np/team/10283.png",
+      "league_logo": "https://img.singhs.com.np/league/9067.png",
+      "league": "Copa do Brasil",
+      "start": "2026-09-03T09:30:00+09:00",
+      "league_id": 9067,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wolves",
-      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
-      "event_id": 5836797,
+      "details_url": "https://home.getemoji.online/?yosintv=santos",
+      "streaming_url": "https://cdn.singhs.com.np/santos.json",
+      "event_id": 1000019467,
       "football_data": {
         "event": {
-          "match_id": 5836797,
-          "league": "Championship",
-          "league_id": 938218,
-          "round": 4,
-          "tournament": "Championship",
-          "kick_off_time_utc": "Tue, 01 Sep 2026 18:45:00 GMT",
-          "venue": "London Stadium",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.538688219,
-          "venue_lng": -0.01650095,
-          "stadium_capacity": 62500,
-          "stadium_surface": "grass",
-          "referee": "Lewis Smith",
+          "match_id": 1000019467,
+          "league": "Copa do Brazil",
+          "league_id": 9067,
+          "round": "Quarter-finals",
+          "tournament": "Copa do Brazil",
+          "kick_off_time_utc": "Thu, 03 Sep 2026 00:30:00 GMT",
+          "venue": "Estádio Urbano Caldeira",
+          "venue_city": "Santos, São Paulo",
+          "venue_country": "Brazil",
+          "venue_lat": -23.951096662,
+          "venue_lng": -46.338894367,
+          "stadium_capacity": null,
+          "stadium_surface": null,
+          "referee": "Davi de Oliveira Lacerda",
           "home_team": {
-            "name": "West Ham United",
-            "id": 8654
+            "name": "Santos",
+            "id": 8514
           },
           "away_team": {
-            "name": "Wolverhampton Wanderers",
-            "id": 8602
+            "name": "Palmeiras",
+            "id": 10283
           },
-          "home_manager": "Nuno Espírito Santo",
-          "away_manager": "César Peixoto",
+          "home_manager": "Cuca",
+          "away_manager": "Abel Ferreira",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 10,
-          "draws": 1,
-          "awayWins": 10
+          "homeWins": 14,
+          "draws": 6,
+          "awayWins": 21
         },
         "lineups": {
-          "home_formation": "4-4-1-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Mads Hermansen", "Joël Veltman", "Airidas Golambeckis", "Max Kilman", "Kyle Walker-Peters", "Jarrod Bowen", "Arne Engels", "Mohamadou Kanté", "Manor Solomon", "Divine Mukasa", "Valentín Castellanos"],
-          "away_players": ["José Sá", "Jackson Tchatchoua", "Nasser Djiga", "Toti Gomes", "Hugo Bueno", "Marshall Munetsi", "André", "Rodrigo Gomes", "Fer López", "Mateus Mané", "Raul Jiménez"],
-          "home_missing_players": ["Tomás Soucek"],
-          "away_missing_players": ["Rafiki Saïd", "Kieran Trippier", "Yerson Mosquera"]
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Gabriel Brazão", "Igor Vinícius", "Lucas Veríssimo", "Luan Peres", "Gonzalo Escobar", "Gustavo Henrique", "Willian Arão", "Gabriel Bontempo", "Neymar", "Álvaro Barreal", "Gabriel Barbosa"],
+          "away_players": ["Carlos Miguel", "Agustín Giay", "Murilo", "Gustavo Gómez", "Felipe Anderson", "Andreas Pereira", "Marlon Freitas", "Arthur", "José Manuel López", "Mauricio", "Vitor Roque"],
+          "home_missing_players": ["Gustavo Henrique", "Gabriel Menino", "Vinicius Lira"],
+          "away_missing_players": ["Joaquín Piquerez", "Jhon Arias", "Ramón Sosa", "Paulinho", "Jefté"]
         },
         "pregame_form": {
-          "home": "WDLWD",
-          "away": "WDWWW"
+          "home": "WDDLW",
+          "away": "LWWWD"
         }
       }
     }
