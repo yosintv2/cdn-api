@@ -1,45 +1,17 @@
 {
   "matches": [
     {
-      "team1": "Malaysia",
-      "team2": "Nepal",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/malaysia.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
+      "team1": "Nepal",
+      "team2": "Saudi Arabia",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/saudiarabia.png",
       "league": "ACC Men's Premier Cup, 2026",
-      "start": "2026-09-03T10:30:00+09:00",
+      "start": "2026-09-06T10:30:00+09:00",
       "duration": 5,
       "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=malaysia",
-      "streaming_url": "https://cdn.singhs.com.np/malaysia.json",
-      "event_id": "273932",
-      "cricket_data": null
-    },
-    {
-      "team1": "Namibia",
-      "team2": "Zimbabwe",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/namibia.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/zimbabwe.png",
-      "league": "T20I Tri-Series in Namibia, 2026",
-      "start": "2026-09-03T21:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=namibia",
-      "streaming_url": "https://cdn.singhs.com.np/namibia.json",
-      "event_id": "273844",
-      "cricket_data": null
-    },
-    {
-      "team1": "Namibia",
-      "team2": "South Africa",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/namibia.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
-      "league": "T20I Tri-Series in Namibia, 2026",
-      "start": "2026-09-04T21:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=namibia",
-      "streaming_url": "https://cdn.singhs.com.np/namibia.json",
-      "event_id": "273845",
+      "details_url": "https://home.getemoji.online/?yosintv=nepal",
+      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
+      "event_id": "273937",
       "cricket_data": null
     }
   ]
