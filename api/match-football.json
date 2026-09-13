@@ -50,10 +50,41 @@
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
-          "home_players": ["Mathew Ryan", "Nacho Pérez", "Adrián De La Fuente", "Aïssa Mandi", "Manuel Sánchez", "Enzo Bardeli", "Oriol Rey", "Jon Olasagasti", "Roger Brugué", "Iván Romero", "Thiago Fernández"],
-          "away_players": ["Joan García", "Eric García", "Pau Cubarsí", "Gerard Martín", "Xavi Espart", "Marc Bernal", "Pedri", "Lamine Yamal", "Fermín López", "Anthony Gordon", "Raphinha"],
-          "home_missing_players": ["Álex Primo", "Etta Eyong"],
-          "away_missing_players": ["Jesse Bisiwu", "Frenkie de Jong", "Roony Bardghji"]
+          "home_players": [
+            "Mathew Ryan",
+            "Nacho Pérez",
+            "Adrián De La Fuente",
+            "Aïssa Mandi",
+            "Manuel Sánchez",
+            "Enzo Bardeli",
+            "Oriol Rey",
+            "Jon Olasagasti",
+            "Roger Brugué",
+            "Iván Romero",
+            "Thiago Fernández"
+          ],
+          "away_players": [
+            "Joan García",
+            "Eric García",
+            "Pau Cubarsí",
+            "Gerard Martín",
+            "Xavi Espart",
+            "Marc Bernal",
+            "Pedri",
+            "Lamine Yamal",
+            "Fermín López",
+            "Anthony Gordon",
+            "Raphinha"
+          ],
+          "home_missing_players": [
+            "Álex Primo",
+            "Etta Eyong"
+          ],
+          "away_missing_players": [
+            "Jesse Bisiwu",
+            "Frenkie de Jong",
+            "Roony Bardghji"
+          ]
         },
         "pregame_form": {
           "home": "LLDWD",
@@ -63,9 +94,9 @@
       "pushed": true
     },
     {
-      "team1": "Manchester United",
+      "team1": "Man United",
       "team1_logo": "https://img.singhs.com.np/team/10260.png",
-      "team2": "Manchester City",
+      "team2": "Man City",
       "team2_logo": "https://img.singhs.com.np/team/8456.png",
       "league_logo": "https://img.singhs.com.np/league/47.png",
       "league": "Premier League",
@@ -112,10 +143,42 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-1-4-1",
-          "home_players": ["Senne Lammens", "Diogo Dalot", "Harry Maguire", "Lisandro Martínez", "Luke Shaw", "Kobbie Mainoo", "Youri Tielemans", "Bryan Mbeumo", "Bruno Fernandes", "Marcus Rashford", "Matheus Cunha"],
-          "away_players": ["Gianluigi Donnarumma", "Matheus Nunes", "Rúben Dias", "Marc Guéhi", "Joško Gvardiol", "Elliot Anderson", "Phil Foden", "Enzo Fernández", "Nico O'Reilly", "Antoine Semenyo", "Erling Haaland"],
-          "home_missing_players": ["Tom Heaton", "Matthijs de Ligt", "Carlos Baleba", "Manuel Ugarte", "Amad Diallo"],
-          "away_missing_players": ["Jérémy Doku"]
+          "home_players": [
+            "Senne Lammens",
+            "Diogo Dalot",
+            "Harry Maguire",
+            "Lisandro Martínez",
+            "Luke Shaw",
+            "Kobbie Mainoo",
+            "Youri Tielemans",
+            "Bryan Mbeumo",
+            "Bruno Fernandes",
+            "Marcus Rashford",
+            "Matheus Cunha"
+          ],
+          "away_players": [
+            "Gianluigi Donnarumma",
+            "Matheus Nunes",
+            "Rúben Dias",
+            "Marc Guéhi",
+            "Joško Gvardiol",
+            "Elliot Anderson",
+            "Phil Foden",
+            "Enzo Fernández",
+            "Nico O'Reilly",
+            "Antoine Semenyo",
+            "Erling Haaland"
+          ],
+          "home_missing_players": [
+            "Tom Heaton",
+            "Matthijs de Ligt",
+            "Carlos Baleba",
+            "Manuel Ugarte",
+            "Amad Diallo"
+          ],
+          "away_missing_players": [
+            "Jérémy Doku"
+          ]
         },
         "pregame_form": {
           "home": "LLWDW",
@@ -174,10 +237,39 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Nicolas Kristof", "Jan Gyamerah", "Lukas Pinckert", "Maximilian Rohr", "Lasse Günther", "Felix Keidel", "Łukasz Poręba", "Lukas Petkov", "Francis Onyeka", "Cole Campbell", "David Mokwa"],
-          "away_players": ["Manuel Neuer", "Josip Stanišić", "Dayot Upamecano", "Min-Jae Kim", "Nathaniel Brown", "Joshua Kimmich", "Tom Bischof", "Lennart Karl", "Michael Olise", "Luis Díaz", "Harry Kane"],
-          "home_missing_players": ["Vincent Wagner", "Tom Zimmerschied"],
-          "away_missing_players": ["Serge Gnabry"]
+          "home_players": [
+            "Nicolas Kristof",
+            "Jan Gyamerah",
+            "Lukas Pinckert",
+            "Maximilian Rohr",
+            "Lasse Günther",
+            "Felix Keidel",
+            "Łukasz Poręba",
+            "Lukas Petkov",
+            "Francis Onyeka",
+            "Cole Campbell",
+            "David Mokwa"
+          ],
+          "away_players": [
+            "Manuel Neuer",
+            "Josip Stanišić",
+            "Dayot Upamecano",
+            "Min-Jae Kim",
+            "Nathaniel Brown",
+            "Joshua Kimmich",
+            "Tom Bischof",
+            "Lennart Karl",
+            "Michael Olise",
+            "Luis Díaz",
+            "Harry Kane"
+          ],
+          "home_missing_players": [
+            "Vincent Wagner",
+            "Tom Zimmerschied"
+          ],
+          "away_missing_players": [
+            "Serge Gnabry"
+          ]
         },
         "pregame_form": {
           "home": "DWWWW",
@@ -236,10 +328,48 @@
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
-          "home_players": ["Vanja Milinković-Savić", "Giovanni Di Lorenzo", "Amir Rrahmani", "Rafa Marín", "Leonardo Spinazzola", "Billy Gilmour", "Stanislav Lobotka", "Kevin De Bruyne", "Matteo Politano", "Rasmus Højlund", "David Neres"],
-          "away_players": ["Łukasz Skorupski", "Emil Holm", "Eivind Helland", "Torbjørn Heggem", "Juan Miranda", "Nikola Moro", "Lewis Ferguson", "Federico Bernardeschi", "Jens Odgaard", "Nicolò Cambiaghi", "Roberto Piccoli"],
-          "home_missing_players": ["Frank Anguissa", "Alex Meret", "Alessandro Buongiorno", "Luca Marianucci", "Alisson Santos", "Scott McTominay", "Giovane Nascimento"],
-          "away_missing_players": ["Domenico Tedesco", "Nadir Zortea", "Artem Dovbyk", "Oussama El Azzouzi", "Riccardo Orsolini"]
+          "home_players": [
+            "Vanja Milinković-Savić",
+            "Giovanni Di Lorenzo",
+            "Amir Rrahmani",
+            "Rafa Marín",
+            "Leonardo Spinazzola",
+            "Billy Gilmour",
+            "Stanislav Lobotka",
+            "Kevin De Bruyne",
+            "Matteo Politano",
+            "Rasmus Højlund",
+            "David Neres"
+          ],
+          "away_players": [
+            "Łukasz Skorupski",
+            "Emil Holm",
+            "Eivind Helland",
+            "Torbjørn Heggem",
+            "Juan Miranda",
+            "Nikola Moro",
+            "Lewis Ferguson",
+            "Federico Bernardeschi",
+            "Jens Odgaard",
+            "Nicolò Cambiaghi",
+            "Roberto Piccoli"
+          ],
+          "home_missing_players": [
+            "Frank Anguissa",
+            "Alex Meret",
+            "Alessandro Buongiorno",
+            "Luca Marianucci",
+            "Alisson Santos",
+            "Scott McTominay",
+            "Giovane Nascimento"
+          ],
+          "away_missing_players": [
+            "Domenico Tedesco",
+            "Nadir Zortea",
+            "Artem Dovbyk",
+            "Oussama El Azzouzi",
+            "Riccardo Orsolini"
+          ]
         },
         "pregame_form": {
           "home": "WWLLL",
@@ -298,10 +428,44 @@
         "lineups": {
           "home_formation": "5-3-2",
           "away_formation": "4-4-2",
-          "home_players": ["David Soria", "Nemanja Gudelj", "Djené", "Sebastián Boselli", "Andrés García", "Johan Mojica", "Ramón Terrats", "Orel Mangala", "Mario Martín", "Enes Ünal", "Iván Azon"],
-          "away_players": ["Leo Román", "Ximo Navarro", "Lucas Noubi", "José Giménez", "Giacomo Quagliata", "Luismi Cruz", "Marc Casadó", "Lorenzo Amatucci", "Mario Soriano", "Pierre-Emerick Aubameyang", "Bil Nsongo"],
-          "home_missing_players": ["Francho Serrano", "Abdelkabir Abqar", "Kiko", "Zaid Abner Romero", "Christantus Uche", "Juanmi"],
-          "away_missing_players": ["Jonathan Asp Jensen", "Noé"]
+          "home_players": [
+            "David Soria",
+            "Nemanja Gudelj",
+            "Djené",
+            "Sebastián Boselli",
+            "Andrés García",
+            "Johan Mojica",
+            "Ramón Terrats",
+            "Orel Mangala",
+            "Mario Martín",
+            "Enes Ünal",
+            "Iván Azon"
+          ],
+          "away_players": [
+            "Leo Román",
+            "Ximo Navarro",
+            "Lucas Noubi",
+            "José Giménez",
+            "Giacomo Quagliata",
+            "Luismi Cruz",
+            "Marc Casadó",
+            "Lorenzo Amatucci",
+            "Mario Soriano",
+            "Pierre-Emerick Aubameyang",
+            "Bil Nsongo"
+          ],
+          "home_missing_players": [
+            "Francho Serrano",
+            "Abdelkabir Abqar",
+            "Kiko",
+            "Zaid Abner Romero",
+            "Christantus Uche",
+            "Juanmi"
+          ],
+          "away_missing_players": [
+            "Jonathan Asp Jensen",
+            "Noé"
+          ]
         },
         "pregame_form": {
           "home": "WWLLD",
@@ -360,9 +524,36 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-3-3",
-          "home_players": ["Egil Selvik", "Kenny Lala", "Raphaël Le Guen", "Gautier Lloris", "Bradley Locko", "Joris Chotard", "Hugo Magnetti", "Mama Baldé", "Kamory Doumbia", "Pathé Mboup", "Ludovic Ajorque"],
-          "away_players": ["Matvey Safonov", "Achraf Hakimi", "Marquinhos", "Willian Pacho", "Nuno Mendes", "João Neves", "Vítinha", "Fabián Ruiz", "Désiré Doué", "Ousmane Dembélé", "Khvicha Kvaratskhelia"],
-          "home_missing_players": ["Brendan Chardonnet", "Mamady Diambou"],
+          "home_players": [
+            "Egil Selvik",
+            "Kenny Lala",
+            "Raphaël Le Guen",
+            "Gautier Lloris",
+            "Bradley Locko",
+            "Joris Chotard",
+            "Hugo Magnetti",
+            "Mama Baldé",
+            "Kamory Doumbia",
+            "Pathé Mboup",
+            "Ludovic Ajorque"
+          ],
+          "away_players": [
+            "Matvey Safonov",
+            "Achraf Hakimi",
+            "Marquinhos",
+            "Willian Pacho",
+            "Nuno Mendes",
+            "João Neves",
+            "Vítinha",
+            "Fabián Ruiz",
+            "Désiré Doué",
+            "Ousmane Dembélé",
+            "Khvicha Kvaratskhelia"
+          ],
+          "home_missing_players": [
+            "Brendan Chardonnet",
+            "Mamady Diambou"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
@@ -422,10 +613,51 @@
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
-          "home_players": ["Arijanet Murić", "Simone Cinquegrano", "Jay Idzes", "Fedde Leysen", "Josh Doig", "Vasilije Adžić", "Nemanja Matić", "Luca Lipani", "Domenico Berardi", "Kieron Bowie", "Armand Laurienté"],
-          "away_players": ["Guglielmo Vicario", "Pierre Kalulu", "Gleison Bremer", "Jhon Lucumí", "Zeki Çelik", "Teun Koopmeiners", "Douglas Luiz", "Francisco Conceição", "Nicolás González", "Kerim Alajbegović", "Randal Kolo Muani"],
-          "home_missing_players": ["Edoardo Pieragnolo", "Fali Candé", "Sebastian Walukiewicz", "Daniel Boloca", "Darryl Bakola", "Ismaël Koné", "Cristian Volpato"],
-          "away_missing_players": ["Andrea Cambiaso", "Juan Cabal", "Kenan Yıldız", "Khéphren Thuram-Ulien", "Manuel Locatelli", "Weston McKennie", "Jeff Ekhator", "Jérémie Boga"]
+          "home_players": [
+            "Arijanet Murić",
+            "Simone Cinquegrano",
+            "Jay Idzes",
+            "Fedde Leysen",
+            "Josh Doig",
+            "Vasilije Adžić",
+            "Nemanja Matić",
+            "Luca Lipani",
+            "Domenico Berardi",
+            "Kieron Bowie",
+            "Armand Laurienté"
+          ],
+          "away_players": [
+            "Guglielmo Vicario",
+            "Pierre Kalulu",
+            "Gleison Bremer",
+            "Jhon Lucumí",
+            "Zeki Çelik",
+            "Teun Koopmeiners",
+            "Douglas Luiz",
+            "Francisco Conceição",
+            "Nicolás González",
+            "Kerim Alajbegović",
+            "Randal Kolo Muani"
+          ],
+          "home_missing_players": [
+            "Edoardo Pieragnolo",
+            "Fali Candé",
+            "Sebastian Walukiewicz",
+            "Daniel Boloca",
+            "Darryl Bakola",
+            "Ismaël Koné",
+            "Cristian Volpato"
+          ],
+          "away_missing_players": [
+            "Andrea Cambiaso",
+            "Juan Cabal",
+            "Kenan Yıldız",
+            "Khéphren Thuram-Ulien",
+            "Manuel Locatelli",
+            "Weston McKennie",
+            "Jeff Ekhator",
+            "Jérémie Boga"
+          ]
         },
         "pregame_form": {
           "home": "WLWDD",
@@ -484,10 +716,39 @@
         "lineups": {
           "home_formation": "4-4-2",
           "away_formation": "4-4-2",
-          "home_players": ["Alex Remiro", "Jon Aramburu", "Igor Zubeldia", "Mamadou Sarr", "Sergio Gómez", "Gonçalo Guedes", "Yangel Herrera", "Carlos Soler", "Ander Barrenetxea", "Luka Sučić", "Mikel Oyarzabal"],
-          "away_players": ["Jan Oblak", "Marcos Llorente", "Marc Pubill", "Dávid Hancko", "Alejandro Grimaldo", "Giuliano Simeone", "Pablo Barrios", "Morten Hjulmand", "Ademola Lookman", "Julián Álvarez", "Álex Baena"],
-          "home_missing_players": ["Álvaro Odriozola", "Jon Martín"],
-          "away_missing_players": ["Alexander Sørloth"]
+          "home_players": [
+            "Alex Remiro",
+            "Jon Aramburu",
+            "Igor Zubeldia",
+            "Mamadou Sarr",
+            "Sergio Gómez",
+            "Gonçalo Guedes",
+            "Yangel Herrera",
+            "Carlos Soler",
+            "Ander Barrenetxea",
+            "Luka Sučić",
+            "Mikel Oyarzabal"
+          ],
+          "away_players": [
+            "Jan Oblak",
+            "Marcos Llorente",
+            "Marc Pubill",
+            "Dávid Hancko",
+            "Alejandro Grimaldo",
+            "Giuliano Simeone",
+            "Pablo Barrios",
+            "Morten Hjulmand",
+            "Ademola Lookman",
+            "Julián Álvarez",
+            "Álex Baena"
+          ],
+          "home_missing_players": [
+            "Álvaro Odriozola",
+            "Jon Martín"
+          ],
+          "away_missing_players": [
+            "Alexander Sørloth"
+          ]
         },
         "pregame_form": {
           "home": "LLWDW",
