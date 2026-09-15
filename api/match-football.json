@@ -1,245 +1,428 @@
 {
   "matches": [
     {
-      "team1": "Torino",
-      "team1_logo": "https://img.singhs.com.np/team/9804.png",
-      "team2": "Roma",
-      "team2_logo": "https://img.singhs.com.np/team/8686.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-09-15T01:30:00+09:00",
-      "league_id": 55,
+      "team1": "Al-Ain",
+      "team1_logo": "https://img.singhs.com.np/team/102117.png",
+      "team2": "Al Nassr FC",
+      "team2_logo": "https://img.singhs.com.np/team/101918.png",
+      "league_logo": "https://img.singhs.com.np/league/943983.png",
+      "league": "AFC Champions League Elite West",
+      "start": "2026-09-16T01:00:00+09:00",
+      "league_id": 943983,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=roma",
-      "streaming_url": "https://cdn.singhs.com.np/roma.json",
-      "event_id": 5749678,
+      "details_url": "https://home.getemoji.online/?yosintv=alnassrfc",
+      "streaming_url": "https://cdn.singhs.com.np/alnassrfc.json",
+      "event_id": 6050070,
       "football_data": {
         "event": {
-          "match_id": 5749678,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 4,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Mon, 14 Sep 2026 16:30:00 GMT",
-          "venue": "Stadio Olimpico Grande Torino",
-          "venue_city": "Torino",
-          "venue_country": "Italy",
-          "venue_lat": 45.041752184,
-          "venue_lng": 7.650015503,
-          "stadium_capacity": 27958,
+          "match_id": 6050070,
+          "league": "AFC Champions League Elite West",
+          "league_id": 943983,
+          "round": 1,
+          "tournament": "AFC Champions League Elite West",
+          "kick_off_time_utc": "Tue, 15 Sep 2026 16:00:00 GMT",
+          "venue": "Hazza Bin Zayed Stadium",
+          "venue_city": "Al-'Ayn (Al Ain)",
+          "venue_country": "United Arab Emirates",
+          "venue_lat": 24.245055962,
+          "venue_lng": 55.717097984,
+          "stadium_capacity": 25174,
           "stadium_surface": "grass",
-          "referee": "Fabio Maresca",
+          "referee": null,
           "home_team": {
-            "name": "Torino",
-            "id": 9804
+            "name": "Al-Ain",
+            "id": 102117
           },
           "away_team": {
-            "name": "Roma",
-            "id": 8686
+            "name": "Al Nassr FC",
+            "id": 101918
           },
-          "home_manager": "Ignazio Abate",
-          "away_manager": "Gian Piero Gasperini",
+          "home_manager": "Vladimir Ivić",
+          "away_manager": "Ange Postecoglou",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 6,
-          "draws": 5,
-          "awayWins": 19
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 3
         },
         "lineups": {
-          "home_formation": "3-5-2",
-          "away_formation": "3-4-1-2",
-          "home_players": ["Lucas Perri", "Pietro Comuzzo", "Ardian Ismajli", "Eray Cömert", "Niccolò Fortini", "Gvidas Gineitis", "Rolando Mandragora", "Kian Fitz-Jim", "Alessio Cacciamani", "Nikola Vlašić", "Giovanni Simeone"],
-          "away_players": ["Mile Svilar", "Leonardo Balerdi", "Evan N'Dicka", "Mario Hermoso", "Emanuele Lulli", "Bryan Cristante", "Niccolò Pisilli", "Wesley", "Rodrigo Mora", "Matias Soulé", "Donyell Malen"],
-          "home_missing_players": ["Ché Adams", "Cesare Casadei", "Pietro Pellegri"],
-          "away_missing_players": []
+          "home_formation": "5-3-2",
+          "away_formation": "4-4-2",
+          "home_players": ["Khalid Eissa", "Yahya Ben Khaleq", "Ramy Rabia", "Djordje Skoko", "Valentino Lazaro", "Rafael Rodrigues", "Alejandro Romero", "Abdoul Traoré", "Matías Palacios", "Jonatas Santos", "Georgios Giakoumakis"],
+          "away_players": ["Bento", "Nawaf Bu Washl", "Abdulelah Al Amri", "Iñigo Martínez", "Saad Al Nasser", "Ângelo", "Samú", "Abdullah Al Khaibari", "Sadio Mané", "Joao Félix", "Cristiano Ronaldo"],
+          "home_missing_players": [],
+          "away_missing_players": ["Sultan Al-Ghannam"]
         },
         "pregame_form": {
-          "home": "WLLLW",
-          "away": "DWWWD"
+          "home": "WWWWD",
+          "away": "WWLWD"
         }
       }
     },
     {
-      "team1": "Inter",
-      "team1_logo": "https://img.singhs.com.np/team/8636.png",
-      "team2": "Udinese",
-      "team2_logo": "https://img.singhs.com.np/team/8600.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-09-15T03:45:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=inter",
-      "streaming_url": "https://cdn.singhs.com.np/inter.json",
-      "event_id": 5749673,
-      "football_data": {
-        "event": {
-          "match_id": 5749673,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 4,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Mon, 14 Sep 2026 18:45:00 GMT",
-          "venue": "Stadio Giuseppe Meazza",
-          "venue_city": "Milano",
-          "venue_country": "Italy",
-          "venue_lat": 45.478083998,
-          "venue_lng": 9.123979211,
-          "stadium_capacity": 75817,
-          "stadium_surface": "grass",
-          "referee": "Luca Pairetto",
-          "home_team": {
-            "name": "Inter",
-            "id": 8636
-          },
-          "away_team": {
-            "name": "Udinese",
-            "id": 8600
-          },
-          "home_manager": "Cristian Chivu",
-          "away_manager": "Kosta Runjaić",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 22,
-          "draws": 3,
-          "awayWins": 9
-        },
-        "lineups": {
-          "home_formation": "3-5-2",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Josep Martínez", "Manuel Akanji", "John Stones", "Alessandro Bastoni", "Andy Diouf", "Nicolò Barella", "Hakan Çalhanoglu", "Piotr Zieliński", "Carlos Augusto", "Lautaro Martínez", "Marcus Thuram"],
-          "away_players": ["Maduka Okoye", "James Abankwah", "Christian Kabasele", "Enzo Ebosse", "Mërgim Vojvoda", "Jesper Karlström", "Lennon Miller", "Hassane Kamara", "Jurgen Ekkelenkamp", "Unai Gómez", "Keinan Davis"],
-          "home_missing_players": ["Djed Spence"],
-          "away_missing_players": ["Juan Arizala", "Matteo Palma", "Oumar Solet", "Alessandro Zanoli", "Jakub Piotrowski", "Nicolò Zaniolo"]
-        },
-        "pregame_form": {
-          "home": "WWWWL",
-          "away": "WDWWL"
-        }
-      }
-    },
-    {
-      "team1": "Leeds United",
-      "team1_logo": "https://img.singhs.com.np/team/8463.png",
-      "team2": "Newcastle United",
-      "team2_logo": "https://img.singhs.com.np/team/10261.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-09-15T04:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=newcastleunited",
-      "streaming_url": "https://cdn.singhs.com.np/newcastleunited.json",
-      "event_id": 5795450,
-      "football_data": {
-        "event": {
-          "match_id": 5795450,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 4,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Mon, 14 Sep 2026 19:00:00 GMT",
-          "venue": "Elland Road",
-          "venue_city": "Leeds, West Yorkshire",
-          "venue_country": "England",
-          "venue_lat": 53.777833534,
-          "venue_lng": -1.572278738,
-          "stadium_capacity": 37645,
-          "stadium_surface": "grass",
-          "referee": "Michael Salisbury",
-          "home_team": {
-            "name": "Leeds United",
-            "id": 8463
-          },
-          "away_team": {
-            "name": "Newcastle United",
-            "id": 10261
-          },
-          "home_manager": "Daniel Farke",
-          "away_manager": "Matthias Jaissle",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 5,
-          "awayWins": 4
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["James Trafford", "James Justin", "Nico Elvedi", "Tarik Muharemović", "Jayden Bogle", "Ethan Ampadu", "Ao Tanaka", "Gabriel Gudmundsson", "Anton Stach", "Noah Okafor", "Dominic Calvert-Lewin"],
-          "away_players": ["Lukás Hornícek", "Amar Dedić", "Malick Thiaw", "Sven Botman", "Lewis Hall", "Nico González", "Jacob Ramsey", "Anthony Elanga", "Joseph Willock", "Harvey Barnes", "Yoane Wissa"],
-          "home_missing_players": ["Ilia Gruev", "Joe Rodon", "Mateo Joseph"],
-          "away_missing_players": ["Ewen Jaouen", "Daniel Burn", "Joelinton", "William Osula"]
-        },
-        "pregame_form": {
-          "home": "WWDDL",
-          "away": "DWWDW"
-        }
-      }
-    },
-    {
-      "team1": "Villarreal",
-      "team1_logo": "https://img.singhs.com.np/team/10205.png",
-      "team2": "Real Betis",
-      "team2_logo": "https://img.singhs.com.np/team/8603.png",
+      "team1": "Rayo Vallecano",
+      "team1_logo": "https://img.singhs.com.np/team/8370.png",
+      "team2": "Espanyol",
+      "team2_logo": "https://img.singhs.com.np/team/8558.png",
       "league_logo": "https://img.singhs.com.np/league/87.png",
       "league": "LaLiga",
-      "start": "2026-09-15T04:00:00+09:00",
+      "start": "2026-09-16T02:00:00+09:00",
       "league_id": 87,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=realbetis",
-      "streaming_url": "https://cdn.singhs.com.np/realbetis.json",
-      "event_id": 5868060,
+      "details_url": "https://home.getemoji.online/?yosintv=espanyol",
+      "streaming_url": "https://cdn.singhs.com.np/espanyol.json",
+      "event_id": 5868069,
       "football_data": {
         "event": {
-          "match_id": 5868060,
+          "match_id": 5868069,
           "league": "LaLiga",
           "league_id": 87,
-          "round": 5,
+          "round": 6,
           "tournament": "LaLiga",
-          "kick_off_time_utc": "Mon, 14 Sep 2026 19:00:00 GMT",
-          "venue": "Estadio de la Cerámica",
-          "venue_city": "Villarreal",
+          "kick_off_time_utc": "Tue, 15 Sep 2026 17:00:00 GMT",
+          "venue": "Estadio Ontime Butarque",
+          "venue_city": "Leganés",
           "venue_country": "Spain",
-          "venue_lat": 39.944119181,
-          "venue_lng": -0.103474259,
-          "stadium_capacity": 24500,
+          "venue_lat": 40.340472497,
+          "venue_lng": -3.760687709,
+          "stadium_capacity": 14436,
           "stadium_surface": "grass",
-          "referee": "Francisco José Hernández Maeso",
+          "referee": "Isidro Díaz de Mera Escuderos",
           "home_team": {
-            "name": "Villarreal",
-            "id": 10205
+            "name": "Rayo Vallecano",
+            "id": 8370
           },
           "away_team": {
-            "name": "Real Betis",
-            "id": 8603
+            "name": "Espanyol",
+            "id": 8558
           },
-          "home_manager": "Inigo Pérez",
-          "away_manager": "Manuel Pellegrini",
+          "home_manager": "Beñat San José",
+          "away_manager": "Manolo González",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 11,
-          "draws": 6,
+          "homeWins": 9,
+          "draws": 3,
+          "awayWins": 11
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Emil Audero", "Andrei Rațiu", "Florian Lejeune", "Pathé Ciss", "Adrià Pedrosa", "Unai López", "Óscar Valentín", "Pedro Díaz", "Fran Pérez", "Sergio Camello", "Álvaro Garcia"],
+          "away_players": ["Marko Dmitrović", "Omar El Hilali", "Clemens Riedel", "Leandro Cabrera", "Roger Hinojo", "Urko González", "Gabriel Moscardo", "Marcos Fernández", "Edu Expósito", "Tyrhys Dolan", "Roberto Fernández"],
+          "home_missing_players": ["Isi Palazón", "Augusto Batalla", "Jozhua Vertrouwd", "Luiz Felipe", "Jorge de Frutos", "Randy Nteka"],
+          "away_missing_players": ["Andoni Gorosabel", "Jofre Carreras", "Javi Puado", "Kike García"]
+        },
+        "pregame_form": {
+          "home": "LDLWL",
+          "away": "WLLDW"
+        }
+      }
+    },
+    {
+      "team1": "Deportivo Alavés",
+      "team1_logo": "https://img.singhs.com.np/team/9866.png",
+      "team2": "Valencia",
+      "team2_logo": "https://img.singhs.com.np/team/10267.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-09-16T03:00:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=deportivoalaves",
+      "streaming_url": "https://cdn.singhs.com.np/deportivoalaves.json",
+      "event_id": 5868061,
+      "football_data": {
+        "event": {
+          "match_id": 5868061,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 6,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Tue, 15 Sep 2026 18:00:00 GMT",
+          "venue": "Estadio de Mendizorroza",
+          "venue_city": "Vitoria-Gasteiz",
+          "venue_country": "Spain",
+          "venue_lat": 42.837076242,
+          "venue_lng": -2.688246667,
+          "stadium_capacity": 19840,
+          "stadium_surface": "grass",
+          "referee": "Miguel Sesma Espinosa",
+          "home_team": {
+            "name": "Deportivo Alavés",
+            "id": 9866
+          },
+          "away_team": {
+            "name": "Valencia",
+            "id": 10267
+          },
+          "home_manager": "Quique Sánchez Flores",
+          "away_manager": "Oscar Sanchez",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 8,
+          "draws": 5,
           "awayWins": 9
+        },
+        "lineups": {
+          "home_formation": "3-5-2",
+          "away_formation": "4-4-1-1",
+          "home_players": ["Antonio Sivera", "Nahuel Tenaglia", "Ville Koski", "Jonny Otto", "Ángel Pérez", "Pablo Ibánez", "Antonio Blanco", "Carles Aleñá", "Abderrahman Rebbach", "Lucas Boyé", "Toni Martínez"],
+          "away_players": ["Stole Dimitrievski", "Arnau Martínez", "Justin De Haas", "Iker Córdoba", "José Gayà", "David Otorbi", "Filip Ugrinic", "Pepelu", "Ryunosuke Sato", "Javier Guerra", "Arnaut Danjuma"],
+          "home_missing_players": ["Facundo Garcés", "Mikel Rodríguez", "Aitor Mañas"],
+          "away_missing_players": ["Luis Rioja", "César Tárrega", "Dimitri Foulquier", "José Copete", "Mouctar Diakhaby", "Guido Rodríguez", "Diego López", "Sergi Canós", "Umar Sadiq"]
+        },
+        "pregame_form": {
+          "home": "WDWWL",
+          "away": "DLLLL"
+        }
+      }
+    },
+    {
+      "team1": "West Ham United",
+      "team1_logo": "https://img.singhs.com.np/team/8654.png",
+      "team2": "Fulham",
+      "team2_logo": "https://img.singhs.com.np/team/9879.png",
+      "league_logo": "https://img.singhs.com.np/league/938221.png",
+      "league": "EFL Cup",
+      "start": "2026-09-16T03:45:00+09:00",
+      "league_id": 938221,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=westhamunited",
+      "streaming_url": "https://cdn.singhs.com.np/westhamunited.json",
+      "event_id": 6099343,
+      "football_data": {
+        "event": {
+          "match_id": 6099343,
+          "league": "EFL Cup",
+          "league_id": 938221,
+          "round": 3,
+          "tournament": "EFL Cup",
+          "kick_off_time_utc": "Tue, 15 Sep 2026 18:45:00 GMT",
+          "venue": "London Stadium",
+          "venue_city": "London",
+          "venue_country": "England",
+          "venue_lat": 51.538688219,
+          "venue_lng": -0.01650095,
+          "stadium_capacity": 62500,
+          "stadium_surface": "grass",
+          "referee": "Gavin Ward",
+          "home_team": {
+            "name": "West Ham United",
+            "id": 8654
+          },
+          "away_team": {
+            "name": "Fulham",
+            "id": 9879
+          },
+          "home_manager": "Nuno Espírito Santo",
+          "away_manager": "Álvaro Arbeloa",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 12,
+          "draws": 4,
+          "awayWins": 5
         },
         "lineups": {
           "home_formation": "4-4-2",
           "away_formation": "4-2-3-1",
-          "home_players": ["Luíz Júnior", "Santiago Mouriño", "Logan Costa", "Renato Veiga", "Sergi Cardona", "Tajon Buchanan", "Nathan Saliba", "Santi Comesaña", "Alberto Moleiro", "Nicolas Pépé", "Georges Mikautadze"],
-          "away_players": ["Álvaro Vallés", "Héctor Bellerín", "Marc Bartra", "Natan", "Fran García", "Facundo Bernal", "Marc Roca", "Antony", "Isco", "Pablo Fornals", "Troy Parrott"],
-          "home_missing_players": ["Carlos Romero", "Juan Foyth"],
-          "away_missing_players": ["Ismael Barea", "Aitor Ruibal", "Diego Llorente"]
+          "home_players": ["Mads Hermansen", "Joël Veltman", "Konstantinos Mavropanos", "Morato", "Max Kilman", "Jarrod Bowen", "Divine Mukasa", "Arne Engels", "Manor Solomon", "Joël Piroe", "Valentín Castellanos"],
+          "away_players": ["Bernd Leno", "Timothy Castagne", "David Affengruber", "Calvin Bassey", "Antonee Robinson", "Sander Berge", "Shea Charles", "Oscar Bobb", "Joshua King", "Alex Iwobi", "Gonzalo García"],
+          "home_missing_players": ["Joël Veltman", "Tomás Souček"],
+          "away_missing_players": ["Tom Cairney"]
         },
         "pregame_form": {
-          "home": "DDLLL",
+          "home": "DWWWW",
+          "away": "LWLLD"
+        }
+      }
+    },
+    {
+      "team1": "Ipswich Town",
+      "team1_logo": "https://img.singhs.com.np/team/9902.png",
+      "team2": "Arsenal",
+      "team2_logo": "https://img.singhs.com.np/team/9825.png",
+      "league_logo": "https://img.singhs.com.np/league/938221.png",
+      "league": "EFL Cup",
+      "start": "2026-09-16T04:00:00+09:00",
+      "league_id": 938221,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=arsenal",
+      "streaming_url": "https://cdn.singhs.com.np/arsenal.json",
+      "event_id": 6099332,
+      "football_data": {
+        "event": {
+          "match_id": 6099332,
+          "league": "EFL Cup",
+          "league_id": 938221,
+          "round": 3,
+          "tournament": "EFL Cup",
+          "kick_off_time_utc": "Tue, 15 Sep 2026 19:00:00 GMT",
+          "venue": "Portman Road",
+          "venue_city": "Ipswich, Suffolk",
+          "venue_country": "England",
+          "venue_lat": 52.054949657,
+          "venue_lng": 1.145263016,
+          "stadium_capacity": 30056,
+          "stadium_surface": "grass",
+          "referee": "Peter Bankes",
+          "home_team": {
+            "name": "Ipswich Town",
+            "id": 9902
+          },
+          "away_team": {
+            "name": "Arsenal",
+            "id": 9825
+          },
+          "home_manager": "Gary O'Neil",
+          "away_manager": "Mikel Arteta",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Kjell Scherpen", "Dara O'Shea", "Issa Diop", "Jacob Greaves", "Leif Davis", "Saša Lukić", "Exequiel Palacios", "Abdul Fatawu", "Julio Enciso", "Jack Clarke", "Emersonn"],
+          "away_players": ["David Raya", "Ben White", "Ezri Konsa", "Gabriel", "Riccardo Calafiori", "Declan Rice", "Myles Lewis-Skelly", "Bukayo Saka", "Martin Ødegaard", "Christos Tzolis", "Kai Havertz"],
+          "home_missing_players": ["Emersonn", "Azor Matusiwa", "Jack Taylor"],
+          "away_missing_players": ["Ben White", "Cristhian Mosquera", "William Saliba"]
+        },
+        "pregame_form": {
+          "home": "WWLLW",
+          "away": "WWWWW"
+        }
+      }
+    },
+    {
+      "team1": "Liverpool",
+      "team1_logo": "https://img.singhs.com.np/team/8650.png",
+      "team2": "Tottenham Hotspur",
+      "team2_logo": "https://img.singhs.com.np/team/8586.png",
+      "league_logo": "https://img.singhs.com.np/league/938221.png",
+      "league": "EFL Cup",
+      "start": "2026-09-16T04:00:00+09:00",
+      "league_id": 938221,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
+      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
+      "event_id": 6099335,
+      "football_data": {
+        "event": {
+          "match_id": 6099335,
+          "league": "EFL Cup",
+          "league_id": 938221,
+          "round": 3,
+          "tournament": "EFL Cup",
+          "kick_off_time_utc": "Tue, 15 Sep 2026 19:00:00 GMT",
+          "venue": "Anfield",
+          "venue_city": "Liverpool",
+          "venue_country": "England",
+          "venue_lat": 53.430827885,
+          "venue_lng": -2.960852981,
+          "stadium_capacity": 61276,
+          "stadium_surface": "grass",
+          "referee": "Andy Madley",
+          "home_team": {
+            "name": "Liverpool",
+            "id": 8650
+          },
+          "away_team": {
+            "name": "Tottenham Hotspur",
+            "id": 8586
+          },
+          "home_manager": "Andoni Iraola",
+          "away_manager": "Roberto De Zerbi",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 21,
+          "draws": 9,
+          "awayWins": 7
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Alisson Becker", "Ronald Araujo", "Jérémy Jacquet", "Virgil van Dijk", "Konstantinos Tsimikas", "Dominik Szoboszlai", "Ryan Gravenberch", "Víctor Muñoz", "Florian Wirtz", "Bradley Barcola", "Alexander Isak"],
+          "away_players": ["Antonín Kinský", "Archie Gray", "Jan Paul van Hecke", "Micky van de Ven", "Andrew Robertson", "Rodrigo Bentancur", "Sandro Tonali", "Sávio", "Mateus Fernandes", "Omar Marmoush", "Dominic Solanke"],
+          "home_missing_players": ["Cody Gakpo", "Joe Gomez", "Conor Bradley", "Giovanni Leoni", "Federico Chiesa", "Hugo Ekitiké"],
+          "away_missing_players": ["Dejan Kulusevski", "Xavi Simons", "Mykhaylo Mudryk", "Wilson Odobert"]
+        },
+        "pregame_form": {
+          "home": "DDWWD",
+          "away": "LWLDD"
+        }
+      }
+    },
+    {
+      "team1": "Elche",
+      "team1_logo": "https://img.singhs.com.np/team/10268.png",
+      "team2": "Real Madrid",
+      "team2_logo": "https://img.singhs.com.np/team/8633.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-09-16T04:30:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=realmadrid",
+      "streaming_url": "https://cdn.singhs.com.np/realmadrid.json",
+      "event_id": 5868065,
+      "football_data": {
+        "event": {
+          "match_id": 5868065,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 6,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Tue, 15 Sep 2026 19:30:00 GMT",
+          "venue": "Estadio Manuel Martínez Valero",
+          "venue_city": "Elche",
+          "venue_country": "Spain",
+          "venue_lat": 38.267129205,
+          "venue_lng": -0.663299561,
+          "stadium_capacity": 31388,
+          "stadium_surface": "grass",
+          "referee": "Jesús Gil Manzano",
+          "home_team": {
+            "name": "Elche",
+            "id": 10268
+          },
+          "away_team": {
+            "name": "Real Madrid",
+            "id": 8633
+          },
+          "home_manager": "Martín Anselmi",
+          "away_manager": "José Mourinho",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 3,
+          "awayWins": 10
+        },
+        "lineups": {
+          "home_formation": "4-4-1-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Matías Dituro", "Buba Sangaré", "Federico Redondo", "Víctor Chust", "Roy Revivo", "Tete Morente", "Javi Morcillo", "Gonzalo Villar", "Germán Valera", "Facundo Buonanotte", "Fer Niño"],
+          "away_players": ["Thibaut Courtois", "Trent Alexander-Arnold", "Antonio Rüdiger", "Dean Huijsen", "Marc Cucurella", "Federico Valverde", "Bernardo Silva", "Arda Güler", "Jude Bellingham", "Vinícius Júnior", "Kylian Mbappé"],
+          "home_missing_players": ["Adam Boayar", "Yago Santiago"],
+          "away_missing_players": ["Éder Militao", "Ferland Mendy", "Rodrygo"]
+        },
+        "pregame_form": {
+          "home": "DLLLD",
           "away": "WWLWW"
         }
       }
