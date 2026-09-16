@@ -62,78 +62,17 @@
       }
     },
     {
-      "team1": "Deportivo A Coruña",
-      "team1_logo": "https://img.singhs.com.np/team/9783.png",
-      "team2": "Sevilla",
-      "team2_logo": "https://img.singhs.com.np/team/8302.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-09-17T02:00:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=deportivoacoruna",
-      "streaming_url": "https://cdn.singhs.com.np/deportivoacoruna.json",
-      "event_id": 5868064,
-      "football_data": {
-        "event": {
-          "match_id": 5868064,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 6,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Wed, 16 Sep 2026 17:00:00 GMT",
-          "venue": "Estadio Abanca-Riazor",
-          "venue_city": "A Coruña (La Coruña)",
-          "venue_country": "Spain",
-          "venue_lat": 43.368720349,
-          "venue_lng": -8.417529613,
-          "stadium_capacity": 32490,
-          "stadium_surface": "grass",
-          "referee": "Alejandro José Hernández Hernández",
-          "home_team": {
-            "name": "Deportivo A Coruña",
-            "id": 9783
-          },
-          "away_team": {
-            "name": "Sevilla",
-            "id": 8302
-          },
-          "home_manager": "Antonio Hidalgo",
-          "away_manager": "Luis García",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 6,
-          "awayWins": 8
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Leo Román", "Ximo Navarro", "Lucas Noubi", "José Giménez", "Giacomo Quagliata", "Luismi Cruz", "Lorenzo Amatucci", "Marc Casadó", "Mario Soriano", "Pierre-Emerick Aubameyang", "Bil Nsongo"],
-          "away_players": ["Odysseas Vlachodimos", "Juan Iglesias", "Andrés Lopez", "Kike Salas", "Gabriel Suazo", "Youssouf Fofana", "Lucien Agoumé", "Miguel Sierra", "Jon Guridi", "Félix Correia", "Robbie Ure"],
-          "home_missing_players": ["Noé"],
-          "away_missing_players": ["Arouna Sangante", "Rubén Vargas"]
-        },
-        "pregame_form": {
-          "home": "DDWWD",
-          "away": "WWLDW"
-        }
-      }
-    },
-    {
       "team1": "Everton",
       "team1_logo": "https://img.singhs.com.np/team/8668.png",
-      "team2": "Wolverhampton Wanderers",
+      "team2": "Wolves",
       "team2_logo": "https://img.singhs.com.np/team/8602.png",
       "league_logo": "https://img.singhs.com.np/league/938221.png",
       "league": "EFL Cup",
       "start": "2026-09-17T03:45:00+09:00",
       "league_id": 938221,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wolverhamptonwanderers",
-      "streaming_url": "https://cdn.singhs.com.np/wolverhamptonwanderers.json",
+      "details_url": "https://home.getemoji.online/?yosintv=wolves",
+      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
       "event_id": 6099338,
       "football_data": {
         "event": {
@@ -245,7 +184,7 @@
       }
     },
     {
-      "team1": "Coventry City",
+      "team1": "Coventry",
       "team1_logo": "https://img.singhs.com.np/team/8669.png",
       "team2": "Aston Villa",
       "team2_logo": "https://img.singhs.com.np/team/10252.png",
@@ -306,17 +245,17 @@
       }
     },
     {
-      "team1": "Manchester United",
+      "team1": "Man United",
       "team1_logo": "https://img.singhs.com.np/team/10260.png",
-      "team2": "Brighton & Hove Albion",
+      "team2": "Brighton",
       "team2_logo": "https://img.singhs.com.np/team/10204.png",
       "league_logo": "https://img.singhs.com.np/league/938221.png",
       "league": "EFL Cup",
       "start": "2026-09-17T04:00:00+09:00",
       "league_id": 938221,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=manchesterunited",
-      "streaming_url": "https://cdn.singhs.com.np/manchesterunited.json",
+      "details_url": "https://home.getemoji.online/?yosintv=manunited",
+      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
       "event_id": 6099329,
       "football_data": {
         "event": {
@@ -433,7 +372,7 @@
       "team2": "Santos",
       "team2_logo": "https://img.singhs.com.np/team/8514.png",
       "league_logo": "https://img.singhs.com.np/league/1000001659.png",
-      "league": "Copa Sudamericana Quarter-finals",
+      "league": "Copa Sudamericana - Quarter-finals",
       "start": "2026-09-17T07:00:00+09:00",
       "league_id": 1000001659,
       "duration": 2.2,
