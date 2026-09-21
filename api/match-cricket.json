@@ -1,31 +1,31 @@
 {
   "matches": [
     {
+      "team1": "Japan",
+      "team2": "India",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/japan.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/india.png",
+      "league": "India in Japan, Only T20I Series, 2026",
+      "start": "2026-09-22T13:00:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=japan",
+      "streaming_url": "https://cdn.singhs.com.np/japan.json",
+      "event_id": "274600",
+      "cricket_data": null
+    },
+    {
       "team1": "England",
       "team2": "Sri Lanka",
       "team1_logo": "https://aimages.willow.tv/teamLogos/england.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
-      "league": "Sri Lanka in England, 3 T20I Series, 2026",
-      "start": "2026-09-19T22:30:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=england",
-      "streaming_url": "https://cdn.singhs.com.np/england.json",
-      "event_id": "264913",
-      "cricket_data": null
-    },
-    {
-      "team1": "Zimbabwe",
-      "team2": "Australia",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/zimbabwe.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/australia.png",
-      "league": "Australia in Zimbabwe, 3 ODI Series, 2026",
-      "start": "2026-09-20T16:30:00+09:00",
+      "league": "Sri Lanka in England, 3 ODI Series, 2026",
+      "start": "2026-09-22T20:30:00+09:00",
       "duration": 8,
       "format": "ODI",
-      "details_url": "https://home.getemoji.online/?yosintv=zimbabwe",
-      "streaming_url": "https://cdn.singhs.com.np/zimbabwe.json",
-      "event_id": "270436",
+      "details_url": "https://home.getemoji.online/?yosintv=england",
+      "streaming_url": "https://cdn.singhs.com.np/england.json",
+      "event_id": "264920",
       "cricket_data": null
     }
   ]
