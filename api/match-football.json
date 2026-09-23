@@ -1,608 +1,421 @@
 {
   "matches": [
     {
-      "team1": "Bournemouth",
-      "team1_logo": "https://img.singhs.com.np/team/8678.png",
-      "team2": "Liverpool",
-      "team2_logo": "https://img.singhs.com.np/team/8650.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-09-20T22:00:00+09:00",
-      "league_id": 47,
+      "team1": "Japan",
+      "team1_logo": "https://img.singhs.com.np/team/6715.png",
+      "team2": "Uruguay",
+      "team2_logo": "https://img.singhs.com.np/team/5796.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-09-24T19:05:00+09:00",
+      "league_id": 914609,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 5795455,
+      "details_url": "https://home.getemoji.online/?yosintv=japan",
+      "streaming_url": "https://cdn.singhs.com.np/japan.json",
+      "event_id": 6280194,
       "football_data": {
         "event": {
-          "match_id": 5795455,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 5,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 13:00:00 GMT",
-          "venue": "Vitality Stadium",
-          "venue_city": "Bournemouth, Dorset",
-          "venue_country": "England",
-          "venue_lat": 50.735240532,
-          "venue_lng": -1.838309616,
-          "stadium_capacity": 11307,
+          "match_id": 6280194,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Thu, 24 Sep 2026 10:05:00 GMT",
+          "venue": "Miyagi Stadium",
+          "venue_city": "Rifu",
+          "venue_country": "Japan",
+          "venue_lat": 38.335428899,
+          "venue_lng": 140.950357318,
+          "stadium_capacity": 49133,
           "stadium_surface": "grass",
-          "referee": "Michael Oliver",
+          "referee": null,
           "home_team": {
-            "name": "AFC Bournemouth",
-            "id": 8678
+            "name": "Japan",
+            "id": 6715
           },
           "away_team": {
-            "name": "Liverpool",
-            "id": 8650
+            "name": "Uruguay",
+            "id": 5796
           },
-          "home_manager": "Marco Rose",
-          "away_manager": "Andoni Iraola",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 1,
-          "awayWins": 18
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Djordje Petrović", "Adam Smith", "James Hill", "António Silva", "Adrien Truffert", "Tyler Adams", "Alex Scott", "Rayan", "Ryan Christie", "Marcus Tavernier", "Evanilson"],
-          "away_players": ["Alisson Becker", "Ronald Araujo", "Jérémy Jacquet", "Virgil van Dijk", "Miloš Kerkez", "Dominik Szoboszlai", "Alexis Mac Allister", "Bradley Barcola", "Florian Wirtz", "Cody Gakpo", "Alexander Isak"],
-          "home_missing_players": ["Julián Araujo", "Veljko Milosavljević", "Junior Kroupi", "Amine Adli"],
-          "away_missing_players": ["Conor Bradley", "Giovanni Leoni", "Federico Chiesa", "Hugo Ekitiké"]
-        },
-        "pregame_form": {
-          "home": "DDWDW",
-          "away": "DWWDW"
-        }
-      }
-    },
-    {
-      "team1": "Man City",
-      "team1_logo": "https://img.singhs.com.np/team/8456.png",
-      "team2": "Sunderland",
-      "team2_logo": "https://img.singhs.com.np/team/8472.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-09-20T22:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=mancity",
-      "streaming_url": "https://cdn.singhs.com.np/mancity.json",
-      "event_id": 5795461,
-      "football_data": {
-        "event": {
-          "match_id": 5795461,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 5,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 13:00:00 GMT",
-          "venue": "Etihad Stadium",
-          "venue_city": "Manchester",
-          "venue_country": "England",
-          "venue_lat": 53.483152259,
-          "venue_lng": -2.200409174,
-          "stadium_capacity": 61470,
-          "stadium_surface": "grass",
-          "referee": "Robert Jones",
-          "home_team": {
-            "name": "Manchester City",
-            "id": 8456
-          },
-          "away_team": {
-            "name": "Sunderland",
-            "id": 8472
-          },
-          "home_manager": "Enzo Maresca",
-          "away_manager": "Régis Le Bris",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 12,
-          "draws": 3,
-          "awayWins": 4
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Gianluigi Donnarumma", "Matheus Nunes", "Rúben Dias", "Marc Guéhi", "Joško Gvardiol", "Enzo Fernández", "Elliot Anderson", "Antoine Semenyo", "Rayan Cherki", "Iliman Ndiaye", "Erling Haaland"],
-          "away_players": ["Robin Roefs", "Nordi Mukiele", "Kevin Danso", "Daniel Ballard", "Dayann Méthalie", "Granit Xhaka", "Noah Sadiki", "Thomas Meunier", "Enzo Le Fée", "Nilson Angulo", "Brian Brobbey"],
-          "home_missing_players": ["Phil Foden"],
-          "away_missing_players": ["Reinildo", "Habib Diarra", "Romaine Mundle"]
-        },
-        "pregame_form": {
-          "home": "WWWWW",
-          "away": "WDWLW"
-        }
-      }
-    },
-    {
-      "team1": "Leeds United",
-      "team1_logo": "https://img.singhs.com.np/team/8463.png",
-      "team2": "Crystal Palace",
-      "team2_logo": "https://img.singhs.com.np/team/9826.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-09-20T22:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=leedsunited",
-      "streaming_url": "https://cdn.singhs.com.np/leedsunited.json",
-      "event_id": 5795460,
-      "football_data": {
-        "event": {
-          "match_id": 5795460,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 5,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 13:00:00 GMT",
-          "venue": "Elland Road",
-          "venue_city": "Leeds, West Yorkshire",
-          "venue_country": "England",
-          "venue_lat": 53.777833534,
-          "venue_lng": -1.572278738,
-          "stadium_capacity": 37645,
-          "stadium_surface": "grass",
-          "referee": "Adam Herczeg",
-          "home_team": {
-            "name": "Leeds United",
-            "id": 8463
-          },
-          "away_team": {
-            "name": "Crystal Palace",
-            "id": 9826
-          },
-          "home_manager": "Daniel Farke",
-          "away_manager": "Pierre Sage",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 6,
-          "draws": 5,
-          "awayWins": 4
-        },
-        "lineups": {
-          "home_formation": "3-5-2",
-          "away_formation": "3-4-2-1",
-          "home_players": ["James Trafford", "James Justin", "Nico Elvedi", "Tarik Muharemović", "Jayden Bogle", "Anton Stach", "Ethan Ampadu", "Ao Tanaka", "Gabriel Gudmundsson", "Dominic Calvert-Lewin", "Noah Okafor"],
-          "away_players": ["Walter Benítez", "Chris Richards", "Takehiro Tomiyasu", "Jaydee Canvot", "Anan Khalaili", "Quinten Timber", "Adam Wharton", "Tyrick Mitchell", "Daichi Kamada", "Yéremi Pino", "Jørgen Strand Larsen"],
-          "home_missing_players": ["Joe Rodon", "Mateo Joseph"],
-          "away_missing_players": ["Dean Henderson", "Axel Disasi", "Chadi Riad", "Jean-Philippe Mateta"]
-        },
-        "pregame_form": {
-          "home": "WDDLW",
-          "away": "LWWLW"
-        }
-      }
-    },
-    {
-      "team1": "Atlético Madrid",
-      "team1_logo": "https://img.singhs.com.np/team/9906.png",
-      "team2": "Real Madrid",
-      "team2_logo": "https://img.singhs.com.np/team/8633.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-09-20T23:15:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=atleticomadrid",
-      "streaming_url": "https://cdn.singhs.com.np/atleticomadrid.json",
-      "event_id": 5868072,
-      "football_data": {
-        "event": {
-          "match_id": 5868072,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 7,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 14:15:00 GMT",
-          "venue": "Riyadh Air Metropolitano",
-          "venue_city": "Madrid",
-          "venue_country": "Spain",
-          "venue_lat": 40.436225928,
-          "venue_lng": -3.599460125,
-          "stadium_capacity": 70460,
-          "stadium_surface": "grass",
-          "referee": "Miguel Ángel Ortiz Arias",
-          "home_team": {
-            "name": "Atlético Madrid",
-            "id": 9906
-          },
-          "away_team": {
-            "name": "Real Madrid",
-            "id": 8633
-          },
-          "home_manager": "Diego Simeone",
-          "away_manager": "José Mourinho",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 15,
-          "draws": 17,
-          "awayWins": 24
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Jan Oblak", "Marc Pubill", "Cristian Romero", "Dávid Hancko", "Marcos Llorente", "Koke", "Morten Hjulmand", "Giuliano Simeone", "Kang-In Lee", "Álex Baena", "Jonathan David"],
-          "away_players": ["Thibaut Courtois", "Denzel Dumfries", "Ibrahima Konaté", "Dean Huijsen", "Marc Cucurella", "Federico Valverde", "Aurélien Tchouaméni", "Arda Güler", "Jude Bellingham", "Vinícius Júnior", "Kylian Mbappé"],
-          "home_missing_players": ["Pablo Barrios", "Alexander Sørloth"],
-          "away_missing_players": ["Éder Militao", "Ferland Mendy", "Rodrygo"]
-        },
-        "pregame_form": {
-          "home": "WLLWW",
-          "away": "WLWWW"
-        }
-      }
-    },
-    {
-      "team1": "Fulham",
-      "team1_logo": "https://img.singhs.com.np/team/9879.png",
-      "team2": "Man United",
-      "team2_logo": "https://img.singhs.com.np/team/10260.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-09-21T00:30:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=manunited",
-      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
-      "event_id": 5795459,
-      "football_data": {
-        "event": {
-          "match_id": 5795459,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 5,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 15:30:00 GMT",
-          "venue": "Craven Cottage",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.474897956,
-          "venue_lng": -0.221647024,
-          "stadium_capacity": 29589,
-          "stadium_surface": "grass",
-          "referee": "Peter Bankes",
-          "home_team": {
-            "name": "Fulham",
-            "id": 9879
-          },
-          "away_team": {
-            "name": "Manchester United",
-            "id": 10260
-          },
-          "home_manager": "Álvaro Arbeloa",
-          "away_manager": "Michael Carrick",
+          "home_manager": null,
+          "away_manager": null,
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
           "homeWins": 1,
-          "draws": 5,
-          "awayWins": 17
+          "draws": 2,
+          "awayWins": 2
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Bernd Leno", "Timothy Castagne", "David Affengruber", "Calvin Bassey", "Antonee Robinson", "Sander Berge", "Shea Charles", "Oscar Bobb", "Joshua King", "Alex Iwobi", "Gonzalo García"],
-          "away_players": ["Senne Lammens", "Diogo Dalot", "Harry Maguire", "Lisandro Martínez", "Noussair Mazraoui", "Youri Tielemans", "Kobbie Mainoo", "Bryan Mbeumo", "Bruno Fernandes", "Marcus Rashford", "Matheus Cunha"],
-          "home_missing_players": ["Ryan Sessegnon", "Kenny Tete", "Tom Cairney"],
-          "away_missing_players": ["Luke Shaw", "Carlos Baleba", "Tom Heaton", "Matthijs de Ligt", "Manuel Ugarte", "Amad Diallo"]
-        },
-        "pregame_form": {
-          "home": "WLLDW",
-          "away": "WDWLL"
-        }
-      }
-    },
-    {
-      "team1": "Juventus",
-      "team1_logo": "https://img.singhs.com.np/team/9885.png",
-      "team2": "Atalanta",
-      "team2_logo": "https://img.singhs.com.np/team/8524.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-09-21T01:00:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=juventus",
-      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
-      "event_id": 5749685,
-      "football_data": {
-        "event": {
-          "match_id": 5749685,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 5,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 16:00:00 GMT",
-          "venue": "Allianz Stadium",
-          "venue_city": "Torino",
-          "venue_country": "Italy",
-          "venue_lat": 45.109527284,
-          "venue_lng": 7.641302313,
-          "stadium_capacity": 41689,
-          "stadium_surface": "grass",
-          "referee": "Luca Zufferli",
-          "home_team": {
-            "name": "Juventus",
-            "id": 9885
-          },
-          "away_team": {
-            "name": "Atalanta",
-            "id": 8524
-          },
-          "home_manager": "Luciano Spalletti",
-          "away_manager": "Maurizio Sarri",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 22,
-          "draws": 13,
-          "awayWins": 5
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Guglielmo Vicario", "Pierre Kalulu", "Gleison Bremer", "Jhon Lucumí", "Weston McKennie", "Pape Sarr", "Douglas Luiz", "Zeki Çelik", "Francisco Conceição", "Nicolás González", "Randal Kolo Muani"],
-          "away_players": ["Marco Carnesecchi", "Raoul Bellanova", "Thomas Kristensen", "Giorgio Scalvini", "Sead Kolašinac", "Franck Kessié", "Gianluca Gaetano", "Éderson", "Charles De Ketelaere", "Gianluca Scamacca", "Jonathan Rowe"],
-          "home_missing_players": ["Lloyd Kelly", "Kamil Grabara", "Juan Cabal", "Kenan Yıldız", "Khéphren Thuram-Ulien", "Manuel Locatelli", "Jeff Ekhator", "Jérémie Boga"],
-          "away_missing_players": ["Odilon Kossounou", "Isak Hien", "Kamaldeen Sulemana"]
-        },
-        "pregame_form": {
-          "home": "WWDLW",
-          "away": "WWWLL"
-        }
-      }
-    },
-    {
-      "team1": "Marseille",
-      "team1_logo": "https://img.singhs.com.np/team/8592.png",
-      "team2": "Paris Saint-Germain",
-      "team2_logo": "https://img.singhs.com.np/team/9847.png",
-      "league_logo": "https://img.singhs.com.np/league/53.png",
-      "league": "Ligue 1",
-      "start": "2026-09-21T03:45:00+09:00",
-      "league_id": 53,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=psg",
-      "streaming_url": "https://cdn.singhs.com.np/psg.json",
-      "event_id": 5802945,
-      "football_data": {
-        "event": {
-          "match_id": 5802945,
-          "league": "Ligue 1",
-          "league_id": 53,
-          "round": 5,
-          "tournament": "Ligue 1",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 18:45:00 GMT",
-          "venue": "CEPAC Vélodrome",
-          "venue_city": "Marseille",
-          "venue_country": "France",
-          "venue_lat": 43.269870275,
-          "venue_lng": 5.395853519,
-          "stadium_capacity": 67394,
-          "stadium_surface": "grass",
-          "referee": "François Letexier",
-          "home_team": {
-            "name": "Marseille",
-            "id": 8592
-          },
-          "away_team": {
-            "name": "Paris Saint-Germain",
-            "id": 9847
-          },
-          "home_manager": "Bruno Génésio",
-          "away_manager": "Luis Enrique",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 5,
-          "draws": 6,
-          "awayWins": 28
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Jeffrey De Lange", "Timothy Weah", "CJ Egan-Riley", "Nayef Aguerd", "Emerson", "Himad Abdelli", "Pierre-Emile Højbjerg", "Amine Harit", "Angel Gomes", "Igor Paixão", "Amine Gouiri"],
-          "away_players": ["Matvey Safonov", "Warren Zaïre-Emery", "Marquinhos", "Willian Pacho", "Nuno Mendes", "João Neves", "Vítinha", "Fabián Ruiz", "Ousmane Dembélé", "Ferrán Torres", "Khvicha Kvaratskhelia"],
-          "home_missing_players": ["Geoffrey Kondogbia", "Tochukwu Nnadi"],
-          "away_missing_players": ["Achraf Hakimi"]
-        },
-        "pregame_form": {
-          "home": "WLLLL",
-          "away": "DDLWW"
-        }
-      }
-    },
-    {
-      "team1": "Milan",
-      "team1_logo": "https://img.singhs.com.np/team/8564.png",
-      "team2": "Lecce",
-      "team2_logo": "https://img.singhs.com.np/team/9888.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-09-21T03:45:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=milan",
-      "streaming_url": "https://cdn.singhs.com.np/milan.json",
-      "event_id": 5749680,
-      "football_data": {
-        "event": {
-          "match_id": 5749680,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 5,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 18:45:00 GMT",
-          "venue": "Stadio Giuseppe Meazza",
-          "venue_city": "Milano",
-          "venue_country": "Italy",
-          "venue_lat": 45.478083998,
-          "venue_lng": 9.123979211,
-          "stadium_capacity": 75817,
-          "stadium_surface": "grass",
-          "referee": "Federico La Penna",
-          "home_team": {
-            "name": "Milan",
-            "id": 8564
-          },
-          "away_team": {
-            "name": "Lecce",
-            "id": 9888
-          },
-          "home_manager": "Ruben Amorim",
-          "away_manager": "Eusebio Di Francesco",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 11,
-          "draws": 4,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Mike Maignan", "Mario Gila", "Koni De Winter", "Strahinja Pavlović", "Samuel Chukwueze", "Luka Modrić", "Adrien Rabiot", "Pervis Estupinán", "Christian Pulisic", "Alexis Saelemaekers", "Gonçalo Ramos"],
-          "away_players": ["Wladimiro Falcone", "Danilo Veiga", "Jamil Siebert", "Tiago Gabriel", "Antonino Gallo", "Lassana Coulibaly", "Ivan Ilić", "Oumar Ngom", "Santiago Pierotti", "Nikola Štulić", "Joël Monteiro"],
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
           "home_missing_players": [],
-          "away_missing_players": ["Medon Berisha", "Omri Gandelman", "Willem Geubbels"]
+          "away_missing_players": ["Federico Valverde", "Sergio Rochet", "Manuel Ugarte"]
         },
         "pregame_form": {
-          "home": "WWDDL",
-          "away": "LWLLW"
+          "home": "WDWDL",
+          "away": "DDDDL"
         }
       }
     },
     {
-      "team1": "FC Porto",
-      "team1_logo": "https://img.singhs.com.np/team/9773.png",
-      "team2": "Benfica",
-      "team2_logo": "https://img.singhs.com.np/team/9772.png",
-      "league_logo": "https://img.singhs.com.np/league/61.png",
-      "league": "Liga Portugal",
-      "start": "2026-09-21T04:30:00+09:00",
-      "league_id": 61,
+      "team1": "South Korea",
+      "team1_logo": "https://img.singhs.com.np/team/7804.png",
+      "team2": "Ecuador",
+      "team2_logo": "https://img.singhs.com.np/team/6707.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-09-24T20:00:00+09:00",
+      "league_id": 914609,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=fcporto",
-      "streaming_url": "https://cdn.singhs.com.np/fcporto.json",
-      "event_id": 5887641,
+      "details_url": "https://home.getemoji.online/?yosintv=southkorea",
+      "streaming_url": "https://cdn.singhs.com.np/southkorea.json",
+      "event_id": 6280195,
       "football_data": {
         "event": {
-          "match_id": 5887641,
-          "league": "Liga Portugal",
-          "league_id": 61,
-          "round": 7,
-          "tournament": "Liga Portugal",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 19:30:00 GMT",
-          "venue": "Estádio Do Dragão",
-          "venue_city": "Porto",
-          "venue_country": "Portugal",
-          "venue_lat": 41.16179085,
-          "venue_lng": -8.5837394,
-          "stadium_capacity": 50399,
-          "stadium_surface": "grass",
-          "referee": "Miguel Nogueira",
-          "home_team": {
-            "name": "FC Porto",
-            "id": 9773
-          },
-          "away_team": {
-            "name": "Benfica",
-            "id": 9772
-          },
-          "home_manager": "Francesco Farioli",
-          "away_manager": "Marco Silva",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 22,
-          "draws": 11,
-          "awayWins": 12
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Diogo Costa", "Alberto Costa", "Jan Bednarek", "Jakub Kiwior", "Francisco Moura", "In-Beom Hwang", "Pablo Rosario", "Gabriel Veiga", "William Gomes", "André Silva", "Pepê"],
-          "away_players": ["Samuel Soares", "Daniel Banjaqui", "Tomás Araújo", "Clément Lenglet", "Samuel Dahl", "Fredrik Aursnes", "João Palhinha", "Rafa Silva", "Gianluca Prestianni", "Andreas Schjelderup", "Vangelis Pavlidis"],
-          "home_missing_players": ["Seko Fofana", "João Costa", "Nehuén Pérez", "Zaidu Sanusi", "Vasco Sousa", "Victor Froholdt", "Oskar Pietuszewski", "Samuel Aghehowa"],
-          "away_missing_players": ["Enzo Barrenechea", "Alexander Bah"]
-        },
-        "pregame_form": {
-          "home": "WWWLW",
-          "away": "WWWWW"
-        }
-      }
-    },
-    {
-      "team1": "Inter Miami CF",
-      "team1_logo": "https://img.singhs.com.np/team/960720.png",
-      "team2": "San Diego FC",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1701119.png",
-      "league_logo": "https://img.singhs.com.np/league/913550.png",
-      "league": "Major League Soccer",
-      "start": "2026-09-21T08:00:00+09:00",
-      "league_id": 913550,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
-      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
-      "event_id": 5071380,
-      "football_data": {
-        "event": {
-          "match_id": 5071380,
-          "league": "Major League Soccer",
-          "league_id": 130,
+          "match_id": 6280195,
+          "league": "Friendlies",
+          "league_id": 914609,
           "round": null,
-          "tournament": "Major League Soccer",
-          "kick_off_time_utc": "Sun, 20 Sep 2026 23:00:00 GMT",
-          "venue": "Nu Stadium",
-          "venue_city": "Miami, Florida",
-          "venue_country": "United States",
-          "venue_lat": 25.792775779,
-          "venue_lng": -80.259473606,
-          "stadium_capacity": 26700,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Thu, 24 Sep 2026 11:00:00 GMT",
+          "venue": "Suwon World Cup Stadium",
+          "venue_city": "Suwon",
+          "venue_country": "South Korea",
+          "venue_lat": 37.286460968,
+          "venue_lng": 127.036998868,
+          "stadium_capacity": 45192,
           "stadium_surface": "grass",
-          "referee": "Rosendo Mendoza",
+          "referee": null,
           "home_team": {
-            "name": "Inter Miami CF",
-            "id": 960720
+            "name": "South Korea",
+            "id": 7804
           },
           "away_team": {
-            "name": "San Diego FC",
-            "id": 1701119
+            "name": "Ecuador",
+            "id": 6707
           },
           "home_manager": null,
-          "away_manager": "Mikey Varas",
+          "away_manager": null,
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": null,
         "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-3-3",
-          "home_players": ["Dayne St. Clair", "Facundo Mura", "Casemiro", "Maximiliano Falcón", "Fricio Caicedo", "Rodrigo De Paul", "Yannick Bright", "Matías Galarza", "Lionel Messi", "Luis Suárez", "Germán Berterame"],
-          "away_players": ["Duran Ferree", "Oscar Verhoeven", "Manu Duah", "Ian Murphy", "Kieran Sargeant", "Alejandro Alvarado", "Jeppe Tverskov", "Onni Valakari", "Anders Dreyer", "Amahl Pellegrino", "Elias Achouri"],
-          "home_missing_players": ["Angel Guillermo Hoyos", "Santiago Morales", "Tadeo Allende"],
-          "away_missing_players": ["Oscar Verhoeven", "Gabriel Pirani", "Marcus Ingvartsen"]
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Jens Castrop"],
+          "away_missing_players": ["Gonzalo Plata", "Moisés Caicedo", "Jeremy Arévalo", "Joel Ordóñez"]
         },
         "pregame_form": {
-          "home": "WDDDW",
-          "away": "WWLLL"
+          "home": "WWWLL",
+          "away": "WLDWL"
+        }
+      }
+    },
+    {
+      "team1": "Netherlands",
+      "team1_logo": "https://img.singhs.com.np/team/6708.png",
+      "team2": "Germany",
+      "team2_logo": "https://img.singhs.com.np/team/8570.png",
+      "league_logo": "https://img.singhs.com.np/league/920744.png",
+      "league": "UEFA Nations League A Grp. 2",
+      "start": "2026-09-25T03:45:00+09:00",
+      "league_id": 920744,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=netherlands",
+      "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
+      "event_id": 5181825,
+      "football_data": {
+        "event": {
+          "match_id": 5181825,
+          "league": "UEFA Nations League A Grp. 2",
+          "league_id": 920744,
+          "round": 1,
+          "tournament": "UEFA Nations League A Grp. 2",
+          "kick_off_time_utc": "Thu, 24 Sep 2026 18:45:00 GMT",
+          "venue": "Johan Cruijff ArenA",
+          "venue_city": "Amsterdam",
+          "venue_country": "Netherlands",
+          "venue_lat": 52.314303269,
+          "venue_lng": 4.941959381,
+          "stadium_capacity": 55885,
+          "stadium_surface": "grass",
+          "referee": "Alejandro José Hernández Hernández",
+          "home_team": {
+            "name": "Netherlands",
+            "id": 6708
+          },
+          "away_team": {
+            "name": "Germany",
+            "id": 8570
+          },
+          "home_manager": "Xavi Hernández",
+          "away_manager": "Jürgen Klopp",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "draws": 5,
+          "awayWins": 5
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Bart Verbruggen", "Denzel Dumfries", "Jan Paul van Hecke", "Virgil van Dijk", "Micky van de Ven", "Joey Veerman", "Ryan Gravenberch", "Tijjani Reijnders", "Crysencio Summerville", "Brian Brobbey", "Cody Gakpo"],
+          "away_players": ["Marc ter Stegen", "Josha Vagnoman", "Jonathan Tah", "Nico Schlotterbeck", "Nathaniel Brown", "Joshua Kimmich", "Aleksandar Pavlović", "Lennart Karl", "Jamal Musiala", "Florian Wirtz", "Kai Havertz"],
+          "home_missing_players": ["Jurriën Timber", "Donyell Malen"],
+          "away_missing_players": ["Brajan Gruda"]
+        },
+        "pregame_form": {
+          "home": "WDWWD",
+          "away": "WWWLD"
+        }
+      }
+    },
+    {
+      "team1": "Portugal",
+      "team1_logo": "https://img.singhs.com.np/team/8361.png",
+      "team2": "Wales",
+      "team2_logo": "https://img.singhs.com.np/team/5790.png",
+      "league_logo": "https://img.singhs.com.np/league/920742.png",
+      "league": "UEFA Nations League A Grp. 4",
+      "start": "2026-09-25T03:45:00+09:00",
+      "league_id": 920742,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=portugal",
+      "streaming_url": "https://cdn.singhs.com.np/portugal.json",
+      "event_id": 5181862,
+      "football_data": {
+        "event": {
+          "match_id": 5181862,
+          "league": "UEFA Nations League A Grp. 4",
+          "league_id": 920742,
+          "round": 1,
+          "tournament": "UEFA Nations League A Grp. 4",
+          "kick_off_time_utc": "Thu, 24 Sep 2026 18:45:00 GMT",
+          "venue": "Estádio José Alvalade",
+          "venue_city": "Lisboa",
+          "venue_country": "Portugal",
+          "venue_lat": 38.761207228,
+          "venue_lng": -9.160875678,
+          "stadium_capacity": 52095,
+          "stadium_surface": "grass",
+          "referee": "Donatas Rumšas",
+          "home_team": {
+            "name": "Portugal",
+            "id": 8361
+          },
+          "away_team": {
+            "name": "Wales",
+            "id": 5790
+          },
+          "home_manager": "Jorge Jesus",
+          "away_manager": "Craig Bellamy",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Diogo Costa", "João Cancelo", "Rúben Dias", "Renato Veiga", "Nuno Mendes", "João Neves", "Vítinha", "Pedro Neto", "Bruno Fernandes", "Joao Félix", "Cristiano Ronaldo"],
+          "away_players": ["Danny Ward", "Neco Williams", "Ben Cabango", "Rhys Norrington-Davies", "Jay Dasilva", "Ethan Ampadu", "Jordan James", "David Brooks", "Sorba Thomas", "Daniel James", "Brennan Johnson"],
+          "home_missing_players": [],
+          "away_missing_players": ["Nathan Broadhead", "Isaak Davies", "Joe Rodon", "Dylan Lawlor"]
+        },
+        "pregame_form": {
+          "home": "DWDWL",
+          "away": "WDDDL"
+        }
+      }
+    },
+    {
+      "team1": "Norway",
+      "team1_logo": "https://img.singhs.com.np/team/8492.png",
+      "team2": "Denmark",
+      "team2_logo": "https://img.singhs.com.np/team/8238.png",
+      "league_logo": "https://img.singhs.com.np/league/920742.png",
+      "league": "UEFA Nations League A Grp. 4",
+      "start": "2026-09-25T03:45:00+09:00",
+      "league_id": 920742,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=norway",
+      "streaming_url": "https://cdn.singhs.com.np/norway.json",
+      "event_id": 5181861,
+      "football_data": {
+        "event": {
+          "match_id": 5181861,
+          "league": "UEFA Nations League A Grp. 4",
+          "league_id": 920742,
+          "round": 1,
+          "tournament": "UEFA Nations League A Grp. 4",
+          "kick_off_time_utc": "Thu, 24 Sep 2026 18:45:00 GMT",
+          "venue": "Ullevaal Stadion",
+          "venue_city": "Oslo",
+          "venue_country": "Norway",
+          "venue_lat": 59.94919756,
+          "venue_lng": 10.734243393,
+          "stadium_capacity": 27182,
+          "stadium_surface": "grass",
+          "referee": "Tobias Stieler",
+          "home_team": {
+            "name": "Norway",
+            "id": 8492
+          },
+          "away_team": {
+            "name": "Denmark",
+            "id": 8238
+          },
+          "home_manager": "Ståle Solbakken",
+          "away_manager": "Brian Riemer",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 2,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-3-3",
+          "home_players": ["Ørjan Håskjold Nyland", "Julian Ryerson", "Kristoffer Ajer", "Leo Østigard", "David Møller Wolfe", "Martin Ødegaard", "Sander Berge", "Patrick Berg", "Oscar Bobb", "Erling Haaland", "Antonio Nusa"],
+          "away_players": ["Mads Hermansen", "Anton Gaaei", "Joachim Andersen", "Victor Nelsson", "Joakim Mæhle", "Pierre-Emile Højbjerg", "Morten Hjulmand", "Victor Froholdt", "Gustav Isaksen", "Rasmus Højlund", "Mikkel Damsgaard"],
+          "home_missing_players": [],
+          "away_missing_players": ["Alexander Bah", "Kasper Dolberg"]
+        },
+        "pregame_form": {
+          "home": "WLWWL",
+          "away": "DLWDD"
+        }
+      }
+    },
+    {
+      "team1": "Australia",
+      "team1_logo": "https://img.singhs.com.np/team/6716.png",
+      "team2": "Brazil",
+      "team2_logo": "https://img.singhs.com.np/team/8256.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-09-25T19:00:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=australia",
+      "streaming_url": "https://cdn.singhs.com.np/australia.json",
+      "event_id": 5924776,
+      "football_data": {
+        "event": {
+          "match_id": 5924776,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Fri, 25 Sep 2026 10:00:00 GMT",
+          "venue": "Queensland Country Bank Stadium",
+          "venue_city": "Townsville",
+          "venue_country": "Australia",
+          "venue_lat": -19.266087601,
+          "venue_lng": 146.816542177,
+          "stadium_capacity": 25000,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Australia",
+            "id": 6716
+          },
+          "away_team": {
+            "name": "Brazil",
+            "id": 8256
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Mohamed Touré", "Cristian Volpato", "Cameron Burgess", "Kai Trewin", "Jordan Bos"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "DWLDD",
+          "away": "DWWWL"
+        }
+      }
+    },
+    {
+      "team1": "India",
+      "team1_logo": "https://img.singhs.com.np/team/6329.png",
+      "team2": "Panama",
+      "team2_logo": "https://img.singhs.com.np/team/5922.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-09-25T23:00:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=india",
+      "streaming_url": "https://cdn.singhs.com.np/india.json",
+      "event_id": 6280205,
+      "football_data": {
+        "event": {
+          "match_id": 6280205,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Fri, 25 Sep 2026 14:00:00 GMT",
+          "venue": "Sree Kanteerava Stadium",
+          "venue_city": "Bangalore",
+          "venue_country": "India",
+          "venue_lat": 12.969650506,
+          "venue_lng": 77.59345293,
+          "stadium_capacity": 28001,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "India",
+            "id": 6329
+          },
+          "away_team": {
+            "name": "Panama",
+            "id": 5922
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": ["Yoel Bárcenas"]
+        },
+        "pregame_form": {
+          "home": "WLLLD",
+          "away": "WDLLL"
         }
       }
     }
