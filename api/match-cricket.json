@@ -41,20 +41,6 @@
       "streaming_url": "https://cdn.singhs.com.np/england.json",
       "event_id": "264921",
       "cricket_data": null
-    },
-    {
-      "team1": "Afghanistan",
-      "team2": "Nepal",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/afghanistan.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
-      "league": "Asian Games Men’s T20I, 2026",
-      "start": "2026-09-25T14:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=afghanistan",
-      "streaming_url": "https://cdn.singhs.com.np/afghanistan.json",
-      "event_id": "274299",
-      "cricket_data": null
     }
   ]
 }
