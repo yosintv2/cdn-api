@@ -2,44 +2,16 @@
   "matches": [
     {
       "team1": "Afghanistan",
-      "team2": "Japan",
+      "team2": "Nepal",
       "team1_logo": "https://aimages.willow.tv/teamLogos/afghanistan.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/japan.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
       "league": "Asian Games Men’s T20I, 2026",
-      "start": "2026-09-24T09:00:00+09:00",
+      "start": "2026-09-25T14:00:00+09:00",
       "duration": 5,
       "format": "T20",
       "details_url": "https://home.getemoji.online/?yosintv=afghanistan",
       "streaming_url": "https://cdn.singhs.com.np/afghanistan.json",
-      "event_id": "274296",
-      "cricket_data": null
-    },
-    {
-      "team1": "South Africa",
-      "team2": "Australia",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/australia.png",
-      "league": "Australia in South Africa, 3 ODI Series, 2026",
-      "start": "2026-09-24T17:00:00+09:00",
-      "duration": 8,
-      "format": "ODI",
-      "details_url": "https://home.getemoji.online/?yosintv=southafrica",
-      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
-      "event_id": "269787",
-      "cricket_data": null
-    },
-    {
-      "team1": "England",
-      "team2": "Sri Lanka",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/england.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
-      "league": "Sri Lanka in England, 3 ODI Series, 2026",
-      "start": "2026-09-24T20:30:00+09:00",
-      "duration": 8,
-      "format": "ODI",
-      "details_url": "https://home.getemoji.online/?yosintv=england",
-      "streaming_url": "https://cdn.singhs.com.np/england.json",
-      "event_id": "264921",
+      "event_id": "274299",
       "cricket_data": null
     }
   ]
