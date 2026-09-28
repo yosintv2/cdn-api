@@ -1,34 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Pakistan",
-      "team2": "HongKong",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/pakistan.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/tbc.png",
-      "league": "Asian Games Men’s T20I, 2026",
-      "start": "2026-09-28T09:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=pakistan",
-      "streaming_url": "https://cdn.singhs.com.np/pakistan.json",
-      "event_id": "274302",
-      "cricket_data": null
-    },
-    {
-      "team1": "India",
-      "team2": "Afghanistan",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/india.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/tbc.png",
-      "league": "Asian Games Men’s T20I, 2026",
-      "start": "2026-09-28T13:30:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=india",
-      "streaming_url": "https://cdn.singhs.com.np/india.json",
-      "event_id": "274303",
-      "cricket_data": null
-    },
-    {
       "team1": "Sri Lanka",
       "team2": "Nepal",
       "team1_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
@@ -54,6 +26,34 @@
       "details_url": "https://home.getemoji.online/?yosintv=bangladesh",
       "streaming_url": "https://cdn.singhs.com.np/bangladesh.json",
       "event_id": "274305",
+      "cricket_data": null
+    },
+    {
+      "team1": "India",
+      "team2": "West Indies",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/india.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/westindies.png",
+      "league": "West Indies in India, 3 ODI Series, 2026",
+      "start": "2026-09-30T17:30:00+09:00",
+      "duration": 8,
+      "format": "ODI",
+      "details_url": "https://home.getemoji.online/?yosintv=india",
+      "streaming_url": "https://cdn.singhs.com.np/india.json",
+      "event_id": "270271",
+      "cricket_data": null
+    },
+    {
+      "team1": "South Africa",
+      "team2": "Australia",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/australia.png",
+      "league": "Australia in South Africa, 3 ODI Series, 2026",
+      "start": "2026-09-30T20:30:00+09:00",
+      "duration": 8,
+      "format": "ODI",
+      "details_url": "https://home.getemoji.online/?yosintv=southafrica",
+      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
+      "event_id": "269789",
       "cricket_data": null
     }
   ]
