@@ -1,124 +1,246 @@
 {
   "matches": [
     {
-      "team1": "Japan",
-      "team1_logo": "https://img.singhs.com.np/team/6715.png",
-      "team2": "Venezuela",
-      "team2_logo": "https://img.singhs.com.np/team/5800.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-09-28T19:25:00+09:00",
-      "league_id": 914609,
+      "team1": "Belgium",
+      "team1_logo": "https://img.singhs.com.np/team/8263.png",
+      "team2": "France",
+      "team2_logo": "https://img.singhs.com.np/team/6723.png",
+      "league_logo": "https://img.singhs.com.np/league/920741.png",
+      "league": "UEFA Nations League A Grp. 1",
+      "start": "2026-09-29T03:45:00+09:00",
+      "league_id": 920741,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=japan",
-      "streaming_url": "https://cdn.singhs.com.np/japan.json",
-      "event_id": 6315013,
+      "details_url": "https://home.getemoji.online/?yosintv=belgium",
+      "streaming_url": "https://cdn.singhs.com.np/belgium.json",
+      "event_id": 5181790,
       "football_data": {
         "event": {
-          "match_id": 6315013,
-          "league": "Friendlies",
-          "league_id": 914609,
-          "round": null,
-          "tournament": "Friendlies",
-          "kick_off_time_utc": "Mon, 28 Sep 2026 10:25:00 GMT",
-          "venue": "Edion Peace Wing Hiroshima",
-          "venue_city": "Hiroshima",
-          "venue_country": "Japan",
-          "venue_lat": 34.401576547,
-          "venue_lng": 132.453768714,
-          "stadium_capacity": 28520,
+          "match_id": 5181790,
+          "league": "UEFA Nations League A Grp. 1",
+          "league_id": 920741,
+          "round": 2,
+          "tournament": "UEFA Nations League A Grp. 1",
+          "kick_off_time_utc": "Mon, 28 Sep 2026 18:45:00 GMT",
+          "venue": "Stade Roi Baudouin",
+          "venue_city": "Bruxelles (Brussel)",
+          "venue_country": "Belgium",
+          "venue_lat": 50.895704702,
+          "venue_lng": 4.334079623,
+          "stadium_capacity": 50093,
           "stadium_surface": "grass",
-          "referee": "Tim Danaskos",
+          "referee": "Rade Obrenović",
           "home_team": {
-            "name": "Japan",
-            "id": 6715
+            "name": "Belgium",
+            "id": 8263
           },
           "away_team": {
-            "name": "Venezuela",
-            "id": 5800
+            "name": "France",
+            "id": 6723
           },
-          "home_manager": null,
-          "away_manager": null,
+          "home_manager": "Mark van Bommel",
+          "away_manager": "Zinédine Zidane",
           "gender": "male",
-          "coverage_level": "ratings"
+          "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 0,
-          "draws": 3,
-          "awayWins": 1
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 7
         },
         "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "3-4-1-2",
-          "home_players": ["Leo Kokubo", "Tsuyoshi Watanabe", "Ayumu Seko", "Junnosuke Suzuki", "Shuto Nakano", "Koki Kumasaka", "Daichi Kamada", "Yuki Soma", "Ryunosuke Sato", "Shunsuke Saito", "Keisuke Goto"],
-          "away_players": ["José Contreras", "Yordan Osorio", "Nahuel Ferraresi", "Christian Makoun", "Jon Aramburu", "Marco Libra", "Yangel Herrera", "Luís Balbo", "Daniel Pereira", "Kevin Kelsy", "Bryan Castillo"],
-          "home_missing_players": [],
-          "away_missing_players": []
+          "home_formation": "4-1-4-1",
+          "away_formation": "4-3-3",
+          "home_players": ["Senne Lammens", "Timothy Castagne", "Nathan Ngoy", "Brandon Mechele", "Maxim De Cuyper", "Nicolas Raskin", "Dodi Lukébakio", "Kevin De Bruyne", "Youri Tielemans", "Diego Moreira", "Charles De Ketelaere"],
+          "away_players": ["Mike Maignan", "Jules Koundé", "Dayot Upamecano", "Maxence Lacroix", "Andy Diouf", "Rayan Cherki", "Manu Koné", "Adrien Rabiot", "Michael Olise", "Désiré Doué", "Ousmane Dembélé"],
+          "home_missing_players": ["Mike Penders", "Leandro Trossard"],
+          "away_missing_players": ["Mattéo Guendouzi", "Warren Zaïre-Emery"]
         },
         "pregame_form": {
-          "home": "DWDLW",
-          "away": "LWDLW"
+          "home": "WWWLW",
+          "away": "WWLLW"
         }
       }
     },
     {
-      "team1": "South Korea",
-      "team1_logo": "https://img.singhs.com.np/team/7804.png",
-      "team2": "Uruguay",
-      "team2_logo": "https://img.singhs.com.np/team/5796.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-09-28T20:00:00+09:00",
-      "league_id": 914609,
+      "team1": "Turkiye",
+      "team1_logo": "https://img.singhs.com.np/team/6595.png",
+      "team2": "Italy",
+      "team2_logo": "https://img.singhs.com.np/team/8204.png",
+      "league_logo": "https://img.singhs.com.np/league/920741.png",
+      "league": "UEFA Nations League A Grp. 1",
+      "start": "2026-09-29T03:45:00+09:00",
+      "league_id": 920741,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=southkorea",
-      "streaming_url": "https://cdn.singhs.com.np/southkorea.json",
-      "event_id": 6210557,
+      "details_url": "https://home.getemoji.online/?yosintv=turkiye",
+      "streaming_url": "https://cdn.singhs.com.np/turkiye.json",
+      "event_id": 5181791,
       "football_data": {
         "event": {
-          "match_id": 6210557,
+          "match_id": 5181791,
+          "league": "UEFA Nations League A Grp. 1",
+          "league_id": 920741,
+          "round": 2,
+          "tournament": "UEFA Nations League A Grp. 1",
+          "kick_off_time_utc": "Mon, 28 Sep 2026 18:45:00 GMT",
+          "venue": "Matlı Stadyumu Atatürk Spor Kompleksi",
+          "venue_city": "Bursa",
+          "venue_country": "Türkiye",
+          "venue_lat": 40.210776197,
+          "venue_lng": 29.009393678,
+          "stadium_capacity": 45000,
+          "stadium_surface": "grass",
+          "referee": "Michael Oliver",
+          "home_team": {
+            "name": "Turkiye",
+            "id": 6595
+          },
+          "away_team": {
+            "name": "Italy",
+            "id": 8204
+          },
+          "home_manager": "Vincenzo Montella",
+          "away_manager": "Roberto Mancini",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 1,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "away_formation": "4-3-3",
+          "home_players": ["Altay Bayındır", "Zeki Çelik", "Merih Demiral", "Abdülkerim Bardakci", "Oğuz Aydın", "Ismail Yüksek", "Salih Özcan", "Ferdi Kadıoğlu", "Arda Güler", "Kerem Aktürkoglu", "Barış Alper Yılmaz"],
+          "away_players": ["Gianluigi Donnarumma", "Michael Kayode", "Giorgio Scalvini", "Alessandro Bastoni", "Riccardo Calafiori", "Davide Frattesi", "Sandro Tonali", "Issa Doumbia", "Giacomo Raspadori", "Gianluca Scamacca", "Nicolò Cambiaghi"],
+          "home_missing_players": ["Orkun Kökcü", "Muhammed Şengezer", "Uğurcan Çakir"],
+          "away_missing_players": ["Federico Dimarco", "Bryan Cristante", "Nicolò Zaniolo"]
+        },
+        "pregame_form": {
+          "home": "WLLWL",
+          "away": "WDWWL"
+        }
+      }
+    },
+    {
+      "team1": "Australia",
+      "team1_logo": "https://img.singhs.com.np/team/6716.png",
+      "team2": "Brazil",
+      "team2_logo": "https://img.singhs.com.np/team/8256.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-09-29T19:00:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=australia",
+      "streaming_url": "https://cdn.singhs.com.np/australia.json",
+      "event_id": 5924777,
+      "football_data": {
+        "event": {
+          "match_id": 5924777,
           "league": "Friendlies",
           "league_id": 914609,
           "round": null,
           "tournament": "Friendlies",
-          "kick_off_time_utc": "Mon, 28 Sep 2026 11:00:00 GMT",
-          "venue": "Seoul World Cup Stadium",
-          "venue_city": "Seoul",
-          "venue_country": "South Korea",
-          "venue_lat": 37.568222123,
-          "venue_lng": 126.897368431,
-          "stadium_capacity": 68476,
+          "kick_off_time_utc": "Tue, 29 Sep 2026 10:00:00 GMT",
+          "venue": "Suncorp Stadium",
+          "venue_city": "Brisbane",
+          "venue_country": "Australia",
+          "venue_lat": -27.464838325,
+          "venue_lng": 153.009569049,
+          "stadium_capacity": 52500,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "South Korea",
-            "id": 7804
+            "name": "Australia",
+            "id": 6716
           },
           "away_team": {
-            "name": "Uruguay",
-            "id": 5796
+            "name": "Brazil",
+            "id": 8256
           },
           "home_manager": null,
           "away_manager": null,
           "gender": "male",
-          "coverage_level": "ratings"
+          "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 1,
+          "homeWins": 0,
           "draws": 1,
-          "awayWins": 4
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Patrick Beach", "Alessandro Circati", "Harry Souttar", "Lucas Herrington", "Jacob Italiano", "Jackson Irvine", "Paul Okon-Engstler", "Aziz Behich", "Connor Metcalfe", "Nestory Irankunda", "Tete Yengi"],
+          "away_players": ["Hugo Souza", "Matheuzinho", "Marquinhos", "Vitor Reis", "Douglas Santos", "Bruno Guimarães", "Danilo", "Estêvão", "Raphinha", "Vinícius Júnior", "Endrick"],
+          "home_missing_players": ["Mohamed Touré"],
+          "away_missing_players": ["Wesley", "João Pedro"]
+        },
+        "pregame_form": {
+          "home": "WLDDD",
+          "away": "WWWLD"
+        }
+      }
+    },
+    {
+      "team1": "Ethiopia",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/121282.png",
+      "team2": "Senegal",
+      "team2_logo": "https://img.singhs.com.np/team/6395.png",
+      "league_logo": "https://img.singhs.com.np/league/943885.png",
+      "league": "Africa Cup of Nations Qualification Grp. J",
+      "start": "2026-09-29T22:00:00+09:00",
+      "league_id": 943885,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=ethiopia",
+      "streaming_url": "https://cdn.singhs.com.np/ethiopia.json",
+      "event_id": 6040398,
+      "football_data": {
+        "event": {
+          "match_id": 6040398,
+          "league": "Africa Cup of Nations Qualification Grp. J",
+          "league_id": 943885,
+          "round": 2,
+          "tournament": "Africa Cup of Nations Qualification Grp. J",
+          "kick_off_time_utc": "Tue, 29 Sep 2026 13:00:00 GMT",
+          "venue": "Bahir Dar Stadium",
+          "venue_city": "Bahir Dar",
+          "venue_country": "Ethiopia",
+          "venue_lat": 11.584615288,
+          "venue_lng": 37.38288167,
+          "stadium_capacity": 60000,
+          "stadium_surface": "grass",
+          "referee": "Willy Stephane Ngah",
+          "home_team": {
+            "name": "Ethiopia",
+            "id": 121282
+          },
+          "away_team": {
+            "name": "Senegal",
+            "id": 6395
+          },
+          "home_manager": "Yohannes Sahle",
+          "away_manager": "Patrick Vieira",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
         },
         "lineups": {
           "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Seung-Gyu Kim", "Young-Woo Seol", "Han-Beom Lee", "Min-Jae Kim", "Tae-Seok Lee", "Kang-In Lee", "Bong-Soo Kim", "Jae-Sung Lee", "Hee-Chan Hwang", "Hyeon-Gyu Oh", "Heung-Min Son"],
-          "away_players": ["Cristopher Fiermarín", "Guillermo Varela", "Ronald Araujo", "Mathías Olivera", "Joaquín Piquerez", "Lucas Torreira", "Rodrigo Bentancur", "Brian Rodríguez", "Giorgian De Arrascaeta", "Maxi Araújo", "Darwin Núñez"],
-          "home_missing_players": ["Jens Castrop"],
-          "away_missing_players": ["Federico Valverde", "Sergio Rochet", "Manuel Ugarte"]
+          "away_formation": "4-4-2",
+          "home_players": ["Abubeker Nura", "Berhane Bekele", "Samuel Yohannes", "Yared Baye", "Bereket Samuel", "Mesfin Tafesse", "Gatoch Panom", "Habtamu Tekeste", "Chernet Gugsa", "Abel Yalew", "Canaan Markneh"],
+          "away_players": ["Yéhvann Diouf", "Moussa Niakhaté", "Sadibou Sané", "Lamine Sy", "Malick Diouf", "Lamine Camara", "Pape Gueye", "Pape Sarr", "Abdallah Sima", "Assane Diao", "Nicolas Jackson"],
+          "home_missing_players": [],
+          "away_missing_players": ["Nobel Mendy"]
         },
         "pregame_form": {
-          "home": "WWLLW",
-          "away": "DDDLL"
+          "home": "LLWLL",
+          "away": "LLWLD"
         }
       }
     }
