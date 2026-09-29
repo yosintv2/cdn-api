@@ -183,7 +183,8 @@
           "home": "WDLDL",
           "away": "WDWLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "South Sudan",
@@ -243,6 +244,312 @@
         "pregame_form": {
           "home": "DLDLL",
           "away": "WDDLD"
+        }
+      },
+      "pushed": true
+    },
+    {
+      "team1": "Ghana",
+      "team1_logo": "https://img.singhs.com.np/team/6714.png",
+      "team2": "Gambia",
+      "team2_logo": "https://img.singhs.com.np/team/5979.png",
+      "league_logo": "https://img.singhs.com.np/league/943878.png",
+      "league": "Africa Cup of Nations Qualification Grp. C",
+      "start": "2026-09-30T01:00:00+09:00",
+      "league_id": 943878,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=ghana",
+      "streaming_url": "https://cdn.singhs.com.np/ghana.json",
+      "event_id": 6040237,
+      "football_data": {
+        "event": {
+          "match_id": 6040237,
+          "league": "Africa Cup of Nations Qualification Grp. C",
+          "league_id": 943878,
+          "round": 2,
+          "tournament": "Africa Cup of Nations Qualification Grp. C",
+          "kick_off_time_utc": "Tue, 29 Sep 2026 16:00:00 GMT",
+          "venue": "Accra Sports Stadium",
+          "venue_city": "Accra",
+          "venue_country": "Ghana",
+          "venue_lat": 5.551491136,
+          "venue_lng": -0.191944242,
+          "stadium_capacity": 40000,
+          "stadium_surface": "grass",
+          "referee": "Kech Chaf Mustapha",
+          "home_team": {
+            "name": "Ghana",
+            "id": 6714
+          },
+          "away_team": {
+            "name": "Gambia",
+            "id": 5979
+          },
+          "home_manager": "Carlos Queiroz",
+          "away_manager": "Johnny McKinstry",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Lawrence Ati-Zigi", "Kojo Peprah Oppong", "Alexander Djiku", "Jerome Opoku", "Gideon Mensah", "Abdul Fatawu", "Caleb Yirenkyi", "Kwasi Sibo", "Christopher Bonsu Baah", "Brandon Thomas-Asante", "Ernest Nuamah"],
+          "away_players": ["Baboucarr Gaye", "Alagie Saine", "Yaya Bojang", "Omar Colley", "Sainey Sanyang", "Abubakr Barry", "Mahmudu Bajo", "Joseph Ceesay", "Ebrima Colley", "Alieu Fadera", "Abdoulie Ceesay"],
+          "home_missing_players": ["Kamaldeen Sulemana"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WDLLL",
+          "away": "LWLLW"
+        }
+      }
+    },
+    {
+      "team1": "Al-Waab SC",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1803046.png",
+      "team2": "Lusail SC",
+      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1803049.png",
+      "league_logo": "https://img.singhs.com.np/league/1000001445.png",
+      "league": "QSL Cup",
+      "start": "2026-09-30T02:15:00+09:00",
+      "league_id": 1000001445,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=alwaabsc",
+      "streaming_url": "https://cdn.singhs.com.np/alwaabsc.json",
+      "event_id": 1000021931,
+      "football_data": {
+        "event": {
+          "match_id": 1000021931,
+          "league": "Qatar QSL Cup",
+          "league_id": 11017,
+          "round": 2,
+          "tournament": "Qatar QSL Cup",
+          "kick_off_time_utc": "Tue, 29 Sep 2026 17:15:00 GMT",
+          "venue": "Hamad bin Khalifa Stadium",
+          "venue_city": "ad-Dōha (Doha)",
+          "venue_country": "Qatar",
+          "venue_lat": 25.25188168,
+          "venue_lng": 51.535352468,
+          "stadium_capacity": 20000,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Al-Waab SC",
+            "id": 1803046
+          },
+          "away_team": {
+            "name": "Lusail SC",
+            "id": 1803049
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 3,
+          "draws": 0,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WWWW",
+          "away": "LDWDW"
+        }
+      }
+    },
+    {
+      "team1": "Scotland",
+      "team1_logo": "https://img.singhs.com.np/team/8498.png",
+      "team2": "Switzerland",
+      "team2_logo": "https://img.singhs.com.np/team/6717.png",
+      "league_logo": "https://img.singhs.com.np/league/920745.png",
+      "league": "UEFA Nations League B Grp. 1",
+      "start": "2026-09-30T03:45:00+09:00",
+      "league_id": 920745,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=scotland",
+      "streaming_url": "https://cdn.singhs.com.np/scotland.json",
+      "event_id": 5181778,
+      "football_data": {
+        "event": {
+          "match_id": 5181778,
+          "league": "UEFA Nations League B Grp. 1",
+          "league_id": 920745,
+          "round": 2,
+          "tournament": "UEFA Nations League B Grp. 1",
+          "kick_off_time_utc": "Tue, 29 Sep 2026 18:45:00 GMT",
+          "venue": "Barclays Hampden",
+          "venue_city": "Glasgow",
+          "venue_country": "Scotland",
+          "venue_lat": 55.825864778,
+          "venue_lng": -4.252004027,
+          "stadium_capacity": 52500,
+          "stadium_surface": "grass",
+          "referee": "Nenad Minaković",
+          "home_team": {
+            "name": "Scotland",
+            "id": 8498
+          },
+          "away_team": {
+            "name": "Switzerland",
+            "id": 6717
+          },
+          "home_manager": "Sébastien Pocognoli",
+          "away_manager": "Murat Yakın",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 1,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": "3-4-1-2",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Angus Gunn", "Jack Hendry", "Scott McKenna", "Stephen Welsh", "Aaron Hickey", "Billy Gilmour", "Lewis Ferguson", "Andrew Robertson", "John McGinn", "Oli McBurnie", "Kieron Bowie"],
+          "away_players": ["Gregor Kobel", "Zachary Athekame", "Nico Elvedi", "Manuel Akanji", "Ricardo Rodríguez", "Ardon Jashari", "Remo Freuler", "Fabian Rieder", "Johan Manzambi", "Dan Ndoye", "Zeki Amdouni"],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WWLLD",
+          "away": "WWDLW"
+        }
+      }
+    },
+    {
+      "team1": "Spain",
+      "team1_logo": "https://img.singhs.com.np/team/6720.png",
+      "team2": "Croatia",
+      "team2_logo": "https://img.singhs.com.np/team/10155.png",
+      "league_logo": "https://img.singhs.com.np/league/920743.png",
+      "league": "UEFA Nations League A Grp. 3",
+      "start": "2026-09-30T03:45:00+09:00",
+      "league_id": 920743,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=spain",
+      "streaming_url": "https://cdn.singhs.com.np/spain.json",
+      "event_id": 5181852,
+      "football_data": {
+        "event": {
+          "match_id": 5181852,
+          "league": "UEFA Nations League A Grp. 3",
+          "league_id": 920743,
+          "round": 2,
+          "tournament": "UEFA Nations League A Grp. 3",
+          "kick_off_time_utc": "Tue, 29 Sep 2026 18:45:00 GMT",
+          "venue": "Estadio Ramón Sánchez Pizjuán",
+          "venue_city": "Sevilla",
+          "venue_country": "Spain",
+          "venue_lat": 37.384045627,
+          "venue_lng": -5.970591903,
+          "stadium_capacity": 42714,
+          "stadium_surface": "grass",
+          "referee": "Serdar Gözübüyük",
+          "home_team": {
+            "name": "Spain",
+            "id": 6720
+          },
+          "away_team": {
+            "name": "Croatia",
+            "id": 10155
+          },
+          "home_manager": "Luis de la Fuente",
+          "away_manager": "Slaven Bilić",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 4,
+          "draws": 1,
+          "awayWins": 2
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Unai Simón", "Marc Pubill", "Pau Cubarsí", "Aymeric Laporte", "Marc Cucurella", "Rodri", "Pedri", "Lamine Yamal", "Dani Olmo", "Álex Baena", "Mikel Oyarzabal"],
+          "away_players": ["Dominik Livaković", "Josip Stanišić", "Luka Vušković", "Joško Gvardiol", "Ivan Perišić", "Luka Modrić", "Mateo Kovačić", "Luka Sučić", "Petar Sučić", "Franjo Ivanović", "Ante Budimir"],
+          "home_missing_players": ["Joan García"],
+          "away_missing_players": ["Martin Baturina", "Martin Erlić", "Josip Juranović"]
+        },
+        "pregame_form": {
+          "home": "WWWWW",
+          "away": "LWWLW"
+        }
+      }
+    },
+    {
+      "team1": "Mexico",
+      "team1_logo": "https://img.singhs.com.np/team/6710.png",
+      "team2": "Peru",
+      "team2_logo": "https://img.singhs.com.np/team/5798.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-09-30T10:00:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=mexico",
+      "streaming_url": "https://cdn.singhs.com.np/mexico.json",
+      "event_id": 6280444,
+      "football_data": {
+        "event": {
+          "match_id": 6280444,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Wed, 30 Sep 2026 01:00:00 GMT",
+          "venue": "Sports Illustrated Stadium",
+          "venue_city": "Harrison, New Jersey",
+          "venue_country": "United States",
+          "venue_lat": 40.736876521,
+          "venue_lng": -74.150225111,
+          "stadium_capacity": 26765,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Mexico",
+            "id": 6710
+          },
+          "away_team": {
+            "name": "Peru",
+            "id": 5798
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 1
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Raúl Rangel", "Jorge Sánchez", "Israel Reyes", "Johan Vásquez", "Jesús Gallardo", "Gilberto Mora", "Érik Lira", "Luis Chávez", "Roberto Alvarado", "Armando González", "Hirving Lozano"],
+          "away_players": ["Pedro Gallese", "Oliver Sonne", "Miguel Araujo", "Renzo Garcés", "Marcos López", "Wilder Cartagena", "Yoshimar Yotún", "Piero Magallanes", "Jairo Vélez", "Jhonny Vidales", "Gianluca Lapadula"],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WWWLD",
+          "away": "LDWLL"
         }
       }
     }
