@@ -1,128 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Belgium",
-      "team1_logo": "https://img.singhs.com.np/team/8263.png",
-      "team2": "France",
-      "team2_logo": "https://img.singhs.com.np/team/6723.png",
-      "league_logo": "https://img.singhs.com.np/league/920741.png",
-      "league": "UEFA Nations League A Grp. 1",
-      "start": "2026-09-29T03:45:00+09:00",
-      "league_id": 920741,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=belgium",
-      "streaming_url": "https://cdn.singhs.com.np/belgium.json",
-      "event_id": 5181790,
-      "football_data": {
-        "event": {
-          "match_id": 5181790,
-          "league": "UEFA Nations League A Grp. 1",
-          "league_id": 920741,
-          "round": 2,
-          "tournament": "UEFA Nations League A Grp. 1",
-          "kick_off_time_utc": "Mon, 28 Sep 2026 18:45:00 GMT",
-          "venue": "Stade Roi Baudouin",
-          "venue_city": "Bruxelles (Brussel)",
-          "venue_country": "Belgium",
-          "venue_lat": 50.895704702,
-          "venue_lng": 4.334079623,
-          "stadium_capacity": 50093,
-          "stadium_surface": "grass",
-          "referee": "Rade Obrenović",
-          "home_team": {
-            "name": "Belgium",
-            "id": 8263
-          },
-          "away_team": {
-            "name": "France",
-            "id": 6723
-          },
-          "home_manager": "Mark van Bommel",
-          "away_manager": "Zinédine Zidane",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 7
-        },
-        "lineups": {
-          "home_formation": "4-1-4-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Senne Lammens", "Timothy Castagne", "Nathan Ngoy", "Brandon Mechele", "Maxim De Cuyper", "Nicolas Raskin", "Dodi Lukébakio", "Kevin De Bruyne", "Youri Tielemans", "Diego Moreira", "Charles De Ketelaere"],
-          "away_players": ["Mike Maignan", "Jules Koundé", "Dayot Upamecano", "Maxence Lacroix", "Andy Diouf", "Rayan Cherki", "Manu Koné", "Adrien Rabiot", "Michael Olise", "Désiré Doué", "Ousmane Dembélé"],
-          "home_missing_players": ["Mike Penders", "Leandro Trossard"],
-          "away_missing_players": ["Mattéo Guendouzi", "Warren Zaïre-Emery"]
-        },
-        "pregame_form": {
-          "home": "WWWLW",
-          "away": "WWLLW"
-        }
-      }
-    },
-    {
-      "team1": "Turkiye",
-      "team1_logo": "https://img.singhs.com.np/team/6595.png",
-      "team2": "Italy",
-      "team2_logo": "https://img.singhs.com.np/team/8204.png",
-      "league_logo": "https://img.singhs.com.np/league/920741.png",
-      "league": "UEFA Nations League A Grp. 1",
-      "start": "2026-09-29T03:45:00+09:00",
-      "league_id": 920741,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=turkiye",
-      "streaming_url": "https://cdn.singhs.com.np/turkiye.json",
-      "event_id": 5181791,
-      "football_data": {
-        "event": {
-          "match_id": 5181791,
-          "league": "UEFA Nations League A Grp. 1",
-          "league_id": 920741,
-          "round": 2,
-          "tournament": "UEFA Nations League A Grp. 1",
-          "kick_off_time_utc": "Mon, 28 Sep 2026 18:45:00 GMT",
-          "venue": "Matlı Stadyumu Atatürk Spor Kompleksi",
-          "venue_city": "Bursa",
-          "venue_country": "Türkiye",
-          "venue_lat": 40.210776197,
-          "venue_lng": 29.009393678,
-          "stadium_capacity": 45000,
-          "stadium_surface": "grass",
-          "referee": "Michael Oliver",
-          "home_team": {
-            "name": "Turkiye",
-            "id": 6595
-          },
-          "away_team": {
-            "name": "Italy",
-            "id": 8204
-          },
-          "home_manager": "Vincenzo Montella",
-          "away_manager": "Roberto Mancini",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 1,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Altay Bayındır", "Zeki Çelik", "Merih Demiral", "Abdülkerim Bardakci", "Oğuz Aydın", "Ismail Yüksek", "Salih Özcan", "Ferdi Kadıoğlu", "Arda Güler", "Kerem Aktürkoglu", "Barış Alper Yılmaz"],
-          "away_players": ["Gianluigi Donnarumma", "Michael Kayode", "Giorgio Scalvini", "Alessandro Bastoni", "Riccardo Calafiori", "Davide Frattesi", "Sandro Tonali", "Issa Doumbia", "Giacomo Raspadori", "Gianluca Scamacca", "Nicolò Cambiaghi"],
-          "home_missing_players": ["Orkun Kökcü", "Muhammed Şengezer", "Uğurcan Çakir"],
-          "away_missing_players": ["Federico Dimarco", "Bryan Cristante", "Nicolò Zaniolo"]
-        },
-        "pregame_form": {
-          "home": "WLLWL",
-          "away": "WDWWL"
-        }
-      }
-    },
-    {
       "team1": "Australia",
       "team1_logo": "https://img.singhs.com.np/team/6716.png",
       "team2": "Brazil",
@@ -181,7 +59,8 @@
           "home": "WLDDD",
           "away": "WWWLD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Ethiopia",
@@ -241,6 +120,129 @@
         "pregame_form": {
           "home": "LLWLL",
           "away": "LLWLD"
+        }
+      },
+      "pushed": true
+    },
+    {
+      "team1": "Lesotho",
+      "team1_logo": "https://img.singhs.com.np/team/4167.png",
+      "team2": "Morocco",
+      "team2_logo": "https://img.singhs.com.np/team/6262.png",
+      "league_logo": "https://img.singhs.com.np/league/943876.png",
+      "league": "Africa Cup of Nations Qualification Grp. A",
+      "start": "2026-09-29T22:00:00+09:00",
+      "league_id": 943876,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=lesotho",
+      "streaming_url": "https://cdn.singhs.com.np/lesotho.json",
+      "event_id": 6040202,
+      "football_data": {
+        "event": {
+          "match_id": 6040202,
+          "league": "Africa Cup of Nations Qualification Grp. A",
+          "league_id": 943876,
+          "round": 2,
+          "tournament": "Africa Cup of Nations Qualification Grp. A",
+          "kick_off_time_utc": "Tue, 29 Sep 2026 13:00:00 GMT",
+          "venue": "Free State Toyota Stadium",
+          "venue_city": "Bloemfontein, FS",
+          "venue_country": "South Africa",
+          "venue_lat": -29.117299697,
+          "venue_lng": 26.208851337,
+          "stadium_capacity": 40911,
+          "stadium_surface": "grass",
+          "referee": "Abdou Abdel Mefire",
+          "home_team": {
+            "name": "Lesotho",
+            "id": 4167
+          },
+          "away_team": {
+            "name": "Morocco",
+            "id": 6262
+          },
+          "home_manager": "Bob Mafoso",
+          "away_manager": "Mohamed Ouahbi",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 2
+        },
+        "lineups": {
+          "home_formation": "5-4-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Sekhoane Moerane", "Mohlomi Makhetha", "Thabo Makhele", "Rethabile Mokokoane", "Kenneth Falene", "Katleho Koaeane", "Neo Mokhachane", "Tšepo Toloane", "Lehlohonolo Fothoane", "Tšepang Sefali", "Sera Motebang"],
+          "away_players": ["Yassine Bounou", "Ali Maamar", "Issa Diop", "Nayef Aguerd", "Noussair Mazraoui", "Neil El Aynaoui", "Ayyoub Bouaddi", "Gessime Yassine", "Azzedine Ounahi", "Abdessamad Ezzalzouli", "Yassir Zabiri"],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WDLDL",
+          "away": "WDWLW"
+        }
+      }
+    },
+    {
+      "team1": "South Sudan",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/408231.png",
+      "team2": "Egypt",
+      "team2_logo": "https://img.singhs.com.np/team/10255.png",
+      "league_logo": "https://img.singhs.com.np/league/943877.png",
+      "league": "Africa Cup of Nations Qualification Grp. B",
+      "start": "2026-09-29T22:00:00+09:00",
+      "league_id": 943877,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=southsudan",
+      "streaming_url": "https://cdn.singhs.com.np/southsudan.json",
+      "event_id": 6040215,
+      "football_data": {
+        "event": {
+          "match_id": 6040215,
+          "league": "Africa Cup of Nations Qualification Grp. B",
+          "league_id": 943877,
+          "round": 2,
+          "tournament": "Africa Cup of Nations Qualification Grp. B",
+          "kick_off_time_utc": "Tue, 29 Sep 2026 13:00:00 GMT",
+          "venue": "Juba Stadium",
+          "venue_city": "Juba",
+          "venue_country": "South Sudan",
+          "venue_lat": 4.843023532,
+          "venue_lng": 31.615932584,
+          "stadium_capacity": 12000,
+          "stadium_surface": "artificial turf",
+          "referee": "Ahmad Heeralall",
+          "home_team": {
+            "name": "South Sudan",
+            "id": 408231
+          },
+          "away_team": {
+            "name": "Egypt",
+            "id": 10255
+          },
+          "home_manager": "Nicolas Dupuis",
+          "away_manager": "Hossam Hassan",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 1
+        },
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Majak Mawith", "Atendele Mawa", "Rehan Angier", "Benjamin Laku Lotelek", "Justin Bangasi", "Joseph Dhata", "Peter Chan", "William Gama", "Paul America", "Jamu Iluya", "Mario Albano"],
+          "away_players": ["Mostafa Ahmed Shobeir", "Mohamed Hany", "Hossam Abdelmaguid", "Rami Rabia", "Ahmed Fatouh", "Mohanad Lasheen", "Mahmoud Saber", "Haissem Hassan", "Mostafa Ziko", "Emam Ashour", "Mohamed Salah"],
+          "home_missing_players": [],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "DLDLL",
+          "away": "WDDLD"
         }
       }
     }
