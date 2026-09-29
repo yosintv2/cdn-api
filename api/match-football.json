@@ -50,10 +50,39 @@
         "lineups": {
           "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Patrick Beach", "Alessandro Circati", "Harry Souttar", "Lucas Herrington", "Jacob Italiano", "Jackson Irvine", "Paul Okon-Engstler", "Aziz Behich", "Connor Metcalfe", "Nestory Irankunda", "Tete Yengi"],
-          "away_players": ["Hugo Souza", "Matheuzinho", "Marquinhos", "Vitor Reis", "Douglas Santos", "Bruno Guimarães", "Danilo", "Estêvão", "Raphinha", "Vinícius Júnior", "Endrick"],
-          "home_missing_players": ["Mohamed Touré"],
-          "away_missing_players": ["Wesley", "João Pedro"]
+          "home_players": [
+            "Patrick Beach",
+            "Alessandro Circati",
+            "Harry Souttar",
+            "Lucas Herrington",
+            "Jacob Italiano",
+            "Jackson Irvine",
+            "Paul Okon-Engstler",
+            "Aziz Behich",
+            "Connor Metcalfe",
+            "Nestory Irankunda",
+            "Tete Yengi"
+          ],
+          "away_players": [
+            "Hugo Souza",
+            "Matheuzinho",
+            "Marquinhos",
+            "Vitor Reis",
+            "Douglas Santos",
+            "Bruno Guimarães",
+            "Danilo",
+            "Estêvão",
+            "Raphinha",
+            "Vinícius Júnior",
+            "Endrick"
+          ],
+          "home_missing_players": [
+            "Mohamed Touré"
+          ],
+          "away_missing_players": [
+            "Wesley",
+            "João Pedro"
+          ]
         },
         "pregame_form": {
           "home": "WLDDD",
@@ -112,10 +141,36 @@
         "lineups": {
           "home_formation": "4-4-2",
           "away_formation": "4-4-2",
-          "home_players": ["Abubeker Nura", "Berhane Bekele", "Samuel Yohannes", "Yared Baye", "Bereket Samuel", "Mesfin Tafesse", "Gatoch Panom", "Habtamu Tekeste", "Chernet Gugsa", "Abel Yalew", "Canaan Markneh"],
-          "away_players": ["Yéhvann Diouf", "Moussa Niakhaté", "Sadibou Sané", "Lamine Sy", "Malick Diouf", "Lamine Camara", "Pape Gueye", "Pape Sarr", "Abdallah Sima", "Assane Diao", "Nicolas Jackson"],
+          "home_players": [
+            "Abubeker Nura",
+            "Berhane Bekele",
+            "Samuel Yohannes",
+            "Yared Baye",
+            "Bereket Samuel",
+            "Mesfin Tafesse",
+            "Gatoch Panom",
+            "Habtamu Tekeste",
+            "Chernet Gugsa",
+            "Abel Yalew",
+            "Canaan Markneh"
+          ],
+          "away_players": [
+            "Yéhvann Diouf",
+            "Moussa Niakhaté",
+            "Sadibou Sané",
+            "Lamine Sy",
+            "Malick Diouf",
+            "Lamine Camara",
+            "Pape Gueye",
+            "Pape Sarr",
+            "Abdallah Sima",
+            "Assane Diao",
+            "Nicolas Jackson"
+          ],
           "home_missing_players": [],
-          "away_missing_players": ["Nobel Mendy"]
+          "away_missing_players": [
+            "Nobel Mendy"
+          ]
         },
         "pregame_form": {
           "home": "LLWLL",
@@ -174,8 +229,32 @@
         "lineups": {
           "home_formation": "5-4-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Sekhoane Moerane", "Mohlomi Makhetha", "Thabo Makhele", "Rethabile Mokokoane", "Kenneth Falene", "Katleho Koaeane", "Neo Mokhachane", "Tšepo Toloane", "Lehlohonolo Fothoane", "Tšepang Sefali", "Sera Motebang"],
-          "away_players": ["Yassine Bounou", "Ali Maamar", "Issa Diop", "Nayef Aguerd", "Noussair Mazraoui", "Neil El Aynaoui", "Ayyoub Bouaddi", "Gessime Yassine", "Azzedine Ounahi", "Abdessamad Ezzalzouli", "Yassir Zabiri"],
+          "home_players": [
+            "Sekhoane Moerane",
+            "Mohlomi Makhetha",
+            "Thabo Makhele",
+            "Rethabile Mokokoane",
+            "Kenneth Falene",
+            "Katleho Koaeane",
+            "Neo Mokhachane",
+            "Tšepo Toloane",
+            "Lehlohonolo Fothoane",
+            "Tšepang Sefali",
+            "Sera Motebang"
+          ],
+          "away_players": [
+            "Yassine Bounou",
+            "Ali Maamar",
+            "Issa Diop",
+            "Nayef Aguerd",
+            "Noussair Mazraoui",
+            "Neil El Aynaoui",
+            "Ayyoub Bouaddi",
+            "Gessime Yassine",
+            "Azzedine Ounahi",
+            "Abdessamad Ezzalzouli",
+            "Yassir Zabiri"
+          ],
           "home_missing_players": [],
           "away_missing_players": []
         },
@@ -236,8 +315,32 @@
         "lineups": {
           "home_formation": "4-4-2",
           "away_formation": "4-2-3-1",
-          "home_players": ["Majak Mawith", "Atendele Mawa", "Rehan Angier", "Benjamin Laku Lotelek", "Justin Bangasi", "Joseph Dhata", "Peter Chan", "William Gama", "Paul America", "Jamu Iluya", "Mario Albano"],
-          "away_players": ["Mostafa Ahmed Shobeir", "Mohamed Hany", "Hossam Abdelmaguid", "Rami Rabia", "Ahmed Fatouh", "Mohanad Lasheen", "Mahmoud Saber", "Haissem Hassan", "Mostafa Ziko", "Emam Ashour", "Mohamed Salah"],
+          "home_players": [
+            "Majak Mawith",
+            "Atendele Mawa",
+            "Rehan Angier",
+            "Benjamin Laku Lotelek",
+            "Justin Bangasi",
+            "Joseph Dhata",
+            "Peter Chan",
+            "William Gama",
+            "Paul America",
+            "Jamu Iluya",
+            "Mario Albano"
+          ],
+          "away_players": [
+            "Mostafa Ahmed Shobeir",
+            "Mohamed Hany",
+            "Hossam Abdelmaguid",
+            "Rami Rabia",
+            "Ahmed Fatouh",
+            "Mohanad Lasheen",
+            "Mahmoud Saber",
+            "Haissem Hassan",
+            "Mostafa Ziko",
+            "Emam Ashour",
+            "Mohamed Salah"
+          ],
           "home_missing_players": [],
           "away_missing_players": []
         },
@@ -298,75 +401,40 @@
         "lineups": {
           "home_formation": "4-4-2",
           "away_formation": "4-2-3-1",
-          "home_players": ["Lawrence Ati-Zigi", "Kojo Peprah Oppong", "Alexander Djiku", "Jerome Opoku", "Gideon Mensah", "Abdul Fatawu", "Caleb Yirenkyi", "Kwasi Sibo", "Christopher Bonsu Baah", "Brandon Thomas-Asante", "Ernest Nuamah"],
-          "away_players": ["Baboucarr Gaye", "Alagie Saine", "Yaya Bojang", "Omar Colley", "Sainey Sanyang", "Abubakr Barry", "Mahmudu Bajo", "Joseph Ceesay", "Ebrima Colley", "Alieu Fadera", "Abdoulie Ceesay"],
-          "home_missing_players": ["Kamaldeen Sulemana"],
+          "home_players": [
+            "Lawrence Ati-Zigi",
+            "Kojo Peprah Oppong",
+            "Alexander Djiku",
+            "Jerome Opoku",
+            "Gideon Mensah",
+            "Abdul Fatawu",
+            "Caleb Yirenkyi",
+            "Kwasi Sibo",
+            "Christopher Bonsu Baah",
+            "Brandon Thomas-Asante",
+            "Ernest Nuamah"
+          ],
+          "away_players": [
+            "Baboucarr Gaye",
+            "Alagie Saine",
+            "Yaya Bojang",
+            "Omar Colley",
+            "Sainey Sanyang",
+            "Abubakr Barry",
+            "Mahmudu Bajo",
+            "Joseph Ceesay",
+            "Ebrima Colley",
+            "Alieu Fadera",
+            "Abdoulie Ceesay"
+          ],
+          "home_missing_players": [
+            "Kamaldeen Sulemana"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
           "home": "WDLLL",
           "away": "LWLLW"
-        }
-      }
-    },
-    {
-      "team1": "Al-Waab SC",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1803046.png",
-      "team2": "Lusail SC",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1803049.png",
-      "league_logo": "https://img.singhs.com.np/league/1000001445.png",
-      "league": "QSL Cup",
-      "start": "2026-09-30T02:15:00+09:00",
-      "league_id": 1000001445,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=alwaabsc",
-      "streaming_url": "https://cdn.singhs.com.np/alwaabsc.json",
-      "event_id": 1000021931,
-      "football_data": {
-        "event": {
-          "match_id": 1000021931,
-          "league": "Qatar QSL Cup",
-          "league_id": 11017,
-          "round": 2,
-          "tournament": "Qatar QSL Cup",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 17:15:00 GMT",
-          "venue": "Hamad bin Khalifa Stadium",
-          "venue_city": "ad-Dōha (Doha)",
-          "venue_country": "Qatar",
-          "venue_lat": 25.25188168,
-          "venue_lng": 51.535352468,
-          "stadium_capacity": 20000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Al-Waab SC",
-            "id": 1803046
-          },
-          "away_team": {
-            "name": "Lusail SC",
-            "id": 1803049
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 0,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WWWW",
-          "away": "LDWDW"
         }
       }
     },
@@ -420,8 +488,32 @@
         "lineups": {
           "home_formation": "3-4-1-2",
           "away_formation": "4-2-3-1",
-          "home_players": ["Angus Gunn", "Jack Hendry", "Scott McKenna", "Stephen Welsh", "Aaron Hickey", "Billy Gilmour", "Lewis Ferguson", "Andrew Robertson", "John McGinn", "Oli McBurnie", "Kieron Bowie"],
-          "away_players": ["Gregor Kobel", "Zachary Athekame", "Nico Elvedi", "Manuel Akanji", "Ricardo Rodríguez", "Ardon Jashari", "Remo Freuler", "Fabian Rieder", "Johan Manzambi", "Dan Ndoye", "Zeki Amdouni"],
+          "home_players": [
+            "Angus Gunn",
+            "Jack Hendry",
+            "Scott McKenna",
+            "Stephen Welsh",
+            "Aaron Hickey",
+            "Billy Gilmour",
+            "Lewis Ferguson",
+            "Andrew Robertson",
+            "John McGinn",
+            "Oli McBurnie",
+            "Kieron Bowie"
+          ],
+          "away_players": [
+            "Gregor Kobel",
+            "Zachary Athekame",
+            "Nico Elvedi",
+            "Manuel Akanji",
+            "Ricardo Rodríguez",
+            "Ardon Jashari",
+            "Remo Freuler",
+            "Fabian Rieder",
+            "Johan Manzambi",
+            "Dan Ndoye",
+            "Zeki Amdouni"
+          ],
           "home_missing_players": [],
           "away_missing_players": []
         },
@@ -481,10 +573,40 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Unai Simón", "Marc Pubill", "Pau Cubarsí", "Aymeric Laporte", "Marc Cucurella", "Rodri", "Pedri", "Lamine Yamal", "Dani Olmo", "Álex Baena", "Mikel Oyarzabal"],
-          "away_players": ["Dominik Livaković", "Josip Stanišić", "Luka Vušković", "Joško Gvardiol", "Ivan Perišić", "Luka Modrić", "Mateo Kovačić", "Luka Sučić", "Petar Sučić", "Franjo Ivanović", "Ante Budimir"],
-          "home_missing_players": ["Joan García"],
-          "away_missing_players": ["Martin Baturina", "Martin Erlić", "Josip Juranović"]
+          "home_players": [
+            "Unai Simón",
+            "Marc Pubill",
+            "Pau Cubarsí",
+            "Aymeric Laporte",
+            "Marc Cucurella",
+            "Rodri",
+            "Pedri",
+            "Lamine Yamal",
+            "Dani Olmo",
+            "Álex Baena",
+            "Mikel Oyarzabal"
+          ],
+          "away_players": [
+            "Dominik Livaković",
+            "Josip Stanišić",
+            "Luka Vušković",
+            "Joško Gvardiol",
+            "Ivan Perišić",
+            "Luka Modrić",
+            "Mateo Kovačić",
+            "Luka Sučić",
+            "Petar Sučić",
+            "Franjo Ivanović",
+            "Ante Budimir"
+          ],
+          "home_missing_players": [
+            "Joan García"
+          ],
+          "away_missing_players": [
+            "Martin Baturina",
+            "Martin Erlić",
+            "Josip Juranović"
+          ]
         },
         "pregame_form": {
           "home": "WWWWW",
@@ -542,8 +664,32 @@
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
-          "home_players": ["Raúl Rangel", "Jorge Sánchez", "Israel Reyes", "Johan Vásquez", "Jesús Gallardo", "Gilberto Mora", "Érik Lira", "Luis Chávez", "Roberto Alvarado", "Armando González", "Hirving Lozano"],
-          "away_players": ["Pedro Gallese", "Oliver Sonne", "Miguel Araujo", "Renzo Garcés", "Marcos López", "Wilder Cartagena", "Yoshimar Yotún", "Piero Magallanes", "Jairo Vélez", "Jhonny Vidales", "Gianluca Lapadula"],
+          "home_players": [
+            "Raúl Rangel",
+            "Jorge Sánchez",
+            "Israel Reyes",
+            "Johan Vásquez",
+            "Jesús Gallardo",
+            "Gilberto Mora",
+            "Érik Lira",
+            "Luis Chávez",
+            "Roberto Alvarado",
+            "Armando González",
+            "Hirving Lozano"
+          ],
+          "away_players": [
+            "Pedro Gallese",
+            "Oliver Sonne",
+            "Miguel Araujo",
+            "Renzo Garcés",
+            "Marcos López",
+            "Wilder Cartagena",
+            "Yoshimar Yotún",
+            "Piero Magallanes",
+            "Jairo Vélez",
+            "Jhonny Vidales",
+            "Gianluca Lapadula"
+          ],
           "home_missing_players": [],
           "away_missing_players": []
         },
