@@ -1,41 +1,102 @@
 {
   "matches": [
     {
-      "team1": "Australia",
-      "team1_logo": "https://img.singhs.com.np/team/6716.png",
-      "team2": "Brazil",
-      "team2_logo": "https://img.singhs.com.np/team/8256.png",
+      "team1": "Argentina",
+      "team1_logo": "https://img.singhs.com.np/team/6706.png",
+      "team2": "Bolivia",
+      "team2_logo": "https://img.singhs.com.np/team/5797.png",
       "league_logo": "https://img.singhs.com.np/league/914609.png",
       "league": "Friendlies",
-      "start": "2026-09-29T19:00:00+09:00",
+      "start": "2026-10-01T09:00:00+09:00",
       "league_id": 914609,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=australia",
-      "streaming_url": "https://cdn.singhs.com.np/australia.json",
-      "event_id": 5924777,
+      "details_url": "https://home.getemoji.online/?yosintv=argentina",
+      "streaming_url": "https://cdn.singhs.com.np/argentina.json",
+      "event_id": 6266052,
       "football_data": {
         "event": {
-          "match_id": 5924777,
+          "match_id": 6266052,
           "league": "Friendlies",
           "league_id": 914609,
           "round": null,
           "tournament": "Friendlies",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 10:00:00 GMT",
-          "venue": "Suncorp Stadium",
-          "venue_city": "Brisbane",
-          "venue_country": "Australia",
-          "venue_lat": -27.464838325,
-          "venue_lng": 153.009569049,
-          "stadium_capacity": 52500,
+          "kick_off_time_utc": "Thu, 01 Oct 2026 00:00:00 GMT",
+          "venue": "Estadio Mario Alberto Kempes",
+          "venue_city": "Ciudad de Córdoba, Provincia de ",
+          "venue_country": "Argentina",
+          "venue_lat": -31.368991412,
+          "venue_lng": -64.246051311,
+          "stadium_capacity": 57503,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "Australia",
-            "id": 6716
+            "name": "Argentina",
+            "id": 6706
           },
           "away_team": {
-            "name": "Brazil",
-            "id": 8256
+            "name": "Bolivia",
+            "id": 5797
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 9,
+          "draws": 3,
+          "awayWins": 1
+        },
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Giovani Lo Celso", "Juan Foyth", "Thiago Almada", "Nicolás Tagliafico"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WWWWL",
+          "away": "WLLLL"
+        }
+      }
+    },
+    {
+      "team1": "Japan",
+      "team1_logo": "https://img.singhs.com.np/team/6715.png",
+      "team2": "Ecuador",
+      "team2_logo": "https://img.singhs.com.np/team/6707.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-10-01T19:10:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=japan",
+      "streaming_url": "https://cdn.singhs.com.np/japan.json",
+      "event_id": 6315047,
+      "football_data": {
+        "event": {
+          "match_id": 6315047,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Thu, 01 Oct 2026 10:10:00 GMT",
+          "venue": "Nissan Stadium",
+          "venue_city": "Yokohama",
+          "venue_country": "Japan",
+          "venue_lat": 35.509972173,
+          "venue_lng": 139.606388211,
+          "stadium_capacity": 72327,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Japan",
+            "id": 6715
+          },
+          "away_team": {
+            "name": "Ecuador",
+            "id": 6707
           },
           "home_manager": null,
           "away_manager": null,
@@ -44,657 +105,19 @@
         },
         "h2h": {
           "homeWins": 0,
-          "draws": 1,
-          "awayWins": 3
+          "draws": 2,
+          "awayWins": 0
         },
         "lineups": {
           "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": [
-            "Patrick Beach",
-            "Alessandro Circati",
-            "Harry Souttar",
-            "Lucas Herrington",
-            "Jacob Italiano",
-            "Jackson Irvine",
-            "Paul Okon-Engstler",
-            "Aziz Behich",
-            "Connor Metcalfe",
-            "Nestory Irankunda",
-            "Tete Yengi"
-          ],
-          "away_players": [
-            "Hugo Souza",
-            "Matheuzinho",
-            "Marquinhos",
-            "Vitor Reis",
-            "Douglas Santos",
-            "Bruno Guimarães",
-            "Danilo",
-            "Estêvão",
-            "Raphinha",
-            "Vinícius Júnior",
-            "Endrick"
-          ],
-          "home_missing_players": [
-            "Mohamed Touré"
-          ],
-          "away_missing_players": [
-            "Wesley",
-            "João Pedro"
-          ]
-        },
-        "pregame_form": {
-          "home": "WLDDD",
-          "away": "WWWLD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Ethiopia",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/121282.png",
-      "team2": "Senegal",
-      "team2_logo": "https://img.singhs.com.np/team/6395.png",
-      "league_logo": "https://img.singhs.com.np/league/943885.png",
-      "league": "Africa Cup of Nations Qualification Grp. J",
-      "start": "2026-09-29T22:00:00+09:00",
-      "league_id": 943885,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=ethiopia",
-      "streaming_url": "https://cdn.singhs.com.np/ethiopia.json",
-      "event_id": 6040398,
-      "football_data": {
-        "event": {
-          "match_id": 6040398,
-          "league": "Africa Cup of Nations Qualification Grp. J",
-          "league_id": 943885,
-          "round": 2,
-          "tournament": "Africa Cup of Nations Qualification Grp. J",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 13:00:00 GMT",
-          "venue": "Bahir Dar Stadium",
-          "venue_city": "Bahir Dar",
-          "venue_country": "Ethiopia",
-          "venue_lat": 11.584615288,
-          "venue_lng": 37.38288167,
-          "stadium_capacity": 60000,
-          "stadium_surface": "grass",
-          "referee": "Willy Stephane Ngah",
-          "home_team": {
-            "name": "Ethiopia",
-            "id": 121282
-          },
-          "away_team": {
-            "name": "Senegal",
-            "id": 6395
-          },
-          "home_manager": "Yohannes Sahle",
-          "away_manager": "Patrick Vieira",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-4-2",
-          "home_players": [
-            "Abubeker Nura",
-            "Berhane Bekele",
-            "Samuel Yohannes",
-            "Yared Baye",
-            "Bereket Samuel",
-            "Mesfin Tafesse",
-            "Gatoch Panom",
-            "Habtamu Tekeste",
-            "Chernet Gugsa",
-            "Abel Yalew",
-            "Canaan Markneh"
-          ],
-          "away_players": [
-            "Yéhvann Diouf",
-            "Moussa Niakhaté",
-            "Sadibou Sané",
-            "Lamine Sy",
-            "Malick Diouf",
-            "Lamine Camara",
-            "Pape Gueye",
-            "Pape Sarr",
-            "Abdallah Sima",
-            "Assane Diao",
-            "Nicolas Jackson"
-          ],
+          "home_players": ["Leo Kokubo", "Tsuyoshi Watanabe", "Ayumu Seko", "Junnosuke Suzuki", "Shuto Nakano", "Koki Kumasaka", "Daichi Kamada", "Yuki Soma", "Ryunosuke Sato", "Shunsuke Saito", "Keisuke Goto"],
+          "away_players": ["Hernán Galindez", "Ángelo Preciado", "Jackson Porozo", "Willian Pacho", "Pervis Estupinán", "Pedro Vite", "Alan Franco", "Keny Arroyo", "John Yeboah", "Nilson Angulo", "Jordy Caicedo"],
           "home_missing_players": [],
-          "away_missing_players": [
-            "Nobel Mendy"
-          ]
+          "away_missing_players": ["Gonzalo Plata", "Moisés Caicedo", "Jeremy Arévalo", "Joel Ordóñez"]
         },
         "pregame_form": {
-          "home": "LLWLL",
-          "away": "LLWLD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Lesotho",
-      "team1_logo": "https://img.singhs.com.np/team/4167.png",
-      "team2": "Morocco",
-      "team2_logo": "https://img.singhs.com.np/team/6262.png",
-      "league_logo": "https://img.singhs.com.np/league/943876.png",
-      "league": "Africa Cup of Nations Qualification Grp. A",
-      "start": "2026-09-29T22:00:00+09:00",
-      "league_id": 943876,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=lesotho",
-      "streaming_url": "https://cdn.singhs.com.np/lesotho.json",
-      "event_id": 6040202,
-      "football_data": {
-        "event": {
-          "match_id": 6040202,
-          "league": "Africa Cup of Nations Qualification Grp. A",
-          "league_id": 943876,
-          "round": 2,
-          "tournament": "Africa Cup of Nations Qualification Grp. A",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 13:00:00 GMT",
-          "venue": "Free State Toyota Stadium",
-          "venue_city": "Bloemfontein, FS",
-          "venue_country": "South Africa",
-          "venue_lat": -29.117299697,
-          "venue_lng": 26.208851337,
-          "stadium_capacity": 40911,
-          "stadium_surface": "grass",
-          "referee": "Abdou Abdel Mefire",
-          "home_team": {
-            "name": "Lesotho",
-            "id": 4167
-          },
-          "away_team": {
-            "name": "Morocco",
-            "id": 6262
-          },
-          "home_manager": "Bob Mafoso",
-          "away_manager": "Mohamed Ouahbi",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "5-4-1",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Sekhoane Moerane",
-            "Mohlomi Makhetha",
-            "Thabo Makhele",
-            "Rethabile Mokokoane",
-            "Kenneth Falene",
-            "Katleho Koaeane",
-            "Neo Mokhachane",
-            "Tšepo Toloane",
-            "Lehlohonolo Fothoane",
-            "Tšepang Sefali",
-            "Sera Motebang"
-          ],
-          "away_players": [
-            "Yassine Bounou",
-            "Ali Maamar",
-            "Issa Diop",
-            "Nayef Aguerd",
-            "Noussair Mazraoui",
-            "Neil El Aynaoui",
-            "Ayyoub Bouaddi",
-            "Gessime Yassine",
-            "Azzedine Ounahi",
-            "Abdessamad Ezzalzouli",
-            "Yassir Zabiri"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WDLDL",
-          "away": "WDWLW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "South Sudan",
-      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/408231.png",
-      "team2": "Egypt",
-      "team2_logo": "https://img.singhs.com.np/team/10255.png",
-      "league_logo": "https://img.singhs.com.np/league/943877.png",
-      "league": "Africa Cup of Nations Qualification Grp. B",
-      "start": "2026-09-29T22:00:00+09:00",
-      "league_id": 943877,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=southsudan",
-      "streaming_url": "https://cdn.singhs.com.np/southsudan.json",
-      "event_id": 6040215,
-      "football_data": {
-        "event": {
-          "match_id": 6040215,
-          "league": "Africa Cup of Nations Qualification Grp. B",
-          "league_id": 943877,
-          "round": 2,
-          "tournament": "Africa Cup of Nations Qualification Grp. B",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 13:00:00 GMT",
-          "venue": "Juba Stadium",
-          "venue_city": "Juba",
-          "venue_country": "South Sudan",
-          "venue_lat": 4.843023532,
-          "venue_lng": 31.615932584,
-          "stadium_capacity": 12000,
-          "stadium_surface": "artificial turf",
-          "referee": "Ahmad Heeralall",
-          "home_team": {
-            "name": "South Sudan",
-            "id": 408231
-          },
-          "away_team": {
-            "name": "Egypt",
-            "id": 10255
-          },
-          "home_manager": "Nicolas Dupuis",
-          "away_manager": "Hossam Hassan",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Majak Mawith",
-            "Atendele Mawa",
-            "Rehan Angier",
-            "Benjamin Laku Lotelek",
-            "Justin Bangasi",
-            "Joseph Dhata",
-            "Peter Chan",
-            "William Gama",
-            "Paul America",
-            "Jamu Iluya",
-            "Mario Albano"
-          ],
-          "away_players": [
-            "Mostafa Ahmed Shobeir",
-            "Mohamed Hany",
-            "Hossam Abdelmaguid",
-            "Rami Rabia",
-            "Ahmed Fatouh",
-            "Mohanad Lasheen",
-            "Mahmoud Saber",
-            "Haissem Hassan",
-            "Mostafa Ziko",
-            "Emam Ashour",
-            "Mohamed Salah"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "DLDLL",
-          "away": "WDDLD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Ghana",
-      "team1_logo": "https://img.singhs.com.np/team/6714.png",
-      "team2": "Gambia",
-      "team2_logo": "https://img.singhs.com.np/team/5979.png",
-      "league_logo": "https://img.singhs.com.np/league/943878.png",
-      "league": "Africa Cup of Nations Qualification Grp. C",
-      "start": "2026-09-30T01:00:00+09:00",
-      "league_id": 943878,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=ghana",
-      "streaming_url": "https://cdn.singhs.com.np/ghana.json",
-      "event_id": 6040237,
-      "football_data": {
-        "event": {
-          "match_id": 6040237,
-          "league": "Africa Cup of Nations Qualification Grp. C",
-          "league_id": 943878,
-          "round": 2,
-          "tournament": "Africa Cup of Nations Qualification Grp. C",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 16:00:00 GMT",
-          "venue": "Accra Sports Stadium",
-          "venue_city": "Accra",
-          "venue_country": "Ghana",
-          "venue_lat": 5.551491136,
-          "venue_lng": -0.191944242,
-          "stadium_capacity": 40000,
-          "stadium_surface": "grass",
-          "referee": "Kech Chaf Mustapha",
-          "home_team": {
-            "name": "Ghana",
-            "id": 6714
-          },
-          "away_team": {
-            "name": "Gambia",
-            "id": 5979
-          },
-          "home_manager": "Carlos Queiroz",
-          "away_manager": "Johnny McKinstry",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Lawrence Ati-Zigi",
-            "Kojo Peprah Oppong",
-            "Alexander Djiku",
-            "Jerome Opoku",
-            "Gideon Mensah",
-            "Abdul Fatawu",
-            "Caleb Yirenkyi",
-            "Kwasi Sibo",
-            "Christopher Bonsu Baah",
-            "Brandon Thomas-Asante",
-            "Ernest Nuamah"
-          ],
-          "away_players": [
-            "Baboucarr Gaye",
-            "Alagie Saine",
-            "Yaya Bojang",
-            "Omar Colley",
-            "Sainey Sanyang",
-            "Abubakr Barry",
-            "Mahmudu Bajo",
-            "Joseph Ceesay",
-            "Ebrima Colley",
-            "Alieu Fadera",
-            "Abdoulie Ceesay"
-          ],
-          "home_missing_players": [
-            "Kamaldeen Sulemana"
-          ],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WDLLL",
-          "away": "LWLLW"
-        }
-      }
-    },
-    {
-      "team1": "Scotland",
-      "team1_logo": "https://img.singhs.com.np/team/8498.png",
-      "team2": "Switzerland",
-      "team2_logo": "https://img.singhs.com.np/team/6717.png",
-      "league_logo": "https://img.singhs.com.np/league/920745.png",
-      "league": "UEFA Nations League B Grp. 1",
-      "start": "2026-09-30T03:45:00+09:00",
-      "league_id": 920745,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=scotland",
-      "streaming_url": "https://cdn.singhs.com.np/scotland.json",
-      "event_id": 5181778,
-      "football_data": {
-        "event": {
-          "match_id": 5181778,
-          "league": "UEFA Nations League B Grp. 1",
-          "league_id": 920745,
-          "round": 2,
-          "tournament": "UEFA Nations League B Grp. 1",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 18:45:00 GMT",
-          "venue": "Barclays Hampden",
-          "venue_city": "Glasgow",
-          "venue_country": "Scotland",
-          "venue_lat": 55.825864778,
-          "venue_lng": -4.252004027,
-          "stadium_capacity": 52500,
-          "stadium_surface": "grass",
-          "referee": "Nenad Minaković",
-          "home_team": {
-            "name": "Scotland",
-            "id": 8498
-          },
-          "away_team": {
-            "name": "Switzerland",
-            "id": 6717
-          },
-          "home_manager": "Sébastien Pocognoli",
-          "away_manager": "Murat Yakın",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 1,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "3-4-1-2",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Angus Gunn",
-            "Jack Hendry",
-            "Scott McKenna",
-            "Stephen Welsh",
-            "Aaron Hickey",
-            "Billy Gilmour",
-            "Lewis Ferguson",
-            "Andrew Robertson",
-            "John McGinn",
-            "Oli McBurnie",
-            "Kieron Bowie"
-          ],
-          "away_players": [
-            "Gregor Kobel",
-            "Zachary Athekame",
-            "Nico Elvedi",
-            "Manuel Akanji",
-            "Ricardo Rodríguez",
-            "Ardon Jashari",
-            "Remo Freuler",
-            "Fabian Rieder",
-            "Johan Manzambi",
-            "Dan Ndoye",
-            "Zeki Amdouni"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WWLLD",
-          "away": "WWDLW"
-        }
-      }
-    },
-    {
-      "team1": "Spain",
-      "team1_logo": "https://img.singhs.com.np/team/6720.png",
-      "team2": "Croatia",
-      "team2_logo": "https://img.singhs.com.np/team/10155.png",
-      "league_logo": "https://img.singhs.com.np/league/920743.png",
-      "league": "UEFA Nations League A Grp. 3",
-      "start": "2026-09-30T03:45:00+09:00",
-      "league_id": 920743,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=spain",
-      "streaming_url": "https://cdn.singhs.com.np/spain.json",
-      "event_id": 5181852,
-      "football_data": {
-        "event": {
-          "match_id": 5181852,
-          "league": "UEFA Nations League A Grp. 3",
-          "league_id": 920743,
-          "round": 2,
-          "tournament": "UEFA Nations League A Grp. 3",
-          "kick_off_time_utc": "Tue, 29 Sep 2026 18:45:00 GMT",
-          "venue": "Estadio Ramón Sánchez Pizjuán",
-          "venue_city": "Sevilla",
-          "venue_country": "Spain",
-          "venue_lat": 37.384045627,
-          "venue_lng": -5.970591903,
-          "stadium_capacity": 42714,
-          "stadium_surface": "grass",
-          "referee": "Serdar Gözübüyük",
-          "home_team": {
-            "name": "Spain",
-            "id": 6720
-          },
-          "away_team": {
-            "name": "Croatia",
-            "id": 10155
-          },
-          "home_manager": "Luis de la Fuente",
-          "away_manager": "Slaven Bilić",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 4,
-          "draws": 1,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Unai Simón",
-            "Marc Pubill",
-            "Pau Cubarsí",
-            "Aymeric Laporte",
-            "Marc Cucurella",
-            "Rodri",
-            "Pedri",
-            "Lamine Yamal",
-            "Dani Olmo",
-            "Álex Baena",
-            "Mikel Oyarzabal"
-          ],
-          "away_players": [
-            "Dominik Livaković",
-            "Josip Stanišić",
-            "Luka Vušković",
-            "Joško Gvardiol",
-            "Ivan Perišić",
-            "Luka Modrić",
-            "Mateo Kovačić",
-            "Luka Sučić",
-            "Petar Sučić",
-            "Franjo Ivanović",
-            "Ante Budimir"
-          ],
-          "home_missing_players": [
-            "Joan García"
-          ],
-          "away_missing_players": [
-            "Martin Baturina",
-            "Martin Erlić",
-            "Josip Juranović"
-          ]
-        },
-        "pregame_form": {
-          "home": "WWWWW",
-          "away": "LWWLW"
-        }
-      }
-    },
-    {
-      "team1": "Mexico",
-      "team1_logo": "https://img.singhs.com.np/team/6710.png",
-      "team2": "Peru",
-      "team2_logo": "https://img.singhs.com.np/team/5798.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-09-30T10:00:00+09:00",
-      "league_id": 914609,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=mexico",
-      "streaming_url": "https://cdn.singhs.com.np/mexico.json",
-      "event_id": 6280444,
-      "football_data": {
-        "event": {
-          "match_id": 6280444,
-          "league": "Friendlies",
-          "league_id": 914609,
-          "round": null,
-          "tournament": "Friendlies",
-          "kick_off_time_utc": "Wed, 30 Sep 2026 01:00:00 GMT",
-          "venue": "Sports Illustrated Stadium",
-          "venue_city": "Harrison, New Jersey",
-          "venue_country": "United States",
-          "venue_lat": 40.736876521,
-          "venue_lng": -74.150225111,
-          "stadium_capacity": 26765,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Mexico",
-            "id": 6710
-          },
-          "away_team": {
-            "name": "Peru",
-            "id": 5798
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": [
-            "Raúl Rangel",
-            "Jorge Sánchez",
-            "Israel Reyes",
-            "Johan Vásquez",
-            "Jesús Gallardo",
-            "Gilberto Mora",
-            "Érik Lira",
-            "Luis Chávez",
-            "Roberto Alvarado",
-            "Armando González",
-            "Hirving Lozano"
-          ],
-          "away_players": [
-            "Pedro Gallese",
-            "Oliver Sonne",
-            "Miguel Araujo",
-            "Renzo Garcés",
-            "Marcos López",
-            "Wilder Cartagena",
-            "Yoshimar Yotún",
-            "Piero Magallanes",
-            "Jairo Vélez",
-            "Jhonny Vidales",
-            "Gianluca Lapadula"
-          ],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WWWLD",
+          "home": "WDLWW",
           "away": "LDWLL"
         }
       }
