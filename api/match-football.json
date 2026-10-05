@@ -1,68 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Japan",
-      "team1_logo": "https://img.singhs.com.np/team/6715.png",
-      "team2": "New Zealand",
-      "team2_logo": "https://img.singhs.com.np/team/5820.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-10-05T19:30:00+09:00",
-      "league_id": 914609,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=japan",
-      "streaming_url": "https://cdn.singhs.com.np/japan.json",
-      "event_id": 6369014,
-      "football_data": {
-        "event": {
-          "match_id": 6369014,
-          "league": "Friendlies",
-          "league_id": 914609,
-          "round": null,
-          "tournament": "Friendlies",
-          "kick_off_time_utc": "Mon, 05 Oct 2026 10:30:00 GMT",
-          "venue": "MUFG Stadium",
-          "venue_city": "Tōkyō (Tokyo)",
-          "venue_country": "Japan",
-          "venue_lat": 35.677794843,
-          "venue_lng": 139.714473908,
-          "stadium_capacity": 68089,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Japan",
-            "id": 6715
-          },
-          "away_team": {
-            "name": "New Zealand",
-            "id": 5820
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Zion Suzuki", "Ayumu Seko", "Ko Itakura", "Hiroki Ito", "Ritsu Doan", "Kaishu Sano", "Ao Tanaka", "Keito Nakamura", "Takefusa Kubo", "Yuito Suzuki", "Kaina Tanimura"],
-          "away_players": ["Alex Paulsen", "Callan Elliot", "Michael Boxall", "Tyler Bindon", "Benjamin Old", "Alex Rufer", "Marko Stamenić", "Logan Rogerson", "Elijah Just", "Ben Waine", "Chris Wood"],
-          "home_missing_players": [],
-          "away_missing_players": ["Liberato Cacace"]
-        },
-        "pregame_form": {
-          "home": "DLWWD",
-          "away": "LLDWD"
-        }
-      },
-      "pushed": true
-    },
-    {
       "team1": "France",
       "team1_logo": "https://img.singhs.com.np/team/6723.png",
       "team2": "Belgium",
@@ -185,6 +123,128 @@
         }
       },
       "pushed": true
+    },
+    {
+      "team1": "Romania",
+      "team1_logo": "https://img.singhs.com.np/team/9730.png",
+      "team2": "Sweden",
+      "team2_logo": "https://img.singhs.com.np/team/8520.png",
+      "league_logo": "https://img.singhs.com.np/league/920748.png",
+      "league": "UEFA Nations League B Grp. 4",
+      "start": "2026-10-06T03:45:00+09:00",
+      "league_id": 920748,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=romania",
+      "streaming_url": "https://cdn.singhs.com.np/romania.json",
+      "event_id": 5181844,
+      "football_data": {
+        "event": {
+          "match_id": 5181844,
+          "league": "UEFA Nations League B Grp. 4",
+          "league_id": 920748,
+          "round": 4,
+          "tournament": "UEFA Nations League B Grp. 4",
+          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
+          "venue": "Arena Naţională",
+          "venue_city": "Bucureşti",
+          "venue_country": "Romania",
+          "venue_lat": 44.437208058,
+          "venue_lng": 26.152498126,
+          "stadium_capacity": 55611,
+          "stadium_surface": "grass",
+          "referee": "Elchin Məsiyev",
+          "home_team": {
+            "name": "Romania",
+            "id": 9730
+          },
+          "away_team": {
+            "name": "Sweden",
+            "id": 8520
+          },
+          "home_manager": "Gheorghe Hagi",
+          "away_manager": "Graham Potter",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-4-2",
+          "home_players": ["Ottó Hindrich", "Andrei Rațiu", "Andrei Coubiș", "Matei Cristian Ilie", "Nicușor Bancu", "Răzvan Marin", "Vlad Dragomir", "Nicolae Stanciu", "Dennis Man", "Darius Olaru", "Florin Tănase"],
+          "away_players": ["Viktor Johansson", "Felix Beijmo", "Eric Smith", "Victor Nilsson Lindelöf", "Gabriel Gudmundsson", "Alexander Bernhardsson", "Jesper Karlström", "Lucas Bergvall", "Sebastian Nanasi", "Besfort Zeneli", "Viktor Gyökeres"],
+          "home_missing_players": ["Radu Drăgușin", "Virgil Ghiță"],
+          "away_missing_players": ["Carl Starfelt", "Yasin Ayari", "Patrik Wålemark", "Benjamin Nygren", "Elliot Stroud", "Gustaf Lagerbielke", "Emil Holm"]
+        },
+        "pregame_form": {
+          "home": "DWLLL",
+          "away": "DLWWD"
+        }
+      }
+    },
+    {
+      "team1": "Bosnia and Herzegovina",
+      "team1_logo": "https://img.singhs.com.np/team/10106.png",
+      "team2": "Poland",
+      "team2_logo": "https://img.singhs.com.np/team/8568.png",
+      "league_logo": "https://img.singhs.com.np/league/920748.png",
+      "league": "UEFA Nations League B Grp. 4",
+      "start": "2026-10-06T03:45:00+09:00",
+      "league_id": 920748,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=bosniaandherzegovina",
+      "streaming_url": "https://cdn.singhs.com.np/bosniaandherzegovina.json",
+      "event_id": 5181843,
+      "football_data": {
+        "event": {
+          "match_id": 5181843,
+          "league": "UEFA Nations League B Grp. 4",
+          "league_id": 920748,
+          "round": 4,
+          "tournament": "UEFA Nations League B Grp. 4",
+          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
+          "venue": "Stadion Bilino Polje",
+          "venue_city": "Zenica",
+          "venue_country": "Bosnia-Herzegovina",
+          "venue_lat": 44.205804238,
+          "venue_lng": 17.90719986,
+          "stadium_capacity": 13812,
+          "stadium_surface": "grass",
+          "referee": "Jérémie Pignard",
+          "home_team": {
+            "name": "Bosnia and Herzegovina",
+            "id": 10106
+          },
+          "away_team": {
+            "name": "Poland",
+            "id": 8568
+          },
+          "home_manager": "Sergej Barbarez",
+          "away_manager": "Jan Urban",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 0,
+          "draws": 2,
+          "awayWins": 3
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Martin Zlomislić", "Nikola Katić", "Tarik Muharemović", "Zinedin Smajlović", "Sead Kolašinac", "Amar Memić", "Ermin Mahmić", "Ivan Bašić", "Ermedin Demirović", "Haris Tabaković", "Armin Gigović"],
+          "away_players": ["Marcin Bułka", "Matty Cash", "Jan Bednarek", "Jakub Kiwior", "Przemysław Frankowski", "Piotr Zieliński", "Wiktor Nowak", "Karol Świderski", "Sebastian Szymański", "Nicola Zalewski", "Mateusz Żukowski"],
+          "home_missing_players": ["Kerim Alajbegović"],
+          "away_missing_players": ["Jakub Kamiński", "Filip Rózga", "Robert Lewandowski"]
+        },
+        "pregame_form": {
+          "home": "WLDWD",
+          "away": "LDDLW"
+        }
+      }
     }
   ]
 }
