@@ -1,426 +1,185 @@
 {
   "matches": [
     {
-      "team1": "Senegal",
-      "team1_logo": "https://img.singhs.com.np/team/6395.png",
-      "team2": "Comoros",
-      "team2_logo": "https://img.singhs.com.np/team/230692.png",
+      "team1": "Japan",
+      "team1_logo": "https://img.singhs.com.np/team/6715.png",
+      "team2": "New Zealand",
+      "team2_logo": "https://img.singhs.com.np/team/5820.png",
       "league_logo": "https://img.singhs.com.np/league/914609.png",
       "league": "Friendlies",
-      "start": "2026-10-04T22:00:00+09:00",
+      "start": "2026-10-05T19:30:00+09:00",
       "league_id": 914609,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=senegal",
-      "streaming_url": "https://cdn.singhs.com.np/senegal.json",
-      "event_id": 6299698,
+      "details_url": "https://home.getemoji.online/?yosintv=japan",
+      "streaming_url": "https://cdn.singhs.com.np/japan.json",
+      "event_id": 6369014,
       "football_data": {
         "event": {
-          "match_id": 6299698,
+          "match_id": 6369014,
           "league": "Friendlies",
           "league_id": 914609,
           "round": null,
           "tournament": "Friendlies",
-          "kick_off_time_utc": "Sun, 04 Oct 2026 13:00:00 GMT",
-          "venue": null,
-          "venue_city": null,
-          "venue_country": null,
-          "venue_lat": null,
-          "venue_lng": null,
-          "stadium_capacity": null,
-          "stadium_surface": null,
-          "referee": null,
-          "home_team": {
-            "name": "Senegal",
-            "id": 6395
-          },
-          "away_team": {
-            "name": "Comoros",
-            "id": 230692
-          },
-          "home_manager": "Patrick Vieira",
-          "away_manager": "Stefano Cusin",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": "3-4-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Yéhvann Diouf", "Sadibou Sané", "Moussa Niakhaté", "Malang Sarr", "Ibrahim Mbaye", "Pape Gueye", "Lamine Camara", "Malick Diouf", "Assane Diao", "Nicolas Jackson", "Abdallah Sima"],
-          "away_players": ["Yannick Pandor", "Benjaloud Youssouf", "Warmed Omari", "Abdel Hakim Abdallah", "Yannis Kari", "Yacine Bourhane", "Iyad Mohamed", "Aymeric Ahmed", "Zaydou Youssouf", "Kassim Hadji", "Aboubacar Ali Abdallah"],
-          "home_missing_players": ["Nobel Mendy"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "LWLDW",
-          "away": "DDLLW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Egypt",
-      "team1_logo": "https://img.singhs.com.np/team/10255.png",
-      "team2": "South Africa",
-      "team2_logo": "https://img.singhs.com.np/team/6316.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-10-05T03:00:00+09:00",
-      "league_id": 914609,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=egypt",
-      "streaming_url": "https://cdn.singhs.com.np/egypt.json",
-      "event_id": 6299700,
-      "football_data": {
-        "event": {
-          "match_id": 6299700,
-          "league": "Friendlies",
-          "league_id": 914609,
-          "round": null,
-          "tournament": "Friendlies",
-          "kick_off_time_utc": "Sun, 04 Oct 2026 18:00:00 GMT",
-          "venue": "Cairo International Stadium",
-          "venue_city": "al-Qāhirah (Cairo)",
-          "venue_country": "Egypt",
-          "venue_lat": 30.069107892,
-          "venue_lng": 31.31233871,
-          "stadium_capacity": 74100,
+          "kick_off_time_utc": "Mon, 05 Oct 2026 10:30:00 GMT",
+          "venue": "MUFG Stadium",
+          "venue_city": "Tōkyō (Tokyo)",
+          "venue_country": "Japan",
+          "venue_lat": 35.677794843,
+          "venue_lng": 139.714473908,
+          "stadium_capacity": 68089,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "Egypt",
-            "id": 10255
+            "name": "Japan",
+            "id": 6715
           },
           "away_team": {
-            "name": "South Africa",
-            "id": 6316
+            "name": "New Zealand",
+            "id": 5820
           },
-          "home_manager": "Hossam Hassan",
-          "away_manager": "Pitso Mosimane",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 0,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Mostafa Ahmed Shobeir", "Mohamed Hany", "Hossam Abdelmaguid", "Rami Rabia", "Ahmed Fatouh", "Marwan Attia", "Mohanad Lasheen", "Haissem Hassan", "Emam Ashour", "Mostafa Ziko", "Omar Marmoush"],
-          "away_players": ["Ronwen Williams", "Kamogelo Sebelebele", "Ime Okon", "Olwethu Makhanya", "Samukele Kabini", "Sphephelo Sithole", "Bathusi Aubaas", "Thapelo Maseko", "Relebohile Mofokeng", "Oswin Appollis", "Iqraam Rayners"],
-          "home_missing_players": ["Ahmed Fatouh"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "DDLDW",
-          "away": "DWLWW"
-        }
-      }
-    },
-    {
-      "team1": "Morocco",
-      "team1_logo": "https://img.singhs.com.np/team/6262.png",
-      "team2": "Mali",
-      "team2_logo": "https://img.singhs.com.np/team/5815.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-10-05T03:00:00+09:00",
-      "league_id": 914609,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=morocco",
-      "streaming_url": "https://cdn.singhs.com.np/morocco.json",
-      "event_id": 6367353,
-      "football_data": {
-        "event": {
-          "match_id": 6367353,
-          "league": "Friendlies",
-          "league_id": 914609,
-          "round": null,
-          "tournament": "Friendlies",
-          "kick_off_time_utc": "Sun, 04 Oct 2026 18:00:00 GMT",
-          "venue": "Grand Stade de Tanger",
-          "venue_city": "Tanger",
-          "venue_country": "Morocco",
-          "venue_lat": 35.741174306,
-          "venue_lng": -5.858051777,
-          "stadium_capacity": 75000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Morocco",
-            "id": 6262
-          },
-          "away_team": {
-            "name": "Mali",
-            "id": 5815
-          },
-          "home_manager": "Mohamed Ouahbi",
-          "away_manager": "Tony",
+          "home_manager": null,
+          "away_manager": null,
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
           "homeWins": 2,
-          "draws": 2,
+          "draws": 0,
           "awayWins": 0
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
+          "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Yassine Bounou", "Zakaria El Ouahdi", "Issa Diop", "Abdelhamid Aït Boudlal", "Noussair Mazraoui", "Oussama Targhalline", "Neil El Aynaoui", "Brahim Díaz", "Azzedine Ounahi", "Bilal El Khannouss", "Ismael Saibari"],
-          "away_players": ["Djigui Diarra", "Hamari Traoré", "Ousmane Camara", "Nathan Gassama", "Daouda Guindo", "Mamadou Sangaré", "Aliou Dieng", "Ange Martial Tia", "Kamory Doumbia", "Dorgeles Nene", "Lassine Sinayoko"],
-          "home_missing_players": ["Noussair Mazraoui"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "DWLWW",
-          "away": "DDLWW"
-        }
-      }
-    },
-    {
-      "team1": "Greece",
-      "team1_logo": "https://img.singhs.com.np/team/6383.png",
-      "team2": "Germany",
-      "team2_logo": "https://img.singhs.com.np/team/8570.png",
-      "league_logo": "https://img.singhs.com.np/league/920744.png",
-      "league": "UEFA Nations League A Grp. 2",
-      "start": "2026-10-05T03:45:00+09:00",
-      "league_id": 920744,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=greece",
-      "streaming_url": "https://cdn.singhs.com.np/greece.json",
-      "event_id": 5181831,
-      "football_data": {
-        "event": {
-          "match_id": 5181831,
-          "league": "UEFA Nations League A Grp. 2",
-          "league_id": 920744,
-          "round": 4,
-          "tournament": "UEFA Nations League A Grp. 2",
-          "kick_off_time_utc": "Sun, 04 Oct 2026 18:45:00 GMT",
-          "venue": "Stadio Toumbas",
-          "venue_city": "Thessaloníki",
-          "venue_country": "Greece",
-          "venue_lat": 40.613818058,
-          "venue_lng": 22.972396016,
-          "stadium_capacity": 28803,
-          "stadium_surface": "grass",
-          "referee": "Clement Turpin",
-          "home_team": {
-            "name": "Greece",
-            "id": 6383
-          },
-          "away_team": {
-            "name": "Germany",
-            "id": 8570
-          },
-          "home_manager": "Ivan Jovanović",
-          "away_manager": "Jürgen Klopp",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 0,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-4-2",
-          "home_players": ["Konstantinos Tzolakis", "Manolis Saliakas", "Konstantinos Mavropanos", "Panagiotis Retsos", "Konstantinos Tsimikas", "Konstantinos Karetsas", "Dimitrios Kourbelis", "Thanasis Androutsos", "Christos Tzolis", "Vangelis Pavlidis", "Fotis Ioannidis"],
-          "away_players": ["Jonas Urbig", "Philipp Treu", "Waldemar Anton", "Malick Thiaw", "Maximilian Mittelstädt", "Serge Gnabry", "Aleksandar Pavlović", "Tom Bischof", "Derry Scherhant", "Nick Woltemade", "Florian Wirtz"],
-          "home_missing_players": ["Christos Tzolis"],
-          "away_missing_players": ["Nico Schlotterbeck", "Kai Havertz", "Brajan Gruda"]
+          "home_players": ["Zion Suzuki", "Ayumu Seko", "Ko Itakura", "Hiroki Ito", "Ritsu Doan", "Kaishu Sano", "Ao Tanaka", "Keito Nakamura", "Takefusa Kubo", "Yuito Suzuki", "Kaina Tanimura"],
+          "away_players": ["Alex Paulsen", "Callan Elliot", "Michael Boxall", "Tyler Bindon", "Benjamin Old", "Alex Rufer", "Marko Stamenić", "Logan Rogerson", "Elijah Just", "Ben Waine", "Chris Wood"],
+          "home_missing_players": [],
+          "away_missing_players": ["Liberato Cacace"]
         },
         "pregame_form": {
           "home": "DLWWD",
-          "away": "LDDLW"
+          "away": "LLDWD"
         }
       }
     },
     {
-      "team1": "Netherlands",
-      "team1_logo": "https://img.singhs.com.np/team/6708.png",
-      "team2": "Serbia",
-      "team2_logo": "https://img.singhs.com.np/team/8205.png",
-      "league_logo": "https://img.singhs.com.np/league/920744.png",
-      "league": "UEFA Nations League A Grp. 2",
-      "start": "2026-10-05T03:45:00+09:00",
-      "league_id": 920744,
+      "team1": "France",
+      "team1_logo": "https://img.singhs.com.np/team/6723.png",
+      "team2": "Belgium",
+      "team2_logo": "https://img.singhs.com.np/team/8263.png",
+      "league_logo": "https://img.singhs.com.np/league/920741.png",
+      "league": "UEFA Nations League A Grp. 1",
+      "start": "2026-10-06T03:45:00+09:00",
+      "league_id": 920741,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=netherlands",
-      "streaming_url": "https://cdn.singhs.com.np/netherlands.json",
-      "event_id": 5181832,
+      "details_url": "https://home.getemoji.online/?yosintv=france",
+      "streaming_url": "https://cdn.singhs.com.np/france.json",
+      "event_id": 5181794,
       "football_data": {
         "event": {
-          "match_id": 5181832,
-          "league": "UEFA Nations League A Grp. 2",
-          "league_id": 920744,
+          "match_id": 5181794,
+          "league": "UEFA Nations League A Grp. 1",
+          "league_id": 920741,
           "round": 4,
-          "tournament": "UEFA Nations League A Grp. 2",
-          "kick_off_time_utc": "Sun, 04 Oct 2026 18:45:00 GMT",
-          "venue": "Philips Stadion",
-          "venue_city": "Eindhoven",
-          "venue_country": "Netherlands",
-          "venue_lat": 51.441630196,
-          "venue_lng": 5.467452407,
-          "stadium_capacity": 35000,
+          "tournament": "UEFA Nations League A Grp. 1",
+          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
+          "venue": "Stade de France",
+          "venue_city": "Saint-Denis",
+          "venue_country": "France",
+          "venue_lat": 48.924483714,
+          "venue_lng": 2.36009717,
+          "stadium_capacity": 81338,
           "stadium_surface": "grass",
-          "referee": "Donatas Rumsas",
+          "referee": "Nick Walsh",
           "home_team": {
-            "name": "Netherlands",
-            "id": 6708
+            "name": "France",
+            "id": 6723
           },
           "away_team": {
-            "name": "Serbia",
-            "id": 8205
+            "name": "Belgium",
+            "id": 8263
           },
-          "home_manager": "Xavi Hernández",
-          "away_manager": "Veljko Paunović",
+          "home_manager": "Zinédine Zidane",
+          "away_manager": "Mark van Bommel",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 2,
-          "draws": 0,
+          "homeWins": 8,
+          "draws": 2,
+          "awayWins": 1
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-3-3",
+          "home_players": ["Mike Maignan", "Jules Koundé", "Jérémy Jacquet", "Maxence Lacroix", "Adrien Truffert", "Rayan Cherki", "Manu Koné", "Eduardo Camavinga", "Michael Olise", "Estéban Lepaul", "Bradley Barcola"],
+          "away_players": ["Senne Lammens", "Timothy Castagne", "Nathan Ngoy", "Brandon Mechele", "Joaquin Seys", "Nicolas Raskin", "Roméo Lavia", "Hans Vanaken", "Dodi Lukébakio", "Charles De Ketelaere", "Mika Godts"],
+          "home_missing_players": ["Mattéo Guendouzi", "Warren Zaïre-Emery", "Dayot Upamecano"],
+          "away_missing_players": ["Kevin De Bruyne", "Youri Tielemans"]
+        },
+        "pregame_form": {
+          "home": "LLWWD",
+          "away": "WLWLW"
+        }
+      }
+    },
+    {
+      "team1": "Italy",
+      "team1_logo": "https://img.singhs.com.np/team/8204.png",
+      "team2": "Turkiye",
+      "team2_logo": "https://img.singhs.com.np/team/6595.png",
+      "league_logo": "https://img.singhs.com.np/league/920741.png",
+      "league": "UEFA Nations League A Grp. 1",
+      "start": "2026-10-06T03:45:00+09:00",
+      "league_id": 920741,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=italy",
+      "streaming_url": "https://cdn.singhs.com.np/italy.json",
+      "event_id": 5181795,
+      "football_data": {
+        "event": {
+          "match_id": 5181795,
+          "league": "UEFA Nations League A Grp. 1",
+          "league_id": 920741,
+          "round": 4,
+          "tournament": "UEFA Nations League A Grp. 1",
+          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
+          "venue": "Stadio Renato Dall'Ara",
+          "venue_city": "Bologna",
+          "venue_country": "Italy",
+          "venue_lat": 44.492290396,
+          "venue_lng": 11.309956759,
+          "stadium_capacity": 39279,
+          "stadium_surface": "grass",
+          "referee": "Szymon Marciniak",
+          "home_team": {
+            "name": "Italy",
+            "id": 8204
+          },
+          "away_team": {
+            "name": "Turkiye",
+            "id": 6595
+          },
+          "home_manager": "Roberto Mancini",
+          "away_manager": "Vincenzo Montella",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 4,
+          "draws": 1,
           "awayWins": 0
         },
         "lineups": {
           "home_formation": "4-3-3",
-          "away_formation": "5-4-1",
-          "home_players": ["Bart Verbruggen", "Denzel Dumfries", "Jurriën Timber", "Virgil van Dijk", "Micky van de Ven", "Ryan Gravenberch", "Joey Veerman", "Tijjani Reijnders", "Crysencio Summerville", "Mexx Meerdink", "Noa Lang"],
-          "away_players": ["Djordje Petrović", "Strahinja Eraković", "Nemanja Gudelj", "Srdjan Babić", "Kosta Nedeljković", "Filip Kostić", "Andrija Živković", "Nemanja Maksimović", "Stefan Džodić", "Dušan Tadić", "Luka Jović"],
-          "home_missing_players": ["Jan Paul van Hecke", "Justin Kluivert", "Cody Gakpo", "Brian Brobbey", "Donyell Malen"],
+          "away_formation": "4-4-2",
+          "home_players": ["Gianluigi Donnarumma", "Michael Kayode", "Gianluca Mancini", "Alessandro Bastoni", "Matteo Ruggeri", "Nicolò Barella", "Alessandro Romano", "Issa Doumbia", "Antonio Vergara", "Gianluca Scamacca", "Daniel Maldini"],
+          "away_players": ["Uğurcan Çakir", "Zeki Çelik", "Merih Demiral", "Ozan Kabak", "Ferdi Kadıoğlu", "Oğuz Aydın", "Salih Özcan", "Ismail Yüksek", "Yunus Akgün", "Deniz Gül", "Kerem Aktürkoglu"],
+          "home_missing_players": ["Moise Kean"],
           "away_missing_players": []
         },
         "pregame_form": {
-          "home": "WDDWD",
-          "away": "LLLLL"
-        }
-      }
-    },
-    {
-      "team1": "Portugal",
-      "team1_logo": "https://img.singhs.com.np/team/8361.png",
-      "team2": "Norway",
-      "team2_logo": "https://img.singhs.com.np/team/8492.png",
-      "league_logo": "https://img.singhs.com.np/league/920742.png",
-      "league": "UEFA Nations League A Grp. 4",
-      "start": "2026-10-05T03:45:00+09:00",
-      "league_id": 920742,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=portugal",
-      "streaming_url": "https://cdn.singhs.com.np/portugal.json",
-      "event_id": 5181867,
-      "football_data": {
-        "event": {
-          "match_id": 5181867,
-          "league": "UEFA Nations League A Grp. 4",
-          "league_id": 920742,
-          "round": 4,
-          "tournament": "UEFA Nations League A Grp. 4",
-          "kick_off_time_utc": "Sun, 04 Oct 2026 18:45:00 GMT",
-          "venue": "Estádio Do Dragão",
-          "venue_city": "Porto",
-          "venue_country": "Portugal",
-          "venue_lat": 41.16179085,
-          "venue_lng": -8.5837394,
-          "stadium_capacity": 50399,
-          "stadium_surface": "grass",
-          "referee": "Maurizio Mariani",
-          "home_team": {
-            "name": "Portugal",
-            "id": 8361
-          },
-          "away_team": {
-            "name": "Norway",
-            "id": 8492
-          },
-          "home_manager": "Jorge Jesus",
-          "away_manager": "Ståle Solbakken",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 0,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Diogo Costa", "João Cancelo", "Rúben Dias", "Renato Veiga", "Nuno Mendes", "João Neves", "Vítinha", "Pedro Neto", "Bruno Fernandes", "Rafael Leão", "Gonçalo Ramos"],
-          "away_players": ["Ørjan Håskjold Nyland", "Julian Ryerson", "Kristoffer Ajer", "Leo Østigard", "David Møller Wolfe", "Martin Ødegaard", "Sander Berge", "Thelo Aasgaard", "Oscar Bobb", "Erling Haaland", "Antonio Nusa"],
-          "home_missing_players": ["Francisco Conceição"],
-          "away_missing_players": ["Torbjørn Heggem"]
-        },
-        "pregame_form": {
-          "home": "WLWWW",
-          "away": "WLWLL"
-        }
-      }
-    },
-    {
-      "team1": "Wales",
-      "team1_logo": "https://img.singhs.com.np/team/5790.png",
-      "team2": "Denmark",
-      "team2_logo": "https://img.singhs.com.np/team/8238.png",
-      "league_logo": "https://img.singhs.com.np/league/920742.png",
-      "league": "UEFA Nations League A Grp. 4",
-      "start": "2026-10-05T03:45:00+09:00",
-      "league_id": 920742,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wales",
-      "streaming_url": "https://cdn.singhs.com.np/wales.json",
-      "event_id": 5181868,
-      "football_data": {
-        "event": {
-          "match_id": 5181868,
-          "league": "UEFA Nations League A Grp. 4",
-          "league_id": 920742,
-          "round": 4,
-          "tournament": "UEFA Nations League A Grp. 4",
-          "kick_off_time_utc": "Sun, 04 Oct 2026 18:45:00 GMT",
-          "venue": "Cardiff City Stadium",
-          "venue_city": "Cardiff (Caerdydd)",
-          "venue_country": "Wales",
-          "venue_lat": 51.472829314,
-          "venue_lng": -3.203115455,
-          "stadium_capacity": 33280,
-          "stadium_surface": "grass",
-          "referee": "Irfan Peljto",
-          "home_team": {
-            "name": "Wales",
-            "id": 5790
-          },
-          "away_team": {
-            "name": "Denmark",
-            "id": 8238
-          },
-          "home_manager": "Craig Bellamy",
-          "away_manager": "Brian Riemer",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 4
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Danny Ward", "Neco Williams", "Ben Cabango", "Ben Davies", "Jay Dasilva", "Ethan Ampadu", "Jordan James", "Daniel James", "Liam Cullen", "Sorba Thomas", "Lewis Koumas"],
-          "away_players": ["Mads Hermansen", "Rasmus Kristensen", "Joachim Andersen", "Oliver Provstgaard", "Joakim Mæhle", "Morten Hjulmand", "Pierre-Emile Højbjerg", "Gustav Isaksen", "Victor Froholdt", "Mohamed Daramy", "Rasmus Højlund"],
-          "home_missing_players": [],
-          "away_missing_players": ["Nikolas Nartey"]
-        },
-        "pregame_form": {
-          "home": "DLLLW",
-          "away": "DDLWL"
+          "home": "WWLWD",
+          "away": "LWLLL"
         }
       }
     }
