@@ -59,7 +59,8 @@
           "home": "DLWWD",
           "away": "LLDWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "France",
@@ -120,7 +121,8 @@
           "home": "LLWWD",
           "away": "WLWLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Italy",
@@ -181,7 +183,8 @@
           "home": "WWLWD",
           "away": "LWLLL"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
