@@ -1,248 +1,482 @@
 {
   "matches": [
     {
-      "team1": "France",
-      "team1_logo": "https://img.singhs.com.np/team/6723.png",
-      "team2": "Belgium",
-      "team2_logo": "https://img.singhs.com.np/team/8263.png",
-      "league_logo": "https://img.singhs.com.np/league/920741.png",
-      "league": "UEFA Nations League A Grp. 1",
-      "start": "2026-10-06T03:45:00+09:00",
-      "league_id": 920741,
+      "team1": "Croatia",
+      "team1_logo": "https://img.singhs.com.np/team/10155.png",
+      "team2": "Spain",
+      "team2_logo": "https://img.singhs.com.np/team/6720.png",
+      "league_logo": "https://img.singhs.com.np/league/920743.png",
+      "league": "UEFA Nations League A Grp. 3",
+      "start": "2026-10-07T03:45:00+09:00",
+      "league_id": 920743,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=france",
-      "streaming_url": "https://cdn.singhs.com.np/france.json",
-      "event_id": 5181794,
+      "details_url": "https://home.getemoji.online/?yosintv=croatia",
+      "streaming_url": "https://cdn.singhs.com.np/croatia.json",
+      "event_id": 5181855,
       "football_data": {
         "event": {
-          "match_id": 5181794,
-          "league": "UEFA Nations League A Grp. 1",
-          "league_id": 920741,
+          "match_id": 5181855,
+          "league": "UEFA Nations League A Grp. 3",
+          "league_id": 920743,
           "round": 4,
-          "tournament": "UEFA Nations League A Grp. 1",
-          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
-          "venue": "Stade de France",
-          "venue_city": "Saint-Denis",
-          "venue_country": "France",
-          "venue_lat": 48.924483714,
-          "venue_lng": 2.36009717,
-          "stadium_capacity": 81338,
+          "tournament": "UEFA Nations League A Grp. 3",
+          "kick_off_time_utc": "Tue, 06 Oct 2026 18:45:00 GMT",
+          "venue": "Stadion Poljud",
+          "venue_city": "Split",
+          "venue_country": "Croatia",
+          "venue_lat": 43.519512707,
+          "venue_lng": 16.431571841,
+          "stadium_capacity": 34448,
           "stadium_surface": "grass",
-          "referee": "Nick Walsh",
+          "referee": "Erik Lambrechts",
           "home_team": {
-            "name": "France",
-            "id": 6723
+            "name": "Croatia",
+            "id": 10155
           },
           "away_team": {
-            "name": "Belgium",
-            "id": 8263
+            "name": "Spain",
+            "id": 6720
           },
-          "home_manager": "Zinédine Zidane",
-          "away_manager": "Mark van Bommel",
+          "home_manager": "Slaven Bilić",
+          "away_manager": "Luis de la Fuente",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 8,
-          "draws": 2,
+          "homeWins": 2,
+          "draws": 1,
+          "awayWins": 5
+        },
+        "lineups": {
+          "home_formation": "4-1-4-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Dominik Livaković", "Ivan Smolčić", "Josip Šutalo", "Luka Vušković", "Joško Gvardiol", "Luka Modrić", "Marco Pašalić", "Petar Sučić", "Josip Mišić", "Martin Baturina", "Igor Matanović"],
+          "away_players": ["Unai Simón", "Marc Pubill", "Robin Le Normand", "Dean Huijsen", "Marc Cucurella", "Martín Zubimendi", "Pedri", "Lamine Yamal", "Fermín López", "Víctor Muñoz", "Mikel Oyarzabal"],
+          "home_missing_players": ["Martin Erlić", "Josip Juranović"],
+          "away_missing_players": ["Ferrán Torres", "Nico Williams", "Alejandro Grimaldo", "Joan García"]
+        },
+        "pregame_form": {
+          "home": "WLWLL",
+          "away": "WWWWW"
+        }
+      }
+    },
+    {
+      "team1": "England",
+      "team1_logo": "https://img.singhs.com.np/team/8491.png",
+      "team2": "Czechia",
+      "team2_logo": "https://img.singhs.com.np/team/8496.png",
+      "league_logo": "https://img.singhs.com.np/league/920743.png",
+      "league": "UEFA Nations League A Grp. 3",
+      "start": "2026-10-07T03:45:00+09:00",
+      "league_id": 920743,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=england",
+      "streaming_url": "https://cdn.singhs.com.np/england.json",
+      "event_id": 5181856,
+      "football_data": {
+        "event": {
+          "match_id": 5181856,
+          "league": "UEFA Nations League A Grp. 3",
+          "league_id": 920743,
+          "round": 4,
+          "tournament": "UEFA Nations League A Grp. 3",
+          "kick_off_time_utc": "Tue, 06 Oct 2026 18:45:00 GMT",
+          "venue": "Wembley Stadium",
+          "venue_city": "London",
+          "venue_country": "England",
+          "venue_lat": 51.555855089,
+          "venue_lng": -0.279593468,
+          "stadium_capacity": 90000,
+          "stadium_surface": "grass",
+          "referee": "Serdar Gözübüyük",
+          "home_team": {
+            "name": "England",
+            "id": 8491
+          },
+          "away_team": {
+            "name": "Czechia",
+            "id": 8496
+          },
+          "home_manager": "Thomas Tuchel",
+          "away_manager": "Santi Denia",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 3,
+          "draws": 0,
           "awayWins": 1
         },
         "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-3-3",
-          "home_players": ["Mike Maignan", "Jules Koundé", "Jérémy Jacquet", "Maxence Lacroix", "Adrien Truffert", "Rayan Cherki", "Manu Koné", "Eduardo Camavinga", "Michael Olise", "Estéban Lepaul", "Bradley Barcola"],
-          "away_players": ["Senne Lammens", "Timothy Castagne", "Nathan Ngoy", "Brandon Mechele", "Joaquin Seys", "Nicolas Raskin", "Roméo Lavia", "Hans Vanaken", "Dodi Lukébakio", "Charles De Ketelaere", "Mika Godts"],
-          "home_missing_players": ["Mattéo Guendouzi", "Warren Zaïre-Emery", "Dayot Upamecano"],
-          "away_missing_players": ["Kevin De Bruyne", "Youri Tielemans"]
-        },
-        "pregame_form": {
-          "home": "LLWWD",
-          "away": "WLWLW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Italy",
-      "team1_logo": "https://img.singhs.com.np/team/8204.png",
-      "team2": "Turkiye",
-      "team2_logo": "https://img.singhs.com.np/team/6595.png",
-      "league_logo": "https://img.singhs.com.np/league/920741.png",
-      "league": "UEFA Nations League A Grp. 1",
-      "start": "2026-10-06T03:45:00+09:00",
-      "league_id": 920741,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=italy",
-      "streaming_url": "https://cdn.singhs.com.np/italy.json",
-      "event_id": 5181795,
-      "football_data": {
-        "event": {
-          "match_id": 5181795,
-          "league": "UEFA Nations League A Grp. 1",
-          "league_id": 920741,
-          "round": 4,
-          "tournament": "UEFA Nations League A Grp. 1",
-          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
-          "venue": "Stadio Renato Dall'Ara",
-          "venue_city": "Bologna",
-          "venue_country": "Italy",
-          "venue_lat": 44.492290396,
-          "venue_lng": 11.309956759,
-          "stadium_capacity": 39279,
-          "stadium_surface": "grass",
-          "referee": "Szymon Marciniak",
-          "home_team": {
-            "name": "Italy",
-            "id": 8204
-          },
-          "away_team": {
-            "name": "Turkiye",
-            "id": 6595
-          },
-          "home_manager": "Roberto Mancini",
-          "away_manager": "Vincenzo Montella",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 4,
-          "draws": 1,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
+          "home_formation": "4-2-3-1",
           "away_formation": "4-4-2",
-          "home_players": ["Gianluigi Donnarumma", "Michael Kayode", "Gianluca Mancini", "Alessandro Bastoni", "Matteo Ruggeri", "Nicolò Barella", "Alessandro Romano", "Issa Doumbia", "Antonio Vergara", "Gianluca Scamacca", "Daniel Maldini"],
-          "away_players": ["Uğurcan Çakir", "Zeki Çelik", "Merih Demiral", "Ozan Kabak", "Ferdi Kadıoğlu", "Oğuz Aydın", "Salih Özcan", "Ismail Yüksek", "Yunus Akgün", "Deniz Gül", "Kerem Aktürkoglu"],
-          "home_missing_players": ["Moise Kean"],
-          "away_missing_players": []
+          "home_players": ["Jordan Pickford", "Trent Alexander-Arnold", "Trevoh Chalobah", "Jarrad Branthwaite", "Lewis Hall", "Elliot Anderson", "Myles Lewis-Skelly", "Bukayo Saka", "Morgan Rogers", "Anthony Gordon", "Harry Kane"],
+          "away_players": ["Lukás Hornícek", "Michal Sácek", "Robin Hranác", "Martin Vitík", "Jirí Sláma", "Matěj Radosta", "Alex Král", "Michal Sadílek", "Lukás Ambros", "Ryan Don Naderi", "Adam Hložek"],
+          "home_missing_players": ["Nico O'Reilly"],
+          "away_missing_players": ["Ladislav Krejcí"]
         },
         "pregame_form": {
-          "home": "WWLWD",
-          "away": "LWLLL"
+          "home": "LWLWW",
+          "away": "DLLLL"
         }
-      },
-      "pushed": true
+      }
     },
     {
-      "team1": "Romania",
-      "team1_logo": "https://img.singhs.com.np/team/9730.png",
-      "team2": "Sweden",
-      "team2_logo": "https://img.singhs.com.np/team/8520.png",
-      "league_logo": "https://img.singhs.com.np/league/920748.png",
-      "league": "UEFA Nations League B Grp. 4",
-      "start": "2026-10-06T03:45:00+09:00",
-      "league_id": 920748,
+      "team1": "Switzerland",
+      "team1_logo": "https://img.singhs.com.np/team/6717.png",
+      "team2": "North Macedonia",
+      "team2_logo": "https://img.singhs.com.np/team/8260.png",
+      "league_logo": "https://img.singhs.com.np/league/920745.png",
+      "league": "UEFA Nations League B Grp. 1",
+      "start": "2026-10-07T03:45:00+09:00",
+      "league_id": 920745,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=romania",
-      "streaming_url": "https://cdn.singhs.com.np/romania.json",
-      "event_id": 5181844,
+      "details_url": "https://home.getemoji.online/?yosintv=switzerland",
+      "streaming_url": "https://cdn.singhs.com.np/switzerland.json",
+      "event_id": 5181783,
       "football_data": {
         "event": {
-          "match_id": 5181844,
-          "league": "UEFA Nations League B Grp. 4",
-          "league_id": 920748,
+          "match_id": 5181783,
+          "league": "UEFA Nations League B Grp. 1",
+          "league_id": 920745,
           "round": 4,
-          "tournament": "UEFA Nations League B Grp. 4",
-          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
-          "venue": "Arena Naţională",
-          "venue_city": "Bucureşti",
-          "venue_country": "Romania",
-          "venue_lat": 44.437208058,
-          "venue_lng": 26.152498126,
-          "stadium_capacity": 55611,
+          "tournament": "UEFA Nations League B Grp. 1",
+          "kick_off_time_utc": "Tue, 06 Oct 2026 18:45:00 GMT",
+          "venue": "thermoplan arena",
+          "venue_city": "Luzern",
+          "venue_country": "Switzerland",
+          "venue_lat": 47.032917645,
+          "venue_lng": 8.305138319,
+          "stadium_capacity": 16490,
           "stadium_surface": "grass",
-          "referee": "Elchin Məsiyev",
+          "referee": "Edgars Maļcevs",
           "home_team": {
-            "name": "Romania",
-            "id": 9730
+            "name": "Switzerland",
+            "id": 6717
           },
           "away_team": {
-            "name": "Sweden",
-            "id": 8520
+            "name": "North Macedonia",
+            "id": 8260
           },
-          "home_manager": "Gheorghe Hagi",
-          "away_manager": "Graham Potter",
+          "home_manager": "Murat Yakın",
+          "away_manager": "Goce Sedloski",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
           "homeWins": 1,
-          "draws": 1,
-          "awayWins": 3
+          "draws": 0,
+          "awayWins": 0
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": ["Ottó Hindrich", "Andrei Rațiu", "Andrei Coubiș", "Matei Cristian Ilie", "Nicușor Bancu", "Răzvan Marin", "Vlad Dragomir", "Nicolae Stanciu", "Dennis Man", "Darius Olaru", "Florin Tănase"],
-          "away_players": ["Viktor Johansson", "Felix Beijmo", "Eric Smith", "Victor Nilsson Lindelöf", "Gabriel Gudmundsson", "Alexander Bernhardsson", "Jesper Karlström", "Lucas Bergvall", "Sebastian Nanasi", "Besfort Zeneli", "Viktor Gyökeres"],
-          "home_missing_players": ["Radu Drăgușin", "Virgil Ghiță"],
-          "away_missing_players": ["Carl Starfelt", "Yasin Ayari", "Patrik Wålemark", "Benjamin Nygren", "Elliot Stroud", "Gustaf Lagerbielke", "Emil Holm"]
+          "away_formation": "3-4-2-1",
+          "home_players": ["Gregor Kobel", "Zachary Athekame", "Eray Cömert", "Manuel Akanji", "Sascha Britschgi", "Ardon Jashari", "Djibril Sow", "Michel Aebischer", "Johan Manzambi", "Dan Ndoye", "Winsley Boteli"],
+          "away_players": ["Stole Dimitrievski", "Mario Mladenovski", "Visar Musliu", "Anes Meljichi", "Bojan Ilievski", "Matej Gashtarov", "Luka Stankovski", "Sebastián Herrera", "Enis Bardhi", "Eljif Elmas", "Bojan Miovski"],
+          "home_missing_players": [],
+          "away_missing_players": ["Jani Atanasov"]
         },
         "pregame_form": {
-          "home": "DWLLL",
-          "away": "DLWWD"
+          "home": "DLWWW",
+          "away": "DLLLL"
         }
       }
     },
     {
-      "team1": "Bosnia and Herzegovina",
-      "team1_logo": "https://img.singhs.com.np/team/10106.png",
-      "team2": "Poland",
-      "team2_logo": "https://img.singhs.com.np/team/8568.png",
-      "league_logo": "https://img.singhs.com.np/league/920748.png",
-      "league": "UEFA Nations League B Grp. 4",
-      "start": "2026-10-06T03:45:00+09:00",
-      "league_id": 920748,
+      "team1": "Jordan",
+      "team1_logo": "https://img.singhs.com.np/team/5816.png",
+      "team2": "Venezuela",
+      "team2_logo": "https://img.singhs.com.np/team/5800.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-10-07T04:00:00+09:00",
+      "league_id": 914609,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=bosniaandherzegovina",
-      "streaming_url": "https://cdn.singhs.com.np/bosniaandherzegovina.json",
-      "event_id": 5181843,
+      "details_url": "https://home.getemoji.online/?yosintv=jordan",
+      "streaming_url": "https://cdn.singhs.com.np/jordan.json",
+      "event_id": 6368653,
       "football_data": {
         "event": {
-          "match_id": 5181843,
-          "league": "UEFA Nations League B Grp. 4",
-          "league_id": 920748,
-          "round": 4,
-          "tournament": "UEFA Nations League B Grp. 4",
-          "kick_off_time_utc": "Mon, 05 Oct 2026 18:45:00 GMT",
-          "venue": "Stadion Bilino Polje",
-          "venue_city": "Zenica",
-          "venue_country": "Bosnia-Herzegovina",
-          "venue_lat": 44.205804238,
-          "venue_lng": 17.90719986,
-          "stadium_capacity": 13812,
+          "match_id": 6368653,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Tue, 06 Oct 2026 19:00:00 GMT",
+          "venue": "King Abdullah International Stadium",
+          "venue_city": "ʿAmmān (Amman)",
+          "venue_country": "Jordan",
+          "venue_lat": 31.927707486,
+          "venue_lng": 35.953252316,
+          "stadium_capacity": 18000,
           "stadium_surface": "grass",
-          "referee": "Jérémie Pignard",
+          "referee": null,
           "home_team": {
-            "name": "Bosnia and Herzegovina",
-            "id": 10106
+            "name": "Jordan",
+            "id": 5816
           },
           "away_team": {
-            "name": "Poland",
-            "id": 8568
+            "name": "Venezuela",
+            "id": 5800
           },
-          "home_manager": "Sergej Barbarez",
-          "away_manager": "Jan Urban",
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Odeh Fakhoury"],
+          "away_missing_players": ["Alejandro Marqués", "David Martínez", "Daniel Pereira"]
+        },
+        "pregame_form": {
+          "home": "LLLLD",
+          "away": "DLWLD"
+        }
+      }
+    },
+    {
+      "team1": "Argentina",
+      "team1_logo": "https://img.singhs.com.np/team/6706.png",
+      "team2": "Benin",
+      "team2_logo": "https://img.singhs.com.np/team/5883.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-10-07T08:00:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=argentina",
+      "streaming_url": "https://cdn.singhs.com.np/argentina.json",
+      "event_id": 6266053,
+      "football_data": {
+        "event": {
+          "match_id": 6266053,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Tue, 06 Oct 2026 23:00:00 GMT",
+          "venue": "Estadio Monumental",
+          "venue_city": "Capital Federal, Ciudad de Bueno",
+          "venue_country": "Argentina",
+          "venue_lat": -34.545325187,
+          "venue_lng": -58.449722528,
+          "stadium_capacity": 85018,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Argentina",
+            "id": 6706
+          },
+          "away_team": {
+            "name": "Benin",
+            "id": 5883
+          },
+          "home_manager": null,
+          "away_manager": "Gernot Rohr",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Emiliano Martínez", "Agustín Giay", "Cristian Romero", "Lisandro Martínez", "Facundo Medina", "Nico Paz", "Enzo Fernández", "Alexis Mac Allister", "Gianluca Prestianni", "Lautaro Martínez", "Julián Álvarez"],
+          "away_players": ["Marcel Dandjinou", "Tamimou Ouorou", "Charlemagne Azongnitode", "Mohamed Tijani", "Yohan Roche", "Sessi D'Almeida", "Hassane Imourane", "Yamirou Ouorou", "Junior Olaïtan", "Rodolfo Aloko", "Aiyegun Tosin"],
+          "home_missing_players": ["Giovani Lo Celso", "Thiago Almada", "Nicolás Tagliafico"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "WWLWW",
+          "away": "LLWDW"
+        }
+      }
+    },
+    {
+      "team1": "Colombia",
+      "team1_logo": "https://img.singhs.com.np/team/8258.png",
+      "team2": "Peru",
+      "team2_logo": "https://img.singhs.com.np/team/5798.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-10-07T08:45:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=colombia",
+      "streaming_url": "https://cdn.singhs.com.np/colombia.json",
+      "event_id": 6299694,
+      "football_data": {
+        "event": {
+          "match_id": 6299694,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Tue, 06 Oct 2026 23:45:00 GMT",
+          "venue": "Hard Rock Stadium",
+          "venue_city": "Miami Gardens, Florida",
+          "venue_country": "United States",
+          "venue_lat": 25.957919269,
+          "venue_lng": -80.23884058,
+          "stadium_capacity": 74916,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Colombia",
+            "id": 8258
+          },
+          "away_team": {
+            "name": "Peru",
+            "id": 5798
+          },
+          "home_manager": null,
+          "away_manager": null,
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 0,
-          "draws": 2,
+          "homeWins": 7,
+          "draws": 7,
           "awayWins": 3
         },
         "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Martin Zlomislić", "Nikola Katić", "Tarik Muharemović", "Zinedin Smajlović", "Sead Kolašinac", "Amar Memić", "Ermin Mahmić", "Ivan Bašić", "Ermedin Demirović", "Haris Tabaković", "Armin Gigović"],
-          "away_players": ["Marcin Bułka", "Matty Cash", "Jan Bednarek", "Jakub Kiwior", "Przemysław Frankowski", "Piotr Zieliński", "Wiktor Nowak", "Karol Świderski", "Sebastian Szymański", "Nicola Zalewski", "Mateusz Żukowski"],
-          "home_missing_players": ["Kerim Alajbegović"],
-          "away_missing_players": ["Jakub Kamiński", "Filip Rózga", "Robert Lewandowski"]
+          "home_formation": "3-4-3",
+          "away_formation": "4-4-1-1",
+          "home_players": ["Aldair Quintana", "Kevin Andrade", "Davinson Sánchez", "Jhon Lucumí", "Édier Ocampo", "Richard Ríos", "Gustavo Puerta", "Álvaro Angulo", "Yáser Asprilla", "Luis Suárez", "Jhon Arias"],
+          "away_players": ["Diego Romero", "Oliver Sonne", "Miguel Araujo", "Alfonso Barco", "Marcos López", "Bassco Soyer", "Oslimg Mora", "Wilder Cartagena", "Yoshimar Yotún", "Jairo Vélez", "Álex Valera"],
+          "home_missing_players": ["Juan Quintero"],
+          "away_missing_players": []
         },
         "pregame_form": {
-          "home": "WLDWD",
-          "away": "LDDLW"
+          "home": "DWDDL",
+          "away": "WLLDL"
+        }
+      }
+    },
+    {
+      "team1": "USA",
+      "team1_logo": "https://img.singhs.com.np/team/6713.png",
+      "team2": "Canada",
+      "team2_logo": "https://img.singhs.com.np/team/5810.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-10-07T09:00:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=usa",
+      "streaming_url": "https://cdn.singhs.com.np/usa.json",
+      "event_id": 5991876,
+      "football_data": {
+        "event": {
+          "match_id": 5991876,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Wed, 07 Oct 2026 00:00:00 GMT",
+          "venue": "Allianz Field",
+          "venue_city": "Saint Paul, Minnesota",
+          "venue_country": "United States",
+          "venue_lat": 44.953127965,
+          "venue_lng": -93.164766323,
+          "stadium_capacity": 19954,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "USA",
+            "id": 6713
+          },
+          "away_team": {
+            "name": "Canada",
+            "id": 5810
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 5,
+          "draws": 4,
+          "awayWins": 4
+        },
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-4-2",
+          "home_players": ["Diego Kochen", "Alex Freeman", "Chris Richards", "Auston Trusty", "Antonee Robinson", "Cavan Sullivan", "Sebastian Berhalter", "Tyler Adams", "Giovanni Reyna", "Julian Hall", "Malik Tillman"],
+          "away_players": ["Owen Goodman", "Niko Sigur", "Luc De Fougerolles", "Ralph Priso-Mbongue", "Richard Chukwu", "Liam Millar", "Stephen Eustaquio", "Nathan Saliba", "Jacob Shaffelburg", "Daniel Jebbison", "Jonathan David"],
+          "home_missing_players": [],
+          "away_missing_players": ["Tajon Buchanan", "Derek Cornelius", "Alfie Jones", "Ali Ahmed", "Moïse Bombito", "Alistair Johnston", "Ismaël Koné"]
+        },
+        "pregame_form": {
+          "home": "WLWWW",
+          "away": "LWLWW"
+        }
+      }
+    },
+    {
+      "team1": "Mexico",
+      "team1_logo": "https://img.singhs.com.np/team/6710.png",
+      "team2": "Chile",
+      "team2_logo": "https://img.singhs.com.np/team/9762.png",
+      "league_logo": "https://img.singhs.com.np/league/914609.png",
+      "league": "Friendlies",
+      "start": "2026-10-07T11:30:00+09:00",
+      "league_id": 914609,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=mexico",
+      "streaming_url": "https://cdn.singhs.com.np/mexico.json",
+      "event_id": 6368654,
+      "football_data": {
+        "event": {
+          "match_id": 6368654,
+          "league": "Friendlies",
+          "league_id": 914609,
+          "round": null,
+          "tournament": "Friendlies",
+          "kick_off_time_utc": "Wed, 07 Oct 2026 02:30:00 GMT",
+          "venue": "United Airlines Field at the Los Angeles Memorial Coliseum",
+          "venue_city": "Los Angeles, California",
+          "venue_country": "United States",
+          "venue_lat": 34.014014187,
+          "venue_lng": -118.288008571,
+          "stadium_capacity": 93607,
+          "stadium_surface": "artificial turf",
+          "referee": null,
+          "home_team": {
+            "name": "Mexico",
+            "id": 6710
+          },
+          "away_team": {
+            "name": "Chile",
+            "id": 9762
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 3,
+          "draws": 3,
+          "awayWins": 4
+        },
+        "lineups": {
+          "home_formation": "4-4-1-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Raúl Rangel", "Israel Reyes", "Diego Campillo", "Johan Vásquez", "Jesús Gallardo", "Roberto Alvarado", "Érik Lira", "Luis Romo", "Orbelín Pineda", "Santiago Sandoval", "Santiago Giménez"],
+          "away_players": ["Lawrence Vigouroux", "Felipe Faúndez", "Jonathan Villagra", "Iván Román", "Diego Ulloa", "Felipe Loyola", "Felipe Méndez", "Darío Osorio", "Nils Reichmuth", "Maximiliano Gutiérrez", "Ben Brereton"],
+          "home_missing_players": [],
+          "away_missing_players": ["Ian Garguez"]
+        },
+        "pregame_form": {
+          "home": "WLDDL",
+          "away": "LLWLL"
         }
       }
     }
