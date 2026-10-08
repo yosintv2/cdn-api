@@ -55,6 +55,20 @@
       "streaming_url": "https://cdn.singhs.com.np/pakistan.json",
       "event_id": "274137",
       "cricket_data": null
+    },
+    {
+      "team1": "India",
+      "team2": "West Indies",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/india.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/westindies.png",
+      "league": "West Indies in India, 5 T20I Series, 2026",
+      "start": "2026-10-11T22:30:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=india",
+      "streaming_url": "https://cdn.singhs.com.np/india.json",
+      "event_id": "270275",
+      "cricket_data": null
     }
   ]
 }
