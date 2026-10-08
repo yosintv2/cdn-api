@@ -121,6 +121,189 @@
           "away": "DWLWD"
         }
       }
+    },
+    {
+      "team1": "Arsenal",
+      "team1_logo": "https://img.singhs.com.np/team/9825.png",
+      "team2": "Leeds",
+      "team2_logo": "https://img.singhs.com.np/team/8463.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-10T20:30:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=arsenal",
+      "streaming_url": "https://cdn.singhs.com.np/arsenal.json",
+      "event_id": 5795465,
+      "football_data": {
+        "event": {
+          "match_id": 5795465,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 6,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 10 Oct 2026 11:30:00 GMT",
+          "venue": "Emirates Stadium",
+          "venue_city": "London",
+          "venue_country": "England",
+          "venue_lat": 51.555074614,
+          "venue_lng": -0.108457804,
+          "stadium_capacity": 60704,
+          "stadium_surface": "grass",
+          "referee": "Paul Tierney",
+          "home_team": {
+            "name": "Arsenal",
+            "id": 9825
+          },
+          "away_team": {
+            "name": "Leeds United",
+            "id": 8463
+          },
+          "home_manager": "Mikel Arteta",
+          "away_manager": "Daniel Farke",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 11,
+          "draws": 2,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-5-2",
+          "home_players": ["David Raya", "Jurriën Timber", "Piero Hincapié", "Gabriel", "Riccardo Calafiori", "Eberechi Eze", "Bruno Guimarães", "Bukayo Saka", "Martin Ødegaard", "Noni Madueke", "Viktor Gyökeres"],
+          "away_players": ["James Trafford", "James Justin", "Nico Elvedi", "Tarik Muharemović", "Jayden Bogle", "Anton Stach", "Ethan Ampadu", "Ao Tanaka", "Gabriel Gudmundsson", "Dominic Calvert-Lewin", "Noah Okafor"],
+          "home_missing_players": ["Ben White", "Cristhian Mosquera", "Ezri Konsa", "William Saliba", "Max Dowman", "Christos Tzolis", "Kai Havertz"],
+          "away_missing_players": ["Joe Rodon", "Harry Wilson", "Jean-Mattéo Bahoya", "Mateo Joseph"]
+        },
+        "pregame_form": {
+          "home": "WWWWL",
+          "away": "DDLWD"
+        }
+      }
+    },
+    {
+      "team1": "Augsburg",
+      "team1_logo": "https://img.singhs.com.np/team/8406.png",
+      "team2": "Bayern München",
+      "team2_logo": "https://img.singhs.com.np/team/9823.png",
+      "league_logo": "https://img.singhs.com.np/league/54.png",
+      "league": "Bundesliga",
+      "start": "2026-10-10T22:30:00+09:00",
+      "league_id": 54,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=bayernmunchen",
+      "streaming_url": "https://cdn.singhs.com.np/bayernmunchen.json",
+      "event_id": 5881179,
+      "football_data": {
+        "event": {
+          "match_id": 5881179,
+          "league": "Bundesliga",
+          "league_id": 54,
+          "round": 5,
+          "tournament": "Bundesliga",
+          "kick_off_time_utc": "Sat, 10 Oct 2026 13:30:00 GMT",
+          "venue": "WWK Arena",
+          "venue_city": "Augsburg",
+          "venue_country": "Germany",
+          "venue_lat": 48.32310136,
+          "venue_lng": 10.885949135,
+          "stadium_capacity": 30662,
+          "stadium_surface": "grass",
+          "referee": "Sven Jablonski",
+          "home_team": {
+            "name": "Augsburg",
+            "id": 8406
+          },
+          "away_team": {
+            "name": "Bayern München",
+            "id": 9823
+          },
+          "home_manager": "Manuel Baum",
+          "away_manager": "Vincent Kompany",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 5,
+          "draws": 2,
+          "awayWins": 27
+        },
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Finn Dahmen", "Jeffrey Gouweleeuw", "Chrislain Matsima", "Yannik Keitel", "Marius Wolf", "Han-Noah Massengo", "Fabian Rieder", "Hennes Behrens", "Robin Fellhauer", "Mert Kömür", "Michael Gregoritsch"],
+          "away_players": ["Manuel Neuer", "Josip Stanišić", "Dayot Upamecano", "Jonathan Tah", "Alphonso Davies", "Joshua Kimmich", "Aleksandar Pavlović", "Michael Olise", "Tom Bischof", "Luis Díaz", "Harry Kane"],
+          "home_missing_players": ["Noahkai Banks", "Anton Kade", "Faik Sakar", "Sima Suso", "Tim Breithaupt", "Steve Mounié"],
+          "away_missing_players": ["Jamal Musiala"]
+        },
+        "pregame_form": {
+          "home": "WWWDL",
+          "away": "WDWWW"
+        }
+      }
+    },
+    {
+      "team1": "Chelsea",
+      "team1_logo": "https://img.singhs.com.np/team/8455.png",
+      "team2": "Bournemouth",
+      "team2_logo": "https://img.singhs.com.np/team/8678.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-10T23:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
+      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
+      "event_id": 5795467,
+      "football_data": {
+        "event": {
+          "match_id": 5795467,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 6,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 10 Oct 2026 14:00:00 GMT",
+          "venue": "Stamford Bridge",
+          "venue_city": "London",
+          "venue_country": "England",
+          "venue_lat": 51.481711963,
+          "venue_lng": -0.190974623,
+          "stadium_capacity": 40044,
+          "stadium_surface": "grass",
+          "referee": "Samuel Barrott",
+          "home_team": {
+            "name": "Chelsea",
+            "id": 8455
+          },
+          "away_team": {
+            "name": "AFC Bournemouth",
+            "id": 8678
+          },
+          "home_manager": "Xabi Alonso",
+          "away_manager": "Marco Rose",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 12,
+          "draws": 5,
+          "awayWins": 4
+        },
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Emiliano Martínez", "Wesley Fofana", "Maxence Lacroix", "Levi Colwill", "Pedro Neto", "Jordan Henderson", "Valentín Barco", "Pep Chavarría", "Cole Palmer", "Morgan Rogers", "Danny Welbeck"],
+          "away_players": ["Djordje Petrović", "Adam Smith", "James Hill", "António Silva", "Adrien Truffert", "Tyler Adams", "Lewis Cook", "Rayan", "Ryan Christie", "Marcus Tavernier", "Evanilson"],
+          "home_missing_players": ["Marco Palestra", "Moisés Caicedo", "Reece James", "Emanuel Emegha", "Jamie Gittens", "João Pedro"],
+          "away_missing_players": ["Julián Araujo", "Veljko Milosavljević", "Alex Scott", "Junior Kroupi", "Justin Kluivert", "Amine Adli", "David Brooks"]
+        },
+        "pregame_form": {
+          "home": "WLWDL",
+          "away": "DWDWL"
+        }
+      }
     }
   ]
 }
