@@ -52,7 +52,9 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Sultan Al Ghannam"],
+          "home_missing_players": [
+            "Sultan Al Ghannam"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
@@ -112,10 +114,50 @@
         "lineups": {
           "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Gregor Kobel", "Joane Gadou", "Waldemar Anton", "Ramy Bensebaini", "Luca Reggiani", "Joey Veerman", "Felix Nmecha", "Maximilian Beier", "Ethan Nwaneri", "Fábio Silva", "Serhou Guirassy"],
-          "away_players": ["Alexander Schlager", "Arthur", "Amos Pieper", "Marco Friedl", "Olivier Deman", "Youri Regeer", "Ludovit Reis", "Eren Dinkçi", "Chuki", "Marco Grüll", "Niclas Füllkrug"],
-          "home_missing_players": ["Julian Ryerson", "Emre Can", "Filippo Mane", "Nico Schlotterbeck", "Giannis Konstantelias", "Justin Lerma"],
-          "away_missing_players": ["Moussa N'Diaye", "Senne Lynen", "Felix Agu", "Jens Stage", "Skelly Alvero", "Justin Njinmah", "Keke Topp", "Salim Musah"]
+          "home_players": [
+            "Gregor Kobel",
+            "Joane Gadou",
+            "Waldemar Anton",
+            "Ramy Bensebaini",
+            "Luca Reggiani",
+            "Joey Veerman",
+            "Felix Nmecha",
+            "Maximilian Beier",
+            "Ethan Nwaneri",
+            "Fábio Silva",
+            "Serhou Guirassy"
+          ],
+          "away_players": [
+            "Alexander Schlager",
+            "Arthur",
+            "Amos Pieper",
+            "Marco Friedl",
+            "Olivier Deman",
+            "Youri Regeer",
+            "Ludovit Reis",
+            "Eren Dinkçi",
+            "Chuki",
+            "Marco Grüll",
+            "Niclas Füllkrug"
+          ],
+          "home_missing_players": [
+            "Julian Ryerson",
+            "Emre Can",
+            "Filippo Mane",
+            "Nico Schlotterbeck",
+            "Giannis Konstantelias",
+            "Justin Lerma"
+          ],
+          "away_missing_players": [
+            "Moussa N'Diaye",
+            "Senne Lynen",
+            "Felix Agu",
+            "Jens Stage",
+            "Skelly Alvero",
+            "Justin Njinmah",
+            "Keke Topp",
+            "Salim Musah"
+          ]
         },
         "pregame_form": {
           "home": "WWWWW",
@@ -124,9 +166,9 @@
       }
     },
     {
-      "team1": "West Ham United",
+      "team1": "West Ham",
       "team1_logo": "https://img.singhs.com.np/team/8654.png",
-      "team2": "Queens Park Rangers",
+      "team2": "QPR",
       "team2_logo": "https://img.singhs.com.np/team/10172.png",
       "league_logo": "https://img.singhs.com.np/league/1000001801.png",
       "league": "Championship",
@@ -175,8 +217,19 @@
           "away_formation": null,
           "home_players": [],
           "away_players": [],
-          "home_missing_players": ["Mohamadou Kanté", "Joël Veltman", "Tomás Souček"],
-          "away_missing_players": ["Dennis Cirkin", "Tariq Lamptey", "Richard Kone", "Ilias Chair", "Boy Kemper", "Karamoko Dembélé"]
+          "home_missing_players": [
+            "Mohamadou Kanté",
+            "Joël Veltman",
+            "Tomás Souček"
+          ],
+          "away_missing_players": [
+            "Dennis Cirkin",
+            "Tariq Lamptey",
+            "Richard Kone",
+            "Ilias Chair",
+            "Boy Kemper",
+            "Karamoko Dembélé"
+          ]
         },
         "pregame_form": {
           "home": "WWWLD",
