@@ -3,7 +3,7 @@
     {
       "team1": "Arsenal",
       "team1_logo": "https://img.singhs.com.np/team/9825.png",
-      "team2": "Leeds United",
+      "team2": "Leeds",
       "team2_logo": "https://img.singhs.com.np/team/8463.png",
       "league_logo": "https://img.singhs.com.np/league/47.png",
       "league": "Premier League",
@@ -50,16 +50,17 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "3-5-2",
-          "home_players": ["David Raya", "Jurriën Timber", "Piero Hincapié", "Gabriel", "Riccardo Calafiori", "Eberechi Eze", "Bruno Guimarães", "Bukayo Saka", "Martin Ødegaard", "Noni Madueke", "Viktor Gyökeres"],
+          "home_players": ["David Raya", "Ben White", "Ezri Konsa", "Gabriel", "Riccardo Calafiori", "Declan Rice", "Myles Lewis-Skelly", "Bukayo Saka", "Martin Ødegaard", "Noni Madueke", "Kai Havertz"],
           "away_players": ["James Trafford", "James Justin", "Nico Elvedi", "Tarik Muharemović", "Jayden Bogle", "Anton Stach", "Ethan Ampadu", "Ao Tanaka", "Gabriel Gudmundsson", "Dominic Calvert-Lewin", "Noah Okafor"],
-          "home_missing_players": ["Ben White", "Cristhian Mosquera", "Ezri Konsa", "William Saliba", "Max Dowman", "Christos Tzolis", "Kai Havertz"],
-          "away_missing_players": ["Joe Rodon", "Harry Wilson", "Jean-Mattéo Bahoya", "Mateo Joseph"]
+          "home_missing_players": ["Cristhian Mosquera", "William Saliba", "Christos Tzolis"],
+          "away_missing_players": ["Joe Rodon", "Daniel James", "Mateo Joseph"]
         },
         "pregame_form": {
           "home": "WWWWL",
           "away": "DDLWD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Rayo Vallecano",
@@ -120,7 +121,8 @@
           "home": "LWLWD",
           "away": "WWDDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Augsburg",
@@ -172,16 +174,17 @@
         "lineups": {
           "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Finn Dahmen", "Jeffrey Gouweleeuw", "Chrislain Matsima", "Yannik Keitel", "Marius Wolf", "Han-Noah Massengo", "Fabian Rieder", "Hennes Behrens", "Robin Fellhauer", "Mert Kömür", "Michael Gregoritsch"],
-          "away_players": ["Manuel Neuer", "Josip Stanišić", "Dayot Upamecano", "Jonathan Tah", "Alphonso Davies", "Joshua Kimmich", "Aleksandar Pavlović", "Michael Olise", "Tom Bischof", "Luis Díaz", "Harry Kane"],
-          "home_missing_players": ["Noahkai Banks", "Anton Kade", "Faik Sakar", "Sima Suso", "Tim Breithaupt", "Steve Mounié"],
+          "home_players": ["Finn Dahmen", "Chrislain Matsima", "Jeffrey Gouweleeuw", "Calvin Brackelmann", "Marius Wolf", "Han-Noah Massengo", "Fabian Rieder", "Hennes Behrens", "Robin Fellhauer", "Alexis Claude-Maurice", "Michael Gregoritsch"],
+          "away_players": ["Manuel Neuer", "Konrad Laimer", "Dayot Upamecano", "Jonathan Tah", "Alphonso Davies", "Joshua Kimmich", "Aleksandar Pavlović", "Lennart Karl", "Michael Olise", "Luis Díaz", "Harry Kane"],
+          "home_missing_players": ["Anton Kade", "Tim Breithaupt", "Noahkai Banks", "Faik Sakar", "Sima Suso", "Steve Mounié"],
           "away_missing_players": ["Jamal Musiala"]
         },
         "pregame_form": {
           "home": "WWWDL",
           "away": "WDWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Aston Villa",
@@ -233,21 +236,22 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Zion Suzuki", "Aaron Wan-Bissaka", "Victor Nilsson Lindelöf", "Tyrone Mings", "Matteo Ruggeri", "Boubacar Kamara", "João Gomes", "John McGinn", "Johan Manzambi", "Emiliano Buendía", "Nicolas Jackson"],
+          "home_players": ["Zion Suzuki", "Aaron Wan-Bissaka", "Victor Nilsson Lindelöf", "Tyrone Mings", "Matteo Ruggeri", "Boubacar Kamara", "João Gomes", "Ibrahim Mbaye", "Johan Manzambi", "Emiliano Buendía", "Nicolas Jackson"],
           "away_players": ["Caoimhín Kelleher", "Michael Kayode", "Jannik Schuster", "Kristoffer Ajer", "Keane Lewis-Potter", "Mamadou Sangaré", "Vitaly Janelt", "Jaidon Anthony", "Yehor Yarmoliuk", "Kevin Schade", "Igor Thiago"],
-          "home_missing_players": ["Marco Bizot", "Pau Torres", "Ian Maatsen", "Modou Kéba Cissé", "Amadou Onana", "Leon Goretzka"],
-          "away_missing_players": ["Dango Ouattara", "Nathan Collins", "Sepp van den Berg", "Antoni Milambo", "Mathias Jensen", "Mikkel Damsgaard", "Joshua Dasilva"]
+          "home_missing_players": ["Matty Cash", "Modou Kéba Cissé", "Marco Bizot", "Leon Goretzka", "Ian Maatsen", "Amadou Onana"],
+          "away_missing_players": ["Mikkel Damsgaard", "Dango Ouattara", "Nathan Collins", "Mathias Jensen", "Sepp van den Berg", "Antoni Milambo", "Joshua Dasilva"]
         },
         "pregame_form": {
           "home": "WLWWW",
           "away": "DDDWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Chelsea",
       "team1_logo": "https://img.singhs.com.np/team/8455.png",
-      "team2": "AFC Bournemouth",
+      "team2": "Bournemouth",
       "team2_logo": "https://img.singhs.com.np/team/8678.png",
       "league_logo": "https://img.singhs.com.np/league/47.png",
       "league": "Premier League",
@@ -294,21 +298,22 @@
         "lineups": {
           "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Emiliano Martínez", "Wesley Fofana", "Maxence Lacroix", "Levi Colwill", "Pedro Neto", "Jordan Henderson", "Valentín Barco", "Pep Chavarría", "Cole Palmer", "Morgan Rogers", "Danny Welbeck"],
+          "home_players": ["Emiliano Martínez", "Josh Acheampong", "Maxence Lacroix", "Levi Colwill", "Pedro Neto", "Moisés Caicedo", "Roméo Lavia", "Pep Chavarría", "Cole Palmer", "Morgan Rogers", "Danny Welbeck"],
           "away_players": ["Djordje Petrović", "Adam Smith", "James Hill", "António Silva", "Adrien Truffert", "Tyler Adams", "Lewis Cook", "Rayan", "Ryan Christie", "Marcus Tavernier", "Evanilson"],
-          "home_missing_players": ["Marco Palestra", "Moisés Caicedo", "Reece James", "Emanuel Emegha", "Jamie Gittens", "João Pedro"],
-          "away_missing_players": ["Julián Araujo", "Veljko Milosavljević", "Alex Scott", "Junior Kroupi", "Justin Kluivert", "Amine Adli", "David Brooks"]
+          "home_missing_players": ["Reece James", "Marco Palestra", "Emanuel Emegha", "Jamie Gittens"],
+          "away_missing_players": ["David Brooks", "Julián Araujo", "Veljko Milosavljević", "Alex Scott", "Junior Kroupi", "Justin Kluivert", "Amine Adli"]
         },
         "pregame_form": {
           "home": "WLWDL",
           "away": "DWDWL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Middlesbrough",
       "team1_logo": "https://img.singhs.com.np/team/8549.png",
-      "team2": "Wolverhampton Wanderers",
+      "team2": "Wolves",
       "team2_logo": "https://img.singhs.com.np/team/8602.png",
       "league_logo": "https://img.singhs.com.np/league/1000001801.png",
       "league": "Championship",
@@ -364,7 +369,8 @@
           "home": "WLWDD",
           "away": "LDWLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Deportivo Alavés",
@@ -394,7 +400,7 @@
           "venue_lng": -2.688246667,
           "stadium_capacity": 19840,
           "stadium_surface": "grass",
-          "referee": null,
+          "referee": "Alejandro Quintero González",
           "home_team": {
             "name": "Deportivo Alavés",
             "id": 9866
@@ -416,7 +422,7 @@
         "lineups": {
           "home_formation": "5-3-2",
           "away_formation": "4-4-2",
-          "home_players": ["Antonio Sivera", "Nahuel Tenaglia", "Nicolás Valentini", "Jonny Otto", "Ángel Pérez", "Abderrahman Rebbach", "Pablo Ibánez", "Antonio Blanco", "Carles Aleñá", "Toni Martínez", "Lucas Boyé"],
+          "home_players": ["Antonio Sivera", "Nahuel Tenaglia", "Nicolás Valentini", "Jonny Otto", "Ángel Pérez", "Abderrahman Rebbach", "Pablo Ibánez", "Antonio Blanco", "Denis Suárez", "Toni Martínez", "Lucas Boyé"],
           "away_players": ["Jan Oblak", "Marcos Llorente", "Marc Pubill", "Robin Le Normand", "Dávid Hancko", "Giuliano Simeone", "Koke", "Johnny Cardoso", "Álex Baena", "Kang-In Lee", "Ademola Lookman"],
           "home_missing_players": ["Facundo Garcés", "Ville Koski", "Mikel Rodríguez"],
           "away_missing_players": []
@@ -425,7 +431,8 @@
           "home": "WWLLD",
           "away": "LLWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Inter",
@@ -486,12 +493,13 @@
           "home": "WWLWD",
           "away": "LLDLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
-      "team1": "Manchester United",
+      "team1": "Man United",
       "team1_logo": "https://img.singhs.com.np/team/10260.png",
-      "team2": "Tottenham Hotspur",
+      "team2": "Tottenham",
       "team2_logo": "https://img.singhs.com.np/team/8586.png",
       "league_logo": "https://img.singhs.com.np/league/47.png",
       "league": "Premier League",
@@ -547,7 +555,8 @@
           "home": "DWLLD",
           "away": "LDDLL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Barcelona",
@@ -608,7 +617,8 @@
           "home": "WWWWW",
           "away": "LDDLW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Marítimo",
@@ -669,10 +679,11 @@
           "home": "DLLLD",
           "away": "WLWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
-      "team1": "Paris Saint-Germain",
+      "team1": "PSG",
       "team1_logo": "https://img.singhs.com.np/team/9847.png",
       "team2": "Le Mans",
       "team2_logo": "https://img.singhs.com.np/team/8682.png",
@@ -730,7 +741,8 @@
           "home": "DLWWW",
           "away": "DLDDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Napoli",
@@ -791,7 +803,8 @@
           "home": "LLLWD",
           "away": "WDWDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Real Madrid",
@@ -852,7 +865,8 @@
           "home": "LWWWL",
           "away": "LLLWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Inter Miami CF",
@@ -912,6 +926,129 @@
         "pregame_form": {
           "home": "DDWDL",
           "away": "WDLDL"
+        }
+      },
+      "pushed": true
+    },
+    {
+      "team1": "Como",
+      "team1_logo": "https://img.singhs.com.np/team/10171.png",
+      "team2": "Roma",
+      "team2_logo": "https://img.singhs.com.np/team/8686.png",
+      "league_logo": "https://img.singhs.com.np/league/55.png",
+      "league": "Serie A",
+      "start": "2026-10-11T19:30:00+09:00",
+      "league_id": 55,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=roma",
+      "streaming_url": "https://cdn.singhs.com.np/roma.json",
+      "event_id": 5749692,
+      "football_data": {
+        "event": {
+          "match_id": 5749692,
+          "league": "Serie A",
+          "league_id": 55,
+          "round": 6,
+          "tournament": "Serie A",
+          "kick_off_time_utc": "Sun, 11 Oct 2026 10:30:00 GMT",
+          "venue": "Stadio Giuseppe Sinigaglia",
+          "venue_city": "Como",
+          "venue_country": "Italy",
+          "venue_lat": 45.813856655,
+          "venue_lng": 9.072376192,
+          "stadium_capacity": 13602,
+          "stadium_surface": "grass",
+          "referee": "Michael Fabbri",
+          "home_team": {
+            "name": "Como",
+            "id": 10171
+          },
+          "away_team": {
+            "name": "Roma",
+            "id": 8686
+          },
+          "home_manager": "Cesc Fàbregas",
+          "away_manager": "Gian Piero Gasperini",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 2
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Jean Butez", "Yan Couto", "Jacobo Ramón", "Trevoh Chalobah", "Álex Valle", "Luis Milla", "Lucas Da Cunha", "Assane Diao", "Nico Paz", "Martin Baturina", "Anastasios Douvikas"],
+          "away_players": ["Mile Svilar", "Gianluca Mancini", "Leonardo Balerdi", "Mario Hermoso", "Wesley", "Lorenzo Pellegrini", "Manu Koné", "Nahuel Molina", "Paulo Dybala", "Matias Soulé", "Donyell Malen"],
+          "home_missing_players": [],
+          "away_missing_players": ["Bryan Cristante"]
+        },
+        "pregame_form": {
+          "home": "WWWWL",
+          "away": "WWDWD"
+        }
+      }
+    },
+    {
+      "team1": "Crystal Palace",
+      "team1_logo": "https://img.singhs.com.np/team/9826.png",
+      "team2": "Nottm Forest",
+      "team2_logo": "https://img.singhs.com.np/team/10203.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-11T22:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
+      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
+      "event_id": 5795469,
+      "football_data": {
+        "event": {
+          "match_id": 5795469,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 6,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sun, 11 Oct 2026 13:00:00 GMT",
+          "venue": "Selhurst Park",
+          "venue_city": "London",
+          "venue_country": "England",
+          "venue_lat": 51.398278578,
+          "venue_lng": -0.085503459,
+          "stadium_capacity": 25486,
+          "stadium_surface": "grass",
+          "referee": "Peter Bankes",
+          "home_team": {
+            "name": "Crystal Palace",
+            "id": 9826
+          },
+          "away_team": {
+            "name": "Nottingham Forest",
+            "id": 10203
+          },
+          "home_manager": "Pierre Sage",
+          "away_manager": "Oliver Glasner",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 8,
+          "awayWins": 6
+        },
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Walter Benítez", "Chris Richards", "Óscar Mingueza", "Jaydee Canvot", "Darío Osorio", "Quinten Timber", "Adam Wharton", "Tyrick Mitchell", "Daichi Kamada", "Yéremi Pino", "Jørgen Strand Larsen"],
+          "away_players": ["Matz Sels", "Jair Cunha", "Ousmane Diomande", "Murillo", "Daniel Muñoz", "Xaver Schlager", "James McAtee", "Neco Williams", "Dan Ndoye", "Morgan Gibbs-White", "Liam Delap"],
+          "home_missing_players": ["Dean Henderson", "Axel Disasi", "Chadi Riad", "Anan Khalaili", "Jean-Philippe Mateta"],
+          "away_missing_players": ["Nicolò Savona", "Nikola Milenković", "Igor Jesus"]
+        },
+        "pregame_form": {
+          "home": "WLWDL",
+          "away": "LDDWL"
         }
       }
     }
