@@ -6,7 +6,7 @@
       "team1_logo": "https://aimages.willow.tv/teamLogos/afghanistan.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/bangladesh.png",
       "league": "Afghanistan and Bangladesh in UAE, One-off Test, 2026",
-      "start": "2026-10-09T14:30:00+09:00",
+      "start": "2026-10-11T14:30:00+09:00",
       "duration": 10,
       "format": "Test",
       "details_url": "https://home.getemoji.online/?yosintv=afghanistan",
@@ -20,7 +20,7 @@
       "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/australia.png",
       "league": "Australia in South Africa, 3 Test Series, 2026",
-      "start": "2026-10-09T16:30:00+09:00",
+      "start": "2026-10-11T16:30:00+09:00",
       "duration": 10,
       "format": "Test",
       "details_url": "https://home.getemoji.online/?yosintv=southafrica",
@@ -29,17 +29,31 @@
       "cricket_data": null
     },
     {
+      "team1": "Canada",
+      "team2": "Nepal",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/canada.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
+      "league": "ICC CWC League 2, 2023-27",
+      "start": "2026-10-11T15:00:00+09:00",
+      "duration": 8,
+      "format": "ODI",
+      "details_url": "https://home.getemoji.online/?yosintv=canada",
+      "streaming_url": "https://cdn.singhs.com.np/canada.json",
+      "event_id": "273761",
+      "cricket_data": null
+    },
+    {
       "team1": "India",
       "team2": "West Indies",
       "team1_logo": "https://aimages.willow.tv/teamLogos/india.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/westindies.png",
       "league": "West Indies in India, 5 T20I Series, 2026",
-      "start": "2026-10-09T22:30:00+09:00",
+      "start": "2026-10-11T22:30:00+09:00",
       "duration": 5,
       "format": "T20",
       "details_url": "https://home.getemoji.online/?yosintv=india",
       "streaming_url": "https://cdn.singhs.com.np/india.json",
-      "event_id": "270274",
+      "event_id": "270275",
       "cricket_data": null
     },
     {
@@ -48,12 +62,12 @@
       "team1_logo": "https://aimages.willow.tv/teamLogos/pakistan.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
       "league": "Sri Lanka in Pakistan, 3 T20I Series, 2026",
-      "start": "2026-10-10T00:00:00+09:00",
+      "start": "2026-10-12T00:00:00+09:00",
       "duration": 5,
       "format": "T20",
       "details_url": "https://home.getemoji.online/?yosintv=pakistan",
       "streaming_url": "https://cdn.singhs.com.np/pakistan.json",
-      "event_id": "274137",
+      "event_id": "274138",
       "cricket_data": null
     }
   ]
