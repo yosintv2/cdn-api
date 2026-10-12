@@ -1,498 +1,122 @@
 {
   "matches": [
     {
-      "team1": "Elche",
-      "team1_logo": "https://img.singhs.com.np/team/10268.png",
-      "team2": "Celta Vigo",
-      "team2_logo": "https://img.singhs.com.np/team/9910.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-10-11T21:00:00+09:00",
-      "league_id": 87,
+      "team1": "Al Nassr FC",
+      "team1_logo": "https://img.singhs.com.np/team/101918.png",
+      "team2": "Neftchi Fargona",
+      "team2_logo": "https://img.singhs.com.np/team/102145.png",
+      "league_logo": "https://img.singhs.com.np/league/943983.png",
+      "league": "AFC Champions League Elite West",
+      "start": "2026-10-13T03:15:00+09:00",
+      "league_id": 943983,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=elche",
-      "streaming_url": "https://cdn.singhs.com.np/elche.json",
-      "event_id": 5868083,
+      "details_url": "https://home.getemoji.online/?yosintv=alnassrfc",
+      "streaming_url": "https://cdn.singhs.com.np/alnassrfc.json",
+      "event_id": 6050076,
       "football_data": {
         "event": {
-          "match_id": 5868083,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 8,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 12:00:00 GMT",
-          "venue": "Estadio Manuel Martínez Valero",
-          "venue_city": "Elche",
-          "venue_country": "Spain",
-          "venue_lat": 38.267129205,
-          "venue_lng": -0.663299561,
-          "stadium_capacity": 31388,
+          "match_id": 6050076,
+          "league": "AFC Champions League Elite West",
+          "league_id": 943983,
+          "round": 2,
+          "tournament": "AFC Champions League Elite West",
+          "kick_off_time_utc": "Mon, 12 Oct 2026 18:15:00 GMT",
+          "venue": "Al-Awwal Park",
+          "venue_city": "Riyadh",
+          "venue_country": "Saudi Arabia",
+          "venue_lat": 24.729226747,
+          "venue_lng": 46.623754371,
+          "stadium_capacity": 26100,
           "stadium_surface": "grass",
-          "referee": "Javier Alberola Rojas",
+          "referee": null,
           "home_team": {
-            "name": "Elche",
-            "id": 10268
+            "name": "Al Nassr FC",
+            "id": 101918
           },
           "away_team": {
-            "name": "Celta Vigo",
-            "id": 9910
+            "name": "Neftchi Fargona",
+            "id": 102145
           },
-          "home_manager": "Martín Anselmi",
-          "away_manager": "Claudio Giráldez",
+          "home_manager": null,
+          "away_manager": null,
           "gender": "male",
-          "coverage_level": "xG"
+          "coverage_level": "lower"
         },
-        "h2h": {
-          "homeWins": 5,
-          "draws": 3,
-          "awayWins": 8
-        },
+        "h2h": null,
         "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "3-4-3",
-          "home_players": ["Matías Dituro", "Rubén Sánchez", "Víctor Chust", "Javi Morcillo", "Roy Revivo", "Gonzalo Villar", "Marc Aguado", "Thomas Lemar", "Tete Morente", "Fer Niño", "Germán Valera"],
-          "away_players": ["Ionuț Radu", "Álvaro Núñez", "Yoel Lago", "Marcos Alonso", "Javi Rueda", "Ilaix Moriba", "Aleix Febas", "Javi Galán", "Ferrán Jutglà", "Pablo Durán", "Hugo Álvarez"],
-          "home_missing_players": ["Yago Santiago", "Federico Redondo"],
-          "away_missing_players": ["Carl Starfelt", "Jones El-Abdellaoui", "Miguel Román"]
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Abdulelah Al Amri", "Sultan Al Ghannam"],
+          "away_missing_players": []
         },
         "pregame_form": {
-          "home": "LLDLW",
-          "away": "DDDLW"
+          "home": "LWDLW",
+          "away": "LWWWD"
         }
       }
     },
     {
-      "team1": "Crystal Palace",
-      "team1_logo": "https://img.singhs.com.np/team/9826.png",
-      "team2": "Nottm Forest",
-      "team2_logo": "https://img.singhs.com.np/team/10203.png",
+      "team1": "Coventry",
+      "team1_logo": "https://img.singhs.com.np/team/8669.png",
+      "team2": "Newcastle",
+      "team2_logo": "https://img.singhs.com.np/team/10261.png",
       "league_logo": "https://img.singhs.com.np/league/47.png",
       "league": "Premier League",
-      "start": "2026-10-11T22:00:00+09:00",
+      "start": "2026-10-13T04:00:00+09:00",
       "league_id": 47,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
-      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
-      "event_id": 5795469,
+      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
+      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
+      "event_id": 5795468,
       "football_data": {
         "event": {
-          "match_id": 5795469,
+          "match_id": 5795468,
           "league": "Premier League",
           "league_id": 47,
           "round": 6,
           "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 13:00:00 GMT",
-          "venue": "Selhurst Park",
-          "venue_city": "London",
+          "kick_off_time_utc": "Mon, 12 Oct 2026 19:00:00 GMT",
+          "venue": "Coventry Building Society Arena",
+          "venue_city": "Coventry, West Midlands",
           "venue_country": "England",
-          "venue_lat": 51.398278578,
-          "venue_lng": -0.085503459,
-          "stadium_capacity": 25486,
+          "venue_lat": 52.448111389,
+          "venue_lng": -1.495629251,
+          "stadium_capacity": 32609,
           "stadium_surface": "grass",
-          "referee": "Peter Bankes",
+          "referee": "John Brooks",
           "home_team": {
-            "name": "Crystal Palace",
-            "id": 9826
+            "name": "Coventry City",
+            "id": 8669
           },
           "away_team": {
-            "name": "Nottingham Forest",
-            "id": 10203
+            "name": "Newcastle United",
+            "id": 10261
           },
-          "home_manager": "Pierre Sage",
-          "away_manager": "Oliver Glasner",
+          "home_manager": "Frank Lampard",
+          "away_manager": "Matthias Jaissle",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 1,
-          "draws": 8,
-          "awayWins": 6
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
         },
         "lineups": {
           "home_formation": "3-4-2-1",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Walter Benítez", "Jefferson Lerma", "Chris Richards", "Jaydee Canvot", "Anan Khalaili", "Adam Wharton", "Quinten Timber", "Tyrick Mitchell", "Daichi Kamada", "Yéremi Pino", "Jørgen Strand Larsen"],
-          "away_players": ["Matz Sels", "Jair Cunha", "Ousmane Diomande", "Murillo", "Daniel Muñoz", "Xaver Schlager", "James McAtee", "Ola Aina", "Dan Ndoye", "Morgan Gibbs-White", "Liam Delap"],
-          "home_missing_players": ["Dean Henderson", "Axel Disasi", "Chadi Riad", "Takehiro Tomiyasu", "Jean-Philippe Mateta"],
-          "away_missing_players": ["Neco Williams", "Nicolò Savona", "Nikola Milenković", "Igor Jesus"]
+          "away_formation": "4-2-3-1",
+          "home_players": ["Carl Rushworth", "Stephen Mfuni", "Bobby Thomas", "Ethan Pinnock", "Milan van Ewijk", "Frank Onyeka", "Matt Grimes", "Jay Dasilva", "Jack Rudoni", "Ephron Mason-Clark", "Brandon Thomas-Asante"],
+          "away_players": ["Lukás Hornícek", "Amar Dedić", "Malick Thiaw", "Sven Botman", "Lewis Hall", "Nico González", "Lewis Miley", "Jacob Murphy", "Yoane Wissa", "Harvey Barnes", "Matias Fernandez-Pardo"],
+          "home_missing_players": ["Joel Latibeaudiere", "Kaine Kesler-Hayden", "Aurèle Amenda", "Luke Woolfenden", "Josh Eccles", "Haji Wright"],
+          "away_missing_players": ["William Osula", "Joelinton", "Ewen Jaouen", "Daniel Burn", "Valentino Livramento", "Jacob Ramsey", "Anthony Elanga"]
         },
         "pregame_form": {
-          "home": "WLWDL",
-          "away": "LDDWL"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Real Sociedad",
-      "team1_logo": "https://img.singhs.com.np/team/8560.png",
-      "team2": "Deportivo A Coruña",
-      "team2_logo": "https://img.singhs.com.np/team/9783.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-10-11T23:15:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=realsociedad",
-      "streaming_url": "https://cdn.singhs.com.np/realsociedad.json",
-      "event_id": 5868090,
-      "football_data": {
-        "event": {
-          "match_id": 5868090,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 8,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 14:15:00 GMT",
-          "venue": "Estadio Municipal de Anoeta",
-          "venue_city": "Donostia-San Sebastián",
-          "venue_country": "Spain",
-          "venue_lat": 43.301375816,
-          "venue_lng": -1.97360158,
-          "stadium_capacity": 40000,
-          "stadium_surface": "grass",
-          "referee": "Miguel Sesma Espinosa",
-          "home_team": {
-            "name": "Real Sociedad",
-            "id": 8560
-          },
-          "away_team": {
-            "name": "Deportivo A Coruña",
-            "id": 9783
-          },
-          "home_manager": "Pellegrino Matarazzo",
-          "away_manager": "Antonio Hidalgo",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 5,
-          "draws": 5,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": ["Alex Remiro", "Jon Martín", "Mamadou Sarr", "Yangel Herrera", "Sergio Gómez", "Pablo Marín", "Carlos Soler", "Ander Barrenetxea", "Luka Sučić", "Arsen Zakharyan", "Gonçalo Guedes"],
-          "away_players": ["Leo Román", "Ximo Navarro", "Lucas Noubi", "José Giménez", "Giacomo Quagliata", "Luismi Cruz", "Lorenzo Amatucci", "Mario Soriano", "Jonathan Asp", "Bil Nsongo", "Yeremay Hernández"],
-          "home_missing_players": ["Álvaro Odriozola", "Jon Aramburu", "Orri Óskarsson"],
-          "away_missing_players": ["Marc Casadó", "Noé", "Pierre-Emerick Aubameyang", "Zakaria Eddahchouri"]
-        },
-        "pregame_form": {
-          "home": "WLLWL",
-          "away": "WDLDL"
+          "home": "LLLLW",
+          "away": "WDWLW"
         }
       }
-    },
-    {
-      "team1": "Liverpool",
-      "team1_logo": "https://img.singhs.com.np/team/8650.png",
-      "team2": "Man City",
-      "team2_logo": "https://img.singhs.com.np/team/8456.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-10-12T00:30:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 5795472,
-      "football_data": {
-        "event": {
-          "match_id": 5795472,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 6,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 15:30:00 GMT",
-          "venue": "Anfield",
-          "venue_city": "Liverpool",
-          "venue_country": "England",
-          "venue_lat": 53.430827885,
-          "venue_lng": -2.960852981,
-          "stadium_capacity": 61276,
-          "stadium_surface": "grass",
-          "referee": "Chris Kavanagh",
-          "home_team": {
-            "name": "Liverpool",
-            "id": 8650
-          },
-          "away_team": {
-            "name": "Manchester City",
-            "id": 8456
-          },
-          "home_manager": "Andoni Iraola",
-          "away_manager": "Enzo Maresca",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 17,
-          "draws": 14,
-          "awayWins": 13
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Alisson Becker", "Ronald Araujo", "Jérémy Jacquet", "Virgil van Dijk", "Miloš Kerkez", "Ryan Gravenberch", "Alexis Mac Allister", "Víctor Muñoz", "Dominik Szoboszlai", "Bradley Barcola", "Florian Wirtz"],
-          "away_players": ["Gianluigi Donnarumma", "Matheus Nunes", "Rúben Dias", "Marc Guéhi", "Joško Gvardiol", "Enzo Fernández", "Elliot Anderson", "Jérémy Doku", "Rayan Cherki", "Iliman Ndiaye", "Erling Haaland"],
-          "home_missing_players": ["Conor Bradley", "Giovanni Leoni", "Alexander Isak", "Cody Gakpo", "Federico Chiesa", "Hugo Ekitiké"],
-          "away_missing_players": ["Nico O'Reilly", "Phil Foden", "Antoine Semenyo"]
-        },
-        "pregame_form": {
-          "home": "WWDWW",
-          "away": "WWWWW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Sassuolo",
-      "team1_logo": "https://img.singhs.com.np/team/7943.png",
-      "team2": "Milan",
-      "team2_logo": "https://img.singhs.com.np/team/8564.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-10-12T01:00:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=milan",
-      "streaming_url": "https://cdn.singhs.com.np/milan.json",
-      "event_id": 5749698,
-      "football_data": {
-        "event": {
-          "match_id": 5749698,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 6,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 16:00:00 GMT",
-          "venue": "MAPEI Stadium - Città del Tricolore",
-          "venue_city": "Reggio Emilia",
-          "venue_country": "Italy",
-          "venue_lat": 44.714636965,
-          "venue_lng": 10.649710894,
-          "stadium_capacity": 23717,
-          "stadium_surface": "grass",
-          "referee": "Francesco Fourneau",
-          "home_team": {
-            "name": "Sassuolo",
-            "id": 7943
-          },
-          "away_team": {
-            "name": "Milan",
-            "id": 8564
-          },
-          "home_manager": "Alberto Aquilani",
-          "away_manager": "Ruben Amorim",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 9,
-          "draws": 6,
-          "awayWins": 14
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Arijanet Murić", "Simone Cinquegrano", "Duje Ćaleta-Car", "Fedde Leysen", "Josh Doig", "Vasilije Adžić", "Nemanja Matić", "Kristian Thorstvedt", "Domenico Berardi", "Sebastiano Esposito", "Armand Laurienté"],
-          "away_players": ["Mike Maignan", "Mario Gila", "Koni De Winter", "Strahinja Pavlović", "Samuel Chukwueze", "Luka Modrić", "Adrien Rabiot", "Davide Bartesaghi", "Christian Pulisic", "Diego Moreira", "Gonçalo Ramos"],
-          "home_missing_players": ["Edoardo Pieragnolo", "Fali Candé", "Jay Idzes", "Sebastian Walukiewicz", "Daniel Boloca", "Ismaël Koné", "Cristian Volpato"],
-          "away_missing_players": ["Alexis Saelemaekers", "Pervis Estupinán"]
-        },
-        "pregame_form": {
-          "home": "WDDWL",
-          "away": "WDDLW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Benfica",
-      "team1_logo": "https://img.singhs.com.np/team/9772.png",
-      "team2": "Vitória de Guimarães",
-      "team2_logo": "https://img.singhs.com.np/team/7844.png",
-      "league_logo": "https://img.singhs.com.np/league/61.png",
-      "league": "Liga Portugal",
-      "start": "2026-10-12T02:00:00+09:00",
-      "league_id": 61,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=benfica",
-      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
-      "event_id": 5887653,
-      "football_data": {
-        "event": {
-          "match_id": 5887653,
-          "league": "Liga Portugal",
-          "league_id": 61,
-          "round": 8,
-          "tournament": "Liga Portugal",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 17:00:00 GMT",
-          "venue": "Estádio do Sport Lisboa e Benfica (da Luz)",
-          "venue_city": "Lisboa",
-          "venue_country": "Portugal",
-          "venue_lat": 38.75264836,
-          "venue_lng": -9.184699059,
-          "stadium_capacity": 68100,
-          "stadium_surface": "grass",
-          "referee": "Luís Godinho",
-          "home_team": {
-            "name": "Benfica",
-            "id": 9772
-          },
-          "away_team": {
-            "name": "Vitória de Guimarães",
-            "id": 7844
-          },
-          "home_manager": "Marco Silva",
-          "away_manager": "Tiago Margarido",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 31,
-          "draws": 7,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Samuel Soares", "Daniel Banjaqui", "Tomás Araújo", "Alessandro Circati", "Samuel Dahl", "Fredrik Aursnes", "João Palhinha", "Rafa Silva", "Gianluca Prestianni", "Andreas Schjelderup", "Vangelis Pavlidis"],
-          "away_players": ["Oliwier Zych", "Tony Strata", "Toni Borevković", "Thiago Balieiro", "João Mendes", "Gonçalo Nogueira", "Lohann Doucet", "Miguel Nogueira", "Alan", "Oumar Camara", "Arnel Jakupovic"],
-          "home_missing_players": ["Clément Lenglet", "Enzo Barrenechea", "Jakub Kamiński"],
-          "away_missing_players": ["Gui"]
-        },
-        "pregame_form": {
-          "home": "WWWWL",
-          "away": "WLDLD"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Cagliari",
-      "team1_logo": "https://img.singhs.com.np/team/8529.png",
-      "team2": "Juventus",
-      "team2_logo": "https://img.singhs.com.np/team/9885.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-10-12T03:45:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=juventus",
-      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
-      "event_id": 5749691,
-      "football_data": {
-        "event": {
-          "match_id": 5749691,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 6,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 18:45:00 GMT",
-          "venue": "Unipol Domus",
-          "venue_city": "Cagliari",
-          "venue_country": "Italy",
-          "venue_lat": 39.199802357,
-          "venue_lng": 9.137473349,
-          "stadium_capacity": 16416,
-          "stadium_surface": "grass",
-          "referee": "Matteo Marcenaro",
-          "home_team": {
-            "name": "Cagliari",
-            "id": 8529
-          },
-          "away_team": {
-            "name": "Juventus",
-            "id": 9885
-          },
-          "home_manager": "Fabio Pisacane",
-          "away_manager": "Luciano Spalletti",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 5,
-          "awayWins": 23
-        },
-        "lineups": {
-          "home_formation": "4-3-1-2",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Elia Caprile", "Zé Pedro", "Yerry Mina", "Juan Rodríguez", "Adam Obert", "Alessandro Romano", "Harry Winks", "Jacopo Fazzini", "Michel Ndary Adopo", "Daniel Maldini", "Paul Mendy"],
-          "away_players": ["Guglielmo Vicario", "Pierre Kalulu", "Gleison Bremer", "Jhon Lucumí", "Weston McKennie", "Pape Sarr", "Douglas Luiz", "Andrea Cambiaso", "Francisco Conceição", "Nicolás González", "Randal Kolo Muani"],
-          "home_missing_players": ["Alen Sherri", "Alessandro Deiola", "Mattia Felici", "Riyad Idrissi", "Kevin Carlos", "Yael Trepy"],
-          "away_missing_players": ["Kamil Grabara", "Augusto Owusu", "Khéphren Thuram-Ulien", "Manuel Locatelli", "Jeff Ekhator", "Jérémie Boga", "Kenan Yıldız"]
-        },
-        "pregame_form": {
-          "home": "LLWWW",
-          "away": "DLWWL"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Atlético-MG",
-      "team1_logo": "https://img.singhs.com.np/team/10272.png",
-      "team2": "Santos",
-      "team2_logo": "https://img.singhs.com.np/team/8514.png",
-      "league_logo": "https://img.singhs.com.np/league/1000001407.png",
-      "league": "Série A",
-      "start": "2026-10-12T04:00:00+09:00",
-      "league_id": 1000001407,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=santos",
-      "streaming_url": "https://cdn.singhs.com.np/santos.json",
-      "event_id": 5103659,
-      "football_data": {
-        "event": {
-          "match_id": 5103659,
-          "league": "Brazilian Serie A",
-          "league_id": 268,
-          "round": 30,
-          "tournament": "Brazilian Serie A",
-          "kick_off_time_utc": "Sun, 11 Oct 2026 19:00:00 GMT",
-          "venue": "Arena MRV",
-          "venue_city": "Belo Horizonte, Minas Gerais",
-          "venue_country": "Brazil",
-          "venue_lat": -19.930018305,
-          "venue_lng": -44.013871894,
-          "stadium_capacity": 44892,
-          "stadium_surface": "artificial turf",
-          "referee": "Alex Gomes Stefano",
-          "home_team": {
-            "name": "Atlético-MG",
-            "id": 10272
-          },
-          "away_team": {
-            "name": "Santos",
-            "id": 8514
-          },
-          "home_manager": "Eduardo Domínguez",
-          "away_manager": "Cuca",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 14,
-          "draws": 7,
-          "awayWins": 14
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-4-1-1",
-          "home_players": ["Gabriel Delfim", "Natanael", "Vitão", "Lyanco", "Renan Lodi", "Fred", "Maycon", "Mamady Cissé", "Tomás Cuello", "Reinier", "Bernard"],
-          "away_players": ["Diógenes", "Rodinei", "Lucas Veríssimo", "Willian Arão", "Gonzalo Escobar", "Gabriel Bontempo", "Gustavo Henrique", "Christian Oliva", "Álvaro Barreal", "Philippe Coutinho", "Gabriel Barbosa"],
-          "home_missing_players": ["Tomás Pérez", "Tomás Cuello", "Fred", "Mateo Cassierra", "Gustavo Scarpa", "Everson", "Ruan"],
-          "away_missing_players": ["Arthur", "Gabriel Brazão", "Vinicius Lira"]
-        },
-        "pregame_form": {
-          "home": "WWDWD",
-          "away": "WLWWD"
-        }
-      },
-      "pushed": true
     }
   ]
 }
