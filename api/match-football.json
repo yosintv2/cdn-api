@@ -1,209 +1,392 @@
 {
   "matches": [
     {
-      "team1": "LASK",
-      "team1_logo": "https://img.singhs.com.np/team/9977.png",
-      "team2": "Liverpool",
-      "team2_logo": "https://img.singhs.com.np/team/8650.png",
-      "league_logo": "https://img.singhs.com.np/league/943230.png",
-      "league": "Champions League",
-      "start": "2026-10-15T01:45:00+09:00",
-      "league_id": 943230,
+      "team1": "Burnley",
+      "team1_logo": "https://img.singhs.com.np/team/8191.png",
+      "team2": "Wolves",
+      "team2_logo": "https://img.singhs.com.np/team/8602.png",
+      "league_logo": "https://img.singhs.com.np/league/1000001801.png",
+      "league": "Championship",
+      "start": "2026-10-17T04:00:00+09:00",
+      "league_id": 1000001801,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 6106405,
+      "details_url": "https://home.getemoji.online/?yosintv=wolves",
+      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
+      "event_id": 5836876,
       "football_data": {
         "event": {
-          "match_id": 6106405,
-          "league": "Champions League",
-          "league_id": 943230,
-          "round": 2,
-          "tournament": "Champions League",
-          "kick_off_time_utc": "Wed, 14 Oct 2026 16:45:00 GMT",
-          "venue": "Raiffeisen Arena",
-          "venue_city": "Linz",
-          "venue_country": "Austria",
-          "venue_lat": 48.293702941,
-          "venue_lng": 14.276587227,
-          "stadium_capacity": 19080,
-          "stadium_surface": "grass",
-          "referee": "Tobias Stieler",
-          "home_team": {
-            "name": "LASK",
-            "id": 9977
-          },
-          "away_team": {
-            "name": "Liverpool",
-            "id": 8650
-          },
-          "home_manager": "Dietmar Kühbauer",
-          "away_manager": "Andoni Iraola",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "3-5-2",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Lukas Jungwirth", "Xavier Mbuyamba", "Alemão", "Andrés Andrade", "Kasper Jørgensen", "Robert Ljubičić", "Melayro Bogarde", "Sascha Horvath", "Yvan Dibango", "Saša Kalajdžić", "Christoph Lang"],
-          "away_players": ["Alisson Becker", "Ronald Araujo", "Jérémy Jacquet", "Virgil van Dijk", "Miloš Kerkez", "Ryan Gravenberch", "Alexis Mac Allister", "Bradley Barcola", "Florian Wirtz", "Rio Ngumoha", "Lewis Koumas"],
-          "home_missing_players": ["Moses Usor", "George Bello", "Ramiz Harakaté"],
-          "away_missing_players": ["Dominik Szoboszlai", "Cody Gakpo", "Alexander Isak", "Conor Bradley", "Giovanni Leoni", "Hugo Ekitiké"]
-        },
-        "pregame_form": {
-          "home": "WLLDL",
-          "away": "WDWWL"
-        }
-      }
-    },
-    {
-      "team1": "Aston Villa",
-      "team1_logo": "https://img.singhs.com.np/team/10252.png",
-      "team2": "Fenerbahçe",
-      "team2_logo": "https://img.singhs.com.np/team/8695.png",
-      "league_logo": "https://img.singhs.com.np/league/943230.png",
-      "league": "Champions League",
-      "start": "2026-10-15T04:00:00+09:00",
-      "league_id": 943230,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=astonvilla",
-      "streaming_url": "https://cdn.singhs.com.np/astonvilla.json",
-      "event_id": 6106284,
-      "football_data": {
-        "event": {
-          "match_id": 6106284,
-          "league": "Champions League",
-          "league_id": 943230,
-          "round": 2,
-          "tournament": "Champions League",
-          "kick_off_time_utc": "Wed, 14 Oct 2026 19:00:00 GMT",
-          "venue": "Villa Park",
-          "venue_city": "Birmingham",
+          "match_id": 5836876,
+          "league": "English Football League - Championship",
+          "league_id": 48,
+          "round": 11,
+          "tournament": "English Football League - Championship",
+          "kick_off_time_utc": "Fri, 16 Oct 2026 19:00:00 GMT",
+          "venue": "Turf Moor",
+          "venue_city": "Burnley",
           "venue_country": "England",
-          "venue_lat": 52.509090736,
-          "venue_lng": -1.884841919,
-          "stadium_capacity": 43205,
+          "venue_lat": 53.788983867,
+          "venue_lng": -2.230224609,
+          "stadium_capacity": 22546,
           "stadium_surface": "grass",
-          "referee": "Ivan Kružliak",
+          "referee": "Lewis Smith",
           "home_team": {
-            "name": "Aston Villa",
-            "id": 10252
+            "name": "Burnley",
+            "id": 8191
           },
           "away_team": {
-            "name": "Fenerbahçe",
-            "id": 8695
+            "name": "Wolverhampton Wanderers",
+            "id": 8602
           },
-          "home_manager": "Unai Emery",
-          "away_manager": "İsmail Kartal",
+          "home_manager": "Nicky Hayen",
+          "away_manager": "César Peixoto",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 1,
-          "draws": 0,
-          "awayWins": 0
+          "homeWins": 7,
+          "draws": 8,
+          "awayWins": 3
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Zion Suzuki", "Matty Cash", "Victor Nilsson Lindelöf", "Pau Torres", "Aaron Wan-Bissaka", "Boubacar Kamara", "João Gomes", "John McGinn", "Emiliano Buendía", "Johan Manzambi", "Nicolas Jackson"],
-          "away_players": ["Ederson", "Nélson Semedo", "Milan Škriniar", "Nathan Aké", "Archie Brown", "N'Golo Kanté", "Mattéo Guendouzi", "Bartuğ Elmaz", "Mason Greenwood", "Vedat Muriqi", "Kerem Aktürkoglu"],
-          "home_missing_players": ["George Hemmings", "Matteo Ruggeri", "Ian Maatsen", "Modou Kéba Cissé", "Amadou Onana", "Leon Goretzka"],
-          "away_missing_players": ["Amara Diouf", "Jayden Oosterwolde", "Mert Müldür"]
+          "away_formation": "4-2-3-1",
+          "home_players": ["Grégoire Coudert", "Kyle Walker", "Anel Ahmedhodžić", "Igor Julio", "Lucas Pires", "Max Alleyne", "Reo Hatate", "Largie Ramazani", "Josh Laurent", "Jacob Bruun Larsen", "Jamie Vardy"],
+          "away_players": ["José Sá", "Kieran Trippier", "Nasser Djiga", "Ladislav Krejcí", "Hugo Bueno", "André", "Jordan James", "Jean-Ricner Bellegarde", "Fer López", "Mateus Mané", "Adam Armstrong"],
+          "home_missing_players": ["Anel Ahmedhodžić", "Zeki Amdouni", "Hannibal Mejbri", "Bashir Humphreys", "Ashley Barnes", "Jordan Beyer", "Josh Cullen"],
+          "away_missing_players": ["Raul Jiménez", "Yerson Mosquera"]
         },
         "pregame_form": {
-          "home": "LWWWD",
-          "away": "DDWWW"
+          "home": "DLDWD",
+          "away": "WLWLL"
         }
       }
     },
     {
-      "team1": "Bodø/Glimt",
-      "team1_logo": "https://img.singhs.com.np/team/8402.png",
-      "team2": "Dortmund",
-      "team2_logo": "https://img.singhs.com.np/team/9789.png",
-      "league_logo": "https://img.singhs.com.np/league/943230.png",
-      "league": "Champions League",
-      "start": "2026-10-15T04:00:00+09:00",
-      "league_id": 943230,
+      "team1": "Everton",
+      "team1_logo": "https://img.singhs.com.np/team/8668.png",
+      "team2": "Chelsea",
+      "team2_logo": "https://img.singhs.com.np/team/8455.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-17T20:30:00+09:00",
+      "league_id": 47,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
-      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
-      "event_id": 6106315,
+      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
+      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
+      "event_id": 5795478,
       "football_data": {
         "event": {
-          "match_id": 6106315,
-          "league": "Champions League",
-          "league_id": 943230,
-          "round": 2,
-          "tournament": "Champions League",
-          "kick_off_time_utc": "Wed, 14 Oct 2026 19:00:00 GMT",
-          "venue": "Aspmyra Stadion",
-          "venue_city": "Bodø",
-          "venue_country": "Norway",
-          "venue_lat": 67.276676506,
-          "venue_lng": 14.384365082,
-          "stadium_capacity": 8270,
-          "stadium_surface": "artificial turf",
-          "referee": "Urs Schnyder",
+          "match_id": 5795478,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 7,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 17 Oct 2026 11:30:00 GMT",
+          "venue": "Hill Dickinson Stadium",
+          "venue_city": "Liverpool, Merseyside",
+          "venue_country": "England",
+          "venue_lat": 53.42498148,
+          "venue_lng": -3.002691341,
+          "stadium_capacity": 52769,
+          "stadium_surface": "grass",
+          "referee": "Paul Tierney",
           "home_team": {
-            "name": "Bodø/Glimt",
-            "id": 8402
+            "name": "Everton",
+            "id": 8668
           },
           "away_team": {
-            "name": "Borussia Dortmund",
-            "id": 9789
+            "name": "Chelsea",
+            "id": 8455
           },
-          "home_manager": "Kjetil Knutsen",
-          "away_manager": "Niko Kovač",
+          "home_manager": "David Moyes",
+          "away_manager": "Xabi Alonso",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 11,
+          "draws": 9,
+          "awayWins": 17
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Jordan Pickford", "Ainsley Maitland-Niles", "James Tarkowski", "Michael Keane", "Jarrad Branthwaite", "James Garner", "Harrison Armstrong", "Brennan Johnson", "Kiernan Dewsbury-Hall", "Jack Grealish", "Thierno Barry"],
+          "away_players": ["Emiliano Martínez", "Josh Acheampong", "Maxence Lacroix", "Levi Colwill", "Pedro Neto", "Moisés Caicedo", "Jordan Henderson", "Pep Chavarría", "Cole Palmer", "Morgan Rogers", "João Pedro"],
+          "home_missing_players": ["Vitaliy Mykolenko"],
+          "away_missing_players": ["Reece James", "Emanuel Emegha", "Jamie Gittens"]
+        },
+        "pregame_form": {
+          "home": "DDWWD",
+          "away": "LWDLW"
+        }
+      }
+    },
+    {
+      "team1": "Espanyol",
+      "team1_logo": "https://img.singhs.com.np/team/8558.png",
+      "team2": "Atlético Madrid",
+      "team2_logo": "https://img.singhs.com.np/team/9906.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-10-17T21:00:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=espanyol",
+      "streaming_url": "https://cdn.singhs.com.np/espanyol.json",
+      "event_id": 5868094,
+      "football_data": {
+        "event": {
+          "match_id": 5868094,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 9,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Sat, 17 Oct 2026 12:00:00 GMT",
+          "venue": "RCDE Stadium",
+          "venue_city": "Cornella de Llobregat",
+          "venue_country": "Spain",
+          "venue_lat": 41.347859897,
+          "venue_lng": 2.075622082,
+          "stadium_capacity": 40423,
+          "stadium_surface": "grass",
+          "referee": "Alejandro José Hernández Hernández",
+          "home_team": {
+            "name": "Espanyol",
+            "id": 8558
+          },
+          "away_team": {
+            "name": "Atlético Madrid",
+            "id": 9906
+          },
+          "home_manager": "Manolo González",
+          "away_manager": "Diego Simeone",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 7,
+          "draws": 9,
+          "awayWins": 14
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Ángel Fortuno", "Omar El Hilali", "Clemens Riedel", "Leandro Cabrera", "Quilindschy Hartman", "Pol Lozano", "Edu Expósito", "Tyrhys Dolan", "Javi Hernández", "Bryan Zaragoza", "Roberto Fernández"],
+          "away_players": ["Jan Oblak", "Marcos Llorente", "Cristian Romero", "Robin Le Normand", "Alejandro Grimaldo", "Koke", "Johnny Cardoso", "Giuliano Simeone", "Pablo Barrios", "Ademola Lookman", "Jonathan David"],
+          "home_missing_players": ["Marko Dmitrović", "Andoni Gorosabel", "Jofre Carreras", "Kike García"],
+          "away_missing_players": []
+        },
+        "pregame_form": {
+          "home": "DWLLD",
+          "away": "WWWWW"
+        }
+      }
+    },
+    {
+      "team1": "Venezia",
+      "team1_logo": "https://img.singhs.com.np/team/7881.png",
+      "team2": "Napoli",
+      "team2_logo": "https://img.singhs.com.np/team/9875.png",
+      "league_logo": "https://img.singhs.com.np/league/55.png",
+      "league": "Serie A",
+      "start": "2026-10-17T22:00:00+09:00",
+      "league_id": 55,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=napoli",
+      "streaming_url": "https://cdn.singhs.com.np/napoli.json",
+      "event_id": 5749709,
+      "football_data": {
+        "event": {
+          "match_id": 5749709,
+          "league": "Serie A",
+          "league_id": 55,
+          "round": 7,
+          "tournament": "Serie A",
+          "kick_off_time_utc": "Sat, 17 Oct 2026 13:00:00 GMT",
+          "venue": "Stadio Pier Luigi Penzo",
+          "venue_city": "Venezia",
+          "venue_country": "Italy",
+          "venue_lat": 45.427798484,
+          "venue_lng": 12.363972366,
+          "stadium_capacity": 12048,
+          "stadium_surface": "grass",
+          "referee": "Juan Luca Sacchi",
+          "home_team": {
+            "name": "Venezia",
+            "id": 7881
+          },
+          "away_team": {
+            "name": "Napoli",
+            "id": 9875
+          },
+          "home_manager": null,
+          "away_manager": "Massimiliano Allegri",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
           "homeWins": 0,
           "draws": 1,
-          "awayWins": 0
+          "awayWins": 3
         },
         "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Nikita Haikin", "Fredrik Sjøvold", "Villads Nielsen", "Haitam Aleesami", "Fredrik André Bjørkan", "Joshua Kitolano", "Patrick Berg", "Sondre Brunstad Fet", "Sondre Auklend", "Andreas Helmersen", "Ole Blomberg"],
-          "away_players": ["Gregor Kobel", "Joane Gadou", "Waldemar Anton", "Daniel Svensson", "Luca Reggiani", "Joey Veerman", "Felix Nmecha", "Maximilian Beier", "Konstantinos Karetsas", "Marcel Sabitzer", "Serhou Guirassy"],
-          "home_missing_players": ["Magnus Bech Riisnæs", "Håkon Evjen", "August Mikkelsen"],
-          "away_missing_players": ["Justin Lerma", "Giannis Konstantelias", "Emre Can"]
+          "home_formation": "3-5-2",
+          "away_formation": "3-4-3",
+          "home_players": ["Filip Stanković", "Redouane Halhal", "Juan Jesus", "Matías Moreno", "Antoine Hainaut", "Kike Pérez", "Simon Sohm", "Toma Bašić", "Joël Schingtienne", "John Yeboah", "Akor Adams"],
+          "away_players": ["Alex Meret", "Rafa Marín", "Amir Rrahmani", "Benoît Badiashile", "Giovanni Di Lorenzo", "Kevin De Bruyne", "Stanislav Lobotka", "Leonardo Spinazzola", "David Neres", "Rasmus Højlund", "Noa Lang"],
+          "home_missing_players": ["Armel Bella-Kotchap", "Bartol Franjić", "Marin Šverko", "Thierry Correia", "Gianluca Busio", "Pasquale Mazzocchi", "Andrea Adorante"],
+          "away_missing_players": ["Alessandro Buongiorno", "Antonio Vergara", "Costantino Favasuli"]
         },
         "pregame_form": {
-          "home": "LWLWW",
-          "away": "WWWWD"
+          "home": "LLLLL",
+          "away": "LWDWL"
+        }
+      }
+    },
+    {
+      "team1": "Union Berlin",
+      "team1_logo": "https://img.singhs.com.np/team/8149.png",
+      "team2": "Dortmund",
+      "team2_logo": "https://img.singhs.com.np/team/9789.png",
+      "league_logo": "https://img.singhs.com.np/league/54.png",
+      "league": "Bundesliga",
+      "start": "2026-10-17T22:30:00+09:00",
+      "league_id": 54,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
+      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
+      "event_id": 5881195,
+      "football_data": {
+        "event": {
+          "match_id": 5881195,
+          "league": "Bundesliga",
+          "league_id": 54,
+          "round": 6,
+          "tournament": "Bundesliga",
+          "kick_off_time_utc": "Sat, 17 Oct 2026 13:30:00 GMT",
+          "venue": "Stadion An der Alten Försterei",
+          "venue_city": "Berlin",
+          "venue_country": "Germany",
+          "venue_lat": 52.457395392,
+          "venue_lng": 13.568125963,
+          "stadium_capacity": 22467,
+          "stadium_surface": "grass",
+          "referee": "Daniel Schlager",
+          "home_team": {
+            "name": "Union Berlin",
+            "id": 8149
+          },
+          "away_team": {
+            "name": "Borussia Dortmund",
+            "id": 9789
+          },
+          "home_manager": "Mauro Lustrinelli",
+          "away_manager": "Niko Kovač",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 4,
+          "draws": 1,
+          "awayWins": 12
+        },
+        "lineups": {
+          "home_formation": "4-1-4-1",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Frederik Rønnow", "Janik Haberer", "Zeno Van Den Bosch", "Felix Uduokhai", "Tom Rothe", "Rani Khedira", "András Schäfer", "Woo-Yeong Jeong", "Kastriot Imeri", "Michel Aebischer", "Tim Skarke"],
+          "away_players": ["Gregor Kobel", "Joane Gadou", "Waldemar Anton", "Nico Schlotterbeck", "Marcel Sabitzer", "Jobe Bellingham", "Felix Nmecha", "Daniel Svensson", "Ethan Nwaneri", "Maximilian Beier", "Serhou Guirassy"],
+          "home_missing_players": ["Josip Juranović", "Andrej Ilić", "Stanley N'Soki", "Andrik Markgraf", "Marvin Friedrich", "Emmanuel Latte Lath"],
+          "away_missing_players": ["Emre Can", "Giannis Konstantelias", "Justin Lerma"]
+        },
+        "pregame_form": {
+          "home": "LLLWW",
+          "away": "WWWDL"
+        }
+      }
+    },
+    {
+      "team1": "Brentford",
+      "team1_logo": "https://img.singhs.com.np/team/9937.png",
+      "team2": "Liverpool",
+      "team2_logo": "https://img.singhs.com.np/team/8650.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-17T23:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
+      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
+      "event_id": 5795476,
+      "football_data": {
+        "event": {
+          "match_id": 5795476,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 7,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 17 Oct 2026 14:00:00 GMT",
+          "venue": "Gtech Community Stadium",
+          "venue_city": "Brentford, Middlesex",
+          "venue_country": "England",
+          "venue_lat": 51.490729,
+          "venue_lng": -0.288884,
+          "stadium_capacity": 17250,
+          "stadium_surface": "grass",
+          "referee": "John Brooks",
+          "home_team": {
+            "name": "Brentford",
+            "id": 9937
+          },
+          "away_team": {
+            "name": "Liverpool",
+            "id": 8650
+          },
+          "home_manager": "Keith Andrews",
+          "away_manager": "Andoni Iraola",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "draws": 2,
+          "awayWins": 6
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Caoimhín Kelleher", "Michael Kayode", "Kristoffer Ajer", "Sepp van den Berg", "Malick Diouf", "Yehor Yarmoliuk", "Vitaly Janelt", "Jaidon Anthony", "Keane Lewis-Potter", "Dango Ouattara", "Igor Thiago"],
+          "away_players": ["Alisson Becker", "Ronald Araujo", "Jérémy Jacquet", "Virgil van Dijk", "Miloš Kerkez", "Trey Nyoni", "Alexis Mac Allister", "Víctor Muñoz", "Florian Wirtz", "Bradley Barcola", "Lewis Koumas"],
+          "home_missing_players": ["Nathan Collins", "Antoni Milambo", "Mikkel Damsgaard", "Joshua Dasilva", "Kevin Schade"],
+          "away_missing_players": ["Conor Bradley", "Giovanni Leoni", "Dominik Szoboszlai", "Ryan Gravenberch", "Alexander Isak", "Cody Gakpo", "Hugo Ekitiké"]
+        },
+        "pregame_form": {
+          "home": "DDWWD",
+          "away": "DWWLW"
         }
       }
     },
     {
       "team1": "Man City",
       "team1_logo": "https://img.singhs.com.np/team/8456.png",
-      "team2": "PSG",
-      "team2_logo": "https://img.singhs.com.np/team/9847.png",
-      "league_logo": "https://img.singhs.com.np/league/943230.png",
-      "league": "Champions League",
-      "start": "2026-10-15T04:00:00+09:00",
-      "league_id": 943230,
+      "team2": "Ipswich",
+      "team2_logo": "https://img.singhs.com.np/team/9902.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-17T23:00:00+09:00",
+      "league_id": 47,
       "duration": 2.2,
       "details_url": "https://home.getemoji.online/?yosintv=mancity",
       "streaming_url": "https://cdn.singhs.com.np/mancity.json",
-      "event_id": 6106254,
+      "event_id": 5795481,
       "football_data": {
         "event": {
-          "match_id": 6106254,
-          "league": "Champions League",
-          "league_id": 943230,
-          "round": 2,
-          "tournament": "Champions League",
-          "kick_off_time_utc": "Wed, 14 Oct 2026 19:00:00 GMT",
+          "match_id": 5795481,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 7,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sat, 17 Oct 2026 14:00:00 GMT",
           "venue": "Etihad Stadium",
           "venue_city": "Manchester",
           "venue_country": "England",
@@ -211,219 +394,36 @@
           "venue_lng": -2.200409174,
           "stadium_capacity": 61470,
           "stadium_surface": "grass",
-          "referee": "Sven Jablonski",
+          "referee": "Farai Hallam",
           "home_team": {
             "name": "Manchester City",
             "id": 8456
           },
           "away_team": {
-            "name": "Paris Saint-Germain",
-            "id": 9847
+            "name": "Ipswich Town",
+            "id": 9902
           },
           "home_manager": "Enzo Maresca",
-          "away_manager": "Luis Enrique",
+          "away_manager": "Gary O'Neil",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 4,
-          "draws": 1,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Gianluigi Donnarumma", "Matheus Nunes", "Marc Guéhi", "Rúben Dias", "Joško Gvardiol", "Elliot Anderson", "Enzo Fernández", "Phil Foden", "Rayan Cherki", "Jérémy Doku", "Erling Haaland"],
-          "away_players": ["Matvey Safonov", "Achraf Hakimi", "Marquinhos", "Willian Pacho", "Nuno Mendes", "João Neves", "Vítinha", "Fabián Ruiz", "Ousmane Dembélé", "Ferrán Torres", "Khvicha Kvaratskhelia"],
-          "home_missing_players": [],
-          "away_missing_players": ["Senny Mayulu"]
-        },
-        "pregame_form": {
-          "home": "WWWWW",
-          "away": "LWWWW"
-        }
-      }
-    },
-    {
-      "team1": "Real Betis",
-      "team1_logo": "https://img.singhs.com.np/team/8603.png",
-      "team2": "FC Porto",
-      "team2_logo": "https://img.singhs.com.np/team/9773.png",
-      "league_logo": "https://img.singhs.com.np/league/943230.png",
-      "league": "Champions League",
-      "start": "2026-10-15T04:00:00+09:00",
-      "league_id": 943230,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=realbetis",
-      "streaming_url": "https://cdn.singhs.com.np/realbetis.json",
-      "event_id": 6106299,
-      "football_data": {
-        "event": {
-          "match_id": 6106299,
-          "league": "Champions League",
-          "league_id": 943230,
-          "round": 2,
-          "tournament": "Champions League",
-          "kick_off_time_utc": "Wed, 14 Oct 2026 19:00:00 GMT",
-          "venue": "Estadio La Cartuja de Sevilla",
-          "venue_city": "Sevilla",
-          "venue_country": "Spain",
-          "venue_lat": 37.417208903,
-          "venue_lng": -6.004661322,
-          "stadium_capacity": 72000,
-          "stadium_surface": "grass",
-          "referee": "Clément Turpin",
-          "home_team": {
-            "name": "Real Betis",
-            "id": 8603
-          },
-          "away_team": {
-            "name": "FC Porto",
-            "id": 9773
-          },
-          "home_manager": "Manuel Pellegrini",
-          "away_manager": "Francesco Farioli",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 1,
+          "homeWins": 2,
+          "draws": 0,
           "awayWins": 0
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": ["Álvaro Vallés", "Héctor Bellerín", "Marc Bartra", "Natan", "Fran García", "Facundo Bernal", "Dani Ceballos", "Abdessamad Ezzalzouli", "Isco", "Rodrigo Riquelme", "Troy Parrott"],
-          "away_players": ["Diogo Costa", "Alberto Costa", "Nehuén Pérez", "Jakub Kiwior", "Francisco Moura", "Pablo Rosario", "Alan Varela", "Gabriel Veiga", "Borja Sainz", "André Silva", "Pepê"],
-          "home_missing_players": ["Aitor Ruibal", "Júnior Firpo"],
-          "away_missing_players": ["Vasco Sousa", "William Gomes"]
-        },
-        "pregame_form": {
-          "home": "WWWDW",
-          "away": "LWWWW"
-        }
-      }
-    },
-    {
-      "team1": "Roma",
-      "team1_logo": "https://img.singhs.com.np/team/8686.png",
-      "team2": "Real Madrid",
-      "team2_logo": "https://img.singhs.com.np/team/8633.png",
-      "league_logo": "https://img.singhs.com.np/league/943230.png",
-      "league": "Champions League",
-      "start": "2026-10-15T04:00:00+09:00",
-      "league_id": 943230,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=roma",
-      "streaming_url": "https://cdn.singhs.com.np/roma.json",
-      "event_id": 6106274,
-      "football_data": {
-        "event": {
-          "match_id": 6106274,
-          "league": "Champions League",
-          "league_id": 943230,
-          "round": 2,
-          "tournament": "Champions League",
-          "kick_off_time_utc": "Wed, 14 Oct 2026 19:00:00 GMT",
-          "venue": "Stadio Olimpico",
-          "venue_city": "Roma",
-          "venue_country": "Italy",
-          "venue_lat": 41.933947912,
-          "venue_lng": 12.454757094,
-          "stadium_capacity": 70634,
-          "stadium_surface": "grass",
-          "referee": "François Letexier",
-          "home_team": {
-            "name": "Roma",
-            "id": 8686
-          },
-          "away_team": {
-            "name": "Real Madrid",
-            "id": 8633
-          },
-          "home_manager": "Gian Piero Gasperini",
-          "away_manager": "José Mourinho",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 5
-        },
-        "lineups": {
-          "home_formation": "3-4-2-1",
+          "home_formation": "4-1-4-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Pierluigi Gollini", "Gianluca Mancini", "Evan N'Dicka", "Mario Hermoso", "Devyne Rensch", "Marten de Roon", "Manu Koné", "Wesley", "Paulo Dybala", "Matias Soulé", "Donyell Malen"],
-          "away_players": ["Thibaut Courtois", "Denzel Dumfries", "Ibrahima Konaté", "Dean Huijsen", "Marc Cucurella", "Aurélien Tchouaméni", "Federico Valverde", "Arda Güler", "Jude Bellingham", "Vinícius Júnior", "Kylian Mbappé"],
-          "home_missing_players": ["Mile Svilar", "Bryan Cristante"],
-          "away_missing_players": ["Éder Militao", "Ferland Mendy", "Raúl Asencio", "Rodrygo"]
+          "home_players": ["Gianluigi Donnarumma", "Matheus Nunes", "Rúben Dias", "Marc Guéhi", "Nico O'Reilly", "Elliot Anderson", "Iliman Ndiaye", "Rayan Cherki", "Enzo Fernández", "Antoine Semenyo", "Erling Haaland"],
+          "away_players": ["Christian Walton", "Abdoul Ouattara", "Issa Diop", "Dara O'Shea", "Leif Davis", "Florentino", "Saša Lukić", "Daizen Maeda", "Julio Enciso", "Jaden Philogene-Bidace", "Emersonn"],
+          "home_missing_players": ["Phil Foden"],
+          "away_missing_players": ["Jack Taylor"]
         },
         "pregame_form": {
-          "home": "WDWDD",
-          "away": "WWWLW"
-        }
-      }
-    },
-    {
-      "team1": "Inter Miami CF",
-      "team1_logo": "https://img.singhs.com.np/team/960720.png",
-      "team2": "NYCFC",
-      "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/546238.png",
-      "league_logo": "https://img.singhs.com.np/league/913550.png",
-      "league": "Major League Soccer",
-      "start": "2026-10-15T08:30:00+09:00",
-      "league_id": 913550,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
-      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
-      "event_id": 5071414,
-      "football_data": {
-        "event": {
-          "match_id": 5071414,
-          "league": "Major League Soccer",
-          "league_id": 10000001,
-          "round": null,
-          "tournament": "Major League Soccer",
-          "kick_off_time_utc": "Wed, 14 Oct 2026 23:30:00 GMT",
-          "venue": "Nu Stadium",
-          "venue_city": "Miami, Florida",
-          "venue_country": "United States",
-          "venue_lat": 25.792775779,
-          "venue_lng": -80.259473606,
-          "stadium_capacity": 26700,
-          "stadium_surface": "grass",
-          "referee": "Lorenzo Hernandez",
-          "home_team": {
-            "name": "Inter Miami CF",
-            "id": 960720
-          },
-          "away_team": {
-            "name": "New York City FC",
-            "id": 546238
-          },
-          "home_manager": "Cristian González",
-          "away_manager": "Pascal Jansen",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 4,
-          "draws": 4,
-          "awayWins": 8
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-3-3",
-          "home_players": ["Dayne St. Clair", "Gonzalo Luján", "Casemiro", "Micael", "Sergio Reguilón", "Rodrigo De Paul", "David Ayala", "Matías Galarza", "Lionel Messi", "Luis Suárez", "Germán Berterame"],
-          "away_players": ["Matt Freese", "Tayvon Gray", "Thiago Martins", "James Sands", "Nico Cavallo", "Aiden O'Neill", "Nicolás Fernández", "Andrés Perea", "Agustín Ojeda", "Alonso Martínez", "Hannes Wolf"],
-          "home_missing_players": ["Facundo Mura", "Yannick Bright", "Tadeo Allende"],
-          "away_missing_players": ["Keaton Parks", "Maxi Moralez", "Talles Magno", "Arnau Farnós", "Kai Trewin", "Drew Baiera"]
-        },
-        "pregame_form": {
-          "home": "DWDLW",
-          "away": "LWLDL"
+          "home": "WWWWL",
+          "away": "LWLLW"
         }
       }
     }
