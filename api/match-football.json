@@ -59,6 +59,129 @@
           "home": "DLWDL",
           "away": "LLDDL"
         }
+      },
+      "pushed": true
+    },
+    {
+      "team1": "AFC Bournemouth",
+      "team1_logo": "https://img.singhs.com.np/team/8678.png",
+      "team2": "Sunderland",
+      "team2_logo": "https://img.singhs.com.np/team/8472.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-18T22:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=afcbournemouth",
+      "streaming_url": "https://cdn.singhs.com.np/afcbournemouth.json",
+      "event_id": 5795475,
+      "football_data": {
+        "event": {
+          "match_id": 5795475,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 7,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sun, 18 Oct 2026 13:00:00 GMT",
+          "venue": "Vitality Stadium",
+          "venue_city": "Bournemouth, Dorset",
+          "venue_country": "England",
+          "venue_lat": 50.735240532,
+          "venue_lng": -1.838309616,
+          "stadium_capacity": 12357,
+          "stadium_surface": "grass",
+          "referee": "Craig Pawson",
+          "home_team": {
+            "name": "AFC Bournemouth",
+            "id": 8678
+          },
+          "away_team": {
+            "name": "Sunderland",
+            "id": 8472
+          },
+          "home_manager": "Marco Rose",
+          "away_manager": "Régis Le Bris",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "draws": 2,
+          "awayWins": 2
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Djordje Petrović", "Adam Smith", "James Hill", "António Silva", "Adrien Truffert", "Tyler Adams", "Ryan Christie", "Rayan", "Justin Kluivert", "Marcus Tavernier", "Evanilson"],
+          "away_players": ["Robin Roefs", "Nordi Mukiele", "Kevin Danso", "Omar Alderete", "Reinildo", "Granit Xhaka", "Noah Sadiki", "Trai Hume", "Enzo Le Fée", "Nilson Angulo", "Brian Brobbey"],
+          "home_missing_players": ["Julián Araujo", "Veljko Milosavljević", "Alex Scott", "Junior Kroupi"],
+          "away_missing_players": ["Wilson Isidor", "Daniel Ballard", "Thomas Meunier", "Romaine Mundle"]
+        },
+        "pregame_form": {
+          "home": "DWLLW",
+          "away": "LWLLW"
+        }
+      }
+    },
+    {
+      "team1": "Brighton & Hove Albion",
+      "team1_logo": "https://img.singhs.com.np/team/10204.png",
+      "team2": "Crystal Palace",
+      "team2_logo": "https://img.singhs.com.np/team/9826.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-10-18T22:00:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=brightonhovealbion",
+      "streaming_url": "https://cdn.singhs.com.np/brightonhovealbion.json",
+      "event_id": 5795477,
+      "football_data": {
+        "event": {
+          "match_id": 5795477,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 7,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sun, 18 Oct 2026 13:00:00 GMT",
+          "venue": "American Express Stadium",
+          "venue_city": "Falmer, East Sussex",
+          "venue_country": "England",
+          "venue_lat": 50.861579551,
+          "venue_lng": -0.083642006,
+          "stadium_capacity": 32176,
+          "stadium_surface": "grass",
+          "referee": "Robert Jones",
+          "home_team": {
+            "name": "Brighton & Hove Albion",
+            "id": 10204
+          },
+          "away_team": {
+            "name": "Crystal Palace",
+            "id": 9826
+          },
+          "home_manager": "Fabian Hürzeler",
+          "away_manager": "Pierre Sage",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 6,
+          "draws": 10,
+          "awayWins": 9
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-4-2-1",
+          "home_players": ["Bart Verbruggen", "Ferdi Kadıoğlu", "Luka Vušković", "Lewis Dunk", "Olivier Boscagli", "Pascal Groß", "Chema Andrés", "Diego Gómez", "Yasin Ayari", "Maxim De Cuyper", "Charalampos Kostoulas"],
+          "away_players": ["Walter Benítez", "Jefferson Lerma", "Chris Richards", "Jaydee Canvot", "Anan Khalaili", "Adam Wharton", "Quinten Timber", "Tyrick Mitchell", "Daichi Kamada", "Yéremi Pino", "Jørgen Strand Larsen"],
+          "home_missing_players": ["Mats Wieffer", "Evan Ferguson", "Femi Azeez", "Kaoru Mitoma", "Stefanos Tzimas", "Yankuba Minteh", "Zadok Yohanna"],
+          "away_missing_players": ["Ben Chilwell", "Takehiro Tomiyasu", "Dean Henderson", "Jean-Philippe Mateta", "Axel Disasi", "Chadi Riad"]
+        },
+        "pregame_form": {
+          "home": "WWWWW",
+          "away": "WDLWL"
+        }
       }
     },
     {
@@ -120,7 +243,8 @@
           "home": "DDWLL",
           "away": "WWLWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Milan",
@@ -181,7 +305,8 @@
           "home": "DLWDW",
           "away": "LLLWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Juventus",
@@ -242,7 +367,8 @@
           "home": "WWLDW",
           "away": "DWWDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Real Madrid",
@@ -303,7 +429,8 @@
           "home": "WWLWW",
           "away": "WWLLD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Fluminense",
@@ -364,7 +491,8 @@
           "home": "LWWLL",
           "away": "LWWDL"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
