@@ -50,10 +50,45 @@
         "lineups": {
           "home_formation": "3-4-2-1",
           "away_formation": "4-3-2-1",
-          "home_players": ["Noel Törnqvist", "Eddy Kouadio", "Saba Goglichidze", "Andrea Carboni", "Samuele Birindelli", "Michael Folorunsho", "Ebenezer Akinsanmiro", "Ricardo Mangas", "Jay Robinson", "Patrick Cutrone", "Gustavo Varela"],
-          "away_players": ["Elia Caprile", "Zé Pedro", "Yerry Mina", "Juan Rodríguez", "Adam Obert", "Alessandro Romano", "Harry Winks", "Alessandro Deiola", "Michel Ndary Adopo", "Daniel Maldini", "Paul Mendy"],
-          "home_missing_players": ["Patrick Ciurria", "Jan Ziólkowski", "Lorenzo Lucchesi", "Idrissa Touré", "Matteo Pessina"],
-          "away_missing_players": ["Fabio Pisacane", "Mattia Felici", "Riyad Idrissi", "Yael Trepy"]
+          "home_players": [
+            "Noel Törnqvist",
+            "Eddy Kouadio",
+            "Saba Goglichidze",
+            "Andrea Carboni",
+            "Samuele Birindelli",
+            "Michael Folorunsho",
+            "Ebenezer Akinsanmiro",
+            "Ricardo Mangas",
+            "Jay Robinson",
+            "Patrick Cutrone",
+            "Gustavo Varela"
+          ],
+          "away_players": [
+            "Elia Caprile",
+            "Zé Pedro",
+            "Yerry Mina",
+            "Juan Rodríguez",
+            "Adam Obert",
+            "Alessandro Romano",
+            "Harry Winks",
+            "Alessandro Deiola",
+            "Michel Ndary Adopo",
+            "Daniel Maldini",
+            "Paul Mendy"
+          ],
+          "home_missing_players": [
+            "Patrick Ciurria",
+            "Jan Ziólkowski",
+            "Lorenzo Lucchesi",
+            "Idrissa Touré",
+            "Matteo Pessina"
+          ],
+          "away_missing_players": [
+            "Fabio Pisacane",
+            "Mattia Felici",
+            "Riyad Idrissi",
+            "Yael Trepy"
+          ]
         },
         "pregame_form": {
           "home": "DLWDL",
@@ -111,10 +146,41 @@
         "lineups": {
           "home_formation": "3-5-2",
           "away_formation": "4-4-2",
-          "home_players": ["Edoardo Corvi", "Enrico Del Prato", "Diego Carlos", "Mariano Troilo", "Sascha Britschgi", "Giovanni Fabbian", "Adrián Bernabé", "Mandela Keita", "Emanuele Valeri", "Simone Lontani", "David Romero"],
-          "away_players": ["Lucas Perri", "Rafik Belghali", "Saúl Coco", "Pietro Comuzzo", "Ricardo Rodríguez", "Nikola Vlašić", "Rolando Mandragora", "Daniel Bragança", "Alessio Cacciamani", "Ché Adams", "Giovanni Simeone"],
-          "home_missing_players": ["Nesta Elphege", "Hans Nicolussi Caviglia", "Pontus Almqvist"],
-          "away_missing_players": ["Niccolò Fortini", "Emirhan İlkhan"]
+          "home_players": [
+            "Edoardo Corvi",
+            "Enrico Del Prato",
+            "Diego Carlos",
+            "Mariano Troilo",
+            "Sascha Britschgi",
+            "Giovanni Fabbian",
+            "Adrián Bernabé",
+            "Mandela Keita",
+            "Emanuele Valeri",
+            "Simone Lontani",
+            "David Romero"
+          ],
+          "away_players": [
+            "Lucas Perri",
+            "Rafik Belghali",
+            "Saúl Coco",
+            "Pietro Comuzzo",
+            "Ricardo Rodríguez",
+            "Nikola Vlašić",
+            "Rolando Mandragora",
+            "Daniel Bragança",
+            "Alessio Cacciamani",
+            "Ché Adams",
+            "Giovanni Simeone"
+          ],
+          "home_missing_players": [
+            "Nesta Elphege",
+            "Hans Nicolussi Caviglia",
+            "Pontus Almqvist"
+          ],
+          "away_missing_players": [
+            "Niccolò Fortini",
+            "Emirhan İlkhan"
+          ]
         },
         "pregame_form": {
           "home": "LDLWL",
@@ -123,7 +189,7 @@
       }
     },
     {
-      "team1": "Tottenham Hotspur",
+      "team1": "Tottenham",
       "team1_logo": "https://img.singhs.com.np/team/8586.png",
       "team2": "Coventry City",
       "team2_logo": "https://img.singhs.com.np/team/8669.png",
@@ -172,10 +238,49 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "3-4-2-1",
-          "home_players": ["Antonín Kinský", "Archie Gray", "Jan Paul van Hecke", "Micky van de Ven", "Destiny Udogie", "Mateus Fernandes", "Sandro Tonali", "Mohammed Kudus", "Conor Gallagher", "Omar Marmoush", "Dominic Solanke"],
-          "away_players": ["Carl Rushworth", "Stephen Mfuni", "Bobby Thomas", "Ethan Pinnock", "Milan van Ewijk", "Caleb Yirenkyi", "Matt Grimes", "Jay Dasilva", "Brandon Thomas-Asante", "Jack Rudoni", "Sidiki Cherif"],
-          "home_missing_players": ["Pedro Porro", "Dejan Kulusevski", "Lucas Bergvall", "Rodrigo Bentancur", "Xavi Simons", "Mykhaylo Mudryk", "Sávio", "Wilson Odobert"],
-          "away_missing_players": ["Kaine Kesler-Hayden", "Aurèle Amenda", "Luke Woolfenden", "Josh Eccles", "Haji Wright"]
+          "home_players": [
+            "Antonín Kinský",
+            "Archie Gray",
+            "Jan Paul van Hecke",
+            "Micky van de Ven",
+            "Destiny Udogie",
+            "Mateus Fernandes",
+            "Sandro Tonali",
+            "Mohammed Kudus",
+            "Conor Gallagher",
+            "Omar Marmoush",
+            "Dominic Solanke"
+          ],
+          "away_players": [
+            "Carl Rushworth",
+            "Stephen Mfuni",
+            "Bobby Thomas",
+            "Ethan Pinnock",
+            "Milan van Ewijk",
+            "Caleb Yirenkyi",
+            "Matt Grimes",
+            "Jay Dasilva",
+            "Brandon Thomas-Asante",
+            "Jack Rudoni",
+            "Sidiki Cherif"
+          ],
+          "home_missing_players": [
+            "Pedro Porro",
+            "Dejan Kulusevski",
+            "Lucas Bergvall",
+            "Rodrigo Bentancur",
+            "Xavi Simons",
+            "Mykhaylo Mudryk",
+            "Sávio",
+            "Wilson Odobert"
+          ],
+          "away_missing_players": [
+            "Kaine Kesler-Hayden",
+            "Aurèle Amenda",
+            "Luke Woolfenden",
+            "Josh Eccles",
+            "Haji Wright"
+          ]
         },
         "pregame_form": {
           "home": "DDLLD",
@@ -233,10 +338,45 @@
         "lineups": {
           "home_formation": "5-4-1",
           "away_formation": "4-3-3",
-          "home_players": ["David Soria", "Djené", "Nemanja Gudelj", "Abdelkabir Abqar", "Daniel Carvajal", "Johan Mojica", "Kiko", "Francho Serrano", "Mario Martín", "Alberto Risco", "Martín Satriano"],
-          "away_players": ["Emil Audero", "Iván Balliu", "Mujaid Sadick", "Florian Lejeune", "Adrià Pedrosa", "Unai López", "Pathé Ciss", "Pedro Díaz", "Isi Palazón", "Sergio Camello", "Álvaro Garcia"],
-          "home_missing_players": ["Iván Azon", "Orel Mangala", "Andrés García", "Zaid Abner Romero", "Christantus Uche", "Juanmi"],
-          "away_missing_players": ["Augusto Batalla", "Andrei Rațiu", "Luiz Felipe"]
+          "home_players": [
+            "David Soria",
+            "Djené",
+            "Nemanja Gudelj",
+            "Abdelkabir Abqar",
+            "Daniel Carvajal",
+            "Johan Mojica",
+            "Kiko",
+            "Francho Serrano",
+            "Mario Martín",
+            "Alberto Risco",
+            "Martín Satriano"
+          ],
+          "away_players": [
+            "Emil Audero",
+            "Iván Balliu",
+            "Mujaid Sadick",
+            "Florian Lejeune",
+            "Adrià Pedrosa",
+            "Unai López",
+            "Pathé Ciss",
+            "Pedro Díaz",
+            "Isi Palazón",
+            "Sergio Camello",
+            "Álvaro Garcia"
+          ],
+          "home_missing_players": [
+            "Iván Azon",
+            "Orel Mangala",
+            "Andrés García",
+            "Zaid Abner Romero",
+            "Christantus Uche",
+            "Juanmi"
+          ],
+          "away_missing_players": [
+            "Augusto Batalla",
+            "Andrei Rațiu",
+            "Luiz Felipe"
+          ]
         },
         "pregame_form": {
           "home": "DLWLD",
