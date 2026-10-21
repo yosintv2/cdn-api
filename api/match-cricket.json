@@ -6,26 +6,12 @@
       "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/australia.png",
       "league": "Australia in South Africa, 3 Test Series, 2026",
-      "start": "2026-10-20T17:00:00+09:00",
+      "start": "2026-10-21T17:00:00+09:00",
       "duration": 10,
       "format": "Test",
       "details_url": "https://home.getemoji.online/?yosintv=southafrica",
       "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
       "event_id": "269791",
-      "cricket_data": null
-    },
-    {
-      "team1": "Pakistan",
-      "team2": "England",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/pakistan.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/england.png",
-      "league": "ODI Tri-Series in Pakistan, 2026",
-      "start": "2026-10-20T17:00:00+09:00",
-      "duration": 8,
-      "format": "ODI",
-      "details_url": "https://home.getemoji.online/?yosintv=pakistan",
-      "streaming_url": "https://cdn.singhs.com.np/pakistan.json",
-      "event_id": "274143",
       "cricket_data": null
     },
     {
@@ -40,6 +26,34 @@
       "details_url": "https://home.getemoji.online/?yosintv=afghanistan",
       "streaming_url": "https://cdn.singhs.com.np/afghanistan.json",
       "event_id": "274658",
+      "cricket_data": null
+    },
+    {
+      "team1": "New Zealand",
+      "team2": "India",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/newzealand.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/india.png",
+      "league": "India in New Zealand, 5 T20I Series, 2026",
+      "start": "2026-10-22T16:00:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=newzealand",
+      "streaming_url": "https://cdn.singhs.com.np/newzealand.json",
+      "event_id": "271646",
+      "cricket_data": null
+    },
+    {
+      "team1": "Sri Lanka",
+      "team2": "England",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/england.png",
+      "league": "ODI Tri-Series in Pakistan, 2026",
+      "start": "2026-10-22T17:00:00+09:00",
+      "duration": 8,
+      "format": "ODI",
+      "details_url": "https://home.getemoji.online/?yosintv=srilanka",
+      "streaming_url": "https://cdn.singhs.com.np/srilanka.json",
+      "event_id": "274144",
       "cricket_data": null
     }
   ]
