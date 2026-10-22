@@ -55,7 +55,8 @@
           "home": "WLDWL",
           "away": "DLWWL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Bournemouth",
@@ -116,7 +117,8 @@
           "home": "WLLWW",
           "away": "LWDWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Omonia Nicosia",
@@ -173,68 +175,8 @@
           "home": "WWWWD",
           "away": "WWLWW"
         }
-      }
-    },
-    {
-      "team1": "Al-Faisaly",
-      "team1_logo": "https://img.singhs.com.np/team/205687.png",
-      "team2": "Al Nassr FC",
-      "team2_logo": "https://img.singhs.com.np/team/101918.png",
-      "league_logo": "https://img.singhs.com.np/league/1000001787.png",
-      "league": "Saudi Pro League",
-      "start": "2026-10-23T22:30:00+09:00",
-      "league_id": 1000001787,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=alnassrfc",
-      "streaming_url": "https://cdn.singhs.com.np/alnassrfc.json",
-      "event_id": 5970172,
-      "football_data": {
-        "event": {
-          "match_id": 5970172,
-          "league": "Saudi Arabian League",
-          "league_id": 536,
-          "round": 11,
-          "tournament": "Saudi Arabian League",
-          "kick_off_time_utc": "Fri, 23 Oct 2026 13:30:00 GMT",
-          "venue": "Al Majma'ah Sports City Stadium",
-          "venue_city": "Al Majma'ah",
-          "venue_country": "Saudi Arabia",
-          "venue_lat": 25.886875751,
-          "venue_lng": 45.368084908,
-          "stadium_capacity": 7000,
-          "stadium_surface": "artificial turf",
-          "referee": null,
-          "home_team": {
-            "name": "Al-Faisaly",
-            "id": 205687
-          },
-          "away_team": {
-            "name": "Al Nassr FC",
-            "id": 101918
-          },
-          "home_manager": "Giovanni Solinas",
-          "away_manager": "Ange Postecoglou",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 6,
-          "awayWins": 8
-        },
-        "lineups": {
-          "home_formation": "3-4-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Fernando Pacheco", "Abdullah Bin Subayt", "Abdoulaye Seck", "Andrei Girotto", "Yaseen Barnawi", "Flávio", "Abdullah Al Mogren", "Mohammed Al Shanqiti", "Abdulaziz Al Bishi", "Alexandre Mendy", "Jaime Seoane"],
-          "away_players": ["Bento", "Nawaf Bu Washl", "Abdulelah Al Amri", "Iñigo Martínez", "Aiman Yahya", "Abdullah Al Khaibari", "Samú", "Ângelo", "Joao Félix", "Sadio Mané", "Cristiano Ronaldo"],
-          "home_missing_players": [],
-          "away_missing_players": ["Mohamed Simakan", "Kingsley Coman", "Sultan Al Ghannam"]
-        },
-        "pregame_form": {
-          "home": "DDLWD",
-          "away": "DLWWW"
-        }
-      }
+      },
+      "pushed": true
     }
   ]
 }
