@@ -1,19 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Ballon Dor",
-      "team2": "Ballon Dor",
-      "team1_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79HHgC8sHlY_RtaIweuU4HpwzBL86BguPYJdqhDXqiw&s",
-      "team2_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79HHgC8sHlY_RtaIweuU4HpwzBL86BguPYJdqhDXqiw&s",
-      "league": "Event Ceremony",
-      "start": "2026-10-27T05:00:00+09:00",
-      "duration": 2,
-      "details_url": "https://home.getemoji.online/?yosintv=ballondor",
-      "streaming_url": "https://cdn.singhs.com.np/ballondor.json",
-      "event_id": 271699,
-      "football_data": null
-    },
-    {
       "team1": "Al Nassr FC",
       "team1_logo": "https://img.singhs.com.np/team/101918.png",
       "team2": "Al-Wasl",
