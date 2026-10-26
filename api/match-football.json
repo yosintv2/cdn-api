@@ -1,6 +1,20 @@
 {
   "matches": [
     {
+      "team1": "Ballon Dor",
+      "team2": "Ballon Dor",
+      "team1_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79HHgC8sHlY_RtaIweuU4HpwzBL86BguPYJdqhDXqiw&s",
+      "team2_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79HHgC8sHlY_RtaIweuU4HpwzBL86BguPYJdqhDXqiw&s",
+      "league": "NPL 2026",
+      "start": "2026-10-27T05:00:00+09:00",
+      "duration": 2,
+      "format": "Event Ceremony",
+      "details_url": "https://home.getemoji.online/?yosintv=ballondor",
+      "streaming_url": "https://cdn.singhs.com.np/ballondor.json",
+      "event_id": "271647",
+      "cricket_data": null
+    },
+    {
       "team1": "Al Nassr FC",
       "team1_logo": "https://img.singhs.com.np/team/101918.png",
       "team2": "Al-Wasl",
@@ -50,9 +64,37 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Bento", "Nawaf Bu Washl", "Abdulelah Al Amri", "Iñigo Martínez", "Aiman Yahya", "Abdullah Al Khaibari", "Samú", "Ângelo", "Joao Félix", "Sadio Mané", "Cristiano Ronaldo"],
-          "away_players": ["Dinko Horkaš", "Pedro Malheiro", "Soufian Bouftiny", "Saša Ivković", "Hugo", "Cameron Puertas", "Ridwan Popoola", "Leandro Spadacio", "Nicolás Giménez", "Serginho", "Mehdi Taremi"],
-          "home_missing_players": ["Mohamed Simakan", "Kingsley Coman", "Sultan Al Ghannam"],
+          "home_players": [
+            "Bento",
+            "Nawaf Bu Washl",
+            "Abdulelah Al Amri",
+            "Iñigo Martínez",
+            "Aiman Yahya",
+            "Abdullah Al Khaibari",
+            "Samú",
+            "Ângelo",
+            "Joao Félix",
+            "Sadio Mané",
+            "Cristiano Ronaldo"
+          ],
+          "away_players": [
+            "Dinko Horkaš",
+            "Pedro Malheiro",
+            "Soufian Bouftiny",
+            "Saša Ivković",
+            "Hugo",
+            "Cameron Puertas",
+            "Ridwan Popoola",
+            "Leandro Spadacio",
+            "Nicolás Giménez",
+            "Serginho",
+            "Mehdi Taremi"
+          ],
+          "home_missing_players": [
+            "Mohamed Simakan",
+            "Kingsley Coman",
+            "Sultan Al Ghannam"
+          ],
           "away_missing_players": []
         },
         "pregame_form": {
@@ -112,10 +154,45 @@
         "lineups": {
           "home_formation": "4-3-3",
           "away_formation": "4-2-3-1",
-          "home_players": ["Matvey Safonov", "Achraf Hakimi", "Ilya Zabarnyi", "Willian Pacho", "Lucas Digne", "João Neves", "Vítinha", "Warren Zaïre-Emery", "Maghnes Akliouche", "Ferrán Torres", "Désiré Doué"],
-          "away_players": ["Dominik Greif", "Zachary Athekame", "Felix Bacher", "Moussa Niakhaté", "Abner", "Tanner Tessmann", "Mads Bidstrup", "Kaïl Boudache", "Corentin Tolisso", "Julien Duranville", "Ernest Nuamah"],
-          "home_missing_players": ["Marquinhos", "Nuno Mendes", "Khvicha Kvaratskhelia", "Ousmane Dembélé"],
-          "away_missing_players": ["Nicolás Tagliafico", "Steeve Kango", "Mohamed Ouédraogo", "Loïs Openda", "Pavel Šulc"]
+          "home_players": [
+            "Matvey Safonov",
+            "Achraf Hakimi",
+            "Ilya Zabarnyi",
+            "Willian Pacho",
+            "Lucas Digne",
+            "João Neves",
+            "Vítinha",
+            "Warren Zaïre-Emery",
+            "Maghnes Akliouche",
+            "Ferrán Torres",
+            "Désiré Doué"
+          ],
+          "away_players": [
+            "Dominik Greif",
+            "Zachary Athekame",
+            "Felix Bacher",
+            "Moussa Niakhaté",
+            "Abner",
+            "Tanner Tessmann",
+            "Mads Bidstrup",
+            "Kaïl Boudache",
+            "Corentin Tolisso",
+            "Julien Duranville",
+            "Ernest Nuamah"
+          ],
+          "home_missing_players": [
+            "Marquinhos",
+            "Nuno Mendes",
+            "Khvicha Kvaratskhelia",
+            "Ousmane Dembélé"
+          ],
+          "away_missing_players": [
+            "Nicolás Tagliafico",
+            "Steeve Kango",
+            "Mohamed Ouédraogo",
+            "Loïs Openda",
+            "Pavel Šulc"
+          ]
         },
         "pregame_form": {
           "home": "WWWWW",
@@ -174,10 +251,41 @@
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-3-3",
-          "home_players": ["Odysseas Vlachodimos", "Juan Iglesias", "Andrés Lopez", "Kike Salas", "Gabriel Suazo", "Lucien Agoumé", "Youssouf Fofana", "Rubén Vargas", "Peque Fernández", "Félix Correia", "Robbie Ure"],
-          "away_players": ["Aitor Fernández", "Valentin Rosier", "Alejandro Catena", "Flavien Boyomo", "Abel Bretones", "Jon Moncayola", "Iker Muñoz", "Moi Gómez", "Rubén Garcia", "Ante Budimir", "Jonathan Dubasin"],
-          "home_missing_players": ["Marcão", "Miguel Sierra"],
-          "away_missing_players": ["Jorge Herrando", "Aimar Oroz", "Romain Del Castillo"]
+          "home_players": [
+            "Odysseas Vlachodimos",
+            "Juan Iglesias",
+            "Andrés Lopez",
+            "Kike Salas",
+            "Gabriel Suazo",
+            "Lucien Agoumé",
+            "Youssouf Fofana",
+            "Rubén Vargas",
+            "Peque Fernández",
+            "Félix Correia",
+            "Robbie Ure"
+          ],
+          "away_players": [
+            "Aitor Fernández",
+            "Valentin Rosier",
+            "Alejandro Catena",
+            "Flavien Boyomo",
+            "Abel Bretones",
+            "Jon Moncayola",
+            "Iker Muñoz",
+            "Moi Gómez",
+            "Rubén Garcia",
+            "Ante Budimir",
+            "Jonathan Dubasin"
+          ],
+          "home_missing_players": [
+            "Marcão",
+            "Miguel Sierra"
+          ],
+          "away_missing_players": [
+            "Jorge Herrando",
+            "Aimar Oroz",
+            "Romain Del Castillo"
+          ]
         },
         "pregame_form": {
           "home": "WLLDL",
