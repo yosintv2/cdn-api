@@ -1,144 +1,248 @@
 {
   "matches": [
     {
-      "team1": "Liverpool",
-      "team1_logo": "https://img.singhs.com.np/team/8650.png",
-      "team2": "Brighton",
-      "team2_logo": "https://img.singhs.com.np/team/10204.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-10-25T23:00:00+09:00",
-      "league_id": 47,
+      "team1": "Al Nassr FC",
+      "team1_logo": "https://img.singhs.com.np/team/101918.png",
+      "team2": "Al-Wasl",
+      "team2_logo": "https://img.singhs.com.np/team/102111.png",
+      "league_logo": "https://img.singhs.com.np/league/943983.png",
+      "league": "AFC Champions League Elite West",
+      "start": "2026-10-27T03:15:00+09:00",
+      "league_id": 943983,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
-      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
-      "event_id": 5795492,
-      "football_data": null,
-      "pushed": true
-    },
-    {
-      "team1": "Man United",
-      "team1_logo": "https://img.singhs.com.np/team/10260.png",
-      "team2": "Bournemouth",
-      "team2_logo": "https://img.singhs.com.np/team/8678.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-10-25T23:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=manunited",
-      "streaming_url": "https://cdn.singhs.com.np/manunited.json",
-      "event_id": 5795493,
+      "details_url": "https://home.getemoji.online/?yosintv=alnassrfc",
+      "streaming_url": "https://cdn.singhs.com.np/alnassrfc.json",
+      "event_id": 6050083,
       "football_data": {
         "event": {
-          "match_id": 5795493,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 8,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sun, 25 Oct 2026 14:00:00 GMT",
-          "venue": "Old Trafford",
-          "venue_city": "Manchester",
-          "venue_country": "England",
-          "venue_lat": 53.463094458,
-          "venue_lng": -2.29137361,
-          "stadium_capacity": 74244,
+          "match_id": 6050083,
+          "league": "AFC Champions League Elite West",
+          "league_id": 943983,
+          "round": 3,
+          "tournament": "AFC Champions League Elite West",
+          "kick_off_time_utc": "Mon, 26 Oct 2026 18:15:00 GMT",
+          "venue": "Al-Awwal Park",
+          "venue_city": "Riyadh",
+          "venue_country": "Saudi Arabia",
+          "venue_lat": 24.729226747,
+          "venue_lng": 46.623754371,
+          "stadium_capacity": 26100,
           "stadium_surface": "grass",
-          "referee": "Jarred Gillett",
+          "referee": null,
           "home_team": {
-            "name": "Manchester United",
-            "id": 10260
+            "name": "Al Nassr FC",
+            "id": 101918
           },
           "away_team": {
-            "name": "AFC Bournemouth",
-            "id": 8678
+            "name": "Al-Wasl",
+            "id": 102111
           },
-          "home_manager": "Michael Carrick",
-          "away_manager": "Marco Rose",
+          "home_manager": "Ange Postecoglou",
+          "away_manager": "Rui Vitória",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 10,
-          "draws": 5,
-          "awayWins": 4
+          "homeWins": 3,
+          "draws": 0,
+          "awayWins": 1
         },
         "lineups": {
           "home_formation": "4-2-3-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Senne Lammens", "Diogo Dalot", "Leny Yoro", "Harry Maguire", "Noussair Mazraoui", "Andrey Santos", "Carlos Baleba", "Amad Diallo", "Youri Tielemans", "Bruno Fernandes", "Bryan Mbeumo"],
-          "away_players": ["Djordje Petrović", "Adam Smith", "James Hill", "António Silva", "Adrien Truffert", "Tyler Adams", "Lewis Cook", "Rayan", "Justin Kluivert", "Marcus Tavernier", "Evanilson"],
-          "home_missing_players": ["Marcus Rashford", "Lisandro Martínez", "Luke Shaw", "Kobbie Mainoo", "Manuel Ugarte", "Benjamin Šeško", "Patrick Dorgu"],
-          "away_missing_players": ["Junior Kroupi", "Veljko Milosavljević", "Julián Araujo", "Alex Scott", "Alex Tóth"]
+          "home_players": ["Bento", "Nawaf Bu Washl", "Abdulelah Al Amri", "Iñigo Martínez", "Aiman Yahya", "Abdullah Al Khaibari", "Samú", "Ângelo", "Joao Félix", "Sadio Mané", "Cristiano Ronaldo"],
+          "away_players": ["Dinko Horkaš", "Pedro Malheiro", "Soufian Bouftiny", "Saša Ivković", "Hugo", "Cameron Puertas", "Ridwan Popoola", "Leandro Spadacio", "Nicolás Giménez", "Serginho", "Mehdi Taremi"],
+          "home_missing_players": ["Mohamed Simakan", "Kingsley Coman", "Sultan Al Ghannam"],
+          "away_missing_players": []
         },
         "pregame_form": {
-          "home": "DDLDL",
-          "away": "LLWWW"
+          "home": "LWWWW",
+          "away": "WWLWD"
         }
-      },
-      "pushed": true
+      }
     },
     {
-      "team1": "Barcelona",
-      "team1_logo": "https://img.singhs.com.np/team/8634.png",
-      "team2": "Real Madrid",
-      "team2_logo": "https://img.singhs.com.np/team/8633.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-10-26T05:00:00+09:00",
-      "league_id": 87,
+      "team1": "Santa Clara",
+      "team1_logo": "https://img.singhs.com.np/team/1567.png",
+      "team2": "Benfica",
+      "team2_logo": "https://img.singhs.com.np/team/9772.png",
+      "league_logo": "https://img.singhs.com.np/league/61.png",
+      "league": "Liga Portugal",
+      "start": "2026-10-27T03:45:00+09:00",
+      "league_id": 61,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=barcelona",
-      "streaming_url": "https://cdn.singhs.com.np/barcelona.json",
-      "event_id": 5868105,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 5887660,
       "football_data": {
         "event": {
-          "match_id": 5868105,
+          "match_id": 5887660,
+          "league": "Liga Portugal",
+          "league_id": 61,
+          "round": 9,
+          "tournament": "Liga Portugal",
+          "kick_off_time_utc": "Mon, 26 Oct 2026 18:45:00 GMT",
+          "venue": "Estádio de São Miguel",
+          "venue_city": "Ponta Delgada, Ilha de São Migue",
+          "venue_country": "Portugal",
+          "venue_lat": 37.763705022,
+          "venue_lng": -25.622579455,
+          "stadium_capacity": 13277,
+          "stadium_surface": "grass",
+          "referee": "Cláudio Pereira",
+          "home_team": {
+            "name": "Santa Clara",
+            "id": 1567
+          },
+          "away_team": {
+            "name": "Benfica",
+            "id": 9772
+          },
+          "home_manager": "Petit",
+          "away_manager": "Marco Silva",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 1,
+          "draws": 2,
+          "awayWins": 13
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Lucas França", "Lucas Soares", "Pedro Pacheco", "Emanuel Moreira", "Guilherme Romão", "Tiago Ribeiro", "Pedro Ferreira", "Vitinho", "Vinícius", "Gonçalo Paciência", "Brenner"],
+          "away_players": ["Anatoliy Trubin", "Alexander Bah", "Alessandro Circati", "Tomás Araújo", "Samuel Dahl", "Fredrik Aursnes", "João Palhinha", "Rafa Silva", "Gianluca Prestianni", "Andreas Schjelderup", "Vangelis Pavlidis"],
+          "home_missing_players": ["MT", "Djé Tavares"],
+          "away_missing_players": ["Daniel Banjaqui", "Enzo Barrenechea", "Jakub Kamiński", "Leandro Barreiro"]
+        },
+        "pregame_form": {
+          "home": "WWDWL",
+          "away": "WLWWW"
+        }
+      }
+    },
+    {
+      "team1": "PSG",
+      "team1_logo": "https://img.singhs.com.np/team/9847.png",
+      "team2": "Lyon",
+      "team2_logo": "https://img.singhs.com.np/team/9748.png",
+      "league_logo": "https://img.singhs.com.np/league/53.png",
+      "league": "Ligue 1",
+      "start": "2026-10-27T04:30:00+09:00",
+      "league_id": 53,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=psg",
+      "streaming_url": "https://cdn.singhs.com.np/psg.json",
+      "event_id": 5802972,
+      "football_data": {
+        "event": {
+          "match_id": 5802972,
+          "league": "Ligue 1",
+          "league_id": 53,
+          "round": 8,
+          "tournament": "Ligue 1",
+          "kick_off_time_utc": "Mon, 26 Oct 2026 19:30:00 GMT",
+          "venue": "Parc des Princes",
+          "venue_city": "Paris",
+          "venue_country": "France",
+          "venue_lat": 48.841433445,
+          "venue_lng": 2.253048867,
+          "stadium_capacity": 47929,
+          "stadium_surface": "grass",
+          "referee": "Jérôme Brisard",
+          "home_team": {
+            "name": "Paris Saint-Germain",
+            "id": 9847
+          },
+          "away_team": {
+            "name": "Lyon",
+            "id": 9748
+          },
+          "home_manager": "Luis Enrique",
+          "away_manager": "Paulo Fonseca",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 28,
+          "draws": 6,
+          "awayWins": 8
+        },
+        "lineups": {
+          "home_formation": "4-3-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Matvey Safonov", "Achraf Hakimi", "Ilya Zabarnyi", "Willian Pacho", "Lucas Digne", "João Neves", "Vítinha", "Warren Zaïre-Emery", "Maghnes Akliouche", "Ferrán Torres", "Désiré Doué"],
+          "away_players": ["Dominik Greif", "Zachary Athekame", "Felix Bacher", "Moussa Niakhaté", "Abner", "Tanner Tessmann", "Mads Bidstrup", "Kaïl Boudache", "Corentin Tolisso", "Julien Duranville", "Ernest Nuamah"],
+          "home_missing_players": ["Marquinhos", "Nuno Mendes", "Khvicha Kvaratskhelia", "Ousmane Dembélé"],
+          "away_missing_players": ["Nicolás Tagliafico", "Steeve Kango", "Mohamed Ouédraogo", "Loïs Openda", "Pavel Šulc"]
+        },
+        "pregame_form": {
+          "home": "WWWWW",
+          "away": "WLWWL"
+        }
+      }
+    },
+    {
+      "team1": "Sevilla",
+      "team1_logo": "https://img.singhs.com.np/team/8302.png",
+      "team2": "Osasuna",
+      "team2_logo": "https://img.singhs.com.np/team/8371.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-10-27T05:00:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=sevilla",
+      "streaming_url": "https://cdn.singhs.com.np/sevilla.json",
+      "event_id": 5868109,
+      "football_data": {
+        "event": {
+          "match_id": 5868109,
           "league": "LaLiga",
           "league_id": 87,
           "round": 10,
           "tournament": "LaLiga",
-          "kick_off_time_utc": "Sun, 25 Oct 2026 20:00:00 GMT",
-          "venue": "Spotify Camp Nou",
-          "venue_city": "Barcelona",
+          "kick_off_time_utc": "Mon, 26 Oct 2026 20:00:00 GMT",
+          "venue": "Estadio Ramón Sánchez Pizjuán",
+          "venue_city": "Sevilla",
           "venue_country": "Spain",
-          "venue_lat": 41.380890137,
-          "venue_lng": 2.122812867,
-          "stadium_capacity": 99787,
+          "venue_lat": 37.384045627,
+          "venue_lng": -5.970591903,
+          "stadium_capacity": 42714,
           "stadium_surface": "grass",
-          "referee": "Juan Martínez Munuera",
+          "referee": "Miguel Ángel Ortiz Arias",
           "home_team": {
-            "name": "Barcelona",
-            "id": 8634
+            "name": "Sevilla",
+            "id": 8302
           },
           "away_team": {
-            "name": "Real Madrid",
-            "id": 8633
+            "name": "Osasuna",
+            "id": 8371
           },
-          "home_manager": "Hans-Dieter Flick",
-          "away_manager": "José Mourinho",
+          "home_manager": "Luis García",
+          "away_manager": "Jagoba Arrasate",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 29,
-          "draws": 10,
-          "awayWins": 21
+          "homeWins": 12,
+          "draws": 6,
+          "awayWins": 7
         },
         "lineups": {
           "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Joan García", "Xavi Espart", "Pau Cubarsí", "Gerard Martín", "João Cancelo", "Rodri", "Pedri", "Lamine Yamal", "Fermín López", "Anthony Gordon", "Raphinha"],
-          "away_players": ["Thibaut Courtois", "Denzel Dumfries", "Ibrahima Konaté", "Dean Huijsen", "Marc Cucurella", "Federico Valverde", "Aurélien Tchouaméni", "Arda Güler", "Jude Bellingham", "Yan Diomande", "Kylian Mbappé"],
-          "home_missing_players": ["Jules Koundé", "Andreas Christensen", "Eric García", "Dani Olmo", "Roony Bardghji"],
-          "away_missing_players": ["Ferland Mendy", "Raúl Asencio", "Rodrygo", "Vinícius Júnior"]
+          "away_formation": "4-3-3",
+          "home_players": ["Odysseas Vlachodimos", "Juan Iglesias", "Andrés Lopez", "Kike Salas", "Gabriel Suazo", "Lucien Agoumé", "Youssouf Fofana", "Rubén Vargas", "Peque Fernández", "Félix Correia", "Robbie Ure"],
+          "away_players": ["Aitor Fernández", "Valentin Rosier", "Alejandro Catena", "Flavien Boyomo", "Abel Bretones", "Jon Moncayola", "Iker Muñoz", "Moi Gómez", "Rubén Garcia", "Ante Budimir", "Jonathan Dubasin"],
+          "home_missing_players": ["Marcão", "Miguel Sierra"],
+          "away_missing_players": ["Jorge Herrando", "Aimar Oroz", "Romain Del Castillo"]
         },
         "pregame_form": {
-          "home": "WWWWL",
-          "away": "LWWWW"
+          "home": "WLLDL",
+          "away": "LLDLW"
         }
-      },
-      "pushed": true
+      }
     }
   ]
 }
