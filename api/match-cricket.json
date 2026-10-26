@@ -15,6 +15,34 @@
       "cricket_data": null
     },
     {
+      "team1": "Biratnagar Kings",
+      "team2": "Chitwan Rhinos",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/biratnagarkings.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/chitwanrhinos.png",
+      "league": "NPL 2026",
+      "start": "2026-10-27T15:45:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=npl",
+      "streaming_url": "https://cdn.singhs.com.np/npl.json",
+      "event_id": "271648",
+      "cricket_data": null
+    },
+    {
+      "team1": "Karnali Yaks",
+      "team2": "Janakpur Bolts",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/karnaliyaks.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/janakpurbolts.png",
+      "league": "NPL 2026",
+      "start": "2026-10-27T20:15:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=npl",
+      "streaming_url": "https://cdn.singhs.com.np/npl.json",
+      "event_id": "271649",
+      "cricket_data": null
+    },
+    {
       "team1": "Namibia",
       "team2": "Ireland",
       "team1_logo": "https://aimages.willow.tv/teamLogos/namibia.png",
