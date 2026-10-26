@@ -59,68 +59,8 @@
           "home": "LWWWW",
           "away": "WWLWD"
         }
-      }
-    },
-    {
-      "team1": "Santa Clara",
-      "team1_logo": "https://img.singhs.com.np/team/1567.png",
-      "team2": "Benfica",
-      "team2_logo": "https://img.singhs.com.np/team/9772.png",
-      "league_logo": "https://img.singhs.com.np/league/61.png",
-      "league": "Liga Portugal",
-      "start": "2026-10-27T03:45:00+09:00",
-      "league_id": 61,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=benfica",
-      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
-      "event_id": 5887660,
-      "football_data": {
-        "event": {
-          "match_id": 5887660,
-          "league": "Liga Portugal",
-          "league_id": 61,
-          "round": 9,
-          "tournament": "Liga Portugal",
-          "kick_off_time_utc": "Mon, 26 Oct 2026 18:45:00 GMT",
-          "venue": "Estádio de São Miguel",
-          "venue_city": "Ponta Delgada, Ilha de São Migue",
-          "venue_country": "Portugal",
-          "venue_lat": 37.763705022,
-          "venue_lng": -25.622579455,
-          "stadium_capacity": 13277,
-          "stadium_surface": "grass",
-          "referee": "Cláudio Pereira",
-          "home_team": {
-            "name": "Santa Clara",
-            "id": 1567
-          },
-          "away_team": {
-            "name": "Benfica",
-            "id": 9772
-          },
-          "home_manager": "Petit",
-          "away_manager": "Marco Silva",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 2,
-          "awayWins": 13
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Lucas França", "Lucas Soares", "Pedro Pacheco", "Emanuel Moreira", "Guilherme Romão", "Tiago Ribeiro", "Pedro Ferreira", "Vitinho", "Vinícius", "Gonçalo Paciência", "Brenner"],
-          "away_players": ["Anatoliy Trubin", "Alexander Bah", "Alessandro Circati", "Tomás Araújo", "Samuel Dahl", "Fredrik Aursnes", "João Palhinha", "Rafa Silva", "Gianluca Prestianni", "Andreas Schjelderup", "Vangelis Pavlidis"],
-          "home_missing_players": ["MT", "Djé Tavares"],
-          "away_missing_players": ["Daniel Banjaqui", "Enzo Barrenechea", "Jakub Kamiński", "Leandro Barreiro"]
-        },
-        "pregame_form": {
-          "home": "WWDWL",
-          "away": "WLWWW"
-        }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "PSG",
@@ -181,7 +121,8 @@
           "home": "WWWWW",
           "away": "WLWWL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Sevilla",
@@ -242,7 +183,8 @@
           "home": "WLLDL",
           "away": "LLDLW"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
