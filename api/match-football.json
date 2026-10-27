@@ -1,284 +1,183 @@
 {
   "matches": [
     {
-      "team1": "Al Nassr FC",
-      "team1_logo": "https://img.singhs.com.np/team/101918.png",
-      "team2": "Al-Wasl",
-      "team2_logo": "https://img.singhs.com.np/team/102111.png",
-      "league_logo": "https://img.singhs.com.np/league/943983.png",
-      "league": "AFC Champions League Elite West",
-      "start": "2026-10-27T03:15:00+09:00",
-      "league_id": 943983,
+      "team1": "Roma",
+      "team1_logo": "https://img.singhs.com.np/team/8686.png",
+      "team2": "Cagliari",
+      "team2_logo": "https://img.singhs.com.np/team/8529.png",
+      "league_logo": "https://img.singhs.com.np/league/55.png",
+      "league": "Serie A",
+      "start": "2026-10-28T04:45:00+09:00",
+      "league_id": 55,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=alnassrfc",
-      "streaming_url": "https://cdn.singhs.com.np/alnassrfc.json",
-      "event_id": 6050083,
+      "details_url": "https://home.getemoji.online/?yosintv=roma",
+      "streaming_url": "https://cdn.singhs.com.np/roma.json",
+      "event_id": 5749721,
       "football_data": {
         "event": {
-          "match_id": 6050083,
-          "league": "AFC Champions League Elite West",
-          "league_id": 943983,
-          "round": 3,
-          "tournament": "AFC Champions League Elite West",
-          "kick_off_time_utc": "Mon, 26 Oct 2026 18:15:00 GMT",
-          "venue": "Al-Awwal Park",
-          "venue_city": "Riyadh",
-          "venue_country": "Saudi Arabia",
-          "venue_lat": 24.729226747,
-          "venue_lng": 46.623754371,
-          "stadium_capacity": 26100,
+          "match_id": 5749721,
+          "league": "Serie A",
+          "league_id": 55,
+          "round": 9,
+          "tournament": "Serie A",
+          "kick_off_time_utc": "Tue, 27 Oct 2026 19:45:00 GMT",
+          "venue": "Stadio Olimpico",
+          "venue_city": "Roma",
+          "venue_country": "Italy",
+          "venue_lat": 41.933947912,
+          "venue_lng": 12.454757094,
+          "stadium_capacity": 70634,
+          "stadium_surface": "grass",
+          "referee": "Ermanno Feliciani",
+          "home_team": {
+            "name": "Roma",
+            "id": 8686
+          },
+          "away_team": {
+            "name": "Cagliari",
+            "id": 8529
+          },
+          "home_manager": "Gian Piero Gasperini",
+          "away_manager": "Fabio Pisacane",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 17,
+          "draws": 6,
+          "awayWins": 6
+        },
+        "lineups": {
+          "home_formation": "3-4-1-2",
+          "away_formation": "4-3-2-1",
+          "home_players": ["Pierluigi Gollini", "Gianluca Mancini", "Evan N'Dicka", "Mario Hermoso", "Emanuele Lulli", "Marten de Roon", "Niccolò Pisilli", "Wesley", "Bryan Cristante", "Matias Soulé", "Donyell Malen"],
+          "away_players": ["Elia Caprile", "Zé Pedro", "Alessandro Deiola", "Juan Rodríguez", "Adam Obert", "Alessandro Romano", "Roberto Gagliardini", "Michel Ndary Adopo", "Yanis Massolin", "Daniel Maldini", "Paul Mendy"],
+          "home_missing_players": ["Mile Svilar", "Lorenzo Pellegrini", "Manu Koné"],
+          "away_missing_players": ["Harry Winks", "Mattia Felici", "Riyad Idrissi"]
+        },
+        "pregame_form": {
+          "home": "DLWWD",
+          "away": "WWDLL"
+        }
+      }
+    },
+    {
+      "team1": "Dortmund",
+      "team1_logo": "https://img.singhs.com.np/team/9789.png",
+      "team2": "Werder Bremen",
+      "team2_logo": "https://img.singhs.com.np/team/8697.png",
+      "league_logo": "https://img.singhs.com.np/league/936417.png",
+      "league": "DFB Pokal",
+      "start": "2026-10-28T04:45:00+09:00",
+      "league_id": 936417,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
+      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
+      "event_id": 6162740,
+      "football_data": {
+        "event": {
+          "match_id": 6162740,
+          "league": "DFB Pokal",
+          "league_id": 936417,
+          "round": 2,
+          "tournament": "DFB Pokal",
+          "kick_off_time_utc": "Tue, 27 Oct 2026 19:45:00 GMT",
+          "venue": "SIGNAL IDUNA PARK",
+          "venue_city": "Dortmund",
+          "venue_country": "Germany",
+          "venue_lat": 51.492606578,
+          "venue_lng": 7.451777458,
+          "stadium_capacity": 81365,
           "stadium_surface": "grass",
           "referee": null,
           "home_team": {
-            "name": "Al Nassr FC",
-            "id": 101918
+            "name": "Borussia Dortmund",
+            "id": 9789
           },
           "away_team": {
-            "name": "Al-Wasl",
-            "id": 102111
+            "name": "Werder Bremen",
+            "id": 8697
           },
-          "home_manager": "Ange Postecoglou",
-          "away_manager": "Rui Vitória",
+          "home_manager": "Niko Kovač",
+          "away_manager": "Daniel Thioune",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 3,
-          "draws": 0,
-          "awayWins": 1
+          "homeWins": 21,
+          "draws": 7,
+          "awayWins": 5
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
+          "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": [
-            "Bento",
-            "Nawaf Bu Washl",
-            "Abdulelah Al Amri",
-            "Iñigo Martínez",
-            "Aiman Yahya",
-            "Abdullah Al Khaibari",
-            "Samú",
-            "Ângelo",
-            "Joao Félix",
-            "Sadio Mané",
-            "Cristiano Ronaldo"
-          ],
-          "away_players": [
-            "Dinko Horkaš",
-            "Pedro Malheiro",
-            "Soufian Bouftiny",
-            "Saša Ivković",
-            "Hugo",
-            "Cameron Puertas",
-            "Ridwan Popoola",
-            "Leandro Spadacio",
-            "Nicolás Giménez",
-            "Serginho",
-            "Mehdi Taremi"
-          ],
-          "home_missing_players": [
-            "Mohamed Simakan",
-            "Kingsley Coman",
-            "Sultan Al Ghannam"
-          ],
-          "away_missing_players": []
+          "home_players": ["Gregor Kobel", "Waldemar Anton", "Nico Schlotterbeck", "Ramy Bensebaini", "Julian Ryerson", "Joey Veerman", "Felix Nmecha", "Daniel Svensson", "Marcel Sabitzer", "Fábio Silva", "Serhou Guirassy"],
+          "away_players": ["Karl Hein", "Arthur", "Amos Pieper", "Marco Friedl", "Olivier Deman", "Ludovit Reis", "Youri Regeer", "Mitchell Weiser", "Chuki", "Marco Grüll", "Niclas Füllkrug"],
+          "home_missing_players": ["Kauã Prates", "Emre Can", "Giannis Konstantelias", "Justin Lerma", "Konstantinos Karetsas"],
+          "away_missing_players": ["Olivier Deman", "Moussa N'Diaye", "Felix Agu", "Jens Stage", "Skelly Alvero", "Justin Njinmah", "Keke Topp", "Salim Musah"]
         },
         "pregame_form": {
-          "home": "LWWWW",
-          "away": "WWLWD"
+          "home": "DLDWW",
+          "away": "DWDDW"
         }
-      },
-      "pushed": true
+      }
     },
     {
-      "team1": "PSG",
-      "team1_logo": "https://img.singhs.com.np/team/9847.png",
-      "team2": "Lyon",
-      "team2_logo": "https://img.singhs.com.np/team/9748.png",
-      "league_logo": "https://img.singhs.com.np/league/53.png",
-      "league": "Ligue 1",
-      "start": "2026-10-27T04:30:00+09:00",
-      "league_id": 53,
+      "team1": "Fleetwood",
+      "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/45723.png",
+      "team2": "Arsenal",
+      "team2_logo": "https://img.singhs.com.np/team/9825.png",
+      "league_logo": "https://img.singhs.com.np/league/938221.png",
+      "league": "EFL Cup",
+      "start": "2026-10-28T05:00:00+09:00",
+      "league_id": 938221,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=psg",
-      "streaming_url": "https://cdn.singhs.com.np/psg.json",
-      "event_id": 5802972,
+      "details_url": "https://home.getemoji.online/?yosintv=arsenal",
+      "streaming_url": "https://cdn.singhs.com.np/arsenal.json",
+      "event_id": 6275367,
       "football_data": {
         "event": {
-          "match_id": 5802972,
-          "league": "Ligue 1",
-          "league_id": 53,
-          "round": 8,
-          "tournament": "Ligue 1",
-          "kick_off_time_utc": "Mon, 26 Oct 2026 19:30:00 GMT",
-          "venue": "Parc des Princes",
-          "venue_city": "Paris",
-          "venue_country": "France",
-          "venue_lat": 48.841433445,
-          "venue_lng": 2.253048867,
-          "stadium_capacity": 47929,
+          "match_id": 6275367,
+          "league": "EFL Cup",
+          "league_id": 938221,
+          "round": 4,
+          "tournament": "EFL Cup",
+          "kick_off_time_utc": "Tue, 27 Oct 2026 20:00:00 GMT",
+          "venue": "Highbury Stadium",
+          "venue_city": "Fleetwood, Lancashire",
+          "venue_country": "England",
+          "venue_lat": 53.91649748,
+          "venue_lng": -3.024721742,
+          "stadium_capacity": 5327,
           "stadium_surface": "grass",
-          "referee": "Jérôme Brisard",
+          "referee": "Michael Salisbury",
           "home_team": {
-            "name": "Paris Saint-Germain",
-            "id": 9847
+            "name": "Fleetwood Town",
+            "id": 45723
           },
           "away_team": {
-            "name": "Lyon",
-            "id": 9748
+            "name": "Arsenal",
+            "id": 9825
           },
-          "home_manager": "Luis Enrique",
-          "away_manager": "Paulo Fonseca",
+          "home_manager": "Matt Lawlor",
+          "away_manager": "Mikel Arteta",
           "gender": "male",
           "coverage_level": "lower"
         },
-        "h2h": {
-          "homeWins": 28,
-          "draws": 6,
-          "awayWins": 8
-        },
+        "h2h": null,
         "lineups": {
-          "home_formation": "4-3-3",
+          "home_formation": "3-1-4-2",
           "away_formation": "4-2-3-1",
-          "home_players": [
-            "Matvey Safonov",
-            "Achraf Hakimi",
-            "Ilya Zabarnyi",
-            "Willian Pacho",
-            "Lucas Digne",
-            "João Neves",
-            "Vítinha",
-            "Warren Zaïre-Emery",
-            "Maghnes Akliouche",
-            "Ferrán Torres",
-            "Désiré Doué"
-          ],
-          "away_players": [
-            "Dominik Greif",
-            "Zachary Athekame",
-            "Felix Bacher",
-            "Moussa Niakhaté",
-            "Abner",
-            "Tanner Tessmann",
-            "Mads Bidstrup",
-            "Kaïl Boudache",
-            "Corentin Tolisso",
-            "Julien Duranville",
-            "Ernest Nuamah"
-          ],
-          "home_missing_players": [
-            "Marquinhos",
-            "Nuno Mendes",
-            "Khvicha Kvaratskhelia",
-            "Ousmane Dembélé"
-          ],
-          "away_missing_players": [
-            "Nicolás Tagliafico",
-            "Steeve Kango",
-            "Mohamed Ouédraogo",
-            "Loïs Openda",
-            "Pavel Šulc"
-          ]
+          "home_players": ["Jay Lynch", "Shaun Rooney", "Conor Haughey", "Finley Potter", "Harrison Neal", "Crispin McLean", "Mark Helm", "Lewis McCann", "Jake Batty", "Ched Evans", "Ronan Coughlan"],
+          "away_players": ["David Raya", "Ben White", "Ezri Konsa", "Gabriel", "Myles Lewis-Skelly", "Declan Rice", "Mikel Merino", "Noni Madueke", "Martin Ødegaard", "Eberechi Eze", "Viktor Gyökeres"],
+          "home_missing_players": [],
+          "away_missing_players": ["Piero Hincapié", "William Saliba", "Bukayo Saka", "Christos Tzolis"]
         },
         "pregame_form": {
-          "home": "WWWWW",
-          "away": "WLWWL"
+          "home": "WDWLL",
+          "away": "WWWDW"
         }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Sevilla",
-      "team1_logo": "https://img.singhs.com.np/team/8302.png",
-      "team2": "Osasuna",
-      "team2_logo": "https://img.singhs.com.np/team/8371.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-10-27T05:00:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=sevilla",
-      "streaming_url": "https://cdn.singhs.com.np/sevilla.json",
-      "event_id": 5868109,
-      "football_data": {
-        "event": {
-          "match_id": 5868109,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 10,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Mon, 26 Oct 2026 20:00:00 GMT",
-          "venue": "Estadio Ramón Sánchez Pizjuán",
-          "venue_city": "Sevilla",
-          "venue_country": "Spain",
-          "venue_lat": 37.384045627,
-          "venue_lng": -5.970591903,
-          "stadium_capacity": 42714,
-          "stadium_surface": "grass",
-          "referee": "Miguel Ángel Ortiz Arias",
-          "home_team": {
-            "name": "Sevilla",
-            "id": 8302
-          },
-          "away_team": {
-            "name": "Osasuna",
-            "id": 8371
-          },
-          "home_manager": "Luis García",
-          "away_manager": "Jagoba Arrasate",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 12,
-          "draws": 6,
-          "awayWins": 7
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-3-3",
-          "home_players": [
-            "Odysseas Vlachodimos",
-            "Juan Iglesias",
-            "Andrés Lopez",
-            "Kike Salas",
-            "Gabriel Suazo",
-            "Lucien Agoumé",
-            "Youssouf Fofana",
-            "Rubén Vargas",
-            "Peque Fernández",
-            "Félix Correia",
-            "Robbie Ure"
-          ],
-          "away_players": [
-            "Aitor Fernández",
-            "Valentin Rosier",
-            "Alejandro Catena",
-            "Flavien Boyomo",
-            "Abel Bretones",
-            "Jon Moncayola",
-            "Iker Muñoz",
-            "Moi Gómez",
-            "Rubén Garcia",
-            "Ante Budimir",
-            "Jonathan Dubasin"
-          ],
-          "home_missing_players": [
-            "Marcão",
-            "Miguel Sierra"
-          ],
-          "away_missing_players": [
-            "Jorge Herrando",
-            "Aimar Oroz",
-            "Romain Del Castillo"
-          ]
-        },
-        "pregame_form": {
-          "home": "WLLDL",
-          "away": "LLDLW"
-        }
-      },
-      "pushed": true
+      }
     }
   ]
 }
