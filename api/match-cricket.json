@@ -1,20 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Pokhara Avengers",
-      "team2": "Sudurpaschim Royals",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/pokharaavengers.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/sudurpaschimroyals.png",
-      "league": "NPL 2026",
-      "start": "2026-10-28T20:15:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=npl",
-      "streaming_url": "https://cdn.singhs.com.np/npl.json",
-      "event_id": "271650",
-      "cricket_data": null
-    },
-    {
       "team1": "Janakpur Bolts",
       "team2": "Kathmandu Gurkhas",
       "team1_logo": "https://aimages.willow.tv/teamLogos/janakpurbolts.png",
