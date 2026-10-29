@@ -1,6 +1,48 @@
 {
   "matches": [
     {
+      "team1": "Lumbini Lions",
+      "team2": "Chitwan Rhinos",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/lumbinilions.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/chitwanrhinos.png",
+      "league": "NPL 2026",
+      "start": "2026-10-31T15:45:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=npl",
+      "streaming_url": "https://cdn.singhs.com.np/npl.json",
+      "event_id": "271653",
+      "cricket_data": null
+    },
+    {
+      "team1": "Sudurpaschim Royals",
+      "team2": "Biratnagar Kings",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/sudurpaschimroyals.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/biratnagarkings.png",
+      "league": "NPL 2026",
+      "start": "2026-10-31T20:15:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=npl",
+      "streaming_url": "https://cdn.singhs.com.np/npl.json",
+      "event_id": "271654",
+      "cricket_data": null
+    },
+    {
+      "team1": "Janakpur Bolts",
+      "team2": "Pokhara Avengers",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/janakpurbolts.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/pokharaavengers.png",
+      "league": "NPL 2026",
+      "start": "2026-11-01T20:15:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=npl",
+      "streaming_url": "https://cdn.singhs.com.np/npl.json",
+      "event_id": "271655",
+      "cricket_data": null
+    },
+    {
       "team1": "South Africa",
       "team2": "Australia",
       "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
