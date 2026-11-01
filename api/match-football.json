@@ -1,6 +1,67 @@
 {
   "matches": [
     {
+      "team1": "Getafe",
+      "team1_logo": "https://img.singhs.com.np/team/8305.png",
+      "team2": "Sevilla",
+      "team2_logo": "https://img.singhs.com.np/team/8302.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-11-01T22:00:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=getafe",
+      "streaming_url": "https://cdn.singhs.com.np/getafe.json",
+      "event_id": 5868116,
+      "football_data": {
+        "event": {
+          "match_id": 5868116,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 11,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Sun, 01 Nov 2026 13:00:00 GMT",
+          "venue": "Estadio Coliseum",
+          "venue_city": "Getafe",
+          "venue_country": "Spain",
+          "venue_lat": 40.325728646,
+          "venue_lng": -3.714964092,
+          "stadium_capacity": 17393,
+          "stadium_surface": "grass",
+          "referee": "Víctor García Verdura",
+          "home_team": {
+            "name": "Getafe",
+            "id": 8305
+          },
+          "away_team": {
+            "name": "Sevilla",
+            "id": 8302
+          },
+          "home_manager": "José Bordalás",
+          "away_manager": "Luis García",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 10,
+          "draws": 4,
+          "awayWins": 17
+        },
+        "lineups": {
+          "home_formation": "4-4-2",
+          "away_formation": "4-4-2",
+          "home_players": ["David Soria", "Daniel Carvajal", "Sebastián Boselli", "Djené", "Jean Ives Valou", "Andrés García", "Nemanja Gudelj", "Francho Serrano", "Ramón Terrats", "Enes Ünal", "Martín Satriano"],
+          "away_players": ["Odysseas Vlachodimos", "Juan Iglesias", "Andrés Lopez", "Kike Salas", "Gabriel Suazo", "Chidera Ejuke", "Youssouf Fofana", "Lucien Agoumé", "Félix Correia", "Lucas Stassin", "Isaac Romero"],
+          "home_missing_players": ["Johan Mojica", "Zaid Abner Romero", "Mario Martín", "Christantus Uche", "Juanmi"],
+          "away_missing_players": ["Marcão", "Miguel Sierra"]
+        },
+        "pregame_form": {
+          "home": "DDLLW",
+          "away": "LDLWW"
+        }
+      }
+    },
+    {
       "team1": "Racing Santander",
       "team1_logo": "https://img.singhs.com.np/team/8696.png",
       "team2": "Real Madrid",
@@ -59,7 +120,8 @@
           "home": "LDLWW",
           "away": "WWWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Liverpool",
@@ -119,6 +181,68 @@
         "pregame_form": {
           "home": "WWWWD",
           "away": "WWDWD"
+        }
+      },
+      "pushed": true
+    },
+    {
+      "team1": "Elche",
+      "team1_logo": "https://img.singhs.com.np/team/10268.png",
+      "team2": "Valencia",
+      "team2_logo": "https://img.singhs.com.np/team/10267.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-11-02T02:30:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=elche",
+      "streaming_url": "https://cdn.singhs.com.np/elche.json",
+      "event_id": 5868114,
+      "football_data": {
+        "event": {
+          "match_id": 5868114,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 11,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Sun, 01 Nov 2026 17:30:00 GMT",
+          "venue": "Estadio Manuel Martínez Valero",
+          "venue_city": "Elche",
+          "venue_country": "Spain",
+          "venue_lat": 38.267129205,
+          "venue_lng": -0.663299561,
+          "stadium_capacity": 31388,
+          "stadium_surface": "grass",
+          "referee": "Luis Bestard Servera",
+          "home_team": {
+            "name": "Elche",
+            "id": 10268
+          },
+          "away_team": {
+            "name": "Valencia",
+            "id": 10267
+          },
+          "home_manager": "Martín Anselmi",
+          "away_manager": "Javier Aguirre",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 3,
+          "draws": 2,
+          "awayWins": 7
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Matías Dituro", "Buba Sangaré", "Víctor Chust", "Federico Redondo", "Roy Revivo", "Gonzalo Villar", "Javi Morcillo", "Lucas Cepeda", "Thomas Lemar", "Germán Valera", "Fer Niño"],
+          "away_players": ["Stole Dimitrievski", "Arnau Martínez", "César Tárrega", "Pepelu", "José Gayà", "Aaron Mayol", "Guido Rodríguez", "Pablo Maffeo", "Javier Guerra", "Luis Rioja", "Arnaut Danjuma"],
+          "home_missing_players": ["Pedro Bigas", "Marc Aguado"],
+          "away_missing_players": ["Kayne van Oevelen", "José Copete", "David Otorbi", "Harvey Elliott", "Diego López", "Sergi Canós"]
+        },
+        "pregame_form": {
+          "home": "WDDWW",
+          "away": "WLDDL"
         }
       }
     },
@@ -181,7 +305,8 @@
           "home": "WLDWL",
           "away": "LLWDW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "New England",
@@ -242,7 +367,8 @@
           "home": "LWWWW",
           "away": "WWWLD"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Pakhtakor Tashkent",
@@ -303,7 +429,8 @@
           "home": "DDLLW",
           "away": "WWWWW"
         }
-      }
+      },
+      "pushed": true
     }
   ]
 }
