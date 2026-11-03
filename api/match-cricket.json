@@ -1,73 +1,17 @@
 {
   "matches": [
     {
-      "team1": "Kathmandu Gurkhas",
-      "team2": "Karnali Yaks",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/kathmandugurkhas.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/karnaliyaks.png",
-      "league": "NPL 2026",
-      "start": "2026-11-02T15:45:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=npl",
-      "streaming_url": "https://cdn.singhs.com.np/npl.json",
-      "event_id": "271656",
-      "cricket_data": null
-    },
-    {
-      "team1": "Sudurpaschim Royals",
-      "team2": "Chitwan Rhinos",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/sudurpaschimroyals.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/chitwanrhinos.png",
-      "league": "NPL 2026",
-      "start": "2026-11-02T20:15:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=npl",
-      "streaming_url": "https://cdn.singhs.com.np/npl.json",
-      "event_id": "271657",
-      "cricket_data": null
-    },
-    {
-      "team1": "South Africa",
-      "team2": "Australia",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/australia.png",
-      "league": "Australia in South Africa, 3 Test Series, 2026",
-      "start": "2026-10-30T17:30:00+09:00",
-      "duration": 10,
-      "format": "Test",
-      "details_url": "https://home.getemoji.online/?yosintv=southafrica",
-      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
-      "event_id": "269792",
-      "cricket_data": null
-    },
-    {
-      "team1": "Bangladesh",
-      "team2": "West Indies",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/bangladesh.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/westindies.png",
-      "league": "West Indies in Bangladesh, 2 Test Series, 2026",
-      "start": "2026-10-30T13:00:00+09:00",
-      "duration": 10,
-      "format": "Test",
-      "details_url": "https://home.getemoji.online/?yosintv=bangladesh",
-      "streaming_url": "https://cdn.singhs.com.np/bangladesh.json",
-      "event_id": "274665",
-      "cricket_data": null
-    },
-    {
       "team1": "New Zealand",
       "team2": "India",
       "team1_logo": "https://aimages.willow.tv/teamLogos/newzealand.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/india.png",
-      "league": "India in New Zealand, 5 T20I Series, 2026",
-      "start": "2026-11-01T16:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
+      "league": "India in New Zealand, 5 ODI Series, 2026",
+      "start": "2026-11-04T11:00:00+09:00",
+      "duration": 8,
+      "format": "ODI",
       "details_url": "https://home.getemoji.online/?yosintv=newzealand",
       "streaming_url": "https://cdn.singhs.com.np/newzealand.json",
-      "event_id": "271649",
+      "event_id": "271651",
       "cricket_data": null
     }
   ]
