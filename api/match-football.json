@@ -1,356 +1,185 @@
 {
   "matches": [
     {
-      "team1": "Milan",
-      "team1_logo": "https://img.singhs.com.np/team/8564.png",
-      "team2": "Ferencváros",
-      "team2_logo": "https://img.singhs.com.np/team/8222.png",
-      "league_logo": "https://img.singhs.com.np/league/943229.png",
-      "league": "Europa League",
-      "start": "2026-11-06T02:45:00+09:00",
-      "league_id": 943229,
+      "team1": "Wrexham",
+      "team1_logo": "https://img.singhs.com.np/team/9841.png",
+      "team2": "Wolves",
+      "team2_logo": "https://img.singhs.com.np/team/8602.png",
+      "league_logo": "https://img.singhs.com.np/league/1000001801.png",
+      "league": "Championship",
+      "start": "2026-11-07T21:30:00+09:00",
+      "league_id": 1000001801,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=milan",
-      "streaming_url": "https://cdn.singhs.com.np/milan.json",
-      "event_id": 6112255,
+      "details_url": "https://home.getemoji.online/?yosintv=wolves",
+      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
+      "event_id": 5836933,
       "football_data": {
         "event": {
-          "match_id": 6112255,
-          "league": "Europa League",
-          "league_id": 943229,
-          "round": 4,
-          "tournament": "Europa League",
-          "kick_off_time_utc": "Thu, 05 Nov 2026 17:45:00 GMT",
-          "venue": "Stadio Giuseppe Meazza",
-          "venue_city": "Milano",
-          "venue_country": "Italy",
-          "venue_lat": 45.478083998,
-          "venue_lng": 9.123979211,
-          "stadium_capacity": 75817,
+          "match_id": 5836933,
+          "league": "Championship",
+          "league_id": 48,
+          "round": 15,
+          "tournament": "Championship",
+          "kick_off_time_utc": "Sat, 07 Nov 2026 12:30:00 GMT",
+          "venue": "Racecourse Ground",
+          "venue_city": "Wrexham (Wrecsam)",
+          "venue_country": "Wales",
+          "venue_lat": 53.051940682,
+          "venue_lng": -3.003819287,
+          "stadium_capacity": 12600,
           "stadium_surface": "grass",
-          "referee": "Urs Schnyder",
+          "referee": "Andrew Kitchen",
           "home_team": {
-            "name": "Milan",
-            "id": 8564
+            "name": "Wrexham",
+            "id": 9841
           },
           "away_team": {
-            "name": "Ferencváros",
-            "id": 8222
+            "name": "Wolverhampton Wanderers",
+            "id": 8602
           },
-          "home_manager": "Ruben Amorim",
-          "away_manager": "Balázs Borbély",
+          "home_manager": "Phil Parkinson",
+          "away_manager": "César Peixoto",
           "gender": "male",
           "coverage_level": "lower"
         },
-        "h2h": null,
+        "h2h": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 1
+        },
         "lineups": {
-          "home_formation": "3-4-2-1",
+          "home_formation": "3-5-1-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Mike Maignan", "Mario Gila", "Koni De Winter", "Strahinja Pavlović", "Diego Moreira", "Luka Modrić", "Yunus Musah", "Sankhoun Diawara", "Adrien Rabiot", "Christian Pulisic", "Gonçalo Ramos"],
-          "away_players": ["Dénes Dibusz", "Attila Osváth", "Toon Raemaekers", "Mariano Gómez", "Cadu", "Habib Maïga", "Ádám Madarász", "Kristoffer Zachariassen", "Márius Corbu", "Veljko Birmančević", "Bamidele Yusuf"],
-          "home_missing_players": ["Pietro Terracciano", "Fikayo Tomori", "Matteo Gabbia", "Alexis Saelemaekers", "Ruben Loftus-Cheek", "Samuel Chukwueze"],
-          "away_missing_players": ["Matús Bero", "Bence Ötvös"]
+          "home_players": ["Anthony Patterson", "Max Cleworth", "Joe Worrall", "Callum Doyle", "Issa Kaboré", "George Dobson", "Ben Whiteman", "George Thomason", "Jacques Ekomié", "Lewis O'Brien", "Kieffer Moore"],
+          "away_players": ["José Sá", "Kieran Trippier", "Yerson Mosquera", "Ladislav Krejcí", "Hugo Bueno", "André", "Marshall Munetsi", "Fer López", "Jean-Ricner Bellegarde", "Rafiki Saïd", "Adam Armstrong"],
+          "home_missing_players": ["Sam Smith", "Josh Windass", "Nathan Broadhead", "Sebastian Revan", "Liberato Cacace"],
+          "away_missing_players": ["Jordan James", "Bertrand Traoré", "Boubacar Traoré", "Raul Jiménez"]
         },
         "pregame_form": {
-          "home": "WLWLW",
+          "home": "LWLLW",
           "away": "WDWWW"
         }
       }
     },
     {
-      "team1": "Crystal Palace",
-      "team1_logo": "https://img.singhs.com.np/team/9826.png",
-      "team2": "Hoffenheim",
-      "team2_logo": "https://img.singhs.com.np/team/8226.png",
-      "league_logo": "https://img.singhs.com.np/league/943229.png",
-      "league": "Europa League",
-      "start": "2026-11-06T02:45:00+09:00",
-      "league_id": 943229,
+      "team1": "Dortmund",
+      "team1_logo": "https://img.singhs.com.np/team/9789.png",
+      "team2": "Elversberg",
+      "team2_logo": "https://img.singhs.com.np/team/8232.png",
+      "league_logo": "https://img.singhs.com.np/league/54.png",
+      "league": "Bundesliga",
+      "start": "2026-11-07T23:30:00+09:00",
+      "league_id": 54,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=crystalpalace",
-      "streaming_url": "https://cdn.singhs.com.np/crystalpalace.json",
-      "event_id": 6112325,
+      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
+      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
+      "event_id": 5881215,
       "football_data": {
         "event": {
-          "match_id": 6112325,
-          "league": "Europa League",
-          "league_id": 943229,
-          "round": 4,
-          "tournament": "Europa League",
-          "kick_off_time_utc": "Thu, 05 Nov 2026 17:45:00 GMT",
-          "venue": "Selhurst Park",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.398278578,
-          "venue_lng": -0.085503459,
-          "stadium_capacity": 25486,
+          "match_id": 5881215,
+          "league": "Bundesliga",
+          "league_id": 54,
+          "round": 9,
+          "tournament": "Bundesliga",
+          "kick_off_time_utc": "Sat, 07 Nov 2026 14:30:00 GMT",
+          "venue": "SIGNAL IDUNA PARK",
+          "venue_city": "Dortmund",
+          "venue_country": "Germany",
+          "venue_lat": 51.492606578,
+          "venue_lng": 7.451777458,
+          "stadium_capacity": 81365,
           "stadium_surface": "grass",
-          "referee": "Horațiu Feșnic",
+          "referee": "Harm Osmers",
           "home_team": {
-            "name": "Crystal Palace",
-            "id": 9826
+            "name": "Borussia Dortmund",
+            "id": 9789
           },
           "away_team": {
-            "name": "Hoffenheim",
-            "id": 8226
+            "name": "Elversberg",
+            "id": 8232
           },
-          "home_manager": "Pierre Sage",
-          "away_manager": "Christian Ilzer",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": "3-4-2-1",
-          "away_formation": "3-5-2",
-          "home_players": ["Dean Henderson", "Chris Richards", "Axel Disasi", "Jaydee Canvot", "Óscar Mingueza", "Adam Wharton", "Daichi Kamada", "Tyrick Mitchell", "Dwight McNeil", "Yéremi Pino", "Jean-Philippe Mateta"],
-          "away_players": ["Oliver Baumann", "Ozan Kabak", "Koki Machida", "Mats Rots", "Natnael Abraha", "Andrej Kramarić", "Leon Avdullahu", "Wouter Burger", "Adam Daghim", "Adam Hložek", "Fisnik Asllani"],
-          "home_missing_players": ["Chadi Riad", "Takehiro Tomiyasu", "Ismaïla Sarr"],
-          "away_missing_players": ["Adam Hložek", "Robin Hranác", "Bambasé Conté", "Vladimír Coufal", "Albian Hajdari", "Valentin Gendrey", "Nathan De Cat", "Patrick Wimmer"]
-        },
-        "pregame_form": {
-          "home": "LDLWL",
-          "away": "WWWDL"
-        }
-      }
-    },
-    {
-      "team1": "AZ Alkmaar",
-      "team1_logo": "https://img.singhs.com.np/team/10229.png",
-      "team2": "Juventus",
-      "team2_logo": "https://img.singhs.com.np/team/9885.png",
-      "league_logo": "https://img.singhs.com.np/league/943229.png",
-      "league": "Europa League",
-      "start": "2026-11-06T05:00:00+09:00",
-      "league_id": 943229,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=juventus",
-      "streaming_url": "https://cdn.singhs.com.np/juventus.json",
-      "event_id": 6112262,
-      "football_data": {
-        "event": {
-          "match_id": 6112262,
-          "league": "Europa League",
-          "league_id": 943229,
-          "round": 4,
-          "tournament": "Europa League",
-          "kick_off_time_utc": "Thu, 05 Nov 2026 20:00:00 GMT",
-          "venue": "AFAS Stadion",
-          "venue_city": "Alkmaar",
-          "venue_country": "Netherlands",
-          "venue_lat": 52.612735728,
-          "venue_lng": 4.742102623,
-          "stadium_capacity": 19500,
-          "stadium_surface": "grass",
-          "referee": "Damian Sylwestrzak",
-          "home_team": {
-            "name": "AZ Alkmaar",
-            "id": 10229
-          },
-          "away_team": {
-            "name": "Juventus",
-            "id": 9885
-          },
-          "home_manager": "Leeroy Echteld",
-          "away_manager": "Luciano Spalletti",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-2",
-          "home_players": ["Jari De Busser", "Elijah Dijkstra", "Wouter Goes", "Lewis Schouten", "Mees de Wit", "Dave Kwakman", "Peer Koopmeiners", "Weslley Pinto", "Valdemar Byskov", "Ro-Zangelo Daal", "Mexx Meerdink"],
-          "away_players": ["Guglielmo Vicario", "Pierre Kalulu", "Gleison Bremer", "Jhon Lucumí", "Juan Cabal", "Weston McKennie", "Douglas Luiz", "Teun Koopmeiners", "Kerim Alajbegović", "Randal Kolo Muani", "Nick Woltemade"],
-          "home_missing_players": ["Kees Smit", "Jeroen Zoet", "Stije Resink", "Jizz Hornkamp"],
-          "away_missing_players": ["Weston McKennie", "Kamil Grabara", "Khéphren Thuram-Ulien", "Manuel Locatelli", "Zeki Çelik", "Nicolás González", "Francisco Conceição", "Kenan Yıldız"]
-        },
-        "pregame_form": {
-          "home": "WDWLL",
-          "away": "LDWLW"
-        }
-      }
-    },
-    {
-      "team1": "Benfica",
-      "team1_logo": "https://img.singhs.com.np/team/9772.png",
-      "team2": "Lech Poznań",
-      "team2_logo": "https://img.singhs.com.np/team/2182.png",
-      "league_logo": "https://img.singhs.com.np/league/943229.png",
-      "league": "Europa League",
-      "start": "2026-11-06T05:00:00+09:00",
-      "league_id": 943229,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=benfica",
-      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
-      "event_id": 6112248,
-      "football_data": {
-        "event": {
-          "match_id": 6112248,
-          "league": "Europa League",
-          "league_id": 943229,
-          "round": 4,
-          "tournament": "Europa League",
-          "kick_off_time_utc": "Thu, 05 Nov 2026 20:00:00 GMT",
-          "venue": "Estádio do Sport Lisboa e Benfica (da Luz)",
-          "venue_city": "Lisboa",
-          "venue_country": "Portugal",
-          "venue_lat": 38.75264836,
-          "venue_lng": -9.184699059,
-          "stadium_capacity": 68100,
-          "stadium_surface": "grass",
-          "referee": "Martin Matoša",
-          "home_team": {
-            "name": "Benfica",
-            "id": 9772
-          },
-          "away_team": {
-            "name": "Lech Poznań",
-            "id": 2182
-          },
-          "home_manager": "Marco Silva",
-          "away_manager": "Niels Frederiksen",
+          "home_manager": "Niko Kovač",
+          "away_manager": "Vincent Wagner",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 2,
+          "homeWins": 0,
           "draws": 0,
           "awayWins": 0
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
+          "home_formation": "3-4-2-1",
           "away_formation": "4-2-3-1",
-          "home_players": ["Samuel Soares", "Alexander Bah", "Tomás Araújo", "Clément Lenglet", "Samuel Dahl", "Fredrik Aursnes", "João Palhinha", "Dodi Lukébakio", "Gianluca Prestianni", "Andreas Schjelderup", "Vangelis Pavlidis"],
-          "away_players": ["Mateusz Lis", "Joel Pereira", "Mateusz Skrzypczak", "Terry Yegbe", "Michał Gurgul", "Radosław Murawski", "Antoni Kozubal", "Patrik Wålemark", "Pablo Rodríguez", "Leo Bengtsson", "Yannick Agnero"],
-          "home_missing_players": ["Enzo Barrenechea", "Leandro Barreiro"],
-          "away_missing_players": ["Mikael Ishak", "Allahyar Sayyadmanesh", "Wojciech Mońka", "João Moutinho", "Ali Gholizadeh", "Alex Douglas"]
+          "home_players": ["Gregor Kobel", "Joane Gadou", "Waldemar Anton", "Nico Schlotterbeck", "Julian Ryerson", "Jobe Bellingham", "Felix Nmecha", "Daniel Svensson", "Maximilian Beier", "Carney Chukwuemeka", "Fábio Silva"],
+          "away_players": ["Nicolas Kristof", "Luca Sirch", "Lukas Pinckert", "Maximilian Rohr", "Lasse Günther", "Felix Keidel", "Łukasz Poręba", "Lukas Petkov", "Francis Onyeka", "Maurice Krattenmacher", "David Mokwa"],
+          "home_missing_players": ["Marcel Sabitzer", "Emre Can", "Giannis Konstantelias", "Justin Lerma", "Serhou Guirassy"],
+          "away_missing_players": ["Noah Darvich", "Jan Gyamerah", "Tom Zimmerschied"]
         },
         "pregame_form": {
-          "home": "WWWWW",
-          "away": "WDWLW"
+          "home": "WWWDW",
+          "away": "LWLLW"
         }
       }
     },
     {
-      "team1": "Bayer Leverkusen",
-      "team1_logo": "https://img.singhs.com.np/team/8178.png",
-      "team2": "Marseille",
-      "team2_logo": "https://img.singhs.com.np/team/8592.png",
-      "league_logo": "https://img.singhs.com.np/league/943229.png",
-      "league": "Europa League",
-      "start": "2026-11-06T05:00:00+09:00",
-      "league_id": 943229,
+      "team1": "Mainz",
+      "team1_logo": "https://img.singhs.com.np/team/9905.png",
+      "team2": "Bayern München",
+      "team2_logo": "https://img.singhs.com.np/team/9823.png",
+      "league_logo": "https://img.singhs.com.np/league/54.png",
+      "league": "Bundesliga",
+      "start": "2026-11-07T23:30:00+09:00",
+      "league_id": 54,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=bayerleverkusen",
-      "streaming_url": "https://cdn.singhs.com.np/bayerleverkusen.json",
-      "event_id": 6112242,
+      "details_url": "https://home.getemoji.online/?yosintv=bayernmunchen",
+      "streaming_url": "https://cdn.singhs.com.np/bayernmunchen.json",
+      "event_id": 5881220,
       "football_data": {
         "event": {
-          "match_id": 6112242,
-          "league": "Europa League",
-          "league_id": 943229,
-          "round": 4,
-          "tournament": "Europa League",
-          "kick_off_time_utc": "Thu, 05 Nov 2026 20:00:00 GMT",
-          "venue": "BayArena",
-          "venue_city": "Leverkusen",
+          "match_id": 5881220,
+          "league": "Bundesliga",
+          "league_id": 54,
+          "round": 9,
+          "tournament": "Bundesliga",
+          "kick_off_time_utc": "Sat, 07 Nov 2026 14:30:00 GMT",
+          "venue": "MEWA ARENA",
+          "venue_city": "Mainz",
           "venue_country": "Germany",
-          "venue_lat": 51.038213121,
-          "venue_lng": 7.002249956,
-          "stadium_capacity": 30210,
+          "venue_lat": 49.984627,
+          "venue_lng": 8.224125,
+          "stadium_capacity": 34034,
           "stadium_surface": "grass",
-          "referee": "Orel Grinfeeld",
+          "referee": "Robert Schröder",
           "home_team": {
-            "name": "Bayer Leverkusen",
-            "id": 8178
+            "name": "Mainz 05",
+            "id": 9905
           },
           "away_team": {
-            "name": "Marseille",
-            "id": 8592
+            "name": "Bayern München",
+            "id": 9823
           },
-          "home_manager": "Carles Martínez",
-          "away_manager": "Bruno Génésio",
+          "home_manager": "Urs Fischer",
+          "away_manager": "Vincent Kompany",
           "gender": "male",
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 1,
-          "draws": 0,
-          "awayWins": 1
+          "homeWins": 7,
+          "draws": 3,
+          "awayWins": 24
         },
         "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-1-4-1",
-          "home_players": ["Mark Flekken", "Jarell Quansah", "Edmond Tapsoba", "Facundo Medina", "Miguel Gutiérrez", "Equi Fernández", "Aleix García", "Lucas Vázquez", "Ibrahim Maza", "Afonso Moreira", "Patrik Schick"],
-          "away_players": ["Jeffrey De Lange", "Timothy Weah", "CJ Egan-Riley", "Nayef Aguerd", "Emerson", "Pierre-Emile Højbjerg", "Amine Harit", "Himad Abdelli", "Tochukwu Nnadi", "Igor Paixão", "Amine Gouiri"],
-          "home_missing_players": ["Nathan Tella", "Kennet Eichhorn", "Guéla Doué", "Eliesse Ben Seghir", "Martin Terrier", "Christian Kofane", "Moussa Diaby"],
-          "away_missing_players": ["Emerson", "Derek Cornelius"]
+          "home_formation": "3-5-2",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Robin Zentner", "Danny da Costa", "Stefan Bell", "Kacper Potulski", "Silvan Widmer", "Paul Nebel", "Kaishu Sano", "Nadiem Amiri", "Anthony Caci", "Sheraldo Becker", "Phillip Tietz"],
+          "away_players": ["Manuel Neuer", "Konrad Laimer", "Dayot Upamecano", "Min-Jae Kim", "Nathaniel Brown", "Joshua Kimmich", "Aleksandar Pavlović", "Michael Olise", "Lennart Karl", "Alphonso Davies", "Harry Kane"],
+          "home_missing_players": ["Dominik Kohr", "Stefan Posch", "Otto Ruoppi", "Phillipp Mwene", "Silas Katompa Mvumpa"],
+          "away_missing_players": ["Bara Ndiaye", "Ismael Saibari", "Jamal Musiala", "Serge Gnabry", "Luis Díaz"]
         },
         "pregame_form": {
-          "home": "WWLWL",
-          "away": "LWLWW"
-        }
-      }
-    },
-    {
-      "team1": "Al Hazem",
-      "team1_logo": "https://img.singhs.com.np/team/101911.png",
-      "team2": "Al Nassr FC",
-      "team2_logo": "https://img.singhs.com.np/team/101918.png",
-      "league_logo": "https://img.singhs.com.np/league/1000001787.png",
-      "league": "Saudi Pro League",
-      "start": "2026-11-06T09:00:00+09:00",
-      "league_id": 1000001787,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=alnassrfc",
-      "streaming_url": "https://cdn.singhs.com.np/alnassrfc.json",
-      "event_id": 1000021472,
-      "football_data": {
-        "event": {
-          "match_id": 1000021472,
-          "league": "Saudi Pro League",
-          "league_id": 536,
-          "round": 13,
-          "tournament": "Saudi Pro League",
-          "kick_off_time_utc": "Fri, 06 Nov 2026 00:00:00 GMT",
-          "venue": "Ar-Rass Stadium (Al Hazm Club Stadium)",
-          "venue_city": "Ar Rass",
-          "venue_country": "Saudi Arabia",
-          "venue_lat": 25.862100573,
-          "venue_lng": 43.50230813,
-          "stadium_capacity": 8000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Al Hazem",
-            "id": 101911
-          },
-          "away_team": {
-            "name": "Al Nassr FC",
-            "id": 101918
-          },
-          "home_manager": "Jalel Kadri",
-          "away_manager": "Ange Postecoglou",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 1,
-          "draws": 1,
-          "awayWins": 9
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-4-1-1",
-          "home_players": ["Jindřich Staněk", "Mohammed Issa", "Sultan Tanker", "Amine Ben Hamida", "Ahmed Al Nakhli", "Bonheur Mugisha", "Aboubacar Bah", "Mohammed Al Hamdani", "Sofiane Bendebka", "Ahmed Al Shamrani", "Afimico Pululu"],
-          "away_players": ["Bento Krepski", "Nawaf Al-Boushail", "Abdulelah Al Amri", "Iñigo Martínez", "Awad Aman", "Ayman Yahya", "Ângelo", "Samú", "Sadio Mané", "Joao Félix", "Abdullah Al-Hamdan"],
-          "home_missing_players": [],
-          "away_missing_players": ["Kingsley Coman", "Sultan Al Ghannam"]
-        },
-        "pregame_form": {
-          "home": "DLLDL",
-          "away": "WWWWW"
+          "home": "LWLLL",
+          "away": "DWWDW"
         }
       }
     }
