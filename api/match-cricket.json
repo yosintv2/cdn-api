@@ -1,17 +1,31 @@
 {
   "matches": [
     {
-      "team1": "Sudurpaschim Royals",
-      "team2": "Janakpur Bolts",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/sudurpaschimroyals.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/janakpurbolts.png",
+      "team1": "Biratnagar Kings",
+      "team2": "Pokhara Avengers",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/biratnagarkings.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/pokharaavengers.png",
       "league": "NPL 2026",
-      "start": "2026-11-10T20:15:00+09:00",
+      "start": "2026-11-12T15:45:00+09:00",
       "duration": 5,
       "format": "T20",
       "details_url": "https://home.getemoji.online/?yosintv=npl",
       "streaming_url": "https://cdn.singhs.com.np/npl.json",
-      "event_id": "271667",
+      "event_id": "271668",
+      "cricket_data": null
+    },
+    {
+      "team1": "Karnali Yaks",
+      "team2": "Lumbini Lions",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/karnaliyaks.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/lumbinilions.png",
+      "league": "NPL 2026",
+      "start": "2026-11-12T20:15:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=npl",
+      "streaming_url": "https://cdn.singhs.com.np/npl.json",
+      "event_id": "271669",
       "cricket_data": null
     },
     {
