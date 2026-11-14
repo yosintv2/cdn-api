@@ -1,12 +1,12 @@
 {
   "matches": [
     {
-      "team1": "Kathmandu Gurkhas",
-      "team2": "Sudurpaschim Royals",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/kathmandugurkhas.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/sudurpaschimroyals.png",
+      "team1": "Biratnagar Kings",
+      "team2": "Lumbini Lions",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/biratnagarkings.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/lumbinilions.png",
       "league": "NPL 2026",
-      "start": "2026-11-13T15:45:00+09:00",
+      "start": "2026-11-14T20:15:00+09:00",
       "duration": 5,
       "format": "T20",
       "details_url": "https://home.getemoji.online/?yosintv=npl",
