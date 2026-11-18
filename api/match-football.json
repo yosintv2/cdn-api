@@ -1,99 +1,41 @@
 {
   "matches": [
     {
-      "team1": "Singapore",
-      "team1_logo": "https://img.singhs.com.np/team/5825.png",
-      "team2": "Brazil",
-      "team2_logo": "https://img.singhs.com.np/team/8256.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-11-17T19:00:00+09:00",
-      "league_id": 914609,
+      "team1": "Coritiba",
+      "team1_logo": "https://img.singhs.com.np/team/9767.png",
+      "team2": "Santos",
+      "team2_logo": "https://img.singhs.com.np/team/8514.png",
+      "league_logo": "https://img.singhs.com.np/league/1000001407.png",
+      "league": "Série A",
+      "start": "2026-11-19T07:30:00+09:00",
+      "league_id": 1000001407,
       "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=singapore",
-      "streaming_url": "https://cdn.singhs.com.np/singapore.json",
-      "event_id": 6487085,
+      "details_url": "https://home.getemoji.online/?yosintv=santos",
+      "streaming_url": "https://cdn.singhs.com.np/santos.json",
+      "event_id": 5103711,
       "football_data": {
         "event": {
-          "match_id": 6487085,
-          "league": "Friendlies",
-          "league_id": 914609,
-          "round": null,
-          "tournament": "Friendlies",
-          "kick_off_time_utc": "Tue, 17 Nov 2026 10:00:00 GMT",
-          "venue": "National Stadium",
-          "venue_city": "Singapore",
-          "venue_country": "Singapore",
-          "venue_lat": 1.304352853,
-          "venue_lng": 103.874450326,
-          "stadium_capacity": 55000,
+          "match_id": 5103711,
+          "league": "Série A",
+          "league_id": 268,
+          "round": 35,
+          "tournament": "Série A",
+          "kick_off_time_utc": "Wed, 18 Nov 2026 22:30:00 GMT",
+          "venue": "Estádio Major Antônio Couto Pereira",
+          "venue_city": "Curitiba, Paraná",
+          "venue_country": "Brazil",
+          "venue_lat": -25.421096149,
+          "venue_lng": -49.259551764,
+          "stadium_capacity": 45563,
           "stadium_surface": "grass",
-          "referee": null,
+          "referee": "Braulio da Silva Machado",
           "home_team": {
-            "name": "Singapore",
-            "id": 5825
+            "name": "Coritiba",
+            "id": 9767
           },
           "away_team": {
-            "name": "Brazil",
-            "id": 8256
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-3-3",
-          "home_players": ["Izwan Mahbud", "Ryhan Stewart", "Hariss Harun", "Safuwan Baharudin", "Jacob Mahler", "Ui-Young Song", "Shah Shahiran", "Kyoga Nakamura", "Farhan Zulkifli", "Ilhan Fandi", "Harhys Stewart"],
-          "away_players": ["Pedro Morisco", "Wesley", "Jair Cunha", "Gabriel", "Carlos Augusto", "Bruno Guimarães", "Andrey Santos", "André", "Estêvão", "Raphinha", "Vinícius Júnior"],
-          "home_missing_players": [],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WLWLL",
-          "away": "LDWWL"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Japan",
-      "team1_logo": "https://img.singhs.com.np/team/6715.png",
-      "team2": "Paraguay",
-      "team2_logo": "https://img.singhs.com.np/team/6724.png",
-      "league_logo": "https://img.singhs.com.np/league/914609.png",
-      "league": "Friendlies",
-      "start": "2026-11-17T22:10:00+09:00",
-      "league_id": 914609,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=japan",
-      "streaming_url": "https://cdn.singhs.com.np/japan.json",
-      "event_id": 6539356,
-      "football_data": {
-        "event": {
-          "match_id": 6539356,
-          "league": "Friendlies",
-          "league_id": 914609,
-          "round": null,
-          "tournament": "Friendlies",
-          "kick_off_time_utc": "Tue, 17 Nov 2026 13:10:00 GMT",
-          "venue": "National Stadium",
-          "venue_city": "Singapore",
-          "venue_country": "Singapore",
-          "venue_lat": 1.304352853,
-          "venue_lng": 103.874450326,
-          "stadium_capacity": 55000,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Japan",
-            "id": 6715
-          },
-          "away_team": {
-            "name": "Paraguay",
-            "id": 6724
+            "name": "Santos",
+            "id": 8514
           },
           "home_manager": null,
           "away_manager": null,
@@ -101,266 +43,21 @@
           "coverage_level": "lower"
         },
         "h2h": {
-          "homeWins": 4,
-          "draws": 2,
-          "awayWins": 0
+          "homeWins": 7,
+          "draws": 6,
+          "awayWins": 14
         },
         "lineups": {
-          "home_formation": "4-2-2-2",
-          "away_formation": "4-1-3-2",
-          "home_players": ["Zion Suzuki", "Shuto Nakano", "Ayumu Seko", "Koki Machida", "Hiroki Ito", "Ao Tanaka", "Daichi Kamada", "Ritsu Doan", "Keito Nakamura", "Daizen Maeda", "Takefusa Kubo"],
-          "away_players": ["Orlando Gill", "Alan Benítez", "Mauro Alexis Coronel Gómez", "Júnior Alonso", "Alexandro Maidana", "Mathías Villasanti", "Gustavo Caballero", "Matías Galarza", "Eduardo Delmás", "Mauricio", "Robert Morales"],
-          "home_missing_players": [],
-          "away_missing_players": ["José Canale", "Andrés Cubas", "Antonio Sanabria"]
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Lucas Ronier"],
+          "away_missing_players": ["Álvaro Barreal", "Gabriel Bontempo", "Lucas Veríssimo", "Gabriel Brazão", "Vinicius Lira"]
         },
         "pregame_form": {
-          "home": "WWDWW",
-          "away": "DLWWW"
-        }
-      },
-      "pushed": true
-    },
-    {
-      "team1": "Denmark",
-      "team1_logo": "https://img.singhs.com.np/team/8238.png",
-      "team2": "Norway",
-      "team2_logo": "https://img.singhs.com.np/team/8492.png",
-      "league_logo": "https://img.singhs.com.np/league/920742.png",
-      "league": "UEFA Nations League A Grp. 4",
-      "start": "2026-11-18T04:45:00+09:00",
-      "league_id": 920742,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=denmark",
-      "streaming_url": "https://cdn.singhs.com.np/denmark.json",
-      "event_id": 5181871,
-      "football_data": {
-        "event": {
-          "match_id": 5181871,
-          "league": "UEFA Nations League A Grp. 4",
-          "league_id": 920742,
-          "round": 6,
-          "tournament": "UEFA Nations League A Grp. 4",
-          "kick_off_time_utc": "Tue, 17 Nov 2026 19:45:00 GMT",
-          "venue": "Parken",
-          "venue_city": "København",
-          "venue_country": "Denmark",
-          "venue_lat": 55.702717828,
-          "venue_lng": 12.572290823,
-          "stadium_capacity": 38065,
-          "stadium_surface": "grass",
-          "referee": "Halil Umut Meler",
-          "home_team": {
-            "name": "Denmark",
-            "id": 8238
-          },
-          "away_team": {
-            "name": "Norway",
-            "id": 8492
-          },
-          "home_manager": "Brian Riemer",
-          "away_manager": "Ståle Solbakken",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 2,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Mads Hermansen", "Rasmus Kristensen", "Joachim Andersen", "Oliver Provstgaard", "Joakim Mæhle", "Morten Hjulmand", "Pierre-Emile Højbjerg", "Gustav Isaksen", "Mikkel Damsgaard", "Mohamed Daramy", "Rasmus Højlund"],
-          "away_players": ["Egil Selvik", "Marcus Holmgren Pedersen", "Kristoffer Ajer", "Torbjørn Heggem", "David Møller Wolfe", "Patrick Berg", "Thelo Aasgaard", "Andreas Schjelderup", "Martin Ødegaard", "Antonio Nusa", "Erling Haaland"],
-          "home_missing_players": [],
-          "away_missing_players": ["Sondre Klingen Langås"]
-        },
-        "pregame_form": {
-          "home": "LWLWW",
-          "away": "WLLLW"
-        }
-      }
-    },
-    {
-      "team1": "Wales",
-      "team1_logo": "https://img.singhs.com.np/team/5790.png",
-      "team2": "Portugal",
-      "team2_logo": "https://img.singhs.com.np/team/8361.png",
-      "league_logo": "https://img.singhs.com.np/league/920742.png",
-      "league": "UEFA Nations League A Grp. 4",
-      "start": "2026-11-18T04:45:00+09:00",
-      "league_id": 920742,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wales",
-      "streaming_url": "https://cdn.singhs.com.np/wales.json",
-      "event_id": 5181872,
-      "football_data": {
-        "event": {
-          "match_id": 5181872,
-          "league": "UEFA Nations League A Grp. 4",
-          "league_id": 920742,
-          "round": 6,
-          "tournament": "UEFA Nations League A Grp. 4",
-          "kick_off_time_utc": "Tue, 17 Nov 2026 19:45:00 GMT",
-          "venue": "Cardiff City Stadium",
-          "venue_city": "Cardiff (Caerdydd)",
-          "venue_country": "Wales",
-          "venue_lat": 51.472829314,
-          "venue_lng": -3.203115455,
-          "stadium_capacity": 33280,
-          "stadium_surface": "grass",
-          "referee": "Sven Jablonski",
-          "home_team": {
-            "name": "Wales",
-            "id": 5790
-          },
-          "away_team": {
-            "name": "Portugal",
-            "id": 8361
-          },
-          "home_manager": "Craig Bellamy",
-          "away_manager": "Jorge Jesus",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 0,
-          "draws": 0,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Karl Darlow", "Connor Roberts", "Joe Rodon", "Ben Davies", "Jay Dasilva", "Daniel James", "Josh Sheehan", "Liam Cullen", "Brennan Johnson", "Harry Wilson", "Lewis Koumas"],
-          "away_players": ["Diogo Costa", "Alberto Costa", "António Silva", "Renato Veiga", "Diogo Dalot", "João Neves", "Vítinha", "Trincão", "Bruno Fernandes", "Pedro Neto", "Gonçalo Ramos"],
-          "home_missing_players": ["Neco Williams", "Ethan Ampadu"],
-          "away_missing_players": ["Francisco Conceição", "Nuno Tavares", "Rúben Dias", "João Palhinha", "Rafael Leão"]
-        },
-        "pregame_form": {
-          "home": "LLWLL",
-          "away": "WWWWL"
-        }
-      }
-    },
-    {
-      "team1": "Poland",
-      "team1_logo": "https://img.singhs.com.np/team/8568.png",
-      "team2": "Sweden",
-      "team2_logo": "https://img.singhs.com.np/team/8520.png",
-      "league_logo": "https://img.singhs.com.np/league/920748.png",
-      "league": "UEFA Nations League B Grp. 4",
-      "start": "2026-11-18T04:45:00+09:00",
-      "league_id": 920748,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=poland",
-      "streaming_url": "https://cdn.singhs.com.np/poland.json",
-      "event_id": 5181848,
-      "football_data": {
-        "event": {
-          "match_id": 5181848,
-          "league": "UEFA Nations League B Grp. 4",
-          "league_id": 920748,
-          "round": 6,
-          "tournament": "UEFA Nations League B Grp. 4",
-          "kick_off_time_utc": "Tue, 17 Nov 2026 19:45:00 GMT",
-          "venue": "Tarczyński Arena",
-          "venue_city": "Wrocław",
-          "venue_country": "Poland",
-          "venue_lat": 51.141172044,
-          "venue_lng": 16.943793297,
-          "stadium_capacity": 42771,
-          "stadium_surface": "grass",
-          "referee": "Felix Zwayer",
-          "home_team": {
-            "name": "Poland",
-            "id": 8568
-          },
-          "away_team": {
-            "name": "Sweden",
-            "id": 8520
-          },
-          "home_manager": "Jan Urban",
-          "away_manager": "Graham Potter",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-4-2",
-          "home_players": ["Bartłomiej Drągowski", "Arkadiusz Pyrka", "Kacper Potulski", "Tomasz Kędziora", "Oskar Kubiak", "Marcel Reguła", "Wiktor Nowak", "Sebastian Szymański", "Nicola Zalewski", "Robert Lewandowski", "Karol Świderski"],
-          "away_players": ["Viktor Johansson", "Daniel Svensson", "Gustaf Lagerbielke", "Victor Nilsson Lindelöf", "Gabriel Gudmundsson", "Anthony Elanga", "Hugo Larsson", "Yasin Ayari", "Sebastian Nanasi", "Viktor Gyökeres", "Alexander Isak"],
-          "home_missing_players": ["Matty Cash", "Jakub Kiwior", "Przemysław Frankowski", "Piotr Zieliński"],
-          "away_missing_players": ["Patrik Wålemark"]
-        },
-        "pregame_form": {
-          "home": "DLWLL",
-          "away": "WWDWW"
-        }
-      }
-    },
-    {
-      "team1": "Ukraine",
-      "team1_logo": "https://img.singhs.com.np/team/6718.png",
-      "team2": "Georgia",
-      "team2_logo": "https://img.singhs.com.np/team/8268.png",
-      "league_logo": "https://img.singhs.com.np/league/920746.png",
-      "league": "UEFA Nations League B Grp. 2",
-      "start": "2026-11-18T04:45:00+09:00",
-      "league_id": 920746,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=ukraine",
-      "streaming_url": "https://cdn.singhs.com.np/ukraine.json",
-      "event_id": 5181811,
-      "football_data": {
-        "event": {
-          "match_id": 5181811,
-          "league": "UEFA Nations League B Grp. 2",
-          "league_id": 920746,
-          "round": 6,
-          "tournament": "UEFA Nations League B Grp. 2",
-          "kick_off_time_utc": "Tue, 17 Nov 2026 19:45:00 GMT",
-          "venue": "Košická futbalová aréna",
-          "venue_city": "Košice",
-          "venue_country": "Slovakia",
-          "venue_lat": 48.696780843,
-          "venue_lng": 21.245129694,
-          "stadium_capacity": 12658,
-          "stadium_surface": "grass",
-          "referee": "Martin Matoša",
-          "home_team": {
-            "name": "Ukraine",
-            "id": 6718
-          },
-          "away_team": {
-            "name": "Georgia",
-            "id": 8268
-          },
-          "home_manager": "Andrea Maldera",
-          "away_manager": "Ramaz Svanadze",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 2,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-4-2",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Anatoliy Trubin", "Illia Krupskyi", "Ilya Zabarnyi", "Mykola Matviyenko", "Vitaliy Mykolenko", "Oleksii Kashchuk", "Yehor Yarmoliuk", "Oleg Ocheretko", "Georgiy Sudakov", "Artem Dovbyk", "Igor Krasnopir"],
-          "away_players": ["Giorgi Mamardashvili", "Otar Kakabadze", "Saba Goglichidze", "Lasha Dvali", "Luka Lochoshvili", "Giorgi Chakvetadze", "Anzor Mekvabishvili", "Giorgi Kvernadze", "Nika Gagnidze", "Zuriko Davitashvili", "Georges Mikautadze"],
-          "home_missing_players": [],
-          "away_missing_players": ["Giorgi Tsitaishvili"]
-        },
-        "pregame_form": {
-          "home": "WDLLL",
-          "away": "LDLDL"
+          "home": "DLLWL",
+          "away": "LWDDL"
         }
       }
     }
