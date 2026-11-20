@@ -59,7 +59,8 @@
           "home": "WWWLD",
           "away": "WWWWW"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Bayern München",
@@ -120,7 +121,8 @@
           "home": "WWDWW",
           "away": "LDWDL"
         }
-      }
+      },
+      "pushed": true
     },
     {
       "team1": "Athletic Club",
@@ -181,247 +183,8 @@
           "home": "LWWWD",
           "away": "LLLWD"
         }
-      }
-    },
-    {
-      "team1": "FC Porto",
-      "team1_logo": "https://img.singhs.com.np/team/9773.png",
-      "team2": "Paredes",
-      "team2_logo": "https://img.singhs.com.np/team/2503.png",
-      "league_logo": "https://img.singhs.com.np/league/186.png",
-      "league": "Taca de Portugal",
-      "start": "2026-11-21T05:45:00+09:00",
-      "league_id": 186,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=fcporto",
-      "streaming_url": "https://cdn.singhs.com.np/fcporto.json",
-      "event_id": 6506251,
-      "football_data": {
-        "event": {
-          "match_id": 6506251,
-          "league": "Taca de Portugal",
-          "league_id": 186,
-          "round": 4,
-          "tournament": "Taca de Portugal",
-          "kick_off_time_utc": "Fri, 20 Nov 2026 20:45:00 GMT",
-          "venue": "Estádio Do Dragão",
-          "venue_city": "Porto",
-          "venue_country": "Portugal",
-          "venue_lat": 41.16179085,
-          "venue_lng": -8.5837394,
-          "stadium_capacity": 50399,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "FC Porto",
-            "id": 9773
-          },
-          "away_team": {
-            "name": "Paredes",
-            "id": 2503
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": null,
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Chris Smalling", "William Gomes", "Vasco Sousa"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "WWWWW",
-          "away": "DWWWW"
-        }
-      }
-    },
-    {
-      "team1": "Man City",
-      "team1_logo": "https://img.singhs.com.np/team/8456.png",
-      "team2": "Fulham",
-      "team2_logo": "https://img.singhs.com.np/team/9879.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-11-21T21:30:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=mancity",
-      "streaming_url": "https://cdn.singhs.com.np/mancity.json",
-      "event_id": 5795522,
-      "football_data": {
-        "event": {
-          "match_id": 5795522,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 11,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 12:30:00 GMT",
-          "venue": "Etihad Stadium",
-          "venue_city": "Manchester",
-          "venue_country": "England",
-          "venue_lat": 53.483152259,
-          "venue_lng": -2.200409174,
-          "stadium_capacity": 61470,
-          "stadium_surface": "grass",
-          "referee": "Thomas Bramall",
-          "home_team": {
-            "name": "Manchester City",
-            "id": 8456
-          },
-          "away_team": {
-            "name": "Fulham",
-            "id": 9879
-          },
-          "home_manager": "Enzo Maresca",
-          "away_manager": "Álvaro Arbeloa",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 21,
-          "draws": 2,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Gianluigi Donnarumma", "Rico Lewis", "Rúben Dias", "Vitor Reis", "Joško Gvardiol", "Elliot Anderson", "Enzo Fernández", "Iliman Ndiaye", "Rayan Cherki", "Jérémy Doku", "Erling Haaland"],
-          "away_players": ["Bernd Leno", "Timothy Castagne", "David Affengruber", "Calvin Bassey", "Antonee Robinson", "Sander Berge", "Shea Charles", "Oscar Bobb", "Joshua King", "Alex Iwobi", "Gonzalo García"],
-          "home_missing_players": ["Marc Guéhi", "Antoine Semenyo"],
-          "away_missing_players": ["Tom Cairney"]
-        },
-        "pregame_form": {
-          "home": "LDLWL",
-          "away": "WWLDD"
-        }
-      }
-    },
-    {
-      "team1": "Deportivo Alavés",
-      "team1_logo": "https://img.singhs.com.np/team/9866.png",
-      "team2": "Deportivo A Coruña",
-      "team2_logo": "https://img.singhs.com.np/team/9783.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-11-21T22:00:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=deportivoalaves",
-      "streaming_url": "https://cdn.singhs.com.np/deportivoalaves.json",
-      "event_id": 5868131,
-      "football_data": {
-        "event": {
-          "match_id": 5868131,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 13,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 13:00:00 GMT",
-          "venue": "Estadio de Mendizorroza",
-          "venue_city": "Vitoria-Gasteiz",
-          "venue_country": "Spain",
-          "venue_lat": 42.837076242,
-          "venue_lng": -2.688246667,
-          "stadium_capacity": 19840,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Deportivo Alavés",
-            "id": 9866
-          },
-          "away_team": {
-            "name": "Deportivo A Coruña",
-            "id": 9783
-          },
-          "home_manager": "Quique Sánchez Flores",
-          "away_manager": "Antonio Hidalgo",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 4,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "3-5-2",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Antonio Sivera", "Nahuel Tenaglia", "Ville Koski", "Nicolás Valentini", "Ángel Pérez", "Ander Guevara", "Antonio Blanco", "Pablo Ibáñez", "Youssef Enríquez", "Toni Martínez", "Lucas Boyé"],
-          "away_players": ["Leo Román", "Adrià Altimira", "Miguel Loureiro", "José Giménez", "Giacomo Quagliata", "Mario Soriano", "Lorenzo Amatucci", "David Mella", "Luismi Cruz", "Yeremay Hernández", "Bil Nsongo"],
-          "home_missing_players": ["Facundo Garcés", "Mikel Rodríguez"],
-          "away_missing_players": ["Pierre-Emerick Aubameyang", "Bright Ede"]
-        },
-        "pregame_form": {
-          "home": "LDLDW",
-          "away": "DLWWD"
-        }
-      }
-    },
-    {
-      "team1": "M'gladbach",
-      "team1_logo": "https://img.singhs.com.np/team/9788.png",
-      "team2": "Dortmund",
-      "team2_logo": "https://img.singhs.com.np/team/9789.png",
-      "league_logo": "https://img.singhs.com.np/league/1000005083.png",
-      "league": "Bundesliga",
-      "start": "2026-11-21T23:30:00+09:00",
-      "league_id": 1000005083,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
-      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
-      "event_id": 5881227,
-      "football_data": {
-        "event": {
-          "match_id": 5881227,
-          "league": "Bundesliga",
-          "league_id": 54,
-          "round": 10,
-          "tournament": "Bundesliga",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 14:30:00 GMT",
-          "venue": "ista-Borussia-Park",
-          "venue_city": "Mönchengladbach",
-          "venue_country": "Germany",
-          "venue_lat": 51.174648171,
-          "venue_lng": 6.385320425,
-          "stadium_capacity": 54057,
-          "stadium_surface": "grass",
-          "referee": "Robert Hartmann",
-          "home_team": {
-            "name": "Borussia Mönchengladbach",
-            "id": 9788
-          },
-          "away_team": {
-            "name": "Borussia Dortmund",
-            "id": 9789
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 8,
-          "draws": 3,
-          "awayWins": 23
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Ko Itakura", "Lukas Ullrich", "Daiki Hashioka", "Nicolas-Gerrit Kühn", "Moritz Nicolas", "Hugo Bolin", "Fritz Fleck", "Jan Leszczyński", "Tim Kleindienst", "Enzo Leopold"],
-          "away_missing_players": ["Carney Chukwuemeka", "Waldemar Anton", "Serhou Guirassy", "Justin Lerma", "Giannis Konstantelias", "Emre Can"]
-        },
-        "pregame_form": {
-          "home": "WWDLW",
-          "away": "WWDWW"
-        }
-      }
+      },
+      "pushed": true
     }
   ]
 }
