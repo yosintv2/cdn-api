@@ -1,6 +1,20 @@
 {
   "matches": [
     {
+      "team1": "Lumbini Lions",
+      "team2": "Sudurpaschim Royals",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/lumbinilions.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/sudurpaschimroyals.png",
+      "league": "NPL 2026",
+      "start": "2026-11-21T20:15:00+09:00",
+      "duration": 5,
+      "format": "T20",
+      "details_url": "https://home.getemoji.online/?yosintv=npl",
+      "streaming_url": "https://cdn.singhs.com.np/npl.json",
+      "event_id": "839472",
+      "cricket_data": null
+    },
+    {
       "team1": "Australia",
       "team2": "England",
       "team1_logo": "https://aimages.willow.tv/teamLogos/australia.png",
