@@ -1,753 +1,6 @@
 {
   "matches": [
     {
-      "team1": "Manchester City",
-      "team1_logo": "https://img.singhs.com.np/team/8456.png",
-      "team2": "Fulham",
-      "team2_logo": "https://img.singhs.com.np/team/9879.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-11-21T21:30:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=mancity",
-      "streaming_url": "https://cdn.singhs.com.np/mancity.json",
-      "event_id": 5795522,
-      "football_data": {
-        "event": {
-          "match_id": 5795522,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 11,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 12:30:00 GMT",
-          "venue": "Etihad Stadium",
-          "venue_city": "Manchester",
-          "venue_country": "England",
-          "venue_lat": 53.483152259,
-          "venue_lng": -2.200409174,
-          "stadium_capacity": 61470,
-          "stadium_surface": "grass",
-          "referee": "Thomas Bramall",
-          "home_team": {
-            "name": "Manchester City",
-            "id": 8456
-          },
-          "away_team": {
-            "name": "Fulham",
-            "id": 9879
-          },
-          "home_manager": "Enzo Maresca",
-          "away_manager": "Álvaro Arbeloa",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 21,
-          "draws": 2,
-          "awayWins": 0
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Gianluigi Donnarumma", "Matheus Nunes", "Rúben Dias", "Marc Guéhi", "Nico O'Reilly", "Elliot Anderson", "Enzo Fernández", "Iliman Ndiaye", "Rayan Cherki", "Jérémy Doku", "Erling Haaland"],
-          "away_players": ["Bernd Leno", "Timothy Castagne", "David Affengruber", "Calvin Bassey", "Antonee Robinson", "Sander Berge", "Shea Charles", "Oscar Bobb", "Joshua King", "Alex Iwobi", "Gonzalo García"],
-          "home_missing_players": ["Abdukodir Khusanov", "Antoine Semenyo"],
-          "away_missing_players": ["Benjamin Lecomte", "Emile Smith Rowe"]
-        },
-        "pregame_form": {
-          "home": "LDLWL",
-          "away": "WWLDD"
-        }
-      }
-    },
-    {
-      "team1": "M'gladbach",
-      "team1_logo": "https://img.singhs.com.np/team/9788.png",
-      "team2": "Dortmund",
-      "team2_logo": "https://img.singhs.com.np/team/9789.png",
-      "league_logo": "https://img.singhs.com.np/league/1000005083.png",
-      "league": "Bundesliga",
-      "start": "2026-11-21T23:30:00+09:00",
-      "league_id": 1000005083,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=dortmund",
-      "streaming_url": "https://cdn.singhs.com.np/dortmund.json",
-      "event_id": 5881227,
-      "football_data": {
-        "event": {
-          "match_id": 5881227,
-          "league": "Bundesliga",
-          "league_id": 54,
-          "round": 10,
-          "tournament": "Bundesliga",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 14:30:00 GMT",
-          "venue": "ista-Borussia-Park",
-          "venue_city": "Mönchengladbach",
-          "venue_country": "Germany",
-          "venue_lat": 51.174648171,
-          "venue_lng": 6.385320425,
-          "stadium_capacity": 54057,
-          "stadium_surface": "grass",
-          "referee": "Robert Hartmann",
-          "home_team": {
-            "name": "Borussia Mönchengladbach",
-            "id": 9788
-          },
-          "away_team": {
-            "name": "Borussia Dortmund",
-            "id": 9789
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 8,
-          "draws": 3,
-          "awayWins": 23
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Ko Itakura", "Lukas Ullrich", "Daiki Hashioka", "Nicolas-Gerrit Kühn", "Hugo Bolin", "Fritz Fleck", "Jan Leszczyński", "Tim Kleindienst", "Enzo Leopold"],
-          "away_missing_players": ["Samuele Inácio", "Carney Chukwuemeka", "Waldemar Anton", "Serhou Guirassy", "Justin Lerma", "Giannis Konstantelias", "Emre Can"]
-        },
-        "pregame_form": {
-          "home": "WWDLW",
-          "away": "WWDWW"
-        }
-      }
-    },
-    {
-      "team1": "AFC Bournemouth",
-      "team1_logo": "https://img.singhs.com.np/team/8678.png",
-      "team2": "Nottingham Forest",
-      "team2_logo": "https://img.singhs.com.np/team/10203.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-11-22T00:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=nottmforest",
-      "streaming_url": "https://cdn.singhs.com.np/nottmforest.json",
-      "event_id": 5795515,
-      "football_data": {
-        "event": {
-          "match_id": 5795515,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 11,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 15:00:00 GMT",
-          "venue": "Vitality Stadium",
-          "venue_city": "Bournemouth, Dorset",
-          "venue_country": "England",
-          "venue_lat": 50.735240532,
-          "venue_lng": -1.838309616,
-          "stadium_capacity": 12357,
-          "stadium_surface": "grass",
-          "referee": "Adam Herczeg",
-          "home_team": {
-            "name": "AFC Bournemouth",
-            "id": 8678
-          },
-          "away_team": {
-            "name": "Nottingham Forest",
-            "id": 10203
-          },
-          "home_manager": "Marco Rose",
-          "away_manager": "Oliver Glasner",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 8,
-          "draws": 6,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Djordje Petrović", "Adam Smith", "James Hill", "António Silva", "Adrien Truffert", "Tyler Adams", "Ryan Christie", "Rayan", "Justin Kluivert", "Marcus Tavernier", "Evanilson"],
-          "away_players": ["Matz Sels", "Jair Cunha", "Nikola Milenković", "Murillo", "Daniel Muñoz", "Ryan Yates", "Ibrahim Sangaré", "Luca Netz", "James McAtee", "Morgan Gibbs-White", "Liam Delap"],
-          "home_missing_players": ["Juanlu Sánchez", "Julián Araujo", "Alex Tóth"],
-          "away_missing_players": ["Xaver Schlager", "Neco Williams", "Nicolò Savona", "Nicolás Domínguez", "Callum Hudson-Odoi"]
-        },
-        "pregame_form": {
-          "home": "WWWWW",
-          "away": "LLDLW"
-        }
-      }
-    },
-    {
-      "team1": "Aston Villa",
-      "team1_logo": "https://img.singhs.com.np/team/10252.png",
-      "team2": "Sunderland",
-      "team2_logo": "https://img.singhs.com.np/team/8472.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-11-22T00:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=astonvilla",
-      "streaming_url": "https://cdn.singhs.com.np/astonvilla.json",
-      "event_id": 5795516,
-      "football_data": {
-        "event": {
-          "match_id": 5795516,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 11,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 15:00:00 GMT",
-          "venue": "Villa Park",
-          "venue_city": "Birmingham",
-          "venue_country": "England",
-          "venue_lat": 52.509090736,
-          "venue_lng": -1.884841919,
-          "stadium_capacity": 43205,
-          "stadium_surface": "grass",
-          "referee": "Andy Madley",
-          "home_team": {
-            "name": "Aston Villa",
-            "id": 10252
-          },
-          "away_team": {
-            "name": "Sunderland",
-            "id": 8472
-          },
-          "home_manager": "Unai Emery",
-          "away_manager": "Régis Le Bris",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 7,
-          "draws": 6,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Zion Suzuki", "Taylor Harwood-Bellis", "Victor Nilsson Lindelöf", "Pau Torres", "Ian Maatsen", "Boubacar Kamara", "João Gomes", "Alysson Edward", "John McGinn", "Johan Manzambi", "Nicolas Jackson"],
-          "away_players": ["Robin Roefs", "Thomas Meunier", "Nordi Mukiele", "Luke O'Nien", "Reinildo", "Jules Ahoka", "Noah Sadiki", "Trai Hume", "Enzo Le Fée", "Chemsdine Talbi", "Wilson Isidor"],
-          "home_missing_players": ["Matty Cash", "Matteo Ruggeri", "Amadou Onana"],
-          "away_missing_players": ["Daniel Ballard", "Granit Xhaka", "Habib Diarra", "Brian Brobbey", "Romaine Mundle"]
-        },
-        "pregame_form": {
-          "home": "WLDLD",
-          "away": "DWLLW"
-        }
-      }
-    },
-    {
-      "team1": "Chelsea",
-      "team1_logo": "https://img.singhs.com.np/team/8455.png",
-      "team2": "Leeds",
-      "team2_logo": "https://img.singhs.com.np/team/8463.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-11-22T00:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=chelsea",
-      "streaming_url": "https://cdn.singhs.com.np/chelsea.json",
-      "event_id": 5795518,
-      "football_data": {
-        "event": {
-          "match_id": 5795518,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 11,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 15:00:00 GMT",
-          "venue": "Stamford Bridge",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.481711963,
-          "venue_lng": -0.190974623,
-          "stadium_capacity": 40044,
-          "stadium_surface": "grass",
-          "referee": "Michael Oliver",
-          "home_team": {
-            "name": "Chelsea",
-            "id": 8455
-          },
-          "away_team": {
-            "name": "Leeds United",
-            "id": 8463
-          },
-          "home_manager": "Xabi Alonso",
-          "away_manager": "Daniel Farke",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 8,
-          "draws": 2,
-          "awayWins": 2
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Mike Penders", "Josh Acheampong", "Wesley Fofana", "Levi Colwill", "Pep Chavarría", "Moisés Caicedo", "Roméo Lavia", "Estêvão", "Cole Palmer", "Morgan Rogers", "Pedro Neto"],
-          "away_players": ["James Trafford", "James Justin", "Nico Elvedi", "Tarik Muharemović", "Jayden Bogle", "Ethan Ampadu", "Ao Tanaka", "Gabriel Gudmundsson", "Sean Longstaff", "Noah Okafor", "Dominic Calvert-Lewin"],
-          "home_missing_players": ["Jorrel Hato", "Maxence Lacroix", "Reece James", "Jamie Gittens", "João Pedro"],
-          "away_missing_players": ["Mateo Joseph"]
-        },
-        "pregame_form": {
-          "home": "WLDWL",
-          "away": "LDDLW"
-        }
-      }
-    },
-    {
-      "team1": "Wolves",
-      "team1_logo": "https://img.singhs.com.np/team/8602.png",
-      "team2": "Charlton",
-      "team2_logo": "https://img.singhs.com.np/team/8451.png",
-      "league_logo": "https://img.singhs.com.np/league/1000001801.png",
-      "league": "Championship",
-      "start": "2026-11-22T00:00:00+09:00",
-      "league_id": 1000001801,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=wolves",
-      "streaming_url": "https://cdn.singhs.com.np/wolves.json",
-      "event_id": 5836945,
-      "football_data": {
-        "event": {
-          "match_id": 5836945,
-          "league": "Championship",
-          "league_id": 48,
-          "round": 16,
-          "tournament": "Championship",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 15:00:00 GMT",
-          "venue": "Molineux Stadium",
-          "venue_city": "Wolverhampton, West Midlands",
-          "venue_country": "England",
-          "venue_lat": 52.590238498,
-          "venue_lng": -2.130433023,
-          "stadium_capacity": 31750,
-          "stadium_surface": "grass",
-          "referee": null,
-          "home_team": {
-            "name": "Wolverhampton Wanderers",
-            "id": 8602
-          },
-          "away_team": {
-            "name": "Charlton Athletic",
-            "id": 8451
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 3,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Jean-Ricner Bellegarde", "Fer López", "Jordan James", "Bertrand Traoré", "Boubacar Traoré", "Raúl Jiménez"],
-          "away_missing_players": ["Rob Apter", "Collins Sichenje"]
-        },
-        "pregame_form": {
-          "home": "DWWWD",
-          "away": "LLLLW"
-        }
-      }
-    },
-    {
-      "team1": "Tottenham Hotspur",
-      "team1_logo": "https://img.singhs.com.np/team/8586.png",
-      "team2": "Ipswich Town",
-      "team2_logo": "https://img.singhs.com.np/team/9902.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-11-22T00:00:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=tottenhamhotspur",
-      "streaming_url": "https://cdn.singhs.com.np/tottenhamhotspur.json",
-      "event_id": 5795524,
-      "football_data": {
-        "event": {
-          "match_id": 5795524,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 11,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 15:00:00 GMT",
-          "venue": "Tottenham Hotspur Stadium",
-          "venue_city": "London",
-          "venue_country": "England",
-          "venue_lat": 51.604216666,
-          "venue_lng": -0.066229079,
-          "stadium_capacity": 62850,
-          "stadium_surface": "grass",
-          "referee": "Robert Jones",
-          "home_team": {
-            "name": "Tottenham Hotspur",
-            "id": 8586
-          },
-          "away_team": {
-            "name": "Ipswich Town",
-            "id": 9902
-          },
-          "home_manager": "Roberto De Zerbi",
-          "away_manager": "Gary O'Neil",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 2,
-          "draws": 0,
-          "awayWins": 1
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Antonín Kinský", "Pedro Porro", "Jan Paul van Hecke", "Micky van de Ven", "Andrew Robertson", "Sandro Tonali", "Rodrigo Bentancur", "Mohammed Kudus", "Mateus Fernandes", "Omar Marmoush", "Dominic Solanke"],
-          "away_players": ["Christian Walton", "Abdoul Ouattara", "Issa Diop", "Dara O'Shea", "Leif Davis", "Saša Lukić", "Exequiel Palacios", "Daizen Maeda", "Julio Enciso", "Jack Clarke", "Emersonn"],
-          "home_missing_players": ["Tosin Adarabioyo", "Xavi Simons", "Mathys Tel", "Mykhaylo Mudryk", "Wilson Odobert"],
-          "away_missing_players": []
-        },
-        "pregame_form": {
-          "home": "DWWWL",
-          "away": "WLDDL"
-        }
-      }
-    },
-    {
-      "team1": "Nice",
-      "team1_logo": "https://img.singhs.com.np/team/9831.png",
-      "team2": "PSG",
-      "team2_logo": "https://img.singhs.com.np/team/9847.png",
-      "league_logo": "https://img.singhs.com.np/league/1000006325.png",
-      "league": "Ligue 1",
-      "start": "2026-11-22T01:15:00+09:00",
-      "league_id": 1000006325,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=psg",
-      "streaming_url": "https://cdn.singhs.com.np/psg.json",
-      "event_id": 5802996,
-      "football_data": null
-    },
-    {
-      "team1": "Parma",
-      "team1_logo": "https://img.singhs.com.np/team/10167.png",
-      "team2": "Roma",
-      "team2_logo": "https://img.singhs.com.np/team/8686.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-11-22T02:00:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=roma",
-      "streaming_url": "https://cdn.singhs.com.np/roma.json",
-      "event_id": 5749758,
-      "football_data": {
-        "event": {
-          "match_id": 5749758,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 12,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 17:00:00 GMT",
-          "venue": "Stadio Ennio Tardini",
-          "venue_city": "Parma",
-          "venue_country": "Italy",
-          "venue_lat": 44.794905165,
-          "venue_lng": 10.338386893,
-          "stadium_capacity": 22885,
-          "stadium_surface": "grass",
-          "referee": "Simone Sozza",
-          "home_team": {
-            "name": "Parma",
-            "id": 10167
-          },
-          "away_team": {
-            "name": "Roma",
-            "id": 8686
-          },
-          "home_manager": "Alberto Gilardino",
-          "away_manager": "Gian Piero Gasperini",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 3,
-          "draws": 3,
-          "awayWins": 15
-        },
-        "lineups": {
-          "home_formation": "3-5-2",
-          "away_formation": "3-4-2-1",
-          "home_players": ["Giovanni Daffara", "Enrico Del Prato", "Mariano Troilo", "Franco Carboni", "Sascha Britschgi", "Giovanni Fabbian", "Hans Nicolussi Caviglia", "Mandela Keita", "Emanuele Valeri", "Nesta Elphege", "Simone Lontani"],
-          "away_players": ["Mile Svilar", "Gianluca Mancini", "Evan N'Dicka", "Mario Hermoso", "Nahuel Molina", "Bryan Cristante", "Manu Koné", "Wesley", "Paulo Dybala", "Rodrigo Mora", "Donyell Malen"],
-          "home_missing_players": ["Djibril Diallo", "Abdoulaye Ndiaye", "Diego Carlos", "David Romero"],
-          "away_missing_players": ["Devyne Rensch", "Lorenzo Pellegrini"]
-        },
-        "pregame_form": {
-          "home": "LLDWL",
-          "away": "DWWLW"
-        }
-      }
-    },
-    {
-      "team1": "Newcastle",
-      "team1_logo": "https://img.singhs.com.np/team/10261.png",
-      "team2": "Arsenal",
-      "team2_logo": "https://img.singhs.com.np/team/9825.png",
-      "league_logo": "https://img.singhs.com.np/league/47.png",
-      "league": "Premier League",
-      "start": "2026-11-22T02:30:00+09:00",
-      "league_id": 47,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=newcastle",
-      "streaming_url": "https://cdn.singhs.com.np/newcastle.json",
-      "event_id": 5795523,
-      "football_data": {
-        "event": {
-          "match_id": 5795523,
-          "league": "Premier League",
-          "league_id": 47,
-          "round": 11,
-          "tournament": "Premier League",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 17:30:00 GMT",
-          "venue": "St. James' Park",
-          "venue_city": "Newcastle upon Tyne",
-          "venue_country": "England",
-          "venue_lat": 54.975540166,
-          "venue_lng": -1.621620655,
-          "stadium_capacity": 52719,
-          "stadium_surface": "grass",
-          "referee": "Chris Kavanagh",
-          "home_team": {
-            "name": "Newcastle United",
-            "id": 10261
-          },
-          "away_team": {
-            "name": "Arsenal",
-            "id": 9825
-          },
-          "home_manager": "Matthias Jaissle",
-          "away_manager": "Mikel Arteta",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 7,
-          "draws": 3,
-          "awayWins": 25
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-2-3-1",
-          "home_players": ["Lukás Hornícek", "Amar Dedić", "Malick Thiaw", "Daniel Burn", "Lewis Hall", "Sean Steur", "Lewis Miley", "Jacob Murphy", "Yoane Wissa", "Harvey Barnes", "William Osula"],
-          "away_players": ["David Raya", "Jurriën Timber", "Ezri Konsa", "Gabriel", "Riccardo Calafiori", "Declan Rice", "Myles Lewis-Skelly", "Noni Madueke", "Martin Ødegaard", "Christos Tzolis", "Kai Havertz"],
-          "home_missing_players": ["Ewen Jaouen", "Joelinton"],
-          "away_missing_players": ["Martín Zubimendi", "Max Dowman", "Bukayo Saka"]
-        },
-        "pregame_form": {
-          "home": "LWLLD",
-          "away": "WDWWW"
-        }
-      }
-    },
-    {
-      "team1": "Napoli",
-      "team1_logo": "https://img.singhs.com.np/team/9875.png",
-      "team2": "Torino",
-      "team2_logo": "https://img.singhs.com.np/team/9804.png",
-      "league_logo": "https://img.singhs.com.np/league/55.png",
-      "league": "Serie A",
-      "start": "2026-11-22T04:45:00+09:00",
-      "league_id": 55,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=napoli",
-      "streaming_url": "https://cdn.singhs.com.np/napoli.json",
-      "event_id": 5749757,
-      "football_data": {
-        "event": {
-          "match_id": 5749757,
-          "league": "Serie A",
-          "league_id": 55,
-          "round": 12,
-          "tournament": "Serie A",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 19:45:00 GMT",
-          "venue": "Stadio Diego Armando Maradona",
-          "venue_city": "Napoli",
-          "venue_country": "Italy",
-          "venue_lat": 40.827974049,
-          "venue_lng": 14.19293046,
-          "stadium_capacity": 54726,
-          "stadium_surface": "grass",
-          "referee": "Antonio Rapuano",
-          "home_team": {
-            "name": "Napoli",
-            "id": 9875
-          },
-          "away_team": {
-            "name": "Torino",
-            "id": 9804
-          },
-          "home_manager": "Massimiliano Allegri",
-          "away_manager": "Ignazio Abate",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 19,
-          "draws": 6,
-          "awayWins": 3
-        },
-        "lineups": {
-          "home_formation": "4-3-3",
-          "away_formation": "3-5-2",
-          "home_players": ["Vanja Milinković-Savić", "Sam Beukema", "Amir Rrahmani", "Rafa Marín", "Leonardo Spinazzola", "Frank Anguissa", "Kevin De Bruyne", "Scott McTominay", "Matteo Politano", "Rasmus Højlund", "Noa Lang"],
-          "away_players": ["Lucas Perri", "Saúl Coco", "Ardian Ismajli", "Pietro Comuzzo", "Rafik Belghali", "Emirhan İlkhan", "Rolando Mandragora", "Cesare Casadei", "Alessio Cacciamani", "Ché Adams", "Giovanni Simeone"],
-          "home_missing_players": ["Alex Meret", "Alessandro Buongiorno", "Benoît Badiashile", "Giovanni Di Lorenzo", "Alisson Santos", "Stanislav Lobotka"],
-          "away_missing_players": ["Nikola Vlašić"]
-        },
-        "pregame_form": {
-          "home": "DWLLD",
-          "away": "WWLLD"
-        }
-      }
-    },
-    {
-      "team1": "Real Madrid",
-      "team1_logo": "https://img.singhs.com.np/team/8633.png",
-      "team2": "Celta Vigo",
-      "team2_logo": "https://img.singhs.com.np/team/9910.png",
-      "league_logo": "https://img.singhs.com.np/league/87.png",
-      "league": "LaLiga",
-      "start": "2026-11-22T05:00:00+09:00",
-      "league_id": 87,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=realmadrid",
-      "streaming_url": "https://cdn.singhs.com.np/realmadrid.json",
-      "event_id": 5868139,
-      "football_data": {
-        "event": {
-          "match_id": 5868139,
-          "league": "LaLiga",
-          "league_id": 87,
-          "round": 13,
-          "tournament": "LaLiga",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 20:00:00 GMT",
-          "venue": "Estadio Bernabéu",
-          "venue_city": "Madrid",
-          "venue_country": "Spain",
-          "venue_lat": 40.453068279,
-          "venue_lng": -3.688353896,
-          "stadium_capacity": 83186,
-          "stadium_surface": "grass",
-          "referee": "Adrián Cordero Vega",
-          "home_team": {
-            "name": "Real Madrid",
-            "id": 8633
-          },
-          "away_team": {
-            "name": "Celta Vigo",
-            "id": 9910
-          },
-          "home_manager": "José Mourinho",
-          "away_manager": "Claudio Giráldez",
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 26,
-          "draws": 3,
-          "awayWins": 4
-        },
-        "lineups": {
-          "home_formation": "4-2-3-1",
-          "away_formation": "3-4-3",
-          "home_players": ["Thibaut Courtois", "Trent Alexander-Arnold", "Éder Militão", "Antonio Rüdiger", "Álvaro Carreras", "Bernardo Silva", "Eduardo Camavinga", "Arda Güler", "Jude Bellingham", "Yan Diomande", "Kylian Mbappé"],
-          "away_players": ["Ionuț Radu", "Javi Rodríguez", "Yoel Lago", "Marcos Alonso", "Javi Rueda", "Ilaix Moriba", "Aleix Febas", "Sergio Carreira", "Hugo Álvarez", "Ferrán Jutglà", "Williot Swedberg"],
-          "home_missing_players": ["Ferland Mendy", "Raúl Asencio", "Rodrygo"],
-          "away_missing_players": ["Carl Starfelt", "Miguel Román", "Borja Iglesias"]
-        },
-        "pregame_form": {
-          "home": "WWWWW",
-          "away": "DLLDW"
-        }
-      }
-    },
-    {
-      "team1": "Inter Miami CF",
-      "team1_logo": "https://img.singhs.com.np/team/960720.png",
-      "team2": "Columbus",
-      "team2_logo": "https://img.singhs.com.np/team/6001.png",
-      "league_logo": "https://img.singhs.com.np/league/957981.png",
-      "league": "Major League Soccer Playoff",
-      "start": "2026-11-22T08:00:00+09:00",
-      "league_id": 957981,
-      "duration": 2.2,
-      "details_url": "https://home.getemoji.online/?yosintv=intermiamicf",
-      "streaming_url": "https://cdn.singhs.com.np/intermiamicf.json",
-      "event_id": 6580837,
-      "football_data": {
-        "event": {
-          "match_id": 6580837,
-          "league": "Major League Soccer Playoff",
-          "league_id": 10000001,
-          "round": null,
-          "tournament": "Major League Soccer Playoff",
-          "kick_off_time_utc": "Sat, 21 Nov 2026 23:00:00 GMT",
-          "venue": "Nu Stadium",
-          "venue_city": "Miami, Florida",
-          "venue_country": "United States",
-          "venue_lat": 25.792775779,
-          "venue_lng": -80.259473606,
-          "stadium_capacity": 26700,
-          "stadium_surface": "grass",
-          "referee": "Allen Chapman",
-          "home_team": {
-            "name": "Inter Miami CF",
-            "id": 960720
-          },
-          "away_team": {
-            "name": "Columbus Crew",
-            "id": 6001
-          },
-          "home_manager": null,
-          "away_manager": null,
-          "gender": "male",
-          "coverage_level": "lower"
-        },
-        "h2h": {
-          "homeWins": 7,
-          "draws": 2,
-          "awayWins": 4
-        },
-        "lineups": {
-          "home_formation": null,
-          "away_formation": null,
-          "home_players": [],
-          "away_players": [],
-          "home_missing_players": ["Ezequiel Abadia-Reda", "Fricio Caicedo", "Mateo Silvetti", "Tadeo Allende"],
-          "away_missing_players": ["Wessam Abou Ali"]
-        },
-        "pregame_form": {
-          "home": "WLDWD",
-          "away": "DWWWW"
-        }
-      }
-    },
-    {
       "team1": "Juventus",
       "team1_logo": "https://img.singhs.com.np/team/9885.png",
       "team2": "Venezia",
@@ -866,6 +119,307 @@
         "pregame_form": {
           "home": "LLWWW",
           "away": "WWLLW"
+        }
+      }
+    },
+    {
+      "team1": "Liverpool",
+      "team1_logo": "https://img.singhs.com.np/team/8650.png",
+      "team2": "Man United",
+      "team2_logo": "https://img.singhs.com.np/team/10260.png",
+      "league_logo": "https://img.singhs.com.np/league/47.png",
+      "league": "Premier League",
+      "start": "2026-11-23T01:30:00+09:00",
+      "league_id": 47,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=liverpool",
+      "streaming_url": "https://cdn.singhs.com.np/liverpool.json",
+      "event_id": 5795521,
+      "football_data": {
+        "event": {
+          "match_id": 5795521,
+          "league": "Premier League",
+          "league_id": 47,
+          "round": 11,
+          "tournament": "Premier League",
+          "kick_off_time_utc": "Sun, 22 Nov 2026 16:30:00 GMT",
+          "venue": "Anfield",
+          "venue_city": "Liverpool",
+          "venue_country": "England",
+          "venue_lat": 53.430827885,
+          "venue_lng": -2.960852981,
+          "stadium_capacity": 61276,
+          "stadium_surface": "grass",
+          "referee": "Samuel Barrott",
+          "home_team": {
+            "name": "Liverpool",
+            "id": 8650
+          },
+          "away_team": {
+            "name": "Manchester United",
+            "id": 10260
+          },
+          "home_manager": "Andoni Iraola",
+          "away_manager": "Mauricio Pochettino",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 14,
+          "draws": 11,
+          "awayWins": 18
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Alisson Becker", "Ronald Araujo", "Jérémy Jacquet", "Virgil van Dijk", "Miloš Kerkez", "Dominik Szoboszlai", "Alexis Mac Allister", "Cody Gakpo", "Florian Wirtz", "Bradley Barcola", "Alexander Isak"],
+          "away_players": ["Senne Lammens", "Leny Yoro", "Harry Maguire", "Lisandro Martínez", "Patrick Dorgu", "Andrey Santos", "Kobbie Mainoo", "Bryan Mbeumo", "Bruno Fernandes", "Matheus Cunha", "Joshua Zirkzee"],
+          "home_missing_players": ["Conor Bradley", "Giovanni Leoni", "Hugo Ekitiké"],
+          "away_missing_players": ["Ayden Heaven", "Shea Lacey", "Marcus Rashford", "Luke Shaw", "Carlos Baleba", "Manuel Ugarte", "Benjamin Šeško"]
+        },
+        "pregame_form": {
+          "home": "WDLLW",
+          "away": "LLLWD"
+        }
+      }
+    },
+    {
+      "team1": "Milan",
+      "team1_logo": "https://img.singhs.com.np/team/8564.png",
+      "team2": "Frosinone",
+      "team2_logo": "https://img.singhs.com.np/team/9891.png",
+      "league_logo": "https://img.singhs.com.np/league/55.png",
+      "league": "Serie A",
+      "start": "2026-11-23T02:00:00+09:00",
+      "league_id": 55,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=milan",
+      "streaming_url": "https://cdn.singhs.com.np/milan.json",
+      "event_id": 5749750,
+      "football_data": {
+        "event": {
+          "match_id": 5749750,
+          "league": "Serie A",
+          "league_id": 55,
+          "round": 12,
+          "tournament": "Serie A",
+          "kick_off_time_utc": "Sun, 22 Nov 2026 17:00:00 GMT",
+          "venue": "Stadio Giuseppe Meazza",
+          "venue_city": "Milano",
+          "venue_country": "Italy",
+          "venue_lat": 45.478083998,
+          "venue_lng": 9.123979211,
+          "stadium_capacity": 75817,
+          "stadium_surface": "grass",
+          "referee": "Luca Pairetto",
+          "home_team": {
+            "name": "Milan",
+            "id": 8564
+          },
+          "away_team": {
+            "name": "Frosinone",
+            "id": 9891
+          },
+          "home_manager": "Ruben Amorim",
+          "away_manager": "Massimiliano Alvini",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 4,
+          "draws": 2,
+          "awayWins": 0
+        },
+        "lineups": {
+          "home_formation": "3-4-3",
+          "away_formation": "4-2-3-1",
+          "home_players": ["Leo Paul Bouyer", "Mario Gila", "Koni De Winter", "Sankhoun Diawara", "Diego Moreira", "Luka Modrić", "Adrien Rabiot", "Yunus Musah", "Christian Pulisic", "Gonçalo Ramos", "Alphadjo Cissè"],
+          "away_players": ["Lorenzo Palmisani", "Anthony Oyono", "Gabriele Calvani", "Ilario Monterisi", "Kevin Akpoguma", "Matteo Cichella", "Giacomo Calò", "Farès Ghedjemis", "Romano Schmid", "Giorgi Kvernadze", "Daniel Bîrligea"],
+          "home_missing_players": ["Pietro Terracciano", "Fikayo Tomori", "Matteo Gabbia", "Alexis Saelemaekers", "Ruben Loftus-Cheek", "Samuel Chukwueze"],
+          "away_missing_players": ["Aleksa Terzić", "Gabriele Bracaglia", "Florian Grillitsch", "Antonio Raimondo"]
+        },
+        "pregame_form": {
+          "home": "WLWLW",
+          "away": "WDWWL"
+        }
+      }
+    },
+    {
+      "team1": "Atalanta",
+      "team1_logo": "https://img.singhs.com.np/team/8524.png",
+      "team2": "Inter",
+      "team2_logo": "https://img.singhs.com.np/team/8636.png",
+      "league_logo": "https://img.singhs.com.np/league/55.png",
+      "league": "Serie A",
+      "start": "2026-11-23T04:45:00+09:00",
+      "league_id": 55,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=inter",
+      "streaming_url": "https://cdn.singhs.com.np/inter.json",
+      "event_id": 5749751,
+      "football_data": {
+        "event": {
+          "match_id": 5749751,
+          "league": "Serie A",
+          "league_id": 55,
+          "round": 12,
+          "tournament": "Serie A",
+          "kick_off_time_utc": "Sun, 22 Nov 2026 19:45:00 GMT",
+          "venue": "New Balance Arena",
+          "venue_city": "Bergamo",
+          "venue_country": "Italy",
+          "venue_lat": 45.709236083,
+          "venue_lng": 9.68069315,
+          "stadium_capacity": 24950,
+          "stadium_surface": "grass",
+          "referee": "Fabio Maresca",
+          "home_team": {
+            "name": "Atalanta",
+            "id": 8524
+          },
+          "away_team": {
+            "name": "Inter",
+            "id": 8636
+          },
+          "home_manager": "Maurizio Sarri",
+          "away_manager": "Cristian Chivu",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 5,
+          "draws": 11,
+          "awayWins": 16
+        },
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "away_formation": "3-5-2",
+          "home_players": ["Marco Carnesecchi", "Davide Zappacosta", "Giorgio Scalvini", "Sead Kolašinac", "Lorenzo Bernasconi", "Éderson", "Mario Pašalić", "Eljif Elmas", "Charles De Ketelaere", "Nicola Zalewski", "Nikola Krstović"],
+          "away_players": ["Josep Martínez", "Benjamin Pavard", "John Stones", "Alessandro Bastoni", "Djed Spence", "Nicolò Barella", "Hakan Çalhanoğlu", "Henrikh Mkhitaryan", "Federico Dimarco", "Francesco Pio Esposito", "Ange-Yoan Bonny"],
+          "home_missing_players": ["Thomas Pompei", "Isak Hien", "Odilon Kossounou", "Thomas Kristensen", "Gianluca Gaetano"],
+          "away_missing_players": ["Piotr Zieliński"]
+        },
+        "pregame_form": {
+          "home": "DDLDW",
+          "away": "WWLWW"
+        }
+      }
+    },
+    {
+      "team1": "Getafe",
+      "team1_logo": "https://img.singhs.com.np/team/8305.png",
+      "team2": "Atlético Madrid",
+      "team2_logo": "https://img.singhs.com.np/team/9906.png",
+      "league_logo": "https://img.singhs.com.np/league/87.png",
+      "league": "LaLiga",
+      "start": "2026-11-23T05:00:00+09:00",
+      "league_id": 87,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=atleticomadrid",
+      "streaming_url": "https://cdn.singhs.com.np/atleticomadrid.json",
+      "event_id": 5868134,
+      "football_data": {
+        "event": {
+          "match_id": 5868134,
+          "league": "LaLiga",
+          "league_id": 87,
+          "round": 13,
+          "tournament": "LaLiga",
+          "kick_off_time_utc": "Sun, 22 Nov 2026 20:00:00 GMT",
+          "venue": "Estadio Coliseum",
+          "venue_city": "Getafe",
+          "venue_country": "Spain",
+          "venue_lat": 40.325728646,
+          "venue_lng": -3.714964092,
+          "stadium_capacity": 17393,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Getafe",
+            "id": 8305
+          },
+          "away_team": {
+            "name": "Atlético Madrid",
+            "id": 9906
+          },
+          "home_manager": "José Bordalás",
+          "away_manager": "Diego Simeone",
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": {
+          "homeWins": 2,
+          "draws": 7,
+          "awayWins": 27
+        },
+        "lineups": {
+          "home_formation": "4-1-4-1",
+          "away_formation": "4-4-2",
+          "home_players": ["David Soria", "Daniel Carvajal", "Sebastián Boselli", "Djené", "Johan Mojica", "Saba Sazonov", "Andrés García", "Orel Mangala", "Mario Martín", "Martín Satriano", "Enes Ünal"],
+          "away_players": ["Jan Oblak", "Marcos Llorente", "Robin Le Normand", "Dávid Hancko", "Dani Martínez", "Giuliano Simeone", "Koke", "Pablo Barrios", "Álex Baena", "Kang-In Lee", "Julián Álvarez"],
+          "home_missing_players": ["Nemanja Gudelj", "Christantus Uche", "Juanmi"],
+          "away_missing_players": ["Jorge Domínguez", "Cristian Romero", "Marc Pubill", "Ademola Lookman"]
+        },
+        "pregame_form": {
+          "home": "LWWLL",
+          "away": "DWWLL"
+        }
+      }
+    },
+    {
+      "team1": "Torreense",
+      "team1_logo": "https://img.singhs.com.np/team/212820.png",
+      "team2": "Benfica",
+      "team2_logo": "https://img.singhs.com.np/team/9772.png",
+      "league_logo": "https://img.singhs.com.np/league/186.png",
+      "league": "Taca de Portugal",
+      "start": "2026-11-23T05:45:00+09:00",
+      "league_id": 186,
+      "duration": 2.2,
+      "details_url": "https://home.getemoji.online/?yosintv=benfica",
+      "streaming_url": "https://cdn.singhs.com.np/benfica.json",
+      "event_id": 6506260,
+      "football_data": {
+        "event": {
+          "match_id": 6506260,
+          "league": "Taca de Portugal",
+          "league_id": 186,
+          "round": 4,
+          "tournament": "Taca de Portugal",
+          "kick_off_time_utc": "Sun, 22 Nov 2026 20:45:00 GMT",
+          "venue": "Estádio Nacional",
+          "venue_city": "Cruz Quebrada-Dafundo",
+          "venue_country": "Portugal",
+          "venue_lat": 38.708821421,
+          "venue_lng": -9.260889888,
+          "stadium_capacity": 37593,
+          "stadium_surface": "grass",
+          "referee": null,
+          "home_team": {
+            "name": "Torreense",
+            "id": 212820
+          },
+          "away_team": {
+            "name": "Benfica",
+            "id": 9772
+          },
+          "home_manager": null,
+          "away_manager": null,
+          "gender": "male",
+          "coverage_level": "lower"
+        },
+        "h2h": null,
+        "lineups": {
+          "home_formation": null,
+          "away_formation": null,
+          "home_players": [],
+          "away_players": [],
+          "home_missing_players": ["Adama Baradji"],
+          "away_missing_players": ["Leandro Barreiro"]
+        },
+        "pregame_form": {
+          "home": "LWDWL",
+          "away": "WWWWW"
         }
       }
     }
