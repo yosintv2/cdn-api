@@ -29,20 +29,6 @@
       "cricket_data": null
     },
     {
-      "team1": "Afghanistan A",
-      "team2": "Hong Kong, China",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/afghanistan.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/hongkongchina.png",
-      "league": "DP World Asia Cup Rising Stars, 2026",
-      "start": "2026-11-23T15:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=afghanistana",
-      "streaming_url": "https://cdn.singhs.com.np/afghanistana.json",
-      "event_id": "275872",
-      "cricket_data": null
-    },
-    {
       "team1": "South Africa",
       "team2": "Bangladesh",
       "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
@@ -54,20 +40,6 @@
       "details_url": "https://home.getemoji.online/?yosintv=southafrica",
       "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
       "event_id": "269797",
-      "cricket_data": null
-    },
-    {
-      "team1": "Sri Lanka A",
-      "team2": "Bangladesh A",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/srilanka.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/bangladesh.png",
-      "league": "DP World Asia Cup Rising Stars, 2026",
-      "start": "2026-11-23T19:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=srilankaa",
-      "streaming_url": "https://cdn.singhs.com.np/srilankaa.json",
-      "event_id": "275873",
       "cricket_data": null
     },
     {
