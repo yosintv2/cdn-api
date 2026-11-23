@@ -1,62 +1,6 @@
 {
   "matches": [
     {
-      "team1": "India A",
-      "team2": "Pakistan Shaheens",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/india.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/pakistanshaheens.png",
-      "league": "DP World Asia Cup Rising Stars, 2026",
-      "start": "2026-11-22T20:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=indiaa",
-      "streaming_url": "https://cdn.singhs.com.np/indiaa.json",
-      "event_id": "275871",
-      "cricket_data": null
-    },
-    {
-      "team1": "United Arab Emirates",
-      "team2": "Nepal",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/unitedarabemirates.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
-      "league": "DP World Asia Cup Rising Stars, 2026",
-      "start": "2026-11-22T15:00:00+09:00",
-      "duration": 8,
-      "format": "ODI",
-      "details_url": "https://home.getemoji.online/?yosintv=nepal",
-      "streaming_url": "https://cdn.singhs.com.np/nepal.json",
-      "event_id": "275870",
-      "cricket_data": null
-    },
-    {
-      "team1": "South Africa",
-      "team2": "Bangladesh",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/southafrica.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/bangladesh.png",
-      "league": "Bangladesh in South Africa, 2 Test Series, 2026",
-      "start": "2026-11-23T17:00:00+09:00",
-      "duration": 10,
-      "format": "Test",
-      "details_url": "https://home.getemoji.online/?yosintv=southafrica",
-      "streaming_url": "https://cdn.singhs.com.np/southafrica.json",
-      "event_id": "269797",
-      "cricket_data": null
-    },
-    {
-      "team1": "India A",
-      "team2": "United Arab Emirates",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/india.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/unitedarabemirates.png",
-      "league": "DP World Asia Cup Rising Stars, 2026",
-      "start": "2026-11-24T15:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=indiaa",
-      "streaming_url": "https://cdn.singhs.com.np/indiaa.json",
-      "event_id": "275874",
-      "cricket_data": null
-    },
-    {
       "team1": "Australia",
       "team2": "England",
       "team1_logo": "https://aimages.willow.tv/teamLogos/australia.png",
