@@ -1,31 +1,31 @@
 {
   "matches": [
     {
+      "team1": "New Zealand",
+      "team2": "India",
+      "team1_logo": "https://aimages.willow.tv/teamLogos/newzealand.png",
+      "team2_logo": "https://aimages.willow.tv/teamLogos/india.png",
+      "league": "India in New Zealand, 2 Test Series, 2026",
+      "start": "2026-11-26T07:00:00+09:00",
+      "duration": 10,
+      "format": "Test",
+      "details_url": "https://home.getemoji.online/?yosintv=newzealand",
+      "streaming_url": "https://cdn.singhs.com.np/newzealand.json",
+      "event_id": "271657",
+      "cricket_data": null
+    },
+    {
       "team1": "Australia",
       "team2": "England",
       "team1_logo": "https://aimages.willow.tv/teamLogos/australia.png",
       "team2_logo": "https://aimages.willow.tv/teamLogos/england.png",
       "league": "England in Australia, 5 T20I Series, 2026",
-      "start": "2026-11-24T17:15:00+09:00",
+      "start": "2026-11-27T17:15:00+09:00",
       "duration": 5,
       "format": "T20",
       "details_url": "https://home.getemoji.online/?yosintv=australia",
       "streaming_url": "https://cdn.singhs.com.np/australia.json",
-      "event_id": "270243",
-      "cricket_data": null
-    },
-    {
-      "team1": "Pakistan Shaheens",
-      "team2": "Nepal",
-      "team1_logo": "https://aimages.willow.tv/teamLogos/pakistanshaheens.png",
-      "team2_logo": "https://aimages.willow.tv/teamLogos/nepal.png",
-      "league": "DP World Asia Cup Rising Stars, 2026",
-      "start": "2026-11-24T19:00:00+09:00",
-      "duration": 5,
-      "format": "T20",
-      "details_url": "https://home.getemoji.online/?yosintv=pakistanshaheens",
-      "streaming_url": "https://cdn.singhs.com.np/pakistanshaheens.json",
-      "event_id": "275875",
+      "event_id": "270244",
       "cricket_data": null
     }
   ]
